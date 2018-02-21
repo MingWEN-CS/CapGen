@@ -4,9 +4,8 @@
              StringBuffer appendTo, boolean escapingOn) {
          int start = pos.getIndex();
          char[] c = pattern.toCharArray();
--        if (escapingOn && c[start] == QUOTE) {
 +        next(pos);
-+if (escapingOn && c[start] == QUOTE) {
+         if (escapingOn && c[start] == QUOTE) {
              return appendTo == null ? null : appendTo.append(QUOTE);
          }
          int lastHold = start;
