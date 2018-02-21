@@ -22,8 +22,8 @@ Here, we specify the status (i.e., whether it is correct, plausible or invalid) 
 
 **Chart#11** (./Chart/Chart_11)
 
-- correct: 27
-- plausible: 27
+- correct: 27, 28
+- plausible: 27, 28
 - invalid: the others
 
 **Chart#24** (./Chart/Chart_24)
