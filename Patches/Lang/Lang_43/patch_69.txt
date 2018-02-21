@@ -4,9 +4,8 @@
          int start = pos.getIndex();
          char[] c = pattern.toCharArray();
          if (escapingOn && c[start] == QUOTE) {
--            return appendTo == null ? null : appendTo.append(QUOTE);
 +            getQuotedString(pattern, pos, false);
-+return appendTo == null ? null : appendTo.append(QUOTE);
+             return appendTo == null ? null : appendTo.append(QUOTE);
          }
          int lastHold = start;
          for (int i = pos.getIndex(); i < pattern.length(); i++) {
