@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexSolver.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexSolver.java
+@@ -100,7 +100,8 @@ public class SimplexSolver extends AbstractLinearOptimizer {
+                     minRatioPositions.add(i);
+                 } else if (cmp < 0) {
+                     minRatio = ratio;
+-                    minRatioPositions = new ArrayList<Integer>();
++                    solvePhase1(tableau);
++minRatioPositions = new ArrayList<Integer>();
+                     minRatioPositions.add(i);
+                 }
+             }

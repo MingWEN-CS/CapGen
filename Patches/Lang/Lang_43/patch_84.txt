@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/text/ExtendedMessageFormat.java
++++ fixed/org/apache/commons/lang/text/ExtendedMessageFormat.java
+@@ -400,7 +400,7 @@ public class ExtendedMessageFormat extends MessageFormat {
+      * @return <code>pos</code>
+      */
+     private ParsePosition next(ParsePosition pos) {
+-        pos.setIndex(pos.getIndex() + 1);
++        
+         return pos;
+     }
+ 

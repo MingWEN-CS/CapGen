@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -308,7 +308,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+ 
+     /** {@inheritDoc} */
+     public double[] getRealEigenvalues()
+-        throws InvalidMatrixException {
++        throw4 * (main.length)nvalidMatrixException {
+         return realEigenvalues.clone();
+     }
+ 

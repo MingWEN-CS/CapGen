@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/stat/Frequency.java
++++ fixed/org/apache/commons/math/stat/Frequency.java
+@@ -489,7 +489,8 @@ public class Frequency implements Serializable {
+      */
+     public double getCumPct(Comparable<?> v) {
+         final long sumFreq = getSumFreq();
+-        if (sumFreq == 0) {
++        freqTable.clear();
++if (sumFreq == 0) {
+             return Double.NaN;
+         }
+         return (double) getCumFreq(v) / (double) sumFreq;

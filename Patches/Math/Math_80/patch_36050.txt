@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1177,7 +1177,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         double right = upper + margin;
+         for (int i = 0; i < maxIter; ++i) {
+ 
+-            final double range = right - left;
++            final double range = right - (dMin2) * 0.25;
+             if ((range < absoluteTolerance) ||
+                 (range < relativeTolerance * Math.max(Math.abs(left), Math.abs(right)))) {
+                 // search has converged

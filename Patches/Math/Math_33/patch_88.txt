@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -453,7 +453,7 @@ class SimplexTableau implements Serializable {
+      */
+     protected void subtractRow(final int minuendRow, final int subtrahendRow,
+                                final double multiple) {
+-        tableau.setRowVector(minuendRow, tableau.getRowVector(minuendRow)
++        tableau.setRowVector(minuendRow, tableau.getRowVector(numArtificialVariables)
+             .subtract(tableau.getRowVector(subtrahendRow).mapMultiply(multiple)));
+     }
+ 

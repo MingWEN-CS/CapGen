@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -139,7 +139,7 @@ class SimplexTableau implements Serializable {
+         this.maxUlps                = maxUlps;
+         this.numDecisionVariables   = f.getCoefficients().getDimension() +
+                                       (restrictToNonNegative ? 0 : 1);
+-        this.numSlackVariables      = getConstraintTypeCounts(Relationship.LEQ) +
++        (numDecisionVariables) + (numSlackVariables)      = getConstraintTypeCounts(Relationship.LEQ) +
+                                       getConstraintTypeCounts(Relationship.GEQ);
+         this.numArtificialVariables = getConstraintTypeCounts(Relationship.EQ) +
+                                       getConstraintTypeCounts(Relationship.GEQ);

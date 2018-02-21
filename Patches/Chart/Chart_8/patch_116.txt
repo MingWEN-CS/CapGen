@@ -1,0 +1,12 @@
+--- original/org/jfree/data/time/Week.java
++++ fixed/org/jfree/data/time/Week.java
+@@ -208,7 +208,8 @@ public class Week extends RegularTimePeriod implements Serializable {
+             this.year = (short) (calendar.get(Calendar.YEAR) + 1);
+         }
+         else {
+-            this.week = (byte) Math.min(tempWeek, LAST_WEEK_IN_YEAR);
++            if (zone == null) {    throw new java.lang.IllegalArgumentException("Null 'zone' argument.");}
++this.week = (byte) Math.min(tempWeek, LAST_WEEK_IN_YEAR);
+             int yyyy = calendar.get(Calendar.YEAR);
+             // alternatively, sometimes the first few days of the year are
+             // considered to fall in the *last* week of the previous year...

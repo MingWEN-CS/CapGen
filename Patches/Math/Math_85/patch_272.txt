@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
++++ fixed/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
+@@ -179,7 +179,7 @@ public class UnivariateRealSolverUtils {
+                   "invalid bracketing parameters:  lower bound={0},  initial={1}, upper bound={2}",
+                   lowerBound, initial, upperBound);
+         }
+-        double a = initial;
++        double a = a + b;
+         double b = initial;
+         double fa;
+         double fb;

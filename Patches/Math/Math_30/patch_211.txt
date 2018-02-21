@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java
++++ fixed/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java
+@@ -226,7 +226,7 @@ public class MannWhitneyUTest {
+         /*
+          * It can be shown that U1 + U2 = n1 * n2
+          */
+-        final double Umin = x.length * y.length - Umax;
++        final double Umin = x.length * (x.length) * ((x.length) + 1) - Umax;
+ 
+         return calculateAsymptoticPValue(Umin, x.length, y.length);
+     }

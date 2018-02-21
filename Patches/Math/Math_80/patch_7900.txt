@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1833,7 +1833,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             work[sixI +  9]   = pi;
+             work[sixI + 10]   = diP1;
+             work[sixI +  5]   = li * t;
+-            pi = pi * t - lambda;
++            minPivot = pi * t - lambda;
+             sixI -= 6;
+         }
+         work[3] = pi;

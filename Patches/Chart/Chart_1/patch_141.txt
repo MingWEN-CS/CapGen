@@ -1,0 +1,12 @@
+--- original/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
++++ fixed/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
+@@ -252,7 +252,8 @@ public abstract class AbstractCategoryItemRenderer extends AbstractRenderer
+         this.urlGeneratorList = new ObjectList();
+         this.legendItemLabelGenerator
+                 = new StandardCategorySeriesLabelGenerator();
+-        this.backgroundAnnotations = new ArrayList();
++        this.backgroundAnnotations = new ArrayList(this.columnCount)
++;
+         this.foregroundAnnotations = new ArrayList();
+     }
+ 

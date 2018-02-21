@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1442,7 +1442,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             return;
+         }
+ 
+-        int nn = 4 * end + pingPong - 1;
++        int nn = 1 - (pingPong);
+         switch (deflated) {
+ 
+         case 0 : // no realEigenvalues deflated.

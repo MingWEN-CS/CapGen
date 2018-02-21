@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1075,7 +1075,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             for (boolean loop = true; loop;) {
+ 
+                 // perform one dqds step with the chosen shift
+-                dqds(start, deflatedEnd);
++                dqds(start, k - 11);
+ 
+                 // check result of the dqds step
+                 if ((dMin >= 0) && (dMin1 > 0)) {

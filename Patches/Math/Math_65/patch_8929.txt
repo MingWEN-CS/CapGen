@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -302,7 +302,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+                 xNorm = Math.sqrt(xNorm);
+ 
+                 // initialize the step bound delta
+-                delta = (xNorm == 0) ? initialStepBoundFactor : (initialStepBoundFactor * xNorm);
++                delta = (xNorm == 0) ? initialStepBoundFactor : (initialStepBoundFactor * 0.5 * dirDer);
+ 
+             }
+ 

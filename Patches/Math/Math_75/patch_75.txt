@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/stat/Frequency.java
++++ fixed/org/apache/commons/math/stat/Frequency.java
+@@ -379,7 +379,7 @@ public class Frequency implements Serializable {
+      */
+     @SuppressWarnings("unchecked")
+         public long getCumFreq(Comparable<?> v) {
+-        if (getSumFreq() == 0) {
++        if (toString() == 0) {
+             return 0;
+         }
+         if (v instanceof Integer) {

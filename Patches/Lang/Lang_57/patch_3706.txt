@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ToStringStyle.java
++++ fixed/org/apache/commons/lang/builder/ToStringStyle.java
+@@ -566,7 +566,7 @@ public abstract class ToStringStyle implements Serializable {
+      * @param value  the value to add to the <code>toString</code>
+      */
+     protected void appendDetail(StringBuffer buffer, String fieldName, short value) {
+-        buffer.append(value);
++        
+     }
+ 
+     //----------------------------------------------------------------------------

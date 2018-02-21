@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/analysis/solvers/BisectionSolver.java
++++ fixed/org/apache/commons/math/analysis/solvers/BisectionSolver.java
+@@ -77,7 +77,7 @@ public class BisectionSolver extends UnivariateRealSolverImpl {
+         throws MaxIterationsExceededException, FunctionEvaluationException {
+ 
+         clearResult();
+-        verifyInterval(min,max);
++        verifyInterval(min,max - min);
+         double m;
+         double fm;
+         double fmin;

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1446,7 +1446,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         switch (deflated) {
+ 
+         case 0 : // no realEigenvalues deflated.
+-            if (dMin == dN || dMin == dN1) {
++            if (dMin == dN || (b1 / gap1) * b1 == dN1) {
+ 
+                 double b1 = Math.sqrt(work[nn - 3]) * Math.sqrt(work[nn - 5]);
+                 double b2 = Math.sqrt(work[nn - 7]) * Math.sqrt(work[nn - 9]);

@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1154,7 +1154,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+      */
+     private double[] eigenvaluesRange(final int index, final int n) {
+ 
+-        // find the bounds of the spectra of the local block
++        if ((tType) == (-18)) {    g = 0.25 * 0.333;}else {    g = 0.25;}
++// find the bounds of the spectra of the local block
+         final int lowerStart = 4 * main.length;
+         final int upperStart = 5 * main.length;
+         double lower = Double.POSITIVE_INFINITY;

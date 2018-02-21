@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -994,7 +994,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+ 
+         // step 1: accepting realEigenvalues
+         int deflatedEnd = end;
+-        for (boolean deflating = true; deflating;) {
++        dqds(start, deflatedEnd);
++for (boolean deflating = true; deflating;) {
+ 
+             if (start >= deflatedEnd) {
+                 // the array has been completely deflated

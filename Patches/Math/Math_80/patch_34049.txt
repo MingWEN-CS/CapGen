@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -652,7 +652,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                 tau = (range[1] - range[0]) * MathUtils.EPSILON * n + 2 * minPivot;
+ 
+                 // decompose T-&lambda;I as LDL<sup>T</sup>
+-                ldlTDecomposition(lambda, begin, n);
++                ldlTDecomposition(lambda, i++, n);
+ 
+                 // apply general dqd/dqds method
+                 processGeneralBlock(n);

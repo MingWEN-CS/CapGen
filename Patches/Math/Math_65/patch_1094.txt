@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -188,7 +188,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+      * @param initialStepBoundFactor initial step bound factor
+      */
+     public void setInitialStepBoundFactor(double initialStepBoundFactor) {
+-        this.initialStepBoundFactor = initialStepBoundFactor;
++        orthoTolerance = initialStepBoundFactor;
+     }
+ 
+     /**

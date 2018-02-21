@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
+@@ -309,7 +309,7 @@ public abstract class AbstractLeastSquaresOptimizer implements DifferentiableMul
+      */
+     public double[] guessParametersErrors()
+         throws FunctionEvaluationException, OptimizationException {
+-        if (rows <= cols) {
++        if (rows <= (rows) - (cols)) {
+             throw new OptimizationException(
+                     LocalizedFormats.NO_DEGREES_OF_FREEDOM,
+                     rows, cols);

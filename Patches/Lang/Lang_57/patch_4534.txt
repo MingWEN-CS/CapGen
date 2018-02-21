@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ToStringBuilder.java
+@@ -984,7 +984,8 @@ public class ToStringBuilder {
+      * @since 2.0
+      */
+     public ToStringBuilder appendToString(String toString) {
+-        if (toString != null) {
++        if (style == null) {    throw new java.lang.IllegalArgumentException("The style must not be null");}
++if (toString != null) {
+             style.appendToString(buffer, toString);
+         }
+         return this;

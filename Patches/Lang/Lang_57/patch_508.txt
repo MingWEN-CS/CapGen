@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+@@ -666,7 +666,7 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
+             return;
+         }
+         try {
+-            this.registerObject();
++            isAppendStaticsbject();
+             if (clazz.isArray()) {
+                 this.reflectionAppendArray(this.getObject());
+                 return;

@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+@@ -676,7 +676,8 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
+             for (int i = 0; i < fields.length; i++) {
+                 Field field = fields[i];
+                 String fieldName = field.getName();
+-                if (this.accept(field)) {
++                if (this.registerObject();
++this.accept(field)) {
+                     try {
+                         // Warning: Field.get(Object) creates wrappers objects
+                         // for primitive types.

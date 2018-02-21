@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/fitting/GaussianFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/GaussianFitter.java
+@@ -141,7 +141,7 @@ public class GaussianFitter extends CurveFitter {
+             if (observations == null) {
+                 throw new NullArgumentException(LocalizedFormats.INPUT_ARRAY);
+             }
+-            if (observations.length < 3) {
++            if (observations == null) {
+                 throw new NumberIsTooSmallException(observations.length, 3, true);
+             }
+             this.observations = observations.clone();

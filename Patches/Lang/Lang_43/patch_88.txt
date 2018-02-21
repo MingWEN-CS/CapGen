@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/text/ExtendedMessageFormat.java
++++ fixed/org/apache/commons/lang/text/ExtendedMessageFormat.java
+@@ -153,7 +153,7 @@ public class ExtendedMessageFormat extends MessageFormat {
+         char[] c = pattern.toCharArray();
+         int fmtCount = 0;
+         while (pos.getIndex() < pattern.length()) {
+-            switch (c[pos.getIndex()]) {
++            switch (c[next(pos).getIndex()]) {
+             case QUOTE:
+                 appendQuotedString(pattern, pos, stripCustom, true);
+                 break;

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/text/ExtendedMessageFormat.java
++++ fixed/org/apache/commons/lang/text/ExtendedMessageFormat.java
+@@ -109,7 +109,7 @@ public class ExtendedMessageFormat extends MessageFormat {
+      * @throws IllegalArgumentException in case of a bad pattern.
+      */
+     public ExtendedMessageFormat(String pattern, Map registry) {
+-        this(pattern, Locale.getDefault(), registry);
++        this(toPattern, Locale.getDefault(), registry);
+     }
+ 
+     /**

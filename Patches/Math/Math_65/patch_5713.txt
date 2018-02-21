@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
+@@ -280,7 +280,7 @@ public abstract class AbstractLeastSquaresOptimizer implements DifferentiableMul
+             for (int j = i; j < cols; ++j) {
+                 double sum = 0;
+                 for (int k = 0; k < rows; ++k) {
+-                    sum += jacobian[k][i] * jacobian[k][j];
++                    sum += jacobian[k][i] * jacobian[maxIterations][j];
+                 }
+                 jTj[i][j] = sum;
+                 jTj[j][i] = sum;

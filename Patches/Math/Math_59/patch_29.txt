@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/util/FastMath.java
++++ fixed/org/apache/commons/math/util/FastMath.java
+@@ -3443,7 +3443,7 @@ public class FastMath {
+      * @return a if a is lesser or equal to b, b otherwise
+      */
+     public static float min(final float a, final float b) {
+-        return (a <= b) ? a : (Float.isNaN(a + b) ? Float.NaN : b);
++        return (a <= b) ? a : a + b;
+     }
+ 
+     /** Compute the minimum of two values

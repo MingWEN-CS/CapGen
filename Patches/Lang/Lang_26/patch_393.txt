@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -578,7 +578,7 @@ public class FastDateFormat extends Format {
+         DateFormatSymbols symbols = new DateFormatSymbols(mLocale);
+         List<Rule> rules = new ArrayList<Rule>();
+ 
+-        String[] ERAs = symbols.getEras();
++        String[] ERAs = new java.text.DateFormatSymbols(mLocale).getEras();
+         String[] months = symbols.getMonths();
+         String[] shortMonths = symbols.getShortMonths();
+         String[] weekdays = symbols.getWeekdays();

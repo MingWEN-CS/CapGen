@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1778,7 +1778,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             eigenvector[i] *= inv;
+         }
+ 
+-        return (transformer == null) ?
++        computeGershgorinCircles();
++return (transformer == null) ?
+                new ArrayRealVector(eigenvector, false) :
+                new ArrayRealVector(transformer.getQ().operate(eigenvector), false);
+ 

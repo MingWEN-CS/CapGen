@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+@@ -336,7 +336,7 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
+      */
+     public static String toString(Object object, ToStringStyle style, boolean outputTransients, boolean outputStatics,
+             Class reflectUpToClass) {
+-        return new ReflectionToStringBuilder(object, style, null, reflectUpToClass, outputTransients, outputStatics)
++        return new ReflectionToStringBuilder(object, style, null, reflectUpToClass, this.appendTransients, outputStatics)
+                 .toString();
+     }
+ 

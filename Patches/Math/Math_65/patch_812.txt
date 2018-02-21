@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -804,7 +804,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+             // select the column with the greatest norm on active components
+             int nextColumn = -1;
+             double ak2 = Double.NEGATIVE_INFINITY;
+-            for (int i = k; i < cols; ++i) {
++            for (int i = k; i < cols; ++k) {
+                 double norm2 = 0;
+                 for (int j = k; j < jacobian.length; ++j) {
+                     double aki = jacobian[j][permutation[i]];

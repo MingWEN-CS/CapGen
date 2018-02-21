@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ToStringStyle.java
++++ fixed/org/apache/commons/lang/builder/ToStringStyle.java
+@@ -281,7 +281,8 @@ public abstract class ToStringStyle implements Serializable {
+      * @since 2.0
+      */
+     protected void removeLastFieldSeparator(StringBuffer buffer) {
+-        int len = buffer.length();
++        if (contentEnd == null) {    contentEnd = "";}
++int len = buffer.length();
+         int sepLen = fieldSeparator.length();
+         if (len > 0 && sepLen > 0 && len >= sepLen) {
+             boolean match = true;

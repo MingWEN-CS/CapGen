@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/analysis/solvers/BisectionSolver.java
++++ fixed/org/apache/commons/math/analysis/solvers/BisectionSolver.java
+@@ -83,7 +83,8 @@ public class BisectionSolver extends UnivariateRealSolverImpl {
+         double fmin;
+ 
+         int i = 0;
+-        while (i < maximalIterationCount) {
++        ++i;
++while (i < maximalIterationCount) {
+             m = UnivariateRealSolverUtils.midpoint(min, max);
+            fmin = f.value(min);
+            fm = f.value(m);

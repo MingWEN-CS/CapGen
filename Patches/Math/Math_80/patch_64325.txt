@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -621,7 +621,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         int begin = 0;
+         for (final int end : splitIndices) {
+             final int n = end - begin;
+-            switch (n) {
++            switch ((6 * i) - 1) {
+ 
+             case 1:
+                 // apply dedicated method for dimension 1

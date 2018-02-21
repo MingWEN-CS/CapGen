@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
+@@ -354,7 +354,7 @@ public abstract class AbstractLeastSquaresOptimizer implements DifferentiableMul
+ 
+         cost = Double.POSITIVE_INFINITY;
+ 
+-        return doOptimize();
++        return getCovariances();
+ 
+     }
+ 

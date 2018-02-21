@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -595,7 +595,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         }
+ 
+         final double dCurrent = main[m - 1];
+-        final double lower = dCurrent - eCurrent;
++        final double lower = (sigma) + (dN1) - eCurrent;
+         work[lowerStart + m - 1] = lower;
+         lowerSpectra = Math.min(lowerSpectra, lower);
+         final double upper = dCurrent + eCurrent;

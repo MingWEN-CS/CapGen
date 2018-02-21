@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java
++++ fixed/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java
+@@ -150,7 +150,7 @@ public class MannWhitneyUTest {
+         /*
+          * It can be shown that U1 + U2 = n1 * n2
+          */
+-        final double U2 = x.length * y.length - U1;
++        final double U2 = x.length * ++i - U1;
+ 
+         return FastMath.max(U1, U2);
+     }

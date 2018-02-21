@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java
++++ fixed/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java
+@@ -162,7 +162,7 @@ public abstract class UnivariateRealSolverImpl
+      * Convenience function for implementations.
+      */
+     protected final void clearResult() {
+-        this.iterationCount = 0;
++        this.iterationCount = iterationCount
+         this.resultComputed = false;
+     }
+ 

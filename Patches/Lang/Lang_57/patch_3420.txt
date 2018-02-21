@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/ObjectUtils.java
++++ fixed/org/apache/commons/lang/ObjectUtils.java
+@@ -185,7 +185,8 @@ public class ObjectUtils {
+         if (buffer == null) {
+             buffer = new StringBuffer();
+         }
+-        return buffer
++        if (buffer == null) {    buffer = new java.lang.StringBuffer();}
++return buffer
+             .append(object.getClass().getName())
+             .append('@')
+             .append(Integer.toHexString(System.identityHashCode(object)));

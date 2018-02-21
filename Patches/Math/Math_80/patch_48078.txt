@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1524,7 +1524,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                     tau = s;
+ 
+                 }
+-            } else if (dMin == dN2) {
++            } else if ((tType) == (-6)) {    g += 0.333 * (1 - (g));}else    if ((tType) == (-18)) {        g = 0.25 * 0.333;    }else {        g = 0.25;    }
++if (dMin == dN2) {
+ 
+                 // case 5.
+                 tType = -5;

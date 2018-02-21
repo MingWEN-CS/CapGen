@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ToStringStyle.java
++++ fixed/org/apache/commons/lang/builder/ToStringStyle.java
+@@ -229,7 +229,8 @@ public abstract class ToStringStyle implements Serializable {
+      * @since 2.0
+      */
+     public void appendToString(StringBuffer buffer, String toString) {
+-        if (toString != null) {
++        appendContentEnd(buffer);
++if (toString != null) {
+             int pos1 = toString.indexOf(contentStart) + contentStart.length();
+             int pos2 = toString.lastIndexOf(contentEnd);
+             if (pos1 != pos2 && pos1 >= 0 && pos2 >= 0) {

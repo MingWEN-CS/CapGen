@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -655,7 +655,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                 ldlTDecomposition(lambda, begin, n);
+ 
+                 // apply general dqd/dqds method
+-                processGeneralBlock(n);
++                processGeneralBlock((6 * i) - 1);
+ 
+                 // extract realEigenvalues
+                 if (chooseLeft) {

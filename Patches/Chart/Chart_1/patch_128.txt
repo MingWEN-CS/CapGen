@@ -1,0 +1,12 @@
+--- original/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
++++ fixed/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
+@@ -290,7 +290,8 @@ public abstract class AbstractCategoryItemRenderer extends AbstractRenderer
+      * @see #getPlot()
+      */
+     public void setPlot(CategoryPlot plot) {
+-        if (plot == null) {
++        if (plot == null) {    throw new java.lang.IllegalArgumentException("Null 'plot' argument.");}
++if (plot == null) {
+             throw new IllegalArgumentException("Null 'plot' argument.");
+         }
+         this.plot = plot;

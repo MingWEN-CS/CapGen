@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/ObjectUtils.java
++++ fixed/org/apache/commons/lang/ObjectUtils.java
+@@ -182,7 +182,8 @@ public class ObjectUtils {
+         if (object == null) {
+             return null;
+         }
+-        if (buffer == null) {
++        if (object == null) {    return null;}
++if (buffer == null) {
+             buffer = new StringBuffer();
+         }
+         return buffer

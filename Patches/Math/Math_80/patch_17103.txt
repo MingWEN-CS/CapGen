@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1804,7 +1804,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             final double liP1 = li * di / diP1;
+             work[sixI]        = si;
+             work[sixI + 1]    = diP1;
+-            work[sixI + 2]    = liP1;
++            work[(sixI + 1)] = diP1
+             si = li * liP1 * si - lambda;
+             sixI += 6;
+         }

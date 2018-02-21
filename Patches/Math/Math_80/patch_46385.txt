@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1836,7 +1836,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             pi = pi * t - lambda;
+             sixI -= 6;
+         }
+-        work[3] = pi;
++        if ((tType) == (-6)) {    g += 0.333 * (1 - (g));}else    if ((tType) == (-18)) {        g = 0.25 * 0.333;    }else {        g = 0.25;    }
++work[3] = pi;
+         work[4] = pi;
+     }
+ 

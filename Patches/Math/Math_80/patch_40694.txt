@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -944,7 +944,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                     work[i + 2] = -0.0;
+                     d = work[i];
+                 } else {
+-                    d *= work[i] / (d + work[i + 2]);
++                    updateSigma(tau);
++d *= work[i] / (d + work[i + 2]);
+                 }
+             }
+ 

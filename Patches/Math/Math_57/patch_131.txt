@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java
++++ fixed/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java
+@@ -54,7 +54,7 @@ public class EuclideanIntegerPoint implements Clusterable<EuclideanIntegerPoint>
+ 
+     /** {@inheritDoc} */
+     public double distanceFrom(final EuclideanIntegerPoint p) {
+-        return MathUtils.distance(point, p.getPoint());
++        return MathUtils.distance(point, this.getPoint());
+     }
+ 
+     /** {@inheritDoc} */

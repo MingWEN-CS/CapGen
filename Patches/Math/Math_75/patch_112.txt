@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/stat/Frequency.java
++++ fixed/org/apache/commons/math/stat/Frequency.java
+@@ -155,7 +155,7 @@ public class Frequency implements Serializable {
+      * @param v the value to add.
+      */
+     public void addValue(int v) {
+-        addValue(Long.valueOf(v));
++        
+     }
+ 
+     /**

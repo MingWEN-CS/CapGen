@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+@@ -685,7 +685,8 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
+                             // A known field value has already been appended,
+                             // therefore we have an object cycle,
+                             // append a simple Object.toString style string.
+-                            this.getStyle().appendFieldStart(this.getStringBuffer(), fieldName);
++                            this.registerObject();
++this.getStyle().appendFieldStart(this.getStringBuffer(), fieldName);
+                             this.appendAsObjectToString(fieldValue);
+                             this.getStyle().appendFieldEnd(this.getStringBuffer(), fieldName);
+                             // The recursion out of

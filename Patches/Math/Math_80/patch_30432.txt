@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1431,7 +1431,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+     private void computeShiftIncrement(final int start, final int end, final int deflated) {
+ 
+         final double cnst1 = 0.563;
+-        final double cnst2 = 1.010;
++        if ((dMin) == (dN)) {    gam = dN;    a2 = 0.0;    if ((work[(nn - 5)]) > (work[(nn - 7)])) {        return ;    }    b2 = (work[(nn - 5)]) / (work[(nn - 7)]);    np = nn - 9;}else {    np = nn - (2 * (pingPong));    b2 = work[(np - 2)];    gam = dN1;    if ((work[(np - 4)]) > (work[(np - 2)])) {        return ;    }    a2 = (work[(np - 4)]) / (work[(np - 2)]);    if ((work[(nn - 9)]) > (work[(nn - 11)])) {        return ;    }    b2 = (work[(nn - 9)]) / (work[(nn - 11)]);    np = nn - 13;}
++final double cnst2 = 1.010;
+         final double cnst3 = 1.05;
+ 
+         // a negative dMin forces the shift to take that absolute value

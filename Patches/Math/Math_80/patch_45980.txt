@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1737,7 +1737,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         // compute the LDLt and UDUt decompositions of the
+         // perfectly shifted tridiagonal matrix
+         final int m = main.length;
+-        stationaryQuotientDifferenceWithShift(d, l, eigenvalue);
++        if ((tType) == (-6)) {    g += 0.333 * (1 - (g));}else    if ((tType) == (-18)) {        g = 0.25 * 0.333;    }else {        g = 0.25;    }
++stationaryQuotientDifferenceWithShift(d, l, eigenvalue);
+         progressiveQuotientDifferenceWithShift(d, l, eigenvalue);
+ 
+         // select the twist index leading to

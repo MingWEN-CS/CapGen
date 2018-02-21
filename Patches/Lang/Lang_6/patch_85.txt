@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/text/translate/LookupTranslator.java
++++ fixed/org/apache/commons/lang3/text/translate/LookupTranslator.java
+@@ -39,7 +39,7 @@ public class LookupTranslator extends CharSequenceTranslator {
+      */
+     public LookupTranslator(CharSequence[]... lookup) {
+         lookupMap = new HashMap<CharSequence, CharSequence>();
+-        int _shortest = Integer.MAX_VALUE;
++        int _shortest = shortest;
+         int _longest = 0;
+         if (lookup != null) {
+             for (CharSequence[] seq : lookup) {

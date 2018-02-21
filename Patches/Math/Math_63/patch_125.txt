@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/util/MathUtils.java
++++ fixed/org/apache/commons/math/util/MathUtils.java
+@@ -531,7 +531,8 @@ public final class MathUtils {
+                 return false;
+             }
+         }
+-        return true;
++        if (!(org.apache.commons.math.util.MathUtils.equals(x[i], y[i]))) {    return false;}
++return true;
+     }
+ 
+     /**

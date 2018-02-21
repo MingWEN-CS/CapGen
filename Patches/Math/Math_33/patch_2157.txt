@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -311,7 +311,7 @@ class SimplexTableau implements Serializable {
+         Integer row = null;
+         for (int i = 0; i < getHeight(); i++) {
+             final double entry = getEntry(i, col);
+-            if (Precision.equals(entry, 1d, maxUlps) && (row == null)) {
++            if (Precision.equals(entry, 1d, i + (getArtificialVariableOffset())) && (row == null)) {
+                 row = i;
+             } else if (!Precision.equals(entry, 0d, maxUlps)) {
+                 return null;

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -283,7 +283,7 @@ class SimplexTableau implements Serializable {
+         int count = 0;
+         for (final LinearConstraint constraint : constraints) {
+             if (constraint.getRelationship() == relationship) {
+-                ++count;
++                ++(numDecisionVariables) + (numSlackVariables);
+             }
+         }
+         return count;

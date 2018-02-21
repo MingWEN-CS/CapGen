@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/optimization/fitting/GaussianFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/GaussianFitter.java
+@@ -304,7 +304,8 @@ public class GaussianFitter extends CurveFitter {
+                     if (p1 == null && p2 == null) {
+                         return 0;
+                     }
+-                    if (p1 == null) {
++                    if (p2 == null) {    return 1;}
++if (p1 == null) {
+                         return -1;
+                     }
+                     if (p2 == null) {

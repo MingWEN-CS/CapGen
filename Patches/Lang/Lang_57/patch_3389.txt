@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ToStringStyle.java
++++ fixed/org/apache/commons/lang/builder/ToStringStyle.java
+@@ -1381,7 +1381,8 @@ public abstract class ToStringStyle implements Serializable {
+      * @param fieldName  the field name, typically not used as already appended
+      */
+     protected void appendFieldEnd(StringBuffer buffer, String fieldName) {
+-        appendFieldSeparator(buffer);
++        if (fieldSeparatorAtStart) {    appendFieldSeparator(buffer);}
++appendFieldSeparator(buffer);
+     }
+ 
+     /**

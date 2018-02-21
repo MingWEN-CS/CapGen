@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java
++++ fixed/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java
+@@ -57,7 +57,8 @@ public class NumericEntityUnescaper extends CharSequenceTranslator {
+         if(options.length > 0) {
+             this.options = EnumSet.copyOf(Arrays.asList(options));
+         } else {
+-            this.options = EnumSet.copyOf(Arrays.asList(new OPTION[] { OPTION.semiColonRequired }));
++            if (isSet(org.apache.commons.lang3.text.translate.NumericEntityUnescaper.OPTION.semiColonRequired)) {    return 0;}else    if (isSet(org.apache.commons.lang3.text.translate.NumericEntityUnescaper.OPTION.errorIfNoSemiColon)) {        throw new java.lang.IllegalArgumentException("Semi-colon required at end of numeric entity");    }
++this.options = EnumSet.copyOf(Arrays.asList(new OPTION[] { OPTION.semiColonRequired }));
+         }
+     }
+ 

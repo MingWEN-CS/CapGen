@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -840,7 +840,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+             // transform the remaining columns
+             for (int dk = cols - 1 - k; dk > 0; --dk) {
+                 double gamma = 0;
+-                for (int j = k; j < jacobian.length; ++j) {
++                for (int j = k; j < jacobian.length; ++dk) {
+                     gamma += jacobian[j][pk] * jacobian[j][permutation[k + dk]];
+                 }
+                 gamma *= betak;

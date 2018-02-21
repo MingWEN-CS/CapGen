@@ -1,0 +1,51 @@
+org.jfree.chart.util.ShapeUtilities::::293::::9748::::9756::::iterator2::::iterator1	false	0.31445
+org.jfree.chart.util.ShapeUtilities::::293::::9726::::9734::::iterator1::::iterator2	false	0.3307
+org.jfree.chart.util.ShapeUtilities::::292::::9689::::9697::::iterator2::::iterator1	false	0.3468666666666667
+org.jfree.chart.util.ShapeUtilities::::291::::9659::::9667::::iterator1::::iterator2	false	0.3665
+org.jfree.chart.util.ShapeUtilities::::288::::9596::::9597::::d2::::d1	false	0.38261666666666666
+org.jfree.chart.util.ShapeUtilities::::288::::9592::::9593::::d1::::d2	false	0.39898333333333336
+org.jfree.chart.util.ShapeUtilities::::284::::9480::::9481::::d2::::d1	false	0.4155666666666667
+org.jfree.chart.util.ShapeUtilities::::284::::9455::::9463::::iterator2::::iterator1	false	0.43105
+org.jfree.chart.util.ShapeUtilities::::283::::9427::::9428::::d1::::d2	false	0.4468333333333333
+org.jfree.chart.util.ShapeUtilities::::283::::9402::::9410::::iterator1::::iterator2	false	0.46281666666666665
+org.jfree.chart.util.ShapeUtilities::::280::::9313::::9321::::iterator2::::iterator1	false	0.47946666666666665
+org.jfree.chart.util.ShapeUtilities::::280::::9291::::9299::::iterator1::::iterator2	false	0.4963166666666667
+org.jfree.chart.util.ShapeUtilities::::278::::9231::::9239::::iterator2::::iterator1	false	0.51185
+org.jfree.chart.util.ShapeUtilities::::278::::9209::::9217::::iterator1::::iterator2	false	0.52975
+org.jfree.chart.util.ShapeUtilities::::268::::8850::::8851::::p2::::p1	false	0.5468833333333334
+org.jfree.chart.util.ShapeUtilities::::271::::8935::::8936::::p2::::p1	false	0.5639000000000001
+org.jfree.chart.util.ShapeUtilities::::271::::8935::::8936::::p2::::new java.awt.geom.GeneralPath()	false	0.5797833333333333
+org.jfree.chart.util.ShapeUtilities::::284::::9444::::9446::::int::::double	false	0.5959
+org.jfree.chart.util.ShapeUtilities::::283::::9391::::9393::::int::::double	false	0.6115833333333334
+org.jfree.chart.util.ShapeUtilities::::271::::8912::::8913::::p1::::new java.awt.geom.GeneralPath()	false	0.6280333333333333
+org.jfree.chart.util.ShapeUtilities::::274::::9027::::9028::::p1::::new java.awt.geom.GeneralPath()	false	0.6445333333333333
+org.jfree.chart.util.ShapeUtilities::::275::::9086::::9087::::p1::::new java.awt.geom.GeneralPath()	false	0.6628166666666666
+org.jfree.chart.util.ShapeUtilities::::277::::9175::::9180::::double::::float	false	0.67675
+org.jfree.chart.util.ShapeUtilities::::276::::9138::::9143::::double::::float	false	0.6901833333333334
+org.jfree.chart.util.ShapeUtilities::::271::::8912::::8913::::p1::::p2	false	0.70905
+org.jfree.chart.util.ShapeUtilities::::265::::8781::::8782::::p1::::p2	false	0.7271166666666667
+org.jfree.chart.util.ShapeUtilities::::274::::9027::::9028::::p1::::p2	true	5.971316666666667
+org.jfree.chart.util.ShapeUtilities::::275::::9086::::9087::::p1::::p2	true	11.502616666666666
+org.jfree.chart.util.ShapeUtilities::::284::::9444::::9446::::int::::float	false	11.53115
+org.jfree.chart.util.ShapeUtilities::::283::::9391::::9393::::int::::float	false	11.5649
+org.jfree.chart.util.ShapeUtilities::::288::::9577::::9598::::!(java.util.Arrays.equals(d1, d2))::::INSERT::::STATEMENT::::if (seg1 != seg2) {    return false;}	false	11.576116666666667
+org.jfree.chart.util.ShapeUtilities::::277::::9157::::9184::::double[] d2 = new double[6]::::INSERT::::STATEMENT::::if (seg1 != seg2) {    return false;}	false	11.601233333333333
+org.jfree.chart.util.ShapeUtilities::::276::::9120::::9147::::double[] d1 = new double[6]::::INSERT::::STATEMENT::::if (seg1 != seg2) {    return false;}	false	11.621866666666667
+org.jfree.chart.util.ShapeUtilities::::275::::9061::::9110::::java.awt.geom.PathIterator iterator2 = p1.getPathIterator(null)::::INSERT::::STATEMENT::::if (seg1 != seg2) {    return false;}	false	11.634833333333335
+org.jfree.chart.util.ShapeUtilities::::278::::9194::::9249::::boolean done = (iterator1.isDone()) && (iterator2.isDone())::::INSERT::::STATEMENT::::if (seg1 != seg2) {    return false;}	false	11.648483333333333
+org.jfree.chart.util.ShapeUtilities::::274::::9002::::9051::::java.awt.geom.PathIterator iterator1 = p1.getPathIterator(null)::::INSERT::::STATEMENT::::if (seg1 != seg2) {    return false;}	false	11.664716666666667
+org.jfree.chart.util.ShapeUtilities::::271::::8935::::8953::::p2.getWindingRule()::::DELETE::::INFIX	false	11.681316666666667
+org.jfree.chart.util.ShapeUtilities::::271::::8912::::8930::::p1.getWindingRule()::::DELETE::::INFIX	false	11.6838
+org.jfree.chart.util.ShapeUtilities::::271::::8908::::8992::::if ((p1.getWindingRule()) != (p2.getWindingRule())) {    return false;}::::INSERT::::STATEMENT::::if (seg1 != seg2) {    return false;}	false	11.701633333333332
+org.jfree.chart.util.ShapeUtilities::::268::::8846::::8898::::if (p2 == null) {    return false;}::::INSERT::::STATEMENT::::if (seg1 != seg2) {    return false;}	false	11.7401
+org.jfree.chart.util.ShapeUtilities::::276::::9138::::9143::::double::::int	false	11.772683333333333
+org.jfree.chart.util.ShapeUtilities::::277::::9175::::9180::::double::::int	false	11.80985
+org.jfree.chart.util.ShapeUtilities::::265::::8777::::8836::::if (p1 == null) {    return p2 == null;}::::INSERT::::STATEMENT::::if (seg1 != seg2) {    return false;}	false	11.828416666666667
+org.jfree.chart.util.ShapeUtilities::::278::::9231::::9248::::iterator2.isDone()::::DELETE::::INFIX	false	11.8656
+org.jfree.chart.util.ShapeUtilities::::278::::9209::::9226::::iterator1.isDone()::::DELETE::::INFIX	false	11.865783333333333
+org.jfree.chart.util.ShapeUtilities::::279::::9259::::9776::::while (!done) {    if ((iterator1.isDone()) != (iterator2.isDone())) {        return false;    }    int seg1 = iterator1.currentSegment(d1);    int seg2 = iterator2.currentSegment(d2);    if (seg1 != seg2) {        return false;    }    if (!(java.util.Arrays.equals(d1, d2))) {        return false;    }    iterator1.next();    iterator2.next();    done = (iterator1.isDone()) && (iterator2.isDone());} ::::INSERT::::STATEMENT::::if (seg1 != seg2) {    return false;}	false	11.890966666666666
+org.jfree.chart.util.ShapeUtilities::::293::::9748::::9765::::iterator2.isDone()::::DELETE::::INFIX	false	11.915083333333333
+org.jfree.chart.util.ShapeUtilities::::293::::9726::::9743::::iterator1.isDone()::::DELETE::::INFIX	false	11.915249999999999
+org.jfree.chart.util.ShapeUtilities::::295::::9786::::9797::::return true::::INSERT::::STATEMENT::::if (seg1 != seg2) {    return false;}	false	11.936483333333333
+org.jfree.chart.util.ShapeUtilities::::280::::9313::::9330::::iterator2.isDone()::::DELETE::::INFIX	false	11.96805
+org.jfree.chart.util.ShapeUtilities::::280::::9291::::9308::::iterator1.isDone()::::DELETE::::INFIX	false	11.968266666666667

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/fitting/WeightedObservedPoint.java
++++ fixed/org/apache/commons/math/optimization/fitting/WeightedObservedPoint.java
+@@ -61,7 +61,7 @@ public class WeightedObservedPoint implements Serializable {
+      * @return abscissa of the point
+      */
+     public double getX() {
+-        return x;
++        return weight;
+     }
+ 
+     /** Get the observed value of the function at x.

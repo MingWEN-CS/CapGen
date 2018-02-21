@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/text/StrBuilder.java
++++ fixed/org/apache/commons/lang/text/StrBuilder.java
+@@ -880,7 +880,8 @@ public class StrBuilder implements Cloneable {
+             ensureCapacity(size + width);
+             String str = (obj == null ? getNullText() : obj.toString());
+             int strLen = str.length();
+-            if (strLen >= width) {
++            if (str == null) {    return this.toString();}else {    return str;}
++if (strLen >= width) {
+                 str.getChars(0, strLen, buffer, size);
+             } else {
+                 int padLen = width - strLen;

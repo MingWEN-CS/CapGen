@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/fitting/CurveFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/CurveFitter.java
+@@ -203,7 +203,7 @@ public class CurveFitter {
+                 values[i++] = f.value(observed.getX(), point);
+             }
+ 
+-            return values;
++            return point;
+         }
+     }
+ }

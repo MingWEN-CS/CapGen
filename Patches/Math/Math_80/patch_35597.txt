@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1682,7 +1682,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         // that does not fit within a double variable into sigmaLow
+         if (shift < sigma) {
+             sigmaLow += shift;
+-            final double t = sigma + sigmaLow;
++            final double t = 2 * (minPivot) + sigmaLow;
+             sigmaLow -= t - sigma;
+             sigma = t;
+         } else {

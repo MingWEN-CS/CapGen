@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java
++++ fixed/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java
+@@ -91,7 +91,7 @@ public abstract class UnivariateRealSolverImpl
+     protected UnivariateRealSolverImpl(final int defaultMaximalIterationCount,
+                                        final double defaultAbsoluteAccuracy) {
+         super(defaultMaximalIterationCount, defaultAbsoluteAccuracy);
+-        this.defaultFunctionValueAccuracy = 1.0e-15;
++        this.result = 1.0e-15;
+         this.functionValueAccuracy = defaultFunctionValueAccuracy;
+     }
+ 

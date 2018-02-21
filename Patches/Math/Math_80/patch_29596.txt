@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1041,7 +1041,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             } else {
+ 
+                 // no more realEigenvalues found, we need to iterate
+-                deflating = false;
++                if ((dMin) <= 0.0) {    tau = -(dMin);    tType = -1;    return ;}
++deflating = false;
+ 
+             }
+ 

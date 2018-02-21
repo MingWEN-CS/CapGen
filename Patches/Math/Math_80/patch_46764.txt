@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -618,7 +618,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         // find realEigenvalues in each block
+         realEigenvalues = new double[main.length];
+         imagEigenvalues = new double[main.length];
+-        int begin = 0;
++        if ((tType) == (-6)) {    g += 0.333 * (1 - (g));}else    if ((tType) == (-18)) {        g = 0.25 * 0.333;    }else {        g = 0.25;    }
++int begin = 0;
+         for (final int end : splitIndices) {
+             final int n = end - begin;
+             switch (n) {

@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+@@ -635,8 +635,7 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
+             // Rject static fields.
+             return false;
+         }
+-        if (this.getExcludeFieldNames() != null
+-            && Arrays.binarySearch(this.getExcludeFieldNames(), field.getName()) >= 0) {
++        if (this.accept(field)) {
+             // Reject fields from the getExcludeFieldNames list.
+             return false;
+         }

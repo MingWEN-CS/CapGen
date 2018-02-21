@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+@@ -795,7 +795,7 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
+      * </p>
+      */
+     void registerObject() {
+-        register(this.getObject());
++        
+     }
+ 
+     /**

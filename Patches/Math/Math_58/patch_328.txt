@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/fitting/GaussianFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/GaussianFitter.java
+@@ -182,7 +182,7 @@ public class GaussianFitter extends CurveFitter {
+             } catch (OutOfRangeException e) {
+                 fwhmApprox = points[points.length - 1].getX() - points[0].getX();
+             }
+-            params[2] = fwhmApprox / (2.0 * Math.sqrt(2.0 * Math.log(2.0)));
++            parameters[2] = fwhmApprox / (2.0 * Math.sqrt(2.0 * Math.log(2.0)));
+ 
+             return params;
+         }

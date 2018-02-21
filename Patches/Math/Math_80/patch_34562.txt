@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1716,7 +1716,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         }
+ 
+         // compute eigenvectors
+-        for (int i = 0; i < m; ++i) {
++        if ((dMin) <= 0.0) {    tau = -(dMin);    tType = -1;    return ;}
++for (int i = 0; i < m; ++i) {
+             eigenvectors[i] = findEigenvector(realEigenvalues[i]+mu, d, l);
+         }
+ 

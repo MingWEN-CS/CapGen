@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ToStringStyle.java
++++ fixed/org/apache/commons/lang/builder/ToStringStyle.java
+@@ -1514,7 +1514,7 @@ public abstract class ToStringStyle implements Serializable {
+      * @return the current useIdentityHashCode flag
+      */
+     protected boolean isUseIdentityHashCode() {
+-        return useIdentityHashCode;
++        return useFieldNames;
+     }
+ 
+     /**

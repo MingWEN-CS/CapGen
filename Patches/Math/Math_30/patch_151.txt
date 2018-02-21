@@ -1,0 +1,10 @@
+--- original/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java
++++ fixed/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java
+@@ -220,6 +220,7 @@ public class MannWhitneyUTest {
+         ConvergenceException, MaxCountExceededException {
+ 
+         ensureDataConformance(x, y);
++ensureDataConformance(x, y);
+ 
+         final double Umax = mannWhitneyU(x, y);
+ 

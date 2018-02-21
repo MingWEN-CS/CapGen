@@ -1,0 +1,11 @@
+--- original/org/jfree/chart/renderer/category/LineAndShapeRenderer.java
++++ fixed/org/jfree/chart/renderer/category/LineAndShapeRenderer.java
+@@ -217,7 +217,7 @@ public class LineAndShapeRenderer extends AbstractCategoryItemRenderer
+         this.baseShapesFilled = true;
+         this.useFillPaint = false;
+         this.drawOutlines = true;
+-        this.useOutlinePaint = false;
++        this.useSeriesOffset = false;
+         this.useSeriesOffset = false;  // preserves old behaviour
+         this.itemMargin = 0.0;
+     }

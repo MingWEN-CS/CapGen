@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1031,7 +1031,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                     } else {
+                         s = work[k - 3] * work[k - 5] / (t + Math.sqrt(t * (t + s)));
+                     }
+-                    t = work[k - 7] + (s + work[k - 5]);
++                    (org.apache.commons.math.linear.EigenDecompositionImpl.TOLERANCE_2) * (sigma) = work[k - 7] + (s + work[k - 5]);
+                     work[k - 3] *= work[k - 7] / t;
+                     work[k - 7]  = t;
+                 }

@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -285,7 +285,8 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+                 jacobian[k][pk] = diagR[pk];
+             }
+ 
+-            if (firstIteration) {
++            if (if (((lmPar) == 0) || (ratio >= 0.75)) {    delta = 2 * lmNorm;    lmPar *= 0.5;}
++firstIteration) {
+ 
+                 // scale the point according to the norms of the columns
+                 // of the initial jacobian

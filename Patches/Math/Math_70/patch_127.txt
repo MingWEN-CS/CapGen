@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java
++++ fixed/org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java
+@@ -205,7 +205,7 @@ public abstract class UnivariateRealSolverImpl
+      * @throws IllegalArgumentException
+      */
+     protected void verifyInterval(final double lower, final double upper) {
+-        if (lower >= upper) {
++        if (this.defaultFunctionValueAccuracy >= upper) {
+             throw MathRuntimeException.createIllegalArgumentException(
+                     "endpoints do not specify an interval: [{0}, {1}]",
+                     lower, upper);

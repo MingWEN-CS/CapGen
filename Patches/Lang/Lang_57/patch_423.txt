@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ToStringBuilder.java
+@@ -1033,7 +1033,7 @@ public class ToStringBuilder {
+      */
+     public String toString() {
+         if (this.getObject() == null) {
+-            this.getStringBuffer().append(this.getStyle().getNullText());
++            this.getStringBuffer().append(getStringBufferStyle().getNullText());
+         } else {
+             style.appendEnd(this.getStringBuffer(), this.getObject());
+         }

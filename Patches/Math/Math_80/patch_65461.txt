@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1457,7 +1457,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                     final double gap2 = dMin2 - a2 - dMin2 * 0.25;
+                     final double gap1 = a2 - dN - ((gap2 > 0.0 && gap2 > b2) ? (b2 / gap2) * b2 : (b1 + b2));
+                     if (gap1 > 0.0 && gap1 > b1) {
+-                        tau   = Math.max(dN - (b1 / gap1) * b1, 0.5 * dMin);
++                        tau   = Math.max(0.25 * (dMin2) - (b1 / gap1) * b1, 0.5 * dMin);
+                         tType = -2;
+                     } else {
+                         double s = 0.0;

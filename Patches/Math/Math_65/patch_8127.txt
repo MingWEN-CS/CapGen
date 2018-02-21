@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
+@@ -348,7 +348,7 @@ public abstract class AbstractLeastSquaresOptimizer implements DifferentiableMul
+         this.residuals   = new double[target.length];
+ 
+         // arrays shared with the other private methods
+-        rows      = target.length;
++        rows      = jacobianEvaluations;
+         cols      = point.length;
+         jacobian  = new double[rows][cols];
+ 

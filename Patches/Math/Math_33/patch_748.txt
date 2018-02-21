@@ -1,0 +1,10 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexSolver.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexSolver.java
+@@ -193,6 +193,7 @@ public class SimplexSolver extends AbstractLinearOptimizer {
+                                maxUlps);
+ 
+         solvePhase1(tableau);
++solvePhase1(tableau);
+         tableau.dropPhase1Objective();
+ 
+         while (!tableau.isOptimal()) {

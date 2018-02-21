@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ToStringStyle.java
++++ fixed/org/apache/commons/lang/builder/ToStringStyle.java
+@@ -268,7 +268,8 @@ public abstract class ToStringStyle implements Serializable {
+      *  <code>toString</code> for.
+      */
+     public void appendEnd(StringBuffer buffer, Object object) {
+-        if (this.fieldSeparatorAtEnd == false) {
++        appendIdentityHashCode(buffer, object);
++if (this.fieldSeparatorAtEnd == false) {
+             removeLastFieldSeparator(buffer);
+         }
+         appendContentEnd(buffer);

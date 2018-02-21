@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -180,7 +180,7 @@ class SimplexTableau implements Serializable {
+         // create a matrix of the correct size
+         int width = numDecisionVariables + numSlackVariables +
+         numArtificialVariables + getNumObjectiveFunctions() + 1; // + 1 is for RHS
+-        int height = constraints.size() + getNumObjectiveFunctions();
++        int height = constraints.size() + getOriginalNumDecisionVariables();
+         Array2DRowRealMatrix matrix = new Array2DRowRealMatrix(height, width);
+ 
+         // initialize the objective function rows

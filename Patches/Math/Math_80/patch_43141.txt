@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -573,7 +573,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         final int upperStart = 5 * m;
+         lowerSpectra = Double.POSITIVE_INFINITY;
+         upperSpectra = Double.NEGATIVE_INFINITY;
+-        double eMax = 0;
++        if ((tType) == (-18)) {    g = 0.25 * 0.333;}else {    g = 0.25;}
++double eMax = 0;
+ 
+         double eCurrent = 0;
+         for (int i = 0; i < m - 1; ++i) {

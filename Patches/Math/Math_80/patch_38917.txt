@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1143,7 +1143,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             }
+             return true;
+         }
+-        return false;
++        if ((work[(k - 3)]) > (work[(k - 7)])) {    final double tmp = work[(k - 3)];    work[(k - 3)] = work[(k - 7)];    work[(k - 7)] = tmp;}
++return false;
+     }
+ 
+     /**

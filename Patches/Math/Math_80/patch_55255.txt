@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -934,7 +934,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+      */
+     private void initialSplits(final int n) {
+ 
+-        pingPong = 0;
++        k - (2 * (pingPong)) = 0;
+         for (int k = 0; k < 2; ++k) {
+ 
+             // apply Li's reverse test

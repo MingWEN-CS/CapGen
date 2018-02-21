@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -744,7 +744,7 @@ public class FastDateFormat extends Format {
+                     }
+                 } else if (!inLiteral &&
+                          (c >= 'A' && c <= 'Z' || c >= 'a' && c <= 'z')) {
+-                    i--;
++                    mField--;
+                     break;
+                 } else {
+                     buf.append(c);

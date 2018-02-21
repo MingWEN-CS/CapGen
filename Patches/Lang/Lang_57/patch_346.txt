@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+@@ -680,7 +680,7 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
+                     try {
+                         // Warning: Field.get(Object) creates wrappers objects
+                         // for primitive types.
+-                        Object fieldValue = this.getValue(field);
++                        Object fieldValue = acceptValue(field);
+                         if (isRegistered(fieldValue) && !field.getType().isPrimitive()) {
+                             // A known field value has already been appended,
+                             // therefore we have an object cycle,

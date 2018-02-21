@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/stat/Frequency.java
++++ fixed/org/apache/commons/math/stat/Frequency.java
+@@ -217,7 +217,8 @@ public class Frequency implements Serializable {
+         while (iterator.hasNext())  {
+             result += iterator.next().longValue();
+         }
+-        return result;
++        freqTable.clear();
++return result;
+     }
+ 
+     /**

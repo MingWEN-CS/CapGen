@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/fitting/GaussianFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/GaussianFitter.java
+@@ -200,7 +200,7 @@ public class GaussianFitter extends CurveFitter {
+                     maxYIdx = i;
+                 }
+             }
+-            return maxYIdx;
++            return i;
+         }
+ 
+         /**

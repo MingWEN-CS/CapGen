@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -131,7 +131,7 @@ class SimplexTableau implements Serializable {
+                    final Collection<LinearConstraint> constraints,
+                    final GoalType goalType, final boolean restrictToNonNegative,
+                    final double epsilon,
+-                   final int maxUlps) {
++                   final double maxUlps) {
+         this.f                      = f;
+         this.constraints            = normalizeConstraints(constraints);
+         this.restrictToNonNegative  = restrictToNonNegative;

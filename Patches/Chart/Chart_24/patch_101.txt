@@ -1,0 +1,12 @@
+--- original/org/jfree/chart/renderer/GrayPaintScale.java
++++ fixed/org/jfree/chart/renderer/GrayPaintScale.java
+@@ -125,7 +125,8 @@ public class GrayPaintScale
+         v = Math.min(v, this.upperBound);
+         int g = (int) ((value - this.lowerBound) / (this.upperBound 
+                 - this.lowerBound) * 255.0);
+-        return new Color(g, g, g);
++        if (lowerBound >= upperBound) {    throw new java.lang.IllegalArgumentException("Requires lowerBound < upperBound.");}
++return new Color(g, g, g);
+     }
+     
+     /**

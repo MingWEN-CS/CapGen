@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+@@ -631,7 +631,8 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
+             // Reject transient fields.
+             return false;
+         }
+-        if (Modifier.isStatic(field.getModifiers()) && !this.isAppendStatics()) {
++        this.registerObject();
++if (Modifier.isStatic(field.getModifiers()) && !this.isAppendStatics()) {
+             // Rject static fields.
+             return false;
+         }

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ToStringStyle.java
++++ fixed/org/apache/commons/lang/builder/ToStringStyle.java
+@@ -1826,7 +1826,7 @@ public abstract class ToStringStyle implements Serializable {
+      * @return the current text to output when null found
+      */
+     protected String getNullText() {
+-        return nullText;
++        return contentEnd;
+     }
+ 
+     /**

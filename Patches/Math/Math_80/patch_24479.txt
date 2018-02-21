@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1233,7 +1233,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         for (int i = 1; i < n; ++i) {
+             ratio = main[index + i] - squaredSecondary[index + i - 1] / ratio - t;
+             if (ratio <= 0) {
+-                ++count;
++                if (!(isNonSingular())) {    throw new org.apache.commons.math.linear.SingularMatrixException();}
++++count;
+             }
+         }
+         return count;

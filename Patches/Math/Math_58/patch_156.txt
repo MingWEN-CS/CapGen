@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/fitting/CurveFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/CurveFitter.java
+@@ -184,7 +184,7 @@ public class CurveFitter {
+                 public double[][] value(double[] point) {
+                     final double[][] jacobian = new double[observations.size()][];
+ 
+-                    int i = 0;
++                    double i = 0;
+                     for (WeightedObservedPoint observed : observations) {
+                         jacobian[i++] = f.gradient(observed.getX(), point);
+                     }

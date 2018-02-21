@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexSolver.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexSolver.java
+@@ -175,7 +175,7 @@ public class SimplexSolver extends AbstractLinearOptimizer {
+         }
+ 
+         // if W is not zero then we have no feasible solution
+-        if (!Precision.equals(tableau.getEntry(0, tableau.getRhsOffset()), 0d, epsilon)) {
++        if (!Precision.equals(tableau.getEntry(0, tableau.getRhsOffset()), 0d, org.apache.commons.math3.optimization.linear.SimplexSolver.DEFAULT_EPSILON)) {
+             throw new NoFeasibleSolutionException();
+         }
+     }

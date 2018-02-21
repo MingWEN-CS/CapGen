@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ToStringBuilder.java
+@@ -121,7 +121,8 @@ public class ToStringBuilder {
+      * @see ReflectionToStringBuilder#toString(Object)
+      */
+     public static String reflectionToString(Object object) {
+-        return ReflectionToStringBuilder.toString(object);
++        if (buffer == null) {    buffer = new java.lang.StringBuffer(512);}
++return ReflectionToStringBuilder.toString(object);
+     }
+ 
+     /**

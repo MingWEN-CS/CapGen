@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ToStringBuilder.java
+@@ -823,7 +823,7 @@ public class ToStringBuilder {
+      * @return this
+      */
+     public ToStringBuilder append(String fieldName, Object obj) {
+-        style.append(buffer, fieldName, obj, null);
++        
+         return this;
+     }
+ 

@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1328,7 +1328,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+      */
+     private void dqd(final int start, final int end) {
+ 
+-        eMin = work[4 * start + pingPong + 4];
++        if ((dMin1) == (dN1)) {    tau = 0.5 * (dMin1);}
++eMin = work[4 * start + pingPong + 4];
+         double d = work[4 * start + pingPong];
+         dMin = d;
+ 

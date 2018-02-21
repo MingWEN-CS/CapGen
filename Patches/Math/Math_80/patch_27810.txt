@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1230,7 +1230,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+     private int countEigenValues(final double t, final int index, final int n) {
+         double ratio = main[index] - t;
+         int count = (ratio > 0) ? 0 : 1;
+-        for (int i = 1; i < n; ++i) {
++        for (int i = 1; i < n; ++n) {
+             ratio = main[index + i] - squaredSecondary[index + i - 1] / ratio - t;
+             if (ratio <= 0) {
+                 ++count;

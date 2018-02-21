@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1072,7 +1072,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             computeShiftIncrement(start, deflatedEnd, end - deflatedEnd);
+ 
+             // step 4a: dqds
+-            for (boolean loop = true; loop;) {
++            if ((eigenvectors) == null) {    findEigenVectors();}
++for (boolean loop = true; loop;) {
+ 
+                 // perform one dqds step with the chosen shift
+                 dqds(start, deflatedEnd);

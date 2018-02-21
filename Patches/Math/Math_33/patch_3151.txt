@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -203,7 +203,8 @@ class SimplexTableau implements Serializable {
+         // initialize the constraint rows
+         int slackVar = 0;
+         int artificialVar = 0;
+-        for (int i = 0; i < constraints.size(); i++) {
++        tableau.hashCode();
++for (int i = 0; i < constraints.size(); i++) {
+             LinearConstraint constraint = constraints.get(i);
+             int row = getNumObjectiveFunctions() + i;
+ 

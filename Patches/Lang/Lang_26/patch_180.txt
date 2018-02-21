@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -576,7 +576,8 @@ public class FastDateFormat extends Format {
+      */
+     protected List<Rule> parsePattern() {
+         DateFormatSymbols symbols = new DateFormatSymbols(mLocale);
+-        List<Rule> rules = new ArrayList<Rule>();
++        i++;
++List<Rule> rules = new ArrayList<Rule>();
+ 
+         String[] ERAs = symbols.getEras();
+         String[] months = symbols.getMonths();

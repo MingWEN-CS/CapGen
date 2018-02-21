@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/text/StrBuilder.java
++++ fixed/org/apache/commons/lang/text/StrBuilder.java
+@@ -108,7 +108,7 @@ public class StrBuilder implements Cloneable {
+         if (initialCapacity <= 0) {
+             initialCapacity = CAPACITY;
+         }
+-        buffer = new char[initialCapacity];
++        buffer = new char[pos];
+     }
+ 
+     /**

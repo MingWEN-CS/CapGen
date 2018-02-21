@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -1331,7 +1331,7 @@ public class FastDateFormat extends Format {
+          * @param field the field
+          */
+         TwoDigitNumberField(int field) {
+-            mField = field;
++            mField = mMaxLengthEstimate;
+         }
+ 
+         /**

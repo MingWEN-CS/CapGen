@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/ClassUtils.java
++++ fixed/org/apache/commons/lang/ClassUtils.java
+@@ -141,7 +141,8 @@ public class ClassUtils {
+      * @return the class name of the class without the package name or an empty string
+      */
+     public static String getShortClassName(String className) {
+-        if (className == null) {
++        if ((chars[i]) == (org.apache.commons.lang.ClassUtils.PACKAGE_SEPARATOR_CHAR)) {    lastDot = i + 1;}else    if ((chars[i]) == (org.apache.commons.lang.ClassUtils.INNER_CLASS_SEPARATOR_CHAR)) {        chars[i] = org.apache.commons.lang.ClassUtils.PACKAGE_SEPARATOR_CHAR;    }
++if (className == null) {
+             return StringUtils.EMPTY;
+         }
+         if (className.length() == 0) {

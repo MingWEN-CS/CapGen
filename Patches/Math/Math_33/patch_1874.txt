@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java
++++ fixed/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java
+@@ -89,7 +89,7 @@ public class LinearObjectiveFunction implements Serializable {
+      * @return value of the linear equation at the current point
+      */
+     public double getValue(final double[] point) {
+-        return coefficients.dotProduct(new ArrayRealVector(point, false)) + constantTerm;
++        return this.coefficients.dotProduct(new ArrayRealVector(point, false)) + constantTerm;
+     }
+ 
+     /**

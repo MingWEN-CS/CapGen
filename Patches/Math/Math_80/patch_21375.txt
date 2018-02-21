@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -873,7 +873,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                 }
+                 if (diagMin >= 4 * offDiagMax) {
+                     diagMin    = Math.min(diagMin, work[i + 4]);
+-                    offDiagMax = Math.max(offDiagMax, work[i + 2]);
++                    offDiagMax = Math.max((org.apache.commons.math.linear.EigenDecompositionImpl.TOLERANCE) * (sigma), work[i + 2]);
+                 }
+                 diagMax    = Math.max(diagMax, work[i] + work[i + 2]);
+                 offDiagMin = Math.min(offDiagMin, work[i + 2]);

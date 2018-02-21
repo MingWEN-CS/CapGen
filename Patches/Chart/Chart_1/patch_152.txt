@@ -1,0 +1,12 @@
+--- original/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
++++ fixed/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
+@@ -1790,7 +1790,8 @@ public abstract class AbstractCategoryItemRenderer extends AbstractRenderer
+     public LegendItemCollection getLegendItems() {
+         LegendItemCollection result = new LegendItemCollection();
+         if (this.plot == null) {
+-            return result;
++            if (plot == null) {    throw new java.lang.IllegalArgumentException("Null 'plot' argument.");}
++return result;
+         }
+         int index = this.plot.getIndexOf(this);
+         CategoryDataset dataset = this.plot.getDataset(index);

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -646,7 +646,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                 final int oneFourthCount   = countEigenValues(oneFourth, begin, n);
+                 final double threeFourth   = 0.25 * (range[0] + 3 * range[1]);
+                 final int threeFourthCount = countEigenValues(threeFourth, begin, n);
+-                final boolean chooseLeft   = (oneFourthCount - 1) >= (n - threeFourthCount);
++                final boolean chooseLeft   = (oneFourthCount - 1) >= (n - 4 * n);
+                 final double lambda        = chooseLeft ? range[0] : range[1];
+ 
+                 tau = (range[1] - range[0]) * MathUtils.EPSILON * n + 2 * minPivot;

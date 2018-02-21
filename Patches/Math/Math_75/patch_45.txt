@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/stat/Frequency.java
++++ fixed/org/apache/commons/math/stat/Frequency.java
+@@ -317,7 +317,7 @@ public class Frequency implements Serializable {
+         if (sumFreq == 0) {
+             return Double.NaN;
+         }
+-        return (double) getCount(v) / (double) sumFreq;
++        return (long) getCount(v) / (double) sumFreq;
+     }
+ 
+     /**

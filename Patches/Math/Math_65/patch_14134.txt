@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -310,7 +310,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+             double maxCosine = 0;
+             if (cost != 0) {
+                 for (int j = 0; j < solvedCols; ++j) {
+-                    int    pj = permutation[j];
++                    int    pj = permutation[((cols) - 1) - k];
+                     double s  = jacNorm[pj];
+                     if (s != 0) {
+                         double sum = 0;

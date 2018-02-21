@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -189,7 +189,8 @@ class SimplexTableau implements Serializable {
+         }
+         int zIndex = (getNumObjectiveFunctions() == 1) ? 0 : 1;
+         matrix.setEntry(zIndex, zIndex, maximize ? 1 : -1);
+-        RealVector objectiveCoefficients =
++        constraints.hashCode();
++RealVector objectiveCoefficients =
+             maximize ? f.getCoefficients().mapMultiply(-1) : f.getCoefficients();
+         copyArray(objectiveCoefficients.toArray(), matrix.getDataRef()[zIndex]);
+         matrix.setEntry(zIndex, width - 1,

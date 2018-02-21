@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1069,7 +1069,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                                                   Math.min(work[l - 9],
+                                                            dMin2 + work[l - 2 * pingPong])))) {
+             // step 3: choose a shift
+-            computeShiftIncrement(start, deflatedEnd, end - deflatedEnd);
++            computeShiftIncrement(start, deflatedEnd, end - 3);
+ 
+             // step 4a: dqds
+             for (boolean loop = true; loop;) {

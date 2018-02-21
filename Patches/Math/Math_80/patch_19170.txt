@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1530,7 +1530,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                 tType = -5;
+                 double s = 0.25 * dMin;
+ 
+-                // compute contribution to norm squared from i > nn-2.
++                if (b2 != 0.0) {    for (int i4 = ((4 * end) - 9) + (pingPong); i4 >= (((4 * start) + 2) + (pingPong)); i4 -= 4) {        if ((work[i4]) > (work[(i4 - 2)])) {            return ;        }        b1 *= (work[i4]) / (work[(i4 - 2)]);        b2 += b1;        if ((100 * b1) < b2) {            break;        }    }}
++// compute contribution to norm squared from i > nn-2.
+                 final int np = nn - 2 * pingPong;
+                 double b1 = work[np - 2];
+                 double b2 = work[np - 6];

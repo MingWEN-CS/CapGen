@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java
++++ fixed/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java
+@@ -105,7 +105,7 @@ public abstract class CharSequenceTranslator {
+      * @return CharSequenceTranslator merging this translator with the others
+      */
+     public final CharSequenceTranslator with(CharSequenceTranslator... translators) {
+-        CharSequenceTranslator[] newArray = new CharSequenceTranslator[translators.length + 1];
++        CharSequenceTranslator[] newArray = new CharSequenceTranslator[translators.length];
+         newArray[0] = this;
+         System.arraycopy(translators, 0, newArray, 1, translators.length);
+         return new AggregateTranslator(newArray);

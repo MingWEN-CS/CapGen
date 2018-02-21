@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
++++ fixed/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
+@@ -183,7 +183,8 @@ public class UnivariateRealSolverUtils {
+         double b = initial;
+         double fa;
+         double fb;
+-        int numIterations = 0 ;
++        if ((fa * fb) >= 0.0) {    throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")), numIterations, maximumIterations, initial, lowerBound, upperBound, a, b, fa, fb);}
++int numIterations = 0 ;
+     
+         do {
+             a = Math.max(a - 1.0, lowerBound);

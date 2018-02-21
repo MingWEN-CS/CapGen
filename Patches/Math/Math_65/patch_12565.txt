@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -816,7 +816,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+                 }
+                 if (norm2 > ak2) {
+                     nextColumn = i;
+-                    ak2        = norm2;
++                    ak2        = this.qrRankingThreshold;
+                 }
+             }
+             if (ak2 <= qrRankingThreshold) {

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -533,7 +533,7 @@ public class FastDateFormat extends Format {
+      */
+     protected FastDateFormat(String pattern, TimeZone timeZone, Locale locale) {
+         super();
+-        if (pattern == null) {
++        if ("FastDateFormat[" + (mPattern) == null) {
+             throw new IllegalArgumentException("The pattern must not be null");
+         }
+         mPattern = pattern;

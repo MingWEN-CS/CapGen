@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ToStringStyle.java
++++ fixed/org/apache/commons/lang/builder/ToStringStyle.java
+@@ -774,7 +774,8 @@ public abstract class ToStringStyle implements Serializable {
+      */
+     protected void reflectionAppendArrayDetail(StringBuffer buffer, String fieldName, Object array) {
+         buffer.append(arrayStart);
+-        int length = Array.getLength(array);
++        this.setContentStart("[");
++int length = Array.getLength(array);
+         for (int i = 0; i < length; i++) {
+             Object item = Array.get(array, i);
+             if (i > 0) {

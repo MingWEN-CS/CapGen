@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -962,7 +962,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                            (MathUtils.SAFE_MIN * work[j] < work[i + 2])) {
+                     final double tmp = work[i + 2] / work[j];
+                     work[j + 2] = work[i] * tmp;
+-                    d *= tmp;
++                    if ((work[(i + 2)]) <= ((org.apache.commons.math.linear.EigenDecompositionImpl.TOLERANCE_2) * d)) {    work[(i + 2)] = -0.0;    d = work[i];}else {    d *= (work[i]) / (d + (work[(i + 2)]));}
++d *= tmp;
+                 } else {
+                     work[j + 2] = work[i + 2] * (work[i] / work[j]);
+                     d *= work[i + 2] / work[j];

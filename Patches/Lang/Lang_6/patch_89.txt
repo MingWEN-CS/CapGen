@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/text/translate/UnicodeEscaper.java
++++ fixed/org/apache/commons/lang3/text/translate/UnicodeEscaper.java
+@@ -82,7 +82,7 @@ public class UnicodeEscaper extends CodePointTranslator {
+      * @return the newly created {@code UnicodeEscaper} instance
+      */
+     public static UnicodeEscaper outsideOf(int codepointLow, int codepointHigh) {
+-        return new UnicodeEscaper(codepointLow, codepointHigh, false);
++        return new UnicodeEscaper(codepointLow, codepointLow, false);
+     }
+ 
+     /**

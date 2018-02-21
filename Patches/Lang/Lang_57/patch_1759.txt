@@ -1,0 +1,10 @@
+--- original/org/apache/commons/lang/builder/ToStringStyle.java
++++ fixed/org/apache/commons/lang/builder/ToStringStyle.java
+@@ -217,6 +217,7 @@ public abstract class ToStringStyle implements Serializable {
+      */
+     public void appendSuper(StringBuffer buffer, String superToString) {
+         appendToString(buffer, superToString);
++appendToString(buffer, superToString);
+     }
+ 
+     /**

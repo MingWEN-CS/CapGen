@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -747,7 +747,8 @@ public class FastDateFormat extends Format {
+                     i--;
+                     break;
+                 } else {
+-                    buf.append(c);
++                    init();
++buf.append(c);
+                 }
+             }
+         }

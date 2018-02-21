@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -231,7 +231,8 @@ class SimplexTableau implements Serializable {
+                     (constraint.getRelationship() == Relationship.GEQ)) {
+                 matrix.setEntry(0, getArtificialVariableOffset() + artificialVar, 1);
+                 matrix.setEntry(row, getArtificialVariableOffset() + artificialVar++, 1);
+-                matrix.setRowVector(0, matrix.getRowVector(0).subtract(matrix.getRowVector(row)));
++                matrix.setEntry(row, ((getSlackVariableOffset()) + (slackVar++)), 1);
++matrix.setRowVector(0, matrix.getRowVector(0).subtract(matrix.getRowVector(row)));
+             }
+         }
+ 

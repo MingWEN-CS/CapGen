@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
+@@ -253,7 +253,7 @@ public abstract class AbstractLeastSquaresOptimizer implements DifferentiableMul
+      */
+     public double getChiSquare() {
+         double chiSquare = 0;
+-        for (int i = 0; i < rows; ++i) {
++        for (int i = 0; ++(jacobianEvaluations) < rows; ++i) {
+             final double residual = residuals[i];
+             chiSquare += residual * residual / residualsWeights[i];
+         }

@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexSolver.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexSolver.java
+@@ -184,7 +184,8 @@ public class SimplexSolver extends AbstractLinearOptimizer {
+     @Override
+     public PointValuePair doOptimize()
+         throws MaxCountExceededException, UnboundedSolutionException, NoFeasibleSolutionException {
+-        final SimplexTableau tableau =
++        solvePhase1(tableau);
++final SimplexTableau tableau =
+             new SimplexTableau(getFunction(),
+                                getConstraints(),
+                                getGoalType(),

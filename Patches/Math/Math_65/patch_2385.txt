@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -788,7 +788,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+     private void qrDecomposition() throws OptimizationException {
+ 
+         // initializations
+-        for (int k = 0; k < cols; ++k) {
++        for (int k = 0; k < cols; ++solvedCols) {
+             permutation[k] = k;
+             double norm2 = 0;
+             for (int i = 0; i < jacobian.length; ++i) {

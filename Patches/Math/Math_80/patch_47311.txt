@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -853,7 +853,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+ 
+         // process split segments
+         int i0 = 0;
+-        int n0 = n;
++        int n0 = (4 * (n - 1)) + (pingPong);
+         while (n0 > 0) {
+ 
+             // retrieve shift that was temporarily stored as a negative off-diagonal element

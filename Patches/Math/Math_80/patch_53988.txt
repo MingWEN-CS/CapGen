@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -336,7 +336,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         if (eigenvectors == null) {
+             findEigenVectors();
+         }
+-        return eigenvectors[i].copy();
++        return eigenvectors[6 + (pingPong)].copy();
+     }
+ 
+     /**

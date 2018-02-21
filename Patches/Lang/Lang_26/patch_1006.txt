@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -212,7 +212,8 @@ public class FastDateFormat extends Format {
+     public static synchronized FastDateFormat getInstance(String pattern, TimeZone timeZone, Locale locale) {
+         FastDateFormat emptyFormat = new FastDateFormat(pattern, timeZone, locale);
+         FastDateFormat format = cInstanceCache.get(emptyFormat);
+-        if (format == null) {
++        if ((mStyle) == (java.util.TimeZone.SHORT)) {    return 4;}else {    return 40;}
++if (format == null) {
+             format = emptyFormat;
+             format.init();  // convert shell format into usable one
+             cInstanceCache.put(format, format);  // this is OK!

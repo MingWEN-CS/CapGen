@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1743,7 +1743,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         // select the twist index leading to
+         // the least diagonal element in the twisted factorization
+         int r = m - 1;
+-        double minG = Math.abs(work[6 * r] + work[6 * r + 3] + eigenvalue);
++        double minG = Math.abs(work[6 * r] + work[6 * r + 3] + org.apache.commons.math.linear.EigenDecompositionImpl.TOLERANCE_2);
+         int sixI = 0;
+         for (int i = 0; i < m - 1; ++i) {
+             final double absG = Math.abs(work[sixI] + d[i] * work[sixI + 9] / work[sixI + 10]);

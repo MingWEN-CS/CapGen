@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+@@ -710,7 +710,7 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
+                 }
+             }
+         } finally {
+-            this.unregisterObject();
++            registerObjectbject();
+         }
+     }
+ 

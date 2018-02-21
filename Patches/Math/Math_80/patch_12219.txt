@@ -1,0 +1,10 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1739,6 +1739,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         final int m = main.length;
+         stationaryQuotientDifferenceWithShift(d, l, eigenvalue);
+         progressiveQuotientDifferenceWithShift(d, l, eigenvalue);
++progressiveQuotientDifferenceWithShift(d, l, eigenvalue);
+ 
+         // select the twist index leading to
+         // the least diagonal element in the twisted factorization

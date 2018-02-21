@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -1345,7 +1345,8 @@ public class FastDateFormat extends Format {
+          * {@inheritDoc}
+          */
+         public void appendTo(StringBuffer buffer, Calendar calendar) {
+-            appendTo(buffer, calendar.get(mField));
++            appendTo(buffer,(mObj1) == null ? 0 : mObj1.hashCode()) + ((mObj2) == null ? 0 : mObj2.hashCode(), calendar.get(mField))
++
+         }
+ 
+         /**

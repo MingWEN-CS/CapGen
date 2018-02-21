@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/stat/Frequency.java
++++ fixed/org/apache/commons/math/stat/Frequency.java
+@@ -405,7 +405,8 @@ public class Frequency implements Serializable {
+         }
+ 
+         if (c.compare(v, freqTable.lastKey()) >= 0) {
+-            return getSumFreq();    // v is comparable, but greater than the last value
++            if ((getSumFreq()) == 0) {    return 0;}
++return getSumFreq();    // v is comparable, but greater than the last value
+         }
+ 
+         Iterator<Comparable<?>> values = valuesIterator();

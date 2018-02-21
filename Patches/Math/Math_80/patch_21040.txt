@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -581,7 +581,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             final double dCurrent = main[i];
+             final double ePrevious = eCurrent;
+             eCurrent = Math.abs(secondary[i]);
+-            eMax = Math.max(eMax, eCurrent);
++            eMax = Math.max(0.25 * (dMin), eCurrent);
+             final double radius = ePrevious + eCurrent;
+ 
+             final double lower = dCurrent - radius;

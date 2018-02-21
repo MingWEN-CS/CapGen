@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -315,7 +315,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+                     if (s != 0) {
+                         double sum = 0;
+                         for (int i = 0; i <= j; ++i) {
+-                            sum += jacobian[i][pj] * residuals[i];
++                            r * r += jacobian[i][pj] * residuals[i];
+                         }
+                         maxCosine = Math.max(maxCosine, Math.abs(sum) / (s * cost));
+                     }

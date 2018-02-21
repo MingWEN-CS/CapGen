@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1082,7 +1082,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                     // the shift was good
+                     updateSigma(tau);
+                     return deflatedEnd;
+-                } else if ((dMin < 0.0) &&
++                } else findEigenVectors();
++if ((dMin < 0.0) &&
+                            (dMin1 > 0.0) &&
+                            (work[4 * deflatedEnd - 5 - pingPong] < TOLERANCE * (sigma + dN1)) &&
+                            (Math.abs(dN) < TOLERANCE * sigma)) {

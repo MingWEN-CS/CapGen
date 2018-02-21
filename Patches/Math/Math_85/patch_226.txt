@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
++++ fixed/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
+@@ -179,7 +179,8 @@ public class UnivariateRealSolverUtils {
+                   "invalid bracketing parameters:  lower bound={0},  initial={1}, upper bound={2}",
+                   lowerBound, initial, upperBound);
+         }
+-        double a = initial;
++        if ((fa * fb) >= 0.0) {    throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")), numIterations, maximumIterations, initial, lowerBound, upperBound, a, b, fa, fb);}
++double a = initial;
+         double b = initial;
+         double fa;
+         double fb;

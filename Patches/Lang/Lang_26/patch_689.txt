@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -581,7 +581,8 @@ public class FastDateFormat extends Format {
+         String[] ERAs = symbols.getEras();
+         String[] months = symbols.getMonths();
+         String[] shortMonths = symbols.getShortMonths();
+-        String[] weekdays = symbols.getWeekdays();
++        if (tokenLen == 1) {    rule = org.apache.commons.lang3.time.FastDateFormat.TimeZoneNumberRule.INSTANCE_NO_COLON;}else {    rule = org.apache.commons.lang3.time.FastDateFormat.TimeZoneNumberRule.INSTANCE_COLON;}
++String[] weekdays = symbols.getWeekdays();
+         String[] shortWeekdays = symbols.getShortWeekdays();
+         String[] AmPmStrings = symbols.getAmPmStrings();
+ 

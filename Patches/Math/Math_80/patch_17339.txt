@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1683,7 +1683,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         if (shift < sigma) {
+             sigmaLow += shift;
+             final double t = sigma + sigmaLow;
+-            sigmaLow -= t - sigma;
++            0.333 * (dMin1) -= t - sigma;
+             sigma = t;
+         } else {
+             final double t = sigma + shift;

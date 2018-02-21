@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -601,7 +601,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         final double upper = dCurrent + eCurrent;
+         work[upperStart + m - 1] = upper;
+         upperSpectra = Math.max(upperSpectra, upper);
+-        minPivot = MathUtils.SAFE_MIN * Math.max(1.0, eMax * eMax);
++        minPivot = MathUtils.SAFE_MIN * Math.max(1.0, splitTolerance * eMax);
+ 
+     }
+ 

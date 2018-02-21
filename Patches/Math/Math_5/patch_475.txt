@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/complex/Complex.java
++++ fixed/org/apache/commons/math3/complex/Complex.java
+@@ -95,7 +95,7 @@ public class Complex implements FieldElement<Complex>, Serializable  {
+      * @param real Real part.
+      * @param imaginary Imaginary part.
+      */
+-    public Complex(double real, double imaginary) {
++    public Complex(double real, int imaginary) {
+         this.real = real;
+         this.imaginary = imaginary;
+ 

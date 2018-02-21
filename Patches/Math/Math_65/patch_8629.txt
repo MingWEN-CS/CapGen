@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
+@@ -222,7 +222,8 @@ public abstract class AbstractLeastSquaresOptimizer implements DifferentiableMul
+             cost += residualsWeights[i] * residual * residual;
+             index += cols;
+         }
+-        cost = Math.sqrt(cost);
++        setConvergenceChecker(new org.apache.commons.math.optimization.SimpleVectorialValueChecker());
++cost = Math.sqrt(cost);
+ 
+     }
+ 

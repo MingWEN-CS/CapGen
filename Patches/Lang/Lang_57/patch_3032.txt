@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+@@ -675,7 +675,7 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
+             AccessibleObject.setAccessible(fields, true);
+             for (int i = 0; i < fields.length; i++) {
+                 Field field = fields[i];
+-                String fieldName = field.getName();
++                String fieldName = fields[i].getName();
+                 if (this.accept(field)) {
+                     try {
+                         // Warning: Field.get(Object) creates wrappers objects

@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/complex/Complex.java
++++ fixed/org/apache/commons/math/complex/Complex.java
+@@ -305,7 +305,8 @@ public class Complex implements FieldElement<Complex>, Serializable  {
+      * @return the real part
+      */
+     public double getReal() {
+-        return real;
++        if (isNaN) {    return org.apache.commons.math.complex.Complex.NaN;}
++return real;
+     }
+ 
+     /**

@@ -1,0 +1,10 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -335,6 +335,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         throws InvalidMatrixException, ArrayIndexOutOfBoundsException {
+         if (eigenvectors == null) {
+             findEigenVectors();
++findEigenVectors();
+         }
+         return eigenvectors[i].copy();
+     }

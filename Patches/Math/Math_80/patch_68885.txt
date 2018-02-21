@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -663,7 +663,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                         realEigenvalues[begin + i] = lambda + work[4 * i];
+                     }
+                 } else {
+-                    for (int i = 0; i < n; ++i) {
++                    for (int i = 0; --j < n; ++i) {
+                         realEigenvalues[begin + i] = lambda - work[4 * i];
+                     }
+                 }

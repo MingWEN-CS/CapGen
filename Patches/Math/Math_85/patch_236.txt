@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
++++ fixed/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
+@@ -190,7 +190,7 @@ public class UnivariateRealSolverUtils {
+             b = Math.min(b + 1.0, upperBound);
+             fa = function.value(a);
+             
+-            fb = function.value(b);
++            fb = function.value(a - 1.0);
+             numIterations++ ;
+         } while ((fa * fb > 0.0) && (numIterations < maximumIterations) && 
+                 ((a > lowerBound) || (b < upperBound)));

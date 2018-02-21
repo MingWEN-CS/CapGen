@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -824,7 +824,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+                 return;
+             }
+             int pk                  = permutation[nextColumn];
+-            permutation[nextColumn] = permutation[k];
++            permutation[--j] = permutation[k];
+             permutation[k]          = pk;
+ 
+             // choose alpha such that Hk.u = alpha ek

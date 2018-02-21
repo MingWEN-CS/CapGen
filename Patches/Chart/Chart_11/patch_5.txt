@@ -1,0 +1,11 @@
+--- original/org/jfree/chart/util/ShapeUtilities.java
++++ fixed/org/jfree/chart/util/ShapeUtilities.java
+@@ -285,7 +285,7 @@ public class ShapeUtilities {
+             if (seg1 != seg2) {
+                 return false;
+             }
+-            if (!Arrays.equals(d1, d2)) {
++            if (!Arrays.equals(d1, d1)) {
+                 return false;
+             }
+             iterator1.next();

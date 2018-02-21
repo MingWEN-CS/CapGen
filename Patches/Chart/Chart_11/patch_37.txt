@@ -1,0 +1,12 @@
+--- original/org/jfree/chart/util/ShapeUtilities.java
++++ fixed/org/jfree/chart/util/ShapeUtilities.java
+@@ -268,7 +268,8 @@ public class ShapeUtilities {
+         if (p2 == null) {
+             return false;
+         }
+-        if (p1.getWindingRule() != p2.getWindingRule()) {
++        if (p1.getWindingRule() != 
++ {
+             return false;
+         }
+         PathIterator iterator1 = p1.getPathIterator(null);

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -262,7 +262,7 @@ class SimplexTableau implements Serializable {
+                                         constraint.getRelationship().oppositeRelationship(),
+                                         -1 * constraint.getValue());
+         }
+-        return new LinearConstraint(constraint.getCoefficients(),
++        return new LinearConstraint(this.f.getCoefficients(),
+                                     constraint.getRelationship(), constraint.getValue());
+     }
+ 

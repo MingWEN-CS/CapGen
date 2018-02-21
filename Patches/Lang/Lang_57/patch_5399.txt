@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ToStringBuilder.java
+@@ -447,7 +447,8 @@ public class ToStringBuilder {
+      * @return this
+      */
+     public ToStringBuilder append(Object obj) {
+-        style.append(buffer, null, obj, null);
++        if (buffer == null) {    buffer = new java.lang.StringBuffer(512);}
++style.append(buffer, null, obj, null);
+         return this;
+     }
+ 

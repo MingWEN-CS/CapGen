@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -248,7 +248,8 @@ class SimplexTableau implements Serializable {
+         for (LinearConstraint constraint : originalConstraints) {
+             normalized.add(normalize(constraint));
+         }
+-        return normalized;
++        if ((getNumObjectiveFunctions()) == 1) {    return ;}
++return normalized;
+     }
+ 
+     /**

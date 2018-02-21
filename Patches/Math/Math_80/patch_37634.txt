@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1116,7 +1116,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         }
+ 
+         // perform a dqd step (i.e. no shift)
+-        dqd(start, deflatedEnd);
++        if (!(isNonSingular())) {    throw new org.apache.commons.math.linear.SingularMatrixException();}
++dqd(start, deflatedEnd);
+ 
+         return deflatedEnd;
+ 

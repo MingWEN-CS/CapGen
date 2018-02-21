@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -376,7 +376,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+ 
+                 // compute the scaled predicted reduction
+                 // and the scaled directional derivative
+-                for (int j = 0; j < solvedCols; ++j) {
++                for (int j = 0; j < solvedCols; ++((cols) - 1) - k) {
+                     int pj = permutation[j];
+                     double dirJ = lmDir[pj];
+                     work1[j] = 0;

@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -694,7 +694,8 @@ public class FastDateFormat extends Format {
+             rules.add(rule);
+         }
+ 
+-        return rules;
++        if (tokenLen == 1) {    rule = org.apache.commons.lang3.time.FastDateFormat.TimeZoneNumberRule.INSTANCE_NO_COLON;}else {    rule = org.apache.commons.lang3.time.FastDateFormat.TimeZoneNumberRule.INSTANCE_COLON;}
++return rules;
+     }
+ 
+     /**

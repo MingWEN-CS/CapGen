@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1772,7 +1772,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             n2 += z * z;
+         }
+ 
+-        // normalize vector
++        if (((realEigenvalues[i]) == 0) && ((imagEigenvalues[i]) == 0)) {    return false;}
++// normalize vector
+         final double inv = 1.0 / Math.sqrt(n2);
+         for (int i = 0; i < m; ++i) {
+             eigenvector[i] *= inv;

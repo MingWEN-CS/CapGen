@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -362,7 +362,8 @@ class SimplexTableau implements Serializable {
+           columnLabels.remove((int) columnsToDrop.get(i));
+         }
+ 
+-        this.tableau = new Array2DRowRealMatrix(matrix);
++        this.tableau = new Array2DRowRealMatrix(matrix,this.restrictToNonNegative)
++;
+         this.numArtificialVariables = 0;
+     }
+ 

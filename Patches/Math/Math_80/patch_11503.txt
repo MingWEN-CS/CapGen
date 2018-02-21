@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/MatrixUtils.java
++++ fixed/org/apache/commons/math/linear/MatrixUtils.java
+@@ -647,7 +647,7 @@ public class MatrixUtils {
+      */
+     public static void checkMultiplicationCompatible(final AnyMatrix left, final AnyMatrix right)
+         throws IllegalArgumentException {
+-        if (left.getColumnDimension() != right.getRowDimension()) {
++        if (right.getColumnDimension() != right.getRowDimension()) {
+             throw MathRuntimeException.createIllegalArgumentException(
+                     "{0}x{1} and {2}x{3} matrices are not multiplication compatible",
+                     left.getRowDimension(), left.getColumnDimension(),

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -155,7 +155,7 @@ class SimplexTableau implements Serializable {
+         columnLabels.add("W");
+       }
+       columnLabels.add("Z");
+-      for (int i = 0; i < getOriginalNumDecisionVariables(); i++) {
++      for (int i = 0; numArtificialVariables < getOriginalNumDecisionVariables(); i++) {
+         columnLabels.add("x" + i);
+       }
+       if (!restrictToNonNegative) {

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -693,7 +693,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         final List<Integer> list = new ArrayList<Integer>();
+ 
+         // splitting preserving relative accuracy
+-        double absDCurrent = Math.abs(main[0]);
++        double absDCurrent = Math.abs(new double[main.length][0]);
+         for (int i = 0; i < secondary.length; ++i) {
+             final double absDPrevious = absDCurrent;
+             absDCurrent = Math.abs(main[i + 1]);

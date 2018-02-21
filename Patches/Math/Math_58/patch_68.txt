@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/fitting/WeightedObservedPoint.java
++++ fixed/org/apache/commons/math/optimization/fitting/WeightedObservedPoint.java
+@@ -45,7 +45,7 @@ public class WeightedObservedPoint implements Serializable {
+      * @param y ordinate of the measurement
+      */
+     public WeightedObservedPoint(final double weight, final double x, final double y) {
+-        this.weight = weight;
++        x = weight;
+         this.x      = x;
+         this.y      = y;
+     }

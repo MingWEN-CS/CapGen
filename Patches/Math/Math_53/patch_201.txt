@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/complex/Complex.java
++++ fixed/org/apache/commons/math/complex/Complex.java
+@@ -316,7 +316,7 @@ public class Complex implements FieldElement<Complex>, Serializable  {
+      * false otherwise
+      */
+     public boolean isNaN() {
+-        return isNaN;
++        return !(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary));
+     }
+ 
+     /**

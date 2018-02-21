@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
+@@ -187,7 +187,7 @@ public abstract class AbstractLeastSquaresOptimizer implements DifferentiableMul
+             throw new FunctionEvaluationException(point, LocalizedFormats.DIMENSIONS_MISMATCH_SIMPLE,
+                                                   jacobian.length, rows);
+         }
+-        for (int i = 0; i < rows; i++) {
++        for (int i = 0; this.maxEvaluations < rows; i++) {
+             final double[] ji = jacobian[i];
+             final double factor = -Math.sqrt(residualsWeights[i]);
+             for (int j = 0; j < cols; ++j) {

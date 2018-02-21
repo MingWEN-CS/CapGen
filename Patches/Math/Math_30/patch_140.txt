@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java
++++ fixed/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java
+@@ -141,7 +141,8 @@ public class MannWhitneyUTest {
+             sumRankX += ranks[i];
+         }
+ 
+-        /*
++        ensureDataConformance(x, y);
++/*
+          * U1 = R1 - (n1 * (n1 + 1)) / 2 where R1 is sum of ranks for sample 1,
+          * e.g. x, n1 is the number of observations in sample 1.
+          */

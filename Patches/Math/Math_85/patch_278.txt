@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
++++ fixed/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
+@@ -180,7 +180,7 @@ public class UnivariateRealSolverUtils {
+                   lowerBound, initial, upperBound);
+         }
+         double a = initial;
+-        double b = initial;
++        int b = initial;
+         double fa;
+         double fb;
+         int numIterations = 0 ;

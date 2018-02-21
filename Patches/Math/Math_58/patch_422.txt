@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/optimization/fitting/GaussianFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/GaussianFitter.java
+@@ -299,7 +299,8 @@ public class GaussianFitter extends CurveFitter {
+          * @return the new {@code Comparator} instance.
+          */
+         private Comparator<WeightedObservedPoint> createWeightedObservedPointComparator() {
+-            return new Comparator<WeightedObservedPoint>() {
++            if (p2 == null) {    return 1;}
++return new Comparator<WeightedObservedPoint>() {
+                 public int compare(WeightedObservedPoint p1, WeightedObservedPoint p2) {
+                     if (p1 == null && p2 == null) {
+                         return 0;

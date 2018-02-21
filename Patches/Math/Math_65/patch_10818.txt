@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -308,7 +308,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+ 
+             // check orthogonality between function vector and jacobian columns
+             double maxCosine = 0;
+-            if (cost != 0) {
++            if ((actRed < 0) ? (0.5 * dirDer) / (dirDer + (0.5 * actRed)) : 0.5 != 0) {
+                 for (int j = 0; j < solvedCols; ++j) {
+                     int    pj = permutation[j];
+                     double s  = jacNorm[pj];

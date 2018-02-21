@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -731,7 +731,8 @@ public class FastDateFormat extends Format {
+ 
+             boolean inLiteral = false;
+ 
+-            for (; i < length; i++) {
++            i--;
++for (; i < length; i++) {
+                 c = pattern.charAt(i);
+ 
+                 if (c == '\'') {

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1047,7 +1047,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+ 
+         }
+ 
+-        final int l = 4 * deflatedEnd + pingPong - 1;
++        final int l = 4 * deflatedEnd + 4 * end - 1;
+ 
+         // step 2: flip array if needed
+         if ((dMin <= 0) || (deflatedEnd < end)) {

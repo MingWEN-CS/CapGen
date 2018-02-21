@@ -1,0 +1,195 @@
+org.jfree.data.time.Week::::219::::8787::::8790::::(short) (yyyy)::::tempWeek	false	0.2951
+org.jfree.data.time.Week::::219::::8787::::8790::::(short) (yyyy)::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	false	0.3127333333333333
+org.jfree.data.time.Week::::219::::8787::::8790::::(short) (yyyy)::::(byte) (java.lang.Math.min(tempWeek, org.jfree.data.time.Week.LAST_WEEK_IN_YEAR))	false	0.33063333333333333
+org.jfree.data.time.Week::::215::::8654::::8669::::java.util.Calendar.JANUARY::::tempWeek	false	0.34901666666666664
+org.jfree.data.time.Week::::175::::6878::::6912::::org.jfree.data.time.RegularTimePeriod.DEFAULT_TIME_ZONE::::zone	true	0.3725833333333333
+org.jfree.data.time.Week::::215::::8654::::8669::::java.util.Calendar.JANUARY::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	false	0.38985
+org.jfree.data.time.Week::::215::::8635::::8648::::java.util.Calendar.MONTH::::tempWeek	false	0.4074
+org.jfree.data.time.Week::::215::::8654::::8669::::java.util.Calendar.JANUARY::::(byte) (java.lang.Math.min(tempWeek, org.jfree.data.time.Week.LAST_WEEK_IN_YEAR))	false	0.4266666666666667
+org.jfree.data.time.Week::::211::::8378::::8394::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	0.44505
+org.jfree.data.time.Week::::219::::8787::::8790::::(short) (yyyy)::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	0.46203333333333335
+org.jfree.data.time.Week::::215::::8654::::8669::::java.util.Calendar.JANUARY::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	0.48045000000000004
+org.jfree.data.time.Week::::211::::8368::::8375::::tempWeek::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	false	0.4980833333333334
+org.jfree.data.time.Week::::205::::8117::::8124::::tempWeek::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	true	0.5208833333333334
+org.jfree.data.time.Week::::205::::8117::::8124::::tempWeek::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	true	0.5439666666666666
+org.jfree.data.time.Week::::215::::8635::::8648::::java.util.Calendar.MONTH::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	false	0.5615833333333333
+org.jfree.data.time.Week::::215::::8635::::8648::::java.util.Calendar.MONTH::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	0.5792833333333333
+org.jfree.data.time.Week::::211::::8368::::8375::::tempWeek::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	0.59625
+org.jfree.data.time.Week::::128::::5174::::5200::::week < (org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR)::::week < (org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR)) && (week > (org.jfree.data.time.Week.LAST_WEEK_IN_YEAR)	false	0.6034666666666666
+org.jfree.data.time.Week::::128::::5205::::5230::::week > (org.jfree.data.time.Week.LAST_WEEK_IN_YEAR)::::week < (org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR)) && (week > (org.jfree.data.time.Week.LAST_WEEK_IN_YEAR)	false	0.6113333333333333
+org.jfree.data.time.Week::::212::::8435::::8447::::java.util.Calendar.YEAR::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	false	0.6281
+org.jfree.data.time.Week::::212::::8435::::8447::::java.util.Calendar.YEAR::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	true	0.6488333333333334
+org.jfree.data.time.Week::::289::::10717::::10734::::getLastMillisecond::::getYear	false	0.6602
+org.jfree.data.time.Week::::289::::10717::::10734::::getLastMillisecond::::getFirstMillisecond	false	0.6772166666666667
+org.jfree.data.time.Week::::289::::10694::::10713::::this.lastMillisecond::::this.firstMillisecond	false	0.6946833333333333
+org.jfree.data.time.Week::::133::::5432::::5435::::(short) (year)::::week	false	0.7120833333333334
+org.jfree.data.time.Week::::133::::5432::::5435::::(short) (year)::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	false	0.7290500000000001
+org.jfree.data.time.Week::::133::::5432::::5435::::(short) (year)::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	0.7461
+org.jfree.data.time.Week::::132::::5397::::5400::::(byte) (week)::::week	true	0.7674833333333333
+org.jfree.data.time.Week::::132::::5397::::5400::::(byte) (week)::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	false	0.7846
+org.jfree.data.time.Week::::211::::8353::::8356::::byte::::int	false	0.7951166666666667
+org.jfree.data.time.Week::::211::::8353::::8356::::byte::::short	false	0.80605
+org.jfree.data.time.Week::::212::::8435::::8447::::java.util.Calendar.YEAR::::tempWeek	false	0.8230333333333333
+org.jfree.data.time.Week::::211::::8378::::8394::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR::::tempWeek	true	0.844
+org.jfree.data.time.Week::::219::::8780::::8784::::short::::int	false	0.8552833333333333
+org.jfree.data.time.Week::::132::::5397::::5400::::(byte) (week)::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	0.8735999999999999
+org.jfree.data.time.Week::::288::::10630::::10650::::this.firstMillisecond::::this.lastMillisecond	false	0.8903166666666666
+org.jfree.data.time.Week::::219::::8780::::8784::::short::::byte	false	0.9080666666666667
+org.jfree.data.time.Week::::128::::5213::::5229::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	true	0.9304333333333333
+org.jfree.data.time.Week::::128::::5175::::5178::::week::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	true	0.9529833333333334
+org.jfree.data.time.Week::::204::::8080::::8100::::java.util.Calendar.WEEK_OF_YEAR::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	0.97115
+org.jfree.data.time.Week::::288::::10654::::10672::::getFirstMillisecond::::getLastMillisecond	false	0.9883500000000001
+org.jfree.data.time.Week::::289::::10717::::10734::::getLastMillisecond::::getWeek	false	0.9998666666666666
+org.jfree.data.time.Week::::128::::5206::::5209::::week::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	true	1.0223
+org.jfree.data.time.Week::::128::::5205::::5230::::week > (org.jfree.data.time.Week.LAST_WEEK_IN_YEAR)::::week < (org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR)	true	1.0445666666666666
+org.jfree.data.time.Week::::128::::5174::::5200::::week < (org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR)::::week > (org.jfree.data.time.Week.LAST_WEEK_IN_YEAR)	true	1.0671
+org.jfree.data.time.Week::::204::::8080::::8100::::java.util.Calendar.WEEK_OF_YEAR::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	false	1.0841666666666667
+org.jfree.data.time.Week::::288::::10654::::10672::::getFirstMillisecond::::getYear	false	1.0958
+org.jfree.data.time.Week::::388::::14131::::14150::::java.util.Calendar.MILLISECOND::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	false	1.1118666666666668
+org.jfree.data.time.Week::::413::::15073::::15092::::java.util.Calendar.MILLISECOND::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	false	1.1289
+org.jfree.data.time.Week::::128::::5182::::5199::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	true	1.1523166666666667
+org.jfree.data.time.Week::::215::::8635::::8648::::java.util.Calendar.MONTH::::(byte) (java.lang.Math.min(tempWeek, org.jfree.data.time.Week.LAST_WEEK_IN_YEAR))	false	1.1703166666666667
+org.jfree.data.time.Week::::128::::5174::::5200::::week < (org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR)::::this.week) != (org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	1.17805
+org.jfree.data.time.Week::::387::::14095::::14109::::java.util.Calendar.SECOND::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	false	1.19505
+org.jfree.data.time.Week::::412::::15037::::15051::::java.util.Calendar.SECOND::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	false	1.2120333333333333
+org.jfree.data.time.Week::::387::::14089::::14089::::c::::calendar	true	1.2342166666666665
+org.jfree.data.time.Week::::407::::14804::::14804::::c::::calendar	false	1.2519500000000001
+org.jfree.data.time.Week::::408::::14846::::14846::::c::::calendar	false	1.2707333333333333
+org.jfree.data.time.Week::::409::::14928::::14928::::c::::calendar	true	1.2934666666666668
+org.jfree.data.time.Week::::415::::15186::::15186::::c::::calendar	false	1.3107166666666668
+org.jfree.data.time.Week::::386::::14053::::14053::::c::::calendar	true	1.33195
+org.jfree.data.time.Week::::409::::14900::::14900::::c::::calendar	true	1.3545166666666666
+org.jfree.data.time.Week::::413::::15067::::15067::::c::::calendar	true	1.3762
+org.jfree.data.time.Week::::410::::14961::::14961::::c::::calendar	true	1.3974
+org.jfree.data.time.Week::::384::::13958::::13958::::c::::calendar	true	1.4196666666666669
+org.jfree.data.time.Week::::411::::14995::::14995::::c::::calendar	true	1.4424
+org.jfree.data.time.Week::::412::::15031::::15031::::c::::calendar	true	1.4653500000000002
+org.jfree.data.time.Week::::384::::13986::::13986::::c::::calendar	true	1.48795
+org.jfree.data.time.Week::::406::::14784::::14784::::c::::calendar	false	1.5058666666666667
+org.jfree.data.time.Week::::385::::14019::::14019::::c::::calendar	true	1.5278333333333334
+org.jfree.data.time.Week::::390::::14244::::14244::::c::::calendar	false	1.5446166666666667
+org.jfree.data.time.Week::::388::::14125::::14125::::c::::calendar	true	1.5674833333333333
+org.jfree.data.time.Week::::386::::14059::::14073::::java.util.Calendar.MINUTE::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	false	1.58375
+org.jfree.data.time.Week::::411::::15001::::15015::::java.util.Calendar.MINUTE::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	false	1.6005
+org.jfree.data.time.Week::::413::::15073::::15092::::java.util.Calendar.MILLISECOND::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	1.6182666666666667
+org.jfree.data.time.Week::::388::::14131::::14150::::java.util.Calendar.MILLISECOND::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	1.6354333333333335
+org.jfree.data.time.Week::::407::::14810::::14822::::java.util.Calendar.YEAR::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	false	1.6526500000000002
+org.jfree.data.time.Week::::407::::14810::::14822::::java.util.Calendar.YEAR::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	true	1.6747333333333332
+org.jfree.data.time.Week::::383::::13908::::13908::::c::::calendar	false	1.692
+org.jfree.data.time.Week::::385::::14025::::14037::::java.util.Calendar.HOUR::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	false	1.7074666666666665
+org.jfree.data.time.Week::::384::::13964::::13983::::java.util.Calendar.DAY_OF_WEEK::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	false	1.7234166666666666
+org.jfree.data.time.Week::::410::::14967::::14979::::java.util.Calendar.HOUR::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	false	1.7405166666666667
+org.jfree.data.time.Week::::409::::14906::::14925::::java.util.Calendar.DAY_OF_WEEK::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	false	1.7572
+org.jfree.data.time.Week::::382::::13866::::13866::::c::::calendar	false	1.7742
+org.jfree.data.time.Week::::132::::5391::::5394::::byte::::int	false	1.78595
+org.jfree.data.time.Week::::132::::5391::::5394::::byte::::short	false	1.7975833333333333
+org.jfree.data.time.Week::::128::::5174::::5230::::week < (org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR)) && (week > (org.jfree.data.time.Week.LAST_WEEK_IN_YEAR)::::this.week) != (org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	1.80625
+org.jfree.data.time.Week::::412::::15037::::15051::::java.util.Calendar.SECOND::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	1.8231
+org.jfree.data.time.Week::::387::::14095::::14109::::java.util.Calendar.SECOND::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	1.8406666666666667
+org.jfree.data.time.Week::::133::::5425::::5429::::short::::int	false	1.8523500000000002
+org.jfree.data.time.Week::::408::::14852::::14872::::java.util.Calendar.WEEK_OF_YEAR::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	1.8710666666666667
+org.jfree.data.time.Week::::405::::14757::::14764::::calendar::::c	false	1.8829500000000001
+org.jfree.data.time.Week::::381::::13846::::13846::::c::::calendar	false	1.9017166666666665
+org.jfree.data.time.Week::::380::::13819::::13826::::calendar::::c	false	1.9135833333333332
+org.jfree.data.time.Week::::205::::8117::::8124::::tempWeek::::(byte) (java.lang.Math.min(tempWeek, org.jfree.data.time.Week.LAST_WEEK_IN_YEAR))	true	1.9362333333333335
+org.jfree.data.time.Week::::134::::5447::::5449::::peg::::getFirstMillisecond	false	1.9536666666666667
+org.jfree.data.time.Week::::408::::14852::::14872::::java.util.Calendar.WEEK_OF_YEAR::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	false	1.9697666666666669
+org.jfree.data.time.Week::::411::::15001::::15015::::java.util.Calendar.MINUTE::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	1.9879
+org.jfree.data.time.Week::::386::::14059::::14073::::java.util.Calendar.MINUTE::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	2.0052166666666666
+org.jfree.data.time.Week::::133::::5425::::5429::::short::::byte	false	2.0236
+org.jfree.data.time.Week::::410::::14967::::14979::::java.util.Calendar.HOUR::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	2.0416499999999997
+org.jfree.data.time.Week::::409::::14906::::14925::::java.util.Calendar.DAY_OF_WEEK::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	2.0589166666666667
+org.jfree.data.time.Week::::385::::14025::::14037::::java.util.Calendar.HOUR::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	2.0765000000000002
+org.jfree.data.time.Week::::384::::13964::::13983::::java.util.Calendar.DAY_OF_WEEK::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	2.094
+org.jfree.data.time.Week::::289::::10717::::10734::::getLastMillisecond::::peg	false	2.105633333333333
+org.jfree.data.time.Week::::288::::10654::::10672::::getFirstMillisecond::::peg	false	2.1170999999999998
+org.jfree.data.time.Week::::383::::13914::::13934::::java.util.Calendar.WEEK_OF_YEAR::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	2.134383333333333
+org.jfree.data.time.Week::::211::::8368::::8375::::tempWeek::::(byte) (java.lang.Math.min(tempWeek, org.jfree.data.time.Week.LAST_WEEK_IN_YEAR))	true	2.1567
+org.jfree.data.time.Week::::390::::14237::::14265::::// return c.getTimeInMillis();  // this won't work for JDK 1.3return c.getTime().getTime()::::INSERT::::STATEMENT::::peg(calendar)	false	2.536
+org.jfree.data.time.Week::::382::::13872::::13884::::java.util.Calendar.YEAR::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	false	2.55245
+org.jfree.data.time.Week::::382::::13872::::13884::::java.util.Calendar.YEAR::::org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	true	2.5747500000000003
+org.jfree.data.time.Week::::219::::8767::::8791::::this.year = ((short) (yyyy))::::INSERT::::STATEMENT::::if (zone == null) {    throw new java.lang.IllegalArgumentException("Null 'zone' argument.");}	true	2.597566666666667
+org.jfree.data.time.Week::::219::::8767::::8791::::this.year = ((short) (yyyy))::::INSERT::::STATEMENT::::if (time == null) {    throw new java.lang.IllegalArgumentException("Null 'time' argument.");}	true	2.6199500000000002
+org.jfree.data.time.Week::::219::::8767::::8791::::this.year = ((short) (yyyy))::::INSERT::::STATEMENT::::if (locale == null) {    throw new java.lang.IllegalArgumentException("Null 'locale' argument.");}	true	2.6430000000000002
+org.jfree.data.time.Week::::212::::8411::::8449::::int yyyy = calendar.get(java.util.Calendar.YEAR)::::INSERT::::STATEMENT::::if (zone == null) {    throw new java.lang.IllegalArgumentException("Null 'zone' argument.");}	true	2.6665
+org.jfree.data.time.Week::::212::::8411::::8449::::int yyyy = calendar.get(java.util.Calendar.YEAR)::::INSERT::::STATEMENT::::if (locale == null) {    throw new java.lang.IllegalArgumentException("Null 'locale' argument.");}	true	2.6892
+org.jfree.data.time.Week::::211::::8340::::8396::::this.week = ((byte) (java.lang.Math.min(tempWeek, org.jfree.data.time.Week.LAST_WEEK_IN_YEAR)))::::INSERT::::STATEMENT::::if (zone == null) {    throw new java.lang.IllegalArgumentException("Null 'zone' argument.");}	true	2.7119166666666668
+org.jfree.data.time.Week::::211::::8340::::8396::::this.week = ((byte) (java.lang.Math.min(tempWeek, org.jfree.data.time.Week.LAST_WEEK_IN_YEAR)))::::INSERT::::STATEMENT::::if (time == null) {    throw new java.lang.IllegalArgumentException("Null 'time' argument.");}	true	2.734366666666667
+org.jfree.data.time.Week::::211::::8340::::8396::::this.week = ((byte) (java.lang.Math.min(tempWeek, org.jfree.data.time.Week.LAST_WEEK_IN_YEAR)))::::INSERT::::STATEMENT::::if (locale == null) {    throw new java.lang.IllegalArgumentException("Null 'locale' argument.");}	true	2.7570833333333336
+org.jfree.data.time.Week::::383::::13914::::13934::::java.util.Calendar.WEEK_OF_YEAR::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR	false	2.773883333333333
+org.jfree.data.time.Week::::212::::8411::::8449::::int yyyy = calendar.get(java.util.Calendar.YEAR)::::INSERT::::STATEMENT::::if (time == null) {    throw new java.lang.IllegalArgumentException("Null 'time' argument.");}	true	2.7966166666666665
+org.jfree.data.time.Week::::134::::5447::::5449::::peg::::getLastMillisecond	false	2.8149333333333333
+org.jfree.data.time.Week::::128::::5174::::5200::::week < (org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR)::::(this.week) >= 52	true	2.8379499999999998
+org.jfree.data.time.Week::::128::::5205::::5230::::week > (org.jfree.data.time.Week.LAST_WEEK_IN_YEAR)::::(this.week) >= 52	true	2.8611833333333334
+org.jfree.data.time.Week::::128::::5174::::5200::::week < (org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR)::::(this.week) < 52	true	2.8832999999999998
+org.jfree.data.time.Week::::215::::8618::::8752::::// alternatively, sometimes the first few days of the year are// considered to fall in the *last* week of the previous year...if (((calendar.get(java.util.Calendar.MONTH)) == (java.util.Calendar.JANUARY)) && ((this.week) >= 52)) {    yyyy--;}::::INSERT::::STATEMENT::::if (zone == null) {    throw new java.lang.IllegalArgumentException("Null 'zone' argument.");}	true	2.90555
+org.jfree.data.time.Week::::215::::8618::::8752::::// alternatively, sometimes the first few days of the year are// considered to fall in the *last* week of the previous year...if (((calendar.get(java.util.Calendar.MONTH)) == (java.util.Calendar.JANUARY)) && ((this.week) >= 52)) {    yyyy--;}::::INSERT::::STATEMENT::::if (locale == null) {    throw new java.lang.IllegalArgumentException("Null 'locale' argument.");}	true	2.92745
+org.jfree.data.time.Week::::288::::10654::::10672::::getFirstMillisecond::::getWeek	false	2.9388333333333336
+org.jfree.data.time.Week::::215::::8618::::8752::::// alternatively, sometimes the first few days of the year are// considered to fall in the *last* week of the previous year...if (((calendar.get(java.util.Calendar.MONTH)) == (java.util.Calendar.JANUARY)) && ((this.week) >= 52)) {    yyyy--;}::::INSERT::::STATEMENT::::if (time == null) {    throw new java.lang.IllegalArgumentException("Null 'time' argument.");}	true	2.96075
+org.jfree.data.time.Week::::215::::8622::::8709::::(calendar.get(java.util.Calendar.MONTH)) == (java.util.Calendar.JANUARY)) && ((this.week) >= 52::::this.week) != (org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	2.968366666666667
+org.jfree.data.time.Week::::415::::15179::::15211::::// return c.getTimeInMillis();  // this won't work for JDK 1.3return (c.getTime().getTime()) - 1::::INSERT::::STATEMENT::::peg(calendar)	false	3.1525000000000003
+org.jfree.data.time.Week::::215::::8622::::8709::::(calendar.get(java.util.Calendar.MONTH)) == (java.util.Calendar.JANUARY)) && ((this.week) >= 52::::(this.week) < 52	false	3.1708
+org.jfree.data.time.Week::::211::::8378::::8394::::org.jfree.data.time.Week.LAST_WEEK_IN_YEAR::::(byte) (java.lang.Math.min(tempWeek, org.jfree.data.time.Week.LAST_WEEK_IN_YEAR))	true	3.1941166666666665
+org.jfree.data.time.Week::::128::::5174::::5230::::week < (org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR)) && (week > (org.jfree.data.time.Week.LAST_WEEK_IN_YEAR)::::(this.week) >= 52	true	3.2172
+org.jfree.data.time.Week::::212::::8435::::8447::::java.util.Calendar.YEAR::::(byte) (java.lang.Math.min(tempWeek, org.jfree.data.time.Week.LAST_WEEK_IN_YEAR))	false	3.234783333333333
+org.jfree.data.time.Week::::128::::5205::::5230::::week > (org.jfree.data.time.Week.LAST_WEEK_IN_YEAR)::::this.week) != (org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR	false	3.2427
+org.jfree.data.time.Week::::128::::5205::::5230::::week > (org.jfree.data.time.Week.LAST_WEEK_IN_YEAR)::::(this.week) < 52	true	3.2657666666666665
+org.jfree.data.time.Week::::289::::10694::::10745::::this.lastMillisecond = getLastMillisecond(calendar)::::this.firstMillisecond = getFirstMillisecond(calendar)	false	3.2741166666666666
+org.jfree.data.time.Week::::219::::8767::::8791::::this.year = ((short) (yyyy))::::INSERT::::STATEMENT::::peg(calendar)	true	3.2975333333333334
+org.jfree.data.time.Week::::289::::10694::::10745::::this.lastMillisecond = getLastMillisecond(calendar)::::INSERT::::STATEMENT::::peg(calendar)	false	3.4162666666666666
+org.jfree.data.time.Week::::288::::10630::::10683::::this.firstMillisecond = getFirstMillisecond(calendar)::::INSERT::::STATEMENT::::peg(calendar)	false	3.5217
+org.jfree.data.time.Week::::128::::5174::::5230::::week < (org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR)) && (week > (org.jfree.data.time.Week.LAST_WEEK_IN_YEAR)::::(this.week) < 52	false	3.537916666666667
+org.jfree.data.time.Week::::212::::8411::::8449::::int yyyy = calendar.get(java.util.Calendar.YEAR)::::INSERT::::STATEMENT::::peg(calendar)	true	3.5591999999999997
+org.jfree.data.time.Week::::221::::8813::::8815::::peg::::getFirstMillisecond	true	3.5807833333333337
+org.jfree.data.time.Week::::408::::14846::::14889::::c.set(java.util.Calendar.WEEK_OF_YEAR, ((this.week) + 1))::::DELETE::::STATEMENT	false	3.5989666666666666
+org.jfree.data.time.Week::::383::::13908::::13947::::c.set(java.util.Calendar.WEEK_OF_YEAR, this.week)::::DELETE::::STATEMENT	false	3.616833333333333
+org.jfree.data.time.Week::::211::::8340::::8396::::this.week = ((byte) (java.lang.Math.min(tempWeek, org.jfree.data.time.Week.LAST_WEEK_IN_YEAR)))::::INSERT::::STATEMENT::::peg(calendar)	true	3.641016666666667
+org.jfree.data.time.Week::::413::::15067::::15097::::c.set(java.util.Calendar.MILLISECOND, 0)::::INSERT::::STATEMENT::::peg(calendar)	false	3.7532833333333335
+org.jfree.data.time.Week::::388::::14125::::14155::::c.set(java.util.Calendar.MILLISECOND, 0)::::INSERT::::STATEMENT::::peg(calendar)	false	3.8675
+org.jfree.data.time.Week::::383::::13908::::13947::::c.set(java.util.Calendar.WEEK_OF_YEAR, this.week)::::INSERT::::STATEMENT::::peg(calendar)	false	3.9803333333333333
+org.jfree.data.time.Week::::288::::10630::::10683::::this.firstMillisecond = getFirstMillisecond(calendar)::::this.lastMillisecond = getLastMillisecond(calendar)	false	3.988116666666667
+org.jfree.data.time.Week::::412::::15031::::15056::::c.set(java.util.Calendar.SECOND, 0)::::INSERT::::STATEMENT::::peg(calendar)	false	4.099683333333333
+org.jfree.data.time.Week::::387::::14089::::14114::::c.set(java.util.Calendar.SECOND, 0)::::INSERT::::STATEMENT::::peg(calendar)	false	4.214733333333333
+org.jfree.data.time.Week::::408::::14846::::14889::::c.set(java.util.Calendar.WEEK_OF_YEAR, ((this.week) + 1))::::INSERT::::STATEMENT::::peg(calendar)	false	4.327366666666666
+org.jfree.data.time.Week::::411::::14995::::15020::::c.set(java.util.Calendar.MINUTE, 0)::::INSERT::::STATEMENT::::peg(calendar)	false	4.441016666666667
+org.jfree.data.time.Week::::386::::14053::::14078::::c.set(java.util.Calendar.MINUTE, 0)::::INSERT::::STATEMENT::::peg(calendar)	false	4.553299999999999
+org.jfree.data.time.Week::::221::::8813::::8815::::peg::::getLastMillisecond	true	4.5770333333333335
+org.jfree.data.time.Week::::410::::14961::::14984::::c.set(java.util.Calendar.HOUR, 0)::::INSERT::::STATEMENT::::peg(calendar)	false	4.68935
+org.jfree.data.time.Week::::409::::14900::::14950::::c.set(java.util.Calendar.DAY_OF_WEEK, c.getFirstDayOfWeek())::::INSERT::::STATEMENT::::peg(calendar)	false	4.799666666666667
+org.jfree.data.time.Week::::385::::14019::::14042::::c.set(java.util.Calendar.HOUR, 0)::::INSERT::::STATEMENT::::peg(calendar)	false	4.912833333333333
+org.jfree.data.time.Week::::384::::13958::::14008::::c.set(java.util.Calendar.DAY_OF_WEEK, c.getFirstDayOfWeek())::::INSERT::::STATEMENT::::peg(calendar)	false	5.02485
+org.jfree.data.time.Week::::211::::8340::::8396::::this.week = ((byte) (java.lang.Math.min(tempWeek, org.jfree.data.time.Week.LAST_WEEK_IN_YEAR)))::::this.week = 1	false	5.032766666666666
+org.jfree.data.time.Week::::215::::8618::::8752::::// alternatively, sometimes the first few days of the year are// considered to fall in the *last* week of the previous year...if (((calendar.get(java.util.Calendar.MONTH)) == (java.util.Calendar.JANUARY)) && ((this.week) >= 52)) {    yyyy--;}::::INSERT::::STATEMENT::::peg(calendar)	true	5.054683333333333
+org.jfree.data.time.Week::::413::::15067::::15097::::c.set(java.util.Calendar.MILLISECOND, 0)::::DELETE::::STATEMENT	true	5.078033333333334
+org.jfree.data.time.Week::::412::::15031::::15056::::c.set(java.util.Calendar.SECOND, 0)::::DELETE::::STATEMENT	true	5.101383333333334
+org.jfree.data.time.Week::::406::::14784::::14793::::c.clear()::::DELETE::::STATEMENT	false	5.1189
+org.jfree.data.time.Week::::407::::14804::::14835::::c.set(java.util.Calendar.YEAR, this.year)::::DELETE::::STATEMENT	false	5.137016666666667
+org.jfree.data.time.Week::::406::::14784::::14793::::c.clear()::::INSERT::::STATEMENT::::peg(calendar)	false	5.248833333333334
+org.jfree.data.time.Week::::411::::14995::::15020::::c.set(java.util.Calendar.MINUTE, 0)::::DELETE::::STATEMENT	true	5.272733333333333
+org.jfree.data.time.Week::::410::::14961::::14984::::c.set(java.util.Calendar.HOUR, 0)::::DELETE::::STATEMENT	true	5.296283333333333
+org.jfree.data.time.Week::::409::::14900::::14950::::c.set(java.util.Calendar.DAY_OF_WEEK, c.getFirstDayOfWeek())::::DELETE::::STATEMENT	true	5.318666666666667
+org.jfree.data.time.Week::::407::::14804::::14835::::c.set(java.util.Calendar.YEAR, this.year)::::INSERT::::STATEMENT::::peg(calendar)	false	5.430116666666667
+org.jfree.data.time.Week::::382::::13866::::13897::::c.set(java.util.Calendar.YEAR, this.year)::::INSERT::::STATEMENT::::peg(calendar)	false	5.541433333333333
+org.jfree.data.time.Week::::405::::14733::::14773::::java.util.Calendar c = ((java.util.Calendar) (calendar.clone()))::::INSERT::::STATEMENT::::peg(calendar)	false	5.651416666666666
+org.jfree.data.time.Week::::381::::13846::::13855::::c.clear()::::INSERT::::STATEMENT::::peg(calendar)	false	5.763983333333333
+org.jfree.data.time.Week::::204::::8052::::8054::::int::::short	false	5.776083333333333
+org.jfree.data.time.Week::::212::::8411::::8413::::int::::short	false	5.787316666666666
+org.jfree.data.time.Week::::204::::8052::::8054::::int::::byte	false	5.79885
+org.jfree.data.time.Week::::385::::14019::::14042::::c.set(java.util.Calendar.HOUR, 0)::::DELETE::::STATEMENT	true	5.821083333333333
+org.jfree.data.time.Week::::384::::13958::::14008::::c.set(java.util.Calendar.DAY_OF_WEEK, c.getFirstDayOfWeek())::::DELETE::::STATEMENT	true	5.842983333333334
+org.jfree.data.time.Week::::386::::14053::::14078::::c.set(java.util.Calendar.MINUTE, 0)::::DELETE::::STATEMENT	true	5.8654166666666665
+org.jfree.data.time.Week::::382::::13866::::13897::::c.set(java.util.Calendar.YEAR, this.year)::::DELETE::::STATEMENT	false	5.88235
+org.jfree.data.time.Week::::387::::14089::::14114::::c.set(java.util.Calendar.SECOND, 0)::::DELETE::::STATEMENT	true	5.904983333333333
+org.jfree.data.time.Week::::381::::13846::::13855::::c.clear()::::DELETE::::STATEMENT	false	5.922466666666667
+org.jfree.data.time.Week::::212::::8411::::8413::::int::::byte	false	5.9340166666666665
+org.jfree.data.time.Week::::388::::14125::::14155::::c.set(java.util.Calendar.MILLISECOND, 0)::::DELETE::::STATEMENT	true	5.95765
+org.jfree.data.time.Week::::199::::7829::::7836::::calendar::::time	false	5.969666666666667
+org.jfree.data.time.Week::::132::::5378::::5401::::this.week = ((byte) (week))::::this.week = 1	false	5.976633333333334
+org.jfree.data.time.Week::::380::::13795::::13835::::java.util.Calendar c = ((java.util.Calendar) (calendar.clone()))::::INSERT::::STATEMENT::::peg(calendar)	false	6.088783333333334
+org.jfree.data.time.Week::::408::::14875::::14887::::(this.week) + 1::::(this.week) - 1	false	6.106516666666667
+org.jfree.data.time.Week::::127::::5139::::5141::::int::::short	false	6.118233333333333
+org.jfree.data.time.Week::::127::::5149::::5151::::int::::short	false	6.1296333333333335
+org.jfree.data.time.Week::::127::::5139::::5141::::int::::byte	false	6.1418333333333335
+org.jfree.data.time.Week::::127::::5149::::5151::::int::::byte	false	6.15395
+org.jfree.data.time.Week::::415::::15186::::15206::::c.getTime().getTime()::::DELETE::::INFIX	false	6.1540333333333335
+org.jfree.data.time.Week::::215::::8622::::8649::::calendar.get(java.util.Calendar.MONTH)::::DELETE::::INFIX	false	6.1541500000000005

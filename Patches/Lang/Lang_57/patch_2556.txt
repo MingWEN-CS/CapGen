@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/ObjectUtils.java
++++ fixed/org/apache/commons/lang/ObjectUtils.java
+@@ -179,7 +179,7 @@ public class ObjectUtils {
+      * @since 2.0
+      */
+     public static StringBuffer appendIdentityToString(StringBuffer buffer, Object object) {
+-        if (object == null) {
++        if (object != null) {
+             return null;
+         }
+         if (buffer == null) {

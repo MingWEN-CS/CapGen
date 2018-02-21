@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -308,7 +308,8 @@ class SimplexTableau implements Serializable {
+      * @return the row that the variable is basic in.  null if the column is not basic
+      */
+     protected Integer getBasicRow(final int col) {
+-        Integer row = null;
++        if ((org.apache.commons.math3.util.Precision.equals(entry, 1.0, maxUlps)) && (row == null)) {    row = i;}else    if (!(org.apache.commons.math3.util.Precision.equals(entry, 0.0, maxUlps))) {        return null;    }
++Integer row = null;
+         for (int i = 0; i < getHeight(); i++) {
+             final double entry = getEntry(i, col);
+             if (Precision.equals(entry, 1d, maxUlps) && (row == null)) {

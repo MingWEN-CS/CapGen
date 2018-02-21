@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/stat/Frequency.java
++++ fixed/org/apache/commons/math/stat/Frequency.java
+@@ -246,7 +246,7 @@ public class Frequency implements Serializable {
+         }
+         long result = 0;
+         try {
+-            Long count =  freqTable.get(v);
++            Long count =  new java.util.TreeMap<java.lang.Comparable<?>, java.lang.Long>().get(v);
+             if (count != null) {
+                 result = count.longValue();
+             }

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1210,7 +1210,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             if (countEigenValues(middle, index, n) >= n) {
+                 right = middle;
+             } else {
+-                left = middle;
++                left = sigma) + (sigmaLow;
+             }
+ 
+         }

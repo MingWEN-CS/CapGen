@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexSolver.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexSolver.java
+@@ -95,7 +95,7 @@ public class SimplexSolver extends AbstractLinearOptimizer {
+ 
+             if (Precision.compareTo(entry, 0d, maxUlps) > 0) {
+                 final double ratio = rhs / entry;
+-                final int cmp = Precision.compareTo(ratio, minRatio, maxUlps);
++                final int cmp = org.apache.commons.math3.util.Precision.compareTo(ratio, minRatio,org.apache.commons.math3.optimization.linear.SimplexSolver.DEFAULT_EPSILON);
+                 if (cmp == 0) {
+                     minRatioPositions.add(i);
+                 } else if (cmp < 0) {

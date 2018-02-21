@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -202,7 +202,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         }
+ 
+         this.splitTolerance = splitTolerance;
+-        decompose();
++        findEigenVectors();
+ 
+     }
+ 

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -210,7 +210,7 @@ public class FastDateFormat extends Format {
+      *  or <code>null</code>
+      */
+     public static synchronized FastDateFormat getInstance(String pattern, TimeZone timeZone, Locale locale) {
+-        FastDateFormat emptyFormat = new FastDateFormat(pattern, timeZone, locale);
++        FastDateFormat emptyFormat = new FastDateFormat(mValue, timeZone, locale);
+         FastDateFormat format = cInstanceCache.get(emptyFormat);
+         if (format == null) {
+             format = emptyFormat;

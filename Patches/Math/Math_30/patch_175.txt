@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java
++++ fixed/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java
+@@ -152,7 +152,7 @@ public class MannWhitneyUTest {
+          */
+         final double U2 = x.length * y.length - U1;
+ 
+-        return FastMath.max(U1, U2);
++        return FastMath.max(U1, sumRankX - (((x.length) * ((x.length) + 1)) / 2));
+     }
+ 
+     /**

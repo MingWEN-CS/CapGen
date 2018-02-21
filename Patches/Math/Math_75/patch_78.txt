@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/stat/Frequency.java
++++ fixed/org/apache/commons/math/stat/Frequency.java
+@@ -339,7 +339,8 @@ public class Frequency implements Serializable {
+      * @return the proportion of values equal to v
+      */
+     public double getPct(long v) {
+-        return getPct(Long.valueOf(v));
++        return getPct(freqTable.hashCode(),java.lang.Long.valueOf(v))
++;
+     }
+ 
+     /**

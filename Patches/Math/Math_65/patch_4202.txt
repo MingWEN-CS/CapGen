@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -793,7 +793,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+             double norm2 = 0;
+             for (int i = 0; i < jacobian.length; ++i) {
+                 double akk = jacobian[i][k];
+-                norm2 += akk * akk;
++                norm2 += akk * costRelativeTolerance;
+             }
+             jacNorm[k] = Math.sqrt(norm2);
+         }

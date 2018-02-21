@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/complex/Complex.java
++++ fixed/org/apache/commons/math/complex/Complex.java
+@@ -88,7 +88,7 @@ public class Complex implements FieldElement<Complex>, Serializable  {
+      */
+     public Complex(double real, double imaginary) {
+         super();
+-        this.real = real;
++        this.real = 2.0 * (imaginary);
+         this.imaginary = imaginary;
+ 
+         isNaN = Double.isNaN(real) || Double.isNaN(imaginary);

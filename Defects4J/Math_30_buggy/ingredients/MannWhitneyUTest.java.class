@@ -1,0 +1,9 @@
+org.apache.commons.math3.distribution.NormalDistribution:org.apache.commons.math3.distribution.AbstractRealDistribution
+org.apache.commons.math3.exception.ConvergenceException:org.apache.commons.math3.exception.MathIllegalStateException
+org.apache.commons.math3.exception.MaxCountExceededException:org.apache.commons.math3.exception.MathIllegalStateException
+org.apache.commons.math3.exception.NoDataException:org.apache.commons.math3.exception.MathIllegalArgumentException
+org.apache.commons.math3.exception.NullArgumentException:org.apache.commons.math3.exception.MathIllegalArgumentException
+org.apache.commons.math3.stat.ranking.NaNStrategy:java.lang.Enum
+org.apache.commons.math3.stat.ranking.NaturalRanking$IntDoublePair:java.lang.Comparable
+org.apache.commons.math3.stat.ranking.NaturalRanking:org.apache.commons.math3.stat.ranking.RankingAlgorithm
+org.apache.commons.math3.stat.ranking.TiesStrategy:java.lang.Enum

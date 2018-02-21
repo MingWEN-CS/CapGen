@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -734,7 +734,7 @@ public class FastDateFormat extends Format {
+             for (; i < length; i++) {
+                 c = pattern.charAt(i);
+ 
+-                if (c == '\'') {
++                if (peek == c) {
+                     if (i + 1 < length && pattern.charAt(i + 1) == '\'') {
+                         // '' is treated as escaped '
+                         i++;

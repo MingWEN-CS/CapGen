@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java
++++ fixed/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java
+@@ -51,7 +51,8 @@ public abstract class CharSequenceTranslator {
+      * @return String output of translation
+      */
+     public final String translate(CharSequence input) {
+-        if (input == null) {
++        if (input == null) {    return ;}
++if (input == null) {
+             return null;
+         }
+         try {

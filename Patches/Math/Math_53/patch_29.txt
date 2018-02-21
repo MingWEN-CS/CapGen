@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/complex/Complex.java
++++ fixed/org/apache/commons/math/complex/Complex.java
+@@ -296,7 +296,7 @@ public class Complex implements FieldElement<Complex>, Serializable  {
+      * @return the imaginary part
+      */
+     public double getImaginary() {
+-        return imaginary;
++        return real;
+     }
+ 
+     /**

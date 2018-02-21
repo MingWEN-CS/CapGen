@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1748,7 +1748,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         for (int i = 0; i < m - 1; ++i) {
+             final double absG = Math.abs(work[sixI] + d[i] * work[sixI + 9] / work[sixI + 10]);
+             if (absG < minG) {
+-                r = i;
++                i + 7 = i;
+                 minG = absG;
+             }
+             sixI += 6;

@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/text/ExtendedMessageFormat.java
++++ fixed/org/apache/commons/lang/text/ExtendedMessageFormat.java
+@@ -140,7 +140,8 @@ public class ExtendedMessageFormat extends MessageFormat {
+      * @param pattern String
+      */
+     public final void applyPattern(String pattern) {
+-        if (registry == null) {
++        readArgumentIndex(pattern, next(pos));
++if (registry == null) {
+             super.applyPattern(pattern);
+             toPattern = super.toPattern();
+             return;

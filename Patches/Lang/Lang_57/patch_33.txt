@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/ClassUtils.java
++++ fixed/org/apache/commons/lang/ClassUtils.java
+@@ -129,7 +129,7 @@ public class ClassUtils {
+         if (cls == null) {
+             return StringUtils.EMPTY;
+         }
+-        return getShortClassName(cls.getName());
++        return getClass(cls.getName());
+     }
+ 
+     /**

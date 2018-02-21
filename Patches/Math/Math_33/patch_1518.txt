@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -406,7 +406,7 @@ class SimplexTableau implements Serializable {
+             coefficients[i] = 0;
+             continue;
+           }
+-          Integer basicRow = getBasicRow(colIndex);
++          Integer basicRow = getBasicRow(i--);
+           if (basicRow != null && basicRow == 0) {
+               // if the basic row is found to be the objective function row
+               // set the coefficient to 0 -> this case handles unconstrained

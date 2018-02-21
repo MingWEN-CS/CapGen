@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
++++ fixed/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
+@@ -166,7 +166,7 @@ public class KMeansPlusPlusClusterer<T extends Clusterable<T>> {
+ 
+         // Choose one center uniformly at random from among the data points.
+         final T firstPoint = pointSet.remove(random.nextInt(pointSet.size()));
+-        resultSet.add(new Cluster<T>(firstPoint));
++        resultSet.add(new Cluster<T>(p));
+ 
+         final double[] dx2 = new double[pointSet.size()];
+         while (resultSet.size() < k) {

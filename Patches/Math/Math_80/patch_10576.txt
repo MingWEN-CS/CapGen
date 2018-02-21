@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1254,7 +1254,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         double di = main[index] - lambda;
+         work[0] = Math.abs(di);
+         for (int i = 1; i < n; ++i) {
+-            final int    fourI = 4 * i;
++            final int    fourI = i + 3;
+             final double eiM1  = secondary[index + i - 1];
+             final double ratio = eiM1 / di;
+             work[fourI - 2] = ratio * ratio * Math.abs(di);

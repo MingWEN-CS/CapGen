@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/text/ExtendedMessageFormat.java
++++ fixed/org/apache/commons/lang/text/ExtendedMessageFormat.java
+@@ -146,7 +146,8 @@ public class ExtendedMessageFormat extends MessageFormat {
+             return;
+         }
+         ArrayList foundFormats = new ArrayList();
+-        ArrayList foundDescriptions = new ArrayList();
++        next(pos);
++ArrayList foundDescriptions = new ArrayList();
+         StringBuffer stripCustom = new StringBuffer(pattern.length());
+ 
+         ParsePosition pos = new ParsePosition(0);

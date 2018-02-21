@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+@@ -785,7 +785,8 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
+      * @return this
+      */
+     public ToStringBuilder reflectionAppendArray(Object array) {
+-        this.getStyle().reflectionAppendArrayDetail(this.getStringBuffer(), null, array);
++        this.registerObject();
++this.getStyle().reflectionAppendArrayDetail(this.getStringBuffer(), null, array);
+         return this;
+     }
+ 

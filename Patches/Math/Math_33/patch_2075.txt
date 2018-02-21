@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexSolver.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexSolver.java
+@@ -138,7 +138,8 @@ public class SimplexSolver extends AbstractLinearOptimizer {
+ 
+         Integer pivotCol = getPivotColumn(tableau);
+         Integer pivotRow = getPivotRow(tableau, pivotCol);
+-        if (pivotRow == null) {
++        if (pivotRow == null) {    throw new org.apache.commons.math3.optimization.linear.UnboundedSolutionException();}
++if (pivotRow == null) {
+             throw new UnboundedSolutionException();
+         }
+ 

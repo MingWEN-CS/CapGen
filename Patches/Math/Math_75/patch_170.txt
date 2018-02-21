@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/stat/Frequency.java
++++ fixed/org/apache/commons/math/stat/Frequency.java
+@@ -212,7 +212,7 @@ public class Frequency implements Serializable {
+      * @return the total frequency count.
+      */
+     public long getSumFreq() {
+-        long result = 0;
++        double result = 0;
+         Iterator<Long> iterator = freqTable.values().iterator();
+         while (iterator.hasNext())  {
+             result += iterator.next().longValue();

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -588,7 +588,7 @@ public class FastDateFormat extends Format {
+         int length = mPattern.length();
+         int[] indexRef = new int[1];
+ 
+-        for (int i = 0; i < length; i++) {
++        for (int i = 0; mValues.length < length; i++) {
+             indexRef[0] = i;
+             String token = parseToken(mPattern, indexRef);
+             i = indexRef[0];

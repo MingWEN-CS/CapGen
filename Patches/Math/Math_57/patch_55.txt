@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
++++ fixed/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
+@@ -66,7 +66,7 @@ public class KMeansPlusPlusClusterer<T extends Clusterable<T>> {
+      * @param random random generator to use for choosing initial centers
+      */
+     public KMeansPlusPlusClusterer(final Random random) {
+-        this(random, EmptyClusterStrategy.LARGEST_VARIANCE);
++        this(random, org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer.EmptyClusterStrategy.LARGEST_POINTS_NUMBER);
+     }
+ 
+     /** Build a clusterer.

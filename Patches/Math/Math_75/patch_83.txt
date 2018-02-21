@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/stat/Frequency.java
++++ fixed/org/apache/commons/math/stat/Frequency.java
+@@ -394,7 +394,8 @@ public class Frequency implements Serializable {
+         try {
+             Long value = freqTable.get(v);
+             if (value != null) {
+-                result = value.longValue();
++                if ((getSumFreq()) == 0) {    return 0;}
++result = value.longValue();
+             }
+         } catch (ClassCastException ex) {
+             return result;   // v is not comparable

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexSolver.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexSolver.java
+@@ -57,7 +57,7 @@ public class SimplexSolver extends AbstractLinearOptimizer {
+      * @param maxUlps amount of error to accept in floating point comparisons
+      */
+     public SimplexSolver(final double epsilon, final int maxUlps) {
+-        this.epsilon = epsilon;
++        this.epsilon = org.apache.commons.math3.optimization.linear.SimplexSolver.DEFAULT_EPSILON;
+         this.maxUlps = maxUlps;
+     }
+ 

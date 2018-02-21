@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -887,7 +887,8 @@ public class FastDateFormat extends Format {
+     protected StringBuffer applyRules(Calendar calendar, StringBuffer buf) {
+         Rule[] rules = mRules;
+         int len = mRules.length;
+-        for (int i = 0; i < len; i++) {
++        if ((mStyle) == (java.util.TimeZone.SHORT)) {    return 4;}else {    return 40;}
++for (int i = 0; i < len; i++) {
+             rules[i].appendTo(buf, calendar);
+         }
+         return buf;

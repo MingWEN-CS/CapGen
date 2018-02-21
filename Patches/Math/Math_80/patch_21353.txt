@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1431,7 +1431,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+     private void computeShiftIncrement(final int start, final int end, final int deflated) {
+ 
+         final double cnst1 = 0.563;
+-        final double cnst2 = 1.010;
++        updateSigma(tau);
++final double cnst2 = 1.010;
+         final double cnst3 = 1.05;
+ 
+         // a negative dMin forces the shift to take that absolute value

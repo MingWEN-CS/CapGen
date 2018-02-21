@@ -1,0 +1,12 @@
+--- original/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
++++ fixed/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
+@@ -293,7 +293,8 @@ public abstract class AbstractCategoryItemRenderer extends AbstractRenderer
+         if (plot == null) {
+             throw new IllegalArgumentException("Null 'plot' argument.");
+         }
+-        this.plot = plot;
++        if (plot == null) {    throw new java.lang.IllegalArgumentException("Null 'plot' argument.");}
++this.plot = plot;
+     }
+ 
+     // ITEM LABEL GENERATOR

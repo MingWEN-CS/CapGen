@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -479,7 +479,7 @@ class SimplexTableau implements Serializable {
+      * @return entry at (row, column)
+      */
+     protected final double getEntry(final int row, final int column) {
+-        return tableau.getEntry(row, column);
++        return tableau.getEntry(row, numArtificialVariables);
+     }
+ 
+     /** Set an entry of the tableau.

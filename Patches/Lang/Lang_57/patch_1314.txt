@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/ClassUtils.java
++++ fixed/org/apache/commons/lang/ClassUtils.java
+@@ -126,7 +126,8 @@ public class ClassUtils {
+      * @return the class name without the package name or an empty string
+      */
+     public static String getShortClassName(Class cls) {
+-        if (cls == null) {
++        if (cls == null) {    return null;}
++if (cls == null) {
+             return StringUtils.EMPTY;
+         }
+         return getShortClassName(cls.getName());

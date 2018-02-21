@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -342,7 +342,7 @@ class SimplexTableau implements Serializable {
+ 
+         // non-basic artificial variables
+         for (int i = 0; i < getNumArtificialVariables(); i++) {
+-          int col = i + getArtificialVariableOffset();
++          int col = col + getArtificialVariableOffset();
+           if (getBasicRow(col) == null) {
+             columnsToDrop.add(col);
+           }

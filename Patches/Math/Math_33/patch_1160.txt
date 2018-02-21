@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexSolver.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexSolver.java
+@@ -67,7 +67,7 @@ public class SimplexSolver extends AbstractLinearOptimizer {
+      * @return column with the most negative coefficient
+      */
+     private Integer getPivotColumn(SimplexTableau tableau) {
+-        double minValue = 0;
++        int minValue = 0;
+         Integer minPos = null;
+         for (int i = tableau.getNumObjectiveFunctions(); i < tableau.getWidth() - 1; i++) {
+             final double entry = tableau.getEntry(0, i);

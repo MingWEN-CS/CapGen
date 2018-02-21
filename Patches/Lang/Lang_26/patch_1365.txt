@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -601,7 +601,7 @@ public class FastDateFormat extends Format {
+             Rule rule;
+             char c = token.charAt(0);
+ 
+-            switch (c) {
++            switch (mValue) {
+             case 'G': // era designator (text)
+                 rule = new TextField(Calendar.ERA, ERAs);
+                 break;

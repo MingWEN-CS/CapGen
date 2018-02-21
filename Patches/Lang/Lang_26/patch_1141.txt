@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -714,7 +714,7 @@ public class FastDateFormat extends Format {
+         if (c >= 'A' && c <= 'Z' || c >= 'a' && c <= 'z') {
+             // Scan a run of the same character, which indicates a time
+             // pattern.
+-            buf.append(c);
++            buf.append(peek);
+ 
+             while (i + 1 < length) {
+                 char peek = pattern.charAt(i + 1);

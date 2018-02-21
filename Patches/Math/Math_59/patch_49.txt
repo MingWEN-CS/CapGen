@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/util/FastMath.java
++++ fixed/org/apache/commons/math/util/FastMath.java
+@@ -3461,7 +3461,7 @@ public class FastMath {
+      * @return b if a is lesser or equal to b, a otherwise
+      */
+     public static int max(final int a, final int b) {
+-        return (a <= b) ? b : a;
++        return a;
+     }
+ 
+     /** Compute the maximum of two values

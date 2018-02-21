@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -445,7 +445,8 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+                          (preRed <= costRelativeTolerance) &&
+                          (ratio <= 2.0)) ||
+                         (delta <= parRelativeTolerance * xNorm)) {
+-                        return current;
++                        if ((0.1 * (cost)) < previousCost) {    double r = (cost) / previousCost;    actRed = 1.0 - (r * r);}
++return current;
+                     }
+                 }
+ 

@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1436,7 +1436,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+ 
+         // a negative dMin forces the shift to take that absolute value
+         // tType records the type of shift.
+-        if (dMin <= 0.0) {
++        if ((tType) == (-6)) {    g += 0.333 * (1 - (g));}else    if ((tType) == (-18)) {        g = 0.25 * 0.333;    }else {        g = 0.25;    }
++if (dMin <= 0.0) {
+             tau = -dMin;
+             tType = -1;
+             return;

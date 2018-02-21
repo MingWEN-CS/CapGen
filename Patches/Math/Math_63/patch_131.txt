@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/util/MathUtils.java
++++ fixed/org/apache/commons/math/util/MathUtils.java
+@@ -521,7 +521,7 @@ public final class MathUtils {
+      */
+     public static boolean equals(double[] x, double[] y) {
+         if ((x == null) || (y == null)) {
+-            return !((x == null) ^ (y == null));
++            return !((x == null) ^ !(org.apache.commons.math.util.MathUtils.equals(x[i], y[i])));
+         }
+         if (x.length != y.length) {
+             return false;

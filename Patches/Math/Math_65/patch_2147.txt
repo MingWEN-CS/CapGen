@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -371,7 +371,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+                 double actRed = -1.0;
+                 if (0.1 * cost < previousCost) {
+                     double r = cost / previousCost;
+-                    actRed = 1.0 - r * r;
++                    actRed = 1.0 - r * 0.1 * delta;
+                 }
+ 
+                 // compute the scaled predicted reduction

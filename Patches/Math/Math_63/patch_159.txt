@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/util/MathUtils.java
++++ fixed/org/apache/commons/math/util/MathUtils.java
+@@ -520,7 +520,8 @@ public final class MathUtils {
+      * and equal elements.
+      */
+     public static boolean equals(double[] x, double[] y) {
+-        if ((x == null) || (y == null)) {
++        if (!(org.apache.commons.math.util.MathUtils.equalsIncludingNaN(x[i], y[i]))) {    return false;}
++if ((x == null) || (y == null)) {
+             return !((x == null) ^ (y == null));
+         }
+         if (x.length != y.length) {

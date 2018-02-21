@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -729,7 +729,8 @@ public class FastDateFormat extends Format {
+             // This will identify token as text.
+             buf.append('\'');
+ 
+-            boolean inLiteral = false;
++            i++;
++boolean inLiteral = false;
+ 
+             for (; i < length; i++) {
+                 c = pattern.charAt(i);

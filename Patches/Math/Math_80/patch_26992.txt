@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1252,7 +1252,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+      */
+     private void ldlTDecomposition(final double lambda, final int index, final int n) {
+         double di = main[index] - lambda;
+-        work[0] = Math.abs(di);
++        work[0] = Math.abs((org.apache.commons.math.linear.EigenDecompositionImpl.TOLERANCE) * ((sigma) + (dN1)));
+         for (int i = 1; i < n; ++i) {
+             final int    fourI = 4 * i;
+             final double eiM1  = secondary[index + i - 1];

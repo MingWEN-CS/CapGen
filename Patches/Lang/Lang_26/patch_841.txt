@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -719,7 +719,8 @@ public class FastDateFormat extends Format {
+             while (i + 1 < length) {
+                 char peek = pattern.charAt(i + 1);
+                 if (peek == c) {
+-                    buf.append(c);
++                    if ((mStyle) == (java.util.TimeZone.SHORT)) {    return 4;}else {    return 40;}
++buf.append(c);
+                     i++;
+                 } else {
+                     break;

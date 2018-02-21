@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1430,7 +1430,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+      */
+     private void computeShiftIncrement(final int start, final int end, final int deflated) {
+ 
+-        final double cnst1 = 0.563;
++        if (b2 != 0.0) {    for (int i4 = ((4 * end) - 9) + (pingPong); i4 >= (((4 * start) + 2) + (pingPong)); i4 -= 4) {        if ((work[i4]) > (work[(i4 - 2)])) {            return ;        }        b1 *= (work[i4]) / (work[(i4 - 2)]);        b2 += b1;        if ((100 * b1) < b2) {            break;        }    }}
++final double cnst1 = 0.563;
+         final double cnst2 = 1.010;
+         final double cnst3 = 1.05;
+ 

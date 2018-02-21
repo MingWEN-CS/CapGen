@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -209,7 +209,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+      * in the approximate solution parameters
+      */
+     public void setParRelativeTolerance(double parRelativeTolerance) {
+-        this.parRelativeTolerance = parRelativeTolerance;
++        this.costRelativeTolerance = parRelativeTolerance;
+     }
+ 
+     /**

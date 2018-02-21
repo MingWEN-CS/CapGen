@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -998,7 +998,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+ 
+             if (start >= deflatedEnd) {
+                 // the array has been completely deflated
+-                return deflatedEnd;
++                dqds(start, deflatedEnd);
++return deflatedEnd;
+             }
+ 
+             final int k = 4 * deflatedEnd + pingPong - 1;

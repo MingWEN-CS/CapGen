@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1759,7 +1759,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         double[] eigenvector = new double[m];
+         double n2 = 1;
+         eigenvector[r] = 1;
+-        double z = 1;
++        stationaryQuotientDifferenceWithShift(d, l, eigenvalue);
++double z = 1;
+         for (int i = r - 1; i >= 0; --i) {
+             z *= -work[6 * i + 2];
+             eigenvector[i] = z;

@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -260,7 +260,8 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+         double[] work3   = new double[cols];
+ 
+         // evaluate the function at the starting point and calculate its norm
+-        updateResidualsAndCost();
++        setInitialStepBoundFactor(100.0);
++updateResidualsAndCost();
+ 
+         // outer loop
+         lmPar = 0;

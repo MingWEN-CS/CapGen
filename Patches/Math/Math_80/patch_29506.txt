@@ -1,0 +1,19 @@
+--- original/org/apache/commons/math/linear/AbstractRealMatrix.java
++++ fixed/org/apache/commons/math/linear/AbstractRealMatrix.java
+@@ -603,15 +603,7 @@ public abstract class AbstractRealMatrix implements RealMatrix {
+         final int nRows = getRowDimension();
+         final int nCols = getColumnDimension();
+         final RealMatrix out = createMatrix(nCols, nRows);
+-        walkInOptimizedOrder(new DefaultRealMatrixPreservingVisitor() {
+-
+-            /** {@inheritDoc} */
+-            @Override
+-            public void visit(final int row, final int column, final double value) {
+-                out.setEntry(column, row, value);
+-            }
+-
+-        });
++        
+ 
+         return out;
+ 

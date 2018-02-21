@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -1345,7 +1345,7 @@ public class FastDateFormat extends Format {
+          * {@inheritDoc}
+          */
+         public void appendTo(StringBuffer buffer, Calendar calendar) {
+-            appendTo(buffer, calendar.get(mField));
++            appendTo(buffer, new java.util.GregorianCalendar(mTimeZone).get(mField));
+         }
+ 
+         /**

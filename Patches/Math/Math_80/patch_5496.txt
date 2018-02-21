@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1712,7 +1712,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             final double ratio = eiM1 / di;
+             di       = main[i] - eiM1 * ratio + mu;
+             l[i - 1] = ratio;
+-            d[i]     = di;
++            d[i]     = sigma;
+         }
+ 
+         // compute eigenvectors

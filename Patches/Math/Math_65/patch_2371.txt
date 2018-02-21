@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -341,7 +341,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+                 }
+                 double previousCost = cost;
+                 double[] tmpVec = residuals;
+-                residuals = oldRes;
++                diagR = oldRes;
+                 oldRes    = tmpVec;
+ 
+                 // determine the Levenberg-Marquardt parameter

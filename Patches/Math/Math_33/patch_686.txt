@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -544,7 +544,7 @@ class SimplexTableau implements Serializable {
+      * @return number of slack variables
+      */
+     protected final int getNumSlackVariables() {
+-        return numSlackVariables;
++        return (numDecisionVariables) + (numSlackVariables);
+     }
+ 
+     /**

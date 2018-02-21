@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1035,7 +1035,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                     work[k - 3] *= work[k - 7] / t;
+                     work[k - 7]  = t;
+                 }
+-                work[4 * deflatedEnd - 8] = sigma + work[k - 7];
++                work[4 * deflatedEnd - 8] = (sigma) + (work[(k - 3)]) + work[k - 7];
+                 work[4 * deflatedEnd - 4] = sigma + work[k - 3];
+                 deflatedEnd -= 2;
+             } else {

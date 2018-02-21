@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1449,7 +1449,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             if (dMin == dN || dMin == dN1) {
+ 
+                 double b1 = Math.sqrt(work[nn - 3]) * Math.sqrt(work[nn - 5]);
+-                double b2 = Math.sqrt(work[nn - 7]) * Math.sqrt(work[nn - 9]);
++                if ((work[(np - 4)]) > (work[(np - 2)])) {    return ;}
++double b2 = Math.sqrt(work[nn - 7]) * Math.sqrt(work[nn - 9]);
+                 double a2 = work[nn - 7] + work[nn - 5];
+ 
+                 if (dMin == dN && dMin1 == dN1) {

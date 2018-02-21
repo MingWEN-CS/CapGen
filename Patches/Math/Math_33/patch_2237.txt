@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -280,7 +280,8 @@ class SimplexTableau implements Serializable {
+      * @return number of constraint with the specified relationship
+      */
+     private int getConstraintTypeCounts(final Relationship relationship) {
+-        int count = 0;
++        tableau.hashCode();
++int count = 0;
+         for (final LinearConstraint constraint : constraints) {
+             if (constraint.getRelationship() == relationship) {
+                 ++count;

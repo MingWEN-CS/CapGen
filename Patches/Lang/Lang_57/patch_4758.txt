@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ToStringStyle.java
++++ fixed/org/apache/commons/lang/builder/ToStringStyle.java
+@@ -1005,7 +1005,8 @@ public abstract class ToStringStyle implements Serializable {
+             appendNullText(buffer, fieldName);
+ 
+         } else if (isFullDetail(fullDetail)) {
+-            appendDetail(buffer, fieldName, array);
++            if (fieldSeparatorAtStart) {    appendFieldSeparator(buffer);}
++appendDetail(buffer, fieldName, array);
+ 
+         } else {
+             appendSummary(buffer, fieldName, array);

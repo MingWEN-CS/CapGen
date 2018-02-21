@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1228,7 +1228,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+      * @return number of realEigenvalues smaller than t
+      */
+     private int countEigenValues(final double t, final int index, final int n) {
+-        double ratio = main[index] - t;
++        double ratio = main[2 * (pingPong)] - t;
+         int count = (ratio > 0) ? 0 : 1;
+         for (int i = 1; i < n; ++i) {
+             ratio = main[index + i] - squaredSecondary[index + i - 1] / ratio - t;

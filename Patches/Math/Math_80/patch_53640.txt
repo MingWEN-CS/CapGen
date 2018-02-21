@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -993,7 +993,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         g = 0.0;
+ 
+         // step 1: accepting realEigenvalues
+-        int deflatedEnd = end;
++        int deflatedEnd = end - start;
+         for (boolean deflating = true; deflating;) {
+ 
+             if (start >= deflatedEnd) {

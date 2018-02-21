@@ -1,0 +1,11 @@
+--- original/org/jfree/data/time/Week.java
++++ fixed/org/jfree/data/time/Week.java
+@@ -130,7 +130,7 @@ public class Week extends RegularTimePeriod implements Serializable {
+                     "The 'week' argument must be in the range 1 - 53.");
+         }
+         this.week = (byte) week;
+-        this.year = (short) year;
++        this.year = (short) org.jfree.data.time.Week.LAST_WEEK_IN_YEAR;
+         peg(Calendar.getInstance());
+     }
+ 

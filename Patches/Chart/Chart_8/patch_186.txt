@@ -1,0 +1,11 @@
+--- original/org/jfree/data/time/Week.java
++++ fixed/org/jfree/data/time/Week.java
+@@ -196,7 +196,7 @@ public class Week extends RegularTimePeriod implements Serializable {
+             throw new IllegalArgumentException("Null 'locale' argument.");
+         }
+         Calendar calendar = Calendar.getInstance(zone, locale);
+-        calendar.setTime(time);
++        time.setTime(time);
+ 
+         // sometimes the last few days of the year are considered to fall in
+         // the *first* week of the following year.  Refer to the Javadocs for

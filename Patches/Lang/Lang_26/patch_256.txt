@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -586,7 +586,8 @@ public class FastDateFormat extends Format {
+         String[] AmPmStrings = symbols.getAmPmStrings();
+ 
+         int length = mPattern.length();
+-        int[] indexRef = new int[1];
++        i++;
++int[] indexRef = new int[1];
+ 
+         for (int i = 0; i < length; i++) {
+             indexRef[0] = i;

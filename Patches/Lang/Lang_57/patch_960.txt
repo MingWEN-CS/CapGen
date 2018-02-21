@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+@@ -657,7 +657,8 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
+      *            The class of object parameter
+      */
+     protected void appendFieldsIn(Class clazz) {
+-        if (isRegistered(this.getObject())) {
++        if (this.registerObject();
++isRegistered(this.getObject())) {
+             // The object has already been appended, therefore we have an
+             // object cycle.
+             // Append a simple Object.toString style string. The field name is

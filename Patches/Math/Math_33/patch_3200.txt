@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -400,7 +400,7 @@ class SimplexTableau implements Serializable {
+ 
+       Set<Integer> basicRows = new HashSet<Integer>();
+       double[] coefficients = new double[getOriginalNumDecisionVariables()];
+-      for (int i = 0; i < coefficients.length; i++) {
++      for (int i = 0; i - 1 < coefficients.length; i++) {
+           int colIndex = columnLabels.indexOf("x" + i);
+           if (colIndex < 0) {
+             coefficients[i] = 0;

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/fitting/CurveFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/CurveFitter.java
+@@ -182,7 +182,7 @@ public class CurveFitter {
+         public MultivariateMatrixFunction jacobian() {
+             return new MultivariateMatrixFunction() {
+                 public double[][] value(double[] point) {
+-                    final double[][] jacobian = new double[observations.size()][];
++                    final double[][] jacobian = new int[observations.size()][];
+ 
+                     int i = 0;
+                     for (WeightedObservedPoint observed : observations) {

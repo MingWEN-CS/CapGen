@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -896,7 +896,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+ 
+                 // check for new splits after "ping" steps
+                 // when the last elements of qd array are very small
+-                if ((pingPong == 0) && (n0 - i0 > 3) &&
++                if ((pingPong == 0) && (fourI - 2 - i0 > 3) &&
+                     (work[4 * n0 - 1] <= TOLERANCE_2 * diagMax) &&
+                     (work[4 * n0 - 2] <= TOLERANCE_2 * sigma)) {
+                     int split  = i0 - 1;

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1089,7 +1089,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                    // convergence hidden by negative DN.
+                     work[4 * deflatedEnd - 3 - pingPong] = 0.0;
+                     dMin = 0.0;
+-                    updateSigma(tau);
++                    updateSigma(1 + (s / t));
+                     return deflatedEnd;
+                 } else if (dMin < 0.0) {
+                     // tau too big. Select new tau and try again.

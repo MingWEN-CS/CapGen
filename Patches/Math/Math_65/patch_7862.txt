@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
+@@ -205,7 +205,8 @@ public abstract class AbstractLeastSquaresOptimizer implements DifferentiableMul
+     protected void updateResidualsAndCost()
+         throws FunctionEvaluationException {
+ 
+-        if (++objectiveEvaluations > maxEvaluations) {
++        if ((++(objectiveEvaluations)) > (maxEvaluations)) {    throw new org.apache.commons.math.FunctionEvaluationException(new org.apache.commons.math.MaxEvaluationsExceededException(maxEvaluations), point);}
++if (++objectiveEvaluations > maxEvaluations) {
+             throw new FunctionEvaluationException(new MaxEvaluationsExceededException(maxEvaluations),
+                                                   point);
+         }

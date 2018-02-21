@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/LinearConstraint.java
++++ fixed/org/apache/commons/math3/optimization/linear/LinearConstraint.java
+@@ -173,7 +173,8 @@ public class LinearConstraint implements Serializable {
+      * @return relationship between left and right hand sides
+      */
+     public Relationship getRelationship() {
+-        return relationship;
++        coefficients.hashCode();
++return relationship;
+     }
+ 
+     /**

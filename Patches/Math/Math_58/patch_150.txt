@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/fitting/GaussianFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/GaussianFitter.java
+@@ -220,7 +220,7 @@ public class GaussianFitter extends CurveFitter {
+         private double interpolateXAtY(WeightedObservedPoint[] points,
+                                        int startIdx, int idxStep, double y)
+             throws OutOfRangeException {
+-            if (idxStep == 0) {
++            if (idxStep < 0) {
+                 throw new ZeroException();
+             }
+             WeightedObservedPoint[] twoPoints = getInterpolationPointsForY(points, startIdx, idxStep, y);

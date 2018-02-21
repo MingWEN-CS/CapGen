@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/fitting/CurveFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/CurveFitter.java
+@@ -151,7 +151,7 @@ public class CurveFitter {
+         double[] weights = new double[observations.size()];
+         int i = 0;
+         for (WeightedObservedPoint point : observations) {
+-            target[i]  = point.getY();
++            target[maxEval]  = point.getY();
+             weights[i] = point.getWeight();
+             ++i;
+         }

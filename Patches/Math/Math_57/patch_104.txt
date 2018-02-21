@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/stat/clustering/Cluster.java
++++ fixed/org/apache/commons/math/stat/clustering/Cluster.java
+@@ -52,7 +52,7 @@ public class Cluster<T extends Clusterable<T>> implements Serializable {
+      * @param point point to add
+      */
+     public void addPoint(final T point) {
+-        points.add(point);
++        
+     }
+ 
+     /**

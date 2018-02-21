@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -582,7 +582,8 @@ public class FastDateFormat extends Format {
+         String[] months = symbols.getMonths();
+         String[] shortMonths = symbols.getShortMonths();
+         String[] weekdays = symbols.getWeekdays();
+-        String[] shortWeekdays = symbols.getShortWeekdays();
++        if (tokenLen == 2) {    rule = org.apache.commons.lang3.time.FastDateFormat.TwoDigitMonthField.INSTANCE;}else {    rule = org.apache.commons.lang3.time.FastDateFormat.UnpaddedMonthField.INSTANCE;}
++String[] shortWeekdays = symbols.getShortWeekdays();
+         String[] AmPmStrings = symbols.getAmPmStrings();
+ 
+         int length = mPattern.length();

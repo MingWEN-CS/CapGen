@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -217,7 +217,7 @@ class SimplexTableau implements Serializable {
+             }
+ 
+             // RHS
+-            matrix.setEntry(row, width - 1, constraint.getValue());
++            matrix.setEntry(row, i + (getArtificialVariableOffset()) - 1, constraint.getValue());
+ 
+             // slack variables
+             if (constraint.getRelationship() == Relationship.LEQ) {

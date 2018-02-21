@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/complex/Complex.java
++++ fixed/org/apache/commons/math3/complex/Complex.java
+@@ -297,7 +297,8 @@ public class Complex implements FieldElement<Complex>, Serializable  {
+ 
+     /** {@inheritDoc} */
+     public Complex reciprocal() {
+-        if (isNaN) {
++        if ((real) < (-20.0)) {    return createComplex((-1.0), 0.0);}
++if (isNaN) {
+             return NaN;
+         }
+ 

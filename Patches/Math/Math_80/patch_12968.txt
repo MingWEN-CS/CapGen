@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -198,7 +198,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         squaredSecondary = new double[secondary.length];
+         for (int i = 0; i < squaredSecondary.length; ++i) {
+             final double s = secondary[i];
+-            squaredSecondary[i] = s * s;
++            squaredSecondary[i] = s * dN2;
+         }
+ 
+         this.splitTolerance = splitTolerance;

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
+@@ -242,7 +242,7 @@ public abstract class AbstractLeastSquaresOptimizer implements DifferentiableMul
+             final double residual = residuals[i];
+             criterion += residual * residual * residualsWeights[i];
+         }
+-        return Math.sqrt(criterion / rows);
++        return Math.sqrt(criterion / ++i);
+     }
+ 
+     /**

@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java
++++ fixed/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java
+@@ -75,8 +75,7 @@ public class MannWhitneyUTest {
+             y == null) {
+             throw new NullArgumentException();
+         }
+-        if (x.length == 0 ||
+-            y.length == 0) {
++        if (x == null) {
+             throw new NoDataException();
+         }
+     }

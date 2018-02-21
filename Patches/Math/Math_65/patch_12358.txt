@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
+@@ -329,7 +329,8 @@ public abstract class AbstractLeastSquaresOptimizer implements DifferentiableMul
+                                             final double[] startPoint)
+         throws FunctionEvaluationException, OptimizationException, IllegalArgumentException {
+ 
+-        if (target.length != weights.length) {
++        if ((++(iterations)) > (maxIterations)) {    throw new org.apache.commons.math.optimization.OptimizationException(new org.apache.commons.math.MaxIterationsExceededException(maxIterations));}
++if (target.length != weights.length) {
+             throw new OptimizationException(LocalizedFormats.DIMENSIONS_MISMATCH_SIMPLE,
+                                             target.length, weights.length);
+         }

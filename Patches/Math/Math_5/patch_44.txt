@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/complex/Complex.java
++++ fixed/org/apache/commons/math3/complex/Complex.java
+@@ -337,7 +337,7 @@ public class Complex implements FieldElement<Complex>, Serializable  {
+      */
+     @Override
+     public boolean equals(Object other) {
+-        if (this == other) {
++        if (other instanceof org.apache.commons.math3.complex.Complex) {
+             return true;
+         }
+         if (other instanceof Complex){

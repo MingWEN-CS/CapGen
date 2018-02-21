@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -742,8 +742,7 @@ public class FastDateFormat extends Format {
+                     } else {
+                         inLiteral = !inLiteral;
+                     }
+-                } else if (!inLiteral &&
+-                         (c >= 'A' && c <= 'Z' || c >= 'a' && c <= 'z')) {
++                } else if (peek == c) {
+                     i--;
+                     break;
+                 } else {

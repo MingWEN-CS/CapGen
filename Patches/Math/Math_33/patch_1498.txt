@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexSolver.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexSolver.java
+@@ -122,7 +122,8 @@ public class SimplexSolver extends AbstractLinearOptimizer {
+             }
+           }
+         }
+-        return minRatioPositions.get(0);
++        doIteration(tableau);
++return minRatioPositions.get(0);
+     }
+ 
+     /**

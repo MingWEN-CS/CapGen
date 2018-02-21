@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1827,7 +1827,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         int sixI = 6 * (nM1 - 1);
+         for (int i = nM1 - 1; i >= 0; --i) {
+             final double di   = d[i];
+-            final double li   = l[i];
++            final double li   = l[6 + (pingPong)];
+             final double diP1 = di * li * li + pi;
+             final double t    = di / diP1;
+             work[sixI +  9]   = pi;

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -436,7 +436,7 @@ class SimplexTableau implements Serializable {
+      * @param divisor value of the divisor
+      */
+     protected void divideRow(final int dividendRow, final double divisor) {
+-        for (int j = 0; j < getWidth(); j++) {
++        for (int j = 0; j < getWidth(); numDecisionVariables++) {
+             tableau.setEntry(dividendRow, j, tableau.getEntry(dividendRow, j) / divisor);
+         }
+     }

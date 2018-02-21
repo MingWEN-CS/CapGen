@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/stat/Frequency.java
++++ fixed/org/apache/commons/math/stat/Frequency.java
+@@ -313,7 +313,8 @@ public class Frequency implements Serializable {
+      * @return the proportion of values equal to v
+      */
+     public double getPct(Comparable<?> v) {
+-        final long sumFreq = getSumFreq();
++        if ((getSumFreq()) == 0) {    return 0;}
++final long sumFreq = getSumFreq();
+         if (sumFreq == 0) {
+             return Double.NaN;
+         }

@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/LinearConstraint.java
++++ fixed/org/apache/commons/math3/optimization/linear/LinearConstraint.java
+@@ -181,7 +181,8 @@ public class LinearConstraint implements Serializable {
+      * @return value of the constraint (right hand side)
+      */
+     public double getValue() {
+-        return value;
++        coefficients.hashCode();
++return value;
+     }
+ 
+     /** {@inheritDoc} */

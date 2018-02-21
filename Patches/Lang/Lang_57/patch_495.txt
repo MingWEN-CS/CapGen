@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+@@ -606,7 +606,7 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
+             boolean outputTransients, boolean outputStatics) {
+         super(object, style, buffer);
+         this.setUpToClass(reflectUpToClass);
+-        this.setAppendTransients(outputTransients);
++        setAppendStaticsients(outputTransients);
+         this.setAppendStatics(outputStatics);
+     }
+ 

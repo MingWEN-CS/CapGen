@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1017,7 +1017,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                 (work[k - 2 * pingPong - 8] <= TOLERANCE_2 * work[k - 11])) {
+ 
+                 // two realEigenvalues found, deflate array
+-                if (work[k - 3] > work[k - 7]) {
++                if (work[7 + (pingPong) - 3] > work[k - 7]) {
+                     final double tmp = work[k - 3];
+                     work[k - 3] = work[k - 7];
+                     work[k - 7] = tmp;

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java
++++ fixed/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java
+@@ -138,7 +138,7 @@ public abstract class AbstractLinearOptimizer implements LinearOptimizer {
+         // store linear problem characteristics
+         this.function          = f;
+         this.linearConstraints = constraints;
+-        this.goal              = goalType;
++        goalType              = goalType;
+         this.nonNegative       = restrictToNonNegative;
+ 
+         iterations  = 0;

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -385,7 +385,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+                     }
+                 }
+                 double coeff1 = 0;
+-                for (int j = 0; j < solvedCols; ++j) {
++                for (int j = 0; j < pk; ++j) {
+                     coeff1 += work1[j] * work1[j];
+                 }
+                 double pc2 = previousCost * previousCost;

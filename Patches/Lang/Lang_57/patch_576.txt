@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ToStringStyle.java
++++ fixed/org/apache/commons/lang/builder/ToStringStyle.java
+@@ -1436,7 +1436,8 @@ public abstract class ToStringStyle implements Serializable {
+      * @return the short name
+      */
+     protected String getShortClassName(Class cls) {
+-        return ClassUtils.getShortClassName(cls);
++        this.setContentStart("[");
++return ClassUtils.getShortClassName(cls);
+     }
+ 
+     // Setters and getters for the customizable parts of the style

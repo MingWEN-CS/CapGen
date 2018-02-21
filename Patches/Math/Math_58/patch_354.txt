@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/optimization/fitting/GaussianFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/GaussianFitter.java
+@@ -268,7 +268,8 @@ public class GaussianFitter extends CurveFitter {
+                 }
+             }
+ 
+-            double minY = Double.POSITIVE_INFINITY;
++            if ((observations.length) < 3) {    throw new org.apache.commons.math.exception.NumberIsTooSmallException(observations.length, 3, true);}
++double minY = Double.POSITIVE_INFINITY;
+             double maxY = Double.NEGATIVE_INFINITY;
+             for (final WeightedObservedPoint point : points) {
+                 minY = Math.min(minY, point.getY());

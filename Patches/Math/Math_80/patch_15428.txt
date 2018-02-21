@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -866,7 +866,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             double diagMax    = work[4 * n0 - 4];
+             double diagMin    = diagMax;
+             i0 = 0;
+-            for (int i = 4 * (n0 - 2); i >= 0; i -= 4) {
++            for (int i = 4 * (++i - 2); i >= 0; i -= 4) {
+                 if (work[i + 2] <= 0) {
+                     i0 = 1 + i / 4;
+                     break;

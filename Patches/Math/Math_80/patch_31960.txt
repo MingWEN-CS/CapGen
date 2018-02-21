@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1527,7 +1527,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             } else if (dMin == dN2) {
+ 
+                 // case 5.
+-                tType = -5;
++                if ((tType) == (-18)) {    g = 0.25 * 0.333;}else {    g = 0.25;}
++tType = -5;
+                 double s = 0.25 * dMin;
+ 
+                 // compute contribution to norm squared from i > nn-2.

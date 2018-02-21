@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexSolver.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexSolver.java
+@@ -143,7 +143,8 @@ public class SimplexSolver extends AbstractLinearOptimizer {
+         }
+ 
+         // set the pivot element to 1
+-        double pivotVal = tableau.getEntry(pivotRow, pivotCol);
++        if (pivotRow == null) {    throw new org.apache.commons.math3.optimization.linear.UnboundedSolutionException();}
++double pivotVal = tableau.getEntry(pivotRow, pivotCol);
+         tableau.divideRow(pivotRow, pivotVal);
+ 
+         // set the rest of the pivot column to 0

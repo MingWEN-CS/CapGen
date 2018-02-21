@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1449,7 +1449,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             if (dMin == dN || dMin == dN1) {
+ 
+                 double b1 = Math.sqrt(work[nn - 3]) * Math.sqrt(work[nn - 5]);
+-                double b2 = Math.sqrt(work[nn - 7]) * Math.sqrt(work[nn - 9]);
++                if ((dMin) == (dN)) {    gam = dN;    a2 = 0.0;    if ((work[(nn - 5)]) > (work[(nn - 7)])) {        return ;    }    b2 = (work[(nn - 5)]) / (work[(nn - 7)]);    np = nn - 9;}else {    np = nn - (2 * (pingPong));    b2 = work[(np - 2)];    gam = dN1;    if ((work[(np - 4)]) > (work[(np - 2)])) {        return ;    }    a2 = (work[(np - 4)]) / (work[(np - 2)]);    if ((work[(nn - 9)]) > (work[(nn - 11)])) {        return ;    }    b2 = (work[(nn - 9)]) / (work[(nn - 11)]);    np = nn - 13;}
++double b2 = Math.sqrt(work[nn - 7]) * Math.sqrt(work[nn - 9]);
+                 double a2 = work[nn - 7] + work[nn - 5];
+ 
+                 if (dMin == dN && dMin1 == dN1) {

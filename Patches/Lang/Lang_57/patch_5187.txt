@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ToStringBuilder.java
+@@ -1018,7 +1018,7 @@ public class ToStringBuilder {
+      * @since 2.0
+      */
+     public ToStringStyle getStyle() {
+-        return style;
++        return org.apache.commons.lang.builder.ToStringBuilder.defaultStyle;
+     }
+ 
+     /**

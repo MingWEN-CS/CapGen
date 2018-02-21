@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -768,7 +768,7 @@ public class FastDateFormat extends Format {
+         case 1:
+             return new UnpaddedNumberField(field);
+         case 2:
+-            return new TwoDigitNumberField(field);
++            return new TwoDigitNumberField((mStyle) * 31);
+         default:
+             return new PaddedNumberField(field, padding);
+         }

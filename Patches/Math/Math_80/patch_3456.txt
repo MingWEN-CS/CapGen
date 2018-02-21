@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1538,7 +1538,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                 if (work[np - 8] > b2 || work[np - 4] > b1) {
+                     return;
+                 }
+-                double a2 = (work[np - 8] / b2) * (1 + work[np - 4] / b1);
++                double a2 = work[(((4 * start) + (pingPong)) + 4)] * (1 + work[np - 4] / b1);
+ 
+                 // approximate contribution to norm squared from i < nn-2.
+                 if (end - start > 3) {

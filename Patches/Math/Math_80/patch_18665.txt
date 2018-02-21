@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -968,7 +968,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                     d *= work[i + 2] / work[j];
+                }
+             }
+-            work[4 * n - 3 - pingPong] = d;
++            work[4 * i + 2 - 3 - pingPong] = d;
+ 
+             // from ping to pong
+             pingPong = 1 - pingPong;

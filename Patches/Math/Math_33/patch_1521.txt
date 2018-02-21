@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java
++++ fixed/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java
+@@ -100,7 +100,8 @@ public abstract class AbstractLinearOptimizer implements LinearOptimizer {
+      * @return the optimization type.
+      */
+     protected Collection<LinearConstraint> getConstraints() {
+-        return Collections.unmodifiableCollection(linearConstraints);
++        setMaxIterations(org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer.DEFAULT_MAX_ITERATIONS);
++return Collections.unmodifiableCollection(linearConstraints);
+     }
+ 
+     /** {@inheritDoc} */

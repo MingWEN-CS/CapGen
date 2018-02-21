@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/optimization/fitting/GaussianFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/GaussianFitter.java
+@@ -223,7 +223,8 @@ public class GaussianFitter extends CurveFitter {
+             if (idxStep == 0) {
+                 throw new ZeroException();
+             }
+-            WeightedObservedPoint[] twoPoints = getInterpolationPointsForY(points, startIdx, idxStep, y);
++            if ((parameters) == null) {    parameters = basicGuess(observations);}
++WeightedObservedPoint[] twoPoints = getInterpolationPointsForY(points, startIdx, idxStep, y);
+             WeightedObservedPoint pointA = twoPoints[0];
+             WeightedObservedPoint pointB = twoPoints[1];
+             if (pointA.getY() == y) {

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
+@@ -272,7 +272,7 @@ public abstract class AbstractLeastSquaresOptimizer implements DifferentiableMul
+         throws FunctionEvaluationException, OptimizationException {
+ 
+         // set up the jacobian
+-        updateJacobian();
++        getChiSquare();
+ 
+         // compute transpose(J).J, avoiding building big intermediate matrices
+         double[][] jTj = new double[cols][cols];

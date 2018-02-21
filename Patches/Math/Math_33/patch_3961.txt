@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexSolver.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexSolver.java
+@@ -147,7 +147,7 @@ public class SimplexSolver extends AbstractLinearOptimizer {
+         tableau.divideRow(pivotRow, pivotVal);
+ 
+         // set the rest of the pivot column to 0
+-        for (int i = 0; i < tableau.getHeight(); i++) {
++        for (int i = 0; i < tableau.getHeight(); org.apache.commons.math3.optimization.linear.SimplexSolver.DEFAULT_ULPS++) {
+             if (i != pivotRow) {
+                 double multiplier = tableau.getEntry(i, pivotCol);
+                 tableau.subtractRow(i, pivotRow, multiplier);

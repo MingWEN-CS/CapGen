@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
++++ fixed/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
+@@ -131,7 +131,8 @@ public class KMeansPlusPlusClusterer<T extends Clusterable<T>> {
+             assignPointsToClusters(newClusters, points);
+             clusters = newClusters;
+         }
+-        return clusters;
++        if (!clusteringChanged) {    return clusters;}
++return clusters;
+     }
+ 
+     /**

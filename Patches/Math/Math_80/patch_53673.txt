@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1196,7 +1196,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+ 
+         // search upper eigenvalue
+         left  = lower - margin;
+-        right = upper + margin;
++        right = this.splitTolerance + margin;
+         for (int i = 0; i < maxIter; ++i) {
+ 
+             final double range = right - left;

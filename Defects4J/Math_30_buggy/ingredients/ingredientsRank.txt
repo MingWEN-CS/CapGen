@@ -1,0 +1,388 @@
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3447::::3465::::x.length) + (y.length::::(x.length) * (y.length)	false	1.2579166666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::231::::8796::::8803::::y.length::::x.length	false	1.3018666666666665
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3562::::3569::::y.length::::x.length	false	1.3440666666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5526::::5552::::(x.length) * ((x.length) + 1)::::((x.length) * ((x.length) + 1)) / 2	false	1.3678833333333331
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5538::::5551::::(x.length) + 1::::(x.length) * ((x.length) + 1)	false	1.4101666666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::177::::6598::::6604::::n1 + n2::::(n1 + n2) + 1	false	1.4384666666666668
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5538::::5551::::(x.length) + 1::::((x.length) * ((x.length) + 1)) / 2	false	1.4622
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::177::::6597::::6609::::(n1 + n2) + 1::::n1 * n2	false	1.4876166666666668
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::177::::6598::::6604::::n1 + n2::::n1 * n2	false	1.5132
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8710::::8735::::((x.length) * (y.length)) - Umax::::calculateAsymptoticPValue(Umin, x.length, y.length)	false	1.53165
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::173::::6422::::6428::::n1 * n2::::n1 + n2	false	1.5492
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::173::::6422::::6428::::n1 * n2::::(n1 + n2) + 1	false	1.5668499999999999
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3447::::3465::::x.length) + (y.length::::y.length	false	1.5855666666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3447::::3465::::x.length) + (y.length::::x.length	false	1.6040166666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::177::::6597::::6609::::(n1 + n2) + 1::::n1n2prod * ((n1 + n2) + 1)	false	1.6275166666666665
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::177::::6598::::6604::::n1 + n2::::n1n2prod * ((n1 + n2) + 1)	false	1.64975
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::177::::6586::::6609::::n1n2prod * ((n1 + n2) + 1)::::n1 * n2	false	1.6752833333333332
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5659::::5682::::((x.length) * (y.length)) - U1::::sumRankX - (((x.length) * ((x.length) + 1)) / 2)	false	1.7104
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::173::::6422::::6428::::n1 * n2::::n1n2prod * ((n1 + n2) + 1)	false	1.7258333333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5526::::5556::::((x.length) * ((x.length) + 1)) / 2::::(x.length) * (y.length)	false	1.7521666666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5526::::5552::::(x.length) * ((x.length) + 1)::::(x.length) * (y.length)	false	1.7964333333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5538::::5551::::(x.length) + 1::::(x.length) * (y.length)	false	1.82145
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::95::::3589::::3589::::z::::y	false	1.8464
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::95::::3589::::3589::::z::::x	false	1.8703333333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3562::::3562::::y::::x	false	1.8941000000000001
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3549::::3549::::z::::y	false	1.9202000000000001
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3549::::3549::::z::::x	false	1.9505833333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3543::::3543::::y::::x	false	1.9831
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::92::::3501::::3501::::z::::y	false	2.0095833333333335
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::92::::3501::::3501::::z::::x	false	2.0350166666666665
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3458::::3458::::y::::x	false	2.0622333333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::231::::8796::::8796::::y::::x	false	2.0869
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8732::::8735::::Umax::::Umin	false	2.1035666666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8721::::8721::::y::::x	false	2.128
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::224::::8604::::8604::::y::::x	false	2.1516333333333337
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::224::::8588::::8599::::mannWhitneyU::::ensureDataConformance	false	2.16855
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::224::::8588::::8599::::mannWhitneyU::::concatenateSamples	false	2.1895666666666664
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::179::::6673::::6676::::VarU::::Umin - EU	false	2.214583333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::179::::6673::::6676::::VarU::::Umin	false	2.2315666666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::155::::5718::::5719::::U2::::U1	false	2.247983333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5670::::5670::::y::::x	false	2.26585
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::132::::5045::::5045::::z::::y	false	2.2833166666666664
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::132::::5045::::5045::::z::::x	false	2.30165
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::131::::4990::::4990::::y::::x	false	2.3188166666666663
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::129::::4936::::4936::::y::::x	false	2.3352999999999997
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::177::::6603::::6604::::n2::::n1n2prod	false	2.3523
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::177::::6598::::6599::::n1::::n1n2prod	false	2.370433333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::179::::6653::::6654::::EU::::VarU	false	2.402083333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::179::::6653::::6654::::EU::::Umin - EU	false	2.468033333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::179::::6673::::6676::::VarU::::z	false	2.4909666666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::141::::5300::::5304::::ranks::::y	false	2.515433333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::141::::5300::::5304::::ranks::::x	false	2.5494833333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::179::::6653::::6654::::EU::::z	false	2.578016666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5515::::5556::::sumRankX - (((x.length) * ((x.length) + 1)) / 2)::::((x.length) * (y.length)) - U1	false	2.59285
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::173::::6427::::6428::::n2::::n1n2prod	false	2.6055166666666665
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::173::::6422::::6423::::n1::::n1n2prod	false	2.629966666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::78::::3078::::3090::::(x.length) == 0::::(x.length) == 0) || ((y.length) == 0	false	2.6402
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::155::::5718::::5719::::U2::::sumRankX	false	2.6691
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::183::::6818::::6818::::z::::Umin	false	2.7091833333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3447::::3465::::x.length) + (y.length::::(x.length) + 1	false	2.7314333333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3447::::3465::::x.length) + (y.length::::(x.length) * ((x.length) + 1)	false	2.7718833333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3447::::3465::::x.length) + (y.length::::((x.length) * ((x.length) + 1)) / 2	false	2.8085166666666668
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::222::::8555::::8555::::y::::x	false	2.8316999999999997
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::183::::6818::::6818::::z::::Umin - EU	false	2.854133333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::141::::5288::::5295::::sumRankX::::U1	false	2.8792666666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5515::::5522::::sumRankX::::U1	false	2.9066833333333335
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::179::::6673::::6676::::VarU::::EU	false	2.9406166666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8710::::8735::::((x.length) * (y.length)) - Umax::::mannWhitneyU(x, y)	false	3.004433333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::78::::3078::::3119::::(x.length) == 0) || ((y.length) == 0::::x == null) || (y == null	false	3.016033333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::176::::6542::::6549::::n1n2prod::::n2	false	3.0668166666666665
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::176::::6542::::6549::::n1n2prod::::n1	false	3.1398333333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::183::::6818::::6818::::z::::VarU	false	3.2255666666666665
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::131::::4968::::4985::::concatenateSamples::::ensureDataConformance	false	3.2560000000000002
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::141::::5300::::5304::::ranks::::z	false	3.2975333333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::141::::5300::::5304::::ranks::::concatenateSamples(x, y)	false	3.3406499999999997
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5527::::5534::::x.length::::y.length	false	3.3863333333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::183::::6818::::6818::::z::::EU	false	3.4330166666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::92::::3507::::3514::::x.length::::y.length	false	3.4712
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3552::::3559::::x.length::::y.length	false	3.4989666666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::222::::8530::::8550::::ensureDataConformance::::concatenateSamples	false	3.5259666666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::129::::4911::::4931::::ensureDataConformance::::concatenateSamples	false	3.5530166666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5259::::5266::::x.length::::y.length	false	3.57865
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5526::::5556::::((x.length) * ((x.length) + 1)) / 2::::y.length	false	3.611883333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5526::::5552::::(x.length) * ((x.length) + 1)::::y.length	false	3.6492
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5538::::5551::::(x.length) + 1::::y.length	false	3.6849166666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::74::::2971::::3004::::x == null) || (y == null::::(x.length) == 0) || ((y.length) == 0	false	3.7034666666666665
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::231::::8796::::8803::::y.length::::(x.length) * (y.length)	false	3.7495666666666665
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5670::::5677::::y.length::::(x.length) * (y.length)	false	3.8164000000000002
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5659::::5677::::(x.length) * (y.length)::::(x.length) + 1	false	3.8750666666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5659::::5677::::(x.length) * (y.length)::::(x.length) * ((x.length) + 1)	false	3.9367
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8710::::8728::::(x.length) * (y.length)::::(x.length) + 1	false	3.991233333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8710::::8728::::(x.length) * (y.length)::::(x.length) * ((x.length) + 1)	false	4.024416666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8710::::8728::::(x.length) * (y.length)::::((x.length) * ((x.length) + 1)) / 2	false	4.064666666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::78::::3078::::3090::::(x.length) == 0::::(y.length) == 0	false	4.09465
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5659::::5677::::(x.length) * (y.length)::::((x.length) * ((x.length) + 1)) / 2	false	4.135083333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::231::::8786::::8793::::x.length::::y.length	false	4.171683333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3458::::3465::::y.length::::(x.length) * (y.length)	false	4.229383333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8721::::8728::::y.length::::(x.length) * (y.length)	false	4.273466666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5539::::5546::::x.length::::y.length	false	4.30065
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::131::::4987::::4987::::x::::y	false	4.3293
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5659::::5659::::x::::y	false	4.358783333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::231::::8786::::8786::::x::::y	false	4.387833333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5527::::5527::::x::::y	false	4.421916666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5539::::5539::::x::::y	false	4.447733333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::129::::4933::::4933::::x::::y	false	4.477133333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::92::::3495::::3495::::x::::y	false	4.506
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::92::::3507::::3507::::x::::y	false	4.533783333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8710::::8710::::x::::y	false	4.571233333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3552::::3552::::x::::y	false	4.6034999999999995
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3447::::3447::::x::::y	false	4.6319333333333335
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5259::::5259::::x::::y	false	4.6678500000000005
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::224::::8601::::8601::::x::::y	false	4.698849999999999
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::231::::8747::::8805::::return calculateAsymptoticPValue(Umin, x.length, y.length)::::INSERT::::STATEMENT::::ensureDataConformance(x, y)	false	4.758366666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8617::::8736::::final double Umin = ((x.length) * (y.length)) - Umax::::INSERT::::STATEMENT::::ensureDataConformance(x, y)	false	4.793116666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::224::::8568::::8606::::final double Umax = mannWhitneyU(x, y)::::INSERT::::STATEMENT::::ensureDataConformance(x, y)	false	4.818250000000001
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::155::::5694::::5721::::return org.apache.commons.math3.util.FastMath.max(U1, U2)::::INSERT::::STATEMENT::::ensureDataConformance(x, y)	false	4.847783333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5568::::5683::::final double U2 = ((x.length) * (y.length)) - U1::::INSERT::::STATEMENT::::ensureDataConformance(x, y)	false	4.867583333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::132::::5002::::5047::::final double[] ranks = naturalRanking.rank(z)::::INSERT::::STATEMENT::::ensureDataConformance(x, y)	false	4.885233333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::131::::4949::::4992::::final double[] z = concatenateSamples(x, y)::::INSERT::::STATEMENT::::ensureDataConformance(x, y)	false	4.905616666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::129::::4911::::4938::::ensureDataConformance(x, y)::::INSERT::::STATEMENT::::ensureDataConformance(x, y)	false	4.92675
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3562::::3569::::y.length::::(x.length) * (y.length)	false	4.9449000000000005
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::78::::3078::::3090::::(x.length) == 0::::x == null) || (y == null	false	4.9536
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::141::::5288::::5295::::sumRankX::::U2	false	4.966866666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::183::::6777::::6819::::2 * (standardNormal.cumulativeProbability(z))::::z	false	4.987366666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::173::::6422::::6428::::n1 * n2::::n2	false	5.005616666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::173::::6422::::6428::::n1 * n2::::n1	false	5.03085
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5515::::5522::::sumRankX::::U2	false	5.0479
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5681::::5682::::U1::::sumRankX	false	5.080533333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::173::::6427::::6428::::n2::::n1 + n2	false	5.104316666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::134::::5058::::5077::::double sumRankX = 0::::INSERT::::STATEMENT::::ensureDataConformance(x, y)	false	5.1319333333333335
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::177::::6603::::6604::::n2::::n1 * n2	false	5.158666666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::155::::5714::::5715::::U1::::sumRankX	false	5.184533333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::177::::6603::::6604::::n2::::n1 + n2	false	5.212283333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3549::::3549::::z::::concatenateSamples(x, y)	false	5.24185
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::177::::6603::::6604::::n2::::(n1 + n2) + 1	false	5.269866666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::173::::6427::::6428::::n2::::(n1 + n2) + 1	false	5.299666666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::92::::3501::::3501::::z::::concatenateSamples(x, y)	false	5.322100000000001
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::177::::6603::::6604::::n2::::n1n2prod * ((n1 + n2) + 1)	false	5.3415333333333335
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3526::::3571::::java.lang.System.arraycopy(y, 0, z, x.length, y.length)::::INSERT::::STATEMENT::::ensureDataConformance(x, y)	false	5.360133333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5329::::5557::::final double U1 = sumRankX - (((x.length) * ((x.length) + 1)) / 2)::::INSERT::::STATEMENT::::ensureDataConformance(x, y)	false	5.3789
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::173::::6427::::6428::::n2::::n1n2prod * ((n1 + n2) + 1)	false	5.399649999999999
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::78::::3078::::3085::::x.length::::y.length	false	5.432216666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::173::::6427::::6428::::n2::::n1 * n2	false	5.458633333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::74::::2971::::2971::::x::::y	false	5.48345
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::78::::3078::::3078::::x::::y	false	5.50955
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::222::::8552::::8552::::x::::y	false	5.535433333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::141::::5306::::5306::::i::::x.length	false	5.56365
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5271::::5271::::i::::x.length	false	5.581583333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::95::::3589::::3589::::z::::concatenateSamples(x, y)	false	5.608533333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3417::::3467::::final double[] z = new double[(x.length) + (y.length)]::::INSERT::::STATEMENT::::ensureDataConformance(x, y)	false	5.62725
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::222::::8530::::8557::::ensureDataConformance(x, y)::::INSERT::::STATEMENT::::ensureDataConformance(x, y)	false	5.6465000000000005
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::95::::3582::::3590::::return z::::INSERT::::STATEMENT::::ensureDataConformance(x, y)	false	5.6692833333333335
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::92::::3478::::3516::::java.lang.System.arraycopy(x, 0, z, 0, x.length)::::INSERT::::STATEMENT::::ensureDataConformance(x, y)	false	5.694983333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::132::::5045::::5045::::z::::concatenateSamples(x, y)	false	5.712833333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::177::::6598::::6599::::n1::::n1 + n2	false	5.7389
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::177::::6598::::6599::::n1::::n1 * n2	false	5.765266666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::177::::6598::::6599::::n1::::(n1 + n2) + 1	false	5.791633333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::177::::6598::::6599::::n1::::n1n2prod * ((n1 + n2) + 1)	false	5.820283333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::183::::6781::::6794::::standardNormal::::new org.apache.commons.math3.distribution.NormalDistribution(0, 1)	false	5.8574166666666665
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::74::::2971::::2979::::x == null::::x == null) || (y == null	false	5.871783333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5239::::5318::::for (int i = 0; i < (x.length); ++i) {    sumRankX += ranks[i];}::::INSERT::::STATEMENT::::ensureDataConformance(x, y)	false	5.898216666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::179::::6646::::6649::::Umin::::z	false	5.9161
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::179::::6646::::6649::::Umin::::VarU	false	5.942566666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8732::::8735::::Umax::::((x.length) * (y.length)) - Umax	false	5.96865
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::179::::6646::::6649::::Umin::::Umin - EU	false	5.99355
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::179::::6645::::6677::::Umin - EU) / (org.apache.commons.math3.util.FastMath.sqrt(VarU)::::VarU	false	6.021433333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::179::::6645::::6677::::Umin - EU) / (org.apache.commons.math3.util.FastMath.sqrt(VarU)::::Umin	false	6.04735
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::179::::6645::::6677::::Umin - EU) / (org.apache.commons.math3.util.FastMath.sqrt(VarU)::::EU	false	6.071916666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5515::::5556::::sumRankX - (((x.length) * ((x.length) + 1)) / 2)::::sumRankX	false	6.099866666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5244::::5246::::int::::double	false	6.1199
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::78::::3078::::3090::::(x.length) == 0::::x == null	false	6.145849999999999
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::173::::6407::::6409::::int::::double	true	6.187983333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5659::::5682::::((x.length) * (y.length)) - U1::::mannWhitneyU(x, y)	false	6.280183333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::177::::6586::::6616::::(n1n2prod * ((n1 + n2) + 1)) / 12.0::::n1n2prod / 2.0	false	6.300816666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::155::::5718::::5719::::U2::::sumRankX - (((x.length) * ((x.length) + 1)) / 2)	false	6.31935
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::155::::5718::::5719::::U2::::((x.length) * (y.length)) - U1	false	6.338416666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5271::::5271::::i::::y.length	false	6.354683333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5255::::5255::::i::::y.length	false	6.373266666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::141::::5306::::5306::::i::::y.length	false	6.392033333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5659::::5677::::(x.length) * (y.length)::::x.length) + (y.length	false	6.39975
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::173::::6422::::6423::::n1::::n1 + n2	false	6.41815
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8710::::8728::::(x.length) * (y.length)::::x.length) + (y.length	false	6.426983333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::176::::6542::::6555::::n1n2prod / 2.0::::(n1n2prod * ((n1 + n2) + 1)) / 12.0	false	6.445866666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::155::::5714::::5715::::U1::::U2	false	6.463816666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5681::::5682::::U1::::U2	false	6.4779
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::176::::6542::::6549::::n1n2prod::::n1 + n2	false	6.497883333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5670::::5677::::y.length::::(x.length) + 1	false	6.5334666666666665
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::177::::6586::::6593::::n1n2prod::::n1 + n2	false	6.563383333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::177::::6586::::6593::::n1n2prod::::n1 * n2	false	6.5952
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::176::::6542::::6549::::n1n2prod::::(n1 + n2) + 1	false	6.643583333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::177::::6586::::6593::::n1n2prod::::(n1 + n2) + 1	false	6.684833333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::176::::6542::::6549::::n1n2prod::::n1 * n2	false	6.70425
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5670::::5677::::y.length::::(x.length) * ((x.length) + 1)	false	6.733066666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::231::::8796::::8803::::y.length::::(x.length) + 1	false	6.767033333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::177::::6586::::6593::::n1n2prod::::n1n2prod * ((n1 + n2) + 1)	false	6.8413
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::176::::6542::::6549::::n1n2prod::::n1n2prod * ((n1 + n2) + 1)	false	6.8888
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::173::::6422::::6423::::n1::::(n1 + n2) + 1	false	6.946283333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8732::::8735::::Umax::::calculateAsymptoticPValue(Umin, x.length, y.length)	false	7.002266666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::231::::8796::::8803::::y.length::::(x.length) * ((x.length) + 1)	false	7.0559666666666665
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::231::::8796::::8803::::y.length::::((x.length) * ((x.length) + 1)) / 2	false	7.098933333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5670::::5677::::y.length::::((x.length) * ((x.length) + 1)) / 2	false	7.145833333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8710::::8735::::((x.length) * (y.length)) - Umax::::Umax	false	7.183133333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5659::::5682::::((x.length) * (y.length)) - U1::::U1	false	7.2115
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::173::::6422::::6423::::n1::::n1n2prod * ((n1 + n2) + 1)	false	7.23305
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5526::::5556::::((x.length) * ((x.length) + 1)) / 2::::x.length) + (y.length	false	7.244266666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5526::::5552::::(x.length) * ((x.length) + 1)::::x.length) + (y.length	false	7.257000000000001
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5538::::5551::::(x.length) + 1::::x.length) + (y.length	false	7.304883333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8721::::8728::::y.length::::(x.length) + 1	false	7.36045
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3458::::3465::::y.length::::(x.length) + 1	false	7.405516666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3458::::3465::::y.length::::(x.length) * ((x.length) + 1)	false	7.504933333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8721::::8728::::y.length::::(x.length) * ((x.length) + 1)	false	7.5825
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3458::::3465::::y.length::::((x.length) * ((x.length) + 1)) / 2	false	7.6769
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8721::::8728::::y.length::::((x.length) * ((x.length) + 1)) / 2	false	7.70425
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::173::::6422::::6423::::n1::::n1 * n2	false	7.739216666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3562::::3569::::y.length::::(x.length) + 1	false	7.762666666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3562::::3569::::y.length::::(x.length) * ((x.length) + 1)	false	7.8220833333333335
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3562::::3569::::y.length::::((x.length) * ((x.length) + 1)) / 2	false	7.861716666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::74::::2971::::2979::::x == null::::(x.length) == 0	false	7.908116666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5271::::5271::::i::::(x.length) * (y.length)	false	7.931383333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::141::::5288::::5295::::sumRankX::::sumRankX - (((x.length) * ((x.length) + 1)) / 2)	false	7.95425
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5255::::5255::::i::::(x.length) * (y.length)	false	8.009883333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5515::::5522::::sumRankX::::sumRankX - (((x.length) * ((x.length) + 1)) / 2)	false	8.050666666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::141::::5306::::5306::::i::::(x.length) * (y.length)	false	8.1047
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5670::::5677::::y.length::::i	false	8.132866666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::141::::5288::::5295::::sumRankX::::((x.length) * (y.length)) - U1	false	8.1598
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5515::::5522::::sumRankX::::((x.length) * (y.length)) - U1	false	8.178983333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::74::::2971::::3004::::x == null) || (y == null::::(y.length) == 0	false	8.20865
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::74::::2971::::3004::::x == null) || (y == null::::(x.length) == 0	false	8.2516
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::74::::2971::::2979::::x == null::::(x.length) == 0) || ((y.length) == 0	false	8.2646
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::231::::8786::::8793::::x.length::::(x.length) * (y.length)	false	8.332433333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5527::::5534::::x.length::::(x.length) * (y.length)	false	8.364116666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3552::::3559::::x.length::::(x.length) * (y.length)	false	8.394366666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5271::::5271::::i::::(x.length) + 1	false	8.418583333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5271::::5271::::i::::(x.length) * ((x.length) + 1)	false	8.428983333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5271::::5271::::i::::((x.length) * ((x.length) + 1)) / 2	false	8.441216666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8710::::8717::::x.length::::(x.length) * (y.length)	false	8.49425
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5255::::5255::::i::::(x.length) + 1	false	8.5236
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5255::::5255::::i::::(x.length) * ((x.length) + 1)	false	8.552116666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5255::::5255::::i::::((x.length) * ((x.length) + 1)) / 2	false	8.5799
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::141::::5306::::5306::::i::::(x.length) + 1	false	8.603533333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::141::::5306::::5306::::i::::(x.length) * ((x.length) + 1)	false	8.634983333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::141::::5306::::5306::::i::::((x.length) * ((x.length) + 1)) / 2	false	8.671016666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::92::::3507::::3514::::x.length::::(x.length) * (y.length)	false	8.713316666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::78::::3078::::3119::::(x.length) == 0) || ((y.length) == 0::::y == null	false	8.769283333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::78::::3078::::3119::::(x.length) == 0) || ((y.length) == 0::::x == null	false	8.829183333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3447::::3454::::x.length::::(x.length) * (y.length)	false	8.90395
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5259::::5266::::x.length::::(x.length) * (y.length)	false	8.932366666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5515::::5556::::sumRankX - (((x.length) * ((x.length) + 1)) / 2)::::mannWhitneyU(x, y)	false	9.010333333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5539::::5546::::x.length::::(x.length) * (y.length)	false	9.029816666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::78::::3078::::3085::::x.length::::(x.length) * (y.length)	false	9.047983333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::155::::5714::::5715::::U1::::sumRankX - (((x.length) * ((x.length) + 1)) / 2)	false	9.066383333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5681::::5682::::U1::::sumRankX - (((x.length) * ((x.length) + 1)) / 2)	false	9.086450000000001
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3526::::3571::::java.lang.System.arraycopy(y, 0, z, x.length, y.length)::::DELETE::::STATEMENT	false	9.112
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::92::::3478::::3516::::java.lang.System.arraycopy(x, 0, z, 0, x.length)::::DELETE::::STATEMENT	false	9.131033333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::155::::5714::::5715::::U1::::((x.length) * (y.length)) - U1	false	9.150133333333335
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5681::::5682::::U1::::((x.length) * (y.length)) - U1	false	9.170266666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5659::::5666::::x.length::::(x.length) * (y.length)	false	9.18875
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5670::::5677::::y.length::::x.length) + (y.length	false	9.19755
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5527::::5534::::x.length::::i	false	9.217016666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::231::::8796::::8803::::y.length::::x.length) + (y.length	false	9.243766666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::231::::8780::::8783::::Umin::::Umax	false	9.273266666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::129::::4911::::4931::::ensureDataConformance::::mannWhitneyU	false	9.302033333333332
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::129::::4911::::4938::::ensureDataConformance(x, y)::::DELETE::::STATEMENT	false	9.331
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8721::::8728::::y.length::::x.length) + (y.length	false	9.342883333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3458::::3465::::y.length::::x.length) + (y.length	false	9.354833333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3562::::3569::::y.length::::x.length) + (y.length	false	9.367616666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5670::::5670::::y::::z	false	9.39495
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3458::::3458::::y::::z	false	9.425533333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::131::::4968::::4985::::concatenateSamples::::mannWhitneyU	false	9.452583333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3562::::3562::::y::::z	false	9.481833333333332
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::222::::8530::::8550::::ensureDataConformance::::mannWhitneyU	false	9.506683333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5670::::5677::::y.length::::++i	false	9.519366666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::129::::4936::::4936::::y::::z	false	9.53215
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3543::::3543::::y::::z	false	9.549483333333335
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5659::::5666::::x.length::::i	false	9.5625
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::131::::4990::::4990::::y::::z	false	9.57495
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5539::::5546::::x.length::::i	false	9.5879
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3549::::3549::::z::::new double[(x.length) + (y.length)]	false	9.612616666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::92::::3501::::3501::::z::::new double[(x.length) + (y.length)]	false	9.637383333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::95::::3589::::3589::::z::::new double[(x.length) + (y.length)]	false	9.662683333333332
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::132::::5045::::5045::::z::::new double[(x.length) + (y.length)]	false	9.690266666666668
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5271::::5271::::i::::x.length) + (y.length	false	9.70265
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5255::::5255::::i::::x.length) + (y.length	false	9.714066666666668
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::141::::5306::::5306::::i::::x.length) + (y.length	false	9.72685
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::78::::3074::::3173::::if (((x.length) == 0) || ((y.length) == 0)) {    throw new org.apache.commons.math3.exception.NoDataException();}::::INSERT::::STATEMENT::::if (((x.length) == 0) || ((y.length) == 0)) {    throw new org.apache.commons.math3.exception.NoDataException();}	false	9.752883333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::74::::2967::::3064::::if ((x == null) || (y == null)) {    throw new org.apache.commons.math3.exception.NullArgumentException();}::::INSERT::::STATEMENT::::if ((x == null) || (y == null)) {    throw new org.apache.commons.math3.exception.NullArgumentException();}	false	9.7813
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5670::::5670::::y::::concatenateSamples(x, y)	false	9.797400000000001
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::129::::4936::::4936::::y::::concatenateSamples(x, y)	false	9.8153
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8721::::8721::::y::::concatenateSamples(x, y)	false	9.833733333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::224::::8604::::8604::::y::::concatenateSamples(x, y)	false	9.855316666666665
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3543::::3543::::y::::concatenateSamples(x, y)	false	9.8827
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::231::::8796::::8796::::y::::concatenateSamples(x, y)	false	9.904283333333332
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3562::::3562::::y::::concatenateSamples(x, y)	false	9.931516666666665
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3458::::3458::::y::::concatenateSamples(x, y)	false	9.9633
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5647::::5652::::double::::int	false	9.977633333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::176::::6530::::6535::::double::::int	false	10.004966666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::177::::6572::::6577::::double::::int	false	10.032649999999999
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::134::::5058::::5063::::double::::int	false	10.05855
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::179::::6634::::6639::::double::::int	false	10.077633333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5503::::5508::::double::::int	false	10.09705
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8696::::8701::::double::::int	false	10.115966666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3440::::3445::::double::::int	false	10.135616666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::224::::8574::::8579::::double::::int	false	10.156766666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5259::::5259::::x::::z	false	10.184016666666668
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::78::::3074::::3173::::if (((x.length) == 0) || ((y.length) == 0)) {    throw new org.apache.commons.math3.exception.NoDataException();}::::INSERT::::STATEMENT::::if ((x == null) || (y == null)) {    throw new org.apache.commons.math3.exception.NullArgumentException();}	false	10.211933333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::92::::3507::::3507::::x::::z	false	10.23695
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3447::::3447::::x::::z	false	10.256216666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5659::::5659::::x::::z	false	10.281383333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::92::::3495::::3495::::x::::z	false	10.30885
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3552::::3552::::x::::z	false	10.334666666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::131::::4990::::4990::::y::::concatenateSamples(x, y)	false	10.3597
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::129::::4933::::4933::::x::::z	false	10.375916666666665
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::222::::8555::::8555::::y::::concatenateSamples(x, y)	false	10.400316666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5539::::5539::::x::::z	false	10.4247
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5527::::5527::::x::::z	false	10.45405
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::231::::8780::::8783::::Umin::::calculateAsymptoticPValue(Umin, x.length, y.length)	false	10.4749
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::231::::8780::::8783::::Umin::::((x.length) * (y.length)) - Umax	false	10.492266666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::222::::8530::::8557::::ensureDataConformance(x, y)::::DELETE::::STATEMENT	false	10.508049999999999
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::231::::8786::::8793::::x.length::::x.length) + (y.length	false	10.516316666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5527::::5534::::x.length::::++i	false	10.527916666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5527::::5534::::x.length::::x.length) + (y.length	false	10.543650000000001
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3552::::3559::::x.length::::x.length) + (y.length	false	10.551216666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8710::::8717::::x.length::::x.length) + (y.length	false	10.5588
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::92::::3507::::3514::::x.length::::x.length) + (y.length	false	10.566550000000001
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::131::::4987::::4987::::x::::z	false	10.579166666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::183::::6781::::6819::::standardNormal.cumulativeProbability(z)::::DELETE::::INFIX	false	10.594266666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::179::::6659::::6677::::org.apache.commons.math3.util.FastMath.sqrt(VarU)::::DELETE::::INFIX	false	10.614183333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3447::::3454::::x.length::::x.length) + (y.length	false	10.621683333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5259::::5266::::x.length::::x.length) + (y.length	false	10.6294
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5539::::5546::::x.length::::x.length) + (y.length	false	10.647566666666668
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5659::::5659::::x::::concatenateSamples(x, y)	false	10.667633333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::129::::4933::::4933::::x::::concatenateSamples(x, y)	false	10.6988
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::92::::3495::::3495::::x::::concatenateSamples(x, y)	false	10.737683333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::92::::3507::::3507::::x::::concatenateSamples(x, y)	false	10.767283333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8710::::8710::::x::::concatenateSamples(x, y)	false	10.790066666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::224::::8601::::8601::::x::::concatenateSamples(x, y)	false	10.821116666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::231::::8786::::8786::::x::::concatenateSamples(x, y)	false	10.858033333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3552::::3552::::x::::concatenateSamples(x, y)	false	10.910566666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3447::::3447::::x::::concatenateSamples(x, y)	false	10.934933333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::78::::3078::::3085::::x.length::::x.length) + (y.length	false	10.950966666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5259::::5259::::x::::concatenateSamples(x, y)	false	11.001516666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5527::::5527::::x::::concatenateSamples(x, y)	false	11.045533333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5539::::5539::::x::::concatenateSamples(x, y)	false	11.062566666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5659::::5666::::x.length::::++i	false	11.0818
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5539::::5546::::x.length::::++i	false	11.126866666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5659::::5666::::x.length::::x.length) + (y.length	false	11.1624
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5259::::5266::::x.length::::++i	false	11.223566666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::131::::4987::::4987::::x::::concatenateSamples(x, y)	false	11.315499999999998
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::78::::3078::::3078::::x::::concatenateSamples(x, y)	false	11.348766666666668
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::222::::8552::::8552::::x::::concatenateSamples(x, y)	false	11.38275
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::132::::5045::::5045::::z::::ranks	false	11.407549999999999
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::74::::2967::::3064::::if ((x == null) || (y == null)) {    throw new org.apache.commons.math3.exception.NullArgumentException();}::::INSERT::::STATEMENT::::if (((x.length) == 0) || ((y.length) == 0)) {    throw new org.apache.commons.math3.exception.NoDataException();}	false	11.4487
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::74::::2971::::2971::::x::::concatenateSamples(x, y)	false	11.491583333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::224::::8604::::8604::::y::::new double[(x.length) + (y.length)]	false	11.534516666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3458::::3458::::y::::new double[(x.length) + (y.length)]	false	11.584200000000001
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3562::::3562::::y::::new double[(x.length) + (y.length)]	false	11.637049999999999
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3543::::3543::::y::::new double[(x.length) + (y.length)]	false	11.674283333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8721::::8721::::y::::new double[(x.length) + (y.length)]	false	11.725733333333332
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::129::::4936::::4936::::y::::new double[(x.length) + (y.length)]	false	11.766833333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::231::::8796::::8796::::y::::new double[(x.length) + (y.length)]	false	11.809500000000002
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5670::::5670::::y::::new double[(x.length) + (y.length)]	false	11.850150000000001
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::131::::4990::::4990::::y::::new double[(x.length) + (y.length)]	false	11.877066666666668
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::222::::8555::::8555::::y::::new double[(x.length) + (y.length)]	false	11.904850000000001
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5259::::5259::::x::::new double[(x.length) + (y.length)]	false	11.9357
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::224::::8601::::8601::::x::::new double[(x.length) + (y.length)]	false	11.977633333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::90::::3447::::3447::::x::::new double[(x.length) + (y.length)]	false	12.018283333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::93::::3552::::3552::::x::::new double[(x.length) + (y.length)]	false	12.056433333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::229::::8710::::8710::::x::::new double[(x.length) + (y.length)]	false	12.100083333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::92::::3507::::3507::::x::::new double[(x.length) + (y.length)]	false	12.140466666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::92::::3495::::3495::::x::::new double[(x.length) + (y.length)]	false	12.1779
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::129::::4933::::4933::::x::::new double[(x.length) + (y.length)]	false	12.221533333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5539::::5539::::x::::new double[(x.length) + (y.length)]	false	12.265916666666667
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5527::::5527::::x::::new double[(x.length) + (y.length)]	false	12.2948
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::231::::8786::::8786::::x::::new double[(x.length) + (y.length)]	false	12.323266666666665
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5659::::5659::::x::::new double[(x.length) + (y.length)]	false	12.350266666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::131::::4987::::4987::::x::::new double[(x.length) + (y.length)]	false	12.39315
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::131::::4990::::4990::::y::::ranks	false	12.430333333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5670::::5670::::y::::ranks	false	12.4513
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::222::::8552::::8552::::x::::new double[(x.length) + (y.length)]	false	12.479483333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::78::::3078::::3078::::x::::new double[(x.length) + (y.length)]	false	12.517533333333335
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::74::::2971::::2971::::x::::new double[(x.length) + (y.length)]	false	12.54255
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::129::::4936::::4936::::y::::ranks	false	12.560583333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::131::::4987::::4987::::x::::ranks	false	12.580283333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::153::::5659::::5659::::x::::ranks	false	12.613166666666666
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::129::::4933::::4933::::x::::ranks	false	12.631383333333334
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5539::::5539::::x::::ranks	false	12.660466666666668
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::148::::5527::::5527::::x::::ranks	false	12.685933333333333
+org.apache.commons.math3.stat.inference.MannWhitneyUTest::::140::::5259::::5259::::x::::ranks	false	12.713799999999999

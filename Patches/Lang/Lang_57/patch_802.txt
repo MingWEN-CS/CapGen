@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+@@ -749,7 +749,8 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
+      * @see java.lang.reflect.Field#get(Object)
+      */
+     protected Object getValue(Field field) throws IllegalArgumentException, IllegalAccessException {
+-        return field.get(this.getObject());
++        this.registerObject();
++return field.get(this.getObject());
+     }
+ 
+     /**

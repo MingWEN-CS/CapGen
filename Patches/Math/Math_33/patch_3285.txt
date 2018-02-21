@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/LinearConstraint.java
++++ fixed/org/apache/commons/math3/optimization/linear/LinearConstraint.java
+@@ -96,7 +96,7 @@ public class LinearConstraint implements Serializable {
+      * @param value The value of the constraint (right hand side)
+      */
+     public LinearConstraint(final RealVector coefficients, final Relationship relationship,
+-                            final double value) {
++                            final int value) {
+         this.coefficients = coefficients;
+         this.relationship = relationship;
+         this.value        = value;

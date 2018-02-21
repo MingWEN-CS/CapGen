@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java
++++ fixed/org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java
+@@ -74,7 +74,8 @@ public class EuclideanIntegerPoint implements Clusterable<EuclideanIntegerPoint>
+     /** {@inheritDoc} */
+     @Override
+     public boolean equals(final Object other) {
+-        if (!(other instanceof EuclideanIntegerPoint)) {
++        if ((point.length) != (otherPoint.length)) {    return false;}
++if (!(other instanceof EuclideanIntegerPoint)) {
+             return false;
+         }
+         final int[] otherPoint = ((EuclideanIntegerPoint) other).getPoint();

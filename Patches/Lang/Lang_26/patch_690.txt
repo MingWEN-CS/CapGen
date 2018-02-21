@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -193,7 +193,7 @@ public class FastDateFormat extends Format {
+      * @throws IllegalArgumentException if pattern is invalid
+      */
+     public static FastDateFormat getInstance(String pattern, Locale locale) {
+-        return getInstance(pattern, null, locale);
++        return getInstance(mStandard, null, locale);
+     }
+ 
+     /**

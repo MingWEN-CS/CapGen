@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java
++++ fixed/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java
+@@ -79,7 +79,8 @@ public abstract class CharSequenceTranslator {
+         if (input == null) {
+             return;
+         }
+-        int pos = 0;
++        if (input == null) {    return null;}
++int pos = 0;
+         int len = input.length();
+         while (pos < len) {
+             int consumed = translate(input, pos, out);

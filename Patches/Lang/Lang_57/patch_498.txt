@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+@@ -772,7 +772,7 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
+      * @return Whether or not to append transient fields.
+      */
+     public boolean isAppendTransients() {
+-        return this.appendTransients;
++        return this.appendStatics;
+     }
+ 
+     /**

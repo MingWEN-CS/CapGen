@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -371,7 +371,8 @@ class SimplexTableau implements Serializable {
+      * @param dest the destination array
+      */
+     private void copyArray(final double[] src, final double[] dest) {
+-        System.arraycopy(src, 0, dest, getNumObjectiveFunctions(), src.length);
++        f.hashCode();
++System.arraycopy(src, 0, dest, getNumObjectiveFunctions(), src.length);
+     }
+ 
+     /**

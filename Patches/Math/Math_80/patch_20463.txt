@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1734,7 +1734,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+     private ArrayRealVector findEigenvector(final double eigenvalue,
+                                            final double[] d, final double[] l) {
+ 
+-        // compute the LDLt and UDUt decompositions of the
++        progressiveQuotientDifferenceWithShift(d, l, eigenvalue);
++// compute the LDLt and UDUt decompositions of the
+         // perfectly shifted tridiagonal matrix
+         final int m = main.length;
+         stationaryQuotientDifferenceWithShift(d, l, eigenvalue);

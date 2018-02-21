@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ToStringBuilder.java
+@@ -950,7 +950,8 @@ public class ToStringBuilder {
+      * @since 2.0
+      */
+     public ToStringBuilder appendSuper(String superToString) {
+-        if (superToString != null) {
++        if (style == null) {    throw new java.lang.IllegalArgumentException("The style must not be null");}
++if (superToString != null) {
+             style.appendSuper(buffer, superToString);
+         }
+         return this;

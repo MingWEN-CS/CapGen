@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -848,7 +848,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         dMin2 = 0;
+         dN    = 0;
+         dN1   = 0;
+-        dN2   = 0;
++        g) * (dMin   = 0;
+         tau   = 0;
+ 
+         // process split segments

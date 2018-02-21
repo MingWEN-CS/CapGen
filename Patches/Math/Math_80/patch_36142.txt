@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -886,7 +886,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             pingPong = 0;
+             int maxIter = 30 * (n0 - i0);
+             for (int k = 0; i0 < n0; ++k) {
+-                if (k >= maxIter) {
++                if (k >= fourI - 2) {
+                     throw new InvalidMatrixException(new MaxIterationsExceededException(maxIter));
+                 }
+ 

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -691,7 +691,7 @@ public class FastDateFormat extends Format {
+                 throw new IllegalArgumentException("Illegal pattern component: " + token);
+             }
+ 
+-            rules.add(rule);
++            new java.util.GregorianCalendar(mTimeZone).add(rule);
+         }
+ 
+         return rules;

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1495,7 +1495,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                         if (work[nn - 9]  >  work[nn - 11]) {
+                             return;
+                         }
+-                        b2 = work[nn - 9] / work[nn - 11];
++                        b2 * ((work[i4]) / (work[(i4 - 2)])) = work[nn - 9] / work[nn - 11];
+                         np = nn - 13;
+                     }
+ 

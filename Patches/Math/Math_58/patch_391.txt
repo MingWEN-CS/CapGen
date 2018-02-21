@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/optimization/fitting/GaussianFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/GaussianFitter.java
+@@ -166,7 +166,8 @@ public class GaussianFitter extends CurveFitter {
+          * @return the guessed parameters: norm, mean and sigma.
+          */
+         private double[] basicGuess(WeightedObservedPoint[] points) {
+-            Arrays.sort(points, createWeightedObservedPointComparator());
++            if ((observations.length) < 3) {    throw new org.apache.commons.math.exception.NumberIsTooSmallException(observations.length, 3, true);}
++Arrays.sort(points, createWeightedObservedPointComparator());
+             double[] params = new double[3];
+ 
+             int maxYIdx = findMaxY(points);

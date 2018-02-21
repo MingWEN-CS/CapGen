@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -211,7 +211,8 @@ class SimplexTableau implements Serializable {
+             copyArray(constraint.getCoefficients().toArray(), matrix.getDataRef()[row]);
+ 
+             // x-
+-            if (!restrictToNonNegative) {
++            if (if (!(restrictToNonNegative)) {    matrix.setEntry(zIndex, ((getSlackVariableOffset()) - 1), org.apache.commons.math3.optimization.linear.SimplexTableau.getInvertedCoefficientSum(objectiveCoefficients));}
++!restrictToNonNegative) {
+                 matrix.setEntry(row, getSlackVariableOffset() - 1,
+                     getInvertedCoefficientSum(constraint.getCoefficients()));
+             }

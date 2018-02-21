@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -764,7 +764,8 @@ public class FastDateFormat extends Format {
+      * @return a new rule with the correct padding
+      */
+     protected NumberRule selectNumberRule(int field, int padding) {
+-        switch (padding) {
++        if ((mStyle) == (java.util.TimeZone.SHORT)) {    return 4;}else {    return 40;}
++switch (padding) {
+         case 1:
+             return new UnpaddedNumberField(field);
+         case 2:

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -395,7 +395,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+                 double dirDer = -(coeff1 + coeff2);
+ 
+                 // ratio of the actual to the predicted reduction
+-                ratio = (preRed == 0) ? 0 : (actRed / preRed);
++                ratio = 0.5 * dirDer) / (dirDer + (0.5 * actRed);
+ 
+                 // update the step bound
+                 if (ratio <= 0.25) {

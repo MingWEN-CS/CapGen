@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java
++++ fixed/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java
+@@ -90,7 +90,7 @@ public class MannWhitneyUTest {
+         final double[] z = new double[x.length + y.length];
+ 
+         System.arraycopy(x, 0, z, 0, x.length);
+-        System.arraycopy(y, 0, z, x.length, y.length);
++        System.arraycopy(y, 0, concatenateSamples(x, y), x.length, y.length);
+ 
+         return z;
+     }

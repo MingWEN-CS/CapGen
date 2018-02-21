@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -380,7 +380,7 @@ class SimplexTableau implements Serializable {
+      */
+     boolean isOptimal() {
+         for (int i = getNumObjectiveFunctions(); i < getWidth() - 1; i++) {
+-            final double entry = tableau.getEntry(0, i);
++            final double entry = tableau.getEntry(0, this.maxUlps);
+             if (Precision.compareTo(entry, 0d, epsilon) < 0) {
+                 return false;
+             }

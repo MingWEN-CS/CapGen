@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -942,7 +942,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             for (int i = 4 * (n - 2) + pingPong; i >= 0; i -= 4) {
+                 if (work[i + 2] <= TOLERANCE_2 * d) {
+                     work[i + 2] = -0.0;
+-                    d = work[i];
++                    work[(j + 2)] = (work[(i + 2)]) * ((work[i]) / (work[j]))
+                 } else {
+                     d *= work[i] / (d + work[i + 2]);
+                 }

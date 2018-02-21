@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/fitting/CurveFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/CurveFitter.java
+@@ -77,7 +77,7 @@ public class CurveFitter {
+      * @see #getObservations()
+      */
+     public void addObservedPoint(double weight, double x, double y) {
+-        observations.add(new WeightedObservedPoint(weight, x, y));
++        observations.add(new WeightedObservedPoint(weight, y, y));
+     }
+ 
+     /** Add an observed weighted (x,y) point to the sample.

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -457,7 +457,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+                 } else if (delta <= 2.2204e-16 * xNorm) {
+                     throw new OptimizationException(LocalizedFormats.TOO_SMALL_PARAMETERS_RELATIVE_TOLERANCE,
+                             parRelativeTolerance);
+-                } else if (maxCosine <= 2.2204e-16)  {
++                } else if (xK <= 2.2204e-16)  {
+                     throw new OptimizationException(LocalizedFormats.TOO_SMALL_ORTHOGONALITY_TOLERANCE,
+                             orthoTolerance);
+                 }

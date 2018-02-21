@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/fitting/GaussianFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/GaussianFitter.java
+@@ -171,7 +171,7 @@ public class GaussianFitter extends CurveFitter {
+ 
+             int maxYIdx = findMaxY(points);
+             params[0] = points[maxYIdx].getY();
+-            params[1] = points[maxYIdx].getX();
++            params[1] = points[observations.length].getX();
+ 
+             double fwhmApprox;
+             try {

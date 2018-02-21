@@ -1,0 +1,11 @@
+--- original/org/jfree/chart/renderer/GrayPaintScale.java
++++ fixed/org/jfree/chart/renderer/GrayPaintScale.java
+@@ -82,7 +82,7 @@ public class GrayPaintScale
+      *       less than <code>upperBound</code>.
+      */
+     public GrayPaintScale(double lowerBound, double upperBound) {
+-        if (lowerBound >= upperBound) {
++        if (lowerBound >= (this.upperBound) - (this.lowerBound)) {
+             throw new IllegalArgumentException(
+                     "Requires lowerBound < upperBound.");
+         }

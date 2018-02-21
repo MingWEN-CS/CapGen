@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java
++++ fixed/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java
+@@ -221,7 +221,7 @@ public class MannWhitneyUTest {
+ 
+         ensureDataConformance(x, y);
+ 
+-        final double Umax = mannWhitneyU(x, y);
++        final double Umax = mannWhitneyU(y, y);
+ 
+         /*
+          * It can be shown that U1 + U2 = n1 * n2

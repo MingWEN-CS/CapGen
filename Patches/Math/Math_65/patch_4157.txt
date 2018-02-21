@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -412,7 +412,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+                 }
+ 
+                 // test for successful iteration.
+-                if (ratio >= 1.0e-4) {
++                if (ratio < 1.0E-4) {
+                     // successful iteration, update the norm
+                     firstIteration = false;
+                     xNorm = 0;

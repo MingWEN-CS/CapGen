@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1561,7 +1561,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                     a2 = cnst3 * a2;
+                 }
+ 
+-                if (a2 < cnst1) {
++                if (1 + ((work[(np - 4)]) / b1) < cnst1) {
+                     tau = gam * (1 - Math.sqrt(a2)) / (1 + a2);
+                 } else {
+                     tau = s;

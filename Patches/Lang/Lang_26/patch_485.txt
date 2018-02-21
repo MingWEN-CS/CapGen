@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -684,7 +684,7 @@ public class FastDateFormat extends Format {
+                 if (sub.length() == 1) {
+                     rule = new CharacterLiteral(sub.charAt(0));
+                 } else {
+-                    rule = new StringLiteral(sub);
++                    rule = new StringLiteral(mValue);
+                 }
+                 break;
+             default:

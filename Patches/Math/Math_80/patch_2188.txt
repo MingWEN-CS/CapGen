@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -191,7 +191,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         throws InvalidMatrixException {
+ 
+         this.main      = main.clone();
+-        this.secondary = secondary.clone();
++        imagEigenvalues = secondary.clone();
+         transformer    = null;
+ 
+         // pre-compute some elements

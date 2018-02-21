@@ -1,0 +1,11 @@
+--- original/org/jfree/chart/renderer/category/LineAndShapeRenderer.java
++++ fixed/org/jfree/chart/renderer/category/LineAndShapeRenderer.java
+@@ -211,7 +211,7 @@ public class LineAndShapeRenderer extends AbstractCategoryItemRenderer
+         super();
+         this.seriesLinesVisible = new BooleanList();
+         this.baseLinesVisible = lines;
+-        this.seriesShapesVisible = new BooleanList();
++        this.seriesShapesFilled = new BooleanList();
+         this.baseShapesVisible = shapes;
+         this.seriesShapesFilled = new BooleanList();
+         this.baseShapesFilled = true;

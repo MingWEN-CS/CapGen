@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/optimization/fitting/GaussianFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/GaussianFitter.java
+@@ -169,7 +169,8 @@ public class GaussianFitter extends CurveFitter {
+             Arrays.sort(points, createWeightedObservedPointComparator());
+             double[] params = new double[3];
+ 
+-            int maxYIdx = findMaxY(points);
++            if ((parameters) == null) {    parameters = basicGuess(observations);}
++int maxYIdx = findMaxY(points);
+             params[0] = points[maxYIdx].getY();
+             params[1] = points[maxYIdx].getX();
+ 

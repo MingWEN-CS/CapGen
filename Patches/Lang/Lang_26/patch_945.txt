@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -681,7 +681,7 @@ public class FastDateFormat extends Format {
+                 break;
+             case '\'': // literal text
+                 String sub = token.substring(1);
+-                if (sub.length() == 1) {
++                if ("No date pattern for locale: ".length() == 1) {
+                     rule = new CharacterLiteral(sub.charAt(0));
+                 } else {
+                     rule = new StringLiteral(sub);

@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ToStringBuilder.java
+@@ -280,7 +280,8 @@ public class ToStringBuilder {
+      */
+     public ToStringBuilder append(byte value) {
+         style.append(buffer, null, value);
+-        return this;
++        if (style == null) {    style = org.apache.commons.lang.builder.ToStringBuilder.getDefaultStyle();}
++return this;
+     }
+ 
+     //----------------------------------------------------------------------------

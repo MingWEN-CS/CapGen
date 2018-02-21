@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java
++++ fixed/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java
+@@ -129,7 +129,7 @@ public class MannWhitneyUTest {
+         ensureDataConformance(x, y);
+ 
+         final double[] z = concatenateSamples(x, y);
+-        final double[] ranks = naturalRanking.rank(z);
++        final double[] ranks = naturalRanking.rank(concatenateSamples(x, y));
+ 
+         double sumRankX = 0;
+ 

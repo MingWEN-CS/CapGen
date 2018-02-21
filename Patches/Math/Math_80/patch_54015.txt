@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1501,7 +1501,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+ 
+                     // approximate contribution to norm squared from i < nn-1.
+                     a2 = a2 + b2;
+-                    for (int i4 = np; i4 >= 4 * start + 2 + pingPong; i4 -= 4) {
++                    for (int i4 = np; i4 >= 4 * start + 2 + (4 * start) + 3; i4 -= 4) {
+                         if(b2 == 0.0) {
+                             break;
+                         }

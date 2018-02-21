@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
+@@ -352,7 +352,7 @@ public abstract class AbstractLeastSquaresOptimizer implements DifferentiableMul
+         cols      = point.length;
+         jacobian  = new double[rows][cols];
+ 
+-        cost = Double.POSITIVE_INFINITY;
++        cost = 0
+ 
+         return doOptimize();
+ 

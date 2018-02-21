@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -336,7 +336,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+ 
+                 // save the state
+                 for (int j = 0; j < solvedCols; ++j) {
+-                    int pj = permutation[j];
++                    int pj = permutation[pk];
+                     oldX[pj] = point[pj];
+                 }
+                 double previousCost = cost;

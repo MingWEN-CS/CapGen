@@ -1,0 +1,2636 @@
+org.jfree.data.xy.junit.DefaultHighLowDatasetTests	DefaultHighLowDatasetTests	@Test
+org.jfree.data.xy.junit.DefaultHighLowDatasetTests	suite
+org.jfree.data.xy.junit.DefaultHighLowDatasetTests	testCloning	@Test
+org.jfree.data.xy.junit.DefaultHighLowDatasetTests	testSerialization	@Test
+org.jfree.data.xy.junit.DefaultHighLowDatasetTests	testEquals	@Test
+org.jfree.data.xy.junit.DefaultXYZDatasetTests	testAddSeries	@Test
+org.jfree.data.xy.junit.DefaultXYZDatasetTests	suite
+org.jfree.data.xy.junit.DefaultXYZDatasetTests	testCloning	@Test
+org.jfree.data.xy.junit.DefaultXYZDatasetTests	testIndexOf	@Test
+org.jfree.data.xy.junit.DefaultXYZDatasetTests	DefaultXYZDatasetTests	@Test
+org.jfree.data.xy.junit.DefaultXYZDatasetTests	testSerialization	@Test
+org.jfree.data.xy.junit.DefaultXYZDatasetTests	testGetSeriesKey	@Test
+org.jfree.data.xy.junit.DefaultXYZDatasetTests	testEquals	@Test
+org.jfree.data.xy.junit.DefaultXYZDatasetTests	createSampleDataset1
+org.jfree.data.xy.junit.XYIntervalSeriesTests	testClear	@Test
+org.jfree.data.xy.junit.XYIntervalSeriesTests	XYIntervalSeriesTests	@Test
+org.jfree.data.xy.junit.XYIntervalSeriesTests	testRemove	@Test
+org.jfree.data.xy.junit.XYIntervalSeriesTests	seriesChanged
+org.jfree.data.xy.junit.XYIntervalSeriesTests	testSerialization	@Test
+org.jfree.data.xy.junit.XYIntervalSeriesTests	suite
+org.jfree.data.xy.junit.XYIntervalSeriesTests	testIndexOf2	@Test
+org.jfree.data.xy.junit.XYIntervalSeriesTests	testSetMaximumItemCount2	@Test
+org.jfree.data.xy.junit.XYIntervalSeriesTests	testCloning	@Test
+org.jfree.data.xy.junit.XYIntervalSeriesTests	testAdd	@Test
+org.jfree.data.xy.junit.XYIntervalSeriesTests	testIndexOf	@Test
+org.jfree.data.xy.junit.XYIntervalSeriesTests	testAdditionOfDuplicateXValues	@Test
+org.jfree.data.xy.junit.XYIntervalSeriesTests	testSetMaximumItemCount	@Test
+org.jfree.data.xy.junit.XYIntervalSeriesTests	testEquals	@Test
+org.jfree.data.xy.junit.XYIntervalSeriesTests	testValues	@Test
+org.jfree.data.xy.junit.DefaultTableXYDatasetTests	testAddSeries	@Test
+org.jfree.data.xy.junit.DefaultTableXYDatasetTests	suite
+org.jfree.data.xy.junit.DefaultTableXYDatasetTests	DefaultTableXYDatasetTests	@Test
+org.jfree.data.xy.junit.DefaultTableXYDatasetTests	testCloning	@Test
+org.jfree.data.xy.junit.DefaultTableXYDatasetTests	testSerialization	@Test
+org.jfree.data.xy.junit.DefaultTableXYDatasetTests	testEquals	@Test
+org.jfree.data.xy.junit.DefaultTableXYDatasetTests	testGetSeries	@Test
+org.jfree.data.xy.junit.YWithXIntervalTests	suite
+org.jfree.data.xy.junit.YWithXIntervalTests	testCloning	@Test
+org.jfree.data.xy.junit.YWithXIntervalTests	testSerialization	@Test
+org.jfree.data.xy.junit.YWithXIntervalTests	YWithXIntervalTests	@Test
+org.jfree.data.xy.junit.YWithXIntervalTests	testEquals	@Test
+org.jfree.data.xy.junit.DefaultIntervalXYDatasetTests	testAddSeries	@Test
+org.jfree.data.xy.junit.DefaultIntervalXYDatasetTests	testGetSeriesCount	@Test
+org.jfree.data.xy.junit.DefaultIntervalXYDatasetTests	testGetSeriesKey	@Test
+org.jfree.data.xy.junit.DefaultIntervalXYDatasetTests	testSerialization	@Test
+org.jfree.data.xy.junit.DefaultIntervalXYDatasetTests	testGetXValue	@Test
+org.jfree.data.xy.junit.DefaultIntervalXYDatasetTests	testGetItemCount	@Test
+org.jfree.data.xy.junit.DefaultIntervalXYDatasetTests	createSampleDataset1
+org.jfree.data.xy.junit.DefaultIntervalXYDatasetTests	DefaultIntervalXYDatasetTests	@Test
+org.jfree.data.xy.junit.DefaultIntervalXYDatasetTests	suite
+org.jfree.data.xy.junit.DefaultIntervalXYDatasetTests	testGetStartYValue	@Test
+org.jfree.data.xy.junit.DefaultIntervalXYDatasetTests	testGetEndYValue	@Test
+org.jfree.data.xy.junit.DefaultIntervalXYDatasetTests	testCloning	@Test
+org.jfree.data.xy.junit.DefaultIntervalXYDatasetTests	testGetEndXValue	@Test
+org.jfree.data.xy.junit.DefaultIntervalXYDatasetTests	testCloning2	@Test
+org.jfree.data.xy.junit.DefaultIntervalXYDatasetTests	testGetYValue	@Test
+org.jfree.data.xy.junit.DefaultIntervalXYDatasetTests	testGetStartXValue	@Test
+org.jfree.data.xy.junit.DefaultIntervalXYDatasetTests	testIndexOf	@Test
+org.jfree.data.xy.junit.DefaultIntervalXYDatasetTests	testEquals	@Test
+org.jfree.data.xy.junit.XIntervalSeriesTests	testClear	@Test
+org.jfree.data.xy.junit.XIntervalSeriesTests	XIntervalSeriesTests	@Test
+org.jfree.data.xy.junit.XIntervalSeriesTests	testRemove	@Test
+org.jfree.data.xy.junit.XIntervalSeriesTests	seriesChanged
+org.jfree.data.xy.junit.XIntervalSeriesTests	testSerialization	@Test
+org.jfree.data.xy.junit.XIntervalSeriesTests	testGetXLowValue	@Test
+org.jfree.data.xy.junit.XIntervalSeriesTests	suite
+org.jfree.data.xy.junit.XIntervalSeriesTests	testIndexOf2	@Test
+org.jfree.data.xy.junit.XIntervalSeriesTests	testSetMaximumItemCount2	@Test
+org.jfree.data.xy.junit.XIntervalSeriesTests	testCloning	@Test
+org.jfree.data.xy.junit.XIntervalSeriesTests	testAdd	@Test
+org.jfree.data.xy.junit.XIntervalSeriesTests	testIndexOf	@Test
+org.jfree.data.xy.junit.XIntervalSeriesTests	testAdditionOfDuplicateXValues	@Test
+org.jfree.data.xy.junit.XIntervalSeriesTests	testSetMaximumItemCount	@Test
+org.jfree.data.xy.junit.XIntervalSeriesTests	testGetXHighValue	@Test
+org.jfree.data.xy.junit.XIntervalSeriesTests	testEquals	@Test
+org.jfree.data.xy.junit.YIntervalSeriesTests	testClear	@Test
+org.jfree.data.xy.junit.YIntervalSeriesTests	testRemove	@Test
+org.jfree.data.xy.junit.YIntervalSeriesTests	YIntervalSeriesTests	@Test
+org.jfree.data.xy.junit.YIntervalSeriesTests	seriesChanged
+org.jfree.data.xy.junit.YIntervalSeriesTests	testSerialization	@Test
+org.jfree.data.xy.junit.YIntervalSeriesTests	suite
+org.jfree.data.xy.junit.YIntervalSeriesTests	testIndexOf2	@Test
+org.jfree.data.xy.junit.YIntervalSeriesTests	testSetMaximumItemCount2	@Test
+org.jfree.data.xy.junit.YIntervalSeriesTests	testCloning	@Test
+org.jfree.data.xy.junit.YIntervalSeriesTests	testAdd	@Test
+org.jfree.data.xy.junit.YIntervalSeriesTests	testIndexOf	@Test
+org.jfree.data.xy.junit.YIntervalSeriesTests	testAdditionOfDuplicateXValues	@Test
+org.jfree.data.xy.junit.YIntervalSeriesTests	testSetMaximumItemCount	@Test
+org.jfree.data.xy.junit.YIntervalSeriesTests	testEquals	@Test
+org.jfree.data.xy.junit.OHLCDataItemTests	OHLCDataItemTests	@Test
+org.jfree.data.xy.junit.OHLCDataItemTests	suite
+org.jfree.data.xy.junit.OHLCDataItemTests	testCloning	@Test
+org.jfree.data.xy.junit.OHLCDataItemTests	testSerialization	@Test
+org.jfree.data.xy.junit.OHLCDataItemTests	testEquals	@Test
+org.jfree.data.xy.junit.IntervalXYDelegateTests	suite
+org.jfree.data.xy.junit.IntervalXYDelegateTests	testCloning	@Test
+org.jfree.data.xy.junit.IntervalXYDelegateTests	IntervalXYDelegateTests	@Test
+org.jfree.data.xy.junit.IntervalXYDelegateTests	testSerialization	@Test
+org.jfree.data.xy.junit.IntervalXYDelegateTests	testEquals	@Test
+org.jfree.data.xy.junit.XYBarDatasetTests	XYBarDatasetTests	@Test
+org.jfree.data.xy.junit.XYBarDatasetTests	suite
+org.jfree.data.xy.junit.XYBarDatasetTests	testCloning	@Test
+org.jfree.data.xy.junit.XYBarDatasetTests	testSerialization	@Test
+org.jfree.data.xy.junit.XYBarDatasetTests	testEquals	@Test
+org.jfree.data.xy.junit.TableXYDatasetTests	suite
+org.jfree.data.xy.junit.TableXYDatasetTests	testCloning	@Test
+org.jfree.data.xy.junit.TableXYDatasetTests	test788597	@Test
+org.jfree.data.xy.junit.TableXYDatasetTests	testAutoPrune	@Test
+org.jfree.data.xy.junit.TableXYDatasetTests	testSerialization	@Test
+org.jfree.data.xy.junit.TableXYDatasetTests	testTableXYDataset	@Test
+org.jfree.data.xy.junit.TableXYDatasetTests	testPrune	@Test
+org.jfree.data.xy.junit.TableXYDatasetTests	TableXYDatasetTests	@Test
+org.jfree.data.xy.junit.TableXYDatasetTests	testRemoveAllValuesForX	@Test
+org.jfree.data.xy.junit.TableXYDatasetTests	testEquals	@Test
+org.jfree.data.xy.junit.YIntervalTests	YIntervalTests	@Test
+org.jfree.data.xy.junit.YIntervalTests	suite
+org.jfree.data.xy.junit.YIntervalTests	testCloning	@Test
+org.jfree.data.xy.junit.YIntervalTests	testSerialization	@Test
+org.jfree.data.xy.junit.YIntervalTests	testEquals	@Test
+org.jfree.data.xy.junit.XYSeriesTests	testRemove	@Test
+org.jfree.data.xy.junit.XYSeriesTests	XYSeriesTests	@Test
+org.jfree.data.xy.junit.XYSeriesTests	testSerialization	@Test
+org.jfree.data.xy.junit.XYSeriesTests	testHashCode	@Test
+org.jfree.data.xy.junit.XYSeriesTests	suite
+org.jfree.data.xy.junit.XYSeriesTests	testIndexOf2	@Test
+org.jfree.data.xy.junit.XYSeriesTests	testSetMaximumItemCount2	@Test
+org.jfree.data.xy.junit.XYSeriesTests	testToArray	@Test
+org.jfree.data.xy.junit.XYSeriesTests	testCloning	@Test
+org.jfree.data.xy.junit.XYSeriesTests	testToArrayExample	@Test
+org.jfree.data.xy.junit.XYSeriesTests	testUpdate2	@Test
+org.jfree.data.xy.junit.XYSeriesTests	testAddOrUpdate	@Test
+org.jfree.data.xy.junit.XYSeriesTests	testCloning2	@Test
+org.jfree.data.xy.junit.XYSeriesTests	testCloning3	@Test
+org.jfree.data.xy.junit.XYSeriesTests	testAddOrUpdate2	@Test
+org.jfree.data.xy.junit.XYSeriesTests	testAdd	@Test
+org.jfree.data.xy.junit.XYSeriesTests	testIndexOf	@Test
+org.jfree.data.xy.junit.XYSeriesTests	testAdditionOfDuplicateXValues	@Test
+org.jfree.data.xy.junit.XYSeriesTests	testSetMaximumItemCount	@Test
+org.jfree.data.xy.junit.XYSeriesTests	testUpdate	@Test
+org.jfree.data.xy.junit.XYSeriesTests	testEquals	@Test
+org.jfree.data.xy.junit.MatrixSeriesCollectionTests	suite
+org.jfree.data.xy.junit.MatrixSeriesCollectionTests	MatrixSeriesCollectionTests	@Test
+org.jfree.data.xy.junit.MatrixSeriesCollectionTests	testCloning	@Test
+org.jfree.data.xy.junit.MatrixSeriesCollectionTests	testSerialization	@Test
+org.jfree.data.xy.junit.MatrixSeriesCollectionTests	testEquals	@Test
+org.jfree.data.xy.junit.VectorSeriesCollectionTests	suite
+org.jfree.data.xy.junit.VectorSeriesCollectionTests	testCloning	@Test
+org.jfree.data.xy.junit.VectorSeriesCollectionTests	VectorSeriesCollectionTests	@Test
+org.jfree.data.xy.junit.VectorSeriesCollectionTests	testSerialization	@Test
+org.jfree.data.xy.junit.VectorSeriesCollectionTests	testRemoveSeries	@Test
+org.jfree.data.xy.junit.VectorSeriesCollectionTests	testEquals	@Test
+org.jfree.data.xy.junit.DefaultOHLCDatasetTests	suite
+org.jfree.data.xy.junit.DefaultOHLCDatasetTests	testDataRange	@Test
+org.jfree.data.xy.junit.DefaultOHLCDatasetTests	testCloning	@Test
+org.jfree.data.xy.junit.DefaultOHLCDatasetTests	DefaultOHLCDatasetTests	@Test
+org.jfree.data.xy.junit.DefaultOHLCDatasetTests	testSerialization	@Test
+org.jfree.data.xy.junit.DefaultOHLCDatasetTests	testEquals	@Test
+org.jfree.data.xy.junit.DataXYPackageTests	suite
+org.jfree.data.xy.junit.DataXYPackageTests	DataXYPackageTests	@Test
+org.jfree.data.xy.junit.DataXYPackageTests	main
+org.jfree.data.xy.junit.MatrixSeriesTests	suite
+org.jfree.data.xy.junit.MatrixSeriesTests	testGetItemRow	@Test
+org.jfree.data.xy.junit.MatrixSeriesTests	testCloning	@Test
+org.jfree.data.xy.junit.MatrixSeriesTests	testGetItemColumn	@Test
+org.jfree.data.xy.junit.MatrixSeriesTests	testSerialization	@Test
+org.jfree.data.xy.junit.MatrixSeriesTests	testGetItem	@Test
+org.jfree.data.xy.junit.MatrixSeriesTests	MatrixSeriesTests	@Test
+org.jfree.data.xy.junit.MatrixSeriesTests	testEquals	@Test
+org.jfree.data.xy.junit.XYIntervalDataItemTests	suite
+org.jfree.data.xy.junit.XYIntervalDataItemTests	XYIntervalDataItemTests	@Test
+org.jfree.data.xy.junit.XYIntervalDataItemTests	testConstructor1	@Test
+org.jfree.data.xy.junit.XYIntervalDataItemTests	testCloning	@Test
+org.jfree.data.xy.junit.XYIntervalDataItemTests	testSerialization	@Test
+org.jfree.data.xy.junit.XYIntervalDataItemTests	testEquals	@Test
+org.jfree.data.xy.junit.YIntervalSeriesCollectionTests	suite
+org.jfree.data.xy.junit.YIntervalSeriesCollectionTests	testCloning	@Test
+org.jfree.data.xy.junit.YIntervalSeriesCollectionTests	testSerialization	@Test
+org.jfree.data.xy.junit.YIntervalSeriesCollectionTests	YIntervalSeriesCollectionTests	@Test
+org.jfree.data.xy.junit.YIntervalSeriesCollectionTests	test1170825	@Test
+org.jfree.data.xy.junit.YIntervalSeriesCollectionTests	testEquals	@Test
+org.jfree.data.xy.junit.DefaultWindDatasetTests	suite
+org.jfree.data.xy.junit.DefaultWindDatasetTests	testCloning	@Test
+org.jfree.data.xy.junit.DefaultWindDatasetTests	testIndexOf	@Test
+org.jfree.data.xy.junit.DefaultWindDatasetTests	testSerialization	@Test
+org.jfree.data.xy.junit.DefaultWindDatasetTests	testGetSeriesKey	@Test
+org.jfree.data.xy.junit.DefaultWindDatasetTests	DefaultWindDatasetTests	@Test
+org.jfree.data.xy.junit.DefaultWindDatasetTests	testEquals	@Test
+org.jfree.data.xy.junit.DefaultWindDatasetTests	createSampleDataset1
+org.jfree.data.xy.junit.XYIntervalTests	suite
+org.jfree.data.xy.junit.XYIntervalTests	XYIntervalTests	@Test
+org.jfree.data.xy.junit.XYIntervalTests	testCloning	@Test
+org.jfree.data.xy.junit.XYIntervalTests	testSerialization	@Test
+org.jfree.data.xy.junit.XYIntervalTests	testEquals	@Test
+org.jfree.data.xy.junit.XYCoordinateTests	suite
+org.jfree.data.xy.junit.XYCoordinateTests	testCloning	@Test
+org.jfree.data.xy.junit.XYCoordinateTests	testSerialization	@Test
+org.jfree.data.xy.junit.XYCoordinateTests	testHashcode	@Test
+org.jfree.data.xy.junit.XYCoordinateTests	XYCoordinateTests	@Test
+org.jfree.data.xy.junit.XYCoordinateTests	testEquals	@Test
+org.jfree.data.xy.junit.DefaultXYDatasetTests	testAddSeries	@Test
+org.jfree.data.xy.junit.DefaultXYDatasetTests	suite
+org.jfree.data.xy.junit.DefaultXYDatasetTests	testCloning	@Test
+org.jfree.data.xy.junit.DefaultXYDatasetTests	DefaultXYDatasetTests	@Test
+org.jfree.data.xy.junit.DefaultXYDatasetTests	testIndexOf	@Test
+org.jfree.data.xy.junit.DefaultXYDatasetTests	testSerialization	@Test
+org.jfree.data.xy.junit.DefaultXYDatasetTests	testGetSeriesKey	@Test
+org.jfree.data.xy.junit.DefaultXYDatasetTests	testEquals	@Test
+org.jfree.data.xy.junit.DefaultXYDatasetTests	createSampleDataset1
+org.jfree.data.xy.junit.XYIntervalSeriesCollectionTests	XYIntervalSeriesCollectionTests	@Test
+org.jfree.data.xy.junit.XYIntervalSeriesCollectionTests	suite
+org.jfree.data.xy.junit.XYIntervalSeriesCollectionTests	testCloning	@Test
+org.jfree.data.xy.junit.XYIntervalSeriesCollectionTests	testSerialization	@Test
+org.jfree.data.xy.junit.XYIntervalSeriesCollectionTests	test1170825	@Test
+org.jfree.data.xy.junit.XYIntervalSeriesCollectionTests	testEquals	@Test
+org.jfree.data.xy.junit.XIntervalDataItemTests	suite
+org.jfree.data.xy.junit.XIntervalDataItemTests	testConstructor1	@Test
+org.jfree.data.xy.junit.XIntervalDataItemTests	testCloning	@Test
+org.jfree.data.xy.junit.XIntervalDataItemTests	testSerialization	@Test
+org.jfree.data.xy.junit.XIntervalDataItemTests	XIntervalDataItemTests	@Test
+org.jfree.data.xy.junit.XIntervalDataItemTests	testEquals	@Test
+org.jfree.data.xy.junit.XYSeriesCollectionTests	suite
+org.jfree.data.xy.junit.XYSeriesCollectionTests	testCloning	@Test
+org.jfree.data.xy.junit.XYSeriesCollectionTests	XYSeriesCollectionTests	@Test
+org.jfree.data.xy.junit.XYSeriesCollectionTests	testIndexOf	@Test
+org.jfree.data.xy.junit.XYSeriesCollectionTests	testSerialization	@Test
+org.jfree.data.xy.junit.XYSeriesCollectionTests	testGetSeriesByKey	@Test
+org.jfree.data.xy.junit.XYSeriesCollectionTests	test1170825	@Test
+org.jfree.data.xy.junit.XYSeriesCollectionTests	testRemoveSeries	@Test
+org.jfree.data.xy.junit.XYSeriesCollectionTests	testEquals	@Test
+org.jfree.data.xy.junit.XYSeriesCollectionTests	testGetSeries	@Test
+org.jfree.data.xy.junit.VectorTests	suite
+org.jfree.data.xy.junit.VectorTests	testCloning	@Test
+org.jfree.data.xy.junit.VectorTests	VectorTests	@Test
+org.jfree.data.xy.junit.VectorTests	testSerialization	@Test
+org.jfree.data.xy.junit.VectorTests	testHashcode	@Test
+org.jfree.data.xy.junit.VectorTests	testEquals	@Test
+org.jfree.data.xy.junit.VectorSeriesTests	testClear	@Test
+org.jfree.data.xy.junit.VectorSeriesTests	testRemove	@Test
+org.jfree.data.xy.junit.VectorSeriesTests	seriesChanged
+org.jfree.data.xy.junit.VectorSeriesTests	testSerialization	@Test
+org.jfree.data.xy.junit.VectorSeriesTests	suite
+org.jfree.data.xy.junit.VectorSeriesTests	testIndexOf2	@Test
+org.jfree.data.xy.junit.VectorSeriesTests	testSetMaximumItemCount2	@Test
+org.jfree.data.xy.junit.VectorSeriesTests	testCloning	@Test
+org.jfree.data.xy.junit.VectorSeriesTests	testAdd	@Test
+org.jfree.data.xy.junit.VectorSeriesTests	testIndexOf	@Test
+org.jfree.data.xy.junit.VectorSeriesTests	testAdditionOfDuplicateXValues	@Test
+org.jfree.data.xy.junit.VectorSeriesTests	testSetMaximumItemCount	@Test
+org.jfree.data.xy.junit.VectorSeriesTests	VectorSeriesTests	@Test
+org.jfree.data.xy.junit.VectorSeriesTests	testEquals	@Test
+org.jfree.data.xy.junit.VectorDataItemTests	suite
+org.jfree.data.xy.junit.VectorDataItemTests	testCloning	@Test
+org.jfree.data.xy.junit.VectorDataItemTests	testSerialization	@Test
+org.jfree.data.xy.junit.VectorDataItemTests	testHashcode	@Test
+org.jfree.data.xy.junit.VectorDataItemTests	VectorDataItemTests	@Test
+org.jfree.data.xy.junit.VectorDataItemTests	testEquals	@Test
+org.jfree.data.xy.junit.CategoryTableXYDatasetTests	testAddSeries	@Test
+org.jfree.data.xy.junit.CategoryTableXYDatasetTests	suite
+org.jfree.data.xy.junit.CategoryTableXYDatasetTests	testCloning	@Test
+org.jfree.data.xy.junit.CategoryTableXYDatasetTests	CategoryTableXYDatasetTests	@Test
+org.jfree.data.xy.junit.CategoryTableXYDatasetTests	testSerialization	@Test
+org.jfree.data.xy.junit.CategoryTableXYDatasetTests	testEquals	@Test
+org.jfree.data.xy.junit.YIntervalDataItemTests	suite
+org.jfree.data.xy.junit.YIntervalDataItemTests	testConstructor1	@Test
+org.jfree.data.xy.junit.YIntervalDataItemTests	testCloning	@Test
+org.jfree.data.xy.junit.YIntervalDataItemTests	YIntervalDataItemTests	@Test
+org.jfree.data.xy.junit.YIntervalDataItemTests	testSerialization	@Test
+org.jfree.data.xy.junit.YIntervalDataItemTests	testEquals	@Test
+org.jfree.data.xy.junit.XIntervalSeriesCollectionTests	suite
+org.jfree.data.xy.junit.XIntervalSeriesCollectionTests	testCloning	@Test
+org.jfree.data.xy.junit.XIntervalSeriesCollectionTests	XIntervalSeriesCollectionTests	@Test
+org.jfree.data.xy.junit.XIntervalSeriesCollectionTests	testSerialization	@Test
+org.jfree.data.xy.junit.XIntervalSeriesCollectionTests	test1170825	@Test
+org.jfree.data.xy.junit.XIntervalSeriesCollectionTests	testEquals	@Test
+org.jfree.data.xy.junit.XYDataItemTests	suite
+org.jfree.data.xy.junit.XYDataItemTests	testCloning	@Test
+org.jfree.data.xy.junit.XYDataItemTests	XYDataItemTests	@Test
+org.jfree.data.xy.junit.XYDataItemTests	testSerialization	@Test
+org.jfree.data.xy.junit.XYDataItemTests	testEquals	@Test
+org.jfree.data.junit.ComparableObjectItemTests	suite
+org.jfree.data.junit.ComparableObjectItemTests	testCloning	@Test
+org.jfree.data.junit.ComparableObjectItemTests	ComparableObjectItemTests	@Test
+org.jfree.data.junit.ComparableObjectItemTests	testCompareTo	@Test
+org.jfree.data.junit.ComparableObjectItemTests	testSerialization	@Test
+org.jfree.data.junit.ComparableObjectItemTests	testConstructor	@Test
+org.jfree.data.junit.ComparableObjectItemTests	testEquals	@Test
+org.jfree.data.junit.DefaultKeyedValuesTests	testClear	@Test
+org.jfree.data.junit.DefaultKeyedValuesTests	testAddValue	@Test
+org.jfree.data.junit.DefaultKeyedValuesTests	testGetIndex	@Test
+org.jfree.data.junit.DefaultKeyedValuesTests	testGetKeys	@Test
+org.jfree.data.junit.DefaultKeyedValuesTests	testInsertValue	@Test
+org.jfree.data.junit.DefaultKeyedValuesTests	testInsertAndRetrieve	@Test
+org.jfree.data.junit.DefaultKeyedValuesTests	testSerialization	@Test
+org.jfree.data.junit.DefaultKeyedValuesTests	testConstructor	@Test
+org.jfree.data.junit.DefaultKeyedValuesTests	testSortByKeyAscending	@Test
+org.jfree.data.junit.DefaultKeyedValuesTests	testGetItemCount	@Test
+org.jfree.data.junit.DefaultKeyedValuesTests	testSortByValueAscending	@Test
+org.jfree.data.junit.DefaultKeyedValuesTests	testGetIndex2	@Test
+org.jfree.data.junit.DefaultKeyedValuesTests	testRemoveValue	@Test
+org.jfree.data.junit.DefaultKeyedValuesTests	suite
+org.jfree.data.junit.DefaultKeyedValuesTests	testGetValue	@Test
+org.jfree.data.junit.DefaultKeyedValuesTests	testSortByKeyDescending	@Test
+org.jfree.data.junit.DefaultKeyedValuesTests	testGetKey	@Test
+org.jfree.data.junit.DefaultKeyedValuesTests	testCloning	@Test
+org.jfree.data.junit.DefaultKeyedValuesTests	testSortByValueDescending	@Test
+org.jfree.data.junit.DefaultKeyedValuesTests	DefaultKeyedValuesTests	@Test
+org.jfree.data.junit.RangeTests	testContains	@Test
+org.jfree.data.junit.RangeTests	testExpand	@Test
+org.jfree.data.junit.RangeTests	suite
+org.jfree.data.junit.RangeTests	testConstrain	@Test
+org.jfree.data.junit.RangeTests	RangeTests	@Test
+org.jfree.data.junit.RangeTests	testIntersects	@Test
+org.jfree.data.junit.RangeTests	testSerialization	@Test
+org.jfree.data.junit.RangeTests	testEquals	@Test
+org.jfree.data.junit.DataPackageTests	suite
+org.jfree.data.junit.DataPackageTests	DataPackageTests	@Test
+org.jfree.data.junit.DataPackageTests	main
+org.jfree.data.junit.DefaultKeyedValues2DTests	testGetValue2	@Test
+org.jfree.data.junit.DefaultKeyedValues2DTests	testColumnCount	@Test
+org.jfree.data.junit.DefaultKeyedValues2DTests	testRowCount	@Test
+org.jfree.data.junit.DefaultKeyedValues2DTests	testSparsePopulation	@Test
+org.jfree.data.junit.DefaultKeyedValues2DTests	testSerialization	@Test
+org.jfree.data.junit.DefaultKeyedValues2DTests	testRemoveValueBug1690654	@Test
+org.jfree.data.junit.DefaultKeyedValues2DTests	testRemoveValue	@Test
+org.jfree.data.junit.DefaultKeyedValues2DTests	DefaultKeyedValues2DTests	@Test
+org.jfree.data.junit.DefaultKeyedValues2DTests	testGetColumnKey	@Test
+org.jfree.data.junit.DefaultKeyedValues2DTests	suite
+org.jfree.data.junit.DefaultKeyedValues2DTests	testGetValue	@Test
+org.jfree.data.junit.DefaultKeyedValues2DTests	testGetRowKey	@Test
+org.jfree.data.junit.DefaultKeyedValues2DTests	testCloning	@Test
+org.jfree.data.junit.DefaultKeyedValues2DTests	testRemoveColumnByKey	@Test
+org.jfree.data.junit.DefaultKeyedValues2DTests	testRemoveRow	@Test
+org.jfree.data.junit.DefaultKeyedValues2DTests	testEquals	@Test
+org.jfree.data.junit.DataUtilitiesTests	testCalculateRowTotal	@Test
+org.jfree.data.junit.DataUtilitiesTests	testCreateNumberArray2D	@Test
+org.jfree.data.junit.DataUtilitiesTests	testCalculateColumnTotal	@Test
+org.jfree.data.junit.KeyedObjectsTests	testGetObject	@Test
+org.jfree.data.junit.KeyedObjectsTests	testGetIndex	@Test
+org.jfree.data.junit.KeyedObjectsTests	KeyedObjectsTests	@Test
+org.jfree.data.junit.KeyedObjectsTests	testInsertAndRetrieve	@Test
+org.jfree.data.junit.KeyedObjectsTests	testSerialization	@Test
+org.jfree.data.junit.KeyedObjectsTests	testRemoveValue	@Test
+org.jfree.data.junit.KeyedObjectsTests	suite
+org.jfree.data.junit.KeyedObjectsTests	testCloning	@Test
+org.jfree.data.junit.KeyedObjectsTests	testGetKey	@Test
+org.jfree.data.junit.KeyedObjectsTests	testRemoveValueInt	@Test
+org.jfree.data.junit.KeyedObjectsTests	testCloning2	@Test
+org.jfree.data.junit.KeyedObjectsTests	testSetObject	@Test
+org.jfree.data.junit.KeyToGroupMapTests	suite
+org.jfree.data.junit.KeyToGroupMapTests	KeyToGroupMapTests	@Test
+org.jfree.data.junit.KeyToGroupMapTests	testCloning	@Test
+org.jfree.data.junit.KeyToGroupMapTests	testGroupCount	@Test
+org.jfree.data.junit.KeyToGroupMapTests	testKeyCount	@Test
+org.jfree.data.junit.KeyToGroupMapTests	testGetGroup	@Test
+org.jfree.data.junit.KeyToGroupMapTests	testGetGroupIndex	@Test
+org.jfree.data.junit.KeyToGroupMapTests	testSerialization	@Test
+org.jfree.data.junit.KeyToGroupMapTests	testMapKeyToGroup	@Test
+org.jfree.data.junit.KeyToGroupMapTests	testEquals	@Test
+org.jfree.data.junit.DomainOrderTests	suite
+org.jfree.data.junit.DomainOrderTests	DomainOrderTests	@Test
+org.jfree.data.junit.DomainOrderTests	testSerialization	@Test
+org.jfree.data.junit.DomainOrderTests	testHashCode	@Test
+org.jfree.data.junit.DomainOrderTests	testEquals	@Test
+org.jfree.data.junit.DefaultKeyedValueTests	suite
+org.jfree.data.junit.DefaultKeyedValueTests	testCloning	@Test
+org.jfree.data.junit.DefaultKeyedValueTests	DefaultKeyedValueTests	@Test
+org.jfree.data.junit.DefaultKeyedValueTests	testSerialization	@Test
+org.jfree.data.junit.DefaultKeyedValueTests	testEquals	@Test
+org.jfree.data.junit.ComparableObjectSeriesTests	add
+org.jfree.data.junit.ComparableObjectSeriesTests	ComparableObjectSeriesTests	@Test
+org.jfree.data.junit.ComparableObjectSeriesTests	suite
+org.jfree.data.junit.ComparableObjectSeriesTests	testConstructor1	@Test
+org.jfree.data.junit.ComparableObjectSeriesTests	testCloning	@Test
+org.jfree.data.junit.ComparableObjectSeriesTests	MyComparableObjectSeries
+org.jfree.data.junit.ComparableObjectSeriesTests	testSerialization	@Test
+org.jfree.data.junit.ComparableObjectSeriesTests	testHashCode	@Test
+org.jfree.data.junit.ComparableObjectSeriesTests	remove
+org.jfree.data.junit.ComparableObjectSeriesTests	testEquals	@Test
+org.jfree.data.junit.KeyedObjects2DTests	testRemoveColumnByIndex	@Test
+org.jfree.data.junit.KeyedObjects2DTests	testSerialization	@Test
+org.jfree.data.junit.KeyedObjects2DTests	testGetValueByIndex	@Test
+org.jfree.data.junit.KeyedObjects2DTests	KeyedObjects2DTests	@Test
+org.jfree.data.junit.KeyedObjects2DTests	testRemoveValue	@Test
+org.jfree.data.junit.KeyedObjects2DTests	testGetValueByKey	@Test
+org.jfree.data.junit.KeyedObjects2DTests	suite
+org.jfree.data.junit.KeyedObjects2DTests	testCloning	@Test
+org.jfree.data.junit.KeyedObjects2DTests	testRemoveRowByIndex	@Test
+org.jfree.data.junit.KeyedObjects2DTests	testRemoveRowByKey	@Test
+org.jfree.data.junit.KeyedObjects2DTests	testSetObject	@Test
+org.jfree.data.junit.KeyedObjects2DTests	testRemoveColumnByKey	@Test
+org.jfree.data.junit.KeyedObjects2DTests	testEquals	@Test
+org.jfree.data.junit.KeyedObjectTests	suite
+org.jfree.data.junit.KeyedObjectTests	testCloning	@Test
+org.jfree.data.junit.KeyedObjectTests	testCloning2	@Test
+org.jfree.data.junit.KeyedObjectTests	KeyedObjectTests	@Test
+org.jfree.data.junit.KeyedObjectTests	testSerialization	@Test
+org.jfree.data.junit.KeyedObjectTests	testEquals	@Test
+org.jfree.data.junit.RangeTypeTests	RangeTypeTests	@Test
+org.jfree.data.junit.RangeTypeTests	suite
+org.jfree.data.junit.RangeTypeTests	testSerialization	@Test
+org.jfree.data.junit.RangeTypeTests	testHashCode	@Test
+org.jfree.data.junit.RangeTypeTests	testEquals	@Test
+org.jfree.data.category.junit.CategoryToPieDatasetTests	testGetIndex	@Test
+org.jfree.data.category.junit.CategoryToPieDatasetTests	suite
+org.jfree.data.category.junit.CategoryToPieDatasetTests	testGetValue	@Test
+org.jfree.data.category.junit.CategoryToPieDatasetTests	testGetKey	@Test
+org.jfree.data.category.junit.CategoryToPieDatasetTests	testSerialization	@Test
+org.jfree.data.category.junit.CategoryToPieDatasetTests	testConstructor	@Test
+org.jfree.data.category.junit.CategoryToPieDatasetTests	CategoryToPieDatasetTests	@Test
+org.jfree.data.category.junit.CategoryToPieDatasetTests	testEquals	@Test
+org.jfree.data.category.junit.DataCategoryPackageTests	suite
+org.jfree.data.category.junit.DataCategoryPackageTests	DataCategoryPackageTests	@Test
+org.jfree.data.category.junit.DataCategoryPackageTests	main
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests	testGetRowCount	@Test
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests	testGetSeriesCount	@Test
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests	testSetSeriesKeys	@Test
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests	testSerialization	@Test
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests	testGetColumnIndex	@Test
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests	testSetEndValue	@Test
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests	testSetStartValue	@Test
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests	testGetRowIndex	@Test
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests	suite
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests	testGetValue	@Test
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests	testGetSeriesIndex	@Test
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests	testGetColumnCount	@Test
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests	testCloning	@Test
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests	testGetCategoryCount	@Test
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests	testGetRowKeys	@Test
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests	DefaultIntervalCategoryDatasetTests	@Test
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests	testCloning2	@Test
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests	testGetRowAndColumnCount	@Test
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests	testSetCategoryKeys	@Test
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests	testGetCategoryIndex	@Test
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests	testEquals	@Test
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests	testGetColumnKeys	@Test
+org.jfree.data.category.junit.DefaultCategoryDatasetTests	testAddValue	@Test
+org.jfree.data.category.junit.DefaultCategoryDatasetTests	testGetValue2	@Test
+org.jfree.data.category.junit.DefaultCategoryDatasetTests	testGetRowCount	@Test
+org.jfree.data.category.junit.DefaultCategoryDatasetTests	testSerialization	@Test
+org.jfree.data.category.junit.DefaultCategoryDatasetTests	testIncrementValue	@Test
+org.jfree.data.category.junit.DefaultCategoryDatasetTests	testRemoveValue	@Test
+org.jfree.data.category.junit.DefaultCategoryDatasetTests	DefaultCategoryDatasetTests	@Test
+org.jfree.data.category.junit.DefaultCategoryDatasetTests	suite
+org.jfree.data.category.junit.DefaultCategoryDatasetTests	testGetValue	@Test
+org.jfree.data.category.junit.DefaultCategoryDatasetTests	testGetColumnCount	@Test
+org.jfree.data.category.junit.DefaultCategoryDatasetTests	testCloning	@Test
+org.jfree.data.category.junit.DefaultCategoryDatasetTests	testBug1835955	@Test
+org.jfree.data.category.junit.DefaultCategoryDatasetTests	testEquals	@Test
+org.jfree.data.gantt.junit.DataGanttPackageTests	suite
+org.jfree.data.gantt.junit.DataGanttPackageTests	DataGanttPackageTests	@Test
+org.jfree.data.gantt.junit.DataGanttPackageTests	main
+org.jfree.data.gantt.junit.TaskSeriesTests	suite
+org.jfree.data.gantt.junit.TaskSeriesTests	testCloning	@Test
+org.jfree.data.gantt.junit.TaskSeriesTests	testGetTask	@Test
+org.jfree.data.gantt.junit.TaskSeriesTests	testSerialization	@Test
+org.jfree.data.gantt.junit.TaskSeriesTests	TaskSeriesTests	@Test
+org.jfree.data.gantt.junit.TaskSeriesTests	testEquals	@Test
+org.jfree.data.gantt.junit.TaskTests	suite
+org.jfree.data.gantt.junit.TaskTests	testGetSubTaskCount	@Test
+org.jfree.data.gantt.junit.TaskTests	TaskTests	@Test
+org.jfree.data.gantt.junit.TaskTests	testCloning	@Test
+org.jfree.data.gantt.junit.TaskTests	testSerialization	@Test
+org.jfree.data.gantt.junit.TaskTests	testEquals	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	testGetRowCount	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	testGetEndValue3	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	test800324	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	testGetEndValue2	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	testRemove	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	testGetEndValue	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	testGetSeriesKey	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	testSerialization	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	testGetColumnKey	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	testCloning	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	testGetStartValue	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	testGetStartValue2	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	testEquals	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	testGetStartValue3	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	testGetSeriesCount	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	testGetSubIntervalCount	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	testGetColumnIndex	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	testGetPercentComplete	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	test697153	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	TaskSeriesCollectionTests	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	testGetRowIndex	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	suite
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	testGetValue	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	testGetRowKey	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	testGetColumnCount	@Test
+org.jfree.data.gantt.junit.TaskSeriesCollectionTests	testGetSeries	@Test
+org.jfree.data.time.ohlc.junit.OHLCItemTests	suite
+org.jfree.data.time.ohlc.junit.OHLCItemTests	testConstructor1	@Test
+org.jfree.data.time.ohlc.junit.OHLCItemTests	testCloning	@Test
+org.jfree.data.time.ohlc.junit.OHLCItemTests	OHLCItemTests	@Test
+org.jfree.data.time.ohlc.junit.OHLCItemTests	testSerialization	@Test
+org.jfree.data.time.ohlc.junit.OHLCItemTests	testEquals	@Test
+org.jfree.data.time.ohlc.junit.OHLCTests	OHLCTests	@Test
+org.jfree.data.time.ohlc.junit.OHLCTests	suite
+org.jfree.data.time.ohlc.junit.OHLCTests	testCloning	@Test
+org.jfree.data.time.ohlc.junit.OHLCTests	testSerialization	@Test
+org.jfree.data.time.ohlc.junit.OHLCTests	testEquals	@Test
+org.jfree.data.time.ohlc.junit.OHLCSeriesCollectionTests	suite
+org.jfree.data.time.ohlc.junit.OHLCSeriesCollectionTests	OHLCSeriesCollectionTests	@Test
+org.jfree.data.time.ohlc.junit.OHLCSeriesCollectionTests	testCloning	@Test
+org.jfree.data.time.ohlc.junit.OHLCSeriesCollectionTests	testSerialization	@Test
+org.jfree.data.time.ohlc.junit.OHLCSeriesCollectionTests	test1170825	@Test
+org.jfree.data.time.ohlc.junit.OHLCSeriesCollectionTests	testEquals	@Test
+org.jfree.data.time.ohlc.junit.OHLCPackageTests	suite
+org.jfree.data.time.ohlc.junit.OHLCPackageTests	main
+org.jfree.data.time.ohlc.junit.OHLCPackageTests	OHLCPackageTests	@Test
+org.jfree.data.time.ohlc.junit.OHLCSeriesTests	testClear	@Test
+org.jfree.data.time.ohlc.junit.OHLCSeriesTests	testAdditionOfDuplicatePeriod	@Test
+org.jfree.data.time.ohlc.junit.OHLCSeriesTests	testRemove	@Test
+org.jfree.data.time.ohlc.junit.OHLCSeriesTests	seriesChanged
+org.jfree.data.time.ohlc.junit.OHLCSeriesTests	OHLCSeriesTests	@Test
+org.jfree.data.time.ohlc.junit.OHLCSeriesTests	testSerialization	@Test
+org.jfree.data.time.ohlc.junit.OHLCSeriesTests	suite
+org.jfree.data.time.ohlc.junit.OHLCSeriesTests	testSetMaximumItemCount2	@Test
+org.jfree.data.time.ohlc.junit.OHLCSeriesTests	testCloning	@Test
+org.jfree.data.time.ohlc.junit.OHLCSeriesTests	testIndexOf	@Test
+org.jfree.data.time.ohlc.junit.OHLCSeriesTests	testSetMaximumItemCount	@Test
+org.jfree.data.time.ohlc.junit.OHLCSeriesTests	testEquals	@Test
+org.jfree.data.time.junit.SecondTests	testDateConstructor1	@Test
+org.jfree.data.time.junit.SecondTests	testGetStart	@Test
+org.jfree.data.time.junit.SecondTests	testGetLastMillisecond	@Test
+org.jfree.data.time.junit.SecondTests	testGetSerialIndex	@Test
+org.jfree.data.time.junit.SecondTests	testGetFirstMillisecondWithTimeZone	@Test
+org.jfree.data.time.junit.SecondTests	testNext	@Test
+org.jfree.data.time.junit.SecondTests	testGetLastMillisecondWithTimeZone	@Test
+org.jfree.data.time.junit.SecondTests	testGetFirstMillisecond	@Test
+org.jfree.data.time.junit.SecondTests	testSerialization	@Test
+org.jfree.data.time.junit.SecondTests	testDateConstructor2	@Test
+org.jfree.data.time.junit.SecondTests	testEqualsSelf	@Test
+org.jfree.data.time.junit.SecondTests	suite
+org.jfree.data.time.junit.SecondTests	testGetLastMillisecondWithCalendar	@Test
+org.jfree.data.time.junit.SecondTests	SecondTests	@Test
+org.jfree.data.time.junit.SecondTests	testGetFirstMillisecondWithCalendar	@Test
+org.jfree.data.time.junit.SecondTests	testGetEnd	@Test
+org.jfree.data.time.junit.SecondTests	testHashcode	@Test
+org.jfree.data.time.junit.SecondTests	testNotCloneable	@Test
+org.jfree.data.time.junit.SecondTests	testEquals	@Test
+org.jfree.data.time.junit.TimeSeriesTests	testEquals2	@Test
+org.jfree.data.time.junit.TimeSeriesTests	testSerialization	@Test
+org.jfree.data.time.junit.TimeSeriesTests	testBug1864222	@Test
+org.jfree.data.time.junit.TimeSeriesTests	TimeSeriesTests	@Test
+org.jfree.data.time.junit.TimeSeriesTests	testDelete	@Test
+org.jfree.data.time.junit.TimeSeriesTests	testClone2	@Test
+org.jfree.data.time.junit.TimeSeriesTests	testEquals	@Test
+org.jfree.data.time.junit.TimeSeriesTests	testAddValue	@Test
+org.jfree.data.time.junit.TimeSeriesTests	testRemoveAgedItems2	@Test
+org.jfree.data.time.junit.TimeSeriesTests	testGetIndex	@Test
+org.jfree.data.time.junit.TimeSeriesTests	seriesChanged
+org.jfree.data.time.junit.TimeSeriesTests	testHashCode	@Test
+org.jfree.data.time.junit.TimeSeriesTests	testRemoveAgedItems	@Test
+org.jfree.data.time.junit.TimeSeriesTests	testClone	@Test
+org.jfree.data.time.junit.TimeSeriesTests	suite
+org.jfree.data.time.junit.TimeSeriesTests	testGetValue	@Test
+org.jfree.data.time.junit.TimeSeriesTests	testGetDataItem1	@Test
+org.jfree.data.time.junit.TimeSeriesTests	testGetDataItem2	@Test
+org.jfree.data.time.junit.TimeSeriesTests	testDelete2	@Test
+org.jfree.data.time.junit.TimeSeriesTests	testCreateCopy2	@Test
+org.jfree.data.time.junit.TimeSeriesTests	testCreateCopy1	@Test
+org.jfree.data.time.junit.TimeSeriesTests	testAddOrUpdate	@Test
+org.jfree.data.time.junit.TimeSeriesTests	testSetMaximumItemCount	@Test
+org.jfree.data.time.junit.TimeSeriesTests	testBug1075255	@Test
+org.jfree.data.time.junit.TimeSeriesTests	testBug1832432	@Test
+org.jfree.data.time.junit.TimePeriodValuesCollectionTests	testGetDomainBoundsWithInterval	@Test
+org.jfree.data.time.junit.TimePeriodValuesCollectionTests	suite
+org.jfree.data.time.junit.TimePeriodValuesCollectionTests	testGetDomainBoundsWithoutInterval	@Test
+org.jfree.data.time.junit.TimePeriodValuesCollectionTests	TimePeriodValuesCollectionTests	@Test
+org.jfree.data.time.junit.TimePeriodValuesCollectionTests	testSerialization	@Test
+org.jfree.data.time.junit.TimePeriodValuesCollectionTests	test1161340	@Test
+org.jfree.data.time.junit.TimePeriodValuesCollectionTests	testEquals	@Test
+org.jfree.data.time.junit.TimePeriodValuesCollectionTests	testGetSeries	@Test
+org.jfree.data.time.junit.MonthTests	testDateConstructor1	@Test
+org.jfree.data.time.junit.MonthTests	testParseMonth	@Test
+org.jfree.data.time.junit.MonthTests	testGetSerialIndex	@Test
+org.jfree.data.time.junit.MonthTests	testJan1900Previous	@Test
+org.jfree.data.time.junit.MonthTests	testGetFirstMillisecondWithTimeZone	@Test
+org.jfree.data.time.junit.MonthTests	testNext	@Test
+org.jfree.data.time.junit.MonthTests	testDec9999Next	@Test
+org.jfree.data.time.junit.MonthTests	testGetLastMillisecondWithTimeZone	@Test
+org.jfree.data.time.junit.MonthTests	testGetFirstMillisecond	@Test
+org.jfree.data.time.junit.MonthTests	testSerialization	@Test
+org.jfree.data.time.junit.MonthTests	testDateConstructor2	@Test
+org.jfree.data.time.junit.MonthTests	testJan1900Next	@Test
+org.jfree.data.time.junit.MonthTests	testEqualsSelf	@Test
+org.jfree.data.time.junit.MonthTests	testGetLastMillisecondWithCalendar	@Test
+org.jfree.data.time.junit.MonthTests	testHashcode	@Test
+org.jfree.data.time.junit.MonthTests	testEquals	@Test
+org.jfree.data.time.junit.MonthTests	testGetStart	@Test
+org.jfree.data.time.junit.MonthTests	testGetLastMillisecond	@Test
+org.jfree.data.time.junit.MonthTests	suite
+org.jfree.data.time.junit.MonthTests	testGetFirstMillisecondWithCalendar	@Test
+org.jfree.data.time.junit.MonthTests	testGetEnd	@Test
+org.jfree.data.time.junit.MonthTests	testDec9999Previous	@Test
+org.jfree.data.time.junit.MonthTests	testNotCloneable	@Test
+org.jfree.data.time.junit.MonthTests	MonthTests	@Test
+org.jfree.data.time.junit.WeekTests	testBug1498805	@Test
+org.jfree.data.time.junit.WeekTests	testGetSerialIndex	@Test
+org.jfree.data.time.junit.WeekTests	testBug1448828	@Test
+org.jfree.data.time.junit.WeekTests	testGetFirstMillisecondWithTimeZone	@Test
+org.jfree.data.time.junit.WeekTests	testNext	@Test
+org.jfree.data.time.junit.WeekTests	testWeek12005	@Test
+org.jfree.data.time.junit.WeekTests	testGetLastMillisecondWithTimeZone	@Test
+org.jfree.data.time.junit.WeekTests	testGetFirstMillisecond	@Test
+org.jfree.data.time.junit.WeekTests	testSerialization	@Test
+org.jfree.data.time.junit.WeekTests	testConstructor	@Test
+org.jfree.data.time.junit.WeekTests	testGetLastMillisecondWithCalendar	@Test
+org.jfree.data.time.junit.WeekTests	testHashcode	@Test
+org.jfree.data.time.junit.WeekTests	testEquals	@Test
+org.jfree.data.time.junit.WeekTests	testW1Y1900Next	@Test
+org.jfree.data.time.junit.WeekTests	testGetStart	@Test
+org.jfree.data.time.junit.WeekTests	testGetLastMillisecond	@Test
+org.jfree.data.time.junit.WeekTests	testW52Y9999Previous	@Test
+org.jfree.data.time.junit.WeekTests	suite
+org.jfree.data.time.junit.WeekTests	testGetFirstMillisecondWithCalendar	@Test
+org.jfree.data.time.junit.WeekTests	testGetEnd	@Test
+org.jfree.data.time.junit.WeekTests	testWeek532005	@Test
+org.jfree.data.time.junit.WeekTests	testW1Y1900Previous	@Test
+org.jfree.data.time.junit.WeekTests	testW52Y9999Next	@Test
+org.jfree.data.time.junit.WeekTests	WeekTests	@Test
+org.jfree.data.time.junit.WeekTests	testNotCloneable	@Test
+org.jfree.data.time.junit.FixedMillisecondTests	suite
+org.jfree.data.time.junit.FixedMillisecondTests	FixedMillisecondTests	@Test
+org.jfree.data.time.junit.FixedMillisecondTests	testSerialization	@Test
+org.jfree.data.time.junit.FixedMillisecondTests	testImmutability	@Test
+org.jfree.data.time.junit.FixedMillisecondTests	testHashcode	@Test
+org.jfree.data.time.junit.FixedMillisecondTests	testNotCloneable	@Test
+org.jfree.data.time.junit.TimePeriodAnchorTests	suite
+org.jfree.data.time.junit.TimePeriodAnchorTests	TimePeriodAnchorTests	@Test
+org.jfree.data.time.junit.TimePeriodAnchorTests	testSerialization	@Test
+org.jfree.data.time.junit.TimePeriodAnchorTests	testEquals	@Test
+org.jfree.data.time.junit.TimePeriodValuesTests	testAddValue	@Test
+org.jfree.data.time.junit.TimePeriodValuesTests	testGetMaxStartIndex	@Test
+org.jfree.data.time.junit.TimePeriodValuesTests	seriesChanged
+org.jfree.data.time.junit.TimePeriodValuesTests	testSerialization	@Test
+org.jfree.data.time.junit.TimePeriodValuesTests	getMinEndIndex
+org.jfree.data.time.junit.TimePeriodValuesTests	testGetMinStartIndex	@Test
+org.jfree.data.time.junit.TimePeriodValuesTests	getLastEvent
+org.jfree.data.time.junit.TimePeriodValuesTests	TimePeriodValuesTests	@Test
+org.jfree.data.time.junit.TimePeriodValuesTests	testClone	@Test
+org.jfree.data.time.junit.TimePeriodValuesTests	test1161329	@Test
+org.jfree.data.time.junit.TimePeriodValuesTests	testGetMaxMiddleIndex	@Test
+org.jfree.data.time.junit.TimePeriodValuesTests	suite
+org.jfree.data.time.junit.TimePeriodValuesTests	MySeriesChangeListener
+org.jfree.data.time.junit.TimePeriodValuesTests	clearLastEvent
+org.jfree.data.time.junit.TimePeriodValuesTests	testGetMinMiddleIndex	@Test
+org.jfree.data.time.junit.TimePeriodValuesTests	testAdd	@Test
+org.jfree.data.time.junit.TimePeriodValuesTests	getMaxEndIndex
+org.jfree.data.time.junit.TimePeriodValuesTests	testEquals	@Test
+org.jfree.data.time.junit.DataTimePackageTests	suite
+org.jfree.data.time.junit.DataTimePackageTests	DataTimePackageTests	@Test
+org.jfree.data.time.junit.DataTimePackageTests	main
+org.jfree.data.time.junit.SimpleTimePeriodTests	SimpleTimePeriodTests	@Test
+org.jfree.data.time.junit.SimpleTimePeriodTests	testEqualsSelf	@Test
+org.jfree.data.time.junit.SimpleTimePeriodTests	testClone	@Test
+org.jfree.data.time.junit.SimpleTimePeriodTests	suite
+org.jfree.data.time.junit.SimpleTimePeriodTests	testCompareTo	@Test
+org.jfree.data.time.junit.SimpleTimePeriodTests	testImmutable	@Test
+org.jfree.data.time.junit.SimpleTimePeriodTests	testSerialization	@Test
+org.jfree.data.time.junit.SimpleTimePeriodTests	testHashcode	@Test
+org.jfree.data.time.junit.SimpleTimePeriodTests	testEquals	@Test
+org.jfree.data.time.junit.MovingAverageTests	suite
+org.jfree.data.time.junit.MovingAverageTests	test1	@Test
+org.jfree.data.time.junit.MovingAverageTests	MovingAverageTests	@Test
+org.jfree.data.time.junit.TimeSeriesDataItemTests	testEqualsSelf	@Test
+org.jfree.data.time.junit.TimeSeriesDataItemTests	suite
+org.jfree.data.time.junit.TimeSeriesDataItemTests	TimeSeriesDataItemTests	@Test
+org.jfree.data.time.junit.TimeSeriesDataItemTests	testSerialization	@Test
+org.jfree.data.time.junit.TimeSeriesDataItemTests	testEquals	@Test
+org.jfree.data.time.junit.DayTests	testDateConstructor1	@Test
+org.jfree.data.time.junit.DayTests	testGetSerialIndex	@Test
+org.jfree.data.time.junit.DayTests	test1Jan1900Previous	@Test
+org.jfree.data.time.junit.DayTests	testGetFirstMillisecondWithTimeZone	@Test
+org.jfree.data.time.junit.DayTests	testNext	@Test
+org.jfree.data.time.junit.DayTests	testGetLastMillisecondWithTimeZone	@Test
+org.jfree.data.time.junit.DayTests	testGetFirstMillisecond	@Test
+org.jfree.data.time.junit.DayTests	test31Dec9999Previous	@Test
+org.jfree.data.time.junit.DayTests	testSerialization	@Test
+org.jfree.data.time.junit.DayTests	testDateConstructor2	@Test
+org.jfree.data.time.junit.DayTests	testEqualsSelf	@Test
+org.jfree.data.time.junit.DayTests	DayTests	@Test
+org.jfree.data.time.junit.DayTests	testGetLastMillisecondWithCalendar	@Test
+org.jfree.data.time.junit.DayTests	test31Dec9999Next	@Test
+org.jfree.data.time.junit.DayTests	testHashcode	@Test
+org.jfree.data.time.junit.DayTests	testEquals	@Test
+org.jfree.data.time.junit.DayTests	testGetStart	@Test
+org.jfree.data.time.junit.DayTests	test1Jan1900Next	@Test
+org.jfree.data.time.junit.DayTests	testGetLastMillisecond	@Test
+org.jfree.data.time.junit.DayTests	suite
+org.jfree.data.time.junit.DayTests	testGetFirstMillisecondWithCalendar	@Test
+org.jfree.data.time.junit.DayTests	testGetEnd	@Test
+org.jfree.data.time.junit.DayTests	testParseDay	@Test
+org.jfree.data.time.junit.DayTests	testNotCloneable	@Test
+org.jfree.data.time.junit.TimeSeriesCollectionTests	suite
+org.jfree.data.time.junit.TimeSeriesCollectionTests	TimeSeriesCollectionTests	@Test
+org.jfree.data.time.junit.TimeSeriesCollectionTests	testIndexOf	@Test
+org.jfree.data.time.junit.TimeSeriesCollectionTests	testGetSurroundingItems	@Test
+org.jfree.data.time.junit.TimeSeriesCollectionTests	testSerialization	@Test
+org.jfree.data.time.junit.TimeSeriesCollectionTests	test1170825	@Test
+org.jfree.data.time.junit.TimeSeriesCollectionTests	testRemoveSeries	@Test
+org.jfree.data.time.junit.TimeSeriesCollectionTests	testEquals	@Test
+org.jfree.data.time.junit.MinuteTests	testDateConstructor1	@Test
+org.jfree.data.time.junit.MinuteTests	testGetStart	@Test
+org.jfree.data.time.junit.MinuteTests	testGetLastMillisecond	@Test
+org.jfree.data.time.junit.MinuteTests	testGetSerialIndex	@Test
+org.jfree.data.time.junit.MinuteTests	testGetFirstMillisecondWithTimeZone	@Test
+org.jfree.data.time.junit.MinuteTests	testNext	@Test
+org.jfree.data.time.junit.MinuteTests	testGetLastMillisecondWithTimeZone	@Test
+org.jfree.data.time.junit.MinuteTests	testGetFirstMillisecond	@Test
+org.jfree.data.time.junit.MinuteTests	testSerialization	@Test
+org.jfree.data.time.junit.MinuteTests	testDateConstructor2	@Test
+org.jfree.data.time.junit.MinuteTests	testEqualsSelf	@Test
+org.jfree.data.time.junit.MinuteTests	suite
+org.jfree.data.time.junit.MinuteTests	testGetLastMillisecondWithCalendar	@Test
+org.jfree.data.time.junit.MinuteTests	testGetFirstMillisecondWithCalendar	@Test
+org.jfree.data.time.junit.MinuteTests	testGetEnd	@Test
+org.jfree.data.time.junit.MinuteTests	MinuteTests	@Test
+org.jfree.data.time.junit.MinuteTests	testHashcode	@Test
+org.jfree.data.time.junit.MinuteTests	test1611872	@Test
+org.jfree.data.time.junit.MinuteTests	testNotCloneable	@Test
+org.jfree.data.time.junit.MinuteTests	testEquals	@Test
+org.jfree.data.time.junit.TimePeriodValueTests	testEqualsSelf	@Test
+org.jfree.data.time.junit.TimePeriodValueTests	suite
+org.jfree.data.time.junit.TimePeriodValueTests	TimePeriodValueTests	@Test
+org.jfree.data.time.junit.TimePeriodValueTests	testSerialization	@Test
+org.jfree.data.time.junit.TimePeriodValueTests	testEquals	@Test
+org.jfree.data.time.junit.DateRangeTests	testClone	@Test
+org.jfree.data.time.junit.DateRangeTests	suite
+org.jfree.data.time.junit.DateRangeTests	DateRangeTests	@Test
+org.jfree.data.time.junit.DateRangeTests	testImmutable	@Test
+org.jfree.data.time.junit.DateRangeTests	testSerialization	@Test
+org.jfree.data.time.junit.DateRangeTests	testEquals	@Test
+org.jfree.data.time.junit.YearTests	test9999Previous	@Test
+org.jfree.data.time.junit.YearTests	testDateConstructor1	@Test
+org.jfree.data.time.junit.YearTests	testGetSerialIndex	@Test
+org.jfree.data.time.junit.YearTests	test1900Next	@Test
+org.jfree.data.time.junit.YearTests	testGetFirstMillisecondWithTimeZone	@Test
+org.jfree.data.time.junit.YearTests	testNext	@Test
+org.jfree.data.time.junit.YearTests	test9999Next	@Test
+org.jfree.data.time.junit.YearTests	testGetLastMillisecondWithTimeZone	@Test
+org.jfree.data.time.junit.YearTests	testGetFirstMillisecond	@Test
+org.jfree.data.time.junit.YearTests	testSerialization	@Test
+org.jfree.data.time.junit.YearTests	testDateConstructor2	@Test
+org.jfree.data.time.junit.YearTests	test1900Previous	@Test
+org.jfree.data.time.junit.YearTests	testEqualsSelf	@Test
+org.jfree.data.time.junit.YearTests	testGetLastMillisecondWithCalendar	@Test
+org.jfree.data.time.junit.YearTests	testHashcode	@Test
+org.jfree.data.time.junit.YearTests	testEquals	@Test
+org.jfree.data.time.junit.YearTests	testGetStart	@Test
+org.jfree.data.time.junit.YearTests	testGetLastMillisecond	@Test
+org.jfree.data.time.junit.YearTests	YearTests	@Test
+org.jfree.data.time.junit.YearTests	suite
+org.jfree.data.time.junit.YearTests	testParseYear	@Test
+org.jfree.data.time.junit.YearTests	testGetFirstMillisecondWithCalendar	@Test
+org.jfree.data.time.junit.YearTests	testGetEnd	@Test
+org.jfree.data.time.junit.YearTests	testNotCloneable	@Test
+org.jfree.data.time.junit.MillisecondTests	testDateConstructor1	@Test
+org.jfree.data.time.junit.MillisecondTests	testGetStart	@Test
+org.jfree.data.time.junit.MillisecondTests	MillisecondTests	@Test
+org.jfree.data.time.junit.MillisecondTests	testGetLastMillisecond	@Test
+org.jfree.data.time.junit.MillisecondTests	testGetSerialIndex	@Test
+org.jfree.data.time.junit.MillisecondTests	testGetFirstMillisecondWithTimeZone	@Test
+org.jfree.data.time.junit.MillisecondTests	testNext	@Test
+org.jfree.data.time.junit.MillisecondTests	testGetLastMillisecondWithTimeZone	@Test
+org.jfree.data.time.junit.MillisecondTests	test943985	@Test
+org.jfree.data.time.junit.MillisecondTests	testGetFirstMillisecond	@Test
+org.jfree.data.time.junit.MillisecondTests	testSerialization	@Test
+org.jfree.data.time.junit.MillisecondTests	testDateConstructor2	@Test
+org.jfree.data.time.junit.MillisecondTests	testEqualsSelf	@Test
+org.jfree.data.time.junit.MillisecondTests	suite
+org.jfree.data.time.junit.MillisecondTests	testGetLastMillisecondWithCalendar	@Test
+org.jfree.data.time.junit.MillisecondTests	testGetFirstMillisecondWithCalendar	@Test
+org.jfree.data.time.junit.MillisecondTests	testGetEnd	@Test
+org.jfree.data.time.junit.MillisecondTests	testHashcode	@Test
+org.jfree.data.time.junit.MillisecondTests	testNotCloneable	@Test
+org.jfree.data.time.junit.MillisecondTests	testEquals	@Test
+org.jfree.data.time.junit.QuarterTests	testParseQuarter	@Test
+org.jfree.data.time.junit.QuarterTests	testDateConstructor1	@Test
+org.jfree.data.time.junit.QuarterTests	testGetSerialIndex	@Test
+org.jfree.data.time.junit.QuarterTests	testGetFirstMillisecondWithTimeZone	@Test
+org.jfree.data.time.junit.QuarterTests	testNext	@Test
+org.jfree.data.time.junit.QuarterTests	QuarterTests	@Test
+org.jfree.data.time.junit.QuarterTests	testGetLastMillisecondWithTimeZone	@Test
+org.jfree.data.time.junit.QuarterTests	testGetFirstMillisecond	@Test
+org.jfree.data.time.junit.QuarterTests	testSerialization	@Test
+org.jfree.data.time.junit.QuarterTests	testConstructor	@Test
+org.jfree.data.time.junit.QuarterTests	testDateConstructor2	@Test
+org.jfree.data.time.junit.QuarterTests	testQ1Y1900Previous	@Test
+org.jfree.data.time.junit.QuarterTests	testQ1Y1900Next	@Test
+org.jfree.data.time.junit.QuarterTests	testEqualsSelf	@Test
+org.jfree.data.time.junit.QuarterTests	testQ4Y9999Previous	@Test
+org.jfree.data.time.junit.QuarterTests	testGetLastMillisecondWithCalendar	@Test
+org.jfree.data.time.junit.QuarterTests	testHashcode	@Test
+org.jfree.data.time.junit.QuarterTests	testEquals	@Test
+org.jfree.data.time.junit.QuarterTests	testGetStart	@Test
+org.jfree.data.time.junit.QuarterTests	testGetLastMillisecond	@Test
+org.jfree.data.time.junit.QuarterTests	suite
+org.jfree.data.time.junit.QuarterTests	testGetFirstMillisecondWithCalendar	@Test
+org.jfree.data.time.junit.QuarterTests	testGetEnd	@Test
+org.jfree.data.time.junit.QuarterTests	testQ4Y9999Next	@Test
+org.jfree.data.time.junit.QuarterTests	testNotCloneable	@Test
+org.jfree.data.time.junit.TimeTableXYDatasetTests	testClone	@Test
+org.jfree.data.time.junit.TimeTableXYDatasetTests	testClear	@Test
+org.jfree.data.time.junit.TimeTableXYDatasetTests	suite
+org.jfree.data.time.junit.TimeTableXYDatasetTests	TimeTableXYDatasetTests	@Test
+org.jfree.data.time.junit.TimeTableXYDatasetTests	testGetTimePeriod	@Test
+org.jfree.data.time.junit.TimeTableXYDatasetTests	testSerialization	@Test
+org.jfree.data.time.junit.TimeTableXYDatasetTests	testStandard	@Test
+org.jfree.data.time.junit.TimeTableXYDatasetTests	testEquals	@Test
+org.jfree.data.time.junit.HourTests	testDateConstructor1	@Test
+org.jfree.data.time.junit.HourTests	testGetSerialIndex	@Test
+org.jfree.data.time.junit.HourTests	testGetFirstMillisecondWithTimeZone	@Test
+org.jfree.data.time.junit.HourTests	testNext	@Test
+org.jfree.data.time.junit.HourTests	testGetLastMillisecondWithTimeZone	@Test
+org.jfree.data.time.junit.HourTests	testGetFirstMillisecond	@Test
+org.jfree.data.time.junit.HourTests	testSerialization	@Test
+org.jfree.data.time.junit.HourTests	testDateConstructor2	@Test
+org.jfree.data.time.junit.HourTests	testFirstHourNext	@Test
+org.jfree.data.time.junit.HourTests	HourTests	@Test
+org.jfree.data.time.junit.HourTests	testEqualsSelf	@Test
+org.jfree.data.time.junit.HourTests	testLastHourNext	@Test
+org.jfree.data.time.junit.HourTests	testGetLastMillisecondWithCalendar	@Test
+org.jfree.data.time.junit.HourTests	testHashcode	@Test
+org.jfree.data.time.junit.HourTests	testEquals	@Test
+org.jfree.data.time.junit.HourTests	testGetStart	@Test
+org.jfree.data.time.junit.HourTests	testGetLastMillisecond	@Test
+org.jfree.data.time.junit.HourTests	testParseHour	@Test
+org.jfree.data.time.junit.HourTests	suite
+org.jfree.data.time.junit.HourTests	testGetFirstMillisecondWithCalendar	@Test
+org.jfree.data.time.junit.HourTests	testGetEnd	@Test
+org.jfree.data.time.junit.HourTests	testFirstHourPrevious	@Test
+org.jfree.data.time.junit.HourTests	testLastHourPrevious	@Test
+org.jfree.data.time.junit.HourTests	testNotCloneable	@Test
+org.jfree.data.general.junit.DatasetGroupTests	suite
+org.jfree.data.general.junit.DatasetGroupTests	DatasetGroupTests	@Test
+org.jfree.data.general.junit.DatasetGroupTests	testSerialization	@Test
+org.jfree.data.general.junit.DefaultKeyedValueDatasetTests	suite
+org.jfree.data.general.junit.DefaultKeyedValueDatasetTests	testCloning	@Test
+org.jfree.data.general.junit.DefaultKeyedValueDatasetTests	DefaultKeyedValueDatasetTests	@Test
+org.jfree.data.general.junit.DefaultKeyedValueDatasetTests	testSerialization	@Test
+org.jfree.data.general.junit.DefaultKeyedValueDatasetTests	testEquals	@Test
+org.jfree.data.general.junit.DefaultKeyedValueDatasetTests	testCloneIndependence	@Test
+org.jfree.data.general.junit.DataGeneralPackageTests	suite
+org.jfree.data.general.junit.DataGeneralPackageTests	DataGeneralPackageTests	@Test
+org.jfree.data.general.junit.DataGeneralPackageTests	main
+org.jfree.data.general.junit.DefaultPieDatasetTests	testClear	@Test
+org.jfree.data.general.junit.DefaultPieDatasetTests	testGetIndex	@Test
+org.jfree.data.general.junit.DefaultPieDatasetTests	suite
+org.jfree.data.general.junit.DefaultPieDatasetTests	datasetChanged
+org.jfree.data.general.junit.DefaultPieDatasetTests	testGetKey	@Test
+org.jfree.data.general.junit.DefaultPieDatasetTests	testCloning	@Test
+org.jfree.data.general.junit.DefaultPieDatasetTests	DefaultPieDatasetTests	@Test
+org.jfree.data.general.junit.DefaultPieDatasetTests	testSerialization	@Test
+org.jfree.data.general.junit.DefaultKeyedValuesDatasetTests	suite
+org.jfree.data.general.junit.DefaultKeyedValuesDatasetTests	testCloning	@Test
+org.jfree.data.general.junit.DefaultKeyedValuesDatasetTests	DefaultKeyedValuesDatasetTests	@Test
+org.jfree.data.general.junit.DefaultKeyedValuesDatasetTests	testSerialization	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testIterateCategoryRangeBounds	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testCumulativeRange2	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testFindStackedRangeBoundsForCategoryDataset1	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testCumulativeRange1	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testFindStackedRangeBoundsForCategoryDataset2	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testMaximumStackedRangeValue	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testStackedRangeWithMap	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testFindMinimumDomainValue	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testIterateDomainBounds	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testFindMinimumRangeValue	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testIsEmptyOrNullXYDataset	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testLimitPieDataset	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testFindDomainBounds	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testFindMaximumDomainValue	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	DatasetUtilitiesTests	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testIterateRangeBounds	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testIterateRangeBounds2	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testFindMaximumRangeValue	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testFindStackedRangeBoundsForTableXYDataset2	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testFindStackedRangeBoundsForTableXYDataset1	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	test803660	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testCalculatePieDatasetTotal	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testCreateCategoryDataset1	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	suite
+org.jfree.data.general.junit.DatasetUtilitiesTests	testCreateCategoryDataset2	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testJava	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testFindRangeBounds2	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testFindRangeBounds1	@Test
+org.jfree.data.general.junit.DatasetUtilitiesTests	testMinMaxRange	@Test
+org.jfree.data.general.junit.DefaultKeyedValues2DDatasetTests	suite
+org.jfree.data.general.junit.DefaultKeyedValues2DDatasetTests	DefaultKeyedValues2DDatasetTests	@Test
+org.jfree.data.general.junit.DefaultKeyedValues2DDatasetTests	testCloning	@Test
+org.jfree.data.general.junit.DefaultKeyedValues2DDatasetTests	testSerialization	@Test
+org.jfree.data.statistics.junit.BoxAndWhiskerCalculatorTests	BoxAndWhiskerCalculatorTests	@Test
+org.jfree.data.statistics.junit.BoxAndWhiskerCalculatorTests	suite
+org.jfree.data.statistics.junit.BoxAndWhiskerCalculatorTests	testCalculateBoxAndWhiskerStatistics	@Test
+org.jfree.data.statistics.junit.BoxAndWhiskerCalculatorTests	test1593149	@Test
+org.jfree.data.statistics.junit.BoxAndWhiskerCalculatorTests	testCalculateQ3	@Test
+org.jfree.data.statistics.junit.BoxAndWhiskerCalculatorTests	testCalculateQ1	@Test
+org.jfree.data.statistics.junit.StatisticsTests	testGetStdDev	@Test
+org.jfree.data.statistics.junit.StatisticsTests	testCorrelation1	@Test
+org.jfree.data.statistics.junit.StatisticsTests	suite
+org.jfree.data.statistics.junit.StatisticsTests	testCalculateMedian1	@Test
+org.jfree.data.statistics.junit.StatisticsTests	testCorrelation2	@Test
+org.jfree.data.statistics.junit.StatisticsTests	testCalculateMedian	@Test
+org.jfree.data.statistics.junit.StatisticsTests	testCalculateMedian2	@Test
+org.jfree.data.statistics.junit.StatisticsTests	testCalculateMedian3	@Test
+org.jfree.data.statistics.junit.StatisticsTests	testCalculateMedian4	@Test
+org.jfree.data.statistics.junit.StatisticsTests	testCalculateMedian5	@Test
+org.jfree.data.statistics.junit.StatisticsTests	testCalculateMean_Array	@Test
+org.jfree.data.statistics.junit.StatisticsTests	testCalculateMedian6	@Test
+org.jfree.data.statistics.junit.StatisticsTests	StatisticsTests	@Test
+org.jfree.data.statistics.junit.StatisticsTests	testCalculateMean_Collection	@Test
+org.jfree.data.statistics.junit.DefaultMultiValueCategoryDatasetTests	testAddValue	@Test
+org.jfree.data.statistics.junit.DefaultMultiValueCategoryDatasetTests	testGetValue2	@Test
+org.jfree.data.statistics.junit.DefaultMultiValueCategoryDatasetTests	suite
+org.jfree.data.statistics.junit.DefaultMultiValueCategoryDatasetTests	testGetValue	@Test
+org.jfree.data.statistics.junit.DefaultMultiValueCategoryDatasetTests	testGetRowCount	@Test
+org.jfree.data.statistics.junit.DefaultMultiValueCategoryDatasetTests	testGetColumnCount	@Test
+org.jfree.data.statistics.junit.DefaultMultiValueCategoryDatasetTests	testCloning	@Test
+org.jfree.data.statistics.junit.DefaultMultiValueCategoryDatasetTests	DefaultMultiValueCategoryDatasetTests	@Test
+org.jfree.data.statistics.junit.DefaultMultiValueCategoryDatasetTests	testSerialization	@Test
+org.jfree.data.statistics.junit.DefaultMultiValueCategoryDatasetTests	testEquals	@Test
+org.jfree.data.statistics.junit.SimpleHistogramDatasetTests	suite
+org.jfree.data.statistics.junit.SimpleHistogramDatasetTests	SimpleHistogramDatasetTests	@Test
+org.jfree.data.statistics.junit.SimpleHistogramDatasetTests	testCloning	@Test
+org.jfree.data.statistics.junit.SimpleHistogramDatasetTests	testClearObservations	@Test
+org.jfree.data.statistics.junit.SimpleHistogramDatasetTests	testRemoveAllBins	@Test
+org.jfree.data.statistics.junit.SimpleHistogramDatasetTests	testSerialization	@Test
+org.jfree.data.statistics.junit.SimpleHistogramDatasetTests	testEquals	@Test
+org.jfree.data.statistics.junit.MeanAndStandardDeviationTests	suite
+org.jfree.data.statistics.junit.MeanAndStandardDeviationTests	testCloning	@Test
+org.jfree.data.statistics.junit.MeanAndStandardDeviationTests	testSerialization	@Test
+org.jfree.data.statistics.junit.MeanAndStandardDeviationTests	MeanAndStandardDeviationTests	@Test
+org.jfree.data.statistics.junit.MeanAndStandardDeviationTests	testEquals	@Test
+org.jfree.data.statistics.junit.HistogramDatasetTests	testAddSeries	@Test
+org.jfree.data.statistics.junit.HistogramDatasetTests	suite
+org.jfree.data.statistics.junit.HistogramDatasetTests	testBins	@Test
+org.jfree.data.statistics.junit.HistogramDatasetTests	testCloning	@Test
+org.jfree.data.statistics.junit.HistogramDatasetTests	HistogramDatasetTests	@Test
+org.jfree.data.statistics.junit.HistogramDatasetTests	test1553088	@Test
+org.jfree.data.statistics.junit.HistogramDatasetTests	testSerialization	@Test
+org.jfree.data.statistics.junit.HistogramDatasetTests	testGetSeriesKey	@Test
+org.jfree.data.statistics.junit.HistogramDatasetTests	testBinBoundaries	@Test
+org.jfree.data.statistics.junit.HistogramDatasetTests	testEquals	@Test
+org.jfree.data.statistics.junit.HistogramBinTests	suite
+org.jfree.data.statistics.junit.HistogramBinTests	testCloning	@Test
+org.jfree.data.statistics.junit.HistogramBinTests	testSerialization	@Test
+org.jfree.data.statistics.junit.HistogramBinTests	HistogramBinTests	@Test
+org.jfree.data.statistics.junit.HistogramBinTests	testEquals	@Test
+org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests	suite
+org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests	testCloning	@Test
+org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests	testAddUpdatesCachedRange	@Test
+org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests	testRemove	@Test
+org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests	test1701822	@Test
+org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests	testAdd	@Test
+org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests	testSerialization	@Test
+org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests	testConstructor	@Test
+org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests	testGetRangeBounds	@Test
+org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests	DefaultBoxAndWhiskerCategoryDatasetTests	@Test
+org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests	testEquals	@Test
+org.jfree.data.statistics.junit.RegressionTests	testOLSRegression1b	@Test
+org.jfree.data.statistics.junit.RegressionTests	testOLSRegression2a	@Test
+org.jfree.data.statistics.junit.RegressionTests	suite
+org.jfree.data.statistics.junit.RegressionTests	testOLSRegression1a	@Test
+org.jfree.data.statistics.junit.RegressionTests	testOLSRegression2b	@Test
+org.jfree.data.statistics.junit.RegressionTests	RegressionTests	@Test
+org.jfree.data.statistics.junit.RegressionTests	testPowerRegression1b	@Test
+org.jfree.data.statistics.junit.RegressionTests	testPowerRegression1a	@Test
+org.jfree.data.statistics.junit.RegressionTests	testPowerRegression2b	@Test
+org.jfree.data.statistics.junit.RegressionTests	testPowerRegression2a	@Test
+org.jfree.data.statistics.junit.DataStatisticsPackageTests	suite
+org.jfree.data.statistics.junit.DataStatisticsPackageTests	DataStatisticsPackageTests	@Test
+org.jfree.data.statistics.junit.DataStatisticsPackageTests	main
+org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests	testSerialization2	@Test
+org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests	testGetRangeLowerBound	@Test
+org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests	testSerialization1	@Test
+org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests	testRemove	@Test
+org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests	testGetRangeBounds	@Test
+org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests	testGetRangeBounds2	@Test
+org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests	DefaultStatisticalCategoryDatasetTests	@Test
+org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests	suite
+org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests	testCloning	@Test
+org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests	testAdd	@Test
+org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests	testGetRangeUpperBound	@Test
+org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests	testEquals	@Test
+org.jfree.data.statistics.junit.SimpleHistogramBinTests	testOverlapsWidth	@Test
+org.jfree.data.statistics.junit.SimpleHistogramBinTests	testAccepts	@Test
+org.jfree.data.statistics.junit.SimpleHistogramBinTests	SimpleHistogramBinTests	@Test
+org.jfree.data.statistics.junit.SimpleHistogramBinTests	suite
+org.jfree.data.statistics.junit.SimpleHistogramBinTests	testCloning	@Test
+org.jfree.data.statistics.junit.SimpleHistogramBinTests	testSerialization	@Test
+org.jfree.data.statistics.junit.SimpleHistogramBinTests	testEquals	@Test
+org.jfree.data.statistics.junit.BoxAndWhiskerItemTests	suite
+org.jfree.data.statistics.junit.BoxAndWhiskerItemTests	BoxAndWhiskerItemTests	@Test
+org.jfree.data.statistics.junit.BoxAndWhiskerItemTests	testSerialization	@Test
+org.jfree.data.statistics.junit.BoxAndWhiskerItemTests	testEquals	@Test
+org.jfree.chart.axis.junit.MonthDateFormatTests	suite
+org.jfree.chart.axis.junit.MonthDateFormatTests	testCloning	@Test
+org.jfree.chart.axis.junit.MonthDateFormatTests	MonthDateFormatTests	@Test
+org.jfree.chart.axis.junit.MonthDateFormatTests	testSerialization	@Test
+org.jfree.chart.axis.junit.MonthDateFormatTests	testHashCode	@Test
+org.jfree.chart.axis.junit.MonthDateFormatTests	testEquals	@Test
+org.jfree.chart.axis.junit.StandardTickUnitSourceTests	suite
+org.jfree.chart.axis.junit.StandardTickUnitSourceTests	StandardTickUnitSourceTests	@Test
+org.jfree.chart.axis.junit.StandardTickUnitSourceTests	testSerialization	@Test
+org.jfree.chart.axis.junit.StandardTickUnitSourceTests	testEquals	@Test
+org.jfree.chart.axis.junit.PeriodAxisTests	suite
+org.jfree.chart.axis.junit.PeriodAxisTests	testCloning	@Test
+org.jfree.chart.axis.junit.PeriodAxisTests	PeriodAxisTests	@Test
+org.jfree.chart.axis.junit.PeriodAxisTests	testSerialization	@Test
+org.jfree.chart.axis.junit.PeriodAxisTests	testHashCode	@Test
+org.jfree.chart.axis.junit.PeriodAxisTests	testEquals	@Test
+org.jfree.chart.axis.junit.PeriodAxisLabelInfoTests	suite
+org.jfree.chart.axis.junit.PeriodAxisLabelInfoTests	testCloning	@Test
+org.jfree.chart.axis.junit.PeriodAxisLabelInfoTests	testSerialization	@Test
+org.jfree.chart.axis.junit.PeriodAxisLabelInfoTests	testHashCode	@Test
+org.jfree.chart.axis.junit.PeriodAxisLabelInfoTests	PeriodAxisLabelInfoTests	@Test
+org.jfree.chart.axis.junit.PeriodAxisLabelInfoTests	testEquals	@Test
+org.jfree.chart.axis.junit.AxisLocationTests	suite
+org.jfree.chart.axis.junit.AxisLocationTests	AxisLocationTests	@Test
+org.jfree.chart.axis.junit.AxisLocationTests	testSerialization	@Test
+org.jfree.chart.axis.junit.AxisLocationTests	testHashCode	@Test
+org.jfree.chart.axis.junit.AxisLocationTests	testEquals	@Test
+org.jfree.chart.axis.junit.QuarterDateFormatTests	suite
+org.jfree.chart.axis.junit.QuarterDateFormatTests	testCloning	@Test
+org.jfree.chart.axis.junit.QuarterDateFormatTests	testSerialization	@Test
+org.jfree.chart.axis.junit.QuarterDateFormatTests	testHashCode	@Test
+org.jfree.chart.axis.junit.QuarterDateFormatTests	QuarterDateFormatTests	@Test
+org.jfree.chart.axis.junit.QuarterDateFormatTests	testEquals	@Test
+org.jfree.chart.axis.junit.SubCategoryAxisTests	suite
+org.jfree.chart.axis.junit.SubCategoryAxisTests	testCloning	@Test
+org.jfree.chart.axis.junit.SubCategoryAxisTests	SubCategoryAxisTests	@Test
+org.jfree.chart.axis.junit.SubCategoryAxisTests	testSerialization	@Test
+org.jfree.chart.axis.junit.SubCategoryAxisTests	testHashCode	@Test
+org.jfree.chart.axis.junit.SubCategoryAxisTests	testEquals	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	verifyIncludedAndExcludedSegments
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testMondayThoughFridayExceptionSegments	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testSerialization2	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testFifteenMinSegmentedTimeline	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testFifteenMinExceptionSegments	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testMs2BaseTimelineTranslations	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	main
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testSerialization	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testMsInc	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testMs2IncludedAndExcludedSegments	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	verifyInc
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testCloning	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testMondayThroughFridayIncludedAndExcludedSegments	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testMs2SegmentedTimeline	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testMondayThroughFridaySegmentedTimeline	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testFifteenMinTranslations	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testFifteenMinSegment	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testEquals	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testFifteenMinIncludedAndExcludedSegments	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testFifteenMinInc	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testMondayThroughFridaySegment	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testMsSegment	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testMs2BaseTimelineExceptionSegments	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testMsExceptionSegments	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testHashCode	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testMsSegmentedTimeline	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	verifyOneSegment
+org.jfree.chart.axis.junit.SegmentedTimelineTests	suite
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testMsIncludedAndExcludedSegments	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	SegmentedTimelineTests	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	textMondayThroughFridayTranslations
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testMs2Segment	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testMs2Inc	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	verifyExceptionSegments
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testMondayThroughFridayInc	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testMsTranslations	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	verifyTranslations
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testMs2Translations	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testBasicSegmentedTimeline	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests	testSegmentedTimelineWithException1	@Test
+org.jfree.chart.axis.junit.NumberTickUnitTests	suite
+org.jfree.chart.axis.junit.NumberTickUnitTests	testCloning	@Test
+org.jfree.chart.axis.junit.NumberTickUnitTests	NumberTickUnitTests	@Test
+org.jfree.chart.axis.junit.NumberTickUnitTests	testSerialization	@Test
+org.jfree.chart.axis.junit.NumberTickUnitTests	testHashCode	@Test
+org.jfree.chart.axis.junit.NumberTickUnitTests	testEquals	@Test
+org.jfree.chart.axis.junit.SymbolAxisTests	suite
+org.jfree.chart.axis.junit.SymbolAxisTests	testCloning	@Test
+org.jfree.chart.axis.junit.SymbolAxisTests	SymbolAxisTests	@Test
+org.jfree.chart.axis.junit.SymbolAxisTests	testSerialization	@Test
+org.jfree.chart.axis.junit.SymbolAxisTests	testEquals	@Test
+org.jfree.chart.axis.junit.ExtendedCategoryAxisTests	suite
+org.jfree.chart.axis.junit.ExtendedCategoryAxisTests	ExtendedCategoryAxisTests	@Test
+org.jfree.chart.axis.junit.ExtendedCategoryAxisTests	testCloning	@Test
+org.jfree.chart.axis.junit.ExtendedCategoryAxisTests	testCloning2	@Test
+org.jfree.chart.axis.junit.ExtendedCategoryAxisTests	testSerialization	@Test
+org.jfree.chart.axis.junit.ExtendedCategoryAxisTests	testHashCode	@Test
+org.jfree.chart.axis.junit.ExtendedCategoryAxisTests	testEquals	@Test
+org.jfree.chart.axis.junit.DateTickUnitTests	suite
+org.jfree.chart.axis.junit.DateTickUnitTests	DateTickUnitTests	@Test
+org.jfree.chart.axis.junit.DateTickUnitTests	testSerialization	@Test
+org.jfree.chart.axis.junit.DateTickUnitTests	testHashCode	@Test
+org.jfree.chart.axis.junit.DateTickUnitTests	testEquals	@Test
+org.jfree.chart.axis.junit.CategoryAxisTests	suite
+org.jfree.chart.axis.junit.CategoryAxisTests	testCloning	@Test
+org.jfree.chart.axis.junit.CategoryAxisTests	testCloning2	@Test
+org.jfree.chart.axis.junit.CategoryAxisTests	CategoryAxisTests	@Test
+org.jfree.chart.axis.junit.CategoryAxisTests	testSerialization	@Test
+org.jfree.chart.axis.junit.CategoryAxisTests	testHashCode	@Test
+org.jfree.chart.axis.junit.CategoryAxisTests	testEquals	@Test
+org.jfree.chart.axis.junit.CyclicNumberAxisTests	suite
+org.jfree.chart.axis.junit.CyclicNumberAxisTests	testCloning	@Test
+org.jfree.chart.axis.junit.CyclicNumberAxisTests	CyclicNumberAxisTests	@Test
+org.jfree.chart.axis.junit.CyclicNumberAxisTests	testSerialization	@Test
+org.jfree.chart.axis.junit.CyclicNumberAxisTests	testHashCode	@Test
+org.jfree.chart.axis.junit.CyclicNumberAxisTests	testEquals	@Test
+org.jfree.chart.axis.junit.DateAxisTests	MyDateAxis
+org.jfree.chart.axis.junit.DateAxisTests	testSerialization	@Test
+org.jfree.chart.axis.junit.DateAxisTests	testCloning	@Test
+org.jfree.chart.axis.junit.DateAxisTests	testSetMaximumDate	@Test
+org.jfree.chart.axis.junit.DateAxisTests	testPreviousStandardDateDayA	@Test
+org.jfree.chart.axis.junit.DateAxisTests	testPreviousStandardDateDayB	@Test
+org.jfree.chart.axis.junit.DateAxisTests	testSetRange	@Test
+org.jfree.chart.axis.junit.DateAxisTests	testEquals	@Test
+org.jfree.chart.axis.junit.DateAxisTests	testPreviousStandardDateSecondA	@Test
+org.jfree.chart.axis.junit.DateAxisTests	testPreviousStandardDateSecondB	@Test
+org.jfree.chart.axis.junit.DateAxisTests	testPreviousStandardDateMillisecondA	@Test
+org.jfree.chart.axis.junit.DateAxisTests	testPreviousStandardDateMillisecondB	@Test
+org.jfree.chart.axis.junit.DateAxisTests	testSetMinimumDate	@Test
+org.jfree.chart.axis.junit.DateAxisTests	previousStandardDate
+org.jfree.chart.axis.junit.DateAxisTests	test1472942	@Test
+org.jfree.chart.axis.junit.DateAxisTests	testHashCode	@Test
+org.jfree.chart.axis.junit.DateAxisTests	testPreviousStandardDateYearB	@Test
+org.jfree.chart.axis.junit.DateAxisTests	testPreviousStandardDateMonthB	@Test
+org.jfree.chart.axis.junit.DateAxisTests	testPreviousStandardDateYearA	@Test
+org.jfree.chart.axis.junit.DateAxisTests	DateAxisTests	@Test
+org.jfree.chart.axis.junit.DateAxisTests	suite
+org.jfree.chart.axis.junit.DateAxisTests	testPreviousStandardDateMonthA	@Test
+org.jfree.chart.axis.junit.DateAxisTests	testPreviousStandardDateHourB	@Test
+org.jfree.chart.axis.junit.DateAxisTests	testJava2DToValue	@Test
+org.jfree.chart.axis.junit.DateAxisTests	testPreviousStandardDateHourA	@Test
+org.jfree.chart.axis.junit.AxisPackageTests	suite
+org.jfree.chart.axis.junit.AxisPackageTests	AxisPackageTests	@Test
+org.jfree.chart.axis.junit.AxisPackageTests	main
+org.jfree.chart.axis.junit.CategoryLabelPositionsTests	suite
+org.jfree.chart.axis.junit.CategoryLabelPositionsTests	CategoryLabelPositionsTests	@Test
+org.jfree.chart.axis.junit.CategoryLabelPositionsTests	testSerialization	@Test
+org.jfree.chart.axis.junit.CategoryLabelPositionsTests	testHashCode	@Test
+org.jfree.chart.axis.junit.CategoryLabelPositionsTests	testEquals	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests2	test4	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests2	test5	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests2	test2	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests2	test3	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests2	test8	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests2	test6	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests2	test7	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests2	SegmentedTimelineTests2	@Test
+org.jfree.chart.axis.junit.SegmentedTimelineTests2	test1	@Test
+org.jfree.chart.axis.junit.CategoryLabelPositionTests	suite
+org.jfree.chart.axis.junit.CategoryLabelPositionTests	testSerialization	@Test
+org.jfree.chart.axis.junit.CategoryLabelPositionTests	testHashCode	@Test
+org.jfree.chart.axis.junit.CategoryLabelPositionTests	CategoryLabelPositionTests	@Test
+org.jfree.chart.axis.junit.CategoryLabelPositionTests	testEquals	@Test
+org.jfree.chart.axis.junit.AxisSpaceTests	suite
+org.jfree.chart.axis.junit.AxisSpaceTests	AxisSpaceTests	@Test
+org.jfree.chart.axis.junit.AxisSpaceTests	testCloning	@Test
+org.jfree.chart.axis.junit.AxisSpaceTests	testHashCode	@Test
+org.jfree.chart.axis.junit.AxisSpaceTests	testEquals	@Test
+org.jfree.chart.axis.junit.NumberAxis3DTests	suite
+org.jfree.chart.axis.junit.NumberAxis3DTests	testSerialization	@Test
+org.jfree.chart.axis.junit.NumberAxis3DTests	NumberAxis3DTests	@Test
+org.jfree.chart.axis.junit.NumberAxisTests	testAutoRange4	@Test
+org.jfree.chart.axis.junit.NumberAxisTests	testAutoRange3	@Test
+org.jfree.chart.axis.junit.NumberAxisTests	testAutoRange2	@Test
+org.jfree.chart.axis.junit.NumberAxisTests	testAutoRange1	@Test
+org.jfree.chart.axis.junit.NumberAxisTests	testXYAutoRange2	@Test
+org.jfree.chart.axis.junit.NumberAxisTests	testSerialization	@Test
+org.jfree.chart.axis.junit.NumberAxisTests	testXYAutoRange1	@Test
+org.jfree.chart.axis.junit.NumberAxisTests	testHashCode	@Test
+org.jfree.chart.axis.junit.NumberAxisTests	testSetLowerBound	@Test
+org.jfree.chart.axis.junit.NumberAxisTests	NumberAxisTests	@Test
+org.jfree.chart.axis.junit.NumberAxisTests	suite
+org.jfree.chart.axis.junit.NumberAxisTests	testCloning	@Test
+org.jfree.chart.axis.junit.NumberAxisTests	testEquals	@Test
+org.jfree.chart.axis.junit.NumberAxisTests	testTranslateJava2DToValue	@Test
+org.jfree.chart.axis.junit.DateTickMarkPositionTests	suite
+org.jfree.chart.axis.junit.DateTickMarkPositionTests	DateTickMarkPositionTests	@Test
+org.jfree.chart.axis.junit.DateTickMarkPositionTests	testSerialization	@Test
+org.jfree.chart.axis.junit.DateTickMarkPositionTests	testHashCode	@Test
+org.jfree.chart.axis.junit.DateTickMarkPositionTests	testEquals	@Test
+org.jfree.chart.axis.junit.TickUnitsTests	suite
+org.jfree.chart.axis.junit.TickUnitsTests	testCloning	@Test
+org.jfree.chart.axis.junit.TickUnitsTests	testSerialization	@Test
+org.jfree.chart.axis.junit.TickUnitsTests	TickUnitsTests	@Test
+org.jfree.chart.axis.junit.TickUnitsTests	testEquals	@Test
+org.jfree.chart.axis.junit.ValueAxisTests	suite
+org.jfree.chart.axis.junit.ValueAxisTests	testCloning	@Test
+org.jfree.chart.axis.junit.ValueAxisTests	testAxisMargins	@Test
+org.jfree.chart.axis.junit.ValueAxisTests	ValueAxisTests	@Test
+org.jfree.chart.axis.junit.ValueAxisTests	testEquals	@Test
+org.jfree.chart.axis.junit.LogAxisTests	LogAxisTests	@Test
+org.jfree.chart.axis.junit.LogAxisTests	testAutoRange3	@Test
+org.jfree.chart.axis.junit.LogAxisTests	testAutoRange1	@Test
+org.jfree.chart.axis.junit.LogAxisTests	testXYAutoRange2	@Test
+org.jfree.chart.axis.junit.LogAxisTests	testSerialization	@Test
+org.jfree.chart.axis.junit.LogAxisTests	testXYAutoRange1	@Test
+org.jfree.chart.axis.junit.LogAxisTests	testHashCode	@Test
+org.jfree.chart.axis.junit.LogAxisTests	testSetLowerBound	@Test
+org.jfree.chart.axis.junit.LogAxisTests	suite
+org.jfree.chart.axis.junit.LogAxisTests	testCloning	@Test
+org.jfree.chart.axis.junit.LogAxisTests	testTickMarksVisibleDefault	@Test
+org.jfree.chart.axis.junit.LogAxisTests	testEquals	@Test
+org.jfree.chart.axis.junit.LogAxisTests	testTranslateJava2DToValue	@Test
+org.jfree.chart.axis.junit.DateTickTests	DateTickTests	@Test
+org.jfree.chart.axis.junit.DateTickTests	suite
+org.jfree.chart.axis.junit.DateTickTests	testCloning	@Test
+org.jfree.chart.axis.junit.DateTickTests	testSerialization	@Test
+org.jfree.chart.axis.junit.DateTickTests	testHashCode	@Test
+org.jfree.chart.axis.junit.DateTickTests	testEquals	@Test
+org.jfree.chart.axis.junit.CategoryLabelWidthTypeTests	suite
+org.jfree.chart.axis.junit.CategoryLabelWidthTypeTests	testSerialization	@Test
+org.jfree.chart.axis.junit.CategoryLabelWidthTypeTests	testHashCode	@Test
+org.jfree.chart.axis.junit.CategoryLabelWidthTypeTests	CategoryLabelWidthTypeTests	@Test
+org.jfree.chart.axis.junit.CategoryLabelWidthTypeTests	testEquals	@Test
+org.jfree.chart.axis.junit.CategoryAnchorTests	suite
+org.jfree.chart.axis.junit.CategoryAnchorTests	testSerialization	@Test
+org.jfree.chart.axis.junit.CategoryAnchorTests	CategoryAnchorTests	@Test
+org.jfree.chart.axis.junit.CategoryAnchorTests	testHashCode	@Test
+org.jfree.chart.axis.junit.CategoryAnchorTests	testEquals	@Test
+org.jfree.chart.axis.junit.MarkerAxisBandTests	suite
+org.jfree.chart.axis.junit.MarkerAxisBandTests	MarkerAxisBandTests	@Test
+org.jfree.chart.axis.junit.MarkerAxisBandTests	testSerialization	@Test
+org.jfree.chart.axis.junit.MarkerAxisBandTests	testHashCode	@Test
+org.jfree.chart.axis.junit.MarkerAxisBandTests	testEquals	@Test
+org.jfree.chart.axis.junit.AxisTests	suite
+org.jfree.chart.axis.junit.AxisTests	testCloning	@Test
+org.jfree.chart.axis.junit.AxisTests	AxisTests	@Test
+org.jfree.chart.axis.junit.AxisTests	testHashCode	@Test
+org.jfree.chart.axis.junit.AxisTests	testEquals	@Test
+org.jfree.chart.axis.junit.LogarithmicAxisTests	testValueToJava2D	@Test
+org.jfree.chart.axis.junit.LogarithmicAxisTests	suite
+org.jfree.chart.axis.junit.LogarithmicAxisTests	testAdjustedLog10	@Test
+org.jfree.chart.axis.junit.LogarithmicAxisTests	testSwitchedLog10	@Test
+org.jfree.chart.axis.junit.LogarithmicAxisTests	LogarithmicAxisTests	@Test
+org.jfree.chart.axis.junit.LogarithmicAxisTests	main
+org.jfree.chart.axis.junit.LogarithmicAxisTests	testSerialization	@Test
+org.jfree.chart.axis.junit.LogarithmicAxisTests	MyLogarithmicAxis
+org.jfree.chart.axis.junit.LogarithmicAxisTests	testJava2DToValue	@Test
+org.jfree.chart.axis.junit.CategoryTickTests	suite
+org.jfree.chart.axis.junit.CategoryTickTests	testCloning	@Test
+org.jfree.chart.axis.junit.CategoryTickTests	CategoryTickTests	@Test
+org.jfree.chart.axis.junit.CategoryTickTests	testSerialization	@Test
+org.jfree.chart.axis.junit.CategoryTickTests	testHashCode	@Test
+org.jfree.chart.axis.junit.CategoryTickTests	testEquals	@Test
+org.jfree.chart.axis.junit.CategoryAxis3DTests	CategoryAxis3DTests	@Test
+org.jfree.chart.axis.junit.CategoryAxis3DTests	suite
+org.jfree.chart.axis.junit.CategoryAxis3DTests	testCloning	@Test
+org.jfree.chart.axis.junit.CategoryAxis3DTests	testSerialization	@Test
+org.jfree.chart.imagemap.junit.StandardURLTagFragmentGeneratorTests	testGenerateURLFragment	@Test
+org.jfree.chart.imagemap.junit.StandardURLTagFragmentGeneratorTests	StandardURLTagFragmentGeneratorTests	@Test
+org.jfree.chart.imagemap.junit.StandardURLTagFragmentGeneratorTests	suite
+org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests	testGenerateURLFragment	@Test
+org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests	suite
+org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests	StandardToolTipTagFragmentGeneratorTests	@Test
+org.jfree.chart.imagemap.junit.ImageMapPackageTests	suite
+org.jfree.chart.imagemap.junit.ImageMapPackageTests	main
+org.jfree.chart.imagemap.junit.ImageMapPackageTests	ImageMapPackageTests	@Test
+org.jfree.chart.needle.junit.LineNeedleTests	suite
+org.jfree.chart.needle.junit.LineNeedleTests	testCloning	@Test
+org.jfree.chart.needle.junit.LineNeedleTests	LineNeedleTests	@Test
+org.jfree.chart.needle.junit.LineNeedleTests	testSerialization	@Test
+org.jfree.chart.needle.junit.LineNeedleTests	testEquals	@Test
+org.jfree.chart.needle.junit.PlumNeedleTests	PlumNeedleTests	@Test
+org.jfree.chart.needle.junit.PlumNeedleTests	suite
+org.jfree.chart.needle.junit.PlumNeedleTests	testCloning	@Test
+org.jfree.chart.needle.junit.PlumNeedleTests	testSerialization	@Test
+org.jfree.chart.needle.junit.PlumNeedleTests	testEquals	@Test
+org.jfree.chart.needle.junit.MeterNeedleTests	suite
+org.jfree.chart.needle.junit.MeterNeedleTests	MeterNeedleTests	@Test
+org.jfree.chart.needle.junit.MeterNeedleTests	testEquals	@Test
+org.jfree.chart.needle.junit.LongNeedleTests	suite
+org.jfree.chart.needle.junit.LongNeedleTests	testCloning	@Test
+org.jfree.chart.needle.junit.LongNeedleTests	testSerialization	@Test
+org.jfree.chart.needle.junit.LongNeedleTests	LongNeedleTests	@Test
+org.jfree.chart.needle.junit.LongNeedleTests	testEquals	@Test
+org.jfree.chart.needle.junit.PinNeedleTests	suite
+org.jfree.chart.needle.junit.PinNeedleTests	PinNeedleTests	@Test
+org.jfree.chart.needle.junit.PinNeedleTests	testCloning	@Test
+org.jfree.chart.needle.junit.PinNeedleTests	testSerialization	@Test
+org.jfree.chart.needle.junit.PinNeedleTests	testEquals	@Test
+org.jfree.chart.needle.junit.ShipNeedleTests	suite
+org.jfree.chart.needle.junit.ShipNeedleTests	testCloning	@Test
+org.jfree.chart.needle.junit.ShipNeedleTests	testSerialization	@Test
+org.jfree.chart.needle.junit.ShipNeedleTests	ShipNeedleTests	@Test
+org.jfree.chart.needle.junit.ShipNeedleTests	testEquals	@Test
+org.jfree.chart.needle.junit.ArrowNeedleTests	suite
+org.jfree.chart.needle.junit.ArrowNeedleTests	ArrowNeedleTests	@Test
+org.jfree.chart.needle.junit.ArrowNeedleTests	testCloning	@Test
+org.jfree.chart.needle.junit.ArrowNeedleTests	testSerialization	@Test
+org.jfree.chart.needle.junit.ArrowNeedleTests	testEquals	@Test
+org.jfree.chart.needle.junit.MiddlePinNeedleTests	suite
+org.jfree.chart.needle.junit.MiddlePinNeedleTests	testCloning	@Test
+org.jfree.chart.needle.junit.MiddlePinNeedleTests	MiddlePinNeedleTests	@Test
+org.jfree.chart.needle.junit.MiddlePinNeedleTests	testSerialization	@Test
+org.jfree.chart.needle.junit.MiddlePinNeedleTests	testEquals	@Test
+org.jfree.chart.needle.junit.NeedlePackageTests	suite
+org.jfree.chart.needle.junit.NeedlePackageTests	main
+org.jfree.chart.needle.junit.NeedlePackageTests	NeedlePackageTests	@Test
+org.jfree.chart.needle.junit.WindNeedleTests	suite
+org.jfree.chart.needle.junit.WindNeedleTests	testCloning	@Test
+org.jfree.chart.needle.junit.WindNeedleTests	WindNeedleTests	@Test
+org.jfree.chart.needle.junit.WindNeedleTests	testSerialization	@Test
+org.jfree.chart.needle.junit.WindNeedleTests	testEquals	@Test
+org.jfree.chart.needle.junit.PointerNeedleTests	suite
+org.jfree.chart.needle.junit.PointerNeedleTests	testCloning	@Test
+org.jfree.chart.needle.junit.PointerNeedleTests	PointerNeedleTests	@Test
+org.jfree.chart.needle.junit.PointerNeedleTests	testSerialization	@Test
+org.jfree.chart.needle.junit.PointerNeedleTests	testEquals	@Test
+org.jfree.chart.plot.junit.SpiderWebPlotTests	suite
+org.jfree.chart.plot.junit.SpiderWebPlotTests	testCloning	@Test
+org.jfree.chart.plot.junit.SpiderWebPlotTests	testSerialization	@Test
+org.jfree.chart.plot.junit.SpiderWebPlotTests	testDrawWithNullInfo	@Test
+org.jfree.chart.plot.junit.SpiderWebPlotTests	SpiderWebPlotTests	@Test
+org.jfree.chart.plot.junit.SpiderWebPlotTests	testEquals	@Test
+org.jfree.chart.plot.junit.CombinedDomainCategoryPlotTests	suite
+org.jfree.chart.plot.junit.CombinedDomainCategoryPlotTests	testCloning	@Test
+org.jfree.chart.plot.junit.CombinedDomainCategoryPlotTests	testRemoveSubplot	@Test
+org.jfree.chart.plot.junit.CombinedDomainCategoryPlotTests	createDataset2
+org.jfree.chart.plot.junit.CombinedDomainCategoryPlotTests	testSerialization	@Test
+org.jfree.chart.plot.junit.CombinedDomainCategoryPlotTests	createDataset1
+org.jfree.chart.plot.junit.CombinedDomainCategoryPlotTests	CombinedDomainCategoryPlotTests	@Test
+org.jfree.chart.plot.junit.CombinedDomainCategoryPlotTests	testEquals	@Test
+org.jfree.chart.plot.junit.ValueMarkerTests	testGetSetValue	@Test
+org.jfree.chart.plot.junit.ValueMarkerTests	test1808376	@Test
+org.jfree.chart.plot.junit.ValueMarkerTests	suite
+org.jfree.chart.plot.junit.ValueMarkerTests	testCloning	@Test
+org.jfree.chart.plot.junit.ValueMarkerTests	markerChanged
+org.jfree.chart.plot.junit.ValueMarkerTests	ValueMarkerTests	@Test
+org.jfree.chart.plot.junit.ValueMarkerTests	testSerialization	@Test
+org.jfree.chart.plot.junit.ValueMarkerTests	testEquals	@Test
+org.jfree.chart.plot.junit.ValueMarkerTests	test1802195	@Test
+org.jfree.chart.plot.junit.CategoryMarkerTests	suite
+org.jfree.chart.plot.junit.CategoryMarkerTests	testGetSetDrawAsLine	@Test
+org.jfree.chart.plot.junit.CategoryMarkerTests	testCloning	@Test
+org.jfree.chart.plot.junit.CategoryMarkerTests	testGetSetKey	@Test
+org.jfree.chart.plot.junit.CategoryMarkerTests	markerChanged
+org.jfree.chart.plot.junit.CategoryMarkerTests	testSerialization	@Test
+org.jfree.chart.plot.junit.CategoryMarkerTests	CategoryMarkerTests	@Test
+org.jfree.chart.plot.junit.CategoryMarkerTests	testEquals	@Test
+org.jfree.chart.plot.junit.PlotOrientationTests	suite
+org.jfree.chart.plot.junit.PlotOrientationTests	testSerialization	@Test
+org.jfree.chart.plot.junit.PlotOrientationTests	PlotOrientationTests	@Test
+org.jfree.chart.plot.junit.PlotOrientationTests	testEquals	@Test
+org.jfree.chart.plot.junit.PlotPackageTests	suite
+org.jfree.chart.plot.junit.PlotPackageTests	PlotPackageTests	@Test
+org.jfree.chart.plot.junit.PlotPackageTests	main
+org.jfree.chart.plot.junit.CombinedDomainXYPlotTests	suite
+org.jfree.chart.plot.junit.CombinedDomainXYPlotTests	testConstructor1	@Test
+org.jfree.chart.plot.junit.CombinedDomainXYPlotTests	testCloning	@Test
+org.jfree.chart.plot.junit.CombinedDomainXYPlotTests	testRemoveSubplot	@Test
+org.jfree.chart.plot.junit.CombinedDomainXYPlotTests	CombinedDomainXYPlotTests	@Test
+org.jfree.chart.plot.junit.CombinedDomainXYPlotTests	testSerialization	@Test
+org.jfree.chart.plot.junit.CombinedDomainXYPlotTests	testEquals	@Test
+org.jfree.chart.plot.junit.ThermometerPlotTests	testSerialization2	@Test
+org.jfree.chart.plot.junit.ThermometerPlotTests	ThermometerPlotTests	@Test
+org.jfree.chart.plot.junit.ThermometerPlotTests	suite
+org.jfree.chart.plot.junit.ThermometerPlotTests	testCloning	@Test
+org.jfree.chart.plot.junit.ThermometerPlotTests	testSerialization	@Test
+org.jfree.chart.plot.junit.ThermometerPlotTests	testEquals	@Test
+org.jfree.chart.plot.junit.MyPlotChangeListener	getEvent
+org.jfree.chart.plot.junit.MyPlotChangeListener	plotChanged
+org.jfree.chart.plot.junit.MyPlotChangeListener	setEvent
+org.jfree.chart.plot.junit.MyPlotChangeListener	MyPlotChangeListener
+org.jfree.chart.plot.junit.RingPlotTests	suite
+org.jfree.chart.plot.junit.RingPlotTests	testCloning	@Test
+org.jfree.chart.plot.junit.RingPlotTests	testSerialization	@Test
+org.jfree.chart.plot.junit.RingPlotTests	RingPlotTests	@Test
+org.jfree.chart.plot.junit.RingPlotTests	testEquals	@Test
+org.jfree.chart.plot.junit.FastScatterPlotTests	suite
+org.jfree.chart.plot.junit.FastScatterPlotTests	testCloning	@Test
+org.jfree.chart.plot.junit.FastScatterPlotTests	testSerialization	@Test
+org.jfree.chart.plot.junit.FastScatterPlotTests	testDrawWithNullInfo	@Test
+org.jfree.chart.plot.junit.FastScatterPlotTests	FastScatterPlotTests	@Test
+org.jfree.chart.plot.junit.FastScatterPlotTests	testEquals	@Test
+org.jfree.chart.plot.junit.XYPlotTests	testSerialization3	@Test
+org.jfree.chart.plot.junit.XYPlotTests	testSerialization2	@Test
+org.jfree.chart.plot.junit.XYPlotTests	testSerialization5	@Test
+org.jfree.chart.plot.junit.XYPlotTests	testSerialization4	@Test
+org.jfree.chart.plot.junit.XYPlotTests	testSerialization1	@Test
+org.jfree.chart.plot.junit.XYPlotTests	testRemoveAnnotation	@Test
+org.jfree.chart.plot.junit.XYPlotTests	testCloning	@Test
+org.jfree.chart.plot.junit.XYPlotTests	testAddDomainMarker	@Test
+org.jfree.chart.plot.junit.XYPlotTests	testSetRenderer	@Test
+org.jfree.chart.plot.junit.XYPlotTests	test1654215	@Test
+org.jfree.chart.plot.junit.XYPlotTests	testEquals	@Test
+org.jfree.chart.plot.junit.XYPlotTests	testGetRendererForDataset	@Test
+org.jfree.chart.plot.junit.XYPlotTests	testCloning_QuadrantPaint	@Test
+org.jfree.chart.plot.junit.XYPlotTests	XYPlotTests	@Test
+org.jfree.chart.plot.junit.XYPlotTests	testCloning_QuadrantOrigin	@Test
+org.jfree.chart.plot.junit.XYPlotTests	testDrawSeriesWithZeroItems	@Test
+org.jfree.chart.plot.junit.XYPlotTests	testDrawRangeGridlines	@Test
+org.jfree.chart.plot.junit.XYPlotTests	testCloneIndependence	@Test
+org.jfree.chart.plot.junit.XYPlotTests	testRemoveRangeMarker	@Test
+org.jfree.chart.plot.junit.XYPlotTests	testSetNullRenderer	@Test
+org.jfree.chart.plot.junit.XYPlotTests	suite
+org.jfree.chart.plot.junit.XYPlotTests	testCloning2	@Test
+org.jfree.chart.plot.junit.XYPlotTests	testAddRangeMarker	@Test
+org.jfree.chart.plot.junit.XYPlotTests	testRemoveDomainMarker	@Test
+org.jfree.chart.plot.junit.XYPlotTests	testGetLegendItems	@Test
+org.jfree.chart.plot.junit.PiePlotTests	testCloning_LegendLabelGenerator	@Test
+org.jfree.chart.plot.junit.PiePlotTests	testCloning_LegendLabelToolTipGenerator	@Test
+org.jfree.chart.plot.junit.PiePlotTests	testCloning_URLGenerator	@Test
+org.jfree.chart.plot.junit.PiePlotTests	testSerialization	@Test
+org.jfree.chart.plot.junit.PiePlotTests	generateSectionLabel
+org.jfree.chart.plot.junit.PiePlotTests	generateAttributedSectionLabel
+org.jfree.chart.plot.junit.PiePlotTests	testCloning_LegendItemShape	@Test
+org.jfree.chart.plot.junit.PiePlotTests	suite
+org.jfree.chart.plot.junit.PiePlotTests	testCloning_LegendLabelURLGenerator	@Test
+org.jfree.chart.plot.junit.PiePlotTests	PiePlotTests	@Test
+org.jfree.chart.plot.junit.PiePlotTests	testCloning	@Test
+org.jfree.chart.plot.junit.PiePlotTests	testGetBaseSectionPaint	@Test
+org.jfree.chart.plot.junit.PiePlotTests	testDrawWithNullLegendLabels	@Test
+org.jfree.chart.plot.junit.PiePlotTests	testEquals	@Test
+org.jfree.chart.plot.junit.PiePlotTests	testGetLegendItems	@Test
+org.jfree.chart.plot.junit.MeterIntervalTests	suite
+org.jfree.chart.plot.junit.MeterIntervalTests	testCloning	@Test
+org.jfree.chart.plot.junit.MeterIntervalTests	MeterIntervalTests	@Test
+org.jfree.chart.plot.junit.MeterIntervalTests	testSerialization	@Test
+org.jfree.chart.plot.junit.MeterIntervalTests	testEquals	@Test
+org.jfree.chart.plot.junit.CombinedRangeCategoryPlotTests	suite
+org.jfree.chart.plot.junit.CombinedRangeCategoryPlotTests	CombinedRangeCategoryPlotTests	@Test
+org.jfree.chart.plot.junit.CombinedRangeCategoryPlotTests	testCloning	@Test
+org.jfree.chart.plot.junit.CombinedRangeCategoryPlotTests	testRemoveSubplot	@Test
+org.jfree.chart.plot.junit.CombinedRangeCategoryPlotTests	createDataset2
+org.jfree.chart.plot.junit.CombinedRangeCategoryPlotTests	testSerialization	@Test
+org.jfree.chart.plot.junit.CombinedRangeCategoryPlotTests	createDataset1
+org.jfree.chart.plot.junit.CombinedRangeCategoryPlotTests	testEquals	@Test
+org.jfree.chart.plot.junit.PieLabelRecordTests	suite
+org.jfree.chart.plot.junit.PieLabelRecordTests	testCloning	@Test
+org.jfree.chart.plot.junit.PieLabelRecordTests	PieLabelRecordTests	@Test
+org.jfree.chart.plot.junit.PieLabelRecordTests	testSerialization	@Test
+org.jfree.chart.plot.junit.PieLabelRecordTests	testEquals	@Test
+org.jfree.chart.plot.junit.PolarPlotTests	PolarPlotTests	@Test
+org.jfree.chart.plot.junit.PolarPlotTests	suite
+org.jfree.chart.plot.junit.PolarPlotTests	testCloning	@Test
+org.jfree.chart.plot.junit.PolarPlotTests	testSerialization	@Test
+org.jfree.chart.plot.junit.PolarPlotTests	testEquals	@Test
+org.jfree.chart.plot.junit.MultiplePiePlotTests	plotChanged
+org.jfree.chart.plot.junit.MultiplePiePlotTests	MultiplePiePlotTests	@Test
+org.jfree.chart.plot.junit.MultiplePiePlotTests	suite
+org.jfree.chart.plot.junit.MultiplePiePlotTests	testCloning	@Test
+org.jfree.chart.plot.junit.MultiplePiePlotTests	testSerialization	@Test
+org.jfree.chart.plot.junit.MultiplePiePlotTests	testConstructor	@Test
+org.jfree.chart.plot.junit.MultiplePiePlotTests	testEquals	@Test
+org.jfree.chart.plot.junit.DefaultDrawingSupplierTests	suite
+org.jfree.chart.plot.junit.DefaultDrawingSupplierTests	testCloning	@Test
+org.jfree.chart.plot.junit.DefaultDrawingSupplierTests	testSerialization	@Test
+org.jfree.chart.plot.junit.DefaultDrawingSupplierTests	DefaultDrawingSupplierTests	@Test
+org.jfree.chart.plot.junit.DefaultDrawingSupplierTests	testEquals	@Test
+org.jfree.chart.plot.junit.CompassPlotTests	suite
+org.jfree.chart.plot.junit.CompassPlotTests	testCloning	@Test
+org.jfree.chart.plot.junit.CompassPlotTests	testSerialization	@Test
+org.jfree.chart.plot.junit.CompassPlotTests	CompassPlotTests	@Test
+org.jfree.chart.plot.junit.CompassPlotTests	testEquals	@Test
+org.jfree.chart.plot.junit.MarkerTests	testGetSetAlpha	@Test
+org.jfree.chart.plot.junit.MarkerTests	testGetSetLabel	@Test
+org.jfree.chart.plot.junit.MarkerTests	testGetSetLabelPaint	@Test
+org.jfree.chart.plot.junit.MarkerTests	testGetSetLabelOffsetType	@Test
+org.jfree.chart.plot.junit.MarkerTests	MarkerTests	@Test
+org.jfree.chart.plot.junit.MarkerTests	testGetSetLabelAnchor	@Test
+org.jfree.chart.plot.junit.MarkerTests	testGetSetPaint	@Test
+org.jfree.chart.plot.junit.MarkerTests	testGetSetStroke	@Test
+org.jfree.chart.plot.junit.MarkerTests	suite
+org.jfree.chart.plot.junit.MarkerTests	testGetSetLabelOffset	@Test
+org.jfree.chart.plot.junit.MarkerTests	testGetSetLabelTextAnchor	@Test
+org.jfree.chart.plot.junit.MarkerTests	testGetSetOutlineStroke	@Test
+org.jfree.chart.plot.junit.MarkerTests	testGetSetLabelFont	@Test
+org.jfree.chart.plot.junit.MarkerTests	testListenersWithCategoryPlot	@Test
+org.jfree.chart.plot.junit.MarkerTests	markerChanged
+org.jfree.chart.plot.junit.MarkerTests	testGetSetOutlinePaint	@Test
+org.jfree.chart.plot.junit.MarkerTests	testListenersWithXYPlot	@Test
+org.jfree.chart.plot.junit.PlotTests	suite
+org.jfree.chart.plot.junit.PlotTests	PlotTests	@Test
+org.jfree.chart.plot.junit.PlotTests	testEquals	@Test
+org.jfree.chart.plot.junit.CategoryPlotTests	testSerialization3	@Test
+org.jfree.chart.plot.junit.CategoryPlotTests	testSerialization2	@Test
+org.jfree.chart.plot.junit.CategoryPlotTests	testSerialization5	@Test
+org.jfree.chart.plot.junit.CategoryPlotTests	testSerialization4	@Test
+org.jfree.chart.plot.junit.CategoryPlotTests	CategoryPlotTests	@Test
+org.jfree.chart.plot.junit.CategoryPlotTests	testAxisRange	@Test
+org.jfree.chart.plot.junit.CategoryPlotTests	testSerialization	@Test
+org.jfree.chart.plot.junit.CategoryPlotTests	testConstructor	@Test
+org.jfree.chart.plot.junit.CategoryPlotTests	testGetDomainAxisIndex	@Test
+org.jfree.chart.plot.junit.CategoryPlotTests	testGetRangeAxisIndex	@Test
+org.jfree.chart.plot.junit.CategoryPlotTests	testRemoveRangeMarker	@Test
+org.jfree.chart.plot.junit.CategoryPlotTests	suite
+org.jfree.chart.plot.junit.CategoryPlotTests	testCloning	@Test
+org.jfree.chart.plot.junit.CategoryPlotTests	testAddDomainMarker	@Test
+org.jfree.chart.plot.junit.CategoryPlotTests	testSetRenderer	@Test
+org.jfree.chart.plot.junit.CategoryPlotTests	testAddRangeMarker	@Test
+org.jfree.chart.plot.junit.CategoryPlotTests	test1654215	@Test
+org.jfree.chart.plot.junit.CategoryPlotTests	test1169972	@Test
+org.jfree.chart.plot.junit.CategoryPlotTests	testRemoveDomainMarker	@Test
+org.jfree.chart.plot.junit.CategoryPlotTests	testEquals	@Test
+org.jfree.chart.plot.junit.PiePlot3DTests	PiePlot3DTests	@Test
+org.jfree.chart.plot.junit.PiePlot3DTests	suite
+org.jfree.chart.plot.junit.PiePlot3DTests	testSerialization	@Test
+org.jfree.chart.plot.junit.PiePlot3DTests	testDrawWithNullDataset	@Test
+org.jfree.chart.plot.junit.PiePlot3DTests	testEquals	@Test
+org.jfree.chart.plot.junit.IntervalMarkerTests	IntervalMarkerTests	@Test
+org.jfree.chart.plot.junit.IntervalMarkerTests	testGetSetStartValue	@Test
+org.jfree.chart.plot.junit.IntervalMarkerTests	suite
+org.jfree.chart.plot.junit.IntervalMarkerTests	testCloning	@Test
+org.jfree.chart.plot.junit.IntervalMarkerTests	markerChanged
+org.jfree.chart.plot.junit.IntervalMarkerTests	testGetSetEndValue	@Test
+org.jfree.chart.plot.junit.IntervalMarkerTests	testSerialization	@Test
+org.jfree.chart.plot.junit.IntervalMarkerTests	testEquals	@Test
+org.jfree.chart.plot.junit.MeterPlotTests	testSerialization2	@Test
+org.jfree.chart.plot.junit.MeterPlotTests	suite
+org.jfree.chart.plot.junit.MeterPlotTests	testCloning	@Test
+org.jfree.chart.plot.junit.MeterPlotTests	testSerialization1	@Test
+org.jfree.chart.plot.junit.MeterPlotTests	MeterPlotTests	@Test
+org.jfree.chart.plot.junit.MeterPlotTests	testEquals	@Test
+org.jfree.chart.plot.junit.PlotRenderingInfoTests	suite
+org.jfree.chart.plot.junit.PlotRenderingInfoTests	testCloning	@Test
+org.jfree.chart.plot.junit.PlotRenderingInfoTests	testSerialization	@Test
+org.jfree.chart.plot.junit.PlotRenderingInfoTests	PlotRenderingInfoTests	@Test
+org.jfree.chart.plot.junit.PlotRenderingInfoTests	testEquals	@Test
+org.jfree.chart.plot.junit.CombinedRangeXYPlotTests	suite
+org.jfree.chart.plot.junit.CombinedRangeXYPlotTests	testCloning	@Test
+org.jfree.chart.plot.junit.CombinedRangeXYPlotTests	testRemoveSubplot	@Test
+org.jfree.chart.plot.junit.CombinedRangeXYPlotTests	testSerialization	@Test
+org.jfree.chart.plot.junit.CombinedRangeXYPlotTests	CombinedRangeXYPlotTests	@Test
+org.jfree.chart.plot.junit.CombinedRangeXYPlotTests	testEquals	@Test
+org.jfree.chart.plot.dial.junit.MyDialLayerChangeListener	MyDialLayerChangeListener
+org.jfree.chart.plot.dial.junit.MyDialLayerChangeListener	dialLayerChanged
+org.jfree.chart.plot.dial.junit.DialTextAnnotationTests	suite
+org.jfree.chart.plot.dial.junit.DialTextAnnotationTests	DialTextAnnotationTests	@Test
+org.jfree.chart.plot.dial.junit.DialTextAnnotationTests	testCloning	@Test
+org.jfree.chart.plot.dial.junit.DialTextAnnotationTests	testSerialization	@Test
+org.jfree.chart.plot.dial.junit.DialTextAnnotationTests	testHashCode	@Test
+org.jfree.chart.plot.dial.junit.DialTextAnnotationTests	testEquals	@Test
+org.jfree.chart.plot.dial.junit.StandardDialScaleTests	suite
+org.jfree.chart.plot.dial.junit.StandardDialScaleTests	testCloning	@Test
+org.jfree.chart.plot.dial.junit.StandardDialScaleTests	testSerialization	@Test
+org.jfree.chart.plot.dial.junit.StandardDialScaleTests	testHashCode	@Test
+org.jfree.chart.plot.dial.junit.StandardDialScaleTests	StandardDialScaleTests	@Test
+org.jfree.chart.plot.dial.junit.StandardDialScaleTests	testEquals	@Test
+org.jfree.chart.plot.dial.junit.AbstractDialLayerTests	suite
+org.jfree.chart.plot.dial.junit.AbstractDialLayerTests	testCloning	@Test
+org.jfree.chart.plot.dial.junit.AbstractDialLayerTests	testSerialization	@Test
+org.jfree.chart.plot.dial.junit.AbstractDialLayerTests	AbstractDialLayerTests	@Test
+org.jfree.chart.plot.dial.junit.AbstractDialLayerTests	testEquals	@Test
+org.jfree.chart.plot.dial.junit.ArcDialFrameTests	suite
+org.jfree.chart.plot.dial.junit.ArcDialFrameTests	ArcDialFrameTests	@Test
+org.jfree.chart.plot.dial.junit.ArcDialFrameTests	testCloning	@Test
+org.jfree.chart.plot.dial.junit.ArcDialFrameTests	testSerialization	@Test
+org.jfree.chart.plot.dial.junit.ArcDialFrameTests	testHashCode	@Test
+org.jfree.chart.plot.dial.junit.ArcDialFrameTests	testEquals	@Test
+org.jfree.chart.plot.dial.junit.DialCapTests	suite
+org.jfree.chart.plot.dial.junit.DialCapTests	testCloning	@Test
+org.jfree.chart.plot.dial.junit.DialCapTests	DialCapTests	@Test
+org.jfree.chart.plot.dial.junit.DialCapTests	testSerialization	@Test
+org.jfree.chart.plot.dial.junit.DialCapTests	testHashCode	@Test
+org.jfree.chart.plot.dial.junit.DialCapTests	testEquals	@Test
+org.jfree.chart.plot.dial.junit.StandardDialFrameTests	suite
+org.jfree.chart.plot.dial.junit.StandardDialFrameTests	testCloning	@Test
+org.jfree.chart.plot.dial.junit.StandardDialFrameTests	StandardDialFrameTests	@Test
+org.jfree.chart.plot.dial.junit.StandardDialFrameTests	testSerialization	@Test
+org.jfree.chart.plot.dial.junit.StandardDialFrameTests	testHashCode	@Test
+org.jfree.chart.plot.dial.junit.StandardDialFrameTests	testEquals	@Test
+org.jfree.chart.plot.dial.junit.StandardDialRangeTests	suite
+org.jfree.chart.plot.dial.junit.StandardDialRangeTests	testCloning	@Test
+org.jfree.chart.plot.dial.junit.StandardDialRangeTests	StandardDialRangeTests	@Test
+org.jfree.chart.plot.dial.junit.StandardDialRangeTests	testSerialization	@Test
+org.jfree.chart.plot.dial.junit.StandardDialRangeTests	testHashCode	@Test
+org.jfree.chart.plot.dial.junit.StandardDialRangeTests	testEquals	@Test
+org.jfree.chart.plot.dial.junit.DialPackageTests	suite
+org.jfree.chart.plot.dial.junit.DialPackageTests	main
+org.jfree.chart.plot.dial.junit.DialPackageTests	DialPackageTests	@Test
+org.jfree.chart.plot.dial.junit.DialPointerTests	testSerialization2	@Test
+org.jfree.chart.plot.dial.junit.DialPointerTests	testEqualsPin	@Test
+org.jfree.chart.plot.dial.junit.DialPointerTests	suite
+org.jfree.chart.plot.dial.junit.DialPointerTests	DialPointerTests	@Test
+org.jfree.chart.plot.dial.junit.DialPointerTests	testCloning	@Test
+org.jfree.chart.plot.dial.junit.DialPointerTests	testEqualsPointer	@Test
+org.jfree.chart.plot.dial.junit.DialPointerTests	testSerialization	@Test
+org.jfree.chart.plot.dial.junit.DialPointerTests	testHashCode	@Test
+org.jfree.chart.plot.dial.junit.DialPointerTests	testEquals	@Test
+org.jfree.chart.plot.dial.junit.DialValueIndicatorTests	suite
+org.jfree.chart.plot.dial.junit.DialValueIndicatorTests	DialValueIndicatorTests	@Test
+org.jfree.chart.plot.dial.junit.DialValueIndicatorTests	testCloning	@Test
+org.jfree.chart.plot.dial.junit.DialValueIndicatorTests	testSerialization	@Test
+org.jfree.chart.plot.dial.junit.DialValueIndicatorTests	testHashCode	@Test
+org.jfree.chart.plot.dial.junit.DialValueIndicatorTests	testEquals	@Test
+org.jfree.chart.plot.dial.junit.DialBackgroundTests	suite
+org.jfree.chart.plot.dial.junit.DialBackgroundTests	testCloning	@Test
+org.jfree.chart.plot.dial.junit.DialBackgroundTests	DialBackgroundTests	@Test
+org.jfree.chart.plot.dial.junit.DialBackgroundTests	testSerialization	@Test
+org.jfree.chart.plot.dial.junit.DialBackgroundTests	testHashCode	@Test
+org.jfree.chart.plot.dial.junit.DialBackgroundTests	testEquals	@Test
+org.jfree.chart.plot.dial.junit.DialPlotTests	testBackgroundListener	@Test
+org.jfree.chart.plot.dial.junit.DialPlotTests	testFrameListener	@Test
+org.jfree.chart.plot.dial.junit.DialPlotTests	testCapListener	@Test
+org.jfree.chart.plot.dial.junit.DialPlotTests	testSerialization	@Test
+org.jfree.chart.plot.dial.junit.DialPlotTests	testHashCode	@Test
+org.jfree.chart.plot.dial.junit.DialPlotTests	plotChanged
+org.jfree.chart.plot.dial.junit.DialPlotTests	testScaleListener	@Test
+org.jfree.chart.plot.dial.junit.DialPlotTests	suite
+org.jfree.chart.plot.dial.junit.DialPlotTests	DialPlotTests	@Test
+org.jfree.chart.plot.dial.junit.DialPlotTests	testCloning	@Test
+org.jfree.chart.plot.dial.junit.DialPlotTests	testLayerListener	@Test
+org.jfree.chart.plot.dial.junit.DialPlotTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.XYBarRendererTests	XYBarRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.XYBarRendererTests	testSerialization2	@Test
+org.jfree.chart.renderer.xy.junit.XYBarRendererTests	suite
+org.jfree.chart.renderer.xy.junit.XYBarRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.XYBarRendererTests	testFindDomainBounds	@Test
+org.jfree.chart.renderer.xy.junit.XYBarRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.XYBarRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.XYBarRendererTests	testGetLegendItemSeriesIndex	@Test
+org.jfree.chart.renderer.xy.junit.XYBarRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRendererTests	suite
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRendererTests	testFindRangeBounds	@Test
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRendererTests	testBug1593156	@Test
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRendererTests	StackedXYAreaRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRendererTests	testDrawWithNullInfo	@Test
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.XYLineAndShapeRendererTests	testEquals2	@Test
+org.jfree.chart.renderer.xy.junit.XYLineAndShapeRendererTests	suite
+org.jfree.chart.renderer.xy.junit.XYLineAndShapeRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.XYLineAndShapeRendererTests	testFindDomainBounds	@Test
+org.jfree.chart.renderer.xy.junit.XYLineAndShapeRendererTests	testFindRangeBounds	@Test
+org.jfree.chart.renderer.xy.junit.XYLineAndShapeRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.XYLineAndShapeRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.XYLineAndShapeRendererTests	testGetLegendItemSeriesIndex	@Test
+org.jfree.chart.renderer.xy.junit.XYLineAndShapeRendererTests	XYLineAndShapeRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.XYLineAndShapeRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.StackedXYBarRendererTests	StackedXYBarRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.StackedXYBarRendererTests	suite
+org.jfree.chart.renderer.xy.junit.StackedXYBarRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.StackedXYBarRendererTests	testFindDomainBounds	@Test
+org.jfree.chart.renderer.xy.junit.StackedXYBarRendererTests	testFindRangeBounds	@Test
+org.jfree.chart.renderer.xy.junit.StackedXYBarRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.StackedXYBarRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.StackedXYBarRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.RendererXYPackageTests	RendererXYPackageTests	@Test
+org.jfree.chart.renderer.xy.junit.RendererXYPackageTests	suite
+org.jfree.chart.renderer.xy.junit.RendererXYPackageTests	createTestXYSeriesCollection	@Test
+org.jfree.chart.renderer.xy.junit.RendererXYPackageTests	main
+org.jfree.chart.renderer.xy.junit.RendererXYPackageTests	createTestTableXYDataset	@Test
+org.jfree.chart.renderer.xy.junit.XYStepAreaRendererTests	suite
+org.jfree.chart.renderer.xy.junit.XYStepAreaRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.XYStepAreaRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.XYStepAreaRendererTests	testDrawWithNullInfo	@Test
+org.jfree.chart.renderer.xy.junit.XYStepAreaRendererTests	XYStepAreaRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.XYStepAreaRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.XYStepAreaRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.ClusteredXYBarRendererTests	suite
+org.jfree.chart.renderer.xy.junit.ClusteredXYBarRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.ClusteredXYBarRendererTests	testFindDomainBounds	@Test
+org.jfree.chart.renderer.xy.junit.ClusteredXYBarRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.ClusteredXYBarRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.ClusteredXYBarRendererTests	ClusteredXYBarRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.ClusteredXYBarRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.ClusteredXYBarRendererTests	createSampleDataset1
+org.jfree.chart.renderer.xy.junit.XYBlockRendererTests	suite
+org.jfree.chart.renderer.xy.junit.XYBlockRendererTests	XYBlockRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.XYBlockRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.XYBlockRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.XYBlockRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.XYBlockRendererTests	testBug1766646B	@Test
+org.jfree.chart.renderer.xy.junit.XYBlockRendererTests	testBug1766646A	@Test
+org.jfree.chart.renderer.xy.junit.XYBlockRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.XYDotRendererTests	suite
+org.jfree.chart.renderer.xy.junit.XYDotRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.XYDotRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.XYDotRendererTests	XYDotRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.XYDotRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.XYDotRendererTests	testGetLegendItemSeriesIndex	@Test
+org.jfree.chart.renderer.xy.junit.XYDotRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.XYStepRendererTests	suite
+org.jfree.chart.renderer.xy.junit.XYStepRendererTests	XYStepRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.XYStepRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.XYStepRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.XYStepRendererTests	testDrawWithNullInfo	@Test
+org.jfree.chart.renderer.xy.junit.XYStepRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.XYStepRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.XYStepRendererTests	testDrawWithNullValue	@Test
+org.jfree.chart.renderer.xy.junit.HighLowRendererTests	suite
+org.jfree.chart.renderer.xy.junit.HighLowRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.HighLowRendererTests	HighLowRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.HighLowRendererTests	testFindRangeBounds	@Test
+org.jfree.chart.renderer.xy.junit.HighLowRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.HighLowRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.HighLowRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRenderer2Tests	suite
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRenderer2Tests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRenderer2Tests	testFindRangeBounds	@Test
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRenderer2Tests	testDrawWithEmptyDataset	@Test
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRenderer2Tests	StackedXYAreaRenderer2Tests	@Test
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRenderer2Tests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRenderer2Tests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.StackedXYAreaRenderer2Tests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.XYAreaRendererTests	XYAreaRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.XYAreaRendererTests	suite
+org.jfree.chart.renderer.xy.junit.XYAreaRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.XYAreaRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.XYAreaRendererTests	testDrawWithNullInfo	@Test
+org.jfree.chart.renderer.xy.junit.XYAreaRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.XYAreaRendererTests	testGetLegendItemSeriesIndex	@Test
+org.jfree.chart.renderer.xy.junit.XYAreaRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.XYErrorRendererTests	XYErrorRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.XYErrorRendererTests	suite
+org.jfree.chart.renderer.xy.junit.XYErrorRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.XYErrorRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.XYErrorRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.XYErrorRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.DeviationRendererTests	suite
+org.jfree.chart.renderer.xy.junit.DeviationRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.DeviationRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.DeviationRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.DeviationRendererTests	DeviationRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.DeviationRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.XYDifferenceRendererTests	suite
+org.jfree.chart.renderer.xy.junit.XYDifferenceRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.XYDifferenceRendererTests	XYDifferenceRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.XYDifferenceRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.XYDifferenceRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.XYDifferenceRendererTests	testGetLegendItemSeriesIndex	@Test
+org.jfree.chart.renderer.xy.junit.XYDifferenceRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.XYBubbleRendererTests	suite
+org.jfree.chart.renderer.xy.junit.XYBubbleRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.XYBubbleRendererTests	XYBubbleRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.XYBubbleRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.XYBubbleRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.XYBubbleRendererTests	testGetLegendItemSeriesIndex	@Test
+org.jfree.chart.renderer.xy.junit.XYBubbleRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.CandlestickRendererTests	suite
+org.jfree.chart.renderer.xy.junit.CandlestickRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.CandlestickRendererTests	testFindRangeBounds	@Test
+org.jfree.chart.renderer.xy.junit.CandlestickRendererTests	CandlestickRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.CandlestickRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.CandlestickRendererTests	testConstructor	@Test
+org.jfree.chart.renderer.xy.junit.CandlestickRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.CandlestickRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.AbstractXYItemRendererTests	suite
+org.jfree.chart.renderer.xy.junit.AbstractXYItemRendererTests	testFindDomainBounds	@Test
+org.jfree.chart.renderer.xy.junit.AbstractXYItemRendererTests	testFindRangeBounds	@Test
+org.jfree.chart.renderer.xy.junit.AbstractXYItemRendererTests	AbstractXYItemRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.AbstractXYItemRendererTests	testCloning_LegendItemToolTipGenerator	@Test
+org.jfree.chart.renderer.xy.junit.AbstractXYItemRendererTests	testCloning_LegendItemLabelGenerator	@Test
+org.jfree.chart.renderer.xy.junit.AbstractXYItemRendererTests	testCloning_LegendItemURLGenerator	@Test
+org.jfree.chart.renderer.xy.junit.AbstractXYItemRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.XYSplineAndShapeRendererTests	suite
+org.jfree.chart.renderer.xy.junit.XYSplineAndShapeRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.XYSplineAndShapeRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.XYSplineAndShapeRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.XYSplineAndShapeRendererTests	XYSplineAndShapeRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.XYSplineAndShapeRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.XYBoxAndWhiskerRendererTests	suite
+org.jfree.chart.renderer.xy.junit.XYBoxAndWhiskerRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.XYBoxAndWhiskerRendererTests	XYBoxAndWhiskerRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.XYBoxAndWhiskerRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.XYBoxAndWhiskerRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.XYBoxAndWhiskerRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.VectorRendererTests	suite
+org.jfree.chart.renderer.xy.junit.VectorRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.VectorRendererTests	VectorRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.VectorRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.VectorRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.VectorRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.XYLine3DRendererTests	suite
+org.jfree.chart.renderer.xy.junit.XYLine3DRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.XYLine3DRendererTests	XYLine3DRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.XYLine3DRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.XYLine3DRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.XYLine3DRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.YIntervalRendererTests	suite
+org.jfree.chart.renderer.xy.junit.YIntervalRendererTests	YIntervalRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.YIntervalRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.YIntervalRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.YIntervalRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.YIntervalRendererTests	testGetLegendItemSeriesIndex	@Test
+org.jfree.chart.renderer.xy.junit.YIntervalRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.StandardXYItemRendererTests	suite
+org.jfree.chart.renderer.xy.junit.StandardXYItemRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.StandardXYItemRendererTests	testNoDisplayedItem	@Test
+org.jfree.chart.renderer.xy.junit.StandardXYItemRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.StandardXYItemRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.StandardXYItemRendererTests	StandardXYItemRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.StandardXYItemRendererTests	testGetLegendItemSeriesIndex	@Test
+org.jfree.chart.renderer.xy.junit.StandardXYItemRendererTests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.XYAreaRenderer2Tests	suite
+org.jfree.chart.renderer.xy.junit.XYAreaRenderer2Tests	XYAreaRenderer2Tests	@Test
+org.jfree.chart.renderer.xy.junit.XYAreaRenderer2Tests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.XYAreaRenderer2Tests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.XYAreaRenderer2Tests	testDrawWithNullInfo	@Test
+org.jfree.chart.renderer.xy.junit.XYAreaRenderer2Tests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.XYAreaRenderer2Tests	testGetLegendItemSeriesIndex	@Test
+org.jfree.chart.renderer.xy.junit.XYAreaRenderer2Tests	testEquals	@Test
+org.jfree.chart.renderer.xy.junit.WindItemRendererTests	suite
+org.jfree.chart.renderer.xy.junit.WindItemRendererTests	testCloning	@Test
+org.jfree.chart.renderer.xy.junit.WindItemRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.xy.junit.WindItemRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.xy.junit.WindItemRendererTests	WindItemRendererTests	@Test
+org.jfree.chart.renderer.xy.junit.WindItemRendererTests	testEquals	@Test
+org.jfree.chart.renderer.junit.RendererChangeDetector	RendererChangeDetector
+org.jfree.chart.renderer.junit.RendererChangeDetector	getNotified
+org.jfree.chart.renderer.junit.RendererChangeDetector	setNotified
+org.jfree.chart.renderer.junit.RendererChangeDetector	rendererChanged
+org.jfree.chart.renderer.junit.DefaultPolarItemRendererTests	suite
+org.jfree.chart.renderer.junit.DefaultPolarItemRendererTests	testCloning	@Test
+org.jfree.chart.renderer.junit.DefaultPolarItemRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.junit.DefaultPolarItemRendererTests	DefaultPolarItemRendererTests	@Test
+org.jfree.chart.renderer.junit.DefaultPolarItemRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.junit.DefaultPolarItemRendererTests	testEquals	@Test
+org.jfree.chart.renderer.junit.RendererPackageTests	suite
+org.jfree.chart.renderer.junit.RendererPackageTests	RendererPackageTests	@Test
+org.jfree.chart.renderer.junit.AbstractRendererTests	testEventNotification	@Test
+org.jfree.chart.renderer.junit.AbstractRendererTests	testFillPaintLookup	@Test
+org.jfree.chart.renderer.junit.AbstractRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.junit.AbstractRendererTests	testHashCode	@Test
+org.jfree.chart.renderer.junit.AbstractRendererTests	testAutoPopulateFlagDefaults	@Test
+org.jfree.chart.renderer.junit.AbstractRendererTests	rendererChanged
+org.jfree.chart.renderer.junit.AbstractRendererTests	MyRendererChangeListener
+org.jfree.chart.renderer.junit.AbstractRendererTests	suite
+org.jfree.chart.renderer.junit.AbstractRendererTests	AbstractRendererTests	@Test
+org.jfree.chart.renderer.junit.AbstractRendererTests	testCloning	@Test
+org.jfree.chart.renderer.junit.AbstractRendererTests	testCloning2	@Test
+org.jfree.chart.renderer.junit.AbstractRendererTests	testOutlinePaintLookup	@Test
+org.jfree.chart.renderer.junit.AbstractRendererTests	testEquals	@Test
+org.jfree.chart.renderer.junit.AbstractRendererTests	testPaintLookup	@Test
+org.jfree.chart.renderer.junit.AreaRendererEndTypeTests	suite
+org.jfree.chart.renderer.junit.AreaRendererEndTypeTests	testSerialization	@Test
+org.jfree.chart.renderer.junit.AreaRendererEndTypeTests	AreaRendererEndTypeTests	@Test
+org.jfree.chart.renderer.junit.AreaRendererEndTypeTests	testEquals	@Test
+org.jfree.chart.renderer.junit.LookupPaintScaleTests	suite
+org.jfree.chart.renderer.junit.LookupPaintScaleTests	testConstructor1	@Test
+org.jfree.chart.renderer.junit.LookupPaintScaleTests	testGeneral	@Test
+org.jfree.chart.renderer.junit.LookupPaintScaleTests	testCloning	@Test
+org.jfree.chart.renderer.junit.LookupPaintScaleTests	testConstructor2	@Test
+org.jfree.chart.renderer.junit.LookupPaintScaleTests	LookupPaintScaleTests	@Test
+org.jfree.chart.renderer.junit.LookupPaintScaleTests	testSerialization	@Test
+org.jfree.chart.renderer.junit.LookupPaintScaleTests	testEquals	@Test
+org.jfree.chart.renderer.junit.OutlierTests	suite
+org.jfree.chart.renderer.junit.OutlierTests	testCloning	@Test
+org.jfree.chart.renderer.junit.OutlierTests	testSerialization	@Test
+org.jfree.chart.renderer.junit.OutlierTests	testConstructor	@Test
+org.jfree.chart.renderer.junit.OutlierTests	OutlierTests	@Test
+org.jfree.chart.renderer.junit.OutlierTests	testEquals	@Test
+org.jfree.chart.renderer.junit.RendererUtilitiesTests	testFindLiveItemsUpperBoundUnordered	@Test
+org.jfree.chart.renderer.junit.RendererUtilitiesTests	suite
+org.jfree.chart.renderer.junit.RendererUtilitiesTests	testFindLiveItemsLowerBoundAscending	@Test
+org.jfree.chart.renderer.junit.RendererUtilitiesTests	testFindLiveItemsLowerBoundDescending	@Test
+org.jfree.chart.renderer.junit.RendererUtilitiesTests	testFindLiveItemsUpperBoundDescending	@Test
+org.jfree.chart.renderer.junit.RendererUtilitiesTests	testFindLiveItemsLowerBoundUnordered	@Test
+org.jfree.chart.renderer.junit.RendererUtilitiesTests	RendererUtilitiesTests	@Test
+org.jfree.chart.renderer.junit.RendererUtilitiesTests	testFindLiveItemsUpperBoundAscending	@Test
+org.jfree.chart.renderer.junit.RendererUtilitiesTests	getDomainOrder
+org.jfree.chart.renderer.junit.GrayPaintScaleTests	suite
+org.jfree.chart.renderer.junit.GrayPaintScaleTests	testGetPaint	@Test
+org.jfree.chart.renderer.junit.GrayPaintScaleTests	GrayPaintScaleTests	@Test
+org.jfree.chart.renderer.junit.GrayPaintScaleTests	testCloning	@Test
+org.jfree.chart.renderer.junit.GrayPaintScaleTests	testSerialization	@Test
+org.jfree.chart.renderer.junit.GrayPaintScaleTests	testConstructor	@Test
+org.jfree.chart.renderer.junit.GrayPaintScaleTests	testEquals	@Test
+org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests	testDrawWithNullDeviationHorizontal	@Test
+org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests	suite
+org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests	testCloning	@Test
+org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests	testDrawWithNullDeviationVertical	@Test
+org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests	testDrawWithNullMeanVertical	@Test
+org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests	testDrawWithNullMeanHorizontal	@Test
+org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests	testDrawWithNullInfo	@Test
+org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests	StatisticalBarRendererTests	@Test
+org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests	testEquals	@Test
+org.jfree.chart.renderer.category.junit.LineRenderer3DTests	suite
+org.jfree.chart.renderer.category.junit.LineRenderer3DTests	LineRenderer3DTests	@Test
+org.jfree.chart.renderer.category.junit.LineRenderer3DTests	testCloning	@Test
+org.jfree.chart.renderer.category.junit.LineRenderer3DTests	testSerialization	@Test
+org.jfree.chart.renderer.category.junit.LineRenderer3DTests	testHashcode	@Test
+org.jfree.chart.renderer.category.junit.LineRenderer3DTests	testEquals	@Test
+org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests	suite
+org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests	MinMaxCategoryRendererTests	@Test
+org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests	testCloning	@Test
+org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests	testDrawWithNullInfo	@Test
+org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests	testEquals	@Test
+org.jfree.chart.renderer.category.junit.DefaultCategoryItemRendererTests	suite
+org.jfree.chart.renderer.category.junit.DefaultCategoryItemRendererTests	DefaultCategoryItemRendererTests	@Test
+org.jfree.chart.renderer.category.junit.DefaultCategoryItemRendererTests	testCloning	@Test
+org.jfree.chart.renderer.category.junit.DefaultCategoryItemRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.category.junit.DefaultCategoryItemRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.category.junit.DefaultCategoryItemRendererTests	testEquals	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRendererTests	StackedBarRendererTests	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRendererTests	suite
+org.jfree.chart.renderer.category.junit.StackedBarRendererTests	testCloning	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRendererTests	testHashCode	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRendererTests	testEquals	@Test
+org.jfree.chart.renderer.category.junit.LayeredBarRendererTests	LayeredBarRendererTests	@Test
+org.jfree.chart.renderer.category.junit.LayeredBarRendererTests	suite
+org.jfree.chart.renderer.category.junit.LayeredBarRendererTests	testCloning	@Test
+org.jfree.chart.renderer.category.junit.LayeredBarRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.category.junit.LayeredBarRendererTests	testDrawWithNullInfo	@Test
+org.jfree.chart.renderer.category.junit.LayeredBarRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.category.junit.LayeredBarRendererTests	testEquals	@Test
+org.jfree.chart.renderer.category.junit.StackedAreaRendererTests	suite
+org.jfree.chart.renderer.category.junit.StackedAreaRendererTests	testCloning	@Test
+org.jfree.chart.renderer.category.junit.StackedAreaRendererTests	StackedAreaRendererTests	@Test
+org.jfree.chart.renderer.category.junit.StackedAreaRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.category.junit.StackedAreaRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.category.junit.StackedAreaRendererTests	testEquals	@Test
+org.jfree.chart.renderer.category.junit.WaterfallBarRendererTests	suite
+org.jfree.chart.renderer.category.junit.WaterfallBarRendererTests	testCloning	@Test
+org.jfree.chart.renderer.category.junit.WaterfallBarRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.category.junit.WaterfallBarRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.category.junit.WaterfallBarRendererTests	WaterfallBarRendererTests	@Test
+org.jfree.chart.renderer.category.junit.WaterfallBarRendererTests	testEquals	@Test
+org.jfree.chart.renderer.category.junit.AreaRendererTests	suite
+org.jfree.chart.renderer.category.junit.AreaRendererTests	testCloning	@Test
+org.jfree.chart.renderer.category.junit.AreaRendererTests	AreaRendererTests	@Test
+org.jfree.chart.renderer.category.junit.AreaRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.category.junit.AreaRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.category.junit.AreaRendererTests	testGetLegendItemSeriesIndex	@Test
+org.jfree.chart.renderer.category.junit.AreaRendererTests	testEquals	@Test
+org.jfree.chart.renderer.category.junit.LevelRendererTests	LevelRendererTests	@Test
+org.jfree.chart.renderer.category.junit.LevelRendererTests	suite
+org.jfree.chart.renderer.category.junit.LevelRendererTests	testCloning	@Test
+org.jfree.chart.renderer.category.junit.LevelRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.category.junit.LevelRendererTests	testDrawWithNullInfo	@Test
+org.jfree.chart.renderer.category.junit.LevelRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.category.junit.LevelRendererTests	testGetLegendItemSeriesIndex	@Test
+org.jfree.chart.renderer.category.junit.LevelRendererTests	testEquals	@Test
+org.jfree.chart.renderer.category.junit.CategoryStepRendererTests	suite
+org.jfree.chart.renderer.category.junit.CategoryStepRendererTests	testCloning	@Test
+org.jfree.chart.renderer.category.junit.CategoryStepRendererTests	CategoryStepRendererTests	@Test
+org.jfree.chart.renderer.category.junit.CategoryStepRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.category.junit.CategoryStepRendererTests	testGetLegendItemSeriesIndex	@Test
+org.jfree.chart.renderer.category.junit.CategoryStepRendererTests	testEquals	@Test
+org.jfree.chart.renderer.category.junit.IntervalBarRendererTests	suite
+org.jfree.chart.renderer.category.junit.IntervalBarRendererTests	testCloning	@Test
+org.jfree.chart.renderer.category.junit.IntervalBarRendererTests	IntervalBarRendererTests	@Test
+org.jfree.chart.renderer.category.junit.IntervalBarRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.category.junit.IntervalBarRendererTests	testDrawWithNullInfo	@Test
+org.jfree.chart.renderer.category.junit.IntervalBarRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.category.junit.IntervalBarRendererTests	testEquals	@Test
+org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests	suite
+org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests	StatisticalLineAndShapeRendererTests	@Test
+org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests	testCloning	@Test
+org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests	test1562759	@Test
+org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests	testDrawWithNullInfo	@Test
+org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests	testEquals	@Test
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests	testDrawWithNullMaxOutlier	@Test
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests	testDrawWithNullQ3	@Test
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests	testDrawWithNullMean	@Test
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests	testDrawWithNullQ1	@Test
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests	testDrawWithNullMinOutlier	@Test
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests	testBug1572478Horizontal	@Test
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests	BoxAndWhiskerRendererTests	@Test
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests	getQ1Value
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests	testDrawWithNullMinRegular	@Test
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests	suite
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests	testDrawWithNullMaxRegular	@Test
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests	testCloning	@Test
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests	testDrawWithNullInfo	@Test
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests	testGetLegendItem	@Test
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests	testDrawWithNullMedian	@Test
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests	testGetLegendItemSeriesIndex	@Test
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests	testEquals	@Test
+org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests	testBug1572478Vertical	@Test
+org.jfree.chart.renderer.category.junit.BarRendererTests	suite
+org.jfree.chart.renderer.category.junit.BarRendererTests	BarRendererTests	@Test
+org.jfree.chart.renderer.category.junit.BarRendererTests	testCloning	@Test
+org.jfree.chart.renderer.category.junit.BarRendererTests	testEventNotification	@Test
+org.jfree.chart.renderer.category.junit.BarRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.category.junit.BarRendererTests	testGetLegendItem	@Test
+org.jfree.chart.renderer.category.junit.BarRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.category.junit.BarRendererTests	testGetLegendItemSeriesIndex	@Test
+org.jfree.chart.renderer.category.junit.BarRendererTests	testEquals	@Test
+org.jfree.chart.renderer.category.junit.GanttRendererTests	suite
+org.jfree.chart.renderer.category.junit.GanttRendererTests	testCloning	@Test
+org.jfree.chart.renderer.category.junit.GanttRendererTests	GanttRendererTests	@Test
+org.jfree.chart.renderer.category.junit.GanttRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.category.junit.GanttRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.category.junit.GanttRendererTests	testEquals	@Test
+org.jfree.chart.renderer.category.junit.BarRenderer3DTests	suite
+org.jfree.chart.renderer.category.junit.BarRenderer3DTests	testCloning	@Test
+org.jfree.chart.renderer.category.junit.BarRenderer3DTests	BarRenderer3DTests	@Test
+org.jfree.chart.renderer.category.junit.BarRenderer3DTests	testSerialization	@Test
+org.jfree.chart.renderer.category.junit.BarRenderer3DTests	testHashcode	@Test
+org.jfree.chart.renderer.category.junit.BarRenderer3DTests	testEquals	@Test
+org.jfree.chart.renderer.category.junit.GroupedStackedBarRendererTests	GroupedStackedBarRendererTests	@Test
+org.jfree.chart.renderer.category.junit.GroupedStackedBarRendererTests	suite
+org.jfree.chart.renderer.category.junit.GroupedStackedBarRendererTests	testCloning	@Test
+org.jfree.chart.renderer.category.junit.GroupedStackedBarRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.category.junit.GroupedStackedBarRendererTests	testDrawWithNullInfo	@Test
+org.jfree.chart.renderer.category.junit.GroupedStackedBarRendererTests	testEquals	@Test
+org.jfree.chart.renderer.category.junit.LineAndShapeRendererTests	suite
+org.jfree.chart.renderer.category.junit.LineAndShapeRendererTests	LineAndShapeRendererTests	@Test
+org.jfree.chart.renderer.category.junit.LineAndShapeRendererTests	testCloning	@Test
+org.jfree.chart.renderer.category.junit.LineAndShapeRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.category.junit.LineAndShapeRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.category.junit.LineAndShapeRendererTests	testGetLegendItemSeriesIndex	@Test
+org.jfree.chart.renderer.category.junit.LineAndShapeRendererTests	testEquals	@Test
+org.jfree.chart.renderer.category.junit.RendererCategoryPackageTests	suite
+org.jfree.chart.renderer.category.junit.RendererCategoryPackageTests	RendererCategoryPackageTests	@Test
+org.jfree.chart.renderer.category.junit.RendererCategoryPackageTests	main
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests	suite
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests	testGetSeriesItemLabelGenerator	@Test
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests	testCloning2	@Test
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests	testCloning1	@Test
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests	testCloning_LegendItemToolTipGenerator	@Test
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests	testGetSeriesURLGenerator	@Test
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests	testEquals	@Test
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests	testCloning_LegendItemLabelGenerator	@Test
+org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests	testCloning_LegendItemURLGenerator	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	testSerialization	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	testCreateStackedValueList2d	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	testCloning	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	createStackedValueList	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	testCreateStackedValueList2c	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	testHashcode	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	testCreateStackedValueList2b	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	testCreateStackedValueList2a	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	testEquals	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	StackedBarRenderer3DTests	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	testCreateStackedValueList1d	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	suite
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	testCreateStackedValueList1c	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	testCreateStackedValueList4	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	testCreateStackedValueList5	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	testCreateStackedValueList2	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	testCreateStackedValueList3	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	testCreateStackedValueList1b	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	testCreateStackedValueList3d	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	testCreateStackedValueList1	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	testCreateStackedValueList1a	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	testCreateStackedValueList3c	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	testCreateStackedValueList3b	@Test
+org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests	testCreateStackedValueList3a	@Test
+org.jfree.chart.renderer.category.junit.ScatterRendererTests	suite
+org.jfree.chart.renderer.category.junit.ScatterRendererTests	testCloning	@Test
+org.jfree.chart.renderer.category.junit.ScatterRendererTests	testSerialization	@Test
+org.jfree.chart.renderer.category.junit.ScatterRendererTests	testHashcode	@Test
+org.jfree.chart.renderer.category.junit.ScatterRendererTests	ScatterRendererTests	@Test
+org.jfree.chart.renderer.category.junit.ScatterRendererTests	testEquals	@Test
+org.jfree.chart.labels.junit.StandardXYToolTipGeneratorTests	suite
+org.jfree.chart.labels.junit.StandardXYToolTipGeneratorTests	testCloning	@Test
+org.jfree.chart.labels.junit.StandardXYToolTipGeneratorTests	StandardXYToolTipGeneratorTests	@Test
+org.jfree.chart.labels.junit.StandardXYToolTipGeneratorTests	testSerialization	@Test
+org.jfree.chart.labels.junit.StandardXYToolTipGeneratorTests	testEquals	@Test
+org.jfree.chart.labels.junit.StandardXYZToolTipGeneratorTests	suite
+org.jfree.chart.labels.junit.StandardXYZToolTipGeneratorTests	StandardXYZToolTipGeneratorTests	@Test
+org.jfree.chart.labels.junit.StandardXYZToolTipGeneratorTests	testCloning	@Test
+org.jfree.chart.labels.junit.StandardXYZToolTipGeneratorTests	testSerialization	@Test
+org.jfree.chart.labels.junit.StandardXYZToolTipGeneratorTests	testEquals	@Test
+org.jfree.chart.labels.junit.BubbleXYItemLabelGeneratorTests	suite
+org.jfree.chart.labels.junit.BubbleXYItemLabelGeneratorTests	BubbleXYItemLabelGeneratorTests	@Test
+org.jfree.chart.labels.junit.BubbleXYItemLabelGeneratorTests	testCloning	@Test
+org.jfree.chart.labels.junit.BubbleXYItemLabelGeneratorTests	testGenerateLabel	@Test
+org.jfree.chart.labels.junit.BubbleXYItemLabelGeneratorTests	testSerialization	@Test
+org.jfree.chart.labels.junit.BubbleXYItemLabelGeneratorTests	testEquals	@Test
+org.jfree.chart.labels.junit.IntervalCategoryLabelGeneratorTests	suite
+org.jfree.chart.labels.junit.IntervalCategoryLabelGeneratorTests	IntervalCategoryLabelGeneratorTests	@Test
+org.jfree.chart.labels.junit.IntervalCategoryLabelGeneratorTests	testCloning	@Test
+org.jfree.chart.labels.junit.IntervalCategoryLabelGeneratorTests	testSerialization	@Test
+org.jfree.chart.labels.junit.IntervalCategoryLabelGeneratorTests	testEquals	@Test
+org.jfree.chart.labels.junit.StandardPieSectionLabelGeneratorTests	suite
+org.jfree.chart.labels.junit.StandardPieSectionLabelGeneratorTests	testCloning	@Test
+org.jfree.chart.labels.junit.StandardPieSectionLabelGeneratorTests	main
+org.jfree.chart.labels.junit.StandardPieSectionLabelGeneratorTests	StandardPieSectionLabelGeneratorTests	@Test
+org.jfree.chart.labels.junit.StandardPieSectionLabelGeneratorTests	testSerialization	@Test
+org.jfree.chart.labels.junit.StandardPieSectionLabelGeneratorTests	testEquals	@Test
+org.jfree.chart.labels.junit.SymbolicXYItemLabelGeneratorTests	suite
+org.jfree.chart.labels.junit.SymbolicXYItemLabelGeneratorTests	testCloning	@Test
+org.jfree.chart.labels.junit.SymbolicXYItemLabelGeneratorTests	testSerialization	@Test
+org.jfree.chart.labels.junit.SymbolicXYItemLabelGeneratorTests	SymbolicXYItemLabelGeneratorTests	@Test
+org.jfree.chart.labels.junit.SymbolicXYItemLabelGeneratorTests	testEquals	@Test
+org.jfree.chart.labels.junit.StandardCategoryItemLabelGeneratorTests	StandardCategoryItemLabelGeneratorTests	@Test
+org.jfree.chart.labels.junit.StandardCategoryItemLabelGeneratorTests	suite
+org.jfree.chart.labels.junit.StandardCategoryItemLabelGeneratorTests	testCloning	@Test
+org.jfree.chart.labels.junit.StandardCategoryItemLabelGeneratorTests	testGenerateLabel	@Test
+org.jfree.chart.labels.junit.StandardCategoryItemLabelGeneratorTests	testSerialization	@Test
+org.jfree.chart.labels.junit.StandardCategoryItemLabelGeneratorTests	testEquals1481087	@Test
+org.jfree.chart.labels.junit.StandardCategoryItemLabelGeneratorTests	testEquals	@Test
+org.jfree.chart.labels.junit.MultipleXYSeriesLabelGeneratorTests	suite
+org.jfree.chart.labels.junit.MultipleXYSeriesLabelGeneratorTests	testCloning	@Test
+org.jfree.chart.labels.junit.MultipleXYSeriesLabelGeneratorTests	MultipleXYSeriesLabelGeneratorTests	@Test
+org.jfree.chart.labels.junit.MultipleXYSeriesLabelGeneratorTests	testSerialization	@Test
+org.jfree.chart.labels.junit.MultipleXYSeriesLabelGeneratorTests	testEquals	@Test
+org.jfree.chart.labels.junit.LabelsPackageTests	LabelsPackageTests	@Test
+org.jfree.chart.labels.junit.LabelsPackageTests	suite
+org.jfree.chart.labels.junit.LabelsPackageTests	main
+org.jfree.chart.labels.junit.CustomXYItemLabelGeneratorTests	suite
+org.jfree.chart.labels.junit.CustomXYItemLabelGeneratorTests	CustomXYItemLabelGeneratorTests	@Test
+org.jfree.chart.labels.junit.CustomXYItemLabelGeneratorTests	testCloning	@Test
+org.jfree.chart.labels.junit.CustomXYItemLabelGeneratorTests	testSerialization	@Test
+org.jfree.chart.labels.junit.BoxAndWhiskerToolTipGeneratorTests	BoxAndWhiskerToolTipGeneratorTests	@Test
+org.jfree.chart.labels.junit.BoxAndWhiskerToolTipGeneratorTests	suite
+org.jfree.chart.labels.junit.BoxAndWhiskerToolTipGeneratorTests	testCloning	@Test
+org.jfree.chart.labels.junit.BoxAndWhiskerToolTipGeneratorTests	testSerialization	@Test
+org.jfree.chart.labels.junit.BoxAndWhiskerToolTipGeneratorTests	testEquals	@Test
+org.jfree.chart.labels.junit.StandardXYItemLabelGeneratorTests	suite
+org.jfree.chart.labels.junit.StandardXYItemLabelGeneratorTests	testCloning	@Test
+org.jfree.chart.labels.junit.StandardXYItemLabelGeneratorTests	StandardXYItemLabelGeneratorTests	@Test
+org.jfree.chart.labels.junit.StandardXYItemLabelGeneratorTests	testSerialization	@Test
+org.jfree.chart.labels.junit.StandardXYItemLabelGeneratorTests	testEquals	@Test
+org.jfree.chart.labels.junit.HighLowItemLabelGeneratorTests	suite
+org.jfree.chart.labels.junit.HighLowItemLabelGeneratorTests	testCloning	@Test
+org.jfree.chart.labels.junit.HighLowItemLabelGeneratorTests	HighLowItemLabelGeneratorTests	@Test
+org.jfree.chart.labels.junit.HighLowItemLabelGeneratorTests	testSerialization	@Test
+org.jfree.chart.labels.junit.HighLowItemLabelGeneratorTests	testEquals	@Test
+org.jfree.chart.labels.junit.BoxAndWhiskerXYToolTipGeneratorTests	suite
+org.jfree.chart.labels.junit.BoxAndWhiskerXYToolTipGeneratorTests	testCloning	@Test
+org.jfree.chart.labels.junit.BoxAndWhiskerXYToolTipGeneratorTests	BoxAndWhiskerXYToolTipGeneratorTests	@Test
+org.jfree.chart.labels.junit.BoxAndWhiskerXYToolTipGeneratorTests	testSerialization	@Test
+org.jfree.chart.labels.junit.BoxAndWhiskerXYToolTipGeneratorTests	testEquals	@Test
+org.jfree.chart.labels.junit.StandardPieToolTipGeneratorTests	suite
+org.jfree.chart.labels.junit.StandardPieToolTipGeneratorTests	testCloning	@Test
+org.jfree.chart.labels.junit.StandardPieToolTipGeneratorTests	testSerialization	@Test
+org.jfree.chart.labels.junit.StandardPieToolTipGeneratorTests	StandardPieToolTipGeneratorTests	@Test
+org.jfree.chart.labels.junit.StandardPieToolTipGeneratorTests	testEquals	@Test
+org.jfree.chart.labels.junit.StandardCategoryToolTipGeneratorTests	suite
+org.jfree.chart.labels.junit.StandardCategoryToolTipGeneratorTests	testCloning	@Test
+org.jfree.chart.labels.junit.StandardCategoryToolTipGeneratorTests	StandardCategoryToolTipGeneratorTests	@Test
+org.jfree.chart.labels.junit.StandardCategoryToolTipGeneratorTests	testSerialization	@Test
+org.jfree.chart.labels.junit.StandardCategoryToolTipGeneratorTests	testEquals1481087	@Test
+org.jfree.chart.labels.junit.StandardCategoryToolTipGeneratorTests	testEquals	@Test
+org.jfree.chart.labels.junit.ItemLabelAnchorTests	suite
+org.jfree.chart.labels.junit.ItemLabelAnchorTests	testSerialization	@Test
+org.jfree.chart.labels.junit.ItemLabelAnchorTests	ItemLabelAnchorTests	@Test
+org.jfree.chart.labels.junit.ItemLabelAnchorTests	testEquals	@Test
+org.jfree.chart.labels.junit.ItemLabelPositionTests	ItemLabelPositionTests	@Test
+org.jfree.chart.labels.junit.ItemLabelPositionTests	suite
+org.jfree.chart.labels.junit.ItemLabelPositionTests	testSerialization	@Test
+org.jfree.chart.labels.junit.ItemLabelPositionTests	testEquals	@Test
+org.jfree.chart.labels.junit.StandardCategorySeriesLabelGeneratorTests	suite
+org.jfree.chart.labels.junit.StandardCategorySeriesLabelGeneratorTests	testCloning	@Test
+org.jfree.chart.labels.junit.StandardCategorySeriesLabelGeneratorTests	testGenerateLabel	@Test
+org.jfree.chart.labels.junit.StandardCategorySeriesLabelGeneratorTests	StandardCategorySeriesLabelGeneratorTests	@Test
+org.jfree.chart.labels.junit.StandardCategorySeriesLabelGeneratorTests	testSerialization	@Test
+org.jfree.chart.labels.junit.StandardCategorySeriesLabelGeneratorTests	testEquals	@Test
+org.jfree.chart.labels.junit.StandardXYSeriesLabelGeneratorTests	suite
+org.jfree.chart.labels.junit.StandardXYSeriesLabelGeneratorTests	testCloning	@Test
+org.jfree.chart.labels.junit.StandardXYSeriesLabelGeneratorTests	testGenerateLabel	@Test
+org.jfree.chart.labels.junit.StandardXYSeriesLabelGeneratorTests	testSerialization	@Test
+org.jfree.chart.labels.junit.StandardXYSeriesLabelGeneratorTests	StandardXYSeriesLabelGeneratorTests	@Test
+org.jfree.chart.labels.junit.StandardXYSeriesLabelGeneratorTests	testEquals	@Test
+org.jfree.chart.entity.junit.EntityPackageTests	suite
+org.jfree.chart.entity.junit.EntityPackageTests	EntityPackageTests	@Test
+org.jfree.chart.entity.junit.EntityPackageTests	main
+org.jfree.chart.entity.junit.XYItemEntityTests	suite
+org.jfree.chart.entity.junit.XYItemEntityTests	testCloning	@Test
+org.jfree.chart.entity.junit.XYItemEntityTests	XYItemEntityTests	@Test
+org.jfree.chart.entity.junit.XYItemEntityTests	testSerialization	@Test
+org.jfree.chart.entity.junit.XYItemEntityTests	testEquals	@Test
+org.jfree.chart.entity.junit.PieSectionEntityTests	PieSectionEntityTests	@Test
+org.jfree.chart.entity.junit.PieSectionEntityTests	suite
+org.jfree.chart.entity.junit.PieSectionEntityTests	testCloning	@Test
+org.jfree.chart.entity.junit.PieSectionEntityTests	testSerialization	@Test
+org.jfree.chart.entity.junit.PieSectionEntityTests	testEquals	@Test
+org.jfree.chart.entity.junit.TickLabelEntityTests	suite
+org.jfree.chart.entity.junit.TickLabelEntityTests	testCloning	@Test
+org.jfree.chart.entity.junit.TickLabelEntityTests	TickLabelEntityTests	@Test
+org.jfree.chart.entity.junit.TickLabelEntityTests	testSerialization	@Test
+org.jfree.chart.entity.junit.TickLabelEntityTests	testEquals	@Test
+org.jfree.chart.entity.junit.StandardEntityCollectionTests	suite
+org.jfree.chart.entity.junit.StandardEntityCollectionTests	testCloning	@Test
+org.jfree.chart.entity.junit.StandardEntityCollectionTests	testSerialization	@Test
+org.jfree.chart.entity.junit.StandardEntityCollectionTests	StandardEntityCollectionTests	@Test
+org.jfree.chart.entity.junit.StandardEntityCollectionTests	testEquals	@Test
+org.jfree.chart.entity.junit.LegendItemEntityTests	suite
+org.jfree.chart.entity.junit.LegendItemEntityTests	testCloning	@Test
+org.jfree.chart.entity.junit.LegendItemEntityTests	LegendItemEntityTests	@Test
+org.jfree.chart.entity.junit.LegendItemEntityTests	testSerialization	@Test
+org.jfree.chart.entity.junit.LegendItemEntityTests	testEquals	@Test
+org.jfree.chart.entity.junit.CategoryItemEntityTests	suite
+org.jfree.chart.entity.junit.CategoryItemEntityTests	testCloning	@Test
+org.jfree.chart.entity.junit.CategoryItemEntityTests	CategoryItemEntityTests	@Test
+org.jfree.chart.entity.junit.CategoryItemEntityTests	testSerialization	@Test
+org.jfree.chart.entity.junit.CategoryItemEntityTests	testEquals	@Test
+org.jfree.chart.junit.PaintMapTests	testSerialization2	@Test
+org.jfree.chart.junit.PaintMapTests	testKeysOfDifferentClasses	@Test
+org.jfree.chart.junit.PaintMapTests	suite
+org.jfree.chart.junit.PaintMapTests	testGetPaint	@Test
+org.jfree.chart.junit.PaintMapTests	testCloning	@Test
+org.jfree.chart.junit.PaintMapTests	PaintMapTests	@Test
+org.jfree.chart.junit.PaintMapTests	testSerialization1	@Test
+org.jfree.chart.junit.PaintMapTests	testPut	@Test
+org.jfree.chart.junit.PaintMapTests	testEquals	@Test
+org.jfree.chart.junit.GanttChartTests	createDataset
+org.jfree.chart.junit.GanttChartTests	suite
+org.jfree.chart.junit.GanttChartTests	chartChanged
+org.jfree.chart.junit.GanttChartTests	testSetSeriesURLGenerator	@Test
+org.jfree.chart.junit.GanttChartTests	GanttChartTests	@Test
+org.jfree.chart.junit.GanttChartTests	testReplaceDataset	@Test
+org.jfree.chart.junit.GanttChartTests	testDrawWithNullInfo	@Test
+org.jfree.chart.junit.GanttChartTests	testSetSeriesToolTipGenerator	@Test
+org.jfree.chart.junit.GanttChartTests	testDrawWithNullInfo2	@Test
+org.jfree.chart.junit.TimeSeriesChartTests	suite
+org.jfree.chart.junit.TimeSeriesChartTests	chartChanged
+org.jfree.chart.junit.TimeSeriesChartTests	testReplaceDataset	@Test
+org.jfree.chart.junit.TimeSeriesChartTests	TimeSeriesChartTests	@Test
+org.jfree.chart.junit.TimeSeriesChartTests	testDrawWithNullInfo	@Test
+org.jfree.chart.junit.TimeSeriesChartTests	testSetSeriesToolTipGenerator	@Test
+org.jfree.chart.junit.XYStepAreaChartTests	suite
+org.jfree.chart.junit.XYStepAreaChartTests	chartChanged
+org.jfree.chart.junit.XYStepAreaChartTests	testReplaceDataset	@Test
+org.jfree.chart.junit.XYStepAreaChartTests	XYStepAreaChartTests	@Test
+org.jfree.chart.junit.XYStepAreaChartTests	testDrawWithNullInfo	@Test
+org.jfree.chart.junit.XYStepAreaChartTests	testSetSeriesToolTipGenerator	@Test
+org.jfree.chart.junit.XYLineChartTests	suite
+org.jfree.chart.junit.XYLineChartTests	chartChanged
+org.jfree.chart.junit.XYLineChartTests	testReplaceDataset	@Test
+org.jfree.chart.junit.XYLineChartTests	XYLineChartTests	@Test
+org.jfree.chart.junit.XYLineChartTests	testDrawWithNullInfo	@Test
+org.jfree.chart.junit.XYLineChartTests	testSetSeriesToolTipGenerator	@Test
+org.jfree.chart.junit.StackedBarChartTests	StackedBarChartTests	@Test
+org.jfree.chart.junit.StackedBarChartTests	suite
+org.jfree.chart.junit.StackedBarChartTests	chartChanged
+org.jfree.chart.junit.StackedBarChartTests	testSetSeriesURLGenerator	@Test
+org.jfree.chart.junit.StackedBarChartTests	testReplaceDataset	@Test
+org.jfree.chart.junit.StackedBarChartTests	testDrawWithNullInfo	@Test
+org.jfree.chart.junit.StackedBarChartTests	testSetSeriesToolTipGenerator	@Test
+org.jfree.chart.junit.ChartRenderingInfoTests	testSerialization2	@Test
+org.jfree.chart.junit.ChartRenderingInfoTests	suite
+org.jfree.chart.junit.ChartRenderingInfoTests	testCloning	@Test
+org.jfree.chart.junit.ChartRenderingInfoTests	ChartRenderingInfoTests	@Test
+org.jfree.chart.junit.ChartRenderingInfoTests	testSerialization	@Test
+org.jfree.chart.junit.ChartRenderingInfoTests	testEquals	@Test
+org.jfree.chart.junit.JFreeChartTestSuite	suite
+org.jfree.chart.junit.JFreeChartTestSuite	main
+org.jfree.chart.junit.LineChart3DTests	suite
+org.jfree.chart.junit.LineChart3DTests	chartChanged
+org.jfree.chart.junit.LineChart3DTests	testSetSeriesURLGenerator	@Test
+org.jfree.chart.junit.LineChart3DTests	testReplaceDataset	@Test
+org.jfree.chart.junit.LineChart3DTests	LineChart3DTests	@Test
+org.jfree.chart.junit.LineChart3DTests	testDrawWithNullInfo	@Test
+org.jfree.chart.junit.LineChart3DTests	testSetSeriesToolTipGenerator	@Test
+org.jfree.chart.junit.WaterfallChartTests	suite
+org.jfree.chart.junit.WaterfallChartTests	testSetSeriesURLGenerator	@Test
+org.jfree.chart.junit.WaterfallChartTests	testDrawWithNullInfo	@Test
+org.jfree.chart.junit.WaterfallChartTests	testSetSeriesToolTipGenerator	@Test
+org.jfree.chart.junit.WaterfallChartTests	WaterfallChartTests	@Test
+org.jfree.chart.junit.JFreeChartTests	testSerialization3	@Test
+org.jfree.chart.junit.JFreeChartTests	testEquals2	@Test
+org.jfree.chart.junit.JFreeChartTests	testSerialization2	@Test
+org.jfree.chart.junit.JFreeChartTests	testTitleChangeEvent	@Test
+org.jfree.chart.junit.JFreeChartTests	JFreeChartTests	@Test
+org.jfree.chart.junit.JFreeChartTests	testSerialization4	@Test
+org.jfree.chart.junit.JFreeChartTests	chartChanged
+org.jfree.chart.junit.JFreeChartTests	testGetSubtitle	@Test
+org.jfree.chart.junit.JFreeChartTests	testSerialization1	@Test
+org.jfree.chart.junit.JFreeChartTests	testSubtitleCount	@Test
+org.jfree.chart.junit.JFreeChartTests	testAddSubtitle	@Test
+org.jfree.chart.junit.JFreeChartTests	testGetSubtitles	@Test
+org.jfree.chart.junit.JFreeChartTests	suite
+org.jfree.chart.junit.JFreeChartTests	testLegendEvents	@Test
+org.jfree.chart.junit.JFreeChartTests	testEquals	@Test
+org.jfree.chart.junit.PieChart3DTests	suite
+org.jfree.chart.junit.PieChart3DTests	PieChart3DTests	@Test
+org.jfree.chart.junit.PieChart3DTests	chartChanged
+org.jfree.chart.junit.PieChart3DTests	testReplaceDatasetOnPieChart	@Test
+org.jfree.chart.junit.PieChart3DTests	testNullValueInDataset	@Test
+org.jfree.chart.junit.AreaChartTests	suite
+org.jfree.chart.junit.AreaChartTests	chartChanged
+org.jfree.chart.junit.AreaChartTests	testSetSeriesURLGenerator	@Test
+org.jfree.chart.junit.AreaChartTests	AreaChartTests	@Test
+org.jfree.chart.junit.AreaChartTests	testReplaceDataset	@Test
+org.jfree.chart.junit.AreaChartTests	testDrawWithNullInfo	@Test
+org.jfree.chart.junit.AreaChartTests	testSetSeriesToolTipGenerator	@Test
+org.jfree.chart.junit.PieChartTests	suite
+org.jfree.chart.junit.PieChartTests	chartChanged
+org.jfree.chart.junit.PieChartTests	PieChartTests	@Test
+org.jfree.chart.junit.PieChartTests	testReplaceDatasetOnPieChart	@Test
+org.jfree.chart.junit.LegendItemTests	testSerialization2	@Test
+org.jfree.chart.junit.LegendItemTests	suite
+org.jfree.chart.junit.LegendItemTests	testCloning	@Test
+org.jfree.chart.junit.LegendItemTests	LegendItemTests	@Test
+org.jfree.chart.junit.LegendItemTests	testSerialization	@Test
+org.jfree.chart.junit.LegendItemTests	testEquals	@Test
+org.jfree.chart.junit.StackedBarChart3DTests	suite
+org.jfree.chart.junit.StackedBarChart3DTests	chartChanged
+org.jfree.chart.junit.StackedBarChart3DTests	testSetSeriesURLGenerator	@Test
+org.jfree.chart.junit.StackedBarChart3DTests	testReplaceDataset	@Test
+org.jfree.chart.junit.StackedBarChart3DTests	testDrawWithNullInfo	@Test
+org.jfree.chart.junit.StackedBarChart3DTests	testSetSeriesToolTipGenerator	@Test
+org.jfree.chart.junit.StackedBarChart3DTests	StackedBarChart3DTests	@Test
+org.jfree.chart.junit.ChartPackageTests	suite
+org.jfree.chart.junit.XYAreaChartTests	suite
+org.jfree.chart.junit.XYAreaChartTests	XYAreaChartTests	@Test
+org.jfree.chart.junit.XYAreaChartTests	chartChanged
+org.jfree.chart.junit.XYAreaChartTests	testReplaceDataset	@Test
+org.jfree.chart.junit.XYAreaChartTests	testDrawWithNullInfo	@Test
+org.jfree.chart.junit.XYAreaChartTests	testSetSeriesToolTipGenerator	@Test
+org.jfree.chart.junit.TestUtilities	containsInstanceOf
+org.jfree.chart.junit.ChartPanelTests	ChartPanelTests	@Test
+org.jfree.chart.junit.ChartPanelTests	suite
+org.jfree.chart.junit.ChartPanelTests	testConstructor1	@Test
+org.jfree.chart.junit.ChartPanelTests	testGetListeners	@Test
+org.jfree.chart.junit.ChartPanelTests	chartMouseMoved
+org.jfree.chart.junit.ChartPanelTests	chartMouseClicked
+org.jfree.chart.junit.ChartPanelTests	testSetChart	@Test
+org.jfree.chart.junit.StrokeMapTests	testSerialization2	@Test
+org.jfree.chart.junit.StrokeMapTests	suite
+org.jfree.chart.junit.StrokeMapTests	testCloning	@Test
+org.jfree.chart.junit.StrokeMapTests	testSerialization1	@Test
+org.jfree.chart.junit.StrokeMapTests	testGetStroke	@Test
+org.jfree.chart.junit.StrokeMapTests	testPut	@Test
+org.jfree.chart.junit.StrokeMapTests	StrokeMapTests	@Test
+org.jfree.chart.junit.StrokeMapTests	testEquals	@Test
+org.jfree.chart.junit.StackedAreaChartTests	suite
+org.jfree.chart.junit.StackedAreaChartTests	chartChanged
+org.jfree.chart.junit.StackedAreaChartTests	testSetSeriesURLGenerator	@Test
+org.jfree.chart.junit.StackedAreaChartTests	testReplaceDataset	@Test
+org.jfree.chart.junit.StackedAreaChartTests	StackedAreaChartTests	@Test
+org.jfree.chart.junit.StackedAreaChartTests	testDrawWithNullInfo	@Test
+org.jfree.chart.junit.StackedAreaChartTests	testSetSeriesToolTipGenerator	@Test
+org.jfree.chart.junit.LineChartTests	suite
+org.jfree.chart.junit.LineChartTests	LineChartTests	@Test
+org.jfree.chart.junit.LineChartTests	chartChanged
+org.jfree.chart.junit.LineChartTests	testSetSeriesURLGenerator	@Test
+org.jfree.chart.junit.LineChartTests	testReplaceDataset	@Test
+org.jfree.chart.junit.LineChartTests	testDrawWithNullInfo	@Test
+org.jfree.chart.junit.LineChartTests	testSetSeriesToolTipGenerator	@Test
+org.jfree.chart.junit.BarChartTests	suite
+org.jfree.chart.junit.BarChartTests	chartChanged
+org.jfree.chart.junit.BarChartTests	testSetSeriesURLGenerator	@Test
+org.jfree.chart.junit.BarChartTests	testReplaceDataset	@Test
+org.jfree.chart.junit.BarChartTests	BarChartTests	@Test
+org.jfree.chart.junit.BarChartTests	testDrawWithNullInfo	@Test
+org.jfree.chart.junit.BarChartTests	testSetSeriesToolTipGenerator	@Test
+org.jfree.chart.junit.ScatterPlotTests	ScatterPlotTests	@Test
+org.jfree.chart.junit.ScatterPlotTests	suite
+org.jfree.chart.junit.ScatterPlotTests	chartChanged
+org.jfree.chart.junit.ScatterPlotTests	testReplaceDataset	@Test
+org.jfree.chart.junit.ScatterPlotTests	testDrawWithNullInfo	@Test
+org.jfree.chart.junit.ScatterPlotTests	testSetSeriesToolTipGenerator	@Test
+org.jfree.chart.junit.XYStepChartTests	suite
+org.jfree.chart.junit.XYStepChartTests	chartChanged
+org.jfree.chart.junit.XYStepChartTests	XYStepChartTests	@Test
+org.jfree.chart.junit.XYStepChartTests	testReplaceDataset	@Test
+org.jfree.chart.junit.XYStepChartTests	testDrawWithNullInfo	@Test
+org.jfree.chart.junit.XYStepChartTests	testSetSeriesToolTipGenerator	@Test
+org.jfree.chart.junit.MeterChartTests	suite
+org.jfree.chart.junit.MeterChartTests	MeterChartTests	@Test
+org.jfree.chart.junit.MeterChartTests	testDrawWithNullInfo	@Test
+org.jfree.chart.junit.XYBarChartTests	suite
+org.jfree.chart.junit.XYBarChartTests	XYBarChartTests	@Test
+org.jfree.chart.junit.XYBarChartTests	chartChanged
+org.jfree.chart.junit.XYBarChartTests	testReplaceDataset	@Test
+org.jfree.chart.junit.XYBarChartTests	testDrawWithNullInfo	@Test
+org.jfree.chart.junit.XYBarChartTests	testSetSeriesToolTipGenerator	@Test
+org.jfree.chart.junit.LegendItemCollectionTests	LegendItemCollectionTests	@Test
+org.jfree.chart.junit.LegendItemCollectionTests	suite
+org.jfree.chart.junit.LegendItemCollectionTests	testCloning	@Test
+org.jfree.chart.junit.LegendItemCollectionTests	testSerialization	@Test
+org.jfree.chart.junit.LegendItemCollectionTests	testEquals	@Test
+org.jfree.chart.junit.BarChart3DTests	suite
+org.jfree.chart.junit.BarChart3DTests	BarChart3DTests	@Test
+org.jfree.chart.junit.BarChart3DTests	chartChanged
+org.jfree.chart.junit.BarChart3DTests	testSetSeriesURLGenerator	@Test
+org.jfree.chart.junit.BarChart3DTests	testReplaceDataset	@Test
+org.jfree.chart.junit.BarChart3DTests	testDrawWithNullInfo	@Test
+org.jfree.chart.junit.BarChart3DTests	testSetSeriesToolTipGenerator	@Test
+org.jfree.chart.annotations.junit.XYPointerAnnotationTests	suite
+org.jfree.chart.annotations.junit.XYPointerAnnotationTests	testCloning	@Test
+org.jfree.chart.annotations.junit.XYPointerAnnotationTests	XYPointerAnnotationTests	@Test
+org.jfree.chart.annotations.junit.XYPointerAnnotationTests	testSerialization	@Test
+org.jfree.chart.annotations.junit.XYPointerAnnotationTests	testHashCode	@Test
+org.jfree.chart.annotations.junit.XYPointerAnnotationTests	testEquals	@Test
+org.jfree.chart.annotations.junit.XYTextAnnotationTests	suite
+org.jfree.chart.annotations.junit.XYTextAnnotationTests	XYTextAnnotationTests	@Test
+org.jfree.chart.annotations.junit.XYTextAnnotationTests	testCloning	@Test
+org.jfree.chart.annotations.junit.XYTextAnnotationTests	testSerialization	@Test
+org.jfree.chart.annotations.junit.XYTextAnnotationTests	testHashCode	@Test
+org.jfree.chart.annotations.junit.XYTextAnnotationTests	testEquals	@Test
+org.jfree.chart.annotations.junit.XYPolygonAnnotationTests	suite
+org.jfree.chart.annotations.junit.XYPolygonAnnotationTests	XYPolygonAnnotationTests	@Test
+org.jfree.chart.annotations.junit.XYPolygonAnnotationTests	testCloning	@Test
+org.jfree.chart.annotations.junit.XYPolygonAnnotationTests	testSerialization	@Test
+org.jfree.chart.annotations.junit.XYPolygonAnnotationTests	testHashCode	@Test
+org.jfree.chart.annotations.junit.XYPolygonAnnotationTests	testEquals	@Test
+org.jfree.chart.annotations.junit.CategoryLineAnnotationTests	CategoryLineAnnotationTests	@Test
+org.jfree.chart.annotations.junit.CategoryLineAnnotationTests	suite
+org.jfree.chart.annotations.junit.CategoryLineAnnotationTests	testCloning	@Test
+org.jfree.chart.annotations.junit.CategoryLineAnnotationTests	testSerialization	@Test
+org.jfree.chart.annotations.junit.CategoryLineAnnotationTests	testHashcode	@Test
+org.jfree.chart.annotations.junit.CategoryLineAnnotationTests	testEquals	@Test
+org.jfree.chart.annotations.junit.XYShapeAnnotationTests	suite
+org.jfree.chart.annotations.junit.XYShapeAnnotationTests	testCloning	@Test
+org.jfree.chart.annotations.junit.XYShapeAnnotationTests	XYShapeAnnotationTests	@Test
+org.jfree.chart.annotations.junit.XYShapeAnnotationTests	testSerialization	@Test
+org.jfree.chart.annotations.junit.XYShapeAnnotationTests	testHashCode	@Test
+org.jfree.chart.annotations.junit.XYShapeAnnotationTests	testEquals	@Test
+org.jfree.chart.annotations.junit.XYLineAnnotationTests	XYLineAnnotationTests	@Test
+org.jfree.chart.annotations.junit.XYLineAnnotationTests	suite
+org.jfree.chart.annotations.junit.XYLineAnnotationTests	testCloning	@Test
+org.jfree.chart.annotations.junit.XYLineAnnotationTests	testSerialization	@Test
+org.jfree.chart.annotations.junit.XYLineAnnotationTests	testHashCode	@Test
+org.jfree.chart.annotations.junit.XYLineAnnotationTests	testEquals	@Test
+org.jfree.chart.annotations.junit.XYBoxAnnotationTests	suite
+org.jfree.chart.annotations.junit.XYBoxAnnotationTests	testCloning	@Test
+org.jfree.chart.annotations.junit.XYBoxAnnotationTests	XYBoxAnnotationTests	@Test
+org.jfree.chart.annotations.junit.XYBoxAnnotationTests	testSerialization	@Test
+org.jfree.chart.annotations.junit.XYBoxAnnotationTests	testDrawWithNullInfo	@Test
+org.jfree.chart.annotations.junit.XYBoxAnnotationTests	testHashCode	@Test
+org.jfree.chart.annotations.junit.XYBoxAnnotationTests	testEquals	@Test
+org.jfree.chart.annotations.junit.XYDrawableAnnotationTests	suite
+org.jfree.chart.annotations.junit.XYDrawableAnnotationTests	testCloning	@Test
+org.jfree.chart.annotations.junit.XYDrawableAnnotationTests	equals
+org.jfree.chart.annotations.junit.XYDrawableAnnotationTests	clone
+org.jfree.chart.annotations.junit.XYDrawableAnnotationTests	TestDrawable	@Test
+org.jfree.chart.annotations.junit.XYDrawableAnnotationTests	draw
+org.jfree.chart.annotations.junit.XYDrawableAnnotationTests	testSerialization	@Test
+org.jfree.chart.annotations.junit.XYDrawableAnnotationTests	testHashCode	@Test
+org.jfree.chart.annotations.junit.XYDrawableAnnotationTests	XYDrawableAnnotationTests	@Test
+org.jfree.chart.annotations.junit.XYDrawableAnnotationTests	testEquals	@Test
+org.jfree.chart.annotations.junit.XYImageAnnotationTests	suite
+org.jfree.chart.annotations.junit.XYImageAnnotationTests	testCloning	@Test
+org.jfree.chart.annotations.junit.XYImageAnnotationTests	XYImageAnnotationTests	@Test
+org.jfree.chart.annotations.junit.XYImageAnnotationTests	testHashCode	@Test
+org.jfree.chart.annotations.junit.XYImageAnnotationTests	testEquals	@Test
+org.jfree.chart.annotations.junit.CategoryTextAnnotationTests	suite
+org.jfree.chart.annotations.junit.CategoryTextAnnotationTests	testCloning	@Test
+org.jfree.chart.annotations.junit.CategoryTextAnnotationTests	CategoryTextAnnotationTests	@Test
+org.jfree.chart.annotations.junit.CategoryTextAnnotationTests	testSerialization	@Test
+org.jfree.chart.annotations.junit.CategoryTextAnnotationTests	testHashcode	@Test
+org.jfree.chart.annotations.junit.CategoryTextAnnotationTests	testEquals	@Test
+org.jfree.chart.annotations.junit.AnnotationsPackageTests	AnnotationsPackageTests	@Test
+org.jfree.chart.annotations.junit.AnnotationsPackageTests	suite
+org.jfree.chart.annotations.junit.AnnotationsPackageTests	main
+org.jfree.chart.annotations.junit.TextAnnotationTests	suite
+org.jfree.chart.annotations.junit.TextAnnotationTests	TextAnnotationTests	@Test
+org.jfree.chart.annotations.junit.TextAnnotationTests	testHashCode	@Test
+org.jfree.chart.annotations.junit.TextAnnotationTests	testEquals	@Test
+org.jfree.chart.annotations.junit.CategoryPointerAnnotationTests	suite
+org.jfree.chart.annotations.junit.CategoryPointerAnnotationTests	CategoryPointerAnnotationTests	@Test
+org.jfree.chart.annotations.junit.CategoryPointerAnnotationTests	testCloning	@Test
+org.jfree.chart.annotations.junit.CategoryPointerAnnotationTests	testSerialization	@Test
+org.jfree.chart.annotations.junit.CategoryPointerAnnotationTests	testHashCode	@Test
+org.jfree.chart.annotations.junit.CategoryPointerAnnotationTests	testEquals	@Test
+org.jfree.chart.block.junit.BlockContainerTests	suite
+org.jfree.chart.block.junit.BlockContainerTests	testCloning	@Test
+org.jfree.chart.block.junit.BlockContainerTests	testSerialization	@Test
+org.jfree.chart.block.junit.BlockContainerTests	BlockContainerTests	@Test
+org.jfree.chart.block.junit.BlockContainerTests	testEquals	@Test
+org.jfree.chart.block.junit.LineBorderTests	suite
+org.jfree.chart.block.junit.LineBorderTests	testCloning	@Test
+org.jfree.chart.block.junit.LineBorderTests	LineBorderTests	@Test
+org.jfree.chart.block.junit.LineBorderTests	testSerialization	@Test
+org.jfree.chart.block.junit.LineBorderTests	testEquals	@Test
+org.jfree.chart.block.junit.FlowArrangementTests	suite
+org.jfree.chart.block.junit.FlowArrangementTests	testCloning	@Test
+org.jfree.chart.block.junit.FlowArrangementTests	FlowArrangementTests	@Test
+org.jfree.chart.block.junit.FlowArrangementTests	testSerialization	@Test
+org.jfree.chart.block.junit.FlowArrangementTests	testEquals	@Test
+org.jfree.chart.block.junit.LabelBlockTests	suite
+org.jfree.chart.block.junit.LabelBlockTests	testCloning	@Test
+org.jfree.chart.block.junit.LabelBlockTests	testSerialization	@Test
+org.jfree.chart.block.junit.LabelBlockTests	LabelBlockTests	@Test
+org.jfree.chart.block.junit.LabelBlockTests	testEquals	@Test
+org.jfree.chart.block.junit.EmptyBlockTests	suite
+org.jfree.chart.block.junit.EmptyBlockTests	testCloning	@Test
+org.jfree.chart.block.junit.EmptyBlockTests	testSerialization	@Test
+org.jfree.chart.block.junit.EmptyBlockTests	EmptyBlockTests	@Test
+org.jfree.chart.block.junit.EmptyBlockTests	testEquals	@Test
+org.jfree.chart.block.junit.BlockBorderTests	suite
+org.jfree.chart.block.junit.BlockBorderTests	BlockBorderTests	@Test
+org.jfree.chart.block.junit.BlockBorderTests	testCloning	@Test
+org.jfree.chart.block.junit.BlockBorderTests	testSerialization	@Test
+org.jfree.chart.block.junit.BlockBorderTests	testEquals	@Test
+org.jfree.chart.block.junit.ColorBlockTests	suite
+org.jfree.chart.block.junit.ColorBlockTests	testCloning	@Test
+org.jfree.chart.block.junit.ColorBlockTests	testSerialization	@Test
+org.jfree.chart.block.junit.ColorBlockTests	ColorBlockTests	@Test
+org.jfree.chart.block.junit.ColorBlockTests	testEquals	@Test
+org.jfree.chart.block.junit.BlockPackageTests	BlockPackageTests	@Test
+org.jfree.chart.block.junit.BlockPackageTests	suite
+org.jfree.chart.block.junit.BlockPackageTests	main
+org.jfree.chart.block.junit.ColumnArrangementTests	suite
+org.jfree.chart.block.junit.ColumnArrangementTests	testCloning	@Test
+org.jfree.chart.block.junit.ColumnArrangementTests	ColumnArrangementTests	@Test
+org.jfree.chart.block.junit.ColumnArrangementTests	testSerialization	@Test
+org.jfree.chart.block.junit.ColumnArrangementTests	testEquals	@Test
+org.jfree.chart.block.junit.BorderArrangementTests	BorderArrangementTests	@Test
+org.jfree.chart.block.junit.BorderArrangementTests	testSizingWithWidthConstraint	@Test
+org.jfree.chart.block.junit.BorderArrangementTests	suite
+org.jfree.chart.block.junit.BorderArrangementTests	testSizing	@Test
+org.jfree.chart.block.junit.BorderArrangementTests	testCloning	@Test
+org.jfree.chart.block.junit.BorderArrangementTests	testSerialization	@Test
+org.jfree.chart.block.junit.BorderArrangementTests	testEquals	@Test
+org.jfree.chart.block.junit.RectangleConstraintTests	RectangleConstraintTests	@Test
+org.jfree.chart.block.junit.RectangleConstraintTests	suite
+org.jfree.chart.block.junit.RectangleConstraintTests	testCalculateConstrainedSize	@Test
+org.jfree.chart.block.junit.AbstractBlockTests	suite
+org.jfree.chart.block.junit.AbstractBlockTests	testCloning	@Test
+org.jfree.chart.block.junit.AbstractBlockTests	AbstractBlockTests	@Test
+org.jfree.chart.block.junit.AbstractBlockTests	testSerialization	@Test
+org.jfree.chart.block.junit.AbstractBlockTests	testEquals	@Test
+org.jfree.chart.block.junit.GridArrangementTests	suite
+org.jfree.chart.block.junit.GridArrangementTests	testCloning	@Test
+org.jfree.chart.block.junit.GridArrangementTests	testNN	@Test
+org.jfree.chart.block.junit.GridArrangementTests	GridArrangementTests	@Test
+org.jfree.chart.block.junit.GridArrangementTests	testSerialization	@Test
+org.jfree.chart.block.junit.GridArrangementTests	testFN	@Test
+org.jfree.chart.block.junit.GridArrangementTests	testEquals	@Test
+org.jfree.chart.title.junit.LegendTitleTests	LegendTitleTests	@Test
+org.jfree.chart.title.junit.LegendTitleTests	suite
+org.jfree.chart.title.junit.LegendTitleTests	testCloning	@Test
+org.jfree.chart.title.junit.LegendTitleTests	testSerialization	@Test
+org.jfree.chart.title.junit.LegendTitleTests	testHashcode	@Test
+org.jfree.chart.title.junit.LegendTitleTests	testEquals	@Test
+org.jfree.chart.title.junit.TitleTests	suite
+org.jfree.chart.title.junit.TitleTests	TitleTests	@Test
+org.jfree.chart.title.junit.TitleTests	testHashcode	@Test
+org.jfree.chart.title.junit.TitleTests	testEquals	@Test
+org.jfree.chart.title.junit.DateTitleTests	DateTitleTests	@Test
+org.jfree.chart.title.junit.DateTitleTests	suite
+org.jfree.chart.title.junit.DateTitleTests	testCloning	@Test
+org.jfree.chart.title.junit.DateTitleTests	testSerialization	@Test
+org.jfree.chart.title.junit.DateTitleTests	testHashcode	@Test
+org.jfree.chart.title.junit.DateTitleTests	testEquals	@Test
+org.jfree.chart.title.junit.LegendGraphicTests	suite
+org.jfree.chart.title.junit.LegendGraphicTests	testCloning	@Test
+org.jfree.chart.title.junit.LegendGraphicTests	testCloning2	@Test
+org.jfree.chart.title.junit.LegendGraphicTests	testSerialization	@Test
+org.jfree.chart.title.junit.LegendGraphicTests	testHashcode	@Test
+org.jfree.chart.title.junit.LegendGraphicTests	LegendGraphicTests	@Test
+org.jfree.chart.title.junit.LegendGraphicTests	testEquals	@Test
+org.jfree.chart.title.junit.CompositeTitleTests	suite
+org.jfree.chart.title.junit.CompositeTitleTests	CompositeTitleTests	@Test
+org.jfree.chart.title.junit.CompositeTitleTests	testCloning	@Test
+org.jfree.chart.title.junit.CompositeTitleTests	testSerialization	@Test
+org.jfree.chart.title.junit.CompositeTitleTests	testHashcode	@Test
+org.jfree.chart.title.junit.CompositeTitleTests	testEquals	@Test
+org.jfree.chart.title.junit.TitlePackageTests	suite
+org.jfree.chart.title.junit.TitlePackageTests	main
+org.jfree.chart.title.junit.TitlePackageTests	TitlePackageTests	@Test
+org.jfree.chart.title.junit.ImageTitleTests	ImageTitleTests	@Test
+org.jfree.chart.title.junit.ImageTitleTests	testWidthAndHeight	@Test
+org.jfree.chart.title.junit.ImageTitleTests	suite
+org.jfree.chart.title.junit.ImageTitleTests	testCloning	@Test
+org.jfree.chart.title.junit.ImageTitleTests	testSerialization	@Test
+org.jfree.chart.title.junit.ImageTitleTests	testHashcode	@Test
+org.jfree.chart.title.junit.ImageTitleTests	testEquals	@Test
+org.jfree.chart.title.junit.PaintScaleLegendTests	suite
+org.jfree.chart.title.junit.PaintScaleLegendTests	testCloning	@Test
+org.jfree.chart.title.junit.PaintScaleLegendTests	PaintScaleLegendTests	@Test
+org.jfree.chart.title.junit.PaintScaleLegendTests	testSerialization	@Test
+org.jfree.chart.title.junit.PaintScaleLegendTests	testHashcode	@Test
+org.jfree.chart.title.junit.PaintScaleLegendTests	testEquals	@Test
+org.jfree.chart.title.junit.TextTitleTests	suite
+org.jfree.chart.title.junit.TextTitleTests	testCloning	@Test
+org.jfree.chart.title.junit.TextTitleTests	testSerialization	@Test
+org.jfree.chart.title.junit.TextTitleTests	TextTitleTests	@Test
+org.jfree.chart.title.junit.TextTitleTests	testHashcode	@Test
+org.jfree.chart.title.junit.TextTitleTests	testEquals	@Test
+org.jfree.chart.util.junit.UtilPackageTests	suite
+org.jfree.chart.util.junit.UtilPackageTests	main
+org.jfree.chart.util.junit.UtilPackageTests	UtilPackageTests	@Test
+org.jfree.chart.util.junit.RelativeDateFormatTests	RelativeDateFormatTests	@Test
+org.jfree.chart.util.junit.RelativeDateFormatTests	suite
+org.jfree.chart.util.junit.RelativeDateFormatTests	testCloning	@Test
+org.jfree.chart.util.junit.RelativeDateFormatTests	testHashCode	@Test
+org.jfree.chart.util.junit.RelativeDateFormatTests	testNegative	@Test
+org.jfree.chart.util.junit.RelativeDateFormatTests	testEquals	@Test
+org.jfree.chart.util.junit.ShapeUtilitiesTests	ShapeUtilitiesTests	@Test
+org.jfree.chart.util.junit.ShapeUtilitiesTests	suite
+org.jfree.chart.util.junit.ShapeUtilitiesTests	testEqualLine2Ds	@Test
+org.jfree.chart.util.junit.ShapeUtilitiesTests	testIntersects	@Test
+org.jfree.chart.util.junit.ShapeUtilitiesTests	testEqualGeneralPaths	@Test
+org.jfree.chart.util.junit.ShapeUtilitiesTests	testEqualShapes	@Test
+org.jfree.chart.util.junit.HashUtilitiesTests	suite
+org.jfree.chart.util.junit.HashUtilitiesTests	testHashCodeForDoubleArray	@Test
+org.jfree.chart.util.junit.HashUtilitiesTests	HashUtilitiesTests	@Test
+org.jfree.chart.util.junit.StrokeListTests	suite
+org.jfree.chart.util.junit.StrokeListTests	testCloning	@Test
+org.jfree.chart.util.junit.StrokeListTests	StrokeListTests	@Test
+org.jfree.chart.util.junit.StrokeListTests	testSerialization	@Test
+org.jfree.chart.util.junit.StrokeListTests	testHashCode	@Test
+org.jfree.chart.util.junit.StrokeListTests	testEquals	@Test
+org.jfree.chart.util.junit.BooleanListTests	suite
+org.jfree.chart.util.junit.BooleanListTests	testCloning	@Test
+org.jfree.chart.util.junit.BooleanListTests	testSerialization	@Test
+org.jfree.chart.util.junit.BooleanListTests	testHashCode	@Test
+org.jfree.chart.util.junit.BooleanListTests	BooleanListTests	@Test
+org.jfree.chart.util.junit.BooleanListTests	testEquals	@Test
+org.jfree.chart.util.junit.PaintListTests	testEquals2	@Test
+org.jfree.chart.util.junit.PaintListTests	PaintListTests	@Test
+org.jfree.chart.util.junit.PaintListTests	testEquals3	@Test
+org.jfree.chart.util.junit.PaintListTests	suite
+org.jfree.chart.util.junit.PaintListTests	testCloning	@Test
+org.jfree.chart.util.junit.PaintListTests	testSerialization	@Test
+org.jfree.chart.util.junit.PaintListTests	testHashCode	@Test
+org.jfree.chart.util.junit.PaintListTests	testEquals	@Test
+org.jfree.chart.util.junit.LogFormatTests	suite
+org.jfree.chart.util.junit.LogFormatTests	testCloning	@Test
+org.jfree.chart.util.junit.LogFormatTests	testSerialization	@Test
+org.jfree.chart.util.junit.LogFormatTests	testHashcode	@Test
+org.jfree.chart.util.junit.LogFormatTests	LogFormatTests	@Test
+org.jfree.chart.util.junit.LogFormatTests	testEquals	@Test
+org.jfree.chart.urls.junit.CustomXYURLGeneratorTests	suite
+org.jfree.chart.urls.junit.CustomXYURLGeneratorTests	testCloning	@Test
+org.jfree.chart.urls.junit.CustomXYURLGeneratorTests	CustomXYURLGeneratorTests	@Test
+org.jfree.chart.urls.junit.CustomXYURLGeneratorTests	testSerialization	@Test
+org.jfree.chart.urls.junit.CustomXYURLGeneratorTests	testEquals	@Test
+org.jfree.chart.urls.junit.StandardPieURLGeneratorTests	StandardPieURLGeneratorTests	@Test
+org.jfree.chart.urls.junit.StandardPieURLGeneratorTests	suite
+org.jfree.chart.urls.junit.StandardPieURLGeneratorTests	testSerialization	@Test
+org.jfree.chart.urls.junit.StandardPieURLGeneratorTests	testURL	@Test
+org.jfree.chart.urls.junit.StandardPieURLGeneratorTests	testEquals	@Test
+org.jfree.chart.urls.junit.CustomPieURLGeneratorTests	suite
+org.jfree.chart.urls.junit.CustomPieURLGeneratorTests	testCloning	@Test
+org.jfree.chart.urls.junit.CustomPieURLGeneratorTests	testSerialization	@Test
+org.jfree.chart.urls.junit.CustomPieURLGeneratorTests	CustomPieURLGeneratorTests	@Test
+org.jfree.chart.urls.junit.CustomPieURLGeneratorTests	testEquals	@Test
+org.jfree.chart.urls.junit.UrlsPackageTests	suite
+org.jfree.chart.urls.junit.UrlsPackageTests	UrlsPackageTests	@Test
+org.jfree.chart.urls.junit.UrlsPackageTests	main
+org.jfree.chart.urls.junit.StandardXYURLGeneratorTests	suite
+org.jfree.chart.urls.junit.StandardXYURLGeneratorTests	testSerialization	@Test
+org.jfree.chart.urls.junit.StandardXYURLGeneratorTests	StandardXYURLGeneratorTests	@Test
+org.jfree.chart.urls.junit.StandardCategoryURLGeneratorTests	suite
+org.jfree.chart.urls.junit.StandardCategoryURLGeneratorTests	StandardCategoryURLGeneratorTests	@Test
+org.jfree.chart.urls.junit.StandardCategoryURLGeneratorTests	testSerialization	@Test
+org.jfree.chart.urls.junit.TimeSeriesURLGeneratorTests	suite
+org.jfree.chart.urls.junit.TimeSeriesURLGeneratorTests	testGenerateURL	@Test
+org.jfree.chart.urls.junit.TimeSeriesURLGeneratorTests	TimeSeriesURLGeneratorTests	@Test
+org.jfree.chart.urls.junit.TimeSeriesURLGeneratorTests	testSerialization	@Test
+org.jfree.chart.urls.junit.TimeSeriesURLGeneratorTests	testEquals	@Test

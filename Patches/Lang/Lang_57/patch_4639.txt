@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ToStringStyle.java
++++ fixed/org/apache/commons/lang/builder/ToStringStyle.java
+@@ -397,7 +397,8 @@ public abstract class ToStringStyle implements Serializable {
+             }
+ 
+         } else if (value instanceof double[]) {
+-            if (detail) {
++            this.setFieldSeparatorAtStart(true);
++if (detail) {
+                 appendDetail(buffer, fieldName, (double[]) value);
+             } else {
+                 appendSummary(buffer, fieldName, (double[]) value);

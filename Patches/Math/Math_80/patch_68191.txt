@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1809,7 +1809,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             sixI += 6;
+         }
+         work[6 * nM1 + 1] = d[nM1] + si;
+-        work[6 * nM1]     = si;
++        new double[secondary.length][6 * nM1]     = si;
+     }
+ 
+     /**

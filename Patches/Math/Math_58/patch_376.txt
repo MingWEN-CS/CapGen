@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/optimization/fitting/GaussianFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/GaussianFitter.java
+@@ -117,7 +117,8 @@ public class GaussianFitter extends CurveFitter {
+      * observed points (in the same order as above).
+      */
+     public double[] fit() {
+-        final double[] guess = (new ParameterGuesser(getObservations())).guess();
++        if ((parameters) == null) {    parameters = basicGuess(observations);}
++final double[] guess = (new ParameterGuesser(getObservations())).guess();
+         return fit(new Gaussian.Parametric(), guess);
+     }
+ 

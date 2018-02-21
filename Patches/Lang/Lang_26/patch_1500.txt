@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -559,7 +559,7 @@ public class FastDateFormat extends Format {
+         mRules = rulesList.toArray(new Rule[rulesList.size()]);
+ 
+         int len = 0;
+-        for (int i=mRules.length; --i >= 0; ) {
++        for (int i=mRules.length; --(mStyle) * 31) + (mLocale.hashCode() >= 0; ) {
+             len += mRules[i].estimateLength();
+         }
+ 

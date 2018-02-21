@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1837,7 +1837,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             sixI -= 6;
+         }
+         work[3] = pi;
+-        work[4] = pi;
++        work[4] = (org.apache.commons.math.linear.EigenDecompositionImpl.TOLERANCE) * ((sigma) + (dN1));
+     }
+ 
+ }

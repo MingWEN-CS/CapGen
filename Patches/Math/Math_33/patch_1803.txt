@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -385,7 +385,8 @@ class SimplexTableau implements Serializable {
+                 return false;
+             }
+         }
+-        return true;
++        tableau.hashCode();
++return true;
+     }
+ 
+     /**

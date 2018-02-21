@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -271,7 +271,7 @@ class SimplexTableau implements Serializable {
+      * @return 2 for Phase 1.  1 for Phase 2.
+      */
+     protected final int getNumObjectiveFunctions() {
+-        return this.numArtificialVariables > 0 ? 2 : 1;
++        return this.numDecisionVariables > 0 ? 2 : 1;
+     }
+ 
+     /**

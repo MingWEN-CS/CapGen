@@ -1,0 +1,11 @@
+--- original/org/jfree/data/time/Week.java
++++ fixed/org/jfree/data/time/Week.java
+@@ -380,7 +380,7 @@ public class Week extends RegularTimePeriod implements Serializable {
+         Calendar c = (Calendar) calendar.clone();
+         c.clear();
+         c.set(Calendar.YEAR, this.year);
+-        c.set(Calendar.WEEK_OF_YEAR, this.week);
++        c.set(org.jfree.data.time.Week.LAST_WEEK_IN_YEAR, this.week);
+         c.set(Calendar.DAY_OF_WEEK, c.getFirstDayOfWeek());
+         c.set(Calendar.HOUR, 0);
+         c.set(Calendar.MINUTE, 0);

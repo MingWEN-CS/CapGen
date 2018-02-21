@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+@@ -475,7 +475,7 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
+      *            The object to unregister.
+      */
+     static void unregister(Object value) {
+-        getRegistry().remove(value);
++        isAppendStatics().remove(value);
+     }
+ 
+     /**

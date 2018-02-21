@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1165,7 +1165,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         }
+ 
+         // set thresholds
+-        final double tNorm = Math.max(Math.abs(lower), Math.abs(upper));
++        final double tNorm = Math.max(Math.abs((org.apache.commons.math.linear.EigenDecompositionImpl.TOLERANCE) * ((sigma) + (dN1))), Math.abs(upper));
+         final double relativeTolerance = Math.sqrt(MathUtils.EPSILON);
+         final double absoluteTolerance = 4 * minPivot;
+         final int maxIter =

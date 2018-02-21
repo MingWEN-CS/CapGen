@@ -1,0 +1,591 @@
+org.apache.commons.math3.complex.Complex::::1228::::41421::::41449::::(("(" + (real)) + ", ") + (imaginary)::::((("(" + (real)) + ", ") + (imaginary)) + ")"	false	0.78845
+org.apache.commons.math3.complex.Complex::::1228::::41427::::41430::::real::::imaginary	false	0.8104333333333333
+org.apache.commons.math3.complex.Complex::::1228::::41421::::41430::::"(" + (real)::::("(" + (real)) + ", "	false	0.83375
+org.apache.commons.math3.complex.Complex::::304::::10895::::10925::::(real) == 0.0) && ((imaginary) == 0.0::::org.apache.commons.math3.util.FastMath.abs(real)) < (org.apache.commons.math3.util.FastMath.abs(imaginary)	false	0.8435166666666666
+org.apache.commons.math3.complex.Complex::::1228::::41414::::41456::::return ((("(" + (real)) + ", ") + (imaginary)) + ")"::::INSERT::::STATEMENT::::java.lang.Double.isInfinite(imaginary)	false	0.8670000000000001
+org.apache.commons.math3.complex.Complex::::304::::10895::::10898::::real::::imaginary	false	0.8907833333333334
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::real	false	0.9158166666666666
+org.apache.commons.math3.complex.Complex::::1228::::41421::::41437::::("(" + (real)) + ", "::::(("(" + (real)) + ", ") + (imaginary)	false	0.9509166666666666
+org.apache.commons.math3.complex.Complex::::304::::10895::::10925::::(real) == 0.0) && ((imaginary) == 0.0::::(java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))	false	0.9836166666666667
+org.apache.commons.math3.complex.Complex::::348::::12474::::12484::::c.imaginary::::c.real	false	1.0082499999999999
+org.apache.commons.math3.complex.Complex::::348::::12449::::12454::::c.real::::c.imaginary	false	1.0328166666666667
+org.apache.commons.math3.complex.Complex::::304::::10910::::10925::::(imaginary) == 0.0::::java.lang.Double.isInfinite(imaginary)	false	1.0561166666666666
+org.apache.commons.math3.complex.Complex::::1228::::41421::::41437::::("(" + (real)) + ", "::::((("(" + (real)) + ", ") + (imaginary)) + ")"	false	1.0787333333333333
+org.apache.commons.math3.complex.Complex::::1228::::41421::::41430::::"(" + (real)::::(("(" + (real)) + ", ") + (imaginary)	false	1.1094166666666667
+org.apache.commons.math3.complex.Complex::::304::::10895::::10905::::(real) == 0.0::::java.lang.Double.isInfinite(real)	false	1.1473166666666665
+org.apache.commons.math3.complex.Complex::::1228::::41414::::41456::::return ((("(" + (real)) + ", ") + (imaginary)) + ")"::::INSERT::::STATEMENT::::org.apache.commons.math3.complex.Complex.I.divide(createComplex(2.0, 0.0))	false	1.1847666666666667
+org.apache.commons.math3.complex.Complex::::1228::::41421::::41430::::"(" + (real)::::((("(" + (real)) + ", ") + (imaginary)) + ")"	false	1.2211166666666666
+org.apache.commons.math3.complex.Complex::::304::::10891::::10962::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::java.lang.Double.isInfinite(imaginary)	false	1.2534333333333334
+org.apache.commons.math3.complex.Complex::::348::::12440::::12485::::(real) == (c.real)) && ((imaginary) == (c.imaginary)::::org.apache.commons.math3.util.FastMath.abs(real)) < (org.apache.commons.math3.util.FastMath.abs(imaginary)	false	1.2673166666666666
+org.apache.commons.math3.complex.Complex::::348::::12440::::12485::::(real) == (c.real)) && ((imaginary) == (c.imaginary)::::(real) == 0.0) && ((imaginary) == 0.0	false	1.2780833333333335
+org.apache.commons.math3.complex.Complex::::348::::12460::::12485::::(imaginary) == (c.imaginary)::::(real) == (c.real)) && ((imaginary) == (c.imaginary)	false	1.2932666666666668
+org.apache.commons.math3.complex.Complex::::348::::12441::::12444::::real::::imaginary	false	1.3252
+org.apache.commons.math3.complex.Complex::::348::::12440::::12455::::(real) == (c.real)::::(real) == (c.real)) && ((imaginary) == (c.imaginary)	false	1.3341333333333334
+org.apache.commons.math3.complex.Complex::::344::::12332::::12336::::(org.apache.commons.math3.complex.Complex) (other)::::other	false	1.3560166666666666
+org.apache.commons.math3.complex.Complex::::304::::10895::::10925::::(real) == 0.0) && ((imaginary) == 0.0::::java.lang.Double.isInfinite(imaginary)	false	1.3872666666666666
+org.apache.commons.math3.complex.Complex::::304::::10910::::10925::::(imaginary) == 0.0::::org.apache.commons.math3.util.FastMath.abs(real)) < (org.apache.commons.math3.util.FastMath.abs(imaginary)	false	1.3978833333333334
+org.apache.commons.math3.complex.Complex::::304::::10895::::10905::::(real) == 0.0::::org.apache.commons.math3.util.FastMath.abs(real)) < (org.apache.commons.math3.util.FastMath.abs(imaginary)	false	1.4101166666666667
+org.apache.commons.math3.complex.Complex::::348::::12440::::12485::::(real) == (c.real)) && ((imaginary) == (c.imaginary)::::(java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))	false	1.4695333333333334
+org.apache.commons.math3.complex.Complex::::304::::10895::::10925::::(real) == 0.0) && ((imaginary) == 0.0::::java.lang.Double.isInfinite(real)	false	1.5150166666666667
+org.apache.commons.math3.complex.Complex::::304::::10910::::10925::::(imaginary) == 0.0::::(real) == 0.0) && ((imaginary) == 0.0	false	1.52705
+org.apache.commons.math3.complex.Complex::::304::::10895::::10905::::(real) == 0.0::::(real) == 0.0) && ((imaginary) == 0.0	false	1.5394166666666667
+org.apache.commons.math3.complex.Complex::::305::::10949::::10951::::org.apache.commons.math3.complex.Complex.NaN::::org.apache.commons.math3.complex.Complex.I	false	1.5824166666666666
+org.apache.commons.math3.complex.Complex::::343::::12272::::12295::::other instanceof org.apache.commons.math3.complex.Complex::::(this) == other	false	1.6174333333333335
+org.apache.commons.math3.complex.Complex::::348::::12461::::12469::::imaginary::::real	false	1.6545166666666666
+org.apache.commons.math3.complex.Complex::::102::::4038::::4082::::java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary)::::(java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))	false	1.6897666666666666
+org.apache.commons.math3.complex.Complex::::348::::12460::::12485::::(imaginary) == (c.imaginary)::::(real) == (c.real)	false	1.7162166666666667
+org.apache.commons.math3.complex.Complex::::348::::12440::::12485::::(real) == (c.real)) && ((imaginary) == (c.imaginary)::::java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary)	false	1.7261833333333334
+org.apache.commons.math3.complex.Complex::::348::::12440::::12455::::(real) == (c.real)::::(imaginary) == (c.imaginary)	false	1.74895
+org.apache.commons.math3.complex.Complex::::102::::4038::::4082::::java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary)::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))	false	1.7577333333333334
+org.apache.commons.math3.complex.Complex::::304::::10895::::10905::::(real) == 0.0::::(java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))	false	1.7848
+org.apache.commons.math3.complex.Complex::::304::::10910::::10925::::(imaginary) == 0.0::::(java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))	false	1.8148166666666665
+org.apache.commons.math3.complex.Complex::::348::::12474::::12484::::c.imaginary::::real	false	1.8458333333333334
+org.apache.commons.math3.complex.Complex::::348::::12449::::12454::::c.real::::imaginary	false	1.8894833333333334
+org.apache.commons.math3.complex.Complex::::340::::12208::::12220::::(this) == other::::other instanceof org.apache.commons.math3.complex.Complex	false	1.9264833333333333
+org.apache.commons.math3.complex.Complex::::99::::3967::::3975::::this.real::::this.imaginary	false	1.9658833333333334
+org.apache.commons.math3.complex.Complex::::99::::3967::::3975::::this.real::::imaginary	false	1.98755
+org.apache.commons.math3.complex.Complex::::103::::4093::::4102::::isInfinite::::isNaN	false	2.0097666666666667
+org.apache.commons.math3.complex.Complex::::102::::4060::::4064::::isNaN::::isInfinite	false	2.030533333333333
+org.apache.commons.math3.complex.Complex::::102::::4038::::4042::::isNaN::::isInfinite	false	2.0518833333333335
+org.apache.commons.math3.complex.Complex::::100::::3993::::4006::::this.imaginary::::this.real	false	2.0728
+org.apache.commons.math3.complex.Complex::::100::::3993::::4006::::this.imaginary::::real	false	2.10045
+org.apache.commons.math3.complex.Complex::::348::::12460::::12485::::(imaginary) == (c.imaginary)::::org.apache.commons.math3.util.FastMath.abs(real)) < (org.apache.commons.math3.util.FastMath.abs(imaginary)	false	2.112
+org.apache.commons.math3.complex.Complex::::348::::12460::::12485::::(imaginary) == (c.imaginary)::::(real) == 0.0) && ((imaginary) == 0.0	false	2.1241499999999998
+org.apache.commons.math3.complex.Complex::::348::::12460::::12485::::(imaginary) == (c.imaginary)::::(java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))	false	2.16945
+org.apache.commons.math3.complex.Complex::::348::::12440::::12455::::(real) == (c.real)::::(java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))	false	2.2001666666666666
+org.apache.commons.math3.complex.Complex::::99::::3979::::3982::::real::::imaginary	false	2.237816666666667
+org.apache.commons.math3.complex.Complex::::348::::12474::::12484::::c.imaginary::::org.apache.commons.math3.util.FastMath.abs(real)	false	2.27015
+org.apache.commons.math3.complex.Complex::::348::::12449::::12454::::c.real::::org.apache.commons.math3.util.FastMath.abs(imaginary)	false	2.3025
+org.apache.commons.math3.complex.Complex::::102::::4051::::4054::::real::::imaginary	false	2.33185
+org.apache.commons.math3.complex.Complex::::348::::12440::::12455::::(real) == (c.real)::::org.apache.commons.math3.util.FastMath.abs(real)) < (org.apache.commons.math3.util.FastMath.abs(imaginary)	false	2.3449999999999998
+org.apache.commons.math3.complex.Complex::::348::::12440::::12455::::(real) == (c.real)::::(real) == 0.0) && ((imaginary) == 0.0	false	2.3602833333333333
+org.apache.commons.math3.complex.Complex::::304::::10895::::10925::::(real) == 0.0) && ((imaginary) == 0.0::::java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary)	false	2.3743666666666665
+org.apache.commons.math3.complex.Complex::::102::::4073::::4081::::imaginary::::real	false	2.396583333333333
+org.apache.commons.math3.complex.Complex::::100::::4010::::4018::::imaginary::::real	false	2.420466666666667
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::isNaN) || (java.lang.Double.isInfinite(real)	false	2.4301666666666666
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::isNaN) || (java.lang.Double.isInfinite(imaginary)	false	2.4389
+org.apache.commons.math3.complex.Complex::::348::::12460::::12485::::(imaginary) == (c.imaginary)::::java.lang.Double.isInfinite(imaginary)	false	2.4623833333333334
+org.apache.commons.math3.complex.Complex::::348::::12460::::12485::::(imaginary) == (c.imaginary)::::(imaginary) == 0.0	false	2.484866666666667
+org.apache.commons.math3.complex.Complex::::348::::12440::::12455::::(real) == (c.real)::::java.lang.Double.isInfinite(real)	false	2.50765
+org.apache.commons.math3.complex.Complex::::348::::12440::::12455::::(real) == (c.real)::::(real) == 0.0	false	2.53205
+org.apache.commons.math3.complex.Complex::::348::::12474::::12484::::c.imaginary::::(org.apache.commons.math3.util.FastMath.abs(real)) + (abs())	false	2.567833333333333
+org.apache.commons.math3.complex.Complex::::348::::12460::::12485::::(imaginary) == (c.imaginary)::::c.isNaN	false	2.6385666666666667
+org.apache.commons.math3.complex.Complex::::348::::12440::::12455::::(real) == (c.real)::::c.isNaN	false	2.6828833333333337
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::isInfinite	false	2.7386333333333335
+org.apache.commons.math3.complex.Complex::::304::::10910::::10925::::(imaginary) == 0.0::::(imaginary) > 20.0	false	2.7678166666666666
+org.apache.commons.math3.complex.Complex::::304::::10895::::10905::::(real) == 0.0::::(real) > 20.0	false	2.80735
+org.apache.commons.math3.complex.Complex::::348::::12440::::12485::::(real) == (c.real)) && ((imaginary) == (c.imaginary)::::c.isNaN	false	2.8595166666666665
+org.apache.commons.math3.complex.Complex::::348::::12474::::12484::::c.imaginary::::((org.apache.commons.math3.util.FastMath.abs(real)) + (abs())) / 2.0	false	2.8917833333333336
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::(real) == (c.real)) && ((imaginary) == (c.imaginary)	false	2.9073833333333337
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::(real) == (c.real)	false	2.9516333333333336
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::(imaginary) == (c.imaginary)	false	2.9930499999999998
+org.apache.commons.math3.complex.Complex::::304::::10910::::10925::::(imaginary) == 0.0::::imaginary) < (-20.0	false	3.00195
+org.apache.commons.math3.complex.Complex::::304::::10895::::10905::::(real) == 0.0::::real) < (-20.0	false	3.0149666666666666
+org.apache.commons.math3.complex.Complex::::304::::10895::::10925::::(real) == 0.0) && ((imaginary) == 0.0::::isNaN) || (java.lang.Double.isInfinite(real)	false	3.028383333333333
+org.apache.commons.math3.complex.Complex::::304::::10895::::10925::::(real) == 0.0) && ((imaginary) == 0.0::::isNaN) || (java.lang.Double.isInfinite(imaginary)	false	3.0463
+org.apache.commons.math3.complex.Complex::::348::::12474::::12484::::c.imaginary::::real) / (imaginary	false	3.0769666666666664
+org.apache.commons.math3.complex.Complex::::348::::12474::::12484::::c.imaginary::::imaginary) / (real	false	3.1037833333333333
+org.apache.commons.math3.complex.Complex::::340::::12204::::12258::::if ((this) == other) {    return true;}::::INSERT::::STATEMENT::::java.lang.Double.isInfinite(imaginary)	false	3.16825
+org.apache.commons.math3.complex.Complex::::304::::10895::::10925::::(real) == 0.0) && ((imaginary) == 0.0::::(real) > 20.0	false	3.2068333333333334
+org.apache.commons.math3.complex.Complex::::304::::10895::::10925::::(real) == 0.0) && ((imaginary) == 0.0::::(imaginary) > 20.0	false	3.2880666666666665
+org.apache.commons.math3.complex.Complex::::348::::12440::::12485::::(real) == (c.real)) && ((imaginary) == (c.imaginary)::::java.lang.Double.isInfinite(real)	false	3.3819
+org.apache.commons.math3.complex.Complex::::348::::12440::::12485::::(real) == (c.real)) && ((imaginary) == (c.imaginary)::::java.lang.Double.isInfinite(imaginary)	false	3.44045
+org.apache.commons.math3.complex.Complex::::348::::12440::::12485::::(real) == (c.real)) && ((imaginary) == (c.imaginary)::::(real) == 0.0	false	3.4958
+org.apache.commons.math3.complex.Complex::::348::::12440::::12485::::(real) == (c.real)) && ((imaginary) == (c.imaginary)::::(imaginary) == 0.0	false	3.5514333333333337
+org.apache.commons.math3.complex.Complex::::348::::12460::::12485::::(imaginary) == (c.imaginary)::::java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary)	false	3.5712166666666665
+org.apache.commons.math3.complex.Complex::::348::::12460::::12485::::(imaginary) == (c.imaginary)::::isNaN) || (java.lang.Double.isInfinite(imaginary)	false	3.5917000000000003
+org.apache.commons.math3.complex.Complex::::348::::12449::::12454::::c.real::::real) / (imaginary	false	3.62825
+org.apache.commons.math3.complex.Complex::::348::::12449::::12454::::c.real::::imaginary) / (real	false	3.6546333333333334
+org.apache.commons.math3.complex.Complex::::348::::12440::::12455::::(real) == (c.real)::::java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary)	false	3.6709
+org.apache.commons.math3.complex.Complex::::348::::12440::::12455::::(real) == (c.real)::::isNaN) || (java.lang.Double.isInfinite(real)	false	3.683666666666667
+org.apache.commons.math3.complex.Complex::::305::::10942::::10952::::return org.apache.commons.math3.complex.Complex.NaN::::INSERT::::STATEMENT::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	3.717966666666667
+org.apache.commons.math3.complex.Complex::::102::::4038::::4082::::java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary)::::org.apache.commons.math3.util.FastMath.abs(real)) < (org.apache.commons.math3.util.FastMath.abs(imaginary)	false	3.728083333333333
+org.apache.commons.math3.complex.Complex::::102::::4038::::4082::::java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary)::::(real) == 0.0) && ((imaginary) == 0.0	false	3.7412
+org.apache.commons.math3.complex.Complex::::304::::10895::::10925::::(real) == 0.0) && ((imaginary) == 0.0::::real) < (-20.0	false	3.75435
+org.apache.commons.math3.complex.Complex::::304::::10895::::10925::::(real) == 0.0) && ((imaginary) == 0.0::::imaginary) < (-20.0	false	3.77025
+org.apache.commons.math3.complex.Complex::::348::::12474::::12484::::c.imaginary::::2.0 * (real)	false	3.821883333333333
+org.apache.commons.math3.complex.Complex::::343::::12268::::12510::::if (other instanceof org.apache.commons.math3.complex.Complex) {    org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other));    if (c.isNaN) {        return isNaN;    }else {        return ((real) == (c.real)) && ((imaginary) == (c.imaginary));    }}::::INSERT::::STATEMENT::::java.lang.Double.isInfinite(imaginary)	false	3.8682000000000003
+org.apache.commons.math3.complex.Complex::::1228::::41414::::41456::::return ((("(" + (real)) + ", ") + (imaginary)) + ")"::::INSERT::::STATEMENT::::if ((real) > 20.0) {    return createComplex(1.0, 0.0);}	false	3.902733333333333
+org.apache.commons.math3.complex.Complex::::1228::::41414::::41456::::return ((("(" + (real)) + ", ") + (imaginary)) + ")"::::INSERT::::STATEMENT::::if ((real) == 0.0) {    return org.apache.commons.math3.util.FastMath.abs(imaginary);}	false	3.9499666666666666
+org.apache.commons.math3.complex.Complex::::1228::::41414::::41456::::return ((("(" + (real)) + ", ") + (imaginary)) + ")"::::INSERT::::STATEMENT::::if ((real) < (-20.0)) {    return createComplex((-1.0), 0.0);}	false	3.9930333333333334
+org.apache.commons.math3.complex.Complex::::1228::::41414::::41456::::return ((("(" + (real)) + ", ") + (imaginary)) + ")"::::INSERT::::STATEMENT::::if ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))) {    return org.apache.commons.math3.complex.Complex.INF;}	false	4.032
+org.apache.commons.math3.complex.Complex::::1228::::41414::::41456::::return ((("(" + (real)) + ", ") + (imaginary)) + ")"::::INSERT::::STATEMENT::::if ((isNaN) || (java.lang.Double.isInfinite(real))) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	4.082016666666666
+org.apache.commons.math3.complex.Complex::::1228::::41414::::41456::::return ((("(" + (real)) + ", ") + (imaginary)) + ")"::::INSERT::::STATEMENT::::if ((isNaN) || (java.lang.Double.isInfinite(imaginary))) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	4.127083333333333
+org.apache.commons.math3.complex.Complex::::1228::::41414::::41456::::return ((("(" + (real)) + ", ") + (imaginary)) + ")"::::INSERT::::STATEMENT::::if ((imaginary) > 20.0) {    return createComplex(0.0, 1.0);}	false	4.1668666666666665
+org.apache.commons.math3.complex.Complex::::1228::::41414::::41456::::return ((("(" + (real)) + ", ") + (imaginary)) + ")"::::INSERT::::STATEMENT::::if ((imaginary) == 0.0) {    return org.apache.commons.math3.util.FastMath.abs(real);}	false	4.193700000000001
+org.apache.commons.math3.complex.Complex::::1228::::41414::::41456::::return ((("(" + (real)) + ", ") + (imaginary)) + ")"::::INSERT::::STATEMENT::::if ((imaginary) < (-20.0)) {    return createComplex(0.0, (-1.0));}	false	4.230816666666667
+org.apache.commons.math3.complex.Complex::::1228::::41414::::41456::::return ((("(" + (real)) + ", ") + (imaginary)) + ")"::::INSERT::::STATEMENT::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	4.25345
+org.apache.commons.math3.complex.Complex::::1228::::41414::::41456::::return ((("(" + (real)) + ", ") + (imaginary)) + ")"::::INSERT::::STATEMENT::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return createComplex(0.0, 0.0);}	false	4.276683333333334
+org.apache.commons.math3.complex.Complex::::348::::12440::::12485::::(real) == (c.real)) && ((imaginary) == (c.imaginary)::::isNaN) || (java.lang.Double.isInfinite(real)	false	4.299666666666667
+org.apache.commons.math3.complex.Complex::::348::::12440::::12485::::(real) == (c.real)) && ((imaginary) == (c.imaginary)::::isNaN) || (java.lang.Double.isInfinite(imaginary)	false	4.32145
+org.apache.commons.math3.complex.Complex::::103::::4106::::4184::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))::::java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary)	false	4.334383333333333
+org.apache.commons.math3.complex.Complex::::348::::12449::::12454::::c.real::::2.0 * (imaginary)	false	4.402783333333333
+org.apache.commons.math3.complex.Complex::::304::::10895::::10925::::(real) == 0.0) && ((imaginary) == 0.0::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))	false	4.429466666666666
+org.apache.commons.math3.complex.Complex::::348::::12474::::12474::::c::::org.apache.commons.math3.complex.Complex.NaN	false	4.462833333333333
+org.apache.commons.math3.complex.Complex::::102::::4038::::4082::::java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary)::::java.lang.Double.isNaN(real)	false	4.497733333333333
+org.apache.commons.math3.complex.Complex::::102::::4038::::4082::::java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary)::::java.lang.Double.isNaN(imaginary)	false	4.534366666666667
+org.apache.commons.math3.complex.Complex::::102::::4038::::4082::::java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary)::::java.lang.Double.isInfinite(real)	false	4.5765666666666664
+org.apache.commons.math3.complex.Complex::::102::::4038::::4082::::java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary)::::java.lang.Double.isInfinite(imaginary)	false	4.61775
+org.apache.commons.math3.complex.Complex::::348::::12449::::12449::::c::::org.apache.commons.math3.complex.Complex.NaN	false	4.656883333333334
+org.apache.commons.math3.complex.Complex::::348::::12460::::12485::::(imaginary) == (c.imaginary)::::imaginary) < (-20.0	false	4.670616666666667
+org.apache.commons.math3.complex.Complex::::348::::12460::::12485::::(imaginary) == (c.imaginary)::::(imaginary) > 20.0	false	4.705150000000001
+org.apache.commons.math3.complex.Complex::::103::::4106::::4184::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))::::(real) == 0.0) && ((imaginary) == 0.0	false	4.7195
+org.apache.commons.math3.complex.Complex::::102::::4030::::4083::::isNaN = (java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary))::::isInfinite = (!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary)))	false	4.7397
+org.apache.commons.math3.complex.Complex::::348::::12440::::12455::::(real) == (c.real)::::real) < (-20.0	false	4.757000000000001
+org.apache.commons.math3.complex.Complex::::348::::12440::::12455::::(real) == (c.real)::::(real) > 20.0	false	4.796683333333333
+org.apache.commons.math3.complex.Complex::::305::::10949::::10951::::org.apache.commons.math3.complex.Complex.NaN::::org.apache.commons.math3.complex.Complex.I.negate()	false	4.838833333333333
+org.apache.commons.math3.complex.Complex::::345::::12355::::12355::::c::::org.apache.commons.math3.complex.Complex.NaN	false	4.87845
+org.apache.commons.math3.complex.Complex::::348::::12474::::12474::::c::::org.apache.commons.math3.complex.Complex.I	false	4.950633333333333
+org.apache.commons.math3.complex.Complex::::103::::4106::::4184::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))::::org.apache.commons.math3.util.FastMath.abs(real)) < (org.apache.commons.math3.util.FastMath.abs(imaginary)	false	4.962599999999999
+org.apache.commons.math3.complex.Complex::::348::::12449::::12449::::c::::org.apache.commons.math3.complex.Complex.I	false	4.9951
+org.apache.commons.math3.complex.Complex::::348::::12474::::12474::::c::::org.apache.commons.math3.complex.Complex.INF	false	5.027466666666667
+org.apache.commons.math3.complex.Complex::::348::::12449::::12449::::c::::org.apache.commons.math3.complex.Complex.INF	false	5.051666666666667
+org.apache.commons.math3.complex.Complex::::345::::12355::::12355::::c::::org.apache.commons.math3.complex.Complex.I	false	5.07625
+org.apache.commons.math3.complex.Complex::::348::::12440::::12485::::(real) == (c.real)) && ((imaginary) == (c.imaginary)::::real) < (-20.0	false	5.085366666666667
+org.apache.commons.math3.complex.Complex::::348::::12440::::12485::::(real) == (c.real)) && ((imaginary) == (c.imaginary)::::imaginary) < (-20.0	false	5.093333333333334
+org.apache.commons.math3.complex.Complex::::348::::12440::::12485::::(real) == (c.real)) && ((imaginary) == (c.imaginary)::::(real) > 20.0	false	5.116333333333333
+org.apache.commons.math3.complex.Complex::::348::::12440::::12485::::(real) == (c.real)) && ((imaginary) == (c.imaginary)::::(imaginary) > 20.0	false	5.139916666666666
+org.apache.commons.math3.complex.Complex::::348::::12433::::12486::::return ((real) == (c.real)) && ((imaginary) == (c.imaginary))::::INSERT::::STATEMENT::::java.lang.Double.isInfinite(imaginary)	false	5.164566666666667
+org.apache.commons.math3.complex.Complex::::305::::10949::::10951::::org.apache.commons.math3.complex.Complex.NaN::::org.apache.commons.math3.complex.Complex.I.divide(createComplex(2.0, 0.0))	false	5.192916666666666
+org.apache.commons.math3.complex.Complex::::305::::10949::::10951::::org.apache.commons.math3.complex.Complex.NaN::::org.apache.commons.math3.complex.Complex.INF	true	5.331083333333334
+org.apache.commons.math3.complex.Complex::::304::::10910::::10925::::(imaginary) == 0.0::::isNaN) || (java.lang.Double.isInfinite(imaginary)	false	5.34505
+org.apache.commons.math3.complex.Complex::::304::::10895::::10905::::(real) == 0.0::::isNaN) || (java.lang.Double.isInfinite(real)	false	5.356766666666667
+org.apache.commons.math3.complex.Complex::::1228::::41441::::41449::::imaginary::::org.apache.commons.math3.util.FastMath.abs(real)	false	5.392833333333333
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::INSERT::::STATEMENT::::java.lang.Double.isInfinite(imaginary)	false	5.405716666666667
+org.apache.commons.math3.complex.Complex::::102::::4060::::4064::::isNaN::::abs	false	5.4281500000000005
+org.apache.commons.math3.complex.Complex::::102::::4038::::4042::::isNaN::::abs	false	5.451383333333334
+org.apache.commons.math3.complex.Complex::::345::::12355::::12355::::c::::org.apache.commons.math3.complex.Complex.INF	false	5.480416666666667
+org.apache.commons.math3.complex.Complex::::103::::4106::::4184::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))::::isNaN	false	5.503916666666667
+org.apache.commons.math3.complex.Complex::::102::::4060::::4064::::isNaN::::getReal	false	5.5184500000000005
+org.apache.commons.math3.complex.Complex::::102::::4060::::4064::::isNaN::::getImaginary	false	5.5324333333333335
+org.apache.commons.math3.complex.Complex::::103::::4093::::4102::::isInfinite::::!(isNaN)	false	5.547233333333334
+org.apache.commons.math3.complex.Complex::::305::::10949::::10951::::org.apache.commons.math3.complex.Complex.NaN::::org.apache.commons.math3.complex.Complex.ZERO	false	5.589666666666667
+org.apache.commons.math3.complex.Complex::::344::::12311::::12337::::org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other))::::INSERT::::STATEMENT::::java.lang.Double.isInfinite(imaginary)	false	5.625133333333333
+org.apache.commons.math3.complex.Complex::::102::::4060::::4064::::isNaN::::getArgument	false	5.647433333333334
+org.apache.commons.math3.complex.Complex::::102::::4038::::4042::::isNaN::::getArgument	false	5.670083333333333
+org.apache.commons.math3.complex.Complex::::304::::10895::::10925::::(real) == 0.0) && ((imaginary) == 0.0::::java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary)	false	5.681816666666666
+org.apache.commons.math3.complex.Complex::::304::::10891::::10962::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::org.apache.commons.math3.complex.Complex.I.divide(createComplex(2.0, 0.0))	false	5.716066666666666
+org.apache.commons.math3.complex.Complex::::1228::::41427::::41430::::real::::org.apache.commons.math3.util.FastMath.abs(imaginary)	false	5.750083333333333
+org.apache.commons.math3.complex.Complex::::345::::12351::::12500::::if (c.isNaN) {    return isNaN;}else {    return ((real) == (c.real)) && ((imaginary) == (c.imaginary));}::::INSERT::::STATEMENT::::java.lang.Double.isInfinite(imaginary)	false	5.7789166666666665
+org.apache.commons.math3.complex.Complex::::348::::12474::::12474::::c::::org.apache.commons.math3.complex.Complex.I.negate()	false	5.803299999999999
+org.apache.commons.math3.complex.Complex::::348::::12474::::12474::::c::::org.apache.commons.math3.complex.Complex.ZERO	false	5.826833333333334
+org.apache.commons.math3.complex.Complex::::1228::::41414::::41456::::return ((("(" + (real)) + ", ") + (imaginary)) + ")"::::INSERT::::STATEMENT::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	5.846183333333333
+org.apache.commons.math3.complex.Complex::::1228::::41414::::41456::::return ((("(" + (real)) + ", ") + (imaginary)) + ")"::::INSERT::::STATEMENT::::if (isNaN) {    return 7;}	false	5.8677166666666665
+org.apache.commons.math3.complex.Complex::::1228::::41414::::41456::::return ((("(" + (real)) + ", ") + (imaginary)) + ")"::::INSERT::::STATEMENT::::if (isInfinite) {    return org.apache.commons.math3.complex.Complex.ZERO;}	false	5.887983333333334
+org.apache.commons.math3.complex.Complex::::102::::4038::::4082::::java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary)::::java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary)	false	5.899500000000001
+org.apache.commons.math3.complex.Complex::::348::::12449::::12449::::c::::org.apache.commons.math3.complex.Complex.ZERO	false	5.932516666666667
+org.apache.commons.math3.complex.Complex::::348::::12449::::12449::::c::::org.apache.commons.math3.complex.Complex.I.negate()	false	5.964433333333333
+org.apache.commons.math3.complex.Complex::::300::::10835::::10880::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::java.lang.Double.isInfinite(imaginary)	false	6.008616666666667
+org.apache.commons.math3.complex.Complex::::345::::12355::::12355::::c::::org.apache.commons.math3.complex.Complex.ZERO	false	6.050133333333333
+org.apache.commons.math3.complex.Complex::::99::::3967::::3975::::this.real::::real) / (imaginary	false	6.0641
+org.apache.commons.math3.complex.Complex::::99::::3967::::3975::::this.real::::org.apache.commons.math3.util.FastMath.abs(imaginary)	false	6.085866666666666
+org.apache.commons.math3.complex.Complex::::99::::3967::::3975::::this.real::::imaginary) / (real	false	6.100783333333334
+org.apache.commons.math3.complex.Complex::::103::::4106::::4184::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))::::java.lang.Double.isInfinite(real)	false	6.1343499999999995
+org.apache.commons.math3.complex.Complex::::103::::4106::::4184::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))::::java.lang.Double.isInfinite(imaginary)	false	6.168916666666666
+org.apache.commons.math3.complex.Complex::::304::::10891::::10962::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	6.200683333333333
+org.apache.commons.math3.complex.Complex::::348::::12474::::12484::::c.imaginary::::-(real)	false	6.23505
+org.apache.commons.math3.complex.Complex::::103::::4106::::4184::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))::::isNaN) || (java.lang.Double.isInfinite(real)	false	6.248083333333333
+org.apache.commons.math3.complex.Complex::::103::::4106::::4184::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))::::isNaN) || (java.lang.Double.isInfinite(imaginary)	false	6.260000000000001
+org.apache.commons.math3.complex.Complex::::348::::12440::::12455::::(real) == (c.real)::::(real) >= 0.0	false	6.296283333333333
+org.apache.commons.math3.complex.Complex::::300::::10835::::10880::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	6.335666666666667
+org.apache.commons.math3.complex.Complex::::345::::12355::::12355::::c::::org.apache.commons.math3.complex.Complex.I.negate()	false	6.3707666666666665
+org.apache.commons.math3.complex.Complex::::304::::10895::::10905::::(real) == 0.0::::(real) >= 0.0	false	6.4086333333333325
+org.apache.commons.math3.complex.Complex::::100::::3993::::4006::::this.imaginary::::org.apache.commons.math3.util.FastMath.abs(real)	false	6.4390833333333335
+org.apache.commons.math3.complex.Complex::::348::::12449::::12454::::c.real::::-(imaginary)	false	6.46455
+org.apache.commons.math3.complex.Complex::::305::::10949::::10951::::org.apache.commons.math3.complex.Complex.NaN::::this.add(org.apache.commons.math3.complex.Complex.I).divide(org.apache.commons.math3.complex.Complex.I.subtract(this)).log().multiply(org.apache.commons.math3.complex.Complex.I.divide(createComplex(2.0, 0.0)))	false	6.489116666666666
+org.apache.commons.math3.complex.Complex::::103::::4093::::4102::::isInfinite::::isNaN) || (java.lang.Double.isInfinite(real)	false	6.4988
+org.apache.commons.math3.complex.Complex::::103::::4093::::4102::::isInfinite::::isNaN) || (java.lang.Double.isInfinite(imaginary)	false	6.5081
+org.apache.commons.math3.complex.Complex::::102::::4038::::4042::::isNaN::::getReal	false	6.5262
+org.apache.commons.math3.complex.Complex::::102::::4038::::4042::::isNaN::::getImaginary	false	6.540733333333334
+org.apache.commons.math3.complex.Complex::::348::::12433::::12486::::return ((real) == (c.real)) && ((imaginary) == (c.imaginary))::::INSERT::::STATEMENT::::if (c.isNaN) {    return isNaN;}else {    return ((real) == (c.real)) && ((imaginary) == (c.imaginary));}	false	6.555350000000001
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::INSERT::::STATEMENT::::if (c.isNaN) {    return isNaN;}else {    return ((real) == (c.real)) && ((imaginary) == (c.imaginary));}	false	6.56405
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::INSERT::::STATEMENT::::if ((this) == other) {    return true;}	false	6.572766666666666
+org.apache.commons.math3.complex.Complex::::345::::12351::::12500::::if (c.isNaN) {    return isNaN;}else {    return ((real) == (c.real)) && ((imaginary) == (c.imaginary));}::::INSERT::::STATEMENT::::if (c.isNaN) {    return isNaN;}else {    return ((real) == (c.real)) && ((imaginary) == (c.imaginary));}	false	6.588533333333333
+org.apache.commons.math3.complex.Complex::::304::::10910::::10925::::(imaginary) == 0.0::::java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary)	false	6.597066666666667
+org.apache.commons.math3.complex.Complex::::304::::10895::::10905::::(real) == 0.0::::java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary)	false	6.606366666666667
+org.apache.commons.math3.complex.Complex::::305::::10942::::10952::::return org.apache.commons.math3.complex.Complex.NaN::::INSERT::::STATEMENT::::java.lang.Double.isInfinite(imaginary)	false	6.628966666666667
+org.apache.commons.math3.complex.Complex::::103::::4093::::4185::::isInfinite = (!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary)))::::isNaN = (java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary))	false	6.6386666666666665
+org.apache.commons.math3.complex.Complex::::348::::12440::::12485::::(real) == (c.real)) && ((imaginary) == (c.imaginary)::::(real) >= 0.0	false	6.6630666666666665
+org.apache.commons.math3.complex.Complex::::99::::3967::::3975::::this.real::::2.0 * (imaginary)	false	6.691866666666667
+org.apache.commons.math3.complex.Complex::::100::::3993::::4006::::this.imaginary::::(org.apache.commons.math3.util.FastMath.abs(real)) + (abs())	false	6.723433333333333
+org.apache.commons.math3.complex.Complex::::100::::3993::::4006::::this.imaginary::::((org.apache.commons.math3.util.FastMath.abs(real)) + (abs())) / 2.0	false	6.741566666666667
+org.apache.commons.math3.complex.Complex::::348::::12433::::12486::::return ((real) == (c.real)) && ((imaginary) == (c.imaginary))::::INSERT::::STATEMENT::::if ((this) == other) {    return true;}	false	6.799316666666667
+org.apache.commons.math3.complex.Complex::::348::::12433::::12486::::return ((real) == (c.real)) && ((imaginary) == (c.imaginary))::::INSERT::::STATEMENT::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	6.827533333333333
+org.apache.commons.math3.complex.Complex::::348::::12433::::12486::::return ((real) == (c.real)) && ((imaginary) == (c.imaginary))::::INSERT::::STATEMENT::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return createComplex(0.0, 0.0);}	false	6.85645
+org.apache.commons.math3.complex.Complex::::100::::3993::::4006::::this.imaginary::::real) / (imaginary	false	6.866316666666666
+org.apache.commons.math3.complex.Complex::::100::::3993::::4006::::this.imaginary::::imaginary) / (real	false	6.877833333333333
+org.apache.commons.math3.complex.Complex::::304::::10895::::10925::::(real) == 0.0) && ((imaginary) == 0.0::::(real) >= 0.0	false	6.915316666666667
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::INSERT::::STATEMENT::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	6.926699999999999
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::INSERT::::STATEMENT::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return createComplex(0.0, 0.0);}	false	6.957916666666667
+org.apache.commons.math3.complex.Complex::::103::::4106::::4184::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))::::!(isNaN)	false	7.041916666666666
+org.apache.commons.math3.complex.Complex::::103::::4093::::4102::::isInfinite::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))	false	7.063883333333334
+org.apache.commons.math3.complex.Complex::::102::::4038::::4082::::java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary)::::isNaN) || (java.lang.Double.isInfinite(real)	false	7.085233333333333
+org.apache.commons.math3.complex.Complex::::102::::4038::::4082::::java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary)::::isNaN) || (java.lang.Double.isInfinite(imaginary)	false	7.12245
+org.apache.commons.math3.complex.Complex::::305::::10949::::10951::::org.apache.commons.math3.complex.Complex.NaN::::this.add(org.apache.commons.math3.complex.Complex.I).divide(org.apache.commons.math3.complex.Complex.I.subtract(this)).log()	false	7.193983333333334
+org.apache.commons.math3.complex.Complex::::305::::10949::::10951::::org.apache.commons.math3.complex.Complex.NaN::::this.add(org.apache.commons.math3.complex.Complex.I).divide(org.apache.commons.math3.complex.Complex.I.subtract(this))	false	7.269316666666667
+org.apache.commons.math3.complex.Complex::::305::::10949::::10951::::org.apache.commons.math3.complex.Complex.NaN::::this.add(org.apache.commons.math3.complex.Complex.I)	false	7.3197833333333335
+org.apache.commons.math3.complex.Complex::::305::::10949::::10951::::org.apache.commons.math3.complex.Complex.NaN::::org.apache.commons.math3.complex.Complex.I.subtract(this)	false	7.36695
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::org.apache.commons.math3.util.FastMath.abs(real)	false	7.402433333333334
+org.apache.commons.math3.complex.Complex::::102::::4038::::4082::::java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary)::::(real) == 0.0	false	7.45245
+org.apache.commons.math3.complex.Complex::::102::::4038::::4082::::java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary)::::(imaginary) == 0.0	false	7.517816666666667
+org.apache.commons.math3.complex.Complex::::100::::3993::::4006::::this.imaginary::::2.0 * (real)	false	7.552966666666666
+org.apache.commons.math3.complex.Complex::::304::::10891::::10962::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if ((imaginary) < (-20.0)) {    return createComplex(0.0, (-1.0));}	false	7.640516666666667
+org.apache.commons.math3.complex.Complex::::344::::12311::::12337::::org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other))::::INSERT::::STATEMENT::::if ((this) == other) {    return true;}	false	7.764233333333333
+org.apache.commons.math3.complex.Complex::::344::::12311::::12337::::org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other))::::INSERT::::STATEMENT::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	7.8386
+org.apache.commons.math3.complex.Complex::::348::::12474::::12474::::c::::org.apache.commons.math3.complex.Complex.I.divide(createComplex(2.0, 0.0))	false	7.887583333333334
+org.apache.commons.math3.complex.Complex::::304::::10891::::10962::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if ((real) > 20.0) {    return createComplex(1.0, 0.0);}	false	7.925283333333334
+org.apache.commons.math3.complex.Complex::::304::::10891::::10962::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if ((imaginary) > 20.0) {    return createComplex(0.0, 1.0);}	false	7.9835666666666665
+org.apache.commons.math3.complex.Complex::::304::::10895::::10898::::real::::org.apache.commons.math3.util.FastMath.abs(imaginary)	false	8.030766666666667
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::INSERT::::STATEMENT::::if ((real) > 20.0) {    return createComplex(1.0, 0.0);}	false	8.045333333333334
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::INSERT::::STATEMENT::::if ((real) == 0.0) {    return org.apache.commons.math3.util.FastMath.abs(imaginary);}	false	8.064916666666667
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::INSERT::::STATEMENT::::if ((real) < (-20.0)) {    return createComplex((-1.0), 0.0);}	false	8.08585
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::INSERT::::STATEMENT::::if ((isNaN) || (java.lang.Double.isInfinite(real))) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	8.111716666666666
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::INSERT::::STATEMENT::::if ((isNaN) || (java.lang.Double.isInfinite(imaginary))) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	8.142466666666667
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::INSERT::::STATEMENT::::if ((imaginary) > 20.0) {    return createComplex(0.0, 1.0);}	false	8.167666666666667
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::INSERT::::STATEMENT::::if ((imaginary) == 0.0) {    return org.apache.commons.math3.util.FastMath.abs(real);}	false	8.188316666666667
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::INSERT::::STATEMENT::::if ((imaginary) < (-20.0)) {    return createComplex(0.0, (-1.0));}	false	8.208366666666667
+org.apache.commons.math3.complex.Complex::::348::::12449::::12449::::c::::org.apache.commons.math3.complex.Complex.I.divide(createComplex(2.0, 0.0))	false	8.267199999999999
+org.apache.commons.math3.complex.Complex::::304::::10891::::10962::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return createComplex(0.0, 0.0);}	false	8.319833333333333
+org.apache.commons.math3.complex.Complex::::304::::10891::::10962::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if ((real) < (-20.0)) {    return createComplex((-1.0), 0.0);}	false	8.353116666666667
+org.apache.commons.math3.complex.Complex::::345::::12351::::12500::::if (c.isNaN) {    return isNaN;}else {    return ((real) == (c.real)) && ((imaginary) == (c.imaginary));}::::INSERT::::STATEMENT::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	8.37895
+org.apache.commons.math3.complex.Complex::::345::::12351::::12500::::if (c.isNaN) {    return isNaN;}else {    return ((real) == (c.real)) && ((imaginary) == (c.imaginary));}::::INSERT::::STATEMENT::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return createComplex(0.0, 0.0);}	false	8.420966666666667
+org.apache.commons.math3.complex.Complex::::305::::10942::::10952::::return org.apache.commons.math3.complex.Complex.NaN::::INSERT::::STATEMENT::::if ((org.apache.commons.math3.util.FastMath.abs(real)) < (org.apache.commons.math3.util.FastMath.abs(imaginary))) {    double q = (real) / (imaginary);    double scale = 1.0 / (((real) * q) + (imaginary));    return createComplex((scale * q), (-scale));}else {    double q = (imaginary) / (real);    double scale = 1.0 / (((imaginary) * q) + (real));    return createComplex(scale, ((-scale) * q));}	false	8.46385
+org.apache.commons.math3.complex.Complex::::102::::4038::::4082::::java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary)::::real) < (-20.0	false	8.488166666666666
+org.apache.commons.math3.complex.Complex::::102::::4038::::4082::::java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary)::::imaginary) < (-20.0	false	8.5088
+org.apache.commons.math3.complex.Complex::::102::::4038::::4082::::java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary)::::(real) > 20.0	false	8.548766666666667
+org.apache.commons.math3.complex.Complex::::102::::4038::::4082::::java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary)::::(imaginary) > 20.0	false	8.595516666666667
+org.apache.commons.math3.complex.Complex::::300::::10839::::10843::::isNaN::::INSERT::::STATEMENT::::java.lang.Double.isInfinite(imaginary)	false	8.608583333333334
+org.apache.commons.math3.complex.Complex::::103::::4106::::4184::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))::::java.lang.Double.isNaN(real)	false	8.666316666666667
+org.apache.commons.math3.complex.Complex::::103::::4106::::4184::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))::::java.lang.Double.isNaN(imaginary)	false	8.706866666666667
+org.apache.commons.math3.complex.Complex::::305::::10949::::10951::::org.apache.commons.math3.complex.Complex.NaN::::this.sqrt1z().multiply(org.apache.commons.math3.complex.Complex.I)	false	8.74025
+org.apache.commons.math3.complex.Complex::::305::::10949::::10951::::org.apache.commons.math3.complex.Complex.NaN::::sqrt1z().add(this.multiply(org.apache.commons.math3.complex.Complex.I)).log().multiply(org.apache.commons.math3.complex.Complex.I.negate())	false	8.77215
+org.apache.commons.math3.complex.Complex::::305::::10949::::10951::::org.apache.commons.math3.complex.Complex.NaN::::sqrt1z().add(this.multiply(org.apache.commons.math3.complex.Complex.I)).log()	false	8.81625
+org.apache.commons.math3.complex.Complex::::305::::10949::::10951::::org.apache.commons.math3.complex.Complex.NaN::::sqrt1z().add(this.multiply(org.apache.commons.math3.complex.Complex.I))	false	8.862233333333334
+org.apache.commons.math3.complex.Complex::::348::::12474::::12474::::c::::this.add(org.apache.commons.math3.complex.Complex.I).divide(org.apache.commons.math3.complex.Complex.I.subtract(this)).log().multiply(org.apache.commons.math3.complex.Complex.I.divide(createComplex(2.0, 0.0)))	false	8.934366666666667
+org.apache.commons.math3.complex.Complex::::345::::12351::::12500::::if (c.isNaN) {    return isNaN;}else {    return ((real) == (c.real)) && ((imaginary) == (c.imaginary));}::::INSERT::::STATEMENT::::if ((this) == other) {    return true;}	false	8.995466666666665
+org.apache.commons.math3.complex.Complex::::344::::12311::::12337::::org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other))::::INSERT::::STATEMENT::::if ((real) > 20.0) {    return createComplex(1.0, 0.0);}	false	9.038666666666668
+org.apache.commons.math3.complex.Complex::::344::::12311::::12337::::org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other))::::INSERT::::STATEMENT::::if ((real) < (-20.0)) {    return createComplex((-1.0), 0.0);}	false	9.0682
+org.apache.commons.math3.complex.Complex::::344::::12311::::12337::::org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other))::::INSERT::::STATEMENT::::if ((isNaN) || (java.lang.Double.isInfinite(real))) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	9.0906
+org.apache.commons.math3.complex.Complex::::344::::12311::::12337::::org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other))::::INSERT::::STATEMENT::::if ((isNaN) || (java.lang.Double.isInfinite(imaginary))) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	9.115283333333334
+org.apache.commons.math3.complex.Complex::::344::::12311::::12337::::org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other))::::INSERT::::STATEMENT::::if ((imaginary) > 20.0) {    return createComplex(0.0, 1.0);}	false	9.1359
+org.apache.commons.math3.complex.Complex::::344::::12311::::12337::::org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other))::::INSERT::::STATEMENT::::if ((imaginary) < (-20.0)) {    return createComplex(0.0, (-1.0));}	false	9.151983333333334
+org.apache.commons.math3.complex.Complex::::344::::12311::::12337::::org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other))::::INSERT::::STATEMENT::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return createComplex(0.0, 0.0);}	false	9.165
+org.apache.commons.math3.complex.Complex::::348::::12433::::12486::::return ((real) == (c.real)) && ((imaginary) == (c.imaginary))::::INSERT::::STATEMENT::::if ((real) > 20.0) {    return createComplex(1.0, 0.0);}	false	9.179816666666666
+org.apache.commons.math3.complex.Complex::::348::::12433::::12486::::return ((real) == (c.real)) && ((imaginary) == (c.imaginary))::::INSERT::::STATEMENT::::if ((real) == 0.0) {    return org.apache.commons.math3.util.FastMath.abs(imaginary);}	false	9.194166666666666
+org.apache.commons.math3.complex.Complex::::348::::12433::::12486::::return ((real) == (c.real)) && ((imaginary) == (c.imaginary))::::INSERT::::STATEMENT::::if ((real) < (-20.0)) {    return createComplex((-1.0), 0.0);}	false	9.20985
+org.apache.commons.math3.complex.Complex::::348::::12433::::12486::::return ((real) == (c.real)) && ((imaginary) == (c.imaginary))::::INSERT::::STATEMENT::::if ((isNaN) || (java.lang.Double.isInfinite(real))) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	9.223749999999999
+org.apache.commons.math3.complex.Complex::::348::::12433::::12486::::return ((real) == (c.real)) && ((imaginary) == (c.imaginary))::::INSERT::::STATEMENT::::if ((isNaN) || (java.lang.Double.isInfinite(imaginary))) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	9.239183333333333
+org.apache.commons.math3.complex.Complex::::348::::12433::::12486::::return ((real) == (c.real)) && ((imaginary) == (c.imaginary))::::INSERT::::STATEMENT::::if ((imaginary) > 20.0) {    return createComplex(0.0, 1.0);}	false	9.255149999999999
+org.apache.commons.math3.complex.Complex::::348::::12433::::12486::::return ((real) == (c.real)) && ((imaginary) == (c.imaginary))::::INSERT::::STATEMENT::::if ((imaginary) == 0.0) {    return org.apache.commons.math3.util.FastMath.abs(real);}	false	9.275416666666667
+org.apache.commons.math3.complex.Complex::::348::::12433::::12486::::return ((real) == (c.real)) && ((imaginary) == (c.imaginary))::::INSERT::::STATEMENT::::if ((imaginary) < (-20.0)) {    return createComplex(0.0, (-1.0));}	false	9.292316666666666
+org.apache.commons.math3.complex.Complex::::304::::10895::::10905::::(real) == 0.0::::java.lang.Double.isNaN(real)	false	9.3154
+org.apache.commons.math3.complex.Complex::::304::::10910::::10925::::(imaginary) == 0.0::::java.lang.Double.isNaN(imaginary)	false	9.33895
+org.apache.commons.math3.complex.Complex::::103::::4106::::4184::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))::::(real) == 0.0	false	9.362599999999999
+org.apache.commons.math3.complex.Complex::::103::::4106::::4184::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))::::(imaginary) == 0.0	false	9.398166666666667
+org.apache.commons.math3.complex.Complex::::304::::10891::::10962::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if ((isNaN) || (java.lang.Double.isInfinite(real))) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	9.43535
+org.apache.commons.math3.complex.Complex::::304::::10891::::10962::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if ((isNaN) || (java.lang.Double.isInfinite(imaginary))) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	9.472283333333333
+org.apache.commons.math3.complex.Complex::::340::::12204::::12258::::if ((this) == other) {    return true;}::::INSERT::::STATEMENT::::org.apache.commons.math3.complex.Complex.I.divide(createComplex(2.0, 0.0))	false	9.507683333333334
+org.apache.commons.math3.complex.Complex::::102::::4060::::4064::::isNaN::::negate	false	9.528916666666667
+org.apache.commons.math3.complex.Complex::::102::::4060::::4064::::isNaN::::log	false	9.550683333333334
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::q	false	9.576583333333334
+org.apache.commons.math3.complex.Complex::::348::::12449::::12449::::c::::this.add(org.apache.commons.math3.complex.Complex.I).divide(org.apache.commons.math3.complex.Complex.I.subtract(this)).log().multiply(org.apache.commons.math3.complex.Complex.I.divide(createComplex(2.0, 0.0)))	false	9.630650000000001
+org.apache.commons.math3.complex.Complex::::348::::12433::::12486::::return ((real) == (c.real)) && ((imaginary) == (c.imaginary))::::INSERT::::STATEMENT::::org.apache.commons.math3.complex.Complex.I.divide(createComplex(2.0, 0.0))	false	9.666733333333333
+org.apache.commons.math3.complex.Complex::::345::::12355::::12355::::c::::org.apache.commons.math3.complex.Complex.I.divide(createComplex(2.0, 0.0))	false	9.6924
+org.apache.commons.math3.complex.Complex::::345::::12351::::12500::::if (c.isNaN) {    return isNaN;}else {    return ((real) == (c.real)) && ((imaginary) == (c.imaginary));}::::INSERT::::STATEMENT::::if ((real) > 20.0) {    return createComplex(1.0, 0.0);}	false	9.70685
+org.apache.commons.math3.complex.Complex::::345::::12351::::12500::::if (c.isNaN) {    return isNaN;}else {    return ((real) == (c.real)) && ((imaginary) == (c.imaginary));}::::INSERT::::STATEMENT::::if ((real) < (-20.0)) {    return createComplex((-1.0), 0.0);}	false	9.722000000000001
+org.apache.commons.math3.complex.Complex::::345::::12351::::12500::::if (c.isNaN) {    return isNaN;}else {    return ((real) == (c.real)) && ((imaginary) == (c.imaginary));}::::INSERT::::STATEMENT::::if ((isNaN) || (java.lang.Double.isInfinite(real))) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	9.737383333333334
+org.apache.commons.math3.complex.Complex::::345::::12351::::12500::::if (c.isNaN) {    return isNaN;}else {    return ((real) == (c.real)) && ((imaginary) == (c.imaginary));}::::INSERT::::STATEMENT::::if ((isNaN) || (java.lang.Double.isInfinite(imaginary))) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	9.75295
+org.apache.commons.math3.complex.Complex::::345::::12351::::12500::::if (c.isNaN) {    return isNaN;}else {    return ((real) == (c.real)) && ((imaginary) == (c.imaginary));}::::INSERT::::STATEMENT::::if ((imaginary) > 20.0) {    return createComplex(0.0, 1.0);}	false	9.772283333333332
+org.apache.commons.math3.complex.Complex::::345::::12351::::12500::::if (c.isNaN) {    return isNaN;}else {    return ((real) == (c.real)) && ((imaginary) == (c.imaginary));}::::INSERT::::STATEMENT::::if ((imaginary) < (-20.0)) {    return createComplex(0.0, (-1.0));}	false	9.792183333333332
+org.apache.commons.math3.complex.Complex::::344::::12311::::12337::::org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other))::::INSERT::::STATEMENT::::if ((real) == 0.0) {    return org.apache.commons.math3.util.FastMath.abs(imaginary);}	false	9.812216666666666
+org.apache.commons.math3.complex.Complex::::344::::12311::::12337::::org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other))::::INSERT::::STATEMENT::::if ((imaginary) == 0.0) {    return org.apache.commons.math3.util.FastMath.abs(real);}	false	9.8358
+org.apache.commons.math3.complex.Complex::::305::::10949::::10951::::org.apache.commons.math3.complex.Complex.NaN::::this.multiply(org.apache.commons.math3.complex.Complex.I)	false	9.869833333333334
+org.apache.commons.math3.complex.Complex::::305::::10949::::10951::::org.apache.commons.math3.complex.Complex.NaN::::this.add(this.sqrt1z().multiply(org.apache.commons.math3.complex.Complex.I)).log().multiply(org.apache.commons.math3.complex.Complex.I.negate())	false	9.902133333333333
+org.apache.commons.math3.complex.Complex::::305::::10949::::10951::::org.apache.commons.math3.complex.Complex.NaN::::this.add(this.sqrt1z().multiply(org.apache.commons.math3.complex.Complex.I)).log()	false	9.938066666666666
+org.apache.commons.math3.complex.Complex::::305::::10949::::10951::::org.apache.commons.math3.complex.Complex.NaN::::this.add(this.sqrt1z().multiply(org.apache.commons.math3.complex.Complex.I))	false	9.965200000000001
+org.apache.commons.math3.complex.Complex::::102::::4038::::4042::::isNaN::::negate	false	9.979266666666666
+org.apache.commons.math3.complex.Complex::::348::::12474::::12474::::c::::this.sqrt1z().multiply(org.apache.commons.math3.complex.Complex.I)	false	10.003916666666667
+org.apache.commons.math3.complex.Complex::::348::::12474::::12474::::c::::sqrt1z().add(this.multiply(org.apache.commons.math3.complex.Complex.I)).log().multiply(org.apache.commons.math3.complex.Complex.I.negate())	false	10.032933333333334
+org.apache.commons.math3.complex.Complex::::348::::12474::::12474::::c::::sqrt1z().add(this.multiply(org.apache.commons.math3.complex.Complex.I)).log()	false	10.06235
+org.apache.commons.math3.complex.Complex::::348::::12474::::12474::::c::::sqrt1z().add(this.multiply(org.apache.commons.math3.complex.Complex.I))	false	10.093916666666667
+org.apache.commons.math3.complex.Complex::::348::::12449::::12449::::c::::this.sqrt1z().multiply(org.apache.commons.math3.complex.Complex.I)	false	10.13195
+org.apache.commons.math3.complex.Complex::::348::::12449::::12449::::c::::sqrt1z().add(this.multiply(org.apache.commons.math3.complex.Complex.I)).log().multiply(org.apache.commons.math3.complex.Complex.I.negate())	false	10.171016666666667
+org.apache.commons.math3.complex.Complex::::348::::12449::::12449::::c::::sqrt1z().add(this.multiply(org.apache.commons.math3.complex.Complex.I)).log()	false	10.213066666666666
+org.apache.commons.math3.complex.Complex::::348::::12449::::12449::::c::::sqrt1z().add(this.multiply(org.apache.commons.math3.complex.Complex.I))	false	10.24875
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::INSERT::::STATEMENT::::if ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))) {    return org.apache.commons.math3.complex.Complex.INF;}	false	10.263616666666667
+org.apache.commons.math3.complex.Complex::::348::::12433::::12486::::return ((real) == (c.real)) && ((imaginary) == (c.imaginary))::::INSERT::::STATEMENT::::if ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))) {    return org.apache.commons.math3.complex.Complex.INF;}	false	10.288016666666666
+org.apache.commons.math3.complex.Complex::::304::::10895::::10898::::real::::q	false	10.310933333333333
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::INSERT::::STATEMENT::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	10.323766666666668
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::INSERT::::STATEMENT::::if (isInfinite) {    return org.apache.commons.math3.complex.Complex.ZERO;}	false	10.336716666666666
+org.apache.commons.math3.complex.Complex::::345::::12351::::12500::::if (c.isNaN) {    return isNaN;}else {    return ((real) == (c.real)) && ((imaginary) == (c.imaginary));}::::INSERT::::STATEMENT::::if ((real) == 0.0) {    return org.apache.commons.math3.util.FastMath.abs(imaginary);}	false	10.35895
+org.apache.commons.math3.complex.Complex::::345::::12351::::12500::::if (c.isNaN) {    return isNaN;}else {    return ((real) == (c.real)) && ((imaginary) == (c.imaginary));}::::INSERT::::STATEMENT::::if ((imaginary) == 0.0) {    return org.apache.commons.math3.util.FastMath.abs(real);}	false	10.379983333333334
+org.apache.commons.math3.complex.Complex::::305::::10949::::10951::::org.apache.commons.math3.complex.Complex.NaN::::!(isInfinite()) ? org.apache.commons.math3.complex.Complex.ZERO : org.apache.commons.math3.complex.Complex.NaN	false	10.41035
+org.apache.commons.math3.complex.Complex::::305::::10942::::10952::::return org.apache.commons.math3.complex.Complex.NaN::::INSERT::::STATEMENT::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	10.44535
+org.apache.commons.math3.complex.Complex::::305::::10942::::10952::::return org.apache.commons.math3.complex.Complex.NaN::::INSERT::::STATEMENT::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return createComplex(0.0, 0.0);}	false	10.478533333333333
+org.apache.commons.math3.complex.Complex::::345::::12355::::12355::::c::::this.sqrt1z().multiply(org.apache.commons.math3.complex.Complex.I)	false	10.509583333333333
+org.apache.commons.math3.complex.Complex::::345::::12355::::12355::::c::::sqrt1z().add(this.multiply(org.apache.commons.math3.complex.Complex.I)).log().multiply(org.apache.commons.math3.complex.Complex.I.negate())	false	10.542883333333332
+org.apache.commons.math3.complex.Complex::::345::::12355::::12355::::c::::sqrt1z().add(this.multiply(org.apache.commons.math3.complex.Complex.I)).log()	false	10.575999999999999
+org.apache.commons.math3.complex.Complex::::345::::12355::::12355::::c::::sqrt1z().add(this.multiply(org.apache.commons.math3.complex.Complex.I))	false	10.61365
+org.apache.commons.math3.complex.Complex::::304::::10910::::10925::::(imaginary) == 0.0::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))	false	10.625083333333333
+org.apache.commons.math3.complex.Complex::::304::::10895::::10905::::(real) == 0.0::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))	false	10.636149999999999
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::INSERT::::STATEMENT::::org.apache.commons.math3.complex.Complex.I.divide(createComplex(2.0, 0.0))	false	10.644216666666667
+org.apache.commons.math3.complex.Complex::::304::::10895::::10925::::(real) == 0.0) && ((imaginary) == 0.0::::java.lang.Double.isNaN(real)	false	10.66745
+org.apache.commons.math3.complex.Complex::::304::::10895::::10925::::(real) == 0.0) && ((imaginary) == 0.0::::java.lang.Double.isNaN(imaginary)	false	10.689083333333334
+org.apache.commons.math3.complex.Complex::::345::::12351::::12500::::if (c.isNaN) {    return isNaN;}else {    return ((real) == (c.real)) && ((imaginary) == (c.imaginary));}::::INSERT::::STATEMENT::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	10.702666666666666
+org.apache.commons.math3.complex.Complex::::102::::4038::::4042::::isNaN::::log	false	10.71615
+org.apache.commons.math3.complex.Complex::::345::::12355::::12361::::c.isNaN::::INSERT::::STATEMENT::::if (isNaN) {    return 7;}	false	10.724033333333333
+org.apache.commons.math3.complex.Complex::::305::::10942::::10952::::return org.apache.commons.math3.complex.Complex.NaN::::INSERT::::STATEMENT::::if ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))) {    return org.apache.commons.math3.complex.Complex.INF;}	false	10.74785
+org.apache.commons.math3.complex.Complex::::345::::12355::::12355::::c::::this.add(org.apache.commons.math3.complex.Complex.I).divide(org.apache.commons.math3.complex.Complex.I.subtract(this)).log().multiply(org.apache.commons.math3.complex.Complex.I.divide(createComplex(2.0, 0.0)))	false	10.768666666666666
+org.apache.commons.math3.complex.Complex::::99::::3967::::3975::::this.real::::-(imaginary)	false	10.782683333333333
+org.apache.commons.math3.complex.Complex::::345::::12351::::12500::::if (c.isNaN) {    return isNaN;}else {    return ((real) == (c.real)) && ((imaginary) == (c.imaginary));}::::INSERT::::STATEMENT::::if ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))) {    return org.apache.commons.math3.complex.Complex.INF;}	false	10.795683333333333
+org.apache.commons.math3.complex.Complex::::304::::10891::::10962::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if ((org.apache.commons.math3.util.FastMath.abs(real)) < (org.apache.commons.math3.util.FastMath.abs(imaginary))) {    double q = (real) / (imaginary);    double scale = 1.0 / (((real) * q) + (imaginary));    return createComplex((scale * q), (-scale));}else {    double q = (imaginary) / (real);    double scale = 1.0 / (((imaginary) * q) + (real));    return createComplex(scale, ((-scale) * q));}	false	10.810333333333334
+org.apache.commons.math3.complex.Complex::::102::::4060::::4064::::isNaN::::sqrt1z	false	10.824800000000002
+org.apache.commons.math3.complex.Complex::::344::::12311::::12337::::org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other))::::INSERT::::STATEMENT::::org.apache.commons.math3.complex.Complex.I.divide(createComplex(2.0, 0.0))	false	10.861633333333334
+org.apache.commons.math3.complex.Complex::::305::::10942::::10952::::return org.apache.commons.math3.complex.Complex.NaN::::INSERT::::STATEMENT::::org.apache.commons.math3.complex.Complex.I.divide(createComplex(2.0, 0.0))	false	10.888283333333334
+org.apache.commons.math3.complex.Complex::::340::::12204::::12258::::if ((this) == other) {    return true;}::::INSERT::::STATEMENT::::if ((this) == other) {    return true;}	false	10.929783333333335
+org.apache.commons.math3.complex.Complex::::348::::12440::::12455::::(real) == (c.real)::::java.lang.Double.isNaN(real)	false	10.958599999999999
+org.apache.commons.math3.complex.Complex::::344::::12311::::12337::::org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other))::::INSERT::::STATEMENT::::if ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))) {    return org.apache.commons.math3.complex.Complex.INF;}	false	10.982733333333334
+org.apache.commons.math3.complex.Complex::::305::::10942::::10952::::return org.apache.commons.math3.complex.Complex.NaN::::INSERT::::STATEMENT::::if ((real) > 20.0) {    return createComplex(1.0, 0.0);}	false	11.02645
+org.apache.commons.math3.complex.Complex::::305::::10942::::10952::::return org.apache.commons.math3.complex.Complex.NaN::::INSERT::::STATEMENT::::if ((real) < (-20.0)) {    return createComplex((-1.0), 0.0);}	false	11.078183333333333
+org.apache.commons.math3.complex.Complex::::305::::10942::::10952::::return org.apache.commons.math3.complex.Complex.NaN::::INSERT::::STATEMENT::::if ((isNaN) || (java.lang.Double.isInfinite(real))) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	11.111433333333334
+org.apache.commons.math3.complex.Complex::::305::::10942::::10952::::return org.apache.commons.math3.complex.Complex.NaN::::INSERT::::STATEMENT::::if ((isNaN) || (java.lang.Double.isInfinite(imaginary))) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	11.168833333333334
+org.apache.commons.math3.complex.Complex::::305::::10942::::10952::::return org.apache.commons.math3.complex.Complex.NaN::::INSERT::::STATEMENT::::if ((imaginary) > 20.0) {    return createComplex(0.0, 1.0);}	false	11.217566666666666
+org.apache.commons.math3.complex.Complex::::305::::10942::::10952::::return org.apache.commons.math3.complex.Complex.NaN::::INSERT::::STATEMENT::::if ((imaginary) < (-20.0)) {    return createComplex(0.0, (-1.0));}	false	11.245333333333333
+org.apache.commons.math3.complex.Complex::::348::::12474::::12474::::c::::this.multiply(org.apache.commons.math3.complex.Complex.I)	false	11.329083333333333
+org.apache.commons.math3.complex.Complex::::348::::12474::::12474::::c::::this.add(this.sqrt1z().multiply(org.apache.commons.math3.complex.Complex.I)).log().multiply(org.apache.commons.math3.complex.Complex.I.negate())	false	11.430783333333332
+org.apache.commons.math3.complex.Complex::::348::::12474::::12474::::c::::this.add(this.sqrt1z().multiply(org.apache.commons.math3.complex.Complex.I)).log()	false	11.5098
+org.apache.commons.math3.complex.Complex::::348::::12474::::12474::::c::::this.add(this.sqrt1z().multiply(org.apache.commons.math3.complex.Complex.I))	false	11.547366666666667
+org.apache.commons.math3.complex.Complex::::348::::12474::::12474::::c::::this.add(org.apache.commons.math3.complex.Complex.I).divide(org.apache.commons.math3.complex.Complex.I.subtract(this)).log()	false	11.590916666666667
+org.apache.commons.math3.complex.Complex::::348::::12474::::12474::::c::::this.add(org.apache.commons.math3.complex.Complex.I).divide(org.apache.commons.math3.complex.Complex.I.subtract(this))	false	11.648966666666666
+org.apache.commons.math3.complex.Complex::::348::::12474::::12474::::c::::this.add(org.apache.commons.math3.complex.Complex.I)	false	11.704833333333333
+org.apache.commons.math3.complex.Complex::::348::::12474::::12474::::c::::org.apache.commons.math3.complex.Complex.I.subtract(this)	false	11.773883333333334
+org.apache.commons.math3.complex.Complex::::344::::12311::::12337::::org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other))::::INSERT::::STATEMENT::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	11.805066666666667
+org.apache.commons.math3.complex.Complex::::344::::12311::::12337::::org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other))::::INSERT::::STATEMENT::::if (isInfinite) {    return org.apache.commons.math3.complex.Complex.ZERO;}	false	11.836500000000001
+org.apache.commons.math3.complex.Complex::::304::::10891::::10962::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))) {    return org.apache.commons.math3.complex.Complex.INF;}	false	11.898950000000001
+org.apache.commons.math3.complex.Complex::::300::::10839::::10843::::isNaN::::isInfinite	false	11.948983333333333
+org.apache.commons.math3.complex.Complex::::348::::12460::::12485::::(imaginary) == (c.imaginary)::::java.lang.Double.isNaN(imaginary)	false	11.998316666666666
+org.apache.commons.math3.complex.Complex::::103::::4106::::4184::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))::::real) < (-20.0	false	12.019633333333333
+org.apache.commons.math3.complex.Complex::::103::::4106::::4184::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))::::imaginary) < (-20.0	false	12.03295
+org.apache.commons.math3.complex.Complex::::103::::4106::::4184::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))::::(real) > 20.0	false	12.0668
+org.apache.commons.math3.complex.Complex::::103::::4106::::4184::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))::::(imaginary) > 20.0	false	12.10425
+org.apache.commons.math3.complex.Complex::::102::::4030::::4083::::isNaN = (java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary))::::this.real = real	false	12.127583333333332
+org.apache.commons.math3.complex.Complex::::102::::4030::::4083::::isNaN = (java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary))::::this.imaginary = imaginary	false	12.141699999999998
+org.apache.commons.math3.complex.Complex::::304::::10891::::10962::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	12.187199999999999
+org.apache.commons.math3.complex.Complex::::304::::10891::::10962::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if ((real) == 0.0) {    return org.apache.commons.math3.util.FastMath.abs(imaginary);}	false	12.222366666666666
+org.apache.commons.math3.complex.Complex::::304::::10891::::10962::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if ((imaginary) == 0.0) {    return org.apache.commons.math3.util.FastMath.abs(real);}	false	12.257883333333332
+org.apache.commons.math3.complex.Complex::::348::::12449::::12449::::c::::this.multiply(org.apache.commons.math3.complex.Complex.I)	false	12.307933333333333
+org.apache.commons.math3.complex.Complex::::348::::12449::::12449::::c::::this.add(this.sqrt1z().multiply(org.apache.commons.math3.complex.Complex.I)).log().multiply(org.apache.commons.math3.complex.Complex.I.negate())	false	12.364866666666668
+org.apache.commons.math3.complex.Complex::::348::::12449::::12449::::c::::this.add(this.sqrt1z().multiply(org.apache.commons.math3.complex.Complex.I)).log()	false	12.4198
+org.apache.commons.math3.complex.Complex::::348::::12449::::12449::::c::::this.add(this.sqrt1z().multiply(org.apache.commons.math3.complex.Complex.I))	false	12.460933333333333
+org.apache.commons.math3.complex.Complex::::348::::12449::::12449::::c::::this.add(org.apache.commons.math3.complex.Complex.I).divide(org.apache.commons.math3.complex.Complex.I.subtract(this)).log()	false	12.495883333333333
+org.apache.commons.math3.complex.Complex::::348::::12449::::12449::::c::::this.add(org.apache.commons.math3.complex.Complex.I).divide(org.apache.commons.math3.complex.Complex.I.subtract(this))	false	12.548033333333333
+org.apache.commons.math3.complex.Complex::::348::::12449::::12449::::c::::this.add(org.apache.commons.math3.complex.Complex.I)	false	12.602416666666667
+org.apache.commons.math3.complex.Complex::::348::::12449::::12449::::c::::org.apache.commons.math3.complex.Complex.I.subtract(this)	false	12.638433333333333
+org.apache.commons.math3.complex.Complex::::304::::10910::::10925::::(imaginary) == 0.0::::java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary)	false	12.655083333333332
+org.apache.commons.math3.complex.Complex::::304::::10895::::10905::::(real) == 0.0::::java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary)	false	12.677216666666668
+org.apache.commons.math3.complex.Complex::::343::::12268::::12510::::if (other instanceof org.apache.commons.math3.complex.Complex) {    org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other));    if (c.isNaN) {        return isNaN;    }else {        return ((real) == (c.real)) && ((imaginary) == (c.imaginary));    }}::::INSERT::::STATEMENT::::org.apache.commons.math3.complex.Complex.I.divide(createComplex(2.0, 0.0))	false	12.7105
+org.apache.commons.math3.complex.Complex::::344::::12311::::12337::::org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other))::::INSERT::::STATEMENT::::if (isNaN) {    return 7;}	false	12.729933333333333
+org.apache.commons.math3.complex.Complex::::348::::12461::::12469::::imaginary::::org.apache.commons.math3.util.FastMath.abs(real)	false	12.775566666666666
+org.apache.commons.math3.complex.Complex::::348::::12433::::12486::::return ((real) == (c.real)) && ((imaginary) == (c.imaginary))::::INSERT::::STATEMENT::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	12.795866666666665
+org.apache.commons.math3.complex.Complex::::348::::12433::::12486::::return ((real) == (c.real)) && ((imaginary) == (c.imaginary))::::INSERT::::STATEMENT::::if (isNaN) {    return 7;}	false	12.81965
+org.apache.commons.math3.complex.Complex::::348::::12433::::12486::::return ((real) == (c.real)) && ((imaginary) == (c.imaginary))::::INSERT::::STATEMENT::::if (isInfinite) {    return org.apache.commons.math3.complex.Complex.ZERO;}	false	12.8425
+org.apache.commons.math3.complex.Complex::::102::::4038::::4042::::isNaN::::sqrt1z	false	12.865233333333332
+org.apache.commons.math3.complex.Complex::::340::::12204::::12258::::if ((this) == other) {    return true;}::::INSERT::::STATEMENT::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	12.885383333333333
+org.apache.commons.math3.complex.Complex::::340::::12204::::12258::::if ((this) == other) {    return true;}::::INSERT::::STATEMENT::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return createComplex(0.0, 0.0);}	false	12.908716666666667
+org.apache.commons.math3.complex.Complex::::99::::3967::::3983::::this.real = real::::isNaN = (java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary))	false	12.918650000000001
+org.apache.commons.math3.complex.Complex::::100::::3993::::4019::::this.imaginary = imaginary::::isNaN = (java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary))	false	12.929433333333332
+org.apache.commons.math3.complex.Complex::::348::::12441::::12444::::real::::org.apache.commons.math3.util.FastMath.abs(imaginary)	false	12.95855
+org.apache.commons.math3.complex.Complex::::1228::::41427::::41430::::real::::2.0 * (imaginary)	false	12.986983333333335
+org.apache.commons.math3.complex.Complex::::1228::::41441::::41449::::imaginary::::2.0 * (real)	false	13.0179
+org.apache.commons.math3.complex.Complex::::305::::10942::::10952::::return org.apache.commons.math3.complex.Complex.NaN::::INSERT::::STATEMENT::::if (isInfinite) {    return org.apache.commons.math3.complex.Complex.ZERO;}	false	13.047733333333333
+org.apache.commons.math3.complex.Complex::::345::::12351::::12500::::if (c.isNaN) {    return isNaN;}else {    return ((real) == (c.real)) && ((imaginary) == (c.imaginary));}::::INSERT::::STATEMENT::::if (isInfinite) {    return org.apache.commons.math3.complex.Complex.ZERO;}	false	13.077783333333334
+org.apache.commons.math3.complex.Complex::::343::::12268::::12510::::if (other instanceof org.apache.commons.math3.complex.Complex) {    org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other));    if (c.isNaN) {        return isNaN;    }else {        return ((real) == (c.real)) && ((imaginary) == (c.imaginary));    }}::::INSERT::::STATEMENT::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	13.107183333333333
+org.apache.commons.math3.complex.Complex::::340::::12204::::12258::::if ((this) == other) {    return true;}::::INSERT::::STATEMENT::::if ((real) > 20.0) {    return createComplex(1.0, 0.0);}	false	13.147583333333333
+org.apache.commons.math3.complex.Complex::::340::::12204::::12258::::if ((this) == other) {    return true;}::::INSERT::::STATEMENT::::if ((imaginary) > 20.0) {    return createComplex(0.0, 1.0);}	false	13.182333333333334
+org.apache.commons.math3.complex.Complex::::305::::10942::::10952::::return org.apache.commons.math3.complex.Complex.NaN::::INSERT::::STATEMENT::::if ((real) == 0.0) {    return org.apache.commons.math3.util.FastMath.abs(imaginary);}	false	13.198866666666667
+org.apache.commons.math3.complex.Complex::::305::::10942::::10952::::return org.apache.commons.math3.complex.Complex.NaN::::INSERT::::STATEMENT::::if ((imaginary) == 0.0) {    return org.apache.commons.math3.util.FastMath.abs(real);}	false	13.212616666666666
+org.apache.commons.math3.complex.Complex::::345::::12355::::12355::::c::::this.multiply(org.apache.commons.math3.complex.Complex.I)	true	13.287166666666668
+org.apache.commons.math3.complex.Complex::::345::::12355::::12355::::c::::this.add(this.sqrt1z().multiply(org.apache.commons.math3.complex.Complex.I)).log().multiply(org.apache.commons.math3.complex.Complex.I.negate())	false	13.3093
+org.apache.commons.math3.complex.Complex::::345::::12355::::12355::::c::::this.add(this.sqrt1z().multiply(org.apache.commons.math3.complex.Complex.I)).log()	false	13.328733333333334
+org.apache.commons.math3.complex.Complex::::345::::12355::::12355::::c::::this.add(this.sqrt1z().multiply(org.apache.commons.math3.complex.Complex.I))	false	13.3496
+org.apache.commons.math3.complex.Complex::::345::::12355::::12355::::c::::this.add(org.apache.commons.math3.complex.Complex.I).divide(org.apache.commons.math3.complex.Complex.I.subtract(this)).log()	false	13.367733333333332
+org.apache.commons.math3.complex.Complex::::345::::12355::::12355::::c::::this.add(org.apache.commons.math3.complex.Complex.I).divide(org.apache.commons.math3.complex.Complex.I.subtract(this))	false	13.3866
+org.apache.commons.math3.complex.Complex::::345::::12355::::12355::::c::::this.add(org.apache.commons.math3.complex.Complex.I)	true	13.4957
+org.apache.commons.math3.complex.Complex::::345::::12355::::12355::::c::::org.apache.commons.math3.complex.Complex.I.subtract(this)	true	13.597816666666667
+org.apache.commons.math3.complex.Complex::::340::::12204::::12258::::if ((this) == other) {    return true;}::::INSERT::::STATEMENT::::if ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))) {    return org.apache.commons.math3.complex.Complex.INF;}	false	13.610883333333334
+org.apache.commons.math3.complex.Complex::::99::::3967::::3983::::this.real = real::::isInfinite = (!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary)))	false	13.619850000000001
+org.apache.commons.math3.complex.Complex::::100::::3993::::4019::::this.imaginary = imaginary::::isInfinite = (!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary)))	false	13.629883333333334
+org.apache.commons.math3.complex.Complex::::343::::12268::::12510::::if (other instanceof org.apache.commons.math3.complex.Complex) {    org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other));    if (c.isNaN) {        return isNaN;    }else {        return ((real) == (c.real)) && ((imaginary) == (c.imaginary));    }}::::INSERT::::STATEMENT::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	13.646216666666668
+org.apache.commons.math3.complex.Complex::::343::::12268::::12510::::if (other instanceof org.apache.commons.math3.complex.Complex) {    org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other));    if (c.isNaN) {        return isNaN;    }else {        return ((real) == (c.real)) && ((imaginary) == (c.imaginary));    }}::::INSERT::::STATEMENT::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return createComplex(0.0, 0.0);}	false	13.665116666666668
+org.apache.commons.math3.complex.Complex::::345::::12351::::12500::::if (c.isNaN) {    return isNaN;}else {    return ((real) == (c.real)) && ((imaginary) == (c.imaginary));}::::INSERT::::STATEMENT::::org.apache.commons.math3.complex.Complex.I.divide(createComplex(2.0, 0.0))	false	13.69675
+org.apache.commons.math3.complex.Complex::::340::::12204::::12258::::if ((this) == other) {    return true;}::::INSERT::::STATEMENT::::if ((real) < (-20.0)) {    return createComplex((-1.0), 0.0);}	false	13.713750000000001
+org.apache.commons.math3.complex.Complex::::340::::12204::::12258::::if ((this) == other) {    return true;}::::INSERT::::STATEMENT::::if ((isNaN) || (java.lang.Double.isInfinite(real))) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	13.734833333333334
+org.apache.commons.math3.complex.Complex::::340::::12204::::12258::::if ((this) == other) {    return true;}::::INSERT::::STATEMENT::::if ((isNaN) || (java.lang.Double.isInfinite(imaginary))) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	13.75445
+org.apache.commons.math3.complex.Complex::::340::::12204::::12258::::if ((this) == other) {    return true;}::::INSERT::::STATEMENT::::if ((imaginary) < (-20.0)) {    return createComplex(0.0, (-1.0));}	false	13.772416666666667
+org.apache.commons.math3.complex.Complex::::300::::10839::::10843::::isNaN::::INSERT::::STATEMENT::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	13.783199999999999
+org.apache.commons.math3.complex.Complex::::345::::12351::::12500::::if (c.isNaN) {    return isNaN;}else {    return ((real) == (c.real)) && ((imaginary) == (c.imaginary));}::::INSERT::::STATEMENT::::if (isNaN) {    return 7;}	false	13.799916666666666
+org.apache.commons.math3.complex.Complex::::102::::4038::::4082::::java.lang.Double.isNaN(real)) || (java.lang.Double.isNaN(imaginary)::::(real) >= 0.0	false	13.831383333333333
+org.apache.commons.math3.complex.Complex::::343::::12268::::12510::::if (other instanceof org.apache.commons.math3.complex.Complex) {    org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other));    if (c.isNaN) {        return isNaN;    }else {        return ((real) == (c.real)) && ((imaginary) == (c.imaginary));    }}::::INSERT::::STATEMENT::::if ((this) == other) {    return true;}	false	13.851233333333333
+org.apache.commons.math3.complex.Complex::::340::::12204::::12258::::if ((this) == other) {    return true;}::::INSERT::::STATEMENT::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	13.865316666666667
+org.apache.commons.math3.complex.Complex::::348::::12474::::12474::::c::::!(isInfinite()) ? org.apache.commons.math3.complex.Complex.ZERO : org.apache.commons.math3.complex.Complex.NaN	false	13.877749999999999
+org.apache.commons.math3.complex.Complex::::348::::12449::::12449::::c::::!(isInfinite()) ? org.apache.commons.math3.complex.Complex.ZERO : org.apache.commons.math3.complex.Complex.NaN	false	13.8922
+org.apache.commons.math3.complex.Complex::::343::::12268::::12510::::if (other instanceof org.apache.commons.math3.complex.Complex) {    org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other));    if (c.isNaN) {        return isNaN;    }else {        return ((real) == (c.real)) && ((imaginary) == (c.imaginary));    }}::::INSERT::::STATEMENT::::if ((real) > 20.0) {    return createComplex(1.0, 0.0);}	false	13.905666666666667
+org.apache.commons.math3.complex.Complex::::343::::12268::::12510::::if (other instanceof org.apache.commons.math3.complex.Complex) {    org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other));    if (c.isNaN) {        return isNaN;    }else {        return ((real) == (c.real)) && ((imaginary) == (c.imaginary));    }}::::INSERT::::STATEMENT::::if ((imaginary) > 20.0) {    return createComplex(0.0, 1.0);}	false	13.923283333333334
+org.apache.commons.math3.complex.Complex::::304::::10891::::10962::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if (isInfinite) {    return org.apache.commons.math3.complex.Complex.ZERO;}	false	13.9538
+org.apache.commons.math3.complex.Complex::::345::::12355::::12355::::c::::!(isInfinite()) ? org.apache.commons.math3.complex.Complex.ZERO : org.apache.commons.math3.complex.Complex.NaN	false	13.972783333333332
+org.apache.commons.math3.complex.Complex::::343::::12268::::12510::::if (other instanceof org.apache.commons.math3.complex.Complex) {    org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other));    if (c.isNaN) {        return isNaN;    }else {        return ((real) == (c.real)) && ((imaginary) == (c.imaginary));    }}::::INSERT::::STATEMENT::::if ((real) < (-20.0)) {    return createComplex((-1.0), 0.0);}	false	13.991916666666667
+org.apache.commons.math3.complex.Complex::::343::::12268::::12510::::if (other instanceof org.apache.commons.math3.complex.Complex) {    org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other));    if (c.isNaN) {        return isNaN;    }else {        return ((real) == (c.real)) && ((imaginary) == (c.imaginary));    }}::::INSERT::::STATEMENT::::if ((isNaN) || (java.lang.Double.isInfinite(real))) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	14.008633333333334
+org.apache.commons.math3.complex.Complex::::343::::12268::::12510::::if (other instanceof org.apache.commons.math3.complex.Complex) {    org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other));    if (c.isNaN) {        return isNaN;    }else {        return ((real) == (c.real)) && ((imaginary) == (c.imaginary));    }}::::INSERT::::STATEMENT::::if ((isNaN) || (java.lang.Double.isInfinite(imaginary))) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	14.026116666666667
+org.apache.commons.math3.complex.Complex::::343::::12268::::12510::::if (other instanceof org.apache.commons.math3.complex.Complex) {    org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other));    if (c.isNaN) {        return isNaN;    }else {        return ((real) == (c.real)) && ((imaginary) == (c.imaginary));    }}::::INSERT::::STATEMENT::::if ((imaginary) < (-20.0)) {    return createComplex(0.0, (-1.0));}	false	14.044633333333334
+org.apache.commons.math3.complex.Complex::::100::::4010::::4018::::imaginary::::org.apache.commons.math3.util.FastMath.abs(real)	false	14.075466666666667
+org.apache.commons.math3.complex.Complex::::343::::12268::::12510::::if (other instanceof org.apache.commons.math3.complex.Complex) {    org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other));    if (c.isNaN) {        return isNaN;    }else {        return ((real) == (c.real)) && ((imaginary) == (c.imaginary));    }}::::INSERT::::STATEMENT::::if ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))) {    return org.apache.commons.math3.complex.Complex.INF;}	false	14.093433333333333
+org.apache.commons.math3.complex.Complex::::340::::12204::::12258::::if ((this) == other) {    return true;}::::INSERT::::STATEMENT::::if ((real) == 0.0) {    return org.apache.commons.math3.util.FastMath.abs(imaginary);}	false	14.107333333333335
+org.apache.commons.math3.complex.Complex::::340::::12204::::12258::::if ((this) == other) {    return true;}::::INSERT::::STATEMENT::::if ((imaginary) == 0.0) {    return org.apache.commons.math3.util.FastMath.abs(real);}	false	14.120133333333333
+org.apache.commons.math3.complex.Complex::::103::::4106::::4111::::!(isNaN)::::DELETE::::INFIX	false	14.120266666666668
+org.apache.commons.math3.complex.Complex::::102::::4073::::4081::::imaginary::::org.apache.commons.math3.util.FastMath.abs(real)	false	14.144316666666667
+org.apache.commons.math3.complex.Complex::::305::::10942::::10952::::return org.apache.commons.math3.complex.Complex.NaN::::INSERT::::STATEMENT::::if (isNaN) {    return 7;}	false	14.158816666666667
+org.apache.commons.math3.complex.Complex::::100::::3993::::4006::::this.imaginary::::-(real)	false	14.178166666666668
+org.apache.commons.math3.complex.Complex::::304::::10895::::10898::::real::::2.0 * (imaginary)	false	14.20115
+org.apache.commons.math3.complex.Complex::::300::::10839::::10843::::isNaN::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))	false	14.210766666666666
+org.apache.commons.math3.complex.Complex::::343::::12268::::12510::::if (other instanceof org.apache.commons.math3.complex.Complex) {    org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other));    if (c.isNaN) {        return isNaN;    }else {        return ((real) == (c.real)) && ((imaginary) == (c.imaginary));    }}::::INSERT::::STATEMENT::::if ((real) == 0.0) {    return org.apache.commons.math3.util.FastMath.abs(imaginary);}	false	14.2335
+org.apache.commons.math3.complex.Complex::::343::::12268::::12510::::if (other instanceof org.apache.commons.math3.complex.Complex) {    org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other));    if (c.isNaN) {        return isNaN;    }else {        return ((real) == (c.real)) && ((imaginary) == (c.imaginary));    }}::::INSERT::::STATEMENT::::if ((imaginary) == 0.0) {    return org.apache.commons.math3.util.FastMath.abs(real);}	false	14.251483333333335
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::2.0 * (real)	false	14.283116666666666
+org.apache.commons.math3.complex.Complex::::99::::3979::::3982::::real::::org.apache.commons.math3.util.FastMath.abs(imaginary)	false	14.326600000000001
+org.apache.commons.math3.complex.Complex::::103::::4093::::4185::::isInfinite = (!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary)))::::this.real = real	false	14.335816666666666
+org.apache.commons.math3.complex.Complex::::103::::4093::::4185::::isInfinite = (!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary)))::::this.imaginary = imaginary	false	14.346383333333334
+org.apache.commons.math3.complex.Complex::::1228::::41441::::41449::::imaginary::::(org.apache.commons.math3.util.FastMath.abs(real)) + (abs())	false	14.373899999999999
+org.apache.commons.math3.complex.Complex::::1228::::41441::::41449::::imaginary::::((org.apache.commons.math3.util.FastMath.abs(real)) + (abs())) / 2.0	false	14.400683333333335
+org.apache.commons.math3.complex.Complex::::102::::4060::::4082::::java.lang.Double.isNaN(imaginary)::::DELETE::::INFIX	false	14.427950000000001
+org.apache.commons.math3.complex.Complex::::102::::4038::::4055::::java.lang.Double.isNaN(real)::::DELETE::::INFIX	false	14.4281
+org.apache.commons.math3.complex.Complex::::340::::12204::::12258::::if ((this) == other) {    return true;}::::INSERT::::STATEMENT::::if (isInfinite) {    return org.apache.commons.math3.complex.Complex.ZERO;}	false	14.445400000000001
+org.apache.commons.math3.complex.Complex::::304::::10891::::10962::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if (isNaN) {    return 7;}	false	14.463183333333335
+org.apache.commons.math3.complex.Complex::::102::::4051::::4054::::real::::org.apache.commons.math3.util.FastMath.abs(imaginary)	false	14.490816666666666
+org.apache.commons.math3.complex.Complex::::300::::10839::::10843::::isNaN::::isNaN) || (java.lang.Double.isInfinite(real)	false	14.501083333333334
+org.apache.commons.math3.complex.Complex::::300::::10839::::10843::::isNaN::::isNaN) || (java.lang.Double.isInfinite(imaginary)	false	14.512166666666667
+org.apache.commons.math3.complex.Complex::::103::::4106::::4184::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))::::(real) >= 0.0	false	14.538866666666667
+org.apache.commons.math3.complex.Complex::::1228::::41427::::41430::::real::::real) / (imaginary	false	14.547949999999998
+org.apache.commons.math3.complex.Complex::::1228::::41427::::41430::::real::::imaginary) / (real	false	14.557549999999999
+org.apache.commons.math3.complex.Complex::::1228::::41441::::41449::::imaginary::::real) / (imaginary	false	14.566966666666668
+org.apache.commons.math3.complex.Complex::::1228::::41441::::41449::::imaginary::::imaginary) / (real	false	14.581866666666667
+org.apache.commons.math3.complex.Complex::::102::::4030::::4034::::isNaN::::isInfinite	false	14.59855
+org.apache.commons.math3.complex.Complex::::343::::12268::::12510::::if (other instanceof org.apache.commons.math3.complex.Complex) {    org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other));    if (c.isNaN) {        return isNaN;    }else {        return ((real) == (c.real)) && ((imaginary) == (c.imaginary));    }}::::INSERT::::STATEMENT::::if (isInfinite) {    return org.apache.commons.math3.complex.Complex.ZERO;}	false	14.6158
+org.apache.commons.math3.complex.Complex::::340::::12204::::12258::::if ((this) == other) {    return true;}::::INSERT::::STATEMENT::::if (isNaN) {    return 7;}	false	14.63345
+org.apache.commons.math3.complex.Complex::::300::::10839::::10843::::isNaN::::INSERT::::STATEMENT::::if ((org.apache.commons.math3.util.FastMath.abs(real)) < (org.apache.commons.math3.util.FastMath.abs(imaginary))) {    double q = (real) / (imaginary);    double scale = 1.0 / (((real) * q) + (imaginary));    return createComplex((scale * q), (-scale));}else {    double q = (imaginary) / (real);    double scale = 1.0 / (((imaginary) * q) + (real));    return createComplex(scale, ((-scale) * q));}	false	14.642566666666665
+org.apache.commons.math3.complex.Complex::::103::::4107::::4111::::isNaN::::isInfinite	false	14.659483333333332
+org.apache.commons.math3.complex.Complex::::98::::3939::::3944::::double::::int	false	14.68225
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::(org.apache.commons.math3.util.FastMath.abs(real)) + (abs())	false	14.705116666666667
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::((org.apache.commons.math3.util.FastMath.abs(real)) + (abs())) / 2.0	false	14.725050000000001
+org.apache.commons.math3.complex.Complex::::98::::3926::::3931::::double::::int	false	14.7382
+org.apache.commons.math3.complex.Complex::::343::::12268::::12510::::if (other instanceof org.apache.commons.math3.complex.Complex) {    org.apache.commons.math3.complex.Complex c = ((org.apache.commons.math3.complex.Complex) (other));    if (c.isNaN) {        return isNaN;    }else {        return ((real) == (c.real)) && ((imaginary) == (c.imaginary));    }}::::INSERT::::STATEMENT::::if (isNaN) {    return 7;}	false	14.753083333333333
+org.apache.commons.math3.complex.Complex::::348::::12441::::12444::::real::::2.0 * (imaginary)	false	14.775383333333334
+org.apache.commons.math3.complex.Complex::::1228::::41427::::41430::::real::::this.imaginary	false	14.795483333333333
+org.apache.commons.math3.complex.Complex::::348::::12461::::12469::::imaginary::::2.0 * (real)	false	14.814916666666667
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::scale	false	14.82725
+org.apache.commons.math3.complex.Complex::::300::::10835::::10880::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::org.apache.commons.math3.complex.Complex.I.divide(createComplex(2.0, 0.0))	false	14.847299999999999
+org.apache.commons.math3.complex.Complex::::304::::10895::::10898::::real::::scale	false	14.859466666666666
+org.apache.commons.math3.complex.Complex::::304::::10895::::10898::::real::::real) / (imaginary	false	14.867016666666666
+org.apache.commons.math3.complex.Complex::::304::::10895::::10898::::real::::imaginary) / (real	false	14.874500000000001
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::(real) * q	false	14.887699999999999
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::(imaginary) * q	false	14.902933333333333
+org.apache.commons.math3.complex.Complex::::304::::10895::::10898::::real::::(real) * q	false	14.926549999999999
+org.apache.commons.math3.complex.Complex::::304::::10895::::10898::::real::::(imaginary) * q	false	14.947816666666666
+org.apache.commons.math3.complex.Complex::::1228::::41427::::41430::::real::::-(imaginary)	false	14.968866666666665
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::real) / (imaginary	false	14.980816666666668
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::imaginary) / (real	false	14.994366666666668
+org.apache.commons.math3.complex.Complex::::300::::10835::::10880::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if ((org.apache.commons.math3.util.FastMath.abs(real)) < (org.apache.commons.math3.util.FastMath.abs(imaginary))) {    double q = (real) / (imaginary);    double scale = 1.0 / (((real) * q) + (imaginary));    return createComplex((scale * q), (-scale));}else {    double q = (imaginary) / (real);    double scale = 1.0 / (((imaginary) * q) + (real));    return createComplex(scale, ((-scale) * q));}	false	15.0183
+org.apache.commons.math3.complex.Complex::::99::::3979::::3982::::real::::2.0 * (imaginary)	false	15.071833333333332
+org.apache.commons.math3.complex.Complex::::300::::10835::::10880::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return createComplex(0.0, 0.0);}	false	15.0974
+org.apache.commons.math3.complex.Complex::::300::::10839::::10843::::isNaN::::INSERT::::STATEMENT::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	15.110433333333333
+org.apache.commons.math3.complex.Complex::::304::::10895::::10898::::real::::this.imaginary	false	15.1454
+org.apache.commons.math3.complex.Complex::::102::::4030::::4034::::isNaN::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))	false	15.16055
+org.apache.commons.math3.complex.Complex::::300::::10839::::10843::::isNaN::::INSERT::::STATEMENT::::if ((real) < (-20.0)) {    return createComplex((-1.0), 0.0);}	false	15.173133333333334
+org.apache.commons.math3.complex.Complex::::300::::10839::::10843::::isNaN::::INSERT::::STATEMENT::::if ((imaginary) < (-20.0)) {    return createComplex(0.0, (-1.0));}	false	15.184483333333333
+org.apache.commons.math3.complex.Complex::::100::::4010::::4018::::imaginary::::2.0 * (real)	false	15.2089
+org.apache.commons.math3.complex.Complex::::348::::12461::::12469::::imaginary::::(org.apache.commons.math3.util.FastMath.abs(real)) + (abs())	false	15.24085
+org.apache.commons.math3.complex.Complex::::348::::12461::::12469::::imaginary::::((org.apache.commons.math3.util.FastMath.abs(real)) + (abs())) / 2.0	false	15.280366666666668
+org.apache.commons.math3.complex.Complex::::300::::10839::::10843::::isNaN::::INSERT::::STATEMENT::::if ((real) > 20.0) {    return createComplex(1.0, 0.0);}	false	15.29225
+org.apache.commons.math3.complex.Complex::::300::::10839::::10843::::isNaN::::INSERT::::STATEMENT::::if ((imaginary) > 20.0) {    return createComplex(0.0, 1.0);}	false	15.304566666666666
+org.apache.commons.math3.complex.Complex::::300::::10839::::10843::::isNaN::::INSERT::::STATEMENT::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return createComplex(0.0, 0.0);}	false	15.318883333333334
+org.apache.commons.math3.complex.Complex::::102::::4073::::4081::::imaginary::::2.0 * (real)	false	15.356333333333334
+org.apache.commons.math3.complex.Complex::::300::::10835::::10880::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if (((real) == 0.0) && ((imaginary) == 0.0)) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	15.384683333333333
+org.apache.commons.math3.complex.Complex::::103::::4107::::4111::::isNaN::::!(isNaN)) && ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))	false	15.395100000000001
+org.apache.commons.math3.complex.Complex::::103::::4107::::4111::::isNaN::::isNaN) || (java.lang.Double.isInfinite(real)	false	15.4056
+org.apache.commons.math3.complex.Complex::::103::::4107::::4111::::isNaN::::isNaN) || (java.lang.Double.isInfinite(imaginary)	false	15.415899999999999
+org.apache.commons.math3.complex.Complex::::300::::10835::::10880::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if ((real) > 20.0) {    return createComplex(1.0, 0.0);}	false	15.443383333333333
+org.apache.commons.math3.complex.Complex::::300::::10835::::10880::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if ((imaginary) > 20.0) {    return createComplex(0.0, 1.0);}	false	15.472133333333334
+org.apache.commons.math3.complex.Complex::::304::::10895::::10898::::real::::-(imaginary)	false	15.500033333333333
+org.apache.commons.math3.complex.Complex::::102::::4051::::4054::::real::::2.0 * (imaginary)	false	15.527216666666668
+org.apache.commons.math3.complex.Complex::::102::::4030::::4034::::isNaN::::isNaN) || (java.lang.Double.isInfinite(real)	false	15.537533333333332
+org.apache.commons.math3.complex.Complex::::102::::4030::::4034::::isNaN::::isNaN) || (java.lang.Double.isInfinite(imaginary)	false	15.547883333333335
+org.apache.commons.math3.complex.Complex::::300::::10839::::10843::::isNaN::::INSERT::::STATEMENT::::if ((isNaN) || (java.lang.Double.isInfinite(real))) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	15.558466666666668
+org.apache.commons.math3.complex.Complex::::300::::10839::::10843::::isNaN::::INSERT::::STATEMENT::::if ((isNaN) || (java.lang.Double.isInfinite(imaginary))) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	15.567783333333333
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::this.real	false	15.595383333333332
+org.apache.commons.math3.complex.Complex::::300::::10835::::10880::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if ((real) < (-20.0)) {    return createComplex((-1.0), 0.0);}	false	15.620650000000001
+org.apache.commons.math3.complex.Complex::::300::::10835::::10880::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if ((isNaN) || (java.lang.Double.isInfinite(real))) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	15.651033333333334
+org.apache.commons.math3.complex.Complex::::300::::10835::::10880::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if ((isNaN) || (java.lang.Double.isInfinite(imaginary))) {    return org.apache.commons.math3.complex.Complex.NaN;}	false	15.687983333333333
+org.apache.commons.math3.complex.Complex::::300::::10835::::10880::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if ((imaginary) < (-20.0)) {    return createComplex(0.0, (-1.0));}	false	15.738949999999999
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::((real) * q) + (imaginary)	false	15.76605
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::((imaginary) * q) + (real)	false	15.794983333333333
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::q * q	false	15.828533333333333
+org.apache.commons.math3.complex.Complex::::348::::12441::::12444::::real::::real) / (imaginary	false	15.854099999999999
+org.apache.commons.math3.complex.Complex::::348::::12441::::12444::::real::::imaginary) / (real	false	15.883816666666666
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::1 + (q * q)	false	15.9146
+org.apache.commons.math3.complex.Complex::::304::::10895::::10898::::real::::((real) * q) + (imaginary)	false	15.932116666666667
+org.apache.commons.math3.complex.Complex::::304::::10895::::10898::::real::::((imaginary) * q) + (real)	false	15.950783333333334
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::-scale	false	15.969133333333334
+org.apache.commons.math3.complex.Complex::::304::::10895::::10898::::real::::q * q	false	15.984983333333334
+org.apache.commons.math3.complex.Complex::::348::::12461::::12469::::imaginary::::real) / (imaginary	false	16.002533333333336
+org.apache.commons.math3.complex.Complex::::348::::12461::::12469::::imaginary::::imaginary) / (real	false	16.019766666666666
+org.apache.commons.math3.complex.Complex::::300::::10835::::10880::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if (isInfinite) {    return org.apache.commons.math3.complex.Complex.ZERO;}	false	16.057016666666666
+org.apache.commons.math3.complex.Complex::::304::::10895::::10898::::real::::1 + (q * q)	false	16.0851
+org.apache.commons.math3.complex.Complex::::300::::10835::::10880::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))) {    return org.apache.commons.math3.complex.Complex.INF;}	false	16.13481666666667
+org.apache.commons.math3.complex.Complex::::304::::10895::::10898::::real::::-scale	false	16.171083333333332
+org.apache.commons.math3.complex.Complex::::300::::10839::::10843::::isNaN::::INSERT::::STATEMENT::::org.apache.commons.math3.complex.Complex.I.divide(createComplex(2.0, 0.0))	false	16.186433333333333
+org.apache.commons.math3.complex.Complex::::100::::4010::::4018::::imaginary::::(org.apache.commons.math3.util.FastMath.abs(real)) + (abs())	false	16.247116666666667
+org.apache.commons.math3.complex.Complex::::300::::10835::::10880::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if ((real) == 0.0) {    return org.apache.commons.math3.util.FastMath.abs(imaginary);}	false	16.284883333333333
+org.apache.commons.math3.complex.Complex::::100::::4010::::4018::::imaginary::::((org.apache.commons.math3.util.FastMath.abs(real)) + (abs())) / 2.0	false	16.306266666666666
+org.apache.commons.math3.complex.Complex::::300::::10839::::10843::::isNaN::::INSERT::::STATEMENT::::if ((java.lang.Double.isInfinite(real)) || (java.lang.Double.isInfinite(imaginary))) {    return org.apache.commons.math3.complex.Complex.INF;}	false	16.314049999999998
+org.apache.commons.math3.complex.Complex::::102::::4073::::4081::::imaginary::::(org.apache.commons.math3.util.FastMath.abs(real)) + (abs())	false	16.335583333333332
+org.apache.commons.math3.complex.Complex::::102::::4073::::4081::::imaginary::::((org.apache.commons.math3.util.FastMath.abs(real)) + (abs())) / 2.0	false	16.363933333333332
+org.apache.commons.math3.complex.Complex::::1228::::41441::::41449::::imaginary::::-(real)	false	16.39135
+org.apache.commons.math3.complex.Complex::::348::::12441::::12444::::real::::this.imaginary	false	16.42175
+org.apache.commons.math3.complex.Complex::::99::::3979::::3982::::real::::real) / (imaginary	false	16.436133333333334
+org.apache.commons.math3.complex.Complex::::99::::3979::::3982::::real::::imaginary) / (real	false	16.453583333333334
+org.apache.commons.math3.complex.Complex::::300::::10835::::10880::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if ((imaginary) == 0.0) {    return org.apache.commons.math3.util.FastMath.abs(real);}	false	16.476583333333334
+org.apache.commons.math3.complex.Complex::::300::::10839::::10843::::isNaN::::INSERT::::STATEMENT::::if ((real) == 0.0) {    return org.apache.commons.math3.util.FastMath.abs(imaginary);}	false	16.48518333333333
+org.apache.commons.math3.complex.Complex::::300::::10839::::10843::::isNaN::::INSERT::::STATEMENT::::if ((imaginary) == 0.0) {    return org.apache.commons.math3.util.FastMath.abs(real);}	false	16.497983333333334
+org.apache.commons.math3.complex.Complex::::348::::12441::::12444::::real::::-(imaginary)	false	16.526416666666666
+org.apache.commons.math3.complex.Complex::::100::::4010::::4018::::imaginary::::real) / (imaginary	false	16.553816666666666
+org.apache.commons.math3.complex.Complex::::100::::4010::::4018::::imaginary::::imaginary) / (real	false	16.56765
+org.apache.commons.math3.complex.Complex::::102::::4073::::4081::::imaginary::::real) / (imaginary	false	16.588283333333333
+org.apache.commons.math3.complex.Complex::::102::::4073::::4081::::imaginary::::imaginary) / (real	false	16.606333333333332
+org.apache.commons.math3.complex.Complex::::102::::4051::::4054::::real::::real) / (imaginary	false	16.631666666666668
+org.apache.commons.math3.complex.Complex::::102::::4051::::4054::::real::::imaginary) / (real	false	16.65065
+org.apache.commons.math3.complex.Complex::::300::::10835::::10880::::if (isNaN) {    return org.apache.commons.math3.complex.Complex.NaN;}::::INSERT::::STATEMENT::::if (isNaN) {    return 7;}	false	16.669766666666668
+org.apache.commons.math3.complex.Complex::::102::::4051::::4054::::real::::this.imaginary	false	16.70446666666667
+org.apache.commons.math3.complex.Complex::::348::::12461::::12469::::imaginary::::this.real	false	16.7614
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::(imaginary) - ((real) * q)	false	16.807883333333333
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::((imaginary) * q) - (real)	false	16.8343
+org.apache.commons.math3.complex.Complex::::102::::4073::::4081::::imaginary::::this.real	false	16.86045
+org.apache.commons.math3.complex.Complex::::304::::10895::::10898::::real::::(imaginary) - ((real) * q)	false	16.877766666666666
+org.apache.commons.math3.complex.Complex::::304::::10895::::10898::::real::::((imaginary) * q) - (real)	false	16.895766666666667
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::-(real)	false	16.922183333333333
+org.apache.commons.math3.complex.Complex::::100::::4010::::4018::::imaginary::::this.real	false	16.9508
+org.apache.commons.math3.complex.Complex::::300::::10839::::10843::::isNaN::::INSERT::::STATEMENT::::if (isInfinite) {    return org.apache.commons.math3.complex.Complex.ZERO;}	false	16.961949999999998
+org.apache.commons.math3.complex.Complex::::99::::3979::::3982::::real::::this.imaginary	false	16.978366666666666
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::scale * q	false	16.99575
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::(-scale) * q	false	17.012716666666666
+org.apache.commons.math3.complex.Complex::::99::::3979::::3982::::real::::-(imaginary)	false	17.040966666666666
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::1.0 / (((real) * q) + (imaginary))	false	17.062566666666665
+org.apache.commons.math3.complex.Complex::::304::::10910::::10918::::imaginary::::1.0 / (((imaginary) * q) + (real))	false	17.07885
+org.apache.commons.math3.complex.Complex::::304::::10895::::10898::::real::::scale * q	false	17.090683333333335
+org.apache.commons.math3.complex.Complex::::304::::10895::::10898::::real::::(-scale) * q	false	17.10213333333333
+org.apache.commons.math3.complex.Complex::::102::::4051::::4054::::real::::-(imaginary)	false	17.12105
+org.apache.commons.math3.complex.Complex::::304::::10895::::10898::::real::::1.0 / (((real) * q) + (imaginary))	false	17.133466666666667
+org.apache.commons.math3.complex.Complex::::304::::10895::::10898::::real::::1.0 / (((imaginary) * q) + (real))	false	17.1456
+org.apache.commons.math3.complex.Complex::::300::::10839::::10843::::isNaN::::INSERT::::STATEMENT::::if (isNaN) {    return 7;}	false	17.153000000000002
+org.apache.commons.math3.complex.Complex::::348::::12461::::12469::::imaginary::::-(real)	false	17.1726
+org.apache.commons.math3.complex.Complex::::102::::4073::::4081::::imaginary::::-(real)	false	17.19271666666667
+org.apache.commons.math3.complex.Complex::::100::::4010::::4018::::imaginary::::-(real)	false	17.212933333333336
+org.apache.commons.math3.complex.Complex::::348::::12441::::12444::::real::::c.imaginary	false	17.23265
+org.apache.commons.math3.complex.Complex::::348::::12461::::12469::::imaginary::::c.real	false	17.25248333333333

@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/stat/Frequency.java
++++ fixed/org/apache/commons/math/stat/Frequency.java
+@@ -383,7 +383,8 @@ public class Frequency implements Serializable {
+             return 0;
+         }
+         if (v instanceof Integer) {
+-            return getCumFreq(((Integer) v).longValue());
++            return getCumFreq(c.compare(v, nextValue),((java.lang.Integer) (v)).longValue())
++;
+         }
+         Comparator<Comparable<?>> c = (Comparator<Comparable<?>>) freqTable.comparator();
+         if (c == null) {

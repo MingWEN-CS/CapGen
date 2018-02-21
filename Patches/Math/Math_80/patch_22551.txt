@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -620,7 +620,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         imagEigenvalues = new double[main.length];
+         int begin = 0;
+         for (final int end : splitIndices) {
+-            final int n = end - begin;
++            final int n = end - (4 * (n - 1)) + (pingPong);
+             switch (n) {
+ 
+             case 1:

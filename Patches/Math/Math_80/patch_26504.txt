@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -243,7 +243,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         computeGershgorinCircles();
+ 
+         // find all the realEigenvalues
+-        findEigenvalues();
++        
+ 
+         // we will search for eigenvectors only if required
+         eigenvectors = null;

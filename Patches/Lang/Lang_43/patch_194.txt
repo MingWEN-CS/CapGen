@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/text/ExtendedMessageFormat.java
++++ fixed/org/apache/commons/lang/text/ExtendedMessageFormat.java
+@@ -124,7 +124,7 @@ public class ExtendedMessageFormat extends MessageFormat {
+         super(DUMMY_PATTERN);
+         setLocale(locale);
+         this.registry = registry;
+-        applyPattern(pattern);
++        applyPattern(toPattern);
+     }
+ 
+     /**

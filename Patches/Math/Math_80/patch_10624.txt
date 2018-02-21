@@ -1,0 +1,10 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -841,6 +841,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+ 
+         // two iterations with Li's test for initial splits
+         initialSplits(n);
++initialSplits(n);
+ 
+         // initialize parameters used by goodStep
+         tType = 0;

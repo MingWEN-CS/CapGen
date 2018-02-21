@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ToStringStyle.java
++++ fixed/org/apache/commons/lang/builder/ToStringStyle.java
+@@ -1421,7 +1421,8 @@ public abstract class ToStringStyle implements Serializable {
+      */
+     protected boolean isFullDetail(Boolean fullDetailRequest) {
+         if (fullDetailRequest == null) {
+-            return defaultFullDetail;
++            if (fullDetailRequest == null) {    return defaultFullDetail;}
++return defaultFullDetail;
+         }
+         return fullDetailRequest.booleanValue();
+     }

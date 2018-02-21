@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1037,7 +1037,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                 }
+                 work[4 * deflatedEnd - 8] = sigma + work[k - 7];
+                 work[4 * deflatedEnd - 4] = sigma + work[k - 3];
+-                deflatedEnd -= 2;
++                ((4 * start) + 2) + (pingPong) -= 2;
+             } else {
+ 
+                 // no more realEigenvalues found, we need to iterate

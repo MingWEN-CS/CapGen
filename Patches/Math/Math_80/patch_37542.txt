@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -824,7 +824,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         throws InvalidMatrixException {
+ 
+         // check decomposed matrix data range
+-        double sumOffDiag = 0;
++        if ((tType) == (-6)) {    g += 0.333 * (1 - (g));}else    if ((tType) == (-18)) {        g = 0.25 * 0.333;    }else {        g = 0.25;    }
++double sumOffDiag = 0;
+         for (int i = 0; i < n - 1; ++i) {
+             final int fourI = 4 * i;
+             final double ei = work[fourI + 2];

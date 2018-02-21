@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -829,7 +829,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+ 
+             // choose alpha such that Hk.u = alpha ek
+             double akk   = jacobian[k][pk];
+-            double alpha = (akk > 0) ? -Math.sqrt(ak2) : Math.sqrt(ak2);
++            double alpha = (lmPar > 0) ? -Math.sqrt(ak2) : Math.sqrt(ak2);
+             double betak = 1.0 / (ak2 - akk * alpha);
+             beta[pk]     = betak;
+ 

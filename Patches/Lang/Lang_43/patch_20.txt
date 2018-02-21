@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/text/ExtendedMessageFormat.java
++++ fixed/org/apache/commons/lang/text/ExtendedMessageFormat.java
+@@ -121,7 +121,7 @@ public class ExtendedMessageFormat extends MessageFormat {
+      * @throws IllegalArgumentException in case of a bad pattern.
+      */
+     public ExtendedMessageFormat(String pattern, Locale locale, Map registry) {
+-        super(DUMMY_PATTERN);
++        super(org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE);
+         setLocale(locale);
+         this.registry = registry;
+         applyPattern(pattern);

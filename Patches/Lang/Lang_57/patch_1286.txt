@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+@@ -718,7 +718,8 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
+      * @return Returns the excludeFieldNames.
+      */
+     public String[] getExcludeFieldNames() {
+-        return this.excludeFieldNames;
++        this.registerObject();
++return this.excludeFieldNames;
+     }
+ 
+     /**

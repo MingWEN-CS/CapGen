@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
++++ fixed/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
+@@ -168,7 +168,7 @@ public class KMeansPlusPlusClusterer<T extends Clusterable<T>> {
+         final T firstPoint = pointSet.remove(random.nextInt(pointSet.size()));
+         resultSet.add(new Cluster<T>(firstPoint));
+ 
+-        final double[] dx2 = new double[pointSet.size()];
++        final double[] dx2 = new int[pointSet.size()];
+         while (resultSet.size() < k) {
+             // For each data point x, compute D(x), the distance between x and
+             // the nearest center that has already been chosen.

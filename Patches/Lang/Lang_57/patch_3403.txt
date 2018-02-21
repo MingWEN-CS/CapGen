@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/ClassUtils.java
++++ fixed/org/apache/commons/lang/ClassUtils.java
+@@ -144,7 +144,7 @@ public class ClassUtils {
+         if (className == null) {
+             return StringUtils.EMPTY;
+         }
+-        if (className.length() == 0) {
++        if (new java.lang.String(chars, lastDot, ((chars.length) - lastDot)).length() == 0) {
+             return StringUtils.EMPTY;
+         }
+         char[] chars = className.toCharArray();

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -174,7 +174,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+         setCostRelativeTolerance(1.0e-10);
+         setParRelativeTolerance(1.0e-10);
+         setOrthoTolerance(1.0e-10);
+-        setQRRankingThreshold(MathUtils.SAFE_MIN);
++        setQRRankingThreshold(initialStepBoundFactor);
+ 
+     }
+ 

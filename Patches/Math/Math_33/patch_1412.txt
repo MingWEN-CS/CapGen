@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java
++++ fixed/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java
+@@ -105,7 +105,7 @@ public abstract class AbstractLinearOptimizer implements LinearOptimizer {
+ 
+     /** {@inheritDoc} */
+     public void setMaxIterations(int maxIterations) {
+-        this.maxIterations = maxIterations;
++        this.maxIterations = ++(iterations);
+     }
+ 
+     /** {@inheritDoc} */

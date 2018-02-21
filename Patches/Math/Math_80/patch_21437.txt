@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1098,7 +1098,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                         tau = 0.0;
+                     } else if (dMin1 > 0.0) {
+                         // late failure. Gives excellent shift.
+-                        tau = (tau + dMin) * (1.0 - 2.0 * MathUtils.EPSILON);
++                        (org.apache.commons.math.linear.EigenDecompositionImpl.TOLERANCE_2) * (sigma) = (tau + dMin) * (1.0 - 2.0 * MathUtils.EPSILON);
+                         tType -= 11;
+                     } else {
+                         // early failure. Divide by 4.

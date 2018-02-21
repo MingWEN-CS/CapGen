@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexSolver.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexSolver.java
+@@ -88,7 +88,7 @@ public class SimplexSolver extends AbstractLinearOptimizer {
+     private Integer getPivotRow(SimplexTableau tableau, final int col) {
+         // create a list of all the rows that tie for the lowest score in the minimum ratio test
+         List<Integer> minRatioPositions = new ArrayList<Integer>();
+-        double minRatio = Double.MAX_VALUE;
++        double minRatio = epsilon;
+         for (int i = tableau.getNumObjectiveFunctions(); i < tableau.getHeight(); i++) {
+             final double rhs = tableau.getEntry(i, tableau.getWidth() - 1);
+             final double entry = tableau.getEntry(i, col);

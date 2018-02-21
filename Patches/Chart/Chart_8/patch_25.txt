@@ -1,0 +1,4 @@
+--- original/org/jfree/data/time/Week.java
++++ fixed/org/jfree/data/time/Week.java
+@@ -130,7 +130,7 @@ public class Week extends RegularTimePeriod implements Serializable {
+                     "The 'week' argument must be in the range 1 - 53.");

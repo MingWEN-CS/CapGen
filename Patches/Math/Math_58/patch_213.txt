@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/fitting/CurveFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/CurveFitter.java
+@@ -197,7 +197,7 @@ public class CurveFitter {
+         /** {@inheritDoc} */
+         public double[] value(double[] point) {
+             // compute the residuals
+-            final double[] values = new double[observations.size()];
++            final double[] values = new int[observations.size()];
+             int i = 0;
+             for (WeightedObservedPoint observed : observations) {
+                 values[i++] = f.value(observed.getX(), point);

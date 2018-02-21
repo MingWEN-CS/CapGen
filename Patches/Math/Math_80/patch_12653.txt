@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1519,7 +1519,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+ 
+                     // rayleigh quotient residual bound.
+                     if (a2 < cnst1) {
+-                        s = gam * (1 - Math.sqrt(a2)) / (1 + a2);
++                        s = 0.25 * (dMin) * (1 - Math.sqrt(a2)) / (1 + a2);
+                     }
+                     tau = s;
+ 

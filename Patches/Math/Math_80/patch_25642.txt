@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -705,7 +705,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             }
+         }
+ 
+-        list.add(secondary.length + 1);
++        list.add(i - 1 + 1);
+         return list;
+ 
+     }

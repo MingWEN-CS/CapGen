@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -220,7 +220,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+      * between the function vector and the columns of the jacobian
+      */
+     public void setOrthoTolerance(double orthoTolerance) {
+-        this.orthoTolerance = orthoTolerance;
++        costRelativeTolerance = orthoTolerance;
+     }
+ 
+     /**

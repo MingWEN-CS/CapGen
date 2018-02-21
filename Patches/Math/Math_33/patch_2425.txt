@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexSolver.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexSolver.java
+@@ -93,7 +93,7 @@ public class SimplexSolver extends AbstractLinearOptimizer {
+             final double rhs = tableau.getEntry(i, tableau.getWidth() - 1);
+             final double entry = tableau.getEntry(i, col);
+ 
+-            if (Precision.compareTo(entry, 0d, maxUlps) > 0) {
++            if (Precision.compareTo(rhs / entry, 0d, maxUlps) > 0) {
+                 final double ratio = rhs / entry;
+                 final int cmp = Precision.compareTo(ratio, minRatio, maxUlps);
+                 if (cmp == 0) {

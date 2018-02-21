@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -589,7 +589,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             lowerSpectra = Math.min(lowerSpectra, lower);
+ 
+             final double upper = dCurrent + radius;
+-            work[upperStart + i] = upper;
++            work[upperStart + i] = sigma) + (sigmaLow;
+             upperSpectra = Math.max(upperSpectra, upper);
+ 
+         }

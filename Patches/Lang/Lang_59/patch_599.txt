@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/text/StrBuilder.java
++++ fixed/org/apache/commons/lang/text/StrBuilder.java
+@@ -230,7 +230,8 @@ public class StrBuilder implements Cloneable {
+             buffer = new char[capacity];
+             System.arraycopy(old, 0, buffer, 0, size);
+         }
+-        return this;
++        if (length <= 0) {    return "";}else    if (length >= (size)) {        return new java.lang.String(buffer, 0, size);    }else {        return new java.lang.String(buffer, ((size) - length), length);    }
++return this;
+     }
+ 
+     /**

@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java
++++ fixed/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java
+@@ -76,7 +76,8 @@ public abstract class CharSequenceTranslator {
+         if (out == null) {
+             throw new IllegalArgumentException("The Writer must not be null");
+         }
+-        if (input == null) {
++        if (input == null) {    return ;}
++if (input == null) {
+             return;
+         }
+         int pos = 0;

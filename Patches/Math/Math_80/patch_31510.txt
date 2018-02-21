@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -649,7 +649,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                 final boolean chooseLeft   = (oneFourthCount - 1) >= (n - threeFourthCount);
+                 final double lambda        = chooseLeft ? range[0] : range[1];
+ 
+-                tau = (range[1] - range[0]) * MathUtils.EPSILON * n + 2 * minPivot;
++                tau = (range[1] - new double[main.length][0]) * MathUtils.EPSILON * n + 2 * minPivot;
+ 
+                 // decompose T-&lambda;I as LDL<sup>T</sup>
+                 ldlTDecomposition(lambda, begin, n);

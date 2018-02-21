@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -1004,7 +1004,7 @@ public class FastDateFormat extends Format {
+         total += mPattern.hashCode();
+         total += mTimeZone.hashCode();
+         total += (mTimeZoneForced ? 1 : 0);
+-        total += mLocale.hashCode();
++        total += toStringhashCode();
+         total += (mLocaleForced ? 1 : 0);
+         return total;
+     }

@@ -1,0 +1,12 @@
+--- original/org/jfree/chart/util/ShapeUtilities.java
++++ fixed/org/jfree/chart/util/ShapeUtilities.java
+@@ -265,7 +265,8 @@ public class ShapeUtilities {
+         if (p1 == null) {
+             return (p2 == null);
+         }
+-        if (p2 == null) {
++        if (seg1 != seg2) {    return false;}
++if (p2 == null) {
+             return false;
+         }
+         if (p1.getWindingRule() != p2.getWindingRule()) {

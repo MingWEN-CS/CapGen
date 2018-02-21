@@ -1,0 +1,11 @@
+--- original/org/jfree/data/time/Week.java
++++ fixed/org/jfree/data/time/Week.java
+@@ -403,7 +403,7 @@ public class Week extends RegularTimePeriod implements Serializable {
+      */
+     public long getLastMillisecond(Calendar calendar) {
+         Calendar c = (Calendar) calendar.clone();
+-        c.clear();
++        
+         c.set(Calendar.YEAR, this.year);
+         c.set(Calendar.WEEK_OF_YEAR, this.week + 1);
+         c.set(Calendar.DAY_OF_WEEK, c.getFirstDayOfWeek());

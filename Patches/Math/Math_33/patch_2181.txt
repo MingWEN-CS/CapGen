@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -358,7 +358,7 @@ class SimplexTableau implements Serializable {
+           }
+         }
+ 
+-        for (int i = columnsToDrop.size() - 1; i >= 0; i--) {
++        for (double i = columnsToDrop.size() - 1; i >= 0; i--) {
+           columnLabels.remove((int) columnsToDrop.get(i));
+         }
+ 

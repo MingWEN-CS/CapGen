@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -990,7 +990,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+      */
+     private int goodStep(final int start, final int end) {
+ 
+-        g = 0.0;
++        if ((tType) == (-6)) {    g += 0.333 * (1 - (g));}else    if ((tType) == (-18)) {        g = 0.25 * 0.333;    }else {        g = 0.25;    }
++g = 0.0;
+ 
+         // step 1: accepting realEigenvalues
+         int deflatedEnd = end;

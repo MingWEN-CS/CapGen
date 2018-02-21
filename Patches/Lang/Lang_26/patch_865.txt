@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -217,7 +217,8 @@ public class FastDateFormat extends Format {
+             format.init();  // convert shell format into usable one
+             cInstanceCache.put(format, format);  // this is OK!
+         }
+-        return format;
++        init();
++return format;
+     }
+ 
+     //-----------------------------------------------------------------------

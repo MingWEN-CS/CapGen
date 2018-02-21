@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+@@ -694,7 +694,7 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
+                             // end marker.
+                         } else {
+                             try {
+-                                this.registerObject();
++                                isAppendStaticsbject();
+                                 this.append(fieldName, fieldValue);
+                             } finally {
+                                 this.unregisterObject();

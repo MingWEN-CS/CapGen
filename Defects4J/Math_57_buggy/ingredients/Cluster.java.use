@@ -1,0 +1,10 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+21160	point	T	param	54	define	org.apache.commons.math.stat.clustering.Cluster.addPoint	/home1/mwenaa/2016Summer/Bugs/Math_57_buggy/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java	54	56
+21160	point	T	param	55	use	org.apache.commons.math.stat.clustering.Cluster.addPoint	/home1/mwenaa/2016Summer/Bugs/Math_57_buggy/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java	54	56
+21164	Cluster.points	List<T>	variable	55	use	org.apache.commons.math.stat.clustering.Cluster.addPoint	/home1/mwenaa/2016Summer/Bugs/Math_57_buggy/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java	54	56
+21158	center	T	param	45	define	org.apache.commons.math.stat.clustering.Cluster.Cluster	/home1/mwenaa/2016Summer/Bugs/Math_57_buggy/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java	45	48
+21158	center	T	param	46	use	org.apache.commons.math.stat.clustering.Cluster.Cluster	/home1/mwenaa/2016Summer/Bugs/Math_57_buggy/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java	45	48
+21163	Cluster.center	T	variable	46	set	org.apache.commons.math.stat.clustering.Cluster.Cluster	/home1/mwenaa/2016Summer/Bugs/Math_57_buggy/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java	45	48
+21164	Cluster.points	List<T>	variable	47	set	org.apache.commons.math.stat.clustering.Cluster.Cluster	/home1/mwenaa/2016Summer/Bugs/Math_57_buggy/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java	45	48
+21163	Cluster.center	T	variable	71	use	org.apache.commons.math.stat.clustering.Cluster.getCenter	/home1/mwenaa/2016Summer/Bugs/Math_57_buggy/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java	70	72
+21164	Cluster.points	List<T>	variable	63	use	org.apache.commons.math.stat.clustering.Cluster.getPoints	/home1/mwenaa/2016Summer/Bugs/Math_57_buggy/src/main/java/org/apache/commons/math/stat/clustering/Cluster.java	62	64

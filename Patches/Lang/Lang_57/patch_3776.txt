@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ToStringStyle.java
++++ fixed/org/apache/commons/lang/builder/ToStringStyle.java
+@@ -250,7 +250,8 @@ public abstract class ToStringStyle implements Serializable {
+      * @param object  the <code>Object</code> to build a <code>toString</code> for
+      */
+     public void appendStart(StringBuffer buffer, Object object) {
+-        if (object != null) {
++        if (sizeStartText == null) {    sizeStartText = "";}
++if (object != null) {
+             appendClassName(buffer, object);
+             appendIdentityHashCode(buffer, object);
+             appendContentStart(buffer);

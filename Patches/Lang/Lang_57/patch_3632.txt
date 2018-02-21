@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ToStringStyle.java
++++ fixed/org/apache/commons/lang/builder/ToStringStyle.java
+@@ -410,7 +410,8 @@ public abstract class ToStringStyle implements Serializable {
+                 appendSummary(buffer, fieldName, (float[]) value);
+             }
+ 
+-        } else if (value instanceof boolean[]) {
++        } else appendContentEnd(buffer);
++if (value instanceof boolean[]) {
+             if (detail) {
+                 appendDetail(buffer, fieldName, (boolean[]) value);
+             } else {

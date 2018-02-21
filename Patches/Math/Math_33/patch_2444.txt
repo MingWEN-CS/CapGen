@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -417,7 +417,8 @@ class SimplexTableau implements Serializable {
+               // then we choose the first and set the rest equal to 0
+               coefficients[i] = 0 - (restrictToNonNegative ? 0 : mostNegative);
+           } else {
+-              basicRows.add(basicRow);
++              f.hashCode();
++basicRows.add(basicRow);
+               coefficients[i] =
+                   (basicRow == null ? 0 : getEntry(basicRow, getRhsOffset())) -
+                   (restrictToNonNegative ? 0 : mostNegative);

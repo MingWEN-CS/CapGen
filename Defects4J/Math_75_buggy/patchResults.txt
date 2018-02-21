@@ -1,0 +1,212 @@
+org.apache.commons.math.stat.Frequency::::158::::5649::::5674::::addValue(java.lang.Long.valueOf(v))::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::492::::15347::::15406::::if (sumFreq == 0) {    return java.lang.Double.NaN;}::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::138::::4981::::4983::::obj::::v	false
+org.apache.commons.math.stat.Frequency::::386::::11926::::11970::::return getCumFreq(((java.lang.Integer) (v)).longValue())::::INSERT::::STATEMENT::::if ((c.compare(v, nextValue)) > 0) {    result += getCount(nextValue);}else {    return result;}	false
+org.apache.commons.math.stat.Frequency::::397::::12280::::12306::::result = value.longValue()::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::386::::11933::::11969::::getCumFreq(((java.lang.Integer) (v)).longValue())::::INSERT::::PARAMETER::::getCumFreq(getCount(nextValue),((java.lang.Integer) (v)).longValue())	false
+org.apache.commons.math.stat.Frequency::::331::::10305::::10327::::getPct(java.lang.Long.valueOf(v))::::INSERT::::PARAMETER::::getPct(freqTable.hashCode(),java.lang.Long.valueOf(v))	false
+org.apache.commons.math.stat.Frequency::::395::::12227::::12227::::v::::nextValue	false
+org.apache.commons.math.stat.Frequency::::140::::5036::::5071::::freqTable.put(obj, java.lang.Long.valueOf(1))::::DELETE::::STATEMENT	false
+org.apache.commons.math.stat.Frequency::::397::::12280::::12285::::result::::(double) (getCumFreq(v))	false
+org.apache.commons.math.stat.Frequency::::403::::12439::::12476::::(c.compare(v, freqTable.firstKey())) < 0::::(c.compare(v, nextValue)) > 0	false
+org.apache.commons.math.stat.Frequency::::215::::7068::::7071::::long::::double	false
+org.apache.commons.math.stat.Frequency::::397::::12280::::12306::::result = value.longValue()::::INSERT::::STATEMENT::::if ((c.compare(v, nextValue)) > 0) {    result += getCount(nextValue);}else {    return result;}	false
+org.apache.commons.math.stat.Frequency::::256::::8303::::8316::::return result::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::251::::8102::::8128::::result = count.longValue()::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::444::::13720::::13729::::getCumFreq::::getCount	false
+org.apache.commons.math.stat.Frequency::::444::::13720::::13729::::getCumFreq::::getPct	false
+org.apache.commons.math.stat.Frequency::::317::::9920::::9979::::if (sumFreq == 0) {    return java.lang.Double.NaN;}::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::386::::11926::::11970::::return getCumFreq(((java.lang.Integer) (v)).longValue())::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::492::::15347::::15406::::if (sumFreq == 0) {    return java.lang.Double.NaN;}::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::408::::12627::::12646::::return getSumFreq()::::INSERT::::STATEMENT::::if (c == null) {    c = new org.apache.commons.math.stat.Frequency.NaturalComparator();}	false
+org.apache.commons.math.stat.Frequency::::320::::9989::::10035::::return ((double) (getCount(v))) / ((double) (sumFreq))::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::317::::9924::::9930::::sumFreq::::(double) (getCount(v))	false
+org.apache.commons.math.stat.Frequency::::303::::9492::::9500::::getCumPct::::addValue	false
+org.apache.commons.math.stat.Frequency::::407::::12573::::12610::::(c.compare(v, freqTable.lastKey())) >= 0::::c == null	false
+org.apache.commons.math.stat.Frequency::::247::::7978::::7981::::long::::int	false
+org.apache.commons.math.stat.Frequency::::386::::11933::::11942::::getCumFreq::::getCumPct	false
+org.apache.commons.math.stat.Frequency::::390::::12109::::12136::::c = new org.apache.commons.math.stat.Frequency.NaturalComparator()::::INSERT::::STATEMENT::::if (c == null) {    c = new org.apache.commons.math.stat.Frequency.NaturalComparator();}	false
+org.apache.commons.math.stat.Frequency::::133::::4821::::4821::::v::::obj	false
+org.apache.commons.math.stat.Frequency::::444::::13720::::13746::::getCumFreq(java.lang.Long.valueOf(v))::::INSERT::::PARAMETER::::getCumFreq(freqTable.hashCode(),java.lang.Long.valueOf(v))	false
+org.apache.commons.math.stat.Frequency::::331::::10305::::10310::::getPct::::getCumPct	false
+org.apache.commons.math.stat.Frequency::::256::::8303::::8316::::return result::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::158::::5649::::5656::::addValue::::getCumFreq	false
+org.apache.commons.math.stat.Frequency::::247::::7978::::7981::::long::::double	false
+org.apache.commons.math.stat.Frequency::::158::::5649::::5674::::addValue(java.lang.Long.valueOf(v))::::DELETE::::STATEMENT	false
+org.apache.commons.math.stat.Frequency::::386::::11933::::11942::::getCumFreq::::addValue	false
+org.apache.commons.math.stat.Frequency::::177::::6065::::6072::::addValue::::getCumFreq	false
+org.apache.commons.math.stat.Frequency::::342::::10599::::10621::::getPct(java.lang.Long.valueOf(v))::::INSERT::::PARAMETER::::getPct(freqTable.hashCode(),java.lang.Long.valueOf(v))	false
+org.apache.commons.math.stat.Frequency::::444::::13720::::13729::::getCumFreq::::addValue	false
+org.apache.commons.math.stat.Frequency::::177::::6065::::6090::::addValue(java.lang.Long.valueOf(v))::::INSERT::::PARAMETER::::addValue(freqTable.hashCode(),java.lang.Long.valueOf(v))	false
+org.apache.commons.math.stat.Frequency::::385::::11886::::11980::::if (v instanceof java.lang.Integer) {    return getCumFreq(((java.lang.Integer) (v)).longValue());}::::INSERT::::STATEMENT::::if (c == null) {    c = new org.apache.commons.math.stat.Frequency.NaturalComparator();}	false
+org.apache.commons.math.stat.Frequency::::495::::15449::::15454::::double::::long	false
+org.apache.commons.math.stat.Frequency::::316::::9898::::9907::::getSumFreq::::clear	false
+org.apache.commons.math.stat.Frequency::::389::::12080::::12146::::if (c == null) {    c = new org.apache.commons.math.stat.Frequency.NaturalComparator();}::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::250::::8069::::8081::::count != null::::count == null	false
+org.apache.commons.math.stat.Frequency::::390::::12109::::12136::::c = new org.apache.commons.math.stat.Frequency.NaturalComparator()::::INSERT::::STATEMENT::::if ((c.compare(v, nextValue)) > 0) {    result += getCount(nextValue);}else {    return result;}	false
+org.apache.commons.math.stat.Frequency::::342::::10599::::10604::::getPct::::getCumFreq	false
+org.apache.commons.math.stat.Frequency::::177::::6065::::6090::::addValue(java.lang.Long.valueOf(v))::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::134::::4832::::4926::::if (v instanceof java.lang.Integer) {    obj = java.lang.Long.valueOf(((java.lang.Integer) (v)).longValue());}::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::177::::6065::::6072::::addValue::::equals	false
+org.apache.commons.math.stat.Frequency::::386::::11933::::11969::::getCumFreq(((java.lang.Integer) (v)).longValue())::::INSERT::::PARAMETER::::getCumFreq(c.compare(v, nextValue),((java.lang.Integer) (v)).longValue())	false
+org.apache.commons.math.stat.Frequency::::491::::15304::::15337::::final long sumFreq = getSumFreq()::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::385::::11890::::11909::::v instanceof java.lang.Integer::::(c.compare(v, nextValue)) > 0	false
+org.apache.commons.math.stat.Frequency::::491::::15325::::15334::::getSumFreq::::toString	false
+org.apache.commons.math.stat.Frequency::::382::::11821::::11876::::if ((getSumFreq()) == 0) {    return 0;}::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::388::::11990::::12070::::java.util.Comparator<java.lang.Comparable<?>> c = ((java.util.Comparator<java.lang.Comparable<?>>) (freqTable.comparator()))::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::403::::12439::::12476::::(c.compare(v, freqTable.firstKey())) < 0::::c == null	false
+org.apache.commons.math.stat.Frequency::::320::::10005::::10015::::(double) (getCount(v))::::DELETE::::INFIX	false
+org.apache.commons.math.stat.Frequency::::385::::11886::::11980::::if (v instanceof java.lang.Integer) {    return getCumFreq(((java.lang.Integer) (v)).longValue());}::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::407::::12569::::12711::::if ((c.compare(v, freqTable.lastKey())) >= 0) {    return getSumFreq();}::::INSERT::::STATEMENT::::if (c == null) {    c = new org.apache.commons.math.stat.Frequency.NaturalComparator();}	false
+org.apache.commons.math.stat.Frequency::::320::::10028::::10034::::(double) (sumFreq)::::(double) (getCumFreq(v))	false
+org.apache.commons.math.stat.Frequency::::382::::11821::::11876::::if ((getSumFreq()) == 0) {    return 0;}::::INSERT::::STATEMENT::::if (c == null) {    c = new org.apache.commons.math.stat.Frequency.NaturalComparator();}	false
+org.apache.commons.math.stat.Frequency::::495::::15416::::15464::::return ((double) (getCumFreq(v))) / ((double) (sumFreq))::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::140::::5036::::5071::::freqTable.put(obj, java.lang.Long.valueOf(1))::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::444::::13744::::13744::::v::::getSumFreq()	false
+org.apache.commons.math.stat.Frequency::::139::::5003::::5015::::count == null::::count != null	false
+org.apache.commons.math.stat.Frequency::::388::::11990::::12070::::java.util.Comparator<java.lang.Comparable<?>> c = ((java.util.Comparator<java.lang.Comparable<?>>) (freqTable.comparator()))::::INSERT::::STATEMENT::::if ((c.compare(v, nextValue)) > 0) {    result += getCount(nextValue);}else {    return result;}	false
+org.apache.commons.math.stat.Frequency::::397::::12280::::12285::::result::::(double) (getCount(v))	false
+org.apache.commons.math.stat.Frequency::::134::::4836::::4836::::v::::obj	false
+org.apache.commons.math.stat.Frequency::::403::::12435::::12558::::if ((c.compare(v, freqTable.firstKey())) < 0) {    return 0;}::::INSERT::::STATEMENT::::if ((c.compare(v, nextValue)) > 0) {    result += getCount(nextValue);}else {    return result;}	false
+org.apache.commons.math.stat.Frequency::::392::::12156::::12159::::long::::double	false
+org.apache.commons.math.stat.Frequency::::133::::4801::::4822::::java.lang.Comparable<?> obj = v::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::386::::11933::::11969::::getCumFreq(((java.lang.Integer) (v)).longValue())::::INSERT::::PARAMETER::::getCumFreq(result,((java.lang.Integer) (v)).longValue())	false
+org.apache.commons.math.stat.Frequency::::331::::10305::::10310::::getPct::::getCount	false
+org.apache.commons.math.stat.Frequency::::215::::7068::::7071::::long::::int	false
+org.apache.commons.math.stat.Frequency::::495::::15432::::15444::::(double) (getCumFreq(v))::::DELETE::::INFIX	false
+org.apache.commons.math.stat.Frequency::::389::::12080::::12146::::if (c == null) {    c = new org.apache.commons.math.stat.Frequency.NaturalComparator();}::::INSERT::::STATEMENT::::if ((c.compare(v, nextValue)) > 0) {    result += getCount(nextValue);}else {    return result;}	false
+org.apache.commons.math.stat.Frequency::::382::::11825::::11836::::getSumFreq()::::DELETE::::INFIX	false
+org.apache.commons.math.stat.Frequency::::397::::12280::::12306::::result = value.longValue()::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::217::::7158::::7247::::while (iterator.hasNext()) {    result += iterator.next().longValue();} ::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::142::::5110::::5165::::freqTable.put(obj, java.lang.Long.valueOf(((count.longValue()) + 1)))::::DELETE::::STATEMENT	false
+org.apache.commons.math.stat.Frequency::::317::::9924::::9930::::sumFreq::::getSumFreq()	false
+org.apache.commons.math.stat.Frequency::::158::::5649::::5674::::addValue(java.lang.Long.valueOf(v))::::INSERT::::PARAMETER::::addValue(freqTable.hashCode(),java.lang.Long.valueOf(v))	false
+org.apache.commons.math.stat.Frequency::::142::::5110::::5165::::freqTable.put(obj, java.lang.Long.valueOf(((count.longValue()) + 1)))::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::386::::11955::::11955::::(java.lang.Integer) (v)::::v	false
+org.apache.commons.math.stat.Frequency::::444::::13720::::13729::::getCumFreq::::getCumPct	false
+org.apache.commons.math.stat.Frequency::::303::::9485::::9520::::return getCumPct(((java.lang.Comparable<?>) (v)))::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::392::::12156::::12171::::long result = 0::::INSERT::::STATEMENT::::if ((c.compare(v, nextValue)) > 0) {    result += getCount(nextValue);}else {    return result;}	false
+org.apache.commons.math.stat.Frequency::::388::::11990::::12070::::java.util.Comparator<java.lang.Comparable<?>> c = ((java.util.Comparator<java.lang.Comparable<?>>) (freqTable.comparator()))::::INSERT::::STATEMENT::::if (c == null) {    c = new org.apache.commons.math.stat.Frequency.NaturalComparator();}	false
+org.apache.commons.math.stat.Frequency::::389::::12080::::12146::::if (c == null) {    c = new org.apache.commons.math.stat.Frequency.NaturalComparator();}::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::177::::6065::::6072::::addValue::::getCount	false
+org.apache.commons.math.stat.Frequency::::491::::15310::::15313::::long::::double	false
+org.apache.commons.math.stat.Frequency::::382::::11825::::11834::::getSumFreq::::hashCode	false
+org.apache.commons.math.stat.Frequency::::316::::9898::::9907::::getSumFreq::::toString	false
+org.apache.commons.math.stat.Frequency::::303::::9492::::9500::::getCumPct::::getPct	correct
+org.apache.commons.math.stat.Frequency::::140::::5036::::5071::::freqTable.put(obj, java.lang.Long.valueOf(1))::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::220::::7257::::7270::::return result::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::317::::9924::::9930::::sumFreq::::(double) (getCumFreq(v))	false
+org.apache.commons.math.stat.Frequency::::177::::6065::::6072::::addValue::::getPct	false
+org.apache.commons.math.stat.Frequency::::392::::12156::::12171::::long result = 0::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::317::::9920::::9979::::if (sumFreq == 0) {    return java.lang.Double.NaN;}::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::386::::11933::::11942::::getCumFreq::::getCount	false
+org.apache.commons.math.stat.Frequency::::342::::10592::::10622::::return getPct(java.lang.Long.valueOf(v))::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::220::::7257::::7270::::return result::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::390::::12109::::12136::::c = new org.apache.commons.math.stat.Frequency.NaturalComparator()::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::320::::10020::::10025::::double::::int	false
+org.apache.commons.math.stat.Frequency::::342::::10599::::10604::::getPct::::getCumPct	false
+org.apache.commons.math.stat.Frequency::::217::::7158::::7247::::while (iterator.hasNext()) {    result += iterator.next().longValue();} ::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::407::::12569::::12711::::if ((c.compare(v, freqTable.lastKey())) >= 0) {    return getSumFreq();}::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::320::::9997::::10002::::double::::long	false
+org.apache.commons.math.stat.Frequency::::495::::15424::::15429::::double::::long	false
+org.apache.commons.math.stat.Frequency::::386::::11933::::11942::::getCumFreq::::getPct	false
+org.apache.commons.math.stat.Frequency::::385::::11886::::11980::::if (v instanceof java.lang.Integer) {    return getCumFreq(((java.lang.Integer) (v)).longValue());}::::INSERT::::STATEMENT::::if ((c.compare(v, nextValue)) > 0) {    result += getCount(nextValue);}else {    return result;}	false
+org.apache.commons.math.stat.Frequency::::385::::11886::::11980::::if (v instanceof java.lang.Integer) {    return getCumFreq(((java.lang.Integer) (v)).longValue());}::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::142::::5110::::5165::::freqTable.put(obj, java.lang.Long.valueOf(((count.longValue()) + 1)))::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::388::::11990::::12070::::java.util.Comparator<java.lang.Comparable<?>> c = ((java.util.Comparator<java.lang.Comparable<?>>) (freqTable.comparator()))::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::491::::15310::::15313::::long::::int	false
+org.apache.commons.math.stat.Frequency::::140::::5050::::5052::::obj::::v	false
+org.apache.commons.math.stat.Frequency::::331::::10305::::10310::::getPct::::addValue	false
+org.apache.commons.math.stat.Frequency::::342::::10599::::10604::::getPct::::equals	false
+org.apache.commons.math.stat.Frequency::::444::::13720::::13729::::getCumFreq::::equals	false
+org.apache.commons.math.stat.Frequency::::177::::6065::::6072::::addValue::::getCumPct	false
+org.apache.commons.math.stat.Frequency::::142::::5124::::5126::::obj::::v	false
+org.apache.commons.math.stat.Frequency::::382::::11821::::11876::::if ((getSumFreq()) == 0) {    return 0;}::::INSERT::::STATEMENT::::if ((c.compare(v, nextValue)) > 0) {    result += getCount(nextValue);}else {    return result;}	false
+org.apache.commons.math.stat.Frequency::::389::::12080::::12146::::if (c == null) {    c = new org.apache.commons.math.stat.Frequency.NaturalComparator();}::::INSERT::::STATEMENT::::if (c == null) {    c = new org.apache.commons.math.stat.Frequency.NaturalComparator();}	false
+org.apache.commons.math.stat.Frequency::::247::::7978::::7993::::long result = 0::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::408::::12627::::12646::::return getSumFreq()::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::303::::9518::::9518::::(java.lang.Comparable<?>) (v)::::v	false
+org.apache.commons.math.stat.Frequency::::386::::11933::::11942::::getCumFreq::::equals	false
+org.apache.commons.math.stat.Frequency::::158::::5649::::5656::::addValue::::equals	false
+org.apache.commons.math.stat.Frequency::::342::::10619::::10619::::v::::getSumFreq()	false
+org.apache.commons.math.stat.Frequency::::407::::12569::::12711::::if ((c.compare(v, freqTable.lastKey())) >= 0) {    return getSumFreq();}::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::320::::10028::::10034::::(double) (sumFreq)::::getSumFreq()	false
+org.apache.commons.math.stat.Frequency::::177::::6065::::6090::::addValue(java.lang.Long.valueOf(v))::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::342::::10599::::10604::::getPct::::addValue	false
+org.apache.commons.math.stat.Frequency::::382::::11821::::11876::::if ((getSumFreq()) == 0) {    return 0;}::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::320::::10028::::10034::::(double) (sumFreq)::::(double) (getCount(v))	false
+org.apache.commons.math.stat.Frequency::::216::::7093::::7148::::java.util.Iterator<java.lang.Long> iterator = freqTable.values().iterator()::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::491::::15304::::15337::::final long sumFreq = getSumFreq()::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::158::::5649::::5656::::addValue::::getCumPct	false
+org.apache.commons.math.stat.Frequency::::316::::9883::::9886::::long::::int	false
+org.apache.commons.math.stat.Frequency::::407::::12569::::12711::::if ((c.compare(v, freqTable.lastKey())) >= 0) {    return getSumFreq();}::::INSERT::::STATEMENT::::if ((c.compare(v, nextValue)) > 0) {    result += getCount(nextValue);}else {    return result;}	false
+org.apache.commons.math.stat.Frequency::::303::::9485::::9520::::return getCumPct(((java.lang.Comparable<?>) (v)))::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::403::::12439::::12476::::(c.compare(v, freqTable.firstKey())) < 0::::v instanceof java.lang.Integer	false
+org.apache.commons.math.stat.Frequency::::316::::9898::::9907::::getSumFreq::::hashCode	false
+org.apache.commons.math.stat.Frequency::::215::::7068::::7083::::long result = 0::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::216::::7093::::7148::::java.util.Iterator<java.lang.Long> iterator = freqTable.values().iterator()::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::407::::12583::::12583::::v::::nextValue	false
+org.apache.commons.math.stat.Frequency::::382::::11825::::11834::::getSumFreq::::toString	false
+org.apache.commons.math.stat.Frequency::::392::::12156::::12171::::long result = 0::::INSERT::::STATEMENT::::if (c == null) {    c = new org.apache.commons.math.stat.Frequency.NaturalComparator();}	false
+org.apache.commons.math.stat.Frequency::::342::::10599::::10604::::getPct::::getCount	false
+org.apache.commons.math.stat.Frequency::::495::::15457::::15463::::(double) (sumFreq)::::sumFreq	false
+org.apache.commons.math.stat.Frequency::::386::::11933::::11969::::getCumFreq(((java.lang.Integer) (v)).longValue())::::INSERT::::PARAMETER::::getCumFreq(freqTable.hashCode(),((java.lang.Integer) (v)).longValue())	false
+org.apache.commons.math.stat.Frequency::::491::::15325::::15334::::getSumFreq::::clear	false
+org.apache.commons.math.stat.Frequency::::495::::15424::::15429::::double::::int	false
+org.apache.commons.math.stat.Frequency::::392::::12156::::12159::::long::::int	false
+org.apache.commons.math.stat.Frequency::::408::::12627::::12646::::return getSumFreq()::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::386::::11926::::11970::::return getCumFreq(((java.lang.Integer) (v)).longValue())::::INSERT::::STATEMENT::::if (c == null) {    c = new org.apache.commons.math.stat.Frequency.NaturalComparator();}	false
+org.apache.commons.math.stat.Frequency::::407::::12573::::12610::::(c.compare(v, freqTable.lastKey())) >= 0::::(c.compare(v, nextValue)) > 0	false
+org.apache.commons.math.stat.Frequency::::385::::11890::::11890::::v::::nextValue	false
+org.apache.commons.math.stat.Frequency::::403::::12439::::12476::::(c.compare(v, freqTable.firstKey())) < 0::::(freqTable) == null	false
+org.apache.commons.math.stat.Frequency::::177::::6065::::6090::::addValue(java.lang.Long.valueOf(v))::::DELETE::::STATEMENT	false
+org.apache.commons.math.stat.Frequency::::303::::9492::::9500::::getCumPct::::equals	false
+org.apache.commons.math.stat.Frequency::::331::::10305::::10310::::getPct::::getCumFreq	false
+org.apache.commons.math.stat.Frequency::::158::::5649::::5656::::addValue::::getCount	false
+org.apache.commons.math.stat.Frequency::::403::::12439::::12439::::c::::new org.apache.commons.math.stat.Frequency.NaturalComparator()	false
+org.apache.commons.math.stat.Frequency::::386::::11926::::11970::::return getCumFreq(((java.lang.Integer) (v)).longValue())::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::303::::9492::::9500::::getCumPct::::getCount	false
+org.apache.commons.math.stat.Frequency::::331::::10298::::10328::::return getPct(java.lang.Long.valueOf(v))::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::320::::9997::::10002::::double::::int	false
+org.apache.commons.math.stat.Frequency::::142::::5142::::5158::::count.longValue()::::DELETE::::INFIX	false
+org.apache.commons.math.stat.Frequency::::403::::12435::::12558::::if ((c.compare(v, freqTable.firstKey())) < 0) {    return 0;}::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::342::::10592::::10622::::return getPct(java.lang.Long.valueOf(v))::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::316::::9877::::9910::::final long sumFreq = getSumFreq()::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::392::::12156::::12171::::long result = 0::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::408::::12634::::12643::::getSumFreq::::clear	false
+org.apache.commons.math.stat.Frequency::::408::::12634::::12643::::getSumFreq::::hashCode	false
+org.apache.commons.math.stat.Frequency::::244::::7876::::7968::::if (v instanceof java.lang.Integer) {    return getCount(((java.lang.Integer) (v)).longValue());}::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::316::::9883::::9886::::long::::double	false
+org.apache.commons.math.stat.Frequency::::397::::12280::::12285::::result::::getSumFreq()	false
+org.apache.commons.math.stat.Frequency::::320::::10028::::10034::::(double) (sumFreq)::::sumFreq	false
+org.apache.commons.math.stat.Frequency::::320::::10020::::10025::::double::::long	false
+org.apache.commons.math.stat.Frequency::::382::::11825::::11834::::getSumFreq::::clear	false
+org.apache.commons.math.stat.Frequency::::320::::9989::::10035::::return ((double) (getCount(v))) / ((double) (sumFreq))::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::397::::12280::::12306::::result = value.longValue()::::INSERT::::STATEMENT::::if (c == null) {    c = new org.apache.commons.math.stat.Frequency.NaturalComparator();}	false
+org.apache.commons.math.stat.Frequency::::407::::12573::::12610::::(c.compare(v, freqTable.lastKey())) >= 0::::(freqTable) == null	false
+org.apache.commons.math.stat.Frequency::::403::::12435::::12558::::if ((c.compare(v, freqTable.firstKey())) < 0) {    return 0;}::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::444::::13713::::13747::::return getCumFreq(java.lang.Long.valueOf(v))::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::407::::12573::::12573::::c::::new org.apache.commons.math.stat.Frequency.NaturalComparator()	false
+org.apache.commons.math.stat.Frequency::::495::::15449::::15454::::double::::int	false
+org.apache.commons.math.stat.Frequency::::495::::15416::::15464::::return ((double) (getCumFreq(v))) / ((double) (sumFreq))::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::316::::9877::::9910::::final long sumFreq = getSumFreq()::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::134::::4832::::4926::::if (v instanceof java.lang.Integer) {    obj = java.lang.Long.valueOf(((java.lang.Integer) (v)).longValue());}::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::389::::12084::::12092::::c == null::::(c.compare(v, nextValue)) > 0	false
+org.apache.commons.math.stat.Frequency::::444::::13713::::13747::::return getCumFreq(java.lang.Long.valueOf(v))::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::303::::9492::::9500::::getCumPct::::getCumFreq	false
+org.apache.commons.math.stat.Frequency::::403::::12435::::12558::::if ((c.compare(v, freqTable.firstKey())) < 0) {    return 0;}::::INSERT::::STATEMENT::::if (c == null) {    c = new org.apache.commons.math.stat.Frequency.NaturalComparator();}	false
+org.apache.commons.math.stat.Frequency::::133::::4801::::4822::::java.lang.Comparable<?> obj = v::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::386::::11955::::11955::::(java.lang.Integer) (v)::::nextValue	false
+org.apache.commons.math.stat.Frequency::::491::::15325::::15334::::getSumFreq::::hashCode	false
+org.apache.commons.math.stat.Frequency::::408::::12634::::12643::::getSumFreq::::toString	false
+org.apache.commons.math.stat.Frequency::::251::::8102::::8128::::result = count.longValue()::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::408::::12627::::12646::::return getSumFreq()::::INSERT::::STATEMENT::::if ((c.compare(v, nextValue)) > 0) {    result += getCount(nextValue);}else {    return result;}	false
+org.apache.commons.math.stat.Frequency::::403::::12439::::12472::::c.compare(v, freqTable.firstKey())::::DELETE::::INFIX	false
+org.apache.commons.math.stat.Frequency::::158::::5649::::5674::::addValue(java.lang.Long.valueOf(v))::::INSERT::::STATEMENT::::if ((getSumFreq()) == 0) {    return 0;}	false
+org.apache.commons.math.stat.Frequency::::331::::10298::::10328::::return getPct(java.lang.Long.valueOf(v))::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::407::::12573::::12605::::c.compare(v, freqTable.lastKey())::::DELETE::::INFIX	false
+org.apache.commons.math.stat.Frequency::::407::::12573::::12610::::(c.compare(v, freqTable.lastKey())) >= 0::::v instanceof java.lang.Integer	false
+org.apache.commons.math.stat.Frequency::::158::::5649::::5656::::addValue::::getPct	false
+org.apache.commons.math.stat.Frequency::::244::::7876::::7968::::if (v instanceof java.lang.Integer) {    return getCount(((java.lang.Integer) (v)).longValue());}::::INSERT::::STATEMENT::::freqTable.clear()	false
+org.apache.commons.math.stat.Frequency::::331::::10305::::10310::::getPct::::equals	false
+org.apache.commons.math.stat.Frequency::::403::::12449::::12449::::v::::nextValue	false

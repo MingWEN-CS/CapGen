@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
++++ fixed/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
+@@ -220,7 +220,7 @@ public class UnivariateRealSolverUtils {
+      * @return the midpoint.
+      */
+     public static double midpoint(double a, double b) {
+-        return (a + b) * .5;
++        return a;
+     }
+ 
+     /**

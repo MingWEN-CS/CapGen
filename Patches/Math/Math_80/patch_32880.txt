@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1173,7 +1173,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         final double margin = 2 * (tNorm * MathUtils.EPSILON * n + 2 * minPivot);
+ 
+         // search lower eigenvalue
+-        double left  = lower - margin;
++        decompose();
++double left  = lower - margin;
+         double right = upper + margin;
+         for (int i = 0; i < maxIter; ++i) {
+ 

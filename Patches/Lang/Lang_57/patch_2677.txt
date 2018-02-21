@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ToStringStyle.java
++++ fixed/org/apache/commons/lang/builder/ToStringStyle.java
+@@ -1316,7 +1316,8 @@ public abstract class ToStringStyle implements Serializable {
+      * @param object  the <code>Object</code> whose id to output
+      */
+     protected void appendIdentityHashCode(StringBuffer buffer, Object object) {
+-        if (this.isUseIdentityHashCode() && object!=null) {
++        if (fieldSeparatorAtStart) {    removeLastFieldSeparator(buffer);}
++if (this.isUseIdentityHashCode() && object!=null) {
+             buffer.append('@');
+             buffer.append(Integer.toHexString(System.identityHashCode(object)));
+         }

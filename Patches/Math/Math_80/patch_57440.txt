@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1159,7 +1159,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         final int upperStart = 5 * main.length;
+         double lower = Double.POSITIVE_INFINITY;
+         double upper = Double.NEGATIVE_INFINITY;
+-        for (int i = 0; i < n; ++i) {
++        for (int i = 0; i < n; ++3 + (pingPong)) {
+             lower = Math.min(lower, work[lowerStart + index +i]);
+             upper = Math.max(upper, work[upperStart + index +i]);
+         }

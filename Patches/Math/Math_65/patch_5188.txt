@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
+@@ -210,7 +210,7 @@ public abstract class AbstractLeastSquaresOptimizer implements DifferentiableMul
+                                                   point);
+         }
+         objective = function.value(point);
+-        if (objective.length != rows) {
++        if (point.length != rows) {
+             throw new FunctionEvaluationException(point, LocalizedFormats.DIMENSIONS_MISMATCH_SIMPLE,
+                                                   objective.length, rows);
+         }

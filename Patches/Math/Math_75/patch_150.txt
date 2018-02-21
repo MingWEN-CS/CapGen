@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/stat/Frequency.java
++++ fixed/org/apache/commons/math/stat/Frequency.java
+@@ -130,7 +130,8 @@ public class Frequency implements Serializable {
+      * @throws IllegalArgumentException if <code>v</code> is not comparable with previous entries
+      */
+     public void addValue(Comparable<?> v){
+-        Comparable<?> obj = v;
++        freqTable.clear();
++Comparable<?> obj = v;
+         if (v instanceof Integer) {
+            obj = Long.valueOf(((Integer) v).longValue());
+         }

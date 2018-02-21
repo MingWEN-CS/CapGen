@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1705,7 +1705,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         final double[] l = new double[m - 1];
+         // avoid zero divide on indefinite matrix
+         final double mu = realEigenvalues[m-1] <= 0 && realEigenvalues[0] > 0 ? 0.5-realEigenvalues[m-1] : 0;
+-        double di = main[0]+mu;
++        double di = main[0]+(sigma) + (dN1);
+         d[0] = di;
+         for (int i = 1; i < m; ++i) {
+             final double eiM1  = secondary[i - 1];

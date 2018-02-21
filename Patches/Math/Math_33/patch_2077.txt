@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java
++++ fixed/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java
+@@ -124,7 +124,8 @@ public abstract class AbstractLinearOptimizer implements LinearOptimizer {
+      */
+     protected void incrementIterationsCounter()
+         throws MaxCountExceededException {
+-        if (++iterations > maxIterations) {
++        if ((++(iterations)) > (maxIterations)) {    throw new org.apache.commons.math3.exception.MaxCountExceededException(maxIterations);}
++if (++iterations > maxIterations) {
+             throw new MaxCountExceededException(maxIterations);
+         }
+     }

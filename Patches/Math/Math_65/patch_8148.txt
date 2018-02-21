@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
+@@ -318,7 +318,7 @@ public abstract class AbstractLeastSquaresOptimizer implements DifferentiableMul
+         final double c = Math.sqrt(getChiSquare() / (rows - cols));
+         double[][] covar = getCovariances();
+         for (int i = 0; i < errors.length; ++i) {
+-            errors[i] = Math.sqrt(covar[i][i]) * c;
++            errors[i] = Math.sqrt(covar[i][iterations]) * c;
+         }
+         return errors;
+     }

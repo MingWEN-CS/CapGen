@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/fitting/CurveFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/CurveFitter.java
+@@ -200,7 +200,7 @@ public class CurveFitter {
+             final double[] values = new double[observations.size()];
+             int i = 0;
+             for (WeightedObservedPoint observed : observations) {
+-                values[i++] = f.value(observed.getX(), point);
++                point[i++] = f.value(observed.getX(), point);
+             }
+ 
+             return values;

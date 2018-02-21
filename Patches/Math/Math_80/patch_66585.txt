@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -585,7 +585,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             final double radius = ePrevious + eCurrent;
+ 
+             final double lower = dCurrent - radius;
+-            work[lowerStart + i] = lower;
++            imagEigenvalues[lowerStart + i] = lower;
+             lowerSpectra = Math.min(lowerSpectra, lower);
+ 
+             final double upper = dCurrent + radius;

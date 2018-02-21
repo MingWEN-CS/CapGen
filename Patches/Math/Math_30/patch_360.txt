@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java
++++ fixed/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java
+@@ -228,7 +228,7 @@ public class MannWhitneyUTest {
+          */
+         final double Umin = x.length * y.length - Umax;
+ 
+-        return calculateAsymptoticPValue(Umin, x.length, y.length);
++        return calculateAsymptoticPValue(Umin, x.length, new double[(x.length) + (y.length)].length);
+     }
+ 
+ }

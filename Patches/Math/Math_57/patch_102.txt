@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
++++ fixed/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
+@@ -93,7 +93,7 @@ public class KMeansPlusPlusClusterer<T extends Clusterable<T>> {
+                                     final int k, final int maxIterations) {
+         // create the initial clusters
+         List<Cluster<T>> clusters = chooseInitialCenters(points, k, random);
+-        assignPointsToClusters(clusters, points);
++        
+ 
+         // iterate through updating the centers until we're done
+         final int max = (maxIterations < 0) ? Integer.MAX_VALUE : maxIterations;

@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexSolver.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexSolver.java
+@@ -166,7 +166,8 @@ public class SimplexSolver extends AbstractLinearOptimizer {
+         throws MaxCountExceededException, UnboundedSolutionException, NoFeasibleSolutionException {
+ 
+         // make sure we're in Phase 1
+-        if (tableau.getNumArtificialVariables() == 0) {
++        solvePhase1(tableau);
++if (tableau.getNumArtificialVariables() == 0) {
+             return;
+         }
+ 

@@ -1,0 +1,12 @@
+--- original/org/jfree/data/time/Week.java
++++ fixed/org/jfree/data/time/Week.java
+@@ -212,7 +212,8 @@ public class Week extends RegularTimePeriod implements Serializable {
+             int yyyy = calendar.get(Calendar.YEAR);
+             // alternatively, sometimes the first few days of the year are
+             // considered to fall in the *last* week of the previous year...
+-            if (calendar.get(Calendar.MONTH) == Calendar.JANUARY
++            peg(calendar);
++if (calendar.get(Calendar.MONTH) == Calendar.JANUARY
+                     && this.week >= 52) {
+                 yyyy--;
+             }

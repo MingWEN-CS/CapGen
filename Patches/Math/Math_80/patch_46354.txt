@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1375,7 +1375,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         }
+ 
+         // Unroll last two steps
+-        dN2   = d;
++        computeGershgorinCircles();
++dN2   = d;
+         dMin2 = dMin;
+         int j4 = 4 * (end - 2) - pingPong - 1;
+         int j4p2 = j4 + 2 * pingPong - 1;

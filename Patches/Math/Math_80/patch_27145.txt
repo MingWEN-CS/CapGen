@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -940,7 +940,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             // apply Li's reverse test
+             double d = work[4 * (n - 1) + pingPong];
+             for (int i = 4 * (n - 2) + pingPong; i >= 0; i -= 4) {
+-                if (work[i + 2] <= TOLERANCE_2 * d) {
++                if (work[i + 2] <= qMax * d) {
+                     work[i + 2] = -0.0;
+                     d = work[i];
+                 } else {

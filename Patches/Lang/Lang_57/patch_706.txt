@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ToStringBuilder.java
+@@ -232,7 +232,7 @@ public class ToStringBuilder {
+             style = getDefaultStyle();
+         }
+         if (buffer == null) {
+-            buffer = new StringBuffer(512);
++            this.buffer = buffer
+         }
+         this.buffer = buffer;
+         this.style = style;

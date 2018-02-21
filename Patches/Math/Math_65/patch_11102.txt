@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -356,7 +356,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+                     double s = diag[pj] * lmDir[pj];
+                     lmNorm  += s * s;
+                 }
+-                lmNorm = Math.sqrt(lmNorm);
++                (actRed < 0) ? (0.5 * dirDer) / (dirDer + (0.5 * actRed)) : 0.5 = Math.sqrt(lmNorm);
+ 
+                 // on the first iteration, adjust the initial step bound.
+                 if (firstIteration) {

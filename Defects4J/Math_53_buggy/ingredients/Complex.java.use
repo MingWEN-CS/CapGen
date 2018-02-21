@@ -1,0 +1,324 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+26299	q	double	variable	122	define	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+26300	q	double	variable	128	define	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+26299	q	double	variable	122	set	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+26300	q	double	variable	128	set	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+26389	Complex.isNaN	transient boolean	variable	110	use	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+8581	Double.NaN	double	variable	111	use	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+8582	Double.POSITIVE_INFINITY	double	variable	115	use	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+26390	Complex.real	double	variable	118	use	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+26387	Complex.imaginary	double	variable	118	use	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+26387	Complex.imaginary	double	variable	119	use	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+26390	Complex.real	double	variable	120	use	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+26390	Complex.real	double	variable	122	use	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+26387	Complex.imaginary	double	variable	122	use	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+26387	Complex.imaginary	double	variable	123	use	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+26299	q	double	variable	123	use	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+26299	q	double	variable	123	use	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+26390	Complex.real	double	variable	125	use	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+26387	Complex.imaginary	double	variable	126	use	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+26387	Complex.imaginary	double	variable	128	use	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+26390	Complex.real	double	variable	128	use	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+26390	Complex.real	double	variable	129	use	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+26300	q	double	variable	129	use	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+26300	q	double	variable	129	use	org.apache.commons.math.complex.Complex.abs	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	109	129
+26389	Complex.isNaN	transient boolean	variable	475	use	org.apache.commons.math.complex.Complex.acos	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	474	480
+26384	Complex.NaN	Complex	variable	476	use	org.apache.commons.math.complex.Complex.acos	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	474	480
+26382	Complex.I	Complex	variable	479	use	org.apache.commons.math.complex.Complex.acos	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	474	480
+26382	Complex.I	Complex	variable	480	use	org.apache.commons.math.complex.Complex.acos	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	474	480
+26304	rhs	Complex	param	150	define	org.apache.commons.math.complex.Complex.add	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	150	155
+26304	rhs	Complex	param	152	use	org.apache.commons.math.complex.Complex.add	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	150	155
+26304	rhs	Complex	param	153	use	org.apache.commons.math.complex.Complex.add	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	150	155
+26304	rhs	Complex	param	154	use	org.apache.commons.math.complex.Complex.add	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	150	155
+26390	Complex.real	double	variable	153	use	org.apache.commons.math.complex.Complex.add	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	150	155
+26387	Complex.imaginary	double	variable	154	use	org.apache.commons.math.complex.Complex.add	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	150	155
+26389	Complex.isNaN	transient boolean	variable	498	use	org.apache.commons.math.complex.Complex.asin	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	497	503
+26384	Complex.NaN	Complex	variable	499	use	org.apache.commons.math.complex.Complex.asin	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	497	503
+26382	Complex.I	Complex	variable	502	use	org.apache.commons.math.complex.Complex.asin	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	497	503
+26382	Complex.I	Complex	variable	503	use	org.apache.commons.math.complex.Complex.asin	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	497	503
+26389	Complex.isNaN	transient boolean	variable	521	use	org.apache.commons.math.complex.Complex.atan	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	520	526
+26384	Complex.NaN	Complex	variable	522	use	org.apache.commons.math.complex.Complex.atan	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	520	526
+26382	Complex.I	Complex	variable	525	use	org.apache.commons.math.complex.Complex.atan	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	520	526
+26382	Complex.I	Complex	variable	525	use	org.apache.commons.math.complex.Complex.atan	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	520	526
+26382	Complex.I	Complex	variable	526	use	org.apache.commons.math.complex.Complex.atan	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	520	526
+26295	real	double	param	89	define	org.apache.commons.math.complex.Complex.Complex	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	89	96
+26294	imaginary	double	param	89	define	org.apache.commons.math.complex.Complex.Complex	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	89	96
+26295	real	double	param	91	use	org.apache.commons.math.complex.Complex.Complex	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	89	96
+26294	imaginary	double	param	92	use	org.apache.commons.math.complex.Complex.Complex	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	89	96
+26295	real	double	param	94	use	org.apache.commons.math.complex.Complex.Complex	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	89	96
+26294	imaginary	double	param	94	use	org.apache.commons.math.complex.Complex.Complex	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	89	96
+26295	real	double	param	96	use	org.apache.commons.math.complex.Complex.Complex	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	89	96
+26294	imaginary	double	param	96	use	org.apache.commons.math.complex.Complex.Complex	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	89	96
+26390	Complex.real	double	variable	91	set	org.apache.commons.math.complex.Complex.Complex	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	89	96
+26387	Complex.imaginary	double	variable	92	set	org.apache.commons.math.complex.Complex.Complex	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	89	96
+26389	Complex.isNaN	transient boolean	variable	94	set	org.apache.commons.math.complex.Complex.Complex	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	89	96
+26388	Complex.isInfinite	transient boolean	variable	95	set	org.apache.commons.math.complex.Complex.Complex	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	89	96
+26389	Complex.isNaN	transient boolean	variable	95	use	org.apache.commons.math.complex.Complex.Complex	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	89	96
+26389	Complex.isNaN	transient boolean	variable	172	use	org.apache.commons.math.complex.Complex.conjugate	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	171	176
+26384	Complex.NaN	Complex	variable	173	use	org.apache.commons.math.complex.Complex.conjugate	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	171	176
+26390	Complex.real	double	variable	175	use	org.apache.commons.math.complex.Complex.conjugate	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	171	176
+26387	Complex.imaginary	double	variable	175	use	org.apache.commons.math.complex.Complex.conjugate	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	171	176
+26389	Complex.isNaN	transient boolean	variable	556	use	org.apache.commons.math.complex.Complex.cos	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	555	561
+26384	Complex.NaN	Complex	variable	557	use	org.apache.commons.math.complex.Complex.cos	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	555	561
+26390	Complex.real	double	variable	560	use	org.apache.commons.math.complex.Complex.cos	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	555	561
+26387	Complex.imaginary	double	variable	560	use	org.apache.commons.math.complex.Complex.cos	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	555	561
+26390	Complex.real	double	variable	561	use	org.apache.commons.math.complex.Complex.cos	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	555	561
+26387	Complex.imaginary	double	variable	561	use	org.apache.commons.math.complex.Complex.cos	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	555	561
+26389	Complex.isNaN	transient boolean	variable	590	use	org.apache.commons.math.complex.Complex.cosh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	589	595
+26384	Complex.NaN	Complex	variable	591	use	org.apache.commons.math.complex.Complex.cosh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	589	595
+26390	Complex.real	double	variable	594	use	org.apache.commons.math.complex.Complex.cosh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	589	595
+26387	Complex.imaginary	double	variable	594	use	org.apache.commons.math.complex.Complex.cosh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	589	595
+26390	Complex.real	double	variable	595	use	org.apache.commons.math.complex.Complex.cosh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	589	595
+26387	Complex.imaginary	double	variable	595	use	org.apache.commons.math.complex.Complex.cosh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	589	595
+26316	realPart	double	param	996	define	org.apache.commons.math.complex.Complex.createComplex	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	996	998
+26315	imaginaryPart	double	param	996	define	org.apache.commons.math.complex.Complex.createComplex	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	996	998
+26316	realPart	double	param	997	use	org.apache.commons.math.complex.Complex.createComplex	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	996	998
+26315	imaginaryPart	double	param	997	use	org.apache.commons.math.complex.Complex.createComplex	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	996	998
+26324	rhs	Complex	param	213	define	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26324	rhs	Complex	param	215	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26324	rhs	Complex	param	216	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26324	rhs	Complex	param	220	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26324	rhs	Complex	param	221	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26324	rhs	Complex	param	226	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26318	c	double	variable	220	define	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26319	d	double	variable	221	define	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26322	q	double	variable	231	define	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26320	denominator	double	variable	232	define	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26323	q	double	variable	236	define	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26321	denominator	double	variable	237	define	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26318	c	double	variable	220	set	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26319	d	double	variable	221	set	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26322	q	double	variable	231	set	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26320	denominator	double	variable	232	set	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26323	q	double	variable	236	set	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26321	denominator	double	variable	237	set	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26389	Complex.isNaN	transient boolean	variable	216	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26389	Complex.isNaN	transient boolean	variable	216	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26384	Complex.NaN	Complex	variable	217	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26318	c	double	variable	222	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26319	d	double	variable	222	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26384	Complex.NaN	Complex	variable	223	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26386	Complex.ZERO	Complex	variable	227	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26318	c	double	variable	230	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26319	d	double	variable	230	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26318	c	double	variable	231	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26319	d	double	variable	231	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26318	c	double	variable	232	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26322	q	double	variable	232	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26319	d	double	variable	232	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26390	Complex.real	double	variable	233	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26322	q	double	variable	233	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26387	Complex.imaginary	double	variable	233	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26320	denominator	double	variable	233	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26387	Complex.imaginary	double	variable	234	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26322	q	double	variable	234	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26390	Complex.real	double	variable	234	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26320	denominator	double	variable	234	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26319	d	double	variable	236	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26318	c	double	variable	236	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26319	d	double	variable	237	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26323	q	double	variable	237	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26318	c	double	variable	237	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26387	Complex.imaginary	double	variable	238	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26323	q	double	variable	238	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26390	Complex.real	double	variable	238	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26321	denominator	double	variable	238	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26387	Complex.imaginary	double	variable	239	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26390	Complex.real	double	variable	239	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26323	q	double	variable	239	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26321	denominator	double	variable	239	use	org.apache.commons.math.complex.Complex.divide	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	213	239
+26326	other	Object	param	262	define	org.apache.commons.math.complex.Complex.equals	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	262	275
+26326	other	Object	param	263	use	org.apache.commons.math.complex.Complex.equals	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	262	275
+26326	other	Object	param	266	use	org.apache.commons.math.complex.Complex.equals	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	262	275
+26326	other	Object	param	267	use	org.apache.commons.math.complex.Complex.equals	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	262	275
+26327	rhs	Complex	variable	267	define	org.apache.commons.math.complex.Complex.equals	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	262	275
+26327	rhs	Complex	variable	267	set	org.apache.commons.math.complex.Complex.equals	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	262	275
+26327	rhs	Complex	variable	268	use	org.apache.commons.math.complex.Complex.equals	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	262	275
+26389	Complex.isNaN	transient boolean	variable	268	use	org.apache.commons.math.complex.Complex.equals	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	262	275
+26389	Complex.isNaN	transient boolean	variable	269	use	org.apache.commons.math.complex.Complex.equals	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	262	275
+26390	Complex.real	double	variable	271	use	org.apache.commons.math.complex.Complex.equals	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	262	275
+26327	rhs	Complex	variable	271	use	org.apache.commons.math.complex.Complex.equals	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	262	275
+26390	Complex.real	double	variable	271	use	org.apache.commons.math.complex.Complex.equals	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	262	275
+26387	Complex.imaginary	double	variable	271	use	org.apache.commons.math.complex.Complex.equals	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	262	275
+26327	rhs	Complex	variable	271	use	org.apache.commons.math.complex.Complex.equals	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	262	275
+26387	Complex.imaginary	double	variable	271	use	org.apache.commons.math.complex.Complex.equals	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	262	275
+26330	expReal	double	variable	629	define	org.apache.commons.math.complex.Complex.exp	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	624	630
+26330	expReal	double	variable	629	set	org.apache.commons.math.complex.Complex.exp	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	624	630
+26389	Complex.isNaN	transient boolean	variable	625	use	org.apache.commons.math.complex.Complex.exp	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	624	630
+26384	Complex.NaN	Complex	variable	626	use	org.apache.commons.math.complex.Complex.exp	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	624	630
+26390	Complex.real	double	variable	629	use	org.apache.commons.math.complex.Complex.exp	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	624	630
+26330	expReal	double	variable	630	use	org.apache.commons.math.complex.Complex.exp	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	624	630
+26387	Complex.imaginary	double	variable	630	use	org.apache.commons.math.complex.Complex.exp	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	624	630
+26330	expReal	double	variable	630	use	org.apache.commons.math.complex.Complex.exp	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	624	630
+26387	Complex.imaginary	double	variable	630	use	org.apache.commons.math.complex.Complex.exp	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	624	630
+26387	Complex.imaginary	double	variable	299	use	org.apache.commons.math.complex.Complex.getImaginary	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	298	300
+26390	Complex.real	double	variable	308	use	org.apache.commons.math.complex.Complex.getReal	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	307	309
+26389	Complex.isNaN	transient boolean	variable	286	use	org.apache.commons.math.complex.Complex.hashCode	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	285	291
+26387	Complex.imaginary	double	variable	289	use	org.apache.commons.math.complex.Complex.hashCode	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	285	291
+26390	Complex.real	double	variable	290	use	org.apache.commons.math.complex.Complex.hashCode	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	285	291
+26388	Complex.isInfinite	transient boolean	variable	332	use	org.apache.commons.math.complex.Complex.isInfinite	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	331	333
+26389	Complex.isNaN	transient boolean	variable	319	use	org.apache.commons.math.complex.Complex.isNaN	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	318	320
+26389	Complex.isNaN	transient boolean	variable	663	use	org.apache.commons.math.complex.Complex.log	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	662	668
+26384	Complex.NaN	Complex	variable	664	use	org.apache.commons.math.complex.Complex.log	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	662	668
+26387	Complex.imaginary	double	variable	668	use	org.apache.commons.math.complex.Complex.log	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	662	668
+26390	Complex.real	double	variable	668	use	org.apache.commons.math.complex.Complex.log	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	662	668
+26344	rhs	Complex	param	362	define	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26344	rhs	Complex	param	364	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26344	rhs	Complex	param	365	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26344	rhs	Complex	param	369	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26344	rhs	Complex	param	369	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26344	rhs	Complex	param	373	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26344	rhs	Complex	param	373	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26344	rhs	Complex	param	374	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26344	rhs	Complex	param	374	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26389	Complex.isNaN	transient boolean	variable	365	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26389	Complex.isNaN	transient boolean	variable	365	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26384	Complex.NaN	Complex	variable	366	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26390	Complex.real	double	variable	368	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26387	Complex.imaginary	double	variable	368	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26390	Complex.real	double	variable	369	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26387	Complex.imaginary	double	variable	369	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26383	Complex.INF	Complex	variable	371	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26390	Complex.real	double	variable	373	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26390	Complex.real	double	variable	373	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26387	Complex.imaginary	double	variable	373	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26387	Complex.imaginary	double	variable	373	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26390	Complex.real	double	variable	374	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26387	Complex.imaginary	double	variable	374	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26387	Complex.imaginary	double	variable	374	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26390	Complex.real	double	variable	374	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	362	374
+26346	rhs	double	param	403	define	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	403	412
+26346	rhs	double	param	404	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	403	412
+26346	rhs	double	param	408	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	403	412
+26346	rhs	double	param	412	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	403	412
+26346	rhs	double	param	412	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	403	412
+26389	Complex.isNaN	transient boolean	variable	404	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	403	412
+26384	Complex.NaN	Complex	variable	405	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	403	412
+26390	Complex.real	double	variable	407	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	403	412
+26387	Complex.imaginary	double	variable	407	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	403	412
+26383	Complex.INF	Complex	variable	410	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	403	412
+26390	Complex.real	double	variable	412	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	403	412
+26387	Complex.imaginary	double	variable	412	use	org.apache.commons.math.complex.Complex.multiply	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	403	412
+26389	Complex.isNaN	transient boolean	variable	424	use	org.apache.commons.math.complex.Complex.negate	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	423	428
+26384	Complex.NaN	Complex	variable	425	use	org.apache.commons.math.complex.Complex.negate	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	423	428
+26390	Complex.real	double	variable	428	use	org.apache.commons.math.complex.Complex.negate	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	423	428
+26387	Complex.imaginary	double	variable	428	use	org.apache.commons.math.complex.Complex.negate	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	423	428
+26357	n	int	param	950	define	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26357	n	int	param	952	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26357	n	int	param	955	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26357	n	int	param	971	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26357	n	int	param	974	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26357	n	int	param	975	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26357	n	int	param	977	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26360	result	List<Complex>	variable	958	define	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26359	nthRootOfAbs	double	variable	971	define	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26358	nthPhi	double	variable	974	define	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26361	slice	double	variable	975	define	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26356	innerPart	double	variable	976	define	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26352	k	int	variable	977	define	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26353	realPart	double	variable	979	define	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26351	imaginaryPart	double	variable	980	define	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26360	result	List<Complex>	variable	958	set	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26359	nthRootOfAbs	double	variable	971	set	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26358	nthPhi	double	variable	974	set	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26361	slice	double	variable	975	set	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26356	innerPart	double	variable	976	set	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26352	k	int	variable	977	set	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26353	realPart	double	variable	979	set	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26351	imaginaryPart	double	variable	980	set	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26354	CANNOT_COMPUTE_NTH_ROOT_FOR_NEGATIVE_N		variable	954	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26389	Complex.isNaN	transient boolean	variable	960	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26360	result	List<Complex>	variable	961	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26384	Complex.NaN	Complex	variable	961	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26360	result	List<Complex>	variable	962	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26360	result	List<Complex>	variable	966	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26383	Complex.INF	Complex	variable	966	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26360	result	List<Complex>	variable	967	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26355	PI		variable	975	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26358	nthPhi	double	variable	976	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26352	k	int	variable	977	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26359	nthRootOfAbs	double	variable	979	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26356	innerPart	double	variable	979	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26359	nthRootOfAbs	double	variable	980	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26356	innerPart	double	variable	980	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26360	result	List<Complex>	variable	981	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26353	realPart	double	variable	981	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26351	imaginaryPart	double	variable	981	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26361	slice	double	variable	982	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26360	result	List<Complex>	variable	985	use	org.apache.commons.math.complex.Complex.nthRoot	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	950	985
+26363	x	Complex	param	688	define	org.apache.commons.math.complex.Complex.pow	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	688	692
+26363	x	Complex	param	690	use	org.apache.commons.math.complex.Complex.pow	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	688	692
+26363	x	Complex	param	691	use	org.apache.commons.math.complex.Complex.pow	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	688	692
+26390	Complex.real	double	variable	1007	use	org.apache.commons.math.complex.Complex.readResolve	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	1006	1008
+26387	Complex.imaginary	double	variable	1007	use	org.apache.commons.math.complex.Complex.readResolve	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	1006	1008
+26389	Complex.isNaN	transient boolean	variable	721	use	org.apache.commons.math.complex.Complex.sin	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	720	726
+26384	Complex.NaN	Complex	variable	722	use	org.apache.commons.math.complex.Complex.sin	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	720	726
+26390	Complex.real	double	variable	725	use	org.apache.commons.math.complex.Complex.sin	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	720	726
+26387	Complex.imaginary	double	variable	725	use	org.apache.commons.math.complex.Complex.sin	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	720	726
+26390	Complex.real	double	variable	726	use	org.apache.commons.math.complex.Complex.sin	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	720	726
+26387	Complex.imaginary	double	variable	726	use	org.apache.commons.math.complex.Complex.sin	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	720	726
+26389	Complex.isNaN	transient boolean	variable	755	use	org.apache.commons.math.complex.Complex.sinh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	754	760
+26384	Complex.NaN	Complex	variable	756	use	org.apache.commons.math.complex.Complex.sinh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	754	760
+26390	Complex.real	double	variable	759	use	org.apache.commons.math.complex.Complex.sinh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	754	760
+26387	Complex.imaginary	double	variable	759	use	org.apache.commons.math.complex.Complex.sinh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	754	760
+26390	Complex.real	double	variable	760	use	org.apache.commons.math.complex.Complex.sinh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	754	760
+26387	Complex.imaginary	double	variable	760	use	org.apache.commons.math.complex.Complex.sinh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	754	760
+26369	t	double	variable	805	define	org.apache.commons.math.complex.Complex.sqrt	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	796	810
+26369	t	double	variable	805	set	org.apache.commons.math.complex.Complex.sqrt	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	796	810
+26389	Complex.isNaN	transient boolean	variable	797	use	org.apache.commons.math.complex.Complex.sqrt	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	796	810
+26384	Complex.NaN	Complex	variable	798	use	org.apache.commons.math.complex.Complex.sqrt	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	796	810
+26390	Complex.real	double	variable	801	use	org.apache.commons.math.complex.Complex.sqrt	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	796	810
+26387	Complex.imaginary	double	variable	801	use	org.apache.commons.math.complex.Complex.sqrt	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	796	810
+26390	Complex.real	double	variable	805	use	org.apache.commons.math.complex.Complex.sqrt	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	796	810
+26390	Complex.real	double	variable	806	use	org.apache.commons.math.complex.Complex.sqrt	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	796	810
+26369	t	double	variable	807	use	org.apache.commons.math.complex.Complex.sqrt	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	796	810
+26387	Complex.imaginary	double	variable	807	use	org.apache.commons.math.complex.Complex.sqrt	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	796	810
+26369	t	double	variable	807	use	org.apache.commons.math.complex.Complex.sqrt	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	796	810
+26387	Complex.imaginary	double	variable	809	use	org.apache.commons.math.complex.Complex.sqrt	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	796	810
+26369	t	double	variable	809	use	org.apache.commons.math.complex.Complex.sqrt	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	796	810
+26387	Complex.imaginary	double	variable	810	use	org.apache.commons.math.complex.Complex.sqrt	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	796	810
+26369	t	double	variable	810	use	org.apache.commons.math.complex.Complex.sqrt	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	796	810
+26372	rhs	Complex	param	449	define	org.apache.commons.math.complex.Complex.subtract	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	449	457
+26372	rhs	Complex	param	451	use	org.apache.commons.math.complex.Complex.subtract	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	449	457
+26372	rhs	Complex	param	452	use	org.apache.commons.math.complex.Complex.subtract	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	449	457
+26372	rhs	Complex	param	456	use	org.apache.commons.math.complex.Complex.subtract	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	449	457
+26372	rhs	Complex	param	457	use	org.apache.commons.math.complex.Complex.subtract	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	449	457
+26389	Complex.isNaN	transient boolean	variable	452	use	org.apache.commons.math.complex.Complex.subtract	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	449	457
+26389	Complex.isNaN	transient boolean	variable	452	use	org.apache.commons.math.complex.Complex.subtract	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	449	457
+26384	Complex.NaN	Complex	variable	453	use	org.apache.commons.math.complex.Complex.subtract	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	449	457
+26390	Complex.real	double	variable	456	use	org.apache.commons.math.complex.Complex.subtract	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	449	457
+26387	Complex.imaginary	double	variable	457	use	org.apache.commons.math.complex.Complex.subtract	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	449	457
+26376	real2	double	variable	867	define	org.apache.commons.math.complex.Complex.tan	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	862	871
+26375	imaginary2	double	variable	868	define	org.apache.commons.math.complex.Complex.tan	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	862	871
+26374	d	double	variable	869	define	org.apache.commons.math.complex.Complex.tan	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	862	871
+26376	real2	double	variable	867	set	org.apache.commons.math.complex.Complex.tan	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	862	871
+26375	imaginary2	double	variable	868	set	org.apache.commons.math.complex.Complex.tan	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	862	871
+26374	d	double	variable	869	set	org.apache.commons.math.complex.Complex.tan	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	862	871
+26389	Complex.isNaN	transient boolean	variable	863	use	org.apache.commons.math.complex.Complex.tan	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	862	871
+26384	Complex.NaN	Complex	variable	864	use	org.apache.commons.math.complex.Complex.tan	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	862	871
+26390	Complex.real	double	variable	867	use	org.apache.commons.math.complex.Complex.tan	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	862	871
+26387	Complex.imaginary	double	variable	868	use	org.apache.commons.math.complex.Complex.tan	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	862	871
+26376	real2	double	variable	869	use	org.apache.commons.math.complex.Complex.tan	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	862	871
+26375	imaginary2	double	variable	869	use	org.apache.commons.math.complex.Complex.tan	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	862	871
+26376	real2	double	variable	871	use	org.apache.commons.math.complex.Complex.tan	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	862	871
+26374	d	double	variable	871	use	org.apache.commons.math.complex.Complex.tan	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	862	871
+26375	imaginary2	double	variable	871	use	org.apache.commons.math.complex.Complex.tan	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	862	871
+26374	d	double	variable	871	use	org.apache.commons.math.complex.Complex.tan	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	862	871
+26380	real2	double	variable	905	define	org.apache.commons.math.complex.Complex.tanh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	900	909
+26379	imaginary2	double	variable	906	define	org.apache.commons.math.complex.Complex.tanh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	900	909
+26378	d	double	variable	907	define	org.apache.commons.math.complex.Complex.tanh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	900	909
+26380	real2	double	variable	905	set	org.apache.commons.math.complex.Complex.tanh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	900	909
+26379	imaginary2	double	variable	906	set	org.apache.commons.math.complex.Complex.tanh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	900	909
+26378	d	double	variable	907	set	org.apache.commons.math.complex.Complex.tanh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	900	909
+26389	Complex.isNaN	transient boolean	variable	901	use	org.apache.commons.math.complex.Complex.tanh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	900	909
+26384	Complex.NaN	Complex	variable	902	use	org.apache.commons.math.complex.Complex.tanh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	900	909
+26390	Complex.real	double	variable	905	use	org.apache.commons.math.complex.Complex.tanh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	900	909
+26387	Complex.imaginary	double	variable	906	use	org.apache.commons.math.complex.Complex.tanh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	900	909
+26380	real2	double	variable	907	use	org.apache.commons.math.complex.Complex.tanh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	900	909
+26379	imaginary2	double	variable	907	use	org.apache.commons.math.complex.Complex.tanh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	900	909
+26380	real2	double	variable	909	use	org.apache.commons.math.complex.Complex.tanh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	900	909
+26378	d	double	variable	909	use	org.apache.commons.math.complex.Complex.tanh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	900	909
+26379	imaginary2	double	variable	909	use	org.apache.commons.math.complex.Complex.tanh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	900	909
+26378	d	double	variable	909	use	org.apache.commons.math.complex.Complex.tanh	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	900	909
+26390	Complex.real	double	variable	1018	use	org.apache.commons.math.complex.Complex.toString	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	1017	1019
+26387	Complex.imaginary	double	variable	1018	use	org.apache.commons.math.complex.Complex.toString	/home1/mwenaa/2016Summer/Bugs/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	1017	1019

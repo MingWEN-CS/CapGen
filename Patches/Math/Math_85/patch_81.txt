@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
++++ fixed/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
+@@ -124,7 +124,7 @@ public class UnivariateRealSolverUtils {
+     public static double[] bracket(UnivariateRealFunction function, 
+             double initial, double lowerBound, double upperBound) 
+     throws ConvergenceException, FunctionEvaluationException {
+-        return bracket( function, initial, lowerBound, upperBound,
++        return bracket( function, lowerBound, lowerBound, upperBound,
+             Integer.MAX_VALUE ) ;
+     }
+ 

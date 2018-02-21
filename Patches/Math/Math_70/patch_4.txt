@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/analysis/solvers/BisectionSolver.java
++++ fixed/org/apache/commons/math/analysis/solvers/BisectionSolver.java
+@@ -63,7 +63,7 @@ public class BisectionSolver extends UnivariateRealSolverImpl {
+     @Deprecated
+     public double solve(double min, double max)
+         throws MaxIterationsExceededException, FunctionEvaluationException {
+-        return solve(f, min, max);
++        return solve(max, min, max);
+     }
+ 
+     /** {@inheritDoc} */

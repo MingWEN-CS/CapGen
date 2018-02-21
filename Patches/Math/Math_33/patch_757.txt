@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -296,7 +296,7 @@ class SimplexTableau implements Serializable {
+      */
+     protected static double getInvertedCoefficientSum(final RealVector coefficients) {
+         double sum = 0;
+-        for (double coefficient : coefficients.toArray()) {
++        for (int coefficient : coefficients.toArray()) {
+             sum -= coefficient;
+         }
+         return sum;

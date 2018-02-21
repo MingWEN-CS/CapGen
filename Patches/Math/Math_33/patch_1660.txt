@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexSolver.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexSolver.java
+@@ -70,7 +70,7 @@ public class SimplexSolver extends AbstractLinearOptimizer {
+         double minValue = 0;
+         Integer minPos = null;
+         for (int i = tableau.getNumObjectiveFunctions(); i < tableau.getWidth() - 1; i++) {
+-            final double entry = tableau.getEntry(0, i);
++            final double entry = tableau.getEntry(0, maxUlps);
+             if (Precision.compareTo(entry, minValue, maxUlps) < 0) {
+                 minValue = entry;
+                 minPos = i;

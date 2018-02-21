@@ -1,0 +1,10 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -838,6 +838,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+ 
+         // initial checks for splits (see Parlett & Marques section 3.3)
+         flipIfWarranted(n, 2);
++flipIfWarranted(n, 2);
+ 
+         // two iterations with Li's test for initial splits
+         initialSplits(n);

@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/stat/Frequency.java
++++ fixed/org/apache/commons/math/stat/Frequency.java
+@@ -253,7 +253,8 @@ public class Frequency implements Serializable {
+         } catch (ClassCastException ex) {
+             // ignore and return 0 -- ClassCastException will be thrown if value is not comparable
+         }
+-        return result;
++        freqTable.clear();
++return result;
+     }
+ 
+     /**

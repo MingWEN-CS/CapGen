@@ -1,0 +1,724 @@
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::str.getChars((strLen - width), strLen, buffer, size)	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::width - strLen	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::if (str == null) {    return this.toString();}else {    return str;}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::length()	false
+org.apache.commons.lang.text.StrBuilder::::111::::3975::::3989::::initialCapacity::::length()	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29369::::length::::size	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::pos++	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::(size) / 2	false
+org.apache.commons.lang.text.StrBuilder::::111::::3957::::3991::::buffer = new char[initialCapacity]::::buffer[((size)++)] = 'f'	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::pos	false
+org.apache.commons.lang.text.StrBuilder::::108::::3875::::3889::::initialCapacity::::(size) / 2	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::lastIndexOf(str, ((size) - 1))	false
+org.apache.commons.lang.text.StrBuilder::::111::::3975::::3989::::initialCapacity::::size()	false
+org.apache.commons.lang.text.StrBuilder::::108::::3875::::3889::::initialCapacity::::pos	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::str.length()	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::pos	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::delete(0, pos)	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7297::::capacity > (buffer.length)::::length <= 0	false
+org.apache.commons.lang.text.StrBuilder::::233::::7449::::7460::::return this::::INSERT::::STATEMENT::::if ((newLine) == null) {    append(SystemUtils.LINE_SEPARATOR);    return this;}	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7297::::capacity > (buffer.length)::::(size) == 0	false
+org.apache.commons.lang.text.StrBuilder::::111::::3975::::3989::::initialCapacity::::mark	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::str.getChars((strLen - width), strLen, buffer, size)	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::size()	false
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7297::::buffer.length::::(size) + 1	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::(pos)++	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::str.length()	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29249::::ensureCapacity::::validateIndex	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::(size) / 2	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::if (str == null) {    return appendNull();}	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7281::::capacity::::(size) + 5	false
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7297::::buffer.length::::(size) + 5	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7281::::capacity::::(size) + 4	false
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7297::::buffer.length::::(size) + 4	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::if (str == null) {    return this.toString();}else {    return str;}	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7281::::capacity::::(size) + 1	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::this.size()) - (pos	false
+org.apache.commons.lang.text.StrBuilder::::111::::3975::::3989::::initialCapacity::::org.apache.commons.lang.text.StrBuilder.CAPACITY	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::if ((size) == 0) {    return this;}	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::width - strLen	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::((size) + strLen) + i	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::newLine	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7281::::capacity::::this.size()	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::indexOf(str, 0)	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::ensureCapacity(((size) + 5))	true
+org.apache.commons.lang.text.StrBuilder::::881::::29322::::29324::::obj::::this	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7297::::capacity > (buffer.length)::::ready()	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::append(obj.toString())	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::size()	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::this.size	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29408::::strLen >= width::::strLen <= (size)	false
+org.apache.commons.lang.text.StrBuilder::::108::::3875::::3889::::initialCapacity::::this.size()) - (pos	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::if (str == null) {    str = nullText;}	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::nullText.length()	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::org.apache.commons.lang.text.StrBuilder.CAPACITY	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::this.size()	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::length()	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::strLen - width	false
+org.apache.commons.lang.text.StrBuilder::::233::::7449::::7460::::return this::::INSERT::::STATEMENT::::if (length <= 0) {    return "";}else    if (length >= (size)) {        return new java.lang.String(buffer, 0, size);    }else {        return new java.lang.String(buffer, 0, length);    }	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::((size) - strLen) + 1	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::new java.lang.String(buffer, 0, size)	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::ensureCapacity(((size) + 1))	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::ensureCapacity(((size) + width))	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::(size) - 1	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::if ((size) == 0) {    return this;}	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::str.length()) + (org.apache.commons.lang.text.StrBuilder.CAPACITY	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::strLen - width	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7281::::capacity::::size()	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::pos	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::this.size()	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::(size) / 2	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::(size)++	false
+org.apache.commons.lang.text.StrBuilder::::884::::29453::::29458::::buffer::::this.buffer	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}	false
+org.apache.commons.lang.text.StrBuilder::::881::::29322::::29329::::toString::::getNullText	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::width - strLen	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::delete(0, pos)	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::lastIndexOf(str, ((size) - 1))	false
+org.apache.commons.lang.text.StrBuilder::::881::::29292::::29302::::obj == null::::ready()	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::(pos)++	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::org.apache.commons.lang.text.StrBuilder.CAPACITY	true
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::++i	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::(size) - strLen	false
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7297::::buffer.length::::this.size()	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::size()	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::if ((pos) >= (this.size())) {    return -1;}	false
+org.apache.commons.lang.text.StrBuilder::::228::::7270::::7439::::if (capacity > (buffer.length)) {    char[] old = buffer;    buffer = new char[capacity];    java.lang.System.arraycopy(old, 0, buffer, 0, size);}::::INSERT::::STATEMENT::::if (length <= 0) {    return "";}else    if (length >= (size)) {        return new java.lang.String(buffer, 0, size);    }else {        return new java.lang.String(buffer, 0, length);    }	false
+org.apache.commons.lang.text.StrBuilder::::233::::7449::::7460::::return this::::INSERT::::STATEMENT::::ensureCapacity(((size) + 5))	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::this.newLine	false
+org.apache.commons.lang.text.StrBuilder::::233::::7449::::7460::::return this::::INSERT::::STATEMENT::::if (length <= 0) {    return "";}else    if (length >= (size)) {        return new java.lang.String(buffer, 0, size);    }else {        return new java.lang.String(buffer, ((size) - length), length);    }	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::if (str == null) {    return appendNull();}	false
+org.apache.commons.lang.text.StrBuilder::::228::::7270::::7439::::if (capacity > (buffer.length)) {    char[] old = buffer;    buffer = new char[capacity];    java.lang.System.arraycopy(old, 0, buffer, 0, size);}::::INSERT::::STATEMENT::::if (pos > 0) {    delete(0, pos);}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::length()	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::if ((buffer[pos]) != (str.charAt(i))) {    return false;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::if ((nullText != null) && ((nullText.length()) == 0)) {    nullText = null;}	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::str.length()) + (org.apache.commons.lang.text.StrBuilder.CAPACITY	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::this.size()	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::pos++	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::size	false
+org.apache.commons.lang.text.StrBuilder::::233::::7449::::7460::::return this::::INSERT::::STATEMENT::::if ((pos) >= (this.size())) {    return -1;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::if ((nullText) == null) {    return this;}	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::ensureCapacity(((size) + 4))	true
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars((strLen - width), strLen, buffer, size);    }else {        int padLen = width - strLen;        for (int i = 0; i < padLen; i++) {            buffer[((size) + i)] = padChar;        }        str.getChars(0, strLen, buffer, ((size) + padLen));    }    size += width;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::this.newLine	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::pos++	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::this.size()	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::this.size()	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::(pos)++	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::lastIndexOf(str, ((size) - 1))	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::ensureCapacity(((size) + width))	false
+org.apache.commons.lang.text.StrBuilder::::228::::7270::::7439::::if (capacity > (buffer.length)) {    char[] old = buffer;    buffer = new char[capacity];    java.lang.System.arraycopy(old, 0, buffer, 0, size);}::::INSERT::::STATEMENT::::ensureCapacity(length)	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::indexOf(str, 0)	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::new java.lang.String(buffer, 0, size)	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29219::::width > 0::::pos > 0	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::this.size	false
+org.apache.commons.lang.text.StrBuilder::::108::::3875::::3889::::initialCapacity::::(size) - 1	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::width - strLen	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::append(SystemUtils.LINE_SEPARATOR)	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::this.size	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::if (pos > 0) {    delete(0, pos);}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::indexOf(str, 0)	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::strLen - width	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29353::::int::::long	false
+org.apache.commons.lang.text.StrBuilder::::233::::7449::::7460::::return this::::INSERT::::STATEMENT::::pos++	false
+org.apache.commons.lang.text.StrBuilder::::233::::7449::::7460::::return this::::INSERT::::STATEMENT::::ensureCapacity(((size) + 4))	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::(size) - strLen	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::if (str == null) {    buffer = new char[org.apache.commons.lang.text.StrBuilder.CAPACITY];}else {    buffer = new char[(str.length()) + (org.apache.commons.lang.text.StrBuilder.CAPACITY)];    append(str);}	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::(size) - 1	false
+org.apache.commons.lang.text.StrBuilder::::881::::29322::::29324::::obj::::appendNull()	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::if (str == null) {    return appendNull();}	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::append(str)	false
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7290::::buffer::::this.buffer	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::size()	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::size	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::this.size()	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7281::::capacity::::(size) - 1	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::append(newLine)	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::str.getChars(0, strLen, buffer, ((size) + padLen))	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::(size) + width	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::"Invalid offset: "	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::indexOf(str, 0)	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::if ((buffer[i]) != (str.charAt(i))) {    return false;}	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7281::::capacity::::mark	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::length()	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::ensureCapacity(((size) + 1))	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::(size) + i	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::pos	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::(size) + padLen	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::str.length()) + (org.apache.commons.lang.text.StrBuilder.CAPACITY	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::ensureCapacity(((size) + 1))	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::i	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::str.getChars(0, strLen, buffer, size)	false
+org.apache.commons.lang.text.StrBuilder::::111::::3957::::3991::::buffer = new char[initialCapacity]::::buffer[((size)++)] = 'l'	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::append(newLine)	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::(size) + strLen	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::(size) + 5	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::(size) + 4	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::(size) + 1	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::nullText.length()	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::str.getChars(0, strLen, buffer, size)	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7297::::capacity > (buffer.length)::::length > 0	false
+org.apache.commons.lang.text.StrBuilder::::111::::3957::::3991::::buffer = new char[initialCapacity]::::initialCapacity = org.apache.commons.lang.text.StrBuilder.CAPACITY	false
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7297::::buffer.length::::(size)++	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::(size) + i	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::this	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::append(SystemUtils.LINE_SEPARATOR)	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::i + 1	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::length()	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::i++	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::++i	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::if (str == null) {    return false;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::str.getChars((strLen - width), strLen, buffer, size)	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::if (strLen > (size)) {    return -1;}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::if ((pos) >= (this.size())) {    return -1;}	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::if ((buffer[pos]) != (str.charAt(i))) {    return false;}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29249::::ensureCapacity::::substring	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::append(str)	false
+org.apache.commons.lang.text.StrBuilder::::233::::7449::::7460::::return this::::INSERT::::STATEMENT::::if (pos > 0) {    delete(0, pos);}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::this	false
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7297::::buffer.length::::size	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::append(str)	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::(pos)++	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::width	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::strLen - width	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::if (str == null) {    return false;}	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::ensureCapacity(((size) + 1))	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::pos++	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::mark	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::if (pos > 0) {    delete(0, pos);}	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::ensureCapacity(((size) + 4))	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::if (strLen >= width) {    str.getChars((strLen - width), strLen, buffer, size);}else {    int padLen = width - strLen;    for (int i = 0; i < padLen; i++) {        buffer[((size) + i)] = padChar;    }    str.getChars(0, strLen, buffer, ((size) + padLen));}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::pos++	false
+org.apache.commons.lang.text.StrBuilder::::111::::3975::::3989::::initialCapacity::::pos	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29408::::strLen >= width::::width > 0	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::if (str == null) {    buffer = new char[org.apache.commons.lang.text.StrBuilder.CAPACITY];}else {    buffer = new char[(str.length()) + (org.apache.commons.lang.text.StrBuilder.CAPACITY)];    append(str);}	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::width - strLen	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::(size) + padLen	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::(size)++	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29219::::width > 0::::pos) >= (this.size()	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29408::::strLen >= width::::strLen > 0	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::i + 1	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::org.apache.commons.lang.text.StrBuilder.CAPACITY	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::if ((ready()) == false) {    return -1;}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::((size) + strLen) + i	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::delete(0, pos)	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::(size)++	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::(pos)++	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::(size) + padLen	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::str.getChars(0, strLen, buffer, size)	false
+org.apache.commons.lang.text.StrBuilder::::108::::3875::::3894::::initialCapacity <= 0::::pos) >= (this.size()	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::i++	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::if (strLen > (size)) {    return -1;}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::(size) - 1	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::deleteImpl(i, (i + 1), 1)	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7297::::capacity > (buffer.length)::::pos) >= (this.size()	false
+org.apache.commons.lang.text.StrBuilder::::233::::7449::::7460::::return this::::INSERT::::STATEMENT::::if ((size) == 0) {    return this;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::i++	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::if (str == null) {    buffer = new char[org.apache.commons.lang.text.StrBuilder.CAPACITY];}else {    buffer = new char[(str.length()) + (org.apache.commons.lang.text.StrBuilder.CAPACITY)];    append(str);}	false
+org.apache.commons.lang.text.StrBuilder::::108::::3875::::3889::::initialCapacity::::size()	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::(size) + 1	false
+org.apache.commons.lang.text.StrBuilder::::881::::29322::::29329::::toString::::length	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::i--	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::(size) + 4	false
+org.apache.commons.lang.text.StrBuilder::::881::::29322::::29324::::obj::::ensureCapacity(((size) + 1))	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::(size) + 5	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::if (str == null) {    return appendNull();}	false
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7297::::buffer.length::::(size) / 2	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29249::::ensureCapacity::::charAt	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::ensureCapacity(((size) + 1))	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::pos++	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::((size) + strLen) + i	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::if (strLen > (size)) {    return -1;}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::if (obj == null) {    return appendNull();}	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::(size) + width	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::"Invalid length: "	false
+org.apache.commons.lang.text.StrBuilder::::228::::7270::::7439::::if (capacity > (buffer.length)) {    char[] old = buffer;    buffer = new char[capacity];    java.lang.System.arraycopy(old, 0, buffer, 0, size);}::::INSERT::::STATEMENT::::if (length >= (size)) {    return new java.lang.String(buffer, 0, size);}else {    return new java.lang.String(buffer, 0, length);}	false
+org.apache.commons.lang.text.StrBuilder::::881::::29292::::29302::::obj == null::::obj instanceof org.apache.commons.lang.text.StrBuilder	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::(size)++	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::strLen - width	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::DELETE::::STATEMENT	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29408::::strLen >= width::::strLen == 0	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29408::::strLen >= width::::strLen == 1	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7297::::capacity > (buffer.length)::::length > (size)	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::lastIndexOf(str, ((size) - 1))	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::i++	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::ensureCapacity(((size) + width))	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::(size) - strLen	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7297::::capacity > (buffer.length)::::pos > 0	false
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7297::::buffer.length::::this.size()) - (pos	false
+org.apache.commons.lang.text.StrBuilder::::228::::7270::::7439::::if (capacity > (buffer.length)) {    char[] old = buffer;    buffer = new char[capacity];    java.lang.System.arraycopy(old, 0, buffer, 0, size);}::::INSERT::::STATEMENT::::ensureCapacity(((size) + 1))	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7297::::capacity > (buffer.length)::::length < 0	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::nullText.length()	false
+org.apache.commons.lang.text.StrBuilder::::108::::3875::::3889::::initialCapacity::::mark	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::((size) + strLen) + i	false
+org.apache.commons.lang.text.StrBuilder::::881::::29306::::29316::::getNullText::::appendNull	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::if (str == null) {    buffer = new char[org.apache.commons.lang.text.StrBuilder.CAPACITY];}else {    buffer = new char[(str.length()) + (org.apache.commons.lang.text.StrBuilder.CAPACITY)];    append(str);}	false
+org.apache.commons.lang.text.StrBuilder::::881::::29322::::29324::::obj::::append(nullText)	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::((size) - strLen) + 1	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::append(str)	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::str.getChars((strLen - width), strLen, buffer, size)	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7297::::capacity > (buffer.length)::::length >= 0	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::ensureCapacity(((size) + 4))	true
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::nullText.length()	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::if (strLen > (size)) {    return -1;}	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7281::::capacity::::(size) + length	false
+org.apache.commons.lang.text.StrBuilder::::111::::3957::::3962::::buffer::::this.buffer	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::getNullText()	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::if ((ready()) == false) {    return -1;}	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7281::::capacity::::(pos)++	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::if (obj == null) {    return appendNull();}	false
+org.apache.commons.lang.text.StrBuilder::::111::::3957::::3991::::buffer = new char[initialCapacity]::::buffer[((size)++)] = 'a'	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::if ((size) == 0) {    return this;}	false
+org.apache.commons.lang.text.StrBuilder::::111::::3975::::3989::::initialCapacity::::pos++	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::this.nullText	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::i + 1	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29353::::int::::double	false
+org.apache.commons.lang.text.StrBuilder::::233::::7449::::7460::::return this::::INSERT::::STATEMENT::::append(SystemUtils.LINE_SEPARATOR)	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::"Invalid length: "	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29408::::strLen >= width::::ready()	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::deleteImpl(i, (i + 1), 1)	false
+org.apache.commons.lang.text.StrBuilder::::111::::3975::::3989::::initialCapacity::::(size) / 2	false
+org.apache.commons.lang.text.StrBuilder::::233::::7449::::7460::::return this::::INSERT::::STATEMENT::::if ((nullText) == null) {    return this;}	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::if ((buffer[pos]) != (str.charAt(i))) {    return false;}	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::(size)++	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::i--	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::(size)++	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::((size) + strLen) + i	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::str.getChars((strLen - width), strLen, buffer, size)	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::if (pos > 0) {    delete(0, pos);}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::nullText.length()	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::this.size	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::append(str)	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::append(SystemUtils.LINE_SEPARATOR)	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::++i	false
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7290::::buffer::::old	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::ensureCapacity(((size) + 1))	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::if (str == null) {    return this.toString();}else {    return str;}	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::str.length()) + (org.apache.commons.lang.text.StrBuilder.CAPACITY	false
+org.apache.commons.lang.text.StrBuilder::::108::::3875::::3889::::initialCapacity::::nullText.length()	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7297::::capacity > (buffer.length)::::length >= (size)	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::(size) / 2	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::(size)++	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29219::::width > 0::::(size) == 0	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::++i	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::width - strLen	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::if (str == null) {    str = nullText;}	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::strLen	false
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7297::::buffer.length::::length()	false
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7297::::buffer.length::::(size) - 1	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::width - strLen	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::(size) + i	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::delete(0, pos)	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::if (str == null) {    return false;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::if ((buffer[pos]) != (str.charAt(i))) {    return false;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::(size) - strLen	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29408::::strLen >= width::::pos > 0	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::mark	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::strLen - width	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::if (str == null) {    buffer = new char[org.apache.commons.lang.text.StrBuilder.CAPACITY];}else {    buffer = new char[(str.length()) + (org.apache.commons.lang.text.StrBuilder.CAPACITY)];    append(str);}	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::if ((pos) >= (this.size())) {    return -1;}	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::if (str == null) {    return false;}	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::this.size()) - (pos	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::width	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::if (pos > 0) {    delete(0, pos);}	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7281::::capacity::::size	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::mark	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::str.length()) + (org.apache.commons.lang.text.StrBuilder.CAPACITY	false
+org.apache.commons.lang.text.StrBuilder::::108::::3875::::3889::::initialCapacity::::pos++	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::(size)++	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::if ((buffer[i]) != (str.charAt(i))) {    return false;}	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::pos	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::ensureCapacity(((size) + 5))	false
+org.apache.commons.lang.text.StrBuilder::::881::::29322::::29324::::obj::::ensureCapacity(((size) + 4))	false
+org.apache.commons.lang.text.StrBuilder::::233::::7449::::7460::::return this::::INSERT::::STATEMENT::::if ((ready()) == false) {    return -1;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::ensureCapacity(((size) + 5))	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::this.size	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::padLen	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::size	false
+org.apache.commons.lang.text.StrBuilder::::108::::3875::::3889::::initialCapacity::::(size)++	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::(size) - strLen	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7281::::capacity::::this.size()) - (pos	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::append(nullText)	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::"Invalid offset: "	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::mark	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::obj == null) ? getNullText() : obj.toString(	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::this.size()	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::(size) - strLen	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::(size)++	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::if ((ready()) == false) {    return -1;}	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::nullText.length()	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::if ((pos) >= (this.size())) {    return -1;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::this.toString()	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::size()	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::this.size()	false
+org.apache.commons.lang.text.StrBuilder::::108::::3875::::3889::::initialCapacity::::org.apache.commons.lang.text.StrBuilder.CAPACITY	false
+org.apache.commons.lang.text.StrBuilder::::881::::29306::::29316::::getNullText::::length	false
+org.apache.commons.lang.text.StrBuilder::::881::::29291::::29336::::obj == null) ? getNullText() : obj.toString(::::obj.toString()	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::if ((nullText) == null) {    return this;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::"Invalid startIndex: "	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::(size) + i	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::if ((size) == 0) {    return this;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::length()	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::(size) + 5	false
+org.apache.commons.lang.text.StrBuilder::::111::::3957::::3991::::buffer = new char[initialCapacity]::::buffer[((size)++)] = 'e'	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::(size) + 4	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::pos++	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::(size) + 1	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::pos	false
+org.apache.commons.lang.text.StrBuilder::::881::::29322::::29324::::obj::::ensureCapacity(((size) + width))	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::obj.toString()	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::++i	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::"Invalid startIndex: "	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::if (obj == null) {    return appendNull();}	false
+org.apache.commons.lang.text.StrBuilder::::111::::3975::::3989::::initialCapacity::::(size) - 1	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::(size) + width	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::this.append(str)	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::padLen	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}	false
+org.apache.commons.lang.text.StrBuilder::::228::::7270::::7439::::if (capacity > (buffer.length)) {    char[] old = buffer;    buffer = new char[capacity];    java.lang.System.arraycopy(old, 0, buffer, 0, size);}::::INSERT::::STATEMENT::::if (length >= (size)) {    return new java.lang.String(buffer, 0, size);}else {    return new java.lang.String(buffer, ((size) - length), length);}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::pos++	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::++i	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::org.apache.commons.lang.text.StrBuilder.CAPACITY	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::if ((ready()) == false) {    return -1;}	false
+org.apache.commons.lang.text.StrBuilder::::881::::29322::::29324::::obj::::ensureCapacity(((size) + 5))	false
+org.apache.commons.lang.text.StrBuilder::::228::::7270::::7439::::if (capacity > (buffer.length)) {    char[] old = buffer;    buffer = new char[capacity];    java.lang.System.arraycopy(old, 0, buffer, 0, size);}::::INSERT::::STATEMENT::::ensureCapacity(((size) + 4))	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::""	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::this.size()) - (pos	false
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7297::::buffer.length::::size()	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::if (obj == null) {    return appendNull();}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::i + 1	false
+org.apache.commons.lang.text.StrBuilder::::228::::7270::::7439::::if (capacity > (buffer.length)) {    char[] old = buffer;    buffer = new char[capacity];    java.lang.System.arraycopy(old, 0, buffer, 0, size);}::::INSERT::::STATEMENT::::pos++	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::if (str == null) {    str = nullText;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::ensureCapacity(((size) + 4))	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::(size) / 2	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::i + 1	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::((size) + strLen) + i	false
+org.apache.commons.lang.text.StrBuilder::::881::::29322::::29329::::toString::::size	false
+org.apache.commons.lang.text.StrBuilder::::228::::7270::::7439::::if (capacity > (buffer.length)) {    char[] old = buffer;    buffer = new char[capacity];    java.lang.System.arraycopy(old, 0, buffer, 0, size);}::::INSERT::::STATEMENT::::delete(0, pos)	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::deleteImpl(i, (i + 1), 1)	false
+org.apache.commons.lang.text.StrBuilder::::881::::29306::::29316::::getNullText::::toString	false
+org.apache.commons.lang.text.StrBuilder::::881::::29322::::29324::::obj::::this.append(str)	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29369::::length::::toString	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::lastIndexOf(str, ((size) - 1))	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::((size) - strLen) + 1	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::i	false
+org.apache.commons.lang.text.StrBuilder::::108::::3875::::3894::::initialCapacity <= 0::::(size) == 0	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::i	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::org.apache.commons.lang.text.StrBuilder.CAPACITY	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::ensureCapacity(((size) + 1))	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::if (strLen >= width) {    str.getChars((strLen - width), strLen, buffer, size);}else {    int padLen = width - strLen;    for (int i = 0; i < padLen; i++) {        buffer[((size) + i)] = padChar;    }    str.getChars(0, strLen, buffer, ((size) + padLen));}	false
+org.apache.commons.lang.text.StrBuilder::::228::::7270::::7439::::if (capacity > (buffer.length)) {    char[] old = buffer;    buffer = new char[capacity];    java.lang.System.arraycopy(old, 0, buffer, 0, size);}::::INSERT::::STATEMENT::::if ((nullText) == null) {    return this;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::ensureCapacity(((size) + 5))	true
+org.apache.commons.lang.text.StrBuilder::::111::::3957::::3991::::buffer = new char[initialCapacity]::::buffer = new char[length()]	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::if (str == null) {    buffer = new char[org.apache.commons.lang.text.StrBuilder.CAPACITY];}else {    buffer = new char[(str.length()) + (org.apache.commons.lang.text.StrBuilder.CAPACITY)];    append(str);}	false
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7297::::buffer.length::::mark	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::i--	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::if ((nullText != null) && ((nullText.length()) == 0)) {    nullText = null;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::append(str)	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::strLen	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::(pos)++	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::padLen	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::padLen	false
+org.apache.commons.lang.text.StrBuilder::::233::::7449::::7460::::return this::::INSERT::::STATEMENT::::if ((nullText != null) && ((nullText.length()) == 0)) {    nullText = null;}	false
+org.apache.commons.lang.text.StrBuilder::::228::::7270::::7439::::if (capacity > (buffer.length)) {    char[] old = buffer;    buffer = new char[capacity];    java.lang.System.arraycopy(old, 0, buffer, 0, size);}::::INSERT::::STATEMENT::::ensureCapacity(((size) + 5))	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::i	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::ensureCapacity(((size) + width))	false
+org.apache.commons.lang.text.StrBuilder::::228::::7270::::7439::::if (capacity > (buffer.length)) {    char[] old = buffer;    buffer = new char[capacity];    java.lang.System.arraycopy(old, 0, buffer, 0, size);}::::INSERT::::STATEMENT::::if ((ready()) == false) {    return -1;}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::(size)++	false
+org.apache.commons.lang.text.StrBuilder::::228::::7270::::7439::::if (capacity > (buffer.length)) {    char[] old = buffer;    buffer = new char[capacity];    java.lang.System.arraycopy(old, 0, buffer, 0, size);}::::INSERT::::STATEMENT::::ensureCapacity(((size) + length))	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::(size) / 2	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::(size) + strLen	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::this.size()) - (pos	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::strLen - width	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::((size) + strLen) + i	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::if ((size) == 0) {    return this;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::padLen	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::i	false
+org.apache.commons.lang.text.StrBuilder::::111::::3957::::3991::::buffer = new char[initialCapacity]::::buffer = new char[org.apache.commons.lang.text.StrBuilder.CAPACITY]	false
+org.apache.commons.lang.text.StrBuilder::::108::::3875::::3889::::initialCapacity::::this.size()	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::(size) + padLen	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::str.length()	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::size()	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::append(nullText)	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::i	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::(size) + i	false
+org.apache.commons.lang.text.StrBuilder::::108::::3875::::3889::::initialCapacity::::this.size	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::ensureCapacity(((size) + 4))	true
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::org.apache.commons.lang.text.StrBuilder.CAPACITY	true
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::str.getChars(0, strLen, buffer, size)	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::(size) - 1	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::i++	false
+org.apache.commons.lang.text.StrBuilder::::111::::3975::::3989::::initialCapacity::::(size) + 5	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::if (obj == null) {    return appendNull();}	false
+org.apache.commons.lang.text.StrBuilder::::111::::3975::::3989::::initialCapacity::::(size) + 4	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::if ((nullText != null) && ((nullText.length()) == 0)) {    nullText = null;}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::str.length()) + (org.apache.commons.lang.text.StrBuilder.CAPACITY	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::mark	false
+org.apache.commons.lang.text.StrBuilder::::111::::3975::::3989::::initialCapacity::::(size) + 1	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::i++	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::((size) - strLen) + 1	false
+org.apache.commons.lang.text.StrBuilder::::228::::7270::::7439::::if (capacity > (buffer.length)) {    char[] old = buffer;    buffer = new char[capacity];    java.lang.System.arraycopy(old, 0, buffer, 0, size);}::::INSERT::::STATEMENT::::if ((pos) >= (this.size())) {    return -1;}	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7281::::capacity::::length()	false
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7297::::buffer.length::::(size) - length	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::strLen	false
+org.apache.commons.lang.text.StrBuilder::::881::::29322::::29324::::obj::::append(str)	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29353::::int::::float	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::getNullText()	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::(size) + strLen	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::str.getChars(0, strLen, buffer, size)	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::appendNull()	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars((strLen - width), strLen, buffer, size);    }else {        int padLen = width - strLen;        for (int i = 0; i < padLen; i++) {            buffer[((size) + i)] = padChar;        }        str.getChars(0, strLen, buffer, ((size) + padLen));    }    size += width;}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::(size) + 4	true
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::(size) + 5	true
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::deleteImpl(i, (i + 1), 1)	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::if (strLen >= width) {    str.getChars((strLen - width), strLen, buffer, size);}else {    int padLen = width - strLen;    for (int i = 0; i < padLen; i++) {        buffer[((size) + i)] = padChar;    }    str.getChars(0, strLen, buffer, ((size) + padLen));}	false
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7297::::buffer.length::::this.size	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::pos++	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::ensureCapacity(((size) + 5))	true
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::(size) + width	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars((strLen - width), strLen, buffer, size);    }else {        int padLen = width - strLen;        for (int i = 0; i < padLen; i++) {            buffer[((size) + i)] = padChar;        }        str.getChars(0, strLen, buffer, ((size) + padLen));    }    size += width;}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::(size) + 1	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::if ((pos) >= (this.size())) {    return -1;}	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::if ((nullText) == null) {    return this;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::str.length()) + (org.apache.commons.lang.text.StrBuilder.CAPACITY	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::width - strLen	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::width	false
+org.apache.commons.lang.text.StrBuilder::::228::::7270::::7439::::if (capacity > (buffer.length)) {    char[] old = buffer;    buffer = new char[capacity];    java.lang.System.arraycopy(old, 0, buffer, 0, size);}::::INSERT::::STATEMENT::::if (length <= 0) {    return "";}else    if (length >= (size)) {        return new java.lang.String(buffer, 0, size);    }else {        return new java.lang.String(buffer, ((size) - length), length);    }	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::lastIndexOf(str, ((size) - 1))	false
+org.apache.commons.lang.text.StrBuilder::::228::::7270::::7439::::if (capacity > (buffer.length)) {    char[] old = buffer;    buffer = new char[capacity];    java.lang.System.arraycopy(old, 0, buffer, 0, size);}::::INSERT::::STATEMENT::::append(SystemUtils.LINE_SEPARATOR)	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::(size) + strLen	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::strLen - width	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::if (obj == null) {    return appendNull();}	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::append(SystemUtils.LINE_SEPARATOR)	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::if (strLen > (size)) {    return -1;}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::if ((ready()) == false) {    return -1;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::this.nullText	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::(size) + i	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::if ((buffer[i]) != (str.charAt(i))) {    return false;}	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7281::::capacity::::this.size	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7281::::capacity::::pos++	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::""	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::nullText	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::if (strLen >= width) {    str.getChars((strLen - width), strLen, buffer, size);}else {    int padLen = width - strLen;    for (int i = 0; i < padLen; i++) {        buffer[((size) + i)] = padChar;    }    str.getChars(0, strLen, buffer, ((size) + padLen));}	false
+org.apache.commons.lang.text.StrBuilder::::111::::3975::::3989::::initialCapacity::::this.size()	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::ensureCapacity(((size) + 1))	false
+org.apache.commons.lang.text.StrBuilder::::111::::3975::::3989::::initialCapacity::::nullText.length()	false
+org.apache.commons.lang.text.StrBuilder::::228::::7270::::7439::::if (capacity > (buffer.length)) {    char[] old = buffer;    buffer = new char[capacity];    java.lang.System.arraycopy(old, 0, buffer, 0, size);}::::INSERT::::STATEMENT::::if ((nullText != null) && ((nullText.length()) == 0)) {    nullText = null;}	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::pos++	false
+org.apache.commons.lang.text.StrBuilder::::228::::7270::::7439::::if (capacity > (buffer.length)) {    char[] old = buffer;    buffer = new char[capacity];    java.lang.System.arraycopy(old, 0, buffer, 0, size);}::::INSERT::::STATEMENT::::if ((size) == 0) {    return this;}	false
+org.apache.commons.lang.text.StrBuilder::::233::::7449::::7460::::return this::::INSERT::::STATEMENT::::(size)++	false
+org.apache.commons.lang.text.StrBuilder::::108::::3875::::3894::::initialCapacity <= 0::::pos > 0	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::append(SystemUtils.LINE_SEPARATOR)	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::(size) - strLen	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::i--	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7281::::capacity::::nullText.length()	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::(size)++	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::if (str == null) {    return false;}	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::(size)++	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::(size) / 2	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::if (str == null) {    return this.toString();}else {    return str;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::i--	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::str.getChars((strLen - width), strLen, buffer, size)	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::(size) + padLen	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::(size) + strLen	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::delete(0, pos)	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::delete(0, pos)	false
+org.apache.commons.lang.text.StrBuilder::::111::::3975::::3989::::initialCapacity::::size	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::str.getChars(0, strLen, buffer, ((size) + padLen))	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::if ((buffer[i]) != (str.charAt(i))) {    return false;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::this.size()) - (pos	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::(size)++	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::((size) - strLen) + 1	false
+org.apache.commons.lang.text.StrBuilder::::881::::29322::::29324::::obj::::append(newLine)	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::append(str)	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::i++	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::(size) + width	true
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::if (str == null) {    str = nullText;}	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::padLen	false
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7297::::buffer.length::::pos++	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::if ((ready()) == false) {    return -1;}	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::str.getChars(0, strLen, buffer, ((size) + padLen))	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::(size) + 1	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::ensureCapacity(((size) + width))	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::str.getChars(0, strLen, buffer, ((size) + padLen))	false
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7297::::buffer.length::::nullText.length()	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::size	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::DELETE::::STATEMENT	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::padLen	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::(size) + 1	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7281::::capacity::::org.apache.commons.lang.text.StrBuilder.CAPACITY	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::(size) + 4	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29408::::strLen >= width::::strLen > (size)	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::(size) + 5	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::(size) + 5	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::size	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::(size) + 4	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::pos++	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::if ((nullText) == null) {    return this;}	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29219::::width > 0::::strLen >= width	false
+org.apache.commons.lang.text.StrBuilder::::108::::3875::::3889::::initialCapacity::::(size) + 4	false
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7297::::buffer.length::::(pos)++	false
+org.apache.commons.lang.text.StrBuilder::::108::::3875::::3889::::initialCapacity::::(size) + 5	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::if ((nullText != null) && ((nullText.length()) == 0)) {    nullText = null;}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::(size) + i	false
+org.apache.commons.lang.text.StrBuilder::::228::::7270::::7439::::if (capacity > (buffer.length)) {    char[] old = buffer;    buffer = new char[capacity];    java.lang.System.arraycopy(old, 0, buffer, 0, size);}::::INSERT::::STATEMENT::::if ((newLine) == null) {    append(SystemUtils.LINE_SEPARATOR);    return this;}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::((size) - strLen) + 1	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29408::::strLen >= width::::strLen > 0) && (strLen <= (size)	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::nullText	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::((size) + strLen) + i	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::if ((size) == 0) {    return this;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::if (strLen >= width) {    str.getChars((strLen - width), strLen, buffer, size);}else {    int padLen = width - strLen;    for (int i = 0; i < padLen; i++) {        buffer[((size) + i)] = padChar;    }    str.getChars(0, strLen, buffer, ((size) + padLen));}	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::size()	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::(size) + i	false
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7297::::buffer.length::::org.apache.commons.lang.text.StrBuilder.CAPACITY	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::str.getChars(0, strLen, buffer, ((size) + padLen))	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::deleteImpl(i, (i + 1), 1)	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::if (str == null) {    return appendNull();}	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7281::::capacity::::pos	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::ensureCapacity(((size) + width))	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::ensureCapacity(((size) + 5))	true
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::(pos)++	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::delete(0, pos)	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29249::::ensureCapacity::::append	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::mark	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::this.size	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7281::::capacity::::(size) / 2	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::(size)++	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::i--	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::length()	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::strLen	false
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7297::::buffer.length::::pos	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::ensureCapacity(((size) + 5))	true
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::if (pos > 0) {    delete(0, pos);}	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::i--	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::if ((pos) >= (this.size())) {    return -1;}	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::(size) + padLen	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::str.length()	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::(size) + width	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::(size) + 5	true
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::(size) + strLen	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::str.getChars(0, strLen, buffer, ((size) + padLen))	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::(size) + 1	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::ensureCapacity(((size) + width))	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::(size) + 4	true
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7297::::buffer.length::::capacity	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::(size) + 5	true
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::(size) + 4	true
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::((size) - strLen) + 1	false
+org.apache.commons.lang.text.StrBuilder::::108::::3875::::3894::::initialCapacity <= 0::::ready()	false
+org.apache.commons.lang.text.StrBuilder::::108::::3875::::3889::::initialCapacity::::(size) + 1	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7297::::capacity > (buffer.length)::::buffer.length) > (length()	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::nullText.length()	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::(size) + 1	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::(size) + strLen	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::this.size	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::if ((nullText != null) && ((nullText.length()) == 0)) {    nullText = null;}	false
+org.apache.commons.lang.text.StrBuilder::::233::::7449::::7460::::return this::::INSERT::::STATEMENT::::ensureCapacity(((size) + 1))	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::if (str == null) {    return false;}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::(size) + padLen	false
+org.apache.commons.lang.text.StrBuilder::::108::::3875::::3889::::initialCapacity::::length()	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::width	false
+org.apache.commons.lang.text.StrBuilder::::111::::3975::::3989::::initialCapacity::::(size)++	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::lastIndexOf(str, ((size) - 1))	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::(pos)++	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::if ((buffer[pos]) != (str.charAt(i))) {    return false;}	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29369::::length::::appendNull	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::obj.toString()	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::i + 1	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::ensureCapacity(((size) + width))	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29262::::(size) + width::::this.size	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::++i	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::append(obj.toString())	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::if ((newLine) == null) {    append(SystemUtils.LINE_SEPARATOR);    return this;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::pos	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29219::::width > 0::::ready()	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::this.toString()	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::ensureCapacity(((size) + 4))	true
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::(size) - 1	false
+org.apache.commons.lang.text.StrBuilder::::111::::3957::::3991::::buffer = new char[initialCapacity]::::buffer[((size)++)] = 'r'	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::if (strLen > (size)) {    return -1;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::size()	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars((strLen - width), strLen, buffer, size);    }else {        int padLen = width - strLen;        for (int i = 0; i < padLen; i++) {            buffer[((size) + i)] = padChar;        }        str.getChars(0, strLen, buffer, ((size) + padLen));    }    size += width;}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::pos++	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::(size) - strLen	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::(size) - 1	false
+org.apache.commons.lang.text.StrBuilder::::111::::3975::::3989::::initialCapacity::::this.size	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::if ((buffer[pos]) != (str.charAt(i))) {    return false;}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::if (str == null) {    str = nullText;}	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::nullText.length()	false
+org.apache.commons.lang.text.StrBuilder::::228::::7285::::7297::::buffer.length::::(size) + length	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::pos++	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::if (pos > 0) {    delete(0, pos);}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::org.apache.commons.lang.text.StrBuilder.CAPACITY	true
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::if ((buffer[i]) != (str.charAt(i))) {    return false;}	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::if (str == null) {    return this.toString();}else {    return str;}	false
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::this.size()) - (pos	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::if (str == null) {    return this.toString();}else {    return str;}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::(size) + width	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::if ((nullText != null) && ((nullText.length()) == 0)) {    nullText = null;}	false
+org.apache.commons.lang.text.StrBuilder::::111::::3957::::3991::::buffer = new char[initialCapacity]::::buffer[((size)++)] = 's'	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::str.getChars(0, strLen, buffer, size)	false
+org.apache.commons.lang.text.StrBuilder::::881::::29322::::29324::::obj::::delete(0, pos)	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::(size) + strLen	false
+org.apache.commons.lang.text.StrBuilder::::111::::3975::::3989::::initialCapacity::::this.size()) - (pos	false
+org.apache.commons.lang.text.StrBuilder::::108::::3875::::3889::::initialCapacity::::size	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::if (str == null) {    str = nullText;}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::pos	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7281::::capacity::::(size)++	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::ensureCapacity(((size) + 4))	true
+org.apache.commons.lang.text.StrBuilder::::881::::29322::::29329::::toString::::appendNull	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::i + 1	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::if (str == null) {    return appendNull();}	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29431::::str::::this.append(str)	false
+org.apache.commons.lang.text.StrBuilder::::233::::7449::::7460::::return this::::INSERT::::STATEMENT::::delete(0, pos)	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}	false
+org.apache.commons.lang.text.StrBuilder::::111::::3957::::3991::::buffer = new char[initialCapacity]::::buffer[((size)++)] = 't'	false
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7297::::capacity > (buffer.length)::::length < (size)	false
+org.apache.commons.lang.text.StrBuilder::::881::::29278::::29337::::java.lang.String str = (obj == null) ? getNullText() : obj.toString()::::INSERT::::STATEMENT::::if ((buffer[i]) != (str.charAt(i))) {    return false;}	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::lastIndexOf(str, ((size) - 1))	false
+org.apache.commons.lang.text.StrBuilder::::882::::29351::::29376::::int strLen = str.length()::::INSERT::::STATEMENT::::deleteImpl(i, (i + 1), 1)	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::(size) / 2	false
+org.apache.commons.lang.text.StrBuilder::::883::::29404::::29408::::width::::length()	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::appendNull()	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::append(str)	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::append(SystemUtils.LINE_SEPARATOR)	false
+org.apache.commons.lang.text.StrBuilder::::228::::7270::::7439::::if (capacity > (buffer.length)) {    char[] old = buffer;    buffer = new char[capacity];    java.lang.System.arraycopy(old, 0, buffer, 0, size);}::::INSERT::::STATEMENT::::if (length < 0) {    throw new java.lang.StringIndexOutOfBoundsException(length);}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::(size) + padLen	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29408::::strLen >= width::::(size) == 0	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::if ((nullText) == null) {    return this;}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::(size) - 1	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::mark	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29408::::strLen >= width::::pos) >= (this.size()	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::obj == null) ? getNullText() : obj.toString(	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::org.apache.commons.lang.text.StrBuilder.CAPACITY	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::(size) - 1	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::this.size()) - (pos	false
+org.apache.commons.lang.text.StrBuilder::::111::::3957::::3991::::buffer = new char[initialCapacity]::::buffer[((size)++)] = 'u'	false
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29369::::length::::getNullText	false
+org.apache.commons.lang.text.StrBuilder::::883::::29390::::29727::::if (strLen >= width) {    str.getChars(0, strLen, buffer, size);}else {    int padLen = width - strLen;    str.getChars(0, strLen, buffer, size);    for (int i = 0; i < padLen; i++) {        buffer[(((size) + strLen) + i)] = padChar;    }}::::INSERT::::STATEMENT::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars((strLen - width), strLen, buffer, size);    }else {        int padLen = width - strLen;        for (int i = 0; i < padLen; i++) {            buffer[((size) + i)] = padChar;        }        str.getChars(0, strLen, buffer, ((size) + padLen));    }    size += width;}	false
+org.apache.commons.lang.text.StrBuilder::::881::::29306::::29316::::getNullText::::size	false
+org.apache.commons.lang.text.StrBuilder::::884::::29461::::29464::::size::::((size) - strLen) + 1	false
+org.apache.commons.lang.text.StrBuilder::::881::::29322::::29324::::obj::::append(obj.toString())	false
+org.apache.commons.lang.text.StrBuilder::::880::::29251::::29254::::size::::this.size()) - (pos	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars((strLen - width), strLen, buffer, size);    }else {        int padLen = width - strLen;        for (int i = 0; i < padLen; i++) {            buffer[((size) + i)] = padChar;        }        str.getChars(0, strLen, buffer, ((size) + padLen));    }    size += width;}	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::if ((nullText) == null) {    return this;}	false
+org.apache.commons.lang.text.StrBuilder::::880::::29258::::29262::::width::::i	false
+org.apache.commons.lang.text.StrBuilder::::884::::29445::::29450::::strLen::::width	correct
+org.apache.commons.lang.text.StrBuilder::::228::::7274::::7281::::capacity::::(size) - length	false
+org.apache.commons.lang.text.StrBuilder::::228::::7270::::7439::::if (capacity > (buffer.length)) {    char[] old = buffer;    buffer = new char[capacity];    java.lang.System.arraycopy(old, 0, buffer, 0, size);}::::INSERT::::STATEMENT::::(size)++	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::if (strLen >= width) {    str.getChars((strLen - width), strLen, buffer, size);}else {    int padLen = width - strLen;    for (int i = 0; i < padLen; i++) {        buffer[((size) + i)] = padChar;    }    str.getChars(0, strLen, buffer, ((size) + padLen));}	false
+org.apache.commons.lang.text.StrBuilder::::879::::29207::::29764::::if (width > 0) {    ensureCapacity(((size) + width));    java.lang.String str = (obj == null) ? getNullText() : obj.toString();    int strLen = str.length();    if (strLen >= width) {        str.getChars(0, strLen, buffer, size);    }else {        int padLen = width - strLen;        str.getChars(0, strLen, buffer, size);        for (int i = 0; i < padLen; i++) {            buffer[(((size) + strLen) + i)] = padChar;        }    }    size += width;}::::INSERT::::STATEMENT::::ensureCapacity(((size) + 4))	true
+org.apache.commons.lang.text.StrBuilder::::882::::29364::::29366::::str::::newLine	false
+org.apache.commons.lang.text.StrBuilder::::883::::29394::::29399::::strLen::::size	false
+org.apache.commons.lang.text.StrBuilder::::880::::29236::::29264::::ensureCapacity(((size) + width))::::INSERT::::STATEMENT::::ensureCapacity(((size) + 5))	true
+org.apache.commons.lang.text.StrBuilder::::879::::29211::::29215::::width::::strLen	false
+org.apache.commons.lang.text.StrBuilder::::884::::29429::::29466::::str.getChars(0, strLen, buffer, size)::::INSERT::::STATEMENT::::delete(0, pos)	false

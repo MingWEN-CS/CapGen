@@ -1,0 +1,11 @@
+--- original/org/jfree/data/time/Week.java
++++ fixed/org/jfree/data/time/Week.java
+@@ -201,7 +201,7 @@ public class Week extends RegularTimePeriod implements Serializable {
+         // sometimes the last few days of the year are considered to fall in
+         // the *first* week of the following year.  Refer to the Javadocs for
+         // GregorianCalendar.
+-        int tempWeek = calendar.get(Calendar.WEEK_OF_YEAR);
++        int tempWeek = calendar.get(org.jfree.data.time.Week.LAST_WEEK_IN_YEAR);
+         if (tempWeek == 1
+                 && calendar.get(Calendar.MONTH) == Calendar.DECEMBER) {
+             this.week = 1;

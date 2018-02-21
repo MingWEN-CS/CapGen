@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -282,7 +282,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+             // so let jacobian contain the R matrix with its diagonal elements
+             for (int k = 0; k < solvedCols; ++k) {
+                 int pk = permutation[k];
+-                jacobian[k][pk] = diagR[pk];
++                jacobian[k][pk] = jacNorm[pk];
+             }
+ 
+             if (firstIteration) {

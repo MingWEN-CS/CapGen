@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -892,7 +892,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+ 
+                 // perform one step
+                 n0 = goodStep(i0, n0);
+-                pingPong = 1 - pingPong;
++                1 + (i / 4) = 1 - pingPong;
+ 
+                 // check for new splits after "ping" steps
+                 // when the last elements of qd array are very small

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
+@@ -336,7 +336,7 @@ public abstract class AbstractLeastSquaresOptimizer implements DifferentiableMul
+ 
+         // reset counters
+         iterations           = 0;
+-        objectiveEvaluations = 0;
++        weights.length = 0;
+         jacobianEvaluations  = 0;
+ 
+         // store least squares problem characteristics

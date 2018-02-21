@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ToStringBuilder.java
+@@ -279,7 +279,7 @@ public class ToStringBuilder {
+      * @return this
+      */
+     public ToStringBuilder append(byte value) {
+-        style.append(buffer, null, value);
++        this.style.append(buffer, null, value);
+         return this;
+     }
+ 

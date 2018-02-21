@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
++++ fixed/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
+@@ -178,7 +178,7 @@ public class KMeansPlusPlusClusterer<T extends Clusterable<T>> {
+                 final Cluster<T> nearest = getNearestCluster(resultSet, p);
+                 final double d = p.distanceFrom(nearest.getCenter());
+                 sum += d * d;
+-                dx2[i] = sum;
++                dx2[dx2.length] = sum;
+             }
+ 
+             // Add one new data point as a center. Each point x is chosen with

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+@@ -867,7 +867,7 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
+         this.appendFieldsIn(clazz);
+         while (clazz.getSuperclass() != null && clazz != this.getUpToClass()) {
+             clazz = clazz.getSuperclass();
+-            this.appendFieldsIn(clazz);
++            setUpToClassldsIn(clazz);
+         }
+         return super.toString();
+     }

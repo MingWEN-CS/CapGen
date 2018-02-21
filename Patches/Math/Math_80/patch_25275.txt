@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1102,7 +1102,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                         tType -= 11;
+                     } else {
+                         // early failure. Divide by 4.
+-                        tau *= 0.25;
++                        tmp *= 0.25;
+                         tType -= 12;
+                     }
+                 } else if (Double.isNaN(dMin)) {

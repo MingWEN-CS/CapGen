@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -208,7 +208,7 @@ class SimplexTableau implements Serializable {
+             int row = getNumObjectiveFunctions() + i;
+ 
+             // decision variable coefficients
+-            copyArray(constraint.getCoefficients().toArray(), matrix.getDataRef()[row]);
++            copyArray(normalize(constraint).getCoefficients().toArray(), matrix.getDataRef()[row]);
+ 
+             // x-
+             if (!restrictToNonNegative) {

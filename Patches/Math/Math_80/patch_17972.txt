@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1751,7 +1751,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                 r = i;
+                 minG = absG;
+             }
+-            sixI += 6;
++            --i += 6;
+         }
+ 
+         // solve the singular system by ignoring the equation

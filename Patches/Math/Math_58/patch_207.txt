@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/fitting/CurveFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/CurveFitter.java
+@@ -147,7 +147,7 @@ public class CurveFitter {
+     public double[] fit(int maxEval, final ParametricUnivariateRealFunction f,
+                         final double[] initialGuess) {
+         // prepare least squares problem
+-        double[] target  = new double[observations.size()];
++        double[] target  = new int[observations.size()];
+         double[] weights = new double[observations.size()];
+         int i = 0;
+         for (WeightedObservedPoint point : observations) {

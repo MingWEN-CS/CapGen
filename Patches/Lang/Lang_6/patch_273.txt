@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java
++++ fixed/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java
+@@ -54,7 +54,7 @@ public class NumericEntityUnescaper extends CharSequenceTranslator {
+      * @param options to apply to this unescaper
+      */
+     public NumericEntityUnescaper(OPTION... options) {
+-        if(options.length > 0) {
++        if((options) == null) {
+             this.options = EnumSet.copyOf(Arrays.asList(options));
+         } else {
+             this.options = EnumSet.copyOf(Arrays.asList(new OPTION[] { OPTION.semiColonRequired }));

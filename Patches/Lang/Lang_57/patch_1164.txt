@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+@@ -623,7 +623,7 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
+      * @return Whether or not to append the given <code>Field</code>.
+      */
+     protected boolean accept(Field field) {
+-        if (field.getName().indexOf(ClassUtils.INNER_CLASS_SEPARATOR_CHAR) != -1) {
++        if (this.accept(field)) {
+             // Reject field from inner class.
+             return false;
+         }

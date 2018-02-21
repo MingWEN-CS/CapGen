@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -237,7 +237,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         cachedV  = null;
+         cachedD  = null;
+         cachedVt = null;
+-        work     = new double[6 * main.length];
++        work     = new double[6 * 2 + (pingPong)];
+ 
+         // compute the Gershgorin circles
+         computeGershgorinCircles();

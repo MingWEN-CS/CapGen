@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
++++ fixed/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
+@@ -174,7 +174,7 @@ public class UnivariateRealSolverUtils {
+             throw MathRuntimeException.createIllegalArgumentException(
+                   "bad value for maximum iterations number: {0}", maximumIterations);
+         }
+-        if (initial < lowerBound || initial > upperBound || lowerBound >= upperBound) {
++        if (initial < lowerBound || initial > upperBound || ((fa * fb) > 0.0) && (numIterations < maximumIterations)) && ((a > lowerBound) || (b < upperBound)) {
+             throw MathRuntimeException.createIllegalArgumentException(
+                   "invalid bracketing parameters:  lower bound={0},  initial={1}, upper bound={2}",
+                   lowerBound, initial, upperBound);

@@ -1,0 +1,135 @@
+org.apache.commons.math.analysis.solvers.BisectionSolver::::72::::2614::::2616::::max::::min	false	2.15765
+org.apache.commons.math.analysis.solvers.BisectionSolver::::66::::2377::::2379::::max::::min	false	2.2024166666666667
+org.apache.commons.math.analysis.solvers.BisectionSolver::::66::::2363::::2380::::solve(f, min, max)::::solve(min, min, max)	false	2.2393
+org.apache.commons.math.analysis.solvers.BisectionSolver::::66::::2363::::2380::::solve(f, min, max)::::solve(max, min, max)	false	2.267233333333333
+org.apache.commons.math.analysis.solvers.BisectionSolver::::72::::2609::::2611::::min::::max	false	2.2855333333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::223::::9586::::9592::::a + b::::(a + b) * 0.5	false	2.3080166666666666
+org.apache.commons.math.analysis.solvers.BisectionSolver::::88::::3061::::3064::::fmin::::min	false	2.3265333333333333
+org.apache.commons.math.analysis.solvers.BisectionSolver::::88::::3061::::3064::::fmin::::max	false	2.34385
+org.apache.commons.math.analysis.solvers.BisectionSolver::::88::::3061::::3064::::fmin::::fm	false	2.3655833333333334
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3044::::3046::::max::::min	false	2.3922166666666667
+org.apache.commons.math.analysis.solvers.BisectionSolver::::80::::2860::::2862::::max::::min	false	2.4221500000000002
+org.apache.commons.math.analysis.solvers.BisectionSolver::::88::::3061::::3064::::fmin::::m	false	2.4413833333333335
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3000::::3000::::m::::min	false	2.45955
+org.apache.commons.math.analysis.solvers.BisectionSolver::::66::::2372::::2374::::min::::max	false	2.48885
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3000::::3000::::m::::max	false	2.5107666666666666
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3039::::3041::::min::::max	false	2.5345333333333335
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3044::::3046::::max::::m	false	2.5475833333333333
+org.apache.commons.math.analysis.solvers.BisectionSolver::::88::::3076::::3078::::min::::max	false	2.566316666666667
+org.apache.commons.math.analysis.solvers.BisectionSolver::::80::::2856::::2858::::min::::max	false	2.5858833333333333
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3039::::3041::::min::::m	false	2.6012333333333335
+org.apache.commons.math.analysis.solvers.BisectionSolver::::88::::3061::::3064::::fmin::::max - min	false	2.616033333333333
+org.apache.commons.math.analysis.solvers.BisectionSolver::::80::::2860::::2862::::max::::m	false	2.6332666666666666
+org.apache.commons.math.analysis.solvers.BisectionSolver::::72::::2603::::2617::::solve(min, max)::::INSERT::::PARAMETER::::solve(f,min, max)	true	3.0235833333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::223::::9586::::9597::::(a + b) * 0.5::::b	false	3.0474
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::223::::9586::::9597::::(a + b) * 0.5::::a	false	3.09375
+org.apache.commons.math.analysis.solvers.BisectionSolver::::88::::3061::::3064::::fmin::::absoluteAccuracy	false	3.112
+org.apache.commons.math.analysis.solvers.BisectionSolver::::88::::3076::::3078::::min::::m	false	3.1376166666666667
+org.apache.commons.math.analysis.solvers.BisectionSolver::::72::::2603::::2617::::solve(min, max)::::INSERT::::PARAMETER::::solve(min, max,solve(f, min, max))	false	3.162383333333333
+org.apache.commons.math.analysis.solvers.BisectionSolver::::80::::2856::::2858::::min::::m	false	3.18255
+org.apache.commons.math.analysis.solvers.BisectionSolver::::88::::3061::::3064::::fmin::::fm * fmin	false	3.20055
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3000::::3000::::m::::fmin	false	3.2171166666666666
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3000::::3000::::m::::fm	false	3.2359500000000003
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::95::::3972::::3997::::this.functionValueAccuracy::::this.defaultFunctionValueAccuracy	false	3.2656833333333335
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::95::::3972::::3997::::this.functionValueAccuracy::::defaultFunctionValueAccuracy	false	3.2911333333333332
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3044::::3046::::max::::fmin	false	3.3070666666666666
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3044::::3046::::max::::fm	false	3.3245999999999998
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::94::::3919::::3951::::this.defaultFunctionValueAccuracy::::this.functionValueAccuracy	false	3.3508333333333336
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::95::::4001::::4028::::defaultFunctionValueAccuracy::::this.functionValueAccuracy	false	3.375916666666667
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3039::::3041::::min::::fmin	false	3.3923833333333335
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3039::::3041::::min::::fm	false	3.4113166666666666
+org.apache.commons.math.analysis.solvers.BisectionSolver::::72::::2614::::2616::::max::::max - min	false	3.453016666666667
+org.apache.commons.math.analysis.solvers.BisectionSolver::::80::::2860::::2862::::max::::fmin	false	3.4772499999999997
+org.apache.commons.math.analysis.solvers.BisectionSolver::::80::::2860::::2862::::max::::fm	false	3.5012833333333333
+org.apache.commons.math.analysis.solvers.BisectionSolver::::80::::2841::::2864::::verifyInterval(min, max)::::DELETE::::STATEMENT	false	3.5176333333333334
+org.apache.commons.math.analysis.solvers.BisectionSolver::::79::::2818::::2831::::clearResult()::::DELETE::::STATEMENT	false	3.5374333333333334
+org.apache.commons.math.analysis.solvers.BisectionSolver::::85::::2933::::2935::::int::::double	false	3.55125
+org.apache.commons.math.analysis.solvers.BisectionSolver::::66::::2377::::2379::::max::::max - min	false	3.5688999999999997
+org.apache.commons.math.analysis.solvers.BisectionSolver::::88::::3076::::3078::::min::::fmin	false	3.5811833333333336
+org.apache.commons.math.analysis.solvers.BisectionSolver::::88::::3076::::3078::::min::::fm	false	3.59485
+org.apache.commons.math.analysis.solvers.BisectionSolver::::72::::2609::::2611::::min::::max - min	false	3.6138333333333335
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3000::::3000::::m::::max - min	false	3.62715
+org.apache.commons.math.analysis.solvers.BisectionSolver::::80::::2856::::2858::::min::::fmin	false	3.63965
+org.apache.commons.math.analysis.solvers.BisectionSolver::::80::::2856::::2858::::min::::fm	false	3.65365
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3000::::3000::::m::::absoluteAccuracy	false	3.6665666666666668
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3044::::3046::::max::::max - min	false	3.6848666666666667
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3044::::3046::::max::::absoluteAccuracy	false	3.703316666666667
+org.apache.commons.math.analysis.solvers.BisectionSolver::::66::::2372::::2374::::min::::max - min	false	3.7197833333333334
+org.apache.commons.math.analysis.solvers.BisectionSolver::::80::::2860::::2862::::max::::max - min	false	3.745816666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::208::::7529::::7737::::if (lower >= upper) {    throw org.apache.commons.math.MathRuntimeException.createIllegalArgumentException("endpoints do not specify an interval: [{0}, {1}]", lower, upper);}::::INSERT::::STATEMENT::::verifyInterval(lower, upper)	false	3.8520166666666666
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3039::::3041::::min::::max - min	false	3.95595
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::95::::4001::::4028::::defaultFunctionValueAccuracy::::this.result	false	3.985316666666667
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3039::::3041::::min::::absoluteAccuracy	false	4.024366666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::94::::3919::::3951::::this.defaultFunctionValueAccuracy::::this.result	false	4.135483333333333
+org.apache.commons.math.analysis.solvers.BisectionSolver::::80::::2856::::2858::::min::::max - min	false	4.16705
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::166::::6039::::6066::::this.resultComputed = false::::this.resultComputed = true	false	4.175133333333333
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3000::::3000::::m::::fm * fmin	false	4.195366666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::223::::9591::::9591::::b::::a - 1.0	false	4.24055
+org.apache.commons.math.analysis.solvers.BisectionSolver::::80::::2860::::2862::::max::::absoluteAccuracy	false	4.28185
+org.apache.commons.math.analysis.solvers.BisectionSolver::::88::::3076::::3078::::min::::max - min	false	4.32965
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::95::::3972::::3997::::this.functionValueAccuracy::::this.result	false	4.362316666666667
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3044::::3046::::max::::fm * fmin	false	4.384116666666667
+org.apache.commons.math.analysis.solvers.BisectionSolver::::80::::2841::::2864::::verifyInterval(min, max)::::INSERT::::STATEMENT::::if ((fm * fmin) > 0.0) {    min = m;}else {    max = m;}	false	4.4023666666666665
+org.apache.commons.math.analysis.solvers.BisectionSolver::::79::::2818::::2831::::clearResult()::::INSERT::::STATEMENT::::if ((fm * fmin) > 0.0) {    min = m;}else {    max = m;}	false	4.421933333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::165::::6006::::6029::::this.iterationCount = 0::::this.iterationCount = iterationCount	false	4.4337333333333335
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3000::::3048::::m = org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.midpoint(min, max)::::min = m	false	4.4466833333333335
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3000::::3048::::m = org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.midpoint(min, max)::::max = m	false	4.458316666666667
+org.apache.commons.math.analysis.solvers.BisectionSolver::::88::::3076::::3078::::min::::absoluteAccuracy	false	4.4898
+org.apache.commons.math.analysis.solvers.BisectionSolver::::88::::3061::::3080::::fmin = f.value(min)::::min = m	false	4.503666666666667
+org.apache.commons.math.analysis.solvers.BisectionSolver::::80::::2856::::2858::::min::::absoluteAccuracy	false	4.5314000000000005
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3039::::3041::::min::::fm * fmin	false	4.556349999999999
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::223::::9587::::9587::::a::::b + 1.0	false	4.588616666666667
+org.apache.commons.math.analysis.solvers.BisectionSolver::::80::::2860::::2862::::max::::fm * fmin	false	4.609933333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::95::::3972::::4029::::this.functionValueAccuracy = defaultFunctionValueAccuracy::::this.defaultFunctionValueAccuracy = 1.0E-15	false	4.622866666666667
+org.apache.commons.math.analysis.solvers.BisectionSolver::::85::::2933::::2942::::int i = 0::::INSERT::::STATEMENT::::if ((fm * fmin) > 0.0) {    min = m;}else {    max = m;}	false	4.6415
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::94::::3919::::3962::::this.defaultFunctionValueAccuracy = 1.0E-15::::this.functionValueAccuracy = defaultFunctionValueAccuracy	false	4.6587499999999995
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::94::::3919::::3951::::this.defaultFunctionValueAccuracy::::this.functionValue	false	4.68575
+org.apache.commons.math.analysis.solvers.BisectionSolver::::88::::3076::::3078::::min::::fm * fmin	false	4.707466666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::95::::3972::::3997::::this.functionValueAccuracy::::this.functionValue	false	4.7559
+org.apache.commons.math.analysis.solvers.BisectionSolver::::88::::3061::::3064::::fmin::::solve(f, min, max)	false	4.7726
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::95::::4001::::4028::::defaultFunctionValueAccuracy::::this.functionValue	false	4.803633333333334
+org.apache.commons.math.analysis.solvers.BisectionSolver::::80::::2856::::2858::::min::::fm * fmin	false	4.823849999999999
+org.apache.commons.math.analysis.solvers.BisectionSolver::::86::::2952::::3549::::while (i < (maximalIterationCount)) {    m = org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.midpoint(min, max);    fmin = f.value(min);    fm = f.value(m);    if ((fm * fmin) > 0.0) {        min = m;    }else {        max = m;    }    if ((java.lang.Math.abs((max - min))) <= (absoluteAccuracy)) {        m = org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.midpoint(min, max);        setResult(m, i);        return m;    }    ++i;} ::::INSERT::::STATEMENT::::if ((fm * fmin) > 0.0) {    min = m;}else {    max = m;}	false	4.848016666666666
+org.apache.commons.math.analysis.solvers.BisectionSolver::::88::::3061::::3064::::fmin::::solve(min, max)	false	4.869016666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::208::::7529::::7737::::if (lower >= upper) {    throw org.apache.commons.math.MathRuntimeException.createIllegalArgumentException("endpoints do not specify an interval: [{0}, {1}]", lower, upper);}::::INSERT::::STATEMENT::::checkResultComputed()	false	4.89645
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::94::::3919::::3951::::this.defaultFunctionValueAccuracy::::functionValueAccuracy	false	4.9421333333333335
+org.apache.commons.math.analysis.solvers.BisectionSolver::::72::::2614::::2616::::max::::solve(f, min, max)	false	4.972466666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::95::::4001::::4028::::defaultFunctionValueAccuracy::::functionValueAccuracy	false	5.01715
+org.apache.commons.math.analysis.solvers.BisectionSolver::::86::::2952::::3549::::while (i < (maximalIterationCount)) {    m = org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.midpoint(min, max);    fmin = f.value(min);    fm = f.value(m);    if ((fm * fmin) > 0.0) {        min = m;    }else {        max = m;    }    if ((java.lang.Math.abs((max - min))) <= (absoluteAccuracy)) {        m = org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.midpoint(min, max);        setResult(m, i);        return m;    }    ++i;} ::::INSERT::::STATEMENT::::++i	false	5.0462
+org.apache.commons.math.analysis.solvers.BisectionSolver::::66::::2377::::2379::::max::::solve(f, min, max)	false	5.0732333333333335
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3000::::3000::::m::::solve(f, min, max)	false	5.094666666666667
+org.apache.commons.math.analysis.solvers.BisectionSolver::::72::::2609::::2611::::min::::solve(f, min, max)	false	5.1209333333333324
+org.apache.commons.math.analysis.solvers.BisectionSolver::::80::::2860::::2862::::max::::solve(f, min, max)	false	5.165416666666667
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3044::::3046::::max::::solve(f, min, max)	false	5.215216666666667
+org.apache.commons.math.analysis.solvers.BisectionSolver::::66::::2372::::2374::::min::::solve(f, min, max)	false	5.2527333333333335
+org.apache.commons.math.analysis.solvers.BisectionSolver::::72::::2614::::2616::::max::::solve(min, max)	false	5.296316666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::223::::9591::::9591::::b::::a + b	false	5.31855
+org.apache.commons.math.analysis.solvers.BisectionSolver::::80::::2856::::2858::::min::::solve(f, min, max)	false	5.349633333333333
+org.apache.commons.math.analysis.solvers.BisectionSolver::::66::::2377::::2379::::max::::solve(min, max)	false	5.368133333333334
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3039::::3041::::min::::solve(f, min, max)	false	5.387066666666667
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3000::::3000::::m::::solve(min, max)	false	5.3995500000000005
+org.apache.commons.math.analysis.solvers.BisectionSolver::::88::::3076::::3078::::min::::solve(f, min, max)	false	5.417833333333333
+org.apache.commons.math.analysis.solvers.BisectionSolver::::72::::2609::::2611::::min::::solve(min, max)	false	5.43555
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::223::::9591::::9591::::b::::(a + b) * 0.5	false	5.45415
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::223::::9587::::9587::::a::::a + b	false	5.472616666666667
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3044::::3046::::max::::solve(min, max)	false	5.505383333333333
+org.apache.commons.math.analysis.solvers.BisectionSolver::::80::::2860::::2862::::max::::solve(min, max)	false	5.5417499999999995
+org.apache.commons.math.analysis.solvers.BisectionSolver::::66::::2372::::2374::::min::::solve(min, max)	false	5.559566666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::223::::9587::::9587::::a::::(a + b) * 0.5	false	5.576933333333333
+org.apache.commons.math.analysis.solvers.BisectionSolver::::87::::3039::::3041::::min::::solve(min, max)	false	5.5975
+org.apache.commons.math.analysis.solvers.BisectionSolver::::80::::2856::::2858::::min::::solve(min, max)	false	5.6219166666666665
+org.apache.commons.math.analysis.solvers.BisectionSolver::::88::::3076::::3078::::min::::solve(min, max)	false	5.6395333333333335
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::208::::7542::::7546::::upper::::this.functionValueAccuracy	false	5.6655999999999995
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::208::::7542::::7546::::upper::::this.defaultFunctionValueAccuracy	false	5.703116666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::208::::7542::::7546::::upper::::defaultFunctionValueAccuracy	false	5.72945
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::95::::3972::::4029::::this.functionValueAccuracy = defaultFunctionValueAccuracy::::functionValueAccuracy = defaultFunctionValueAccuracy	false	5.744183333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::208::::7533::::7537::::lower::::this.functionValueAccuracy	false	5.76895
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::208::::7533::::7537::::lower::::this.defaultFunctionValueAccuracy	false	5.786333333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::208::::7533::::7537::::lower::::defaultFunctionValueAccuracy	false	5.804216666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::208::::7542::::7546::::upper::::result	false	5.821566666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::208::::7542::::7546::::upper::::functionValue	false	5.8407
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::208::::7533::::7537::::lower::::result	false	5.858216666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::208::::7533::::7537::::lower::::functionValue	false	5.875633333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::94::::3919::::3962::::this.defaultFunctionValueAccuracy = 1.0E-15::::functionValueAccuracy = defaultFunctionValueAccuracy	false	5.885066666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::208::::7542::::7546::::upper::::functionValueAccuracy	false	5.9022499999999996
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl::::208::::7533::::7537::::lower::::functionValueAccuracy	false	5.919116666666667

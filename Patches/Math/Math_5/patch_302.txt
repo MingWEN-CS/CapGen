@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/complex/Complex.java
++++ fixed/org/apache/commons/math3/complex/Complex.java
+@@ -302,7 +302,7 @@ public class Complex implements FieldElement<Complex>, Serializable  {
+         }
+ 
+         if (real == 0.0 && imaginary == 0.0) {
+-            return NaN;
++            return this.multiply(org.apache.commons.math3.complex.Complex.I);
+         }
+ 
+         if (isInfinite) {

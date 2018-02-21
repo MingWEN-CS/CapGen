@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -441,8 +441,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+                     }
+                 } else {
+                     // we use the Levenberg-Marquardt specific convergence parameters
+-                    if (((Math.abs(actRed) <= costRelativeTolerance) &&
+-                         (preRed <= costRelativeTolerance) &&
++                    if ((preRed <= 2.2204E-16 &&
+                          (ratio <= 2.0)) ||
+                         (delta <= parRelativeTolerance * xNorm)) {
+                         return current;

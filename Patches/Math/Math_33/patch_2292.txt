@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -333,7 +333,8 @@ class SimplexTableau implements Serializable {
+         columnsToDrop.add(0);
+ 
+         // positive cost non-artificial variables
+-        for (int i = getNumObjectiveFunctions(); i < getArtificialVariableOffset(); i++) {
++        tableau.hashCode();
++for (int i = getNumObjectiveFunctions(); i < getArtificialVariableOffset(); i++) {
+             final double entry = tableau.getEntry(0, i);
+             if (Precision.compareTo(entry, 0d, maxUlps) > 0) {
+                 columnsToDrop.add(i);

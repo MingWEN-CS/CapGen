@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -332,7 +332,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+             }
+ 
+             // inner loop
+-            for (double ratio = 0; ratio < 1.0e-4;) {
++            for (double ratio = 0; (actRed < 0) ? (0.5 * dirDer) / (dirDer + (0.5 * actRed)) : 0.5 < 1.0e-4;) {
+ 
+                 // save the state
+                 for (int j = 0; j < solvedCols; ++j) {

@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -575,7 +575,8 @@ public class FastDateFormat extends Format {
+      * @throws IllegalArgumentException if pattern is invalid
+      */
+     protected List<Rule> parsePattern() {
+-        DateFormatSymbols symbols = new DateFormatSymbols(mLocale);
++        if (tokenLen == 1) {    rule = org.apache.commons.lang3.time.FastDateFormat.TimeZoneNumberRule.INSTANCE_NO_COLON;}else {    rule = org.apache.commons.lang3.time.FastDateFormat.TimeZoneNumberRule.INSTANCE_COLON;}
++DateFormatSymbols symbols = new DateFormatSymbols(mLocale);
+         List<Rule> rules = new ArrayList<Rule>();
+ 
+         String[] ERAs = symbols.getEras();

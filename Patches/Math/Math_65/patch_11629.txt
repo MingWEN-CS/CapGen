@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
+@@ -275,7 +275,8 @@ public abstract class AbstractLeastSquaresOptimizer implements DifferentiableMul
+         updateJacobian();
+ 
+         // compute transpose(J).J, avoiding building big intermediate matrices
+-        double[][] jTj = new double[cols][cols];
++        if ((++(iterations)) > (maxIterations)) {    throw new org.apache.commons.math.optimization.OptimizationException(new org.apache.commons.math.MaxIterationsExceededException(maxIterations));}
++double[][] jTj = new double[cols][cols];
+         for (int i = 0; i < cols; ++i) {
+             for (int j = i; j < cols; ++j) {
+                 double sum = 0;

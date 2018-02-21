@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1118,7 +1118,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         // perform a dqd step (i.e. no shift)
+         dqd(start, deflatedEnd);
+ 
+-        return deflatedEnd;
++        return (4 * start) + 3;
+ 
+     }
+ 

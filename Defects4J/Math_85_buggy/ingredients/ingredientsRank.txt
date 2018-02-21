@@ -1,0 +1,302 @@
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8061::::(initial < lowerBound) || (initial > upperBound)::::(initial < lowerBound) || (initial > upperBound)) || (lowerBound >= upperBound	false	0.75665
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8697::::8750::::((fa * fb) > 0.0) && (numIterations < maximumIterations)::::((fa * fb) > 0.0) && (numIterations < maximumIterations)) && ((a > lowerBound) || (b < upperBound)	false	0.7666166666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8829::::8842::::(fa * fb) >= 0.0::::(fa * fb) > 0.0	true	1.0389333333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8066::::8089::::lowerBound >= upperBound::::(initial < lowerBound) || (initial > upperBound)	false	1.0583833333333332
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8061::::(initial < lowerBound) || (initial > upperBound)::::lowerBound >= upperBound	false	1.0784666666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8037::::initial < lowerBound::::(initial < lowerBound) || (initial > upperBound)	false	1.0958666666666665
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8042::::8061::::initial > upperBound::::(initial < lowerBound) || (initial > upperBound)	false	1.1164666666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8066::::8089::::lowerBound >= upperBound::::(initial < lowerBound) || (initial > upperBound)) || (lowerBound >= upperBound	false	1.1258000000000001
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8037::::initial < lowerBound::::(initial < lowerBound) || (initial > upperBound)) || (lowerBound >= upperBound	false	1.1352166666666668
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8042::::8061::::initial > upperBound::::(initial < lowerBound) || (initial > upperBound)) || (lowerBound >= upperBound	false	1.1429
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8834::::8835::::fb::::upperBound	true	1.4103166666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8834::::8835::::fb::::lowerBound	false	1.4280166666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8834::::8835::::fb::::b	true	1.69425
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8834::::8835::::fb::::a	false	1.7180166666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8829::::8830::::fa::::upperBound	false	1.7391333333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8829::::8830::::fa::::lowerBound	false	1.7593833333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8829::::8830::::fa::::b	false	1.7838166666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8829::::8830::::fa::::a	false	1.8093666666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8703::::8704::::fb::::upperBound	false	1.8288
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8703::::8704::::fb::::lowerBound	false	1.8465500000000001
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8703::::8704::::fb::::b	false	1.8715666666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8703::::8704::::fb::::a	false	1.8981166666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8698::::8699::::fa::::upperBound	false	3.9149499999999997
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8698::::8699::::fa::::lowerBound	false	3.960733333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8698::::8699::::fa::::b	false	5.987016666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8698::::8699::::fa::::a	false	6.0104999999999995
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::193::::8646::::8646::::b::::a	false	8.026366666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::193::::8626::::8627::::fb::::upperBound	false	8.048
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::193::::8626::::8627::::fb::::lowerBound	false	8.063933333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::193::::8626::::8627::::fb::::fa	false	8.083016666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::193::::8626::::8627::::fb::::b	false	8.09795
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::193::::8626::::8627::::fb::::a	false	8.11555
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::191::::8597::::8597::::a::::b	false	9.277383333333335
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::191::::8577::::8578::::fa::::upperBound	false	9.29435
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::191::::8577::::8578::::fa::::lowerBound	false	9.310183333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::191::::8577::::8578::::fa::::fb	false	9.3291
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::191::::8577::::8578::::fa::::b	false	9.346749999999998
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::191::::8577::::8578::::fa::::a	false	9.364383333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8552::::8561::::upperBound::::lowerBound	false	10.517116666666668
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8543::::8543::::b::::a	false	12.543333333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8530::::8530::::b::::a	false	14.579516666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8505::::8514::::lowerBound::::upperBound	false	15.729866666666668
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8496::::8496::::a::::b	false	17.74683333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8483::::8483::::a::::b	false	19.790200000000002
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8052::::8061::::upperBound::::lowerBound	false	19.814466666666664
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8028::::8037::::lowerBound::::upperBound	false	19.8325
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::127::::5632::::5641::::upperBound::::lowerBound	false	19.848599999999998
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::127::::5620::::5629::::lowerBound::::upperBound	false	19.866216666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::127::::5592::::5598::::bracket::::solve	false	19.8771
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8089::::(initial < lowerBound) || (initial > upperBound)) || (lowerBound >= upperBound::::(a > lowerBound) || (b < upperBound)	false	19.888550000000002
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8061::::(initial < lowerBound) || (initial > upperBound)::::(a > lowerBound) || (b < upperBound)	false	19.901349999999997
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::194::::8662::::8674::::numIterations::::maximumIterations	false	19.920066666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8543::::8549::::b + 1.0::::b	false	21.932833333333335
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8496::::8502::::a - 1.0::::a	false	23.943983333333332
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8716::::8750::::numIterations < maximumIterations::::((fa * fb) > 0.0) && (numIterations < maximumIterations)	false	23.96101666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8483::::8483::::a::::upperBound	false	25.972966666666665
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8483::::8483::::a::::lowerBound	false	27.984383333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8496::::8496::::a::::upperBound	false	29.994516666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8496::::8496::::a::::lowerBound	false	30.01493333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::193::::8646::::8646::::b::::upperBound	false	30.0326
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::193::::8646::::8646::::b::::lowerBound	false	30.97416666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::191::::8597::::8597::::a::::upperBound	false	31.767216666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::191::::8597::::8597::::a::::lowerBound	false	31.783783333333336
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8543::::8543::::b::::upperBound	false	31.80003333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8543::::8543::::b::::lowerBound	false	33.81105
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8530::::8530::::b::::upperBound	false	35.82476666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8530::::8530::::b::::lowerBound	false	37.84106666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8834::::8835::::fb::::initial	false	37.947250000000004
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8829::::8830::::fa::::initial	false	37.97175
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8703::::8704::::fb::::initial	false	37.99126666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8698::::8699::::fa::::initial	false	40.006499999999996
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::193::::8626::::8627::::fb::::initial	false	40.028083333333335
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::191::::8577::::8578::::fa::::initial	false	40.0506
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8697::::8711::::(fa * fb) > 0.0::::((fa * fb) > 0.0) && (numIterations < maximumIterations)	false	40.079449999999994
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::183::::8374::::8380::::initial::::upperBound	false	40.098
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::183::::8374::::8380::::initial::::lowerBound	false	40.1187
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8829::::8842::::(fa * fb) >= 0.0::::((fa * fb) > 0.0) && (numIterations < maximumIterations)	true	40.44245
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::182::::8346::::8352::::initial::::upperBound	false	40.46403333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::182::::8346::::8352::::initial::::lowerBound	false	40.48421666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::127::::5611::::5617::::initial::::upperBound	false	42.50143333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::127::::5611::::5617::::initial::::lowerBound	false	44.51725
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8042::::8048::::initial::::lowerBound	false	44.5325
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8066::::8089::::lowerBound >= upperBound::::(a > lowerBound) || (b < upperBound)	false	44.54281666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8552::::8561::::upperBound::::b	false	46.554316666666665
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8552::::8561::::upperBound::::a	false	48.56453333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8505::::8514::::lowerBound::::b	false	49.5038
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8505::::8514::::lowerBound::::a	false	51.51566666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8024::::initial::::upperBound	false	51.53841666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8697::::8711::::(fa * fb) > 0.0::::(fa * fb) >= 0.0	false	51.55903333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8028::::8037::::lowerBound::::b	false	51.570433333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8028::::8037::::lowerBound::::a	false	51.581716666666665
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8052::::8061::::upperBound::::b	false	51.5943
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8052::::8061::::upperBound::::a	false	51.60555
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8080::::8089::::upperBound::::b	false	51.61768333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8080::::8089::::upperBound::::a	false	51.630300000000005
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::183::::8374::::8380::::initial::::b	false	51.64568333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::183::::8374::::8380::::initial::::a	false	51.666266666666665
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8066::::8075::::lowerBound::::b	false	51.67883333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8066::::8075::::lowerBound::::a	false	51.69918333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::182::::8346::::8352::::initial::::b	false	51.71588333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::182::::8346::::8352::::initial::::a	false	51.729
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8703::::8704::::fb::::fa * fb	false	53.74208333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8834::::8835::::fb::::fa * fb	false	53.78136666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::191::::8577::::8578::::fa::::fa * fb	false	53.80876666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::193::::8626::::8627::::fb::::fa * fb	false	53.82483333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8505::::8514::::lowerBound::::initial	false	55.841
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8552::::8561::::upperBound::::initial	false	57.85281666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8829::::8830::::fa::::fa * fb	false	57.87845
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8080::::8089::::upperBound::::initial	false	57.908033333333336
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8066::::8075::::lowerBound::::initial	false	57.928700000000006
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::127::::5632::::5641::::upperBound::::initial	false	57.94553333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::127::::5620::::5629::::lowerBound::::initial	false	57.97038333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8066::::8089::::lowerBound >= upperBound::::initial > upperBound	false	57.99711666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8066::::8089::::lowerBound >= upperBound::::initial < lowerBound	false	58.02658333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8042::::8061::::initial > upperBound::::initial < lowerBound	false	58.056900000000006
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8037::::initial < lowerBound::::initial > upperBound	false	58.083483333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8037::::initial < lowerBound::::lowerBound >= upperBound	false	58.104733333333336
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8042::::8061::::initial > upperBound::::lowerBound >= upperBound	false	58.12683333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8089::::(initial < lowerBound) || (initial > upperBound)) || (lowerBound >= upperBound::::((fa * fb) > 0.0) && (numIterations < maximumIterations)) && ((a > lowerBound) || (b < upperBound)	false	58.136100000000006
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8024::::initial::::b	false	58.151133333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8024::::initial::::a	false	58.1661
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8061::::(initial < lowerBound) || (initial > upperBound)::::((fa * fb) > 0.0) && (numIterations < maximumIterations)) && ((a > lowerBound) || (b < upperBound)	false	58.17581666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8042::::8048::::initial::::b	false	58.191050000000004
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8042::::8048::::initial::::a	false	58.20643333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8483::::8483::::a::::initial	false	60.221266666666665
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8496::::8496::::a::::initial	false	62.23198333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::193::::8646::::8646::::b::::initial	false	64.2519
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::191::::8597::::8597::::a::::initial	false	66.2637
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8543::::8543::::b::::initial	false	68.28715000000001
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8530::::8530::::b::::initial	false	70.30241666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8698::::8699::::fa::::fa * fb	false	70.31818333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8066::::8089::::lowerBound >= upperBound::::b < upperBound	false	70.32845
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8066::::8089::::lowerBound >= upperBound::::a > lowerBound	false	70.33865
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8042::::8061::::initial > upperBound::::b < upperBound	false	70.3489
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8037::::initial < lowerBound::::a > lowerBound	false	70.3593
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::183::::8374::::8380::::initial::::fb	false	70.3694
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::183::::8374::::8380::::initial::::fa	false	70.37976666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8829::::8842::::(fa * fb) >= 0.0::::((fa * fb) > 0.0) && (numIterations < maximumIterations)) && ((a > lowerBound) || (b < upperBound)	false	70.38738333333335
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8716::::8750::::numIterations < maximumIterations::::((fa * fb) > 0.0) && (numIterations < maximumIterations)) && ((a > lowerBound) || (b < upperBound)	false	70.3947
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8066::::8089::::lowerBound >= upperBound::::((fa * fb) > 0.0) && (numIterations < maximumIterations)) && ((a > lowerBound) || (b < upperBound)	false	70.40138333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8697::::8711::::(fa * fb) > 0.0::::((fa * fb) > 0.0) && (numIterations < maximumIterations)) && ((a > lowerBound) || (b < upperBound)	false	70.40868333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8089::::(initial < lowerBound) || (initial > upperBound)) || (lowerBound >= upperBound::::b < upperBound	false	70.41895
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8089::::(initial < lowerBound) || (initial > upperBound)) || (lowerBound >= upperBound::::a > lowerBound	false	70.43028333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8061::::(initial < lowerBound) || (initial > upperBound)::::b < upperBound	false	70.44005
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8061::::(initial < lowerBound) || (initial > upperBound)::::a > lowerBound	false	70.45043333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::173::::7812::::7833::::maximumIterations <= 0::::numIterations < maximumIterations	false	70.46098333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::193::::8646::::8646::::b::::fb	false	70.4719
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::193::::8646::::8646::::b::::fa	false	72.48283333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::182::::8346::::8352::::initial::::fb	false	72.49456666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::182::::8346::::8352::::initial::::fa	false	72.5044
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8496::::8496::::a::::fb	false	72.51795
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8496::::8496::::a::::fa	false	72.52781666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8697::::8750::::((fa * fb) > 0.0) && (numIterations < maximumIterations)::::(fa * fb) >= 0.0	false	72.54596666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8483::::8483::::a::::fb	false	74.55716666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8483::::8483::::a::::fa	false	76.5688
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::191::::8597::::8597::::a::::fb	false	76.5879
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::191::::8597::::8597::::a::::fa	false	76.59898333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8716::::8750::::numIterations < maximumIterations::::maximumIterations <= 0	false	76.61460000000001
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::173::::7812::::7828::::maximumIterations::::numIterations	false	76.62506666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8505::::8514::::lowerBound::::fb	false	76.63889999999999
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8505::::8514::::lowerBound::::fa	false	76.6504
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8543::::8543::::b::::fb	false	76.66521666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8543::::8543::::b::::fa	false	76.67876666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::199::::8860::::9249::::throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")), numIterations, maximumIterations, initial, lowerBound, upperBound, a, b, fa, fb)::::INSERT::::STATEMENT::::if ((fa * fb) >= 0.0) {    throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")), numIterations, maximumIterations, initial, lowerBound, upperBound, a, b, fa, fb);}	false	76.69576666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8037::::initial < lowerBound::::(a > lowerBound) || (b < upperBound)	false	76.7085
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8042::::8061::::initial > upperBound::::(a > lowerBound) || (b < upperBound)	false	76.72493333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8024::::initial::::fb	false	76.73763333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8024::::initial::::fa	false	76.75033333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8530::::8530::::b::::fb	false	78.76336666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8530::::8530::::b::::fa	false	80.77503333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8028::::8037::::lowerBound::::fb	false	80.78953333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8028::::8037::::lowerBound::::fa	false	80.80355
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8052::::8061::::upperBound::::fb	false	80.81838333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8052::::8061::::upperBound::::fa	false	80.8334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::182::::8346::::8352::::initial::::fa * fb	false	80.84921666666668
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8042::::8048::::initial::::fb	false	80.86461666666668
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8042::::8048::::initial::::fa	false	80.87803333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8080::::8089::::upperBound::::fb	false	80.89236666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8080::::8089::::upperBound::::fa	false	80.90905
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::183::::8374::::8380::::initial::::fa * fb	false	80.92280000000001
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8496::::8496::::a::::fa * fb	false	80.9337
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8483::::8483::::a::::fa * fb	false	80.9442
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8066::::8075::::lowerBound::::fb	false	80.95506666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8066::::8075::::lowerBound::::fa	false	80.96520000000001
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::193::::8646::::8646::::b::::fa * fb	false	80.97615
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8024::::initial::::fa * fb	false	80.9872
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::191::::8597::::8597::::a::::fa * fb	false	80.99836666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8543::::8543::::b::::fa * fb	false	81.00919999999999
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8042::::8048::::initial::::fa * fb	false	81.0206
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8530::::8530::::b::::fa * fb	false	81.03143333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8697::::8809::::((fa * fb) > 0.0) && (numIterations < maximumIterations)) && ((a > lowerBound) || (b < upperBound)::::(initial < lowerBound) || (initial > upperBound)) || (lowerBound >= upperBound	false	81.03984999999999
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8697::::8809::::((fa * fb) > 0.0) && (numIterations < maximumIterations)) && ((a > lowerBound) || (b < upperBound)::::(initial < lowerBound) || (initial > upperBound)	false	81.05725000000001
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8552::::8561::::upperBound::::fb	false	81.06876666666668
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8552::::8561::::upperBound::::fa	false	81.07991666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8552::::8561::::upperBound::::fa * fb	false	81.09118333333332
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8505::::8514::::lowerBound::::fa * fb	false	81.10306666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8028::::8037::::lowerBound::::fa * fb	false	81.1148
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8052::::8061::::upperBound::::fa * fb	false	81.12615000000001
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8080::::8089::::upperBound::::fa * fb	false	81.13746666666665
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::173::::7812::::7833::::maximumIterations <= 0::::((fa * fb) > 0.0) && (numIterations < maximumIterations)	false	81.14871666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8066::::8075::::lowerBound::::fa * fb	false	81.1604
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8697::::8809::::((fa * fb) > 0.0) && (numIterations < maximumIterations)) && ((a > lowerBound) || (b < upperBound)::::lowerBound >= upperBound	false	81.17665000000001
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8037::::initial < lowerBound::::((fa * fb) > 0.0) && (numIterations < maximumIterations)) && ((a > lowerBound) || (b < upperBound)	false	81.18406666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8042::::8061::::initial > upperBound::::((fa * fb) > 0.0) && (numIterations < maximumIterations)) && ((a > lowerBound) || (b < upperBound)	false	81.19096666666665
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8697::::8750::::((fa * fb) > 0.0) && (numIterations < maximumIterations)::::maximumIterations <= 0	false	81.20868333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::186::::8429::::8431::::int::::double	false	81.22841666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::173::::7812::::7833::::maximumIterations <= 0::::((fa * fb) > 0.0) && (numIterations < maximumIterations)) && ((a > lowerBound) || (b < upperBound)	false	81.23593333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8697::::8809::::((fa * fb) > 0.0) && (numIterations < maximumIterations)) && ((a > lowerBound) || (b < upperBound)::::(fa * fb) >= 0.0	false	81.25206666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8697::::8809::::((fa * fb) > 0.0) && (numIterations < maximumIterations)) && ((a > lowerBound) || (b < upperBound)::::initial > upperBound	false	81.27223333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8697::::8809::::((fa * fb) > 0.0) && (numIterations < maximumIterations)) && ((a > lowerBound) || (b < upperBound)::::initial < lowerBound	false	81.28793333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8703::::8704::::fb::::b + 1.0	false	83.29950000000001
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8703::::8704::::fb::::a - 1.0	false	83.32518333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::191::::8577::::8578::::fa::::b + 1.0	false	83.34091666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::191::::8577::::8578::::fa::::a - 1.0	false	83.35665
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8834::::8835::::fb::::b + 1.0	false	83.3796
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8834::::8835::::fb::::a - 1.0	false	83.49043333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::193::::8626::::8627::::fb::::b + 1.0	false	83.50791666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::193::::8626::::8627::::fb::::a - 1.0	false	83.52546666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8829::::8830::::fa::::b + 1.0	false	83.54896666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8829::::8830::::fa::::a - 1.0	false	83.57088333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8698::::8699::::fa::::b + 1.0	false	85.58663333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8698::::8699::::fa::::a - 1.0	false	85.64563333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8697::::8809::::((fa * fb) > 0.0) && (numIterations < maximumIterations)) && ((a > lowerBound) || (b < upperBound)::::maximumIterations <= 0	false	85.70281666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8825::::9259::::if ((fa * fb) >= 0.0) {    throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")), numIterations, maximumIterations, initial, lowerBound, upperBound, a, b, fa, fb);}::::INSERT::::STATEMENT::::if ((fa * fb) >= 0.0) {    throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")), numIterations, maximumIterations, initial, lowerBound, upperBound, a, b, fa, fb);}	false	85.75413333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::183::::8363::::8381::::double b = initial::::INSERT::::STATEMENT::::if ((fa * fb) >= 0.0) {    throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")), numIterations, maximumIterations, initial, lowerBound, upperBound, a, b, fa, fb);}	false	85.78585
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::182::::8335::::8353::::double a = initial::::INSERT::::STATEMENT::::if ((fa * fb) >= 0.0) {    throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")), numIterations, maximumIterations, initial, lowerBound, upperBound, a, b, fa, fb);}	false	85.81966666666668
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::186::::8429::::8451::::int numIterations = 0::::INSERT::::STATEMENT::::if ((fa * fb) >= 0.0) {    throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")), numIterations, maximumIterations, initial, lowerBound, upperBound, a, b, fa, fb);}	false	85.85993333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::183::::8374::::8380::::initial::::b + 1.0	false	85.88846666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::183::::8374::::8380::::initial::::a - 1.0	false	85.91533333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::170::::7675::::7798::::if (function == null) {    throw org.apache.commons.math.MathRuntimeException.createIllegalArgumentException("function is null");}::::INSERT::::STATEMENT::::if ((fa * fb) >= 0.0) {    throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")), numIterations, maximumIterations, initial, lowerBound, upperBound, a, b, fa, fb);}	false	85.93045000000001
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::182::::8346::::8352::::initial::::b + 1.0	false	85.94538333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::182::::8346::::8352::::initial::::a - 1.0	false	85.9599
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8530::::8530::::b::::a - 1.0	false	85.97510000000001
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8543::::8543::::b::::a - 1.0	false	87.99146666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::191::::8597::::8597::::a::::b + 1.0	false	90.01825000000001
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::193::::8646::::8646::::b::::a - 1.0	false	92.03563333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8483::::8483::::a::::b + 1.0	false	92.04625
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8496::::8496::::a::::b + 1.0	false	92.85338333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8024::::initial::::b + 1.0	false	92.86921666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8024::::initial::::a - 1.0	false	92.8814
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8042::::8048::::initial::::b + 1.0	false	92.89201666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8042::::8048::::initial::::a - 1.0	false	92.91421666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8014::::8325::::if (((initial < lowerBound) || (initial > upperBound)) || (lowerBound >= upperBound)) {    throw org.apache.commons.math.MathRuntimeException.createIllegalArgumentException("invalid bracketing parameters:  lower bound={0},  initial={1}, upper bound={2}", lowerBound, initial, upperBound);}::::INSERT::::STATEMENT::::if ((fa * fb) >= 0.0) {    throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")), numIterations, maximumIterations, initial, lowerBound, upperBound, a, b, fa, fb);}	false	92.92758333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::173::::7808::::8004::::if (maximumIterations <= 0) {    throw org.apache.commons.math.MathRuntimeException.createIllegalArgumentException("bad value for maximum iterations number: {0}", maximumIterations);}::::INSERT::::STATEMENT::::if ((fa * fb) >= 0.0) {    throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")), numIterations, maximumIterations, initial, lowerBound, upperBound, a, b, fa, fb);}	false	92.93755
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8552::::8561::::upperBound::::b + 1.0	false	92.95808333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8552::::8561::::upperBound::::a - 1.0	false	94.97386666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8505::::8514::::lowerBound::::b + 1.0	false	96.98986666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8505::::8514::::lowerBound::::a - 1.0	false	97.01893333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8028::::8037::::lowerBound::::b + 1.0	false	97.04281666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8028::::8037::::lowerBound::::a - 1.0	false	97.06238333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8052::::8061::::upperBound::::b + 1.0	false	97.07925
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8052::::8061::::upperBound::::a - 1.0	false	97.09349999999999
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8080::::8089::::upperBound::::b + 1.0	false	97.10838333333332
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8080::::8089::::upperBound::::a - 1.0	false	97.12263333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8066::::8075::::lowerBound::::b + 1.0	false	97.13856666666668
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8066::::8075::::lowerBound::::a - 1.0	false	97.15365
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8703::::8704::::fb::::a + b	false	99.16823333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8703::::8704::::fb::::(a + b) * 0.5	false	101.19866666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8698::::8699::::fa::::a + b	false	101.2267
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::191::::8577::::8578::::fa::::a + b	false	101.24593333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::183::::8374::::8380::::initial::::a + b	false	101.28051666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8834::::8835::::fb::::a + b	false	101.30725000000001
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::193::::8626::::8627::::fb::::a + b	false	101.32379999999999
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::195::::8698::::8699::::fa::::(a + b) * 0.5	false	101.36051666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::191::::8577::::8578::::fa::::(a + b) * 0.5	false	101.40108333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8834::::8835::::fb::::(a + b) * 0.5	false	101.45615
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8829::::8830::::fa::::a + b	false	101.49668333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::193::::8626::::8627::::fb::::(a + b) * 0.5	false	101.51511666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::198::::8829::::8830::::fa::::(a + b) * 0.5	false	101.55189999999999
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::183::::8374::::8380::::initial::::(a + b) * 0.5	false	101.57373333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::182::::8335::::8340::::double::::int	false	101.59781666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::182::::8346::::8352::::initial::::a + b	false	101.62535
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8530::::8530::::b::::a + b	false	101.65678333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::182::::8346::::8352::::initial::::(a + b) * 0.5	false	101.69053333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8543::::8543::::b::::a + b	false	101.7157
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::191::::8597::::8597::::a::::a + b	false	101.74103333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8552::::8561::::upperBound::::a + b	false	103.75698333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::183::::8363::::8368::::double::::int	false	103.76755
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::193::::8646::::8646::::b::::a + b	false	103.7827
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8530::::8530::::b::::(a + b) * 0.5	false	103.79296666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8543::::8543::::b::::(a + b) * 0.5	false	105.80330000000001
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8024::::initial::::a + b	false	105.82413333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::191::::8597::::8597::::a::::(a + b) * 0.5	false	105.84416666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8042::::8048::::initial::::a + b	false	105.85875
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8483::::8483::::a::::a + b	false	105.87236666666666
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8496::::8496::::a::::a + b	false	107.88678333333334
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::193::::8646::::8646::::b::::(a + b) * 0.5	false	107.92196666666668
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8483::::8483::::a::::(a + b) * 0.5	false	107.93733333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8496::::8496::::a::::(a + b) * 0.5	false	109.9535
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8018::::8024::::initial::::(a + b) * 0.5	false	109.96903333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8042::::8048::::initial::::(a + b) * 0.5	false	109.98608333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::190::::8552::::8561::::upperBound::::(a + b) * 0.5	false	112.00145
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8505::::8514::::lowerBound::::a + b	false	114.0182
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8080::::8089::::upperBound::::a + b	false	114.02908333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8052::::8061::::upperBound::::a + b	false	114.03983333333333
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8028::::8037::::lowerBound::::a + b	false	114.05021666666667
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::189::::8505::::8514::::lowerBound::::(a + b) * 0.5	false	116.06125
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8028::::8037::::lowerBound::::(a + b) * 0.5	false	116.07195
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8052::::8061::::upperBound::::(a + b) * 0.5	false	116.08246666666668
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8080::::8089::::upperBound::::(a + b) * 0.5	false	116.09639999999999
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8066::::8075::::lowerBound::::a + b	false	116.11055
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils::::177::::8066::::8075::::lowerBound::::(a + b) * 0.5	false	116.12356666666666

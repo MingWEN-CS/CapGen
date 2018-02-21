@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1769,7 +1769,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         for (int i = r + 1; i < m; ++i) {
+             z *= -work[6 * i - 1];
+             eigenvector[i] = z;
+-            n2 += z * z;
++            n2 += z * 4 * (minPivot);
+         }
+ 
+         // normalize vector

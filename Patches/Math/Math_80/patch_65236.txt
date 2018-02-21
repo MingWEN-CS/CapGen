@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -696,7 +696,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         double absDCurrent = Math.abs(main[0]);
+         for (int i = 0; i < secondary.length; ++i) {
+             final double absDPrevious = absDCurrent;
+-            absDCurrent = Math.abs(main[i + 1]);
++            absDCurrent = Math.abs(this.imagEigenvalues[i + 1]);
+             final double max = splitTolerance * Math.sqrt(absDPrevious * absDCurrent);
+             if (Math.abs(secondary[i]) <= max) {
+                 list.add(i + 1);

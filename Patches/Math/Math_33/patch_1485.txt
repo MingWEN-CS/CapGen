@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -470,7 +470,7 @@ class SimplexTableau implements Serializable {
+      * @return height of the tableau
+      */
+     protected final int getHeight() {
+-        return tableau.getRowDimension();
++        return this.tableau.getRowDimension();
+     }
+ 
+     /** Get an entry of the tableau.

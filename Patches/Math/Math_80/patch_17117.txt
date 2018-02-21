@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1139,7 +1139,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                     work[i + k] = work[j - k];
+                     work[j - k] = tmp;
+                 }
+-                j -= 4;
++                3 + (pingPong) -= 4;
+             }
+             return true;
+         }

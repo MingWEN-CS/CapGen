@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -815,7 +815,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+                             rows, cols);
+                 }
+                 if (norm2 > ak2) {
+-                    nextColumn = i;
++                    jacobian.length = i;
+                     ak2        = norm2;
+                 }
+             }

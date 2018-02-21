@@ -1,0 +1,12 @@
+--- original/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
++++ fixed/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
+@@ -1794,7 +1794,8 @@ public abstract class AbstractCategoryItemRenderer extends AbstractRenderer
+         }
+         int index = this.plot.getIndexOf(this);
+         CategoryDataset dataset = this.plot.getDataset(index);
+-        if (dataset != null) {
++        if (dataset != null) {    this.rowCount = dataset.getRowCount();    this.columnCount = dataset.getColumnCount();}else {    this.rowCount = 0;    this.columnCount = 0;}
++if (dataset != null) {
+             return result;
+         }
+         int seriesCount = dataset.getRowCount();

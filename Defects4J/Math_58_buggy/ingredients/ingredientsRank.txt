@@ -1,0 +1,506 @@
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10664::::10692::::i + idxStep) < (points.length::::idxStep < 0 ? (i + idxStep) >= 0 : (i + idxStep) < (points.length)	false	1.665
+org.apache.commons.math.optimization.fitting.GaussianFitter::::291::::11997::::12038::::(value >= boundary1) && (value <= boundary2)::::(value >= boundary2) && (value <= boundary1)	false	1.6990166666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::183::::7207::::7223::::(points.length) - 1::::points.length	false	1.7163333333333335
+org.apache.commons.math.optimization.fitting.GaussianFitter::::291::::11997::::12038::::(value >= boundary1) && (value <= boundary2)::::(value >= boundary1) && (value <= boundary2)) || ((value >= boundary2) && (value <= boundary1)	false	1.72465
+org.apache.commons.math.optimization.fitting.GaussianFitter::::316::::12997::::13017::::p1.getX()) > (p2.getX()::::p1 == null) && (p2 == null	false	1.73555
+org.apache.commons.math.optimization.fitting.GaussianFitter::::291::::12020::::12037::::value <= boundary2::::value >= boundary2	false	1.7591166666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::291::::11998::::12015::::value >= boundary1::::value <= boundary1	false	1.7949833333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::313::::12891::::12911::::p1.getX()) < (p2.getX()::::p1 == null) && (p2 == null	false	1.8171
+org.apache.commons.math.optimization.fitting.GaussianFitter::::277::::11407::::11410::::maxY::::minY	false	1.8386500000000001
+org.apache.commons.math.optimization.fitting.GaussianFitter::::275::::11321::::11324::::maxY::::minY	false	1.8820833333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::275::::11305::::11308::::maxY::::minY	false	1.9281333333333335
+org.apache.commons.math.optimization.fitting.GaussianFitter::::272::::11147::::11170::::java.lang.Double.NEGATIVE_INFINITY::::y	false	1.9811166666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::272::::11147::::11170::::java.lang.Double.NEGATIVE_INFINITY::::minY	false	2.0238833333333335
+org.apache.commons.math.optimization.fitting.GaussianFitter::::272::::11147::::11170::::java.lang.Double.NEGATIVE_INFINITY::::maxY	false	2.0533333333333332
+org.apache.commons.math.optimization.fitting.GaussianFitter::::291::::11997::::12038::::(value >= boundary1) && (value <= boundary2)::::value >= boundary2	false	2.0943666666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::291::::11997::::12038::::(value >= boundary1) && (value <= boundary2)::::value <= boundary1	false	2.1347333333333336
+org.apache.commons.math.optimization.fitting.GaussianFitter::::277::::11401::::11404::::minY::::maxY	false	2.1715666666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::274::::11268::::11271::::minY::::maxY	false	2.200216666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::274::::11252::::11255::::minY::::maxY	false	2.2365666666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::275::::11321::::11324::::maxY::::y	false	2.285683333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::275::::11305::::11308::::maxY::::y	false	2.334616666666667
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::71::::2373::::2373::::y::::x	false	2.37195
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::71::::2373::::2373::::y::::weight	false	2.422433333333333
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::64::::2209::::2209::::x::::y	false	2.4766
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::64::::2209::::2209::::x::::weight	false	2.5314666666666668
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::57::::2068::::2073::::weight::::y	false	2.585166666666667
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::57::::2068::::2073::::weight::::x	false	2.63395
+org.apache.commons.math.optimization.fitting.GaussianFitter::::316::::13009::::13010::::p2::::p1	false	2.6835166666666668
+org.apache.commons.math.optimization.fitting.GaussianFitter::::316::::12997::::12998::::p1::::p2	false	2.722066666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::313::::12903::::12904::::p2::::p1	false	2.7534833333333335
+org.apache.commons.math.optimization.fitting.GaussianFitter::::313::::12891::::12892::::p1::::p2	false	2.7883833333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::310::::12797::::12798::::p2::::p1	false	2.81855
+org.apache.commons.math.optimization.fitting.GaussianFitter::::307::::12702::::12703::::p1::::p2	false	2.8563833333333335
+org.apache.commons.math.optimization.fitting.GaussianFitter::::304::::12608::::12609::::p2::::p1	false	2.89855
+org.apache.commons.math.optimization.fitting.GaussianFitter::::304::::12594::::12595::::p1::::p2	false	2.9594333333333336
+org.apache.commons.math.optimization.fitting.GaussianFitter::::291::::12029::::12037::::boundary2::::boundary1	false	3.0132166666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::291::::12007::::12015::::boundary1::::boundary2	false	3.0894666666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::261::::10600::::10607::::startIdx::::idxStep	false	3.12765
+org.apache.commons.math.optimization.fitting.GaussianFitter::::226::::8958::::8965::::startIdx::::idxStep	false	3.1487333333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::169::::6551::::6611::::java.util.Arrays.sort(points, createWeightedObservedPointComparator())::::java.util.Arrays.sort(params, createWeightedObservedPointComparator())	false	3.1577166666666665
+org.apache.commons.math.optimization.fitting.CurveFitter::::155::::6619::::6625::::weights::::target	false	3.178316666666667
+org.apache.commons.math.optimization.fitting.CurveFitter::::154::::6580::::6585::::target::::weights	false	3.2057833333333337
+org.apache.commons.math.optimization.fitting.GaussianFitter::::291::::12020::::12037::::value <= boundary2::::(value >= boundary2) && (value <= boundary1)	false	3.237416666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::291::::12020::::12037::::value <= boundary2::::(value >= boundary1) && (value <= boundary2)	false	3.2729666666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::274::::11252::::11255::::minY::::y	false	3.3157
+org.apache.commons.math.optimization.fitting.GaussianFitter::::274::::11268::::11271::::minY::::y	false	3.3962166666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::179::::6994::::6998::::halfY::::fwhmApprox	false	3.470883333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::277::::11407::::11410::::maxY::::y	false	3.5784833333333332
+org.apache.commons.math.optimization.fitting.GaussianFitter::::261::::10600::::10607::::startIdx::::i	false	3.619466666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::277::::11401::::11404::::minY::::y	false	3.6551166666666663
+org.apache.commons.math.optimization.fitting.GaussianFitter::::291::::11998::::12015::::value >= boundary1::::(value >= boundary2) && (value <= boundary1)	false	3.6952166666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::291::::11998::::12015::::value >= boundary1::::(value >= boundary1) && (value <= boundary2)	false	3.7249
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::50::::1873::::1873::::y::::x	false	3.74865
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::50::::1873::::1873::::y::::weight	false	3.7721500000000003
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::50::::1859::::1864::::this.y::::x	false	3.7897833333333333
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::50::::1859::::1864::::this.y::::weight	false	3.80635
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::50::::1859::::1864::::this.y::::this.x	false	3.8249
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::50::::1859::::1864::::this.y::::this.weight	false	3.8406499999999997
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::49::::1848::::1848::::x::::y	false	3.865
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::49::::1848::::1848::::x::::weight	false	3.8892666666666664
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::49::::1834::::1839::::this.x::::y	false	3.9078666666666666
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::49::::1834::::1839::::this.x::::weight	false	3.9427666666666665
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::49::::1834::::1839::::this.x::::this.y	false	3.9596333333333336
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::49::::1834::::1839::::this.x::::this.weight	false	3.9741833333333334
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::48::::1818::::1823::::weight::::y	false	3.9973
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::48::::1818::::1823::::weight::::x	false	4.030566666666667
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::48::::1804::::1814::::this.weight::::y	false	4.04325
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::48::::1804::::1814::::this.weight::::x	false	4.054166666666666
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::48::::1804::::1814::::this.weight::::this.y	false	4.065166666666666
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::48::::1804::::1814::::this.weight::::this.x	false	4.0766
+org.apache.commons.math.optimization.fitting.CurveFitter::::80::::3656::::3656::::y::::x	false	4.095983333333333
+org.apache.commons.math.optimization.fitting.CurveFitter::::80::::3653::::3653::::x::::y	false	4.162266666666667
+org.apache.commons.math.optimization.fitting.CurveFitter::::80::::3645::::3650::::weight::::y	false	4.180883333333333
+org.apache.commons.math.optimization.fitting.CurveFitter::::80::::3645::::3650::::weight::::x	false	4.199450000000001
+org.apache.commons.math.optimization.fitting.CurveFitter::::67::::3090::::3090::::y::::x	false	4.21845
+org.apache.commons.math.optimization.fitting.CurveFitter::::67::::3087::::3087::::x::::y	false	4.308516666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::263::::10712::::10712::::i::::idxStep	false	4.3325
+org.apache.commons.math.optimization.fitting.GaussianFitter::::274::::11274::::11278::::point::::points[i]	false	4.352833333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10768::::10768::::i::::idxStep	false	4.3948
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10664::::10692::::i + idxStep) < (points.length::::(i + idxStep) >= 0	false	4.436516666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10643::::10660::::(i + idxStep) >= 0::::i + idxStep) < (points.length	false	4.444933333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::185::::7291::::7341::::fwhmApprox / (2.0 * (java.lang.Math.sqrt((2.0 * (java.lang.Math.log(2.0))))))::::fwhmApprox	false	4.4663666666666675
+org.apache.commons.math.optimization.fitting.GaussianFitter::::178::::6893::::6915::::(params[1]) - (params[0])::::params[1]	false	4.4935833333333335
+org.apache.commons.math.optimization.fitting.GaussianFitter::::178::::6893::::6915::::(params[1]) - (params[0])::::params[0]	false	4.5285166666666665
+org.apache.commons.math.optimization.fitting.GaussianFitter::::178::::6892::::6922::::((params[1]) - (params[0])) / 2.0::::params[1]	false	4.561466666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::178::::6892::::6922::::((params[1]) - (params[0])) / 2.0::::params[0]	false	4.592316666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::178::::6880::::6922::::params[0]) + (((params[1]) - (params[0])) / 2.0::::params[1]	false	4.623566666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::178::::6880::::6922::::params[0]) + (((params[1]) - (params[0])) / 2.0::::params[0]	false	4.654183333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::178::::6893::::6915::::(params[1]) - (params[0])::::((params[1]) - (params[0])) / 2.0	false	4.687016666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::178::::6892::::6922::::((params[1]) - (params[0])) / 2.0::::params[0]) + (((params[1]) - (params[0])) / 2.0	false	4.700133333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10643::::10660::::(i + idxStep) >= 0::::idxStep < 0 ? (i + idxStep) >= 0 : (i + idxStep) < (points.length)	false	4.72385
+org.apache.commons.math.optimization.fitting.GaussianFitter::::178::::6880::::6922::::params[0]) + (((params[1]) - (params[0])) / 2.0::::params[2]	false	4.745
+org.apache.commons.math.optimization.fitting.GaussianFitter::::275::::11327::::11331::::point::::points[i]	false	4.7603333333333335
+org.apache.commons.math.optimization.fitting.GaussianFitter::::178::::6893::::6915::::(params[1]) - (params[0])::::params[0]) + (((params[1]) - (params[0])) / 2.0	false	4.784933333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::178::::6892::::6922::::((params[1]) - (params[0])) / 2.0::::params[2]	false	4.81175
+org.apache.commons.math.optimization.fitting.GaussianFitter::::178::::6893::::6915::::(params[1]) - (params[0])::::params[2]	false	4.841266666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::199::::7755::::7795::::points[i].getY()) > (points[maxYIdx].getY()::::i < (points.length)	false	4.8730166666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::291::::12020::::12037::::value <= boundary2::::(value >= boundary1) && (value <= boundary2)) || ((value >= boundary2) && (value <= boundary1)	false	4.9020166666666665
+org.apache.commons.math.optimization.fitting.GaussianFitter::::200::::7820::::7826::::maxYIdx::::i	false	4.932583333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::203::::7884::::7890::::maxYIdx::::i	false	4.9553666666666665
+org.apache.commons.math.optimization.fitting.GaussianFitter::::261::::10600::::10607::::startIdx::::i + idxStep	false	4.9758000000000004
+org.apache.commons.math.optimization.fitting.GaussianFitter::::291::::11998::::12015::::value >= boundary1::::(value >= boundary1) && (value <= boundary2)) || ((value >= boundary2) && (value <= boundary1)	false	5.008783333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10628::::10634::::idxStep::::i	false	5.02995
+org.apache.commons.math.optimization.fitting.GaussianFitter::::199::::7781::::7787::::maxYIdx::::i	false	5.05305
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::71::::2373::::2373::::y::::this.x	false	5.071616666666667
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::71::::2373::::2373::::y::::this.weight	false	5.095216666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::271::::11095::::11118::::java.lang.Double.POSITIVE_INFINITY::::y	false	5.1196
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::64::::2209::::2209::::x::::this.y	false	5.152616666666666
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::64::::2209::::2209::::x::::this.weight	false	5.185149999999999
+org.apache.commons.math.optimization.fitting.GaussianFitter::::263::::10717::::10723::::idxStep::::i	false	5.209716666666667
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::57::::2068::::2073::::weight::::this.y	false	5.2461166666666665
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::57::::2068::::2073::::weight::::this.x	false	5.280766666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::258::::10502::::10508::::idxStep::::i	false	5.305516666666667
+org.apache.commons.math.optimization.fitting.CurveFitter::::203::::8329::::8333::::point::::values	false	5.3339
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10627::::10639::::idxStep < 0::::idxStep == 0	false	5.3622000000000005
+org.apache.commons.math.optimization.fitting.GaussianFitter::::291::::12020::::12037::::value <= boundary2::::value >= boundary1	false	5.390616666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::291::::12020::::12037::::value <= boundary2::::value <= boundary1	false	5.4196333333333335
+org.apache.commons.math.optimization.fitting.GaussianFitter::::291::::11998::::12015::::value >= boundary1::::value >= boundary2	false	5.449333333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::291::::11998::::12015::::value >= boundary1::::value <= boundary2	false	5.477183333333333
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::50::::1873::::1873::::y::::this.x	false	5.50135
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::50::::1873::::1873::::y::::this.weight	false	5.528183333333333
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::48::::1818::::1823::::weight::::this.y	false	5.545100000000001
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::48::::1818::::1823::::weight::::this.x	false	5.562216666666667
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::49::::1848::::1848::::x::::this.y	false	5.580283333333333
+org.apache.commons.math.optimization.fitting.WeightedObservedPoint::::49::::1848::::1848::::x::::this.weight	false	5.623633333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::183::::7207::::7223::::(points.length) - 1::::findMaxY(points)	false	5.6682500000000005
+org.apache.commons.math.optimization.fitting.CurveFitter::::203::::8290::::8295::::values::::point	false	5.692783333333334
+org.apache.commons.math.optimization.fitting.CurveFitter::::206::::8371::::8376::::values::::point	false	5.712566666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::183::::7207::::7219::::points.length::::maxYIdx	false	5.73485
+org.apache.commons.math.optimization.fitting.GaussianFitter::::316::::12997::::13017::::p1.getX()) > (p2.getX()::::p2 == null	false	5.75505
+org.apache.commons.math.optimization.fitting.GaussianFitter::::316::::12997::::13017::::p1.getX()) > (p2.getX()::::p1 == null	false	5.77525
+org.apache.commons.math.optimization.fitting.GaussianFitter::::313::::12891::::12911::::p1.getX()) < (p2.getX()::::p2 == null	false	5.795333333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::313::::12891::::12911::::p1.getX()) < (p2.getX()::::p1 == null	false	5.81555
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10786::::10796::::i + idxStep::::idxStep	false	5.836033333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10786::::10796::::i + idxStep::::i	false	5.8585166666666675
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10643::::10660::::(i + idxStep) >= 0::::idxStep < 0	false	5.878683333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10664::::10692::::i + idxStep) < (points.length::::i < (points.length)	false	5.89895
+org.apache.commons.math.optimization.fitting.GaussianFitter::::121::::4827::::4831::::guess::::parameters	false	5.918816666666667
+org.apache.commons.math.optimization.fitting.CurveFitter::::67::::3065::::3092::::addObservedPoint(1.0, x, y)::::INSERT::::STATEMENT::::addObservedPoint(1.0, x, y)	false	5.948783333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::183::::7200::::7250::::points[((points.length) - 1)].getX()) - (points[0].getX()::::interpolateXAtY(points, maxYIdx, (-1), halfY)	false	5.972300000000001
+org.apache.commons.math.optimization.fitting.GaussianFitter::::183::::7200::::7250::::points[((points.length) - 1)].getX()) - (points[0].getX()::::interpolateXAtY(points, maxYIdx, (+1), halfY)	false	5.9953666666666665
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10679::::10691::::points.length::::i + idxStep	false	6.026966666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::183::::7207::::7223::::(points.length) - 1::::observations.length	false	6.222766666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::183::::7187::::7196::::fwhmApprox::::halfY	false	6.306116666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10643::::10660::::(i + idxStep) >= 0::::idxStep == 0	false	6.343100000000001
+org.apache.commons.math.optimization.fitting.GaussianFitter::::144::::5680::::5702::::(observations.length) < 3::::observations == null	false	6.3693333333333335
+org.apache.commons.math.optimization.fitting.GaussianFitter::::274::::11274::::11278::::point::::points[(i + idxStep)]	false	6.401916666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::198::::7713::::7725::::points.length::::maxYIdx	false	6.443466666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10679::::10691::::points.length::::startIdx	false	6.490483333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::223::::8802::::8813::::idxStep == 0::::idxStep < 0	false	6.532283333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::261::::10600::::10607::::startIdx::::points.length	false	6.5644
+org.apache.commons.math.optimization.fitting.GaussianFitter::::275::::11327::::11331::::point::::points[(i + idxStep)]	false	6.58825
+org.apache.commons.math.optimization.fitting.GaussianFitter::::258::::10502::::10513::::idxStep == 0::::idxStep < 0	false	6.622966666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::271::::11095::::11118::::java.lang.Double.POSITIVE_INFINITY::::minY	false	6.644283333333333
+org.apache.commons.math.optimization.fitting.CurveFitter::::201::::8197::::8199::::int::::double	false	6.667566666666667
+org.apache.commons.math.optimization.fitting.CurveFitter::::187::::7737::::7739::::int::::double	false	6.688983333333334
+org.apache.commons.math.optimization.fitting.CurveFitter::::152::::6498::::6500::::int::::double	false	6.711383333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10627::::10692::::idxStep < 0 ? (i + idxStep) >= 0 : (i + idxStep) < (points.length)::::i + idxStep) < (points.length	false	6.72695
+org.apache.commons.math.optimization.fitting.GaussianFitter::::172::::6671::::6673::::int::::double	false	6.750516666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::187::::7737::::7739::::int::::double	false	6.765083333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::261::::10592::::10594::::int::::double	false	6.787183333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::197::::7664::::7666::::int::::double	false	6.809983333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::198::::7698::::7700::::int::::double	false	6.834216666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::185::::7291::::7300::::fwhmApprox::::halfY	false	6.8581666666666665
+org.apache.commons.math.optimization.fitting.CurveFitter::::80::::3653::::3653::::x::::weight	false	6.897966666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::263::::10712::::10712::::i::::i + idxStep	false	6.921366666666667
+org.apache.commons.math.optimization.fitting.CurveFitter::::80::::3656::::3656::::y::::weight	false	6.9496166666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::271::::11095::::11118::::java.lang.Double.POSITIVE_INFINITY::::maxY	false	6.971633333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::291::::12020::::12024::::value::::boundary1	false	7.004283333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::291::::11998::::12002::::value::::boundary2	false	7.037133333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::198::::7728::::7728::::i::::maxYIdx	false	9.0625
+org.apache.commons.math.optimization.fitting.GaussianFitter::::179::::6994::::6998::::halfY::::fwhmX2 - fwhmX1	false	9.075616666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::179::::6994::::6998::::halfY::::fwhmX2	false	9.089066666666668
+org.apache.commons.math.optimization.fitting.GaussianFitter::::179::::6994::::6998::::halfY::::fwhmX1	false	9.103250000000001
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10768::::10768::::i::::i + idxStep	false	9.122533333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10786::::10786::::i::::i + idxStep	false	9.140983333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::169::::6551::::6611::::java.util.Arrays.sort(points, createWeightedObservedPointComparator())::::java.util.Arrays.sort(parameters, createWeightedObservedPointComparator())	false	9.148833333333332
+org.apache.commons.math.optimization.fitting.GaussianFitter::::274::::11274::::11278::::point::::points[0]	false	9.168733333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::274::::11274::::11278::::point::::points[((points.length) - 1)]	false	9.190983333333332
+org.apache.commons.math.optimization.fitting.GaussianFitter::::198::::7709::::7709::::i::::maxYIdx	false	9.209583333333335
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10664::::10692::::i + idxStep) < (points.length::::idxStep < 0	false	9.2295
+org.apache.commons.math.optimization.fitting.GaussianFitter::::275::::11327::::11331::::point::::points[0]	false	9.24845
+org.apache.commons.math.optimization.fitting.GaussianFitter::::275::::11327::::11331::::point::::points[((points.length) - 1)]	false	9.266983333333334
+org.apache.commons.math.optimization.fitting.CurveFitter::::80::::3602::::3659::::observations.add(new org.apache.commons.math.optimization.fitting.WeightedObservedPoint(weight, x, y))::::INSERT::::STATEMENT::::addObservedPoint(1.0, x, y)	false	9.3382
+org.apache.commons.math.optimization.fitting.GaussianFitter::::200::::7830::::7830::::i::::maxYIdx	false	9.359216666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10664::::10692::::i + idxStep) < (points.length::::idxStep == 0	false	9.379700000000001
+org.apache.commons.math.optimization.fitting.GaussianFitter::::199::::7762::::7762::::i::::maxYIdx	false	9.401166666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10628::::10634::::idxStep::::i + idxStep	false	9.421050000000001
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10790::::10796::::idxStep::::i + idxStep	false	9.439816666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::263::::10717::::10723::::idxStep::::i + idxStep	false	9.4579
+org.apache.commons.math.optimization.fitting.GaussianFitter::::258::::10502::::10508::::idxStep::::i + idxStep	false	9.472366666666666
+org.apache.commons.math.optimization.fitting.CurveFitter::::154::::6580::::6585::::target::::initialGuess	false	9.494533333333333
+org.apache.commons.math.optimization.fitting.CurveFitter::::155::::6619::::6625::::weights::::initialGuess	false	9.517533333333335
+org.apache.commons.math.optimization.fitting.GaussianFitter::::183::::7207::::7219::::points.length::::observations.length	false	9.546983333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10665::::10665::::i::::i + idxStep	false	9.572733333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10669::::10675::::idxStep::::i + idxStep	false	9.60125
+org.apache.commons.math.optimization.fitting.GaussianFitter::::179::::6981::::6987::::maxYIdx::::points.length	false	9.627683333333332
+org.apache.commons.math.optimization.fitting.GaussianFitter::::174::::6782::::6788::::maxYIdx::::points.length	false	9.654033333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::173::::6734::::6740::::maxYIdx::::points.length	false	9.682416666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::183::::7187::::7251::::fwhmApprox = (points[((points.length) - 1)].getX()) - (points[0].getX())::::fwhmApprox = fwhmX2 - fwhmX1	false	9.690716666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::307::::12702::::12711::::p1 == null::::p1 == null) && (p2 == null	false	9.6983
+org.apache.commons.math.optimization.fitting.GaussianFitter::::304::::12608::::12617::::p2 == null::::p1 == null) && (p2 == null	false	9.706833333333332
+org.apache.commons.math.optimization.fitting.GaussianFitter::::304::::12594::::12603::::p1 == null::::p1 == null) && (p2 == null	false	9.71495
+org.apache.commons.math.optimization.fitting.GaussianFitter::::310::::12797::::12806::::p2 == null::::p1 == null) && (p2 == null	false	9.722666666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10627::::10639::::idxStep < 0::::(i + idxStep) >= 0	false	9.740666666666668
+org.apache.commons.math.optimization.fitting.GaussianFitter::::200::::7820::::7826::::maxYIdx::::points.length	false	9.754016666666667
+org.apache.commons.math.optimization.fitting.CurveFitter::::150::::6401::::6406::::double::::int	false	9.766266666666667
+org.apache.commons.math.optimization.fitting.CurveFitter::::151::::6461::::6466::::double::::int	false	9.780149999999999
+org.apache.commons.math.optimization.fitting.GaussianFitter::::203::::7884::::7890::::maxYIdx::::points.length	false	9.805933333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::198::::7713::::7725::::points.length::::observations.length	false	9.835133333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10643::::10660::::(i + idxStep) >= 0::::i < (points.length)	false	9.862216666666665
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10679::::10691::::points.length::::observations.length	false	9.887033333333333
+org.apache.commons.math.optimization.fitting.CurveFitter::::200::::8156::::8161::::double::::int	false	9.902916666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::272::::11133::::11138::::double::::int	false	9.920633333333335
+org.apache.commons.math.optimization.fitting.GaussianFitter::::271::::11081::::11086::::double::::int	false	9.938966666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10768::::10768::::i::::startIdx	false	9.964983333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::263::::10712::::10712::::i::::startIdx	false	11.979466666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::183::::7187::::7196::::fwhmApprox::::fwhmX2	false	11.997566666666668
+org.apache.commons.math.optimization.fitting.GaussianFitter::::183::::7187::::7196::::fwhmApprox::::fwhmX1	false	12.017833333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10786::::10786::::i::::startIdx	false	12.051316666666667
+org.apache.commons.math.optimization.fitting.CurveFitter::::185::::7685::::7690::::double::::int	false	12.082066666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::183::::7187::::7196::::fwhmApprox::::fwhmX2 - fwhmX1	false	12.1098
+org.apache.commons.math.optimization.fitting.CurveFitter::::155::::6627::::6627::::i::::maxEval	false	12.144833333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::258::::10502::::10513::::idxStep == 0::::(i + idxStep) >= 0	false	12.165966666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10628::::10634::::idxStep::::startIdx	false	12.199483333333335
+org.apache.commons.math.optimization.fitting.GaussianFitter::::179::::6994::::6998::::halfY::::interpolateXAtY(points, maxYIdx, (-1), halfY)	false	12.236133333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::169::::6551::::6611::::java.util.Arrays.sort(points, createWeightedObservedPointComparator())::::DELETE::::STATEMENT	false	12.285333333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10648::::10654::::idxStep::::i + idxStep	false	12.3123
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10665::::10665::::i::::startIdx	false	12.354716666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10790::::10796::::idxStep::::startIdx	false	12.395516666666667
+org.apache.commons.math.optimization.fitting.CurveFitter::::80::::3602::::3659::::observations.add(new org.apache.commons.math.optimization.fitting.WeightedObservedPoint(weight, x, y))::::DELETE::::STATEMENT	false	12.4137
+org.apache.commons.math.optimization.fitting.CurveFitter::::67::::3065::::3092::::addObservedPoint(1.0, x, y)::::DELETE::::STATEMENT	false	12.442200000000001
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10748::::10805::::isBetween(y, points[i].getY(), points[(i + idxStep)].getY())::::INSERT::::STATEMENT::::if (idxStep == 0) {    throw new org.apache.commons.math.exception.ZeroException();}	false	12.450866666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::157::::6121::::6158::::parameters = basicGuess(observations)::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	12.476533333333332
+org.apache.commons.math.optimization.fitting.CurveFitter::::156::::6665::::6665::::i::::maxEval	false	12.493400000000001
+org.apache.commons.math.optimization.fitting.GaussianFitter::::179::::6994::::6998::::halfY::::interpolateXAtY(points, maxYIdx, (+1), halfY)	false	12.511616666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10669::::10675::::idxStep::::startIdx	false	12.529583333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::170::::6647::::6652::::double::::int	false	12.542466666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::179::::6941::::6946::::double::::int	false	12.554316666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::178::::6865::::6870::::double::::int	false	12.5671
+org.apache.commons.math.optimization.fitting.GaussianFitter::::185::::7685::::7690::::double::::int	false	12.575616666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10627::::10692::::idxStep < 0 ? (i + idxStep) >= 0 : (i + idxStep) < (points.length)::::(i + idxStep) >= 0	false	12.595583333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::263::::10717::::10723::::idxStep::::startIdx	false	12.614049999999999
+org.apache.commons.math.optimization.fitting.GaussianFitter::::258::::10502::::10508::::idxStep::::startIdx	false	12.6328
+org.apache.commons.math.optimization.fitting.GaussianFitter::::159::::6193::::6202::::parameters::::basicGuess(observations)	false	12.65215
+org.apache.commons.math.optimization.fitting.GaussianFitter::::185::::7291::::7300::::fwhmApprox::::fwhmX2	false	12.668616666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::185::::7291::::7300::::fwhmApprox::::fwhmX1	false	12.681983333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::261::::10600::::10607::::startIdx::::i++	false	12.698533333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::185::::7291::::7300::::fwhmApprox::::fwhmX2 - fwhmX1	false	12.71285
+org.apache.commons.math.optimization.fitting.GaussianFitter::::199::::7781::::7787::::maxYIdx::::points.length	false	12.73075
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10627::::10639::::idxStep < 0::::i + idxStep) < (points.length	false	12.739466666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10648::::10654::::idxStep::::startIdx	false	12.757416666666668
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10644::::10644::::i::::i + idxStep	false	12.775883333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10627::::10639::::idxStep < 0::::idxStep < 0 ? (i + idxStep) >= 0 : (i + idxStep) < (points.length)	false	12.796233333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10644::::10644::::i::::startIdx	false	12.817833333333335
+org.apache.commons.math.optimization.fitting.GaussianFitter::::200::::7830::::7830::::i::::points.length	false	12.835283333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10768::::10768::::i::::points.length	false	12.852966666666667
+org.apache.commons.math.optimization.fitting.CurveFitter::::154::::6587::::6587::::i::::maxEval	false	12.86945
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10665::::10665::::i::::points.length	false	12.88745
+org.apache.commons.math.optimization.fitting.GaussianFitter::::198::::7713::::7725::::points.length::::i++	false	12.9065
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10786::::10786::::i::::points.length	false	12.924366666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::277::::11368::::11412::::throw new org.apache.commons.math.exception.OutOfRangeException(y, minY, maxY)::::INSERT::::STATEMENT::::if (idxStep == 0) {    throw new org.apache.commons.math.exception.ZeroException();}	false	12.94345
+org.apache.commons.math.optimization.fitting.GaussianFitter::::272::::11133::::11171::::double maxY = java.lang.Double.NEGATIVE_INFINITY::::INSERT::::STATEMENT::::if (idxStep == 0) {    throw new org.apache.commons.math.exception.ZeroException();}	false	12.963666666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::271::::11081::::11119::::double minY = java.lang.Double.POSITIVE_INFINITY::::INSERT::::STATEMENT::::if (idxStep == 0) {    throw new org.apache.commons.math.exception.ZeroException();}	false	12.983016666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::263::::10712::::10712::::i::::points.length	false	12.997516666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::277::::11398::::11398::::y::::minY	false	13.01635
+org.apache.commons.math.optimization.fitting.GaussianFitter::::226::::8968::::8974::::idxStep::::startIdx	false	13.03475
+org.apache.commons.math.optimization.fitting.CurveFitter::::203::::8304::::8304::::f::::new org.apache.commons.math.optimization.fitting.CurveFitter.TheoreticalValuesFunction(f)	false	13.045866666666665
+org.apache.commons.math.optimization.fitting.GaussianFitter::::258::::10502::::10513::::idxStep == 0::::idxStep < 0 ? (i + idxStep) >= 0 : (i + idxStep) < (points.length)	false	13.059249999999999
+org.apache.commons.math.optimization.fitting.GaussianFitter::::258::::10502::::10513::::idxStep == 0::::i + idxStep) < (points.length	false	13.066433333333332
+org.apache.commons.math.optimization.fitting.GaussianFitter::::277::::11398::::11398::::y::::maxY	false	13.084666666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::273::::11185::::11354::::for (final org.apache.commons.math.optimization.fitting.WeightedObservedPoint point : points) {    minY = java.lang.Math.min(minY, point.getY());    maxY = java.lang.Math.max(maxY, point.getY());}::::INSERT::::STATEMENT::::if (idxStep == 0) {    throw new org.apache.commons.math.exception.ZeroException();}	false	13.10215
+org.apache.commons.math.optimization.fitting.GaussianFitter::::223::::8802::::8808::::idxStep::::startIdx	false	13.120466666666665
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10679::::10691::::points.length::::i++	false	13.13975
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10669::::10675::::idxStep::::points.length	false	13.158483333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10644::::10644::::i::::points.length	false	13.177783333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10628::::10634::::idxStep::::points.length	false	13.196416666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10664::::10692::::i + idxStep) < (points.length::::(observations.length) < 3	false	13.214116666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::185::::7279::::7342::::params[2] = fwhmApprox / (2.0 * (java.lang.Math.sqrt((2.0 * (java.lang.Math.log(2.0))))))::::fwhmApprox = fwhmX2 - fwhmX1	false	13.221333333333332
+org.apache.commons.math.optimization.fitting.GaussianFitter::::147::::5836::::5847::::observations::::this.observations	false	13.234466666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10648::::10654::::idxStep::::points.length	false	13.255383333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10790::::10796::::idxStep::::points.length	false	13.274066666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::316::::12993::::13076::::if ((p1.getX()) > (p2.getX())) {    return 1;}::::INSERT::::STATEMENT::::if (p2 == null) {    return 1;}	false	13.293566666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::316::::12993::::13076::::if ((p1.getX()) > (p2.getX())) {    return 1;}::::INSERT::::STATEMENT::::if (p1 == null) {    return -1;}	false	13.312116666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::316::::12993::::13076::::if ((p1.getX()) > (p2.getX())) {    return 1;}::::INSERT::::STATEMENT::::if ((p1 == null) && (p2 == null)) {    return 0;}	false	13.332816666666668
+org.apache.commons.math.optimization.fitting.GaussianFitter::::310::::12793::::12865::::if (p2 == null) {    return 1;}::::INSERT::::STATEMENT::::if (p2 == null) {    return 1;}	false	13.352033333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::310::::12793::::12865::::if (p2 == null) {    return 1;}::::INSERT::::STATEMENT::::if (p1 == null) {    return -1;}	false	13.370483333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::307::::12698::::12771::::if (p1 == null) {    return -1;}::::INSERT::::STATEMENT::::if (p1 == null) {    return -1;}	false	13.38865
+org.apache.commons.math.optimization.fitting.GaussianFitter::::304::::12590::::12676::::if ((p1 == null) && (p2 == null)) {    return 0;}::::INSERT::::STATEMENT::::if ((p1 == null) && (p2 == null)) {    return 0;}	false	13.407316666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::258::::10498::::10573::::if (idxStep == 0) {    throw new org.apache.commons.math.exception.ZeroException();}::::INSERT::::STATEMENT::::if (idxStep == 0) {    throw new org.apache.commons.math.exception.ZeroException();}	false	13.425416666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::223::::8798::::8873::::if (idxStep == 0) {    throw new org.apache.commons.math.exception.ZeroException();}::::INSERT::::STATEMENT::::if (idxStep == 0) {    throw new org.apache.commons.math.exception.ZeroException();}	false	13.445966666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::159::::6186::::6211::::return parameters.clone()::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	13.46345
+org.apache.commons.math.optimization.fitting.GaussianFitter::::156::::6079::::6172::::if ((parameters) == null) {    parameters = basicGuess(observations);}::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	13.48175
+org.apache.commons.math.optimization.fitting.GaussianFitter::::200::::7820::::7831::::maxYIdx = i::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	13.516416666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::200::::7820::::7831::::maxYIdx = i::::INSERT::::STATEMENT::::if ((observations.length) < 3) {    throw new org.apache.commons.math.exception.NumberIsTooSmallException(observations.length, 3, true);}	false	13.535933333333332
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10627::::10692::::idxStep < 0 ? (i + idxStep) >= 0 : (i + idxStep) < (points.length)::::i < (points.length)	false	13.55485
+org.apache.commons.math.optimization.fitting.GaussianFitter::::183::::7187::::7196::::fwhmApprox::::interpolateXAtY(points, maxYIdx, (-1), halfY)	false	13.568316666666668
+org.apache.commons.math.optimization.fitting.GaussianFitter::::226::::8887::::8979::::org.apache.commons.math.optimization.fitting.WeightedObservedPoint[] twoPoints = getInterpolationPointsForY(points, startIdx, idxStep, y)::::INSERT::::STATEMENT::::if (idxStep == 0) {    throw new org.apache.commons.math.exception.ZeroException();}	false	13.5876
+org.apache.commons.math.optimization.fitting.GaussianFitter::::313::::12887::::12971::::if ((p1.getX()) < (p2.getX())) {    return -1;}::::INSERT::::STATEMENT::::if (p1 == null) {    return -1;}	false	13.606866666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::258::::10502::::10508::::idxStep::::points.length	false	13.626033333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::307::::12698::::12771::::if (p1 == null) {    return -1;}::::INSERT::::STATEMENT::::if (p2 == null) {    return 1;}	false	13.646233333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::307::::12698::::12771::::if (p1 == null) {    return -1;}::::INSERT::::STATEMENT::::if ((p1 == null) && (p2 == null)) {    return 0;}	false	13.66625
+org.apache.commons.math.optimization.fitting.GaussianFitter::::263::::10717::::10723::::idxStep::::points.length	false	13.686016666666665
+org.apache.commons.math.optimization.fitting.CurveFitter::::189::::7862::::7862::::f::::this.f	false	13.6981
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10758::::10758::::y::::minY	false	13.712783333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::313::::12887::::12971::::if ((p1.getX()) < (p2.getX())) {    return -1;}::::INSERT::::STATEMENT::::if (p2 == null) {    return 1;}	false	13.7346
+org.apache.commons.math.optimization.fitting.GaussianFitter::::313::::12887::::12971::::if ((p1.getX()) < (p2.getX())) {    return -1;}::::INSERT::::STATEMENT::::if ((p1 == null) && (p2 == null)) {    return 0;}	false	13.752983333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::198::::7728::::7728::::i::::points.length	false	13.765683333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::183::::7187::::7196::::fwhmApprox::::interpolateXAtY(points, maxYIdx, (+1), halfY)	false	13.777899999999999
+org.apache.commons.math.optimization.fitting.GaussianFitter::::304::::12590::::12676::::if ((p1 == null) && (p2 == null)) {    return 0;}::::INSERT::::STATEMENT::::if (p2 == null) {    return 1;}	false	13.798616666666668
+org.apache.commons.math.optimization.fitting.GaussianFitter::::304::::12590::::12676::::if ((p1 == null) && (p2 == null)) {    return 0;}::::INSERT::::STATEMENT::::if (p1 == null) {    return -1;}	false	13.818466666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10758::::10758::::y::::maxY	false	13.8321
+org.apache.commons.math.optimization.fitting.GaussianFitter::::261::::10600::::10607::::startIdx::::observations.length	false	13.85315
+org.apache.commons.math.optimization.fitting.GaussianFitter::::200::::7820::::7826::::maxYIdx::::i++	false	13.870849999999999
+org.apache.commons.math.optimization.fitting.GaussianFitter::::199::::7762::::7762::::i::::points.length	false	13.8912
+org.apache.commons.math.optimization.fitting.GaussianFitter::::203::::7884::::7890::::maxYIdx::::i++	false	13.906433333333332
+org.apache.commons.math.optimization.fitting.GaussianFitter::::185::::7291::::7300::::fwhmApprox::::interpolateXAtY(points, maxYIdx, (-1), halfY)	false	13.9205
+org.apache.commons.math.optimization.fitting.GaussianFitter::::183::::7235::::7250::::points[0].getX()::::DELETE::::INFIX	false	13.937233333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::183::::7200::::7231::::points[((points.length) - 1)].getX()::::DELETE::::INFIX	false	13.93725
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10748::::10805::::isBetween(y, points[i].getY(), points[(i + idxStep)].getY())::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	13.9456
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10644::::10654::::i + idxStep::::i++	false	15.9601
+org.apache.commons.math.optimization.fitting.GaussianFitter::::185::::7291::::7300::::fwhmApprox::::interpolateXAtY(points, maxYIdx, (+1), halfY)	false	15.9747
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10748::::10805::::isBetween(y, points[i].getY(), points[(i + idxStep)].getY())::::INSERT::::STATEMENT::::if ((observations.length) < 3) {    throw new org.apache.commons.math.exception.NumberIsTooSmallException(observations.length, 3, true);}	false	15.98205
+org.apache.commons.math.optimization.fitting.GaussianFitter::::317::::13046::::13054::::return 1::::INSERT::::STATEMENT::::if (p2 == null) {    return 1;}	false	16.005983333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::317::::13046::::13054::::return 1::::INSERT::::STATEMENT::::if (p1 == null) {    return -1;}	false	16.038216666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::317::::13046::::13054::::return 1::::INSERT::::STATEMENT::::if ((p1 == null) && (p2 == null)) {    return 0;}	false	16.072400000000002
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10627::::10692::::idxStep < 0 ? (i + idxStep) >= 0 : (i + idxStep) < (points.length)::::idxStep < 0	false	16.118866666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::185::::7279::::7284::::params::::parameters	false	16.14755
+org.apache.commons.math.optimization.fitting.GaussianFitter::::310::::12793::::12865::::if (p2 == null) {    return 1;}::::INSERT::::STATEMENT::::if ((p1 == null) && (p2 == null)) {    return 0;}	false	16.173033333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10627::::10692::::idxStep < 0 ? (i + idxStep) >= 0 : (i + idxStep) < (points.length)::::idxStep == 0	false	16.19695
+org.apache.commons.math.optimization.fitting.CurveFitter::::203::::8304::::8304::::f::::this.f	false	16.219933333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10665::::10675::::i + idxStep::::i++	false	16.243433333333332
+org.apache.commons.math.optimization.fitting.CurveFitter::::67::::3065::::3092::::y::::DELETE::::PARAMETER::::addObservedPoint(1.0, x)	false	16.253183333333332
+org.apache.commons.math.optimization.fitting.CurveFitter::::67::::3065::::3092::::y::::DELETE::::PARAMETER::::addObservedPoint(1.0, x)	false	16.262966666666667
+org.apache.commons.math.optimization.fitting.CurveFitter::::67::::3065::::3092::::x::::DELETE::::PARAMETER::::addObservedPoint(1.0, y)	false	16.2731
+org.apache.commons.math.optimization.fitting.CurveFitter::::67::::3065::::3092::::x::::DELETE::::PARAMETER::::addObservedPoint(1.0, y)	false	16.2827
+org.apache.commons.math.optimization.fitting.CurveFitter::::153::::6517::::6676::::for (org.apache.commons.math.optimization.fitting.WeightedObservedPoint point : observations) {    target[i] = point.getY();    weights[i] = point.getWeight();    ++i;}::::INSERT::::STATEMENT::::++i	false	16.304716666666668
+org.apache.commons.math.optimization.fitting.GaussianFitter::::185::::7327::::7339::::java.lang.Math.log(2.0)::::DELETE::::INFIX	false	16.325499999999998
+org.apache.commons.math.optimization.fitting.GaussianFitter::::185::::7311::::7340::::java.lang.Math.sqrt((2.0 * (java.lang.Math.log(2.0))))::::DELETE::::INFIX	false	16.349383333333332
+org.apache.commons.math.optimization.fitting.GaussianFitter::::183::::7235::::7240::::points::::observations	false	16.377433333333332
+org.apache.commons.math.optimization.fitting.GaussianFitter::::272::::11133::::11171::::double maxY = java.lang.Double.NEGATIVE_INFINITY::::INSERT::::STATEMENT::::if ((observations.length) < 3) {    throw new org.apache.commons.math.exception.NumberIsTooSmallException(observations.length, 3, true);}	false	16.409316666666665
+org.apache.commons.math.optimization.fitting.GaussianFitter::::183::::7200::::7205::::points::::observations	false	16.437666666666665
+org.apache.commons.math.optimization.fitting.GaussianFitter::::183::::7207::::7212::::points::::observations	false	16.46625
+org.apache.commons.math.optimization.fitting.GaussianFitter::::316::::12993::::13076::::if ((p1.getX()) > (p2.getX())) {    return 1;}::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	16.508033333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::273::::11185::::11354::::for (final org.apache.commons.math.optimization.fitting.WeightedObservedPoint point : points) {    minY = java.lang.Math.min(minY, point.getY());    maxY = java.lang.Math.max(maxY, point.getY());}::::INSERT::::STATEMENT::::if ((observations.length) < 3) {    throw new org.apache.commons.math.exception.NumberIsTooSmallException(observations.length, 3, true);}	false	16.54
+org.apache.commons.math.optimization.fitting.GaussianFitter::::121::::4789::::4833::::return fit(new org.apache.commons.math.analysis.function.Gaussian.Parametric(), guess)::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	16.559450000000002
+org.apache.commons.math.optimization.fitting.GaussianFitter::::199::::7781::::7787::::maxYIdx::::i++	false	16.585833333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::187::::7364::::7369::::params::::parameters	false	16.612233333333332
+org.apache.commons.math.optimization.fitting.GaussianFitter::::273::::11226::::11231::::points::::observations	false	16.639583333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::203::::7877::::7891::::return maxYIdx::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	16.68385
+org.apache.commons.math.optimization.fitting.GaussianFitter::::261::::10600::::10607::::startIdx::::(points.length) - 1	false	16.715133333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10786::::10796::::i + idxStep::::i++	false	18.735866666666666
+org.apache.commons.math.optimization.fitting.CurveFitter::::203::::8304::::8304::::f::::this	false	18.749000000000002
+org.apache.commons.math.optimization.fitting.GaussianFitter::::271::::11081::::11119::::double minY = java.lang.Double.POSITIVE_INFINITY::::INSERT::::STATEMENT::::if ((observations.length) < 3) {    throw new org.apache.commons.math.exception.NumberIsTooSmallException(observations.length, 3, true);}	false	18.770433333333337
+org.apache.commons.math.optimization.fitting.GaussianFitter::::226::::8950::::8955::::points::::observations	false	18.7921
+org.apache.commons.math.optimization.fitting.GaussianFitter::::178::::6880::::6885::::params::::parameters	false	18.813550000000003
+org.apache.commons.math.optimization.fitting.GaussianFitter::::277::::11368::::11412::::throw new org.apache.commons.math.exception.OutOfRangeException(y, minY, maxY)::::INSERT::::STATEMENT::::if ((observations.length) < 3) {    throw new org.apache.commons.math.exception.NumberIsTooSmallException(observations.length, 3, true);}	false	18.8362
+org.apache.commons.math.optimization.fitting.GaussianFitter::::261::::10587::::11066::::for (int i = startIdx; idxStep < 0 ? (i + idxStep) >= 0 : (i + idxStep) < (points.length); i += idxStep) {    if (isBetween(y, points[i].getY(), points[(i + idxStep)].getY())) {        return idxStep < 0 ? new org.apache.commons.math.optimization.fitting.WeightedObservedPoint[]{ points[(i + idxStep)] , points[i] } : new org.apache.commons.math.optimization.fitting.WeightedObservedPoint[]{ points[i] , points[(i + idxStep)] };    }}::::INSERT::::STATEMENT::::if (idxStep == 0) {    throw new org.apache.commons.math.exception.ZeroException();}	false	18.856566666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::313::::12887::::12971::::if ((p1.getX()) < (p2.getX())) {    return -1;}::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	18.890316666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::273::::11185::::11354::::for (final org.apache.commons.math.optimization.fitting.WeightedObservedPoint point : points) {    minY = java.lang.Math.min(minY, point.getY());    maxY = java.lang.Math.max(maxY, point.getY());}::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	18.916249999999998
+org.apache.commons.math.optimization.fitting.GaussianFitter::::147::::5816::::5856::::this.observations = observations.clone()::::parameters = basicGuess(observations)	false	18.924683333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10761::::10766::::points::::observations	false	18.946483333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10779::::10784::::points::::observations	false	18.96925
+org.apache.commons.math.optimization.fitting.GaussianFitter::::178::::6894::::6899::::params::::parameters	false	18.989083333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10679::::10684::::points::::observations	false	19.013483333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::317::::13046::::13054::::return 1::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	19.044483333333336
+org.apache.commons.math.optimization.fitting.GaussianFitter::::226::::8887::::8979::::org.apache.commons.math.optimization.fitting.WeightedObservedPoint[] twoPoints = getInterpolationPointsForY(points, startIdx, idxStep, y)::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	19.085683333333336
+org.apache.commons.math.optimization.fitting.GaussianFitter::::179::::6973::::6978::::points::::observations	false	19.111833333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::172::::6694::::6699::::points::::observations	false	19.134149999999998
+org.apache.commons.math.optimization.fitting.GaussianFitter::::174::::6775::::6780::::points::::observations	false	19.156033333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::197::::7664::::7679::::int maxYIdx = 0::::INSERT::::STATEMENT::::if ((observations.length) < 3) {    throw new org.apache.commons.math.exception.NumberIsTooSmallException(observations.length, 3, true);}	false	19.178866666666668
+org.apache.commons.math.optimization.fitting.GaussianFitter::::173::::6727::::6732::::points::::observations	false	19.201916666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::169::::6563::::6568::::points::::observations	false	19.222683333333336
+org.apache.commons.math.optimization.fitting.GaussianFitter::::178::::6906::::6911::::params::::parameters	false	19.243516666666668
+org.apache.commons.math.optimization.fitting.GaussianFitter::::198::::7713::::7718::::points::::observations	false	19.264400000000002
+org.apache.commons.math.optimization.fitting.GaussianFitter::::120::::4707::::4779::::final double[] guess = new org.apache.commons.math.optimization.fitting.GaussianFitter.ParameterGuesser(getObservations()).guess()::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	19.27743333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::197::::7664::::7679::::int maxYIdx = 0::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	19.310183333333335
+org.apache.commons.math.optimization.fitting.GaussianFitter::::174::::6763::::6768::::params::::parameters	false	19.330783333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::173::::6715::::6720::::params::::parameters	false	19.35055
+org.apache.commons.math.optimization.fitting.GaussianFitter::::199::::7755::::7760::::points::::observations	false	19.370616666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::170::::6625::::6656::::double[] params = new double[3]::::INSERT::::STATEMENT::::if ((observations.length) < 3) {    throw new org.apache.commons.math.exception.NumberIsTooSmallException(observations.length, 3, true);}	false	19.396133333333335
+org.apache.commons.math.optimization.fitting.GaussianFitter::::310::::12793::::12865::::if (p2 == null) {    return 1;}::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	19.426550000000002
+org.apache.commons.math.optimization.fitting.GaussianFitter::::199::::7774::::7779::::points::::observations	false	19.448416666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::187::::7357::::7370::::return params::::INSERT::::STATEMENT::::if ((observations.length) < 3) {    throw new org.apache.commons.math.exception.NumberIsTooSmallException(observations.length, 3, true);}	false	19.469416666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::187::::7357::::7370::::return params::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	19.547383333333336
+org.apache.commons.math.optimization.fitting.GaussianFitter::::291::::11990::::12104::::return ((value >= boundary1) && (value <= boundary2)) || ((value >= boundary2) && (value <= boundary1))::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	19.588666666666665
+org.apache.commons.math.optimization.fitting.GaussianFitter::::203::::7877::::7891::::return maxYIdx::::INSERT::::STATEMENT::::if ((observations.length) < 3) {    throw new org.apache.commons.math.exception.NumberIsTooSmallException(observations.length, 3, true);}	false	19.610533333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::174::::6763::::6797::::params[1] = points[maxYIdx].getX()::::INSERT::::STATEMENT::::if ((observations.length) < 3) {    throw new org.apache.commons.math.exception.NumberIsTooSmallException(observations.length, 3, true);}	false	19.631700000000002
+org.apache.commons.math.optimization.fitting.GaussianFitter::::185::::7279::::7342::::params[2] = fwhmApprox / (2.0 * (java.lang.Math.sqrt((2.0 * (java.lang.Math.log(2.0))))))::::INSERT::::STATEMENT::::if ((observations.length) < 3) {    throw new org.apache.commons.math.exception.NumberIsTooSmallException(observations.length, 3, true);}	false	19.65385
+org.apache.commons.math.optimization.fitting.GaussianFitter::::172::::6671::::6701::::int maxYIdx = findMaxY(points)::::INSERT::::STATEMENT::::if ((observations.length) < 3) {    throw new org.apache.commons.math.exception.NumberIsTooSmallException(observations.length, 3, true);}	false	19.674033333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::169::::6551::::6611::::java.util.Arrays.sort(points, createWeightedObservedPointComparator())::::INSERT::::STATEMENT::::if ((observations.length) < 3) {    throw new org.apache.commons.math.exception.NumberIsTooSmallException(observations.length, 3, true);}	false	19.693683333333336
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10628::::10634::::idxStep::::i++	false	21.708849999999998
+org.apache.commons.math.optimization.fitting.GaussianFitter::::173::::6715::::6749::::params[0] = points[maxYIdx].getY()::::INSERT::::STATEMENT::::if ((observations.length) < 3) {    throw new org.apache.commons.math.exception.NumberIsTooSmallException(observations.length, 3, true);}	false	21.73935
+org.apache.commons.math.optimization.fitting.GaussianFitter::::179::::6981::::6987::::maxYIdx::::(points.length) - 1	false	21.765316666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::174::::6763::::6797::::params[1] = points[maxYIdx].getX()::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	21.79866666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10669::::10675::::idxStep::::i++	false	21.81863333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::174::::6782::::6788::::maxYIdx::::(points.length) - 1	false	21.848416666666665
+org.apache.commons.math.optimization.fitting.GaussianFitter::::302::::12432::::13581::::return new java.util.Comparator<org.apache.commons.math.optimization.fitting.WeightedObservedPoint>() {    public int compare(org.apache.commons.math.optimization.fitting.WeightedObservedPoint p1, org.apache.commons.math.optimization.fitting.WeightedObservedPoint p2) {        if ((p1 == null) && (p2 == null)) {            return 0;        }        if (p1 == null) {            return -1;        }        if (p2 == null) {            return 1;        }        if ((p1.getX()) < (p2.getX())) {            return -1;        }        if ((p1.getX()) > (p2.getX())) {            return 1;        }        if ((p1.getY()) < (p2.getY())) {            return -1;        }        if ((p1.getY()) > (p2.getY())) {            return 1;        }        if ((p1.getWeight()) < (p2.getWeight())) {            return -1;        }        if ((p1.getWeight()) > (p2.getWeight())) {            return 1;        }        return 0;    }}::::INSERT::::STATEMENT::::if ((p1 == null) && (p2 == null)) {    return 0;}	false	21.867933333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::185::::7279::::7342::::params[2] = fwhmApprox / (2.0 * (java.lang.Math.sqrt((2.0 * (java.lang.Math.log(2.0))))))::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	21.940383333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::172::::6671::::6701::::int maxYIdx = findMaxY(points)::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	21.974033333333335
+org.apache.commons.math.optimization.fitting.GaussianFitter::::169::::6551::::6611::::java.util.Arrays.sort(points, createWeightedObservedPointComparator())::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	22.005083333333335
+org.apache.commons.math.optimization.fitting.GaussianFitter::::187::::7737::::7746::::int i = 0::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	22.039166666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::198::::7693::::7863::::for (int i = 1; i < (points.length); i++) {    if ((points[i].getY()) > (points[maxYIdx].getY())) {        maxYIdx = i;    }}::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	22.07535
+org.apache.commons.math.optimization.fitting.GaussianFitter::::179::::6981::::6987::::maxYIdx::::observations.length	false	22.094683333333332
+org.apache.commons.math.optimization.fitting.GaussianFitter::::307::::12698::::12771::::if (p1 == null) {    return -1;}::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	22.12345
+org.apache.commons.math.optimization.fitting.GaussianFitter::::174::::6782::::6788::::maxYIdx::::observations.length	false	22.1431
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10790::::10796::::idxStep::::i++	false	24.1585
+org.apache.commons.math.optimization.fitting.GaussianFitter::::173::::6734::::6740::::maxYIdx::::(points.length) - 1	false	24.1784
+org.apache.commons.math.optimization.fitting.GaussianFitter::::173::::6715::::6749::::params[0] = points[maxYIdx].getY()::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	24.2099
+org.apache.commons.math.optimization.fitting.GaussianFitter::::316::::13009::::13017::::p2.getX()::::DELETE::::INFIX	false	24.231083333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::316::::12997::::13005::::p1.getX()::::DELETE::::INFIX	false	24.2311
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10648::::10654::::idxStep::::i++	false	26.245783333333335
+org.apache.commons.math.optimization.fitting.GaussianFitter::::173::::6734::::6740::::maxYIdx::::observations.length	false	26.321466666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::302::::12432::::13581::::return new java.util.Comparator<org.apache.commons.math.optimization.fitting.WeightedObservedPoint>() {    public int compare(org.apache.commons.math.optimization.fitting.WeightedObservedPoint p1, org.apache.commons.math.optimization.fitting.WeightedObservedPoint p2) {        if ((p1 == null) && (p2 == null)) {            return 0;        }        if (p1 == null) {            return -1;        }        if (p2 == null) {            return 1;        }        if ((p1.getX()) < (p2.getX())) {            return -1;        }        if ((p1.getX()) > (p2.getX())) {            return 1;        }        if ((p1.getY()) < (p2.getY())) {            return -1;        }        if ((p1.getY()) > (p2.getY())) {            return 1;        }        if ((p1.getWeight()) < (p2.getWeight())) {            return -1;        }        if ((p1.getWeight()) > (p2.getWeight())) {            return 1;        }        return 0;    }}::::INSERT::::STATEMENT::::if (p1 == null) {    return -1;}	false	26.35526666666667
+org.apache.commons.math.optimization.fitting.CurveFitter::::203::::8290::::8335::::values[(i++)] = f.value(observed.getX(), point)::::this.f = f	false	26.372916666666665
+org.apache.commons.math.optimization.fitting.GaussianFitter::::187::::7737::::7746::::int i = 0::::INSERT::::STATEMENT::::if ((observations.length) < 3) {    throw new org.apache.commons.math.exception.NumberIsTooSmallException(observations.length, 3, true);}	false	26.408433333333335
+org.apache.commons.math.optimization.fitting.GaussianFitter::::198::::7693::::7863::::for (int i = 1; i < (points.length); i++) {    if ((points[i].getY()) > (points[maxYIdx].getY())) {        maxYIdx = i;    }}::::INSERT::::STATEMENT::::if ((observations.length) < 3) {    throw new org.apache.commons.math.exception.NumberIsTooSmallException(observations.length, 3, true);}	false	26.43655
+org.apache.commons.math.optimization.fitting.GaussianFitter::::200::::7820::::7826::::maxYIdx::::(points.length) - 1	false	26.454966666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::263::::10717::::10723::::idxStep::::i++	false	26.48231666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::200::::7820::::7826::::maxYIdx::::observations.length	false	26.504733333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::304::::12590::::12676::::if ((p1 == null) && (p2 == null)) {    return 0;}::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	26.554466666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::302::::12432::::13581::::return new java.util.Comparator<org.apache.commons.math.optimization.fitting.WeightedObservedPoint>() {    public int compare(org.apache.commons.math.optimization.fitting.WeightedObservedPoint p1, org.apache.commons.math.optimization.fitting.WeightedObservedPoint p2) {        if ((p1 == null) && (p2 == null)) {            return 0;        }        if (p1 == null) {            return -1;        }        if (p2 == null) {            return 1;        }        if ((p1.getX()) < (p2.getX())) {            return -1;        }        if ((p1.getX()) > (p2.getX())) {            return 1;        }        if ((p1.getY()) < (p2.getY())) {            return -1;        }        if ((p1.getY()) > (p2.getY())) {            return 1;        }        if ((p1.getWeight()) < (p2.getWeight())) {            return -1;        }        if ((p1.getWeight()) > (p2.getWeight())) {            return 1;        }        return 0;    }}::::INSERT::::STATEMENT::::if (p2 == null) {    return 1;}	false	26.591416666666664
+org.apache.commons.math.optimization.fitting.GaussianFitter::::203::::7884::::7890::::maxYIdx::::(points.length) - 1	false	26.656366666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::258::::10502::::10508::::idxStep::::i++	false	26.70855
+org.apache.commons.math.optimization.fitting.GaussianFitter::::203::::7884::::7890::::maxYIdx::::observations.length	false	26.784883333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::185::::7653::::7714::::final double[][] jacobian = new double[observations.size()][]::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	26.87675
+org.apache.commons.math.optimization.fitting.GaussianFitter::::185::::7653::::7714::::final double[][] jacobian = new double[observations.size()][]::::INSERT::::STATEMENT::::if ((observations.length) < 3) {    throw new org.apache.commons.math.exception.NumberIsTooSmallException(observations.length, 3, true);}	false	26.9193
+org.apache.commons.math.optimization.fitting.GaussianFitter::::313::::12903::::12911::::p2.getX()::::DELETE::::INFIX	false	26.946133333333332
+org.apache.commons.math.optimization.fitting.GaussianFitter::::313::::12891::::12899::::p1.getX()::::DELETE::::INFIX	false	26.94615
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10768::::10768::::i::::observations.length	false	26.966183333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10665::::10665::::i::::observations.length	false	26.98975
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10786::::10786::::i::::observations.length	false	27.0195
+org.apache.commons.math.optimization.fitting.GaussianFitter::::200::::7830::::7830::::i::::observations.length	false	27.054
+org.apache.commons.math.optimization.fitting.GaussianFitter::::263::::10712::::10712::::i::::observations.length	false	27.072616666666665
+org.apache.commons.math.optimization.fitting.GaussianFitter::::226::::8950::::8955::::points::::twoPoints	false	27.09385
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10644::::10644::::i::::observations.length	false	27.121916666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10628::::10634::::idxStep::::observations.length	false	27.15065
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10669::::10675::::idxStep::::observations.length	false	27.18785
+org.apache.commons.math.optimization.fitting.CurveFitter::::189::::7846::::7896::::jacobian[(i++)] = f.gradient(observed.getX(), point)::::this.f = f	false	27.196849999999998
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10648::::10654::::idxStep::::observations.length	false	27.252566666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10627::::10692::::idxStep < 0 ? (i + idxStep) >= 0 : (i + idxStep) < (points.length)::::(observations.length) < 3	false	27.279166666666665
+org.apache.commons.math.optimization.fitting.GaussianFitter::::199::::7781::::7787::::maxYIdx::::(points.length) - 1	false	27.311466666666668
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10790::::10796::::idxStep::::observations.length	false	27.346600000000002
+org.apache.commons.math.optimization.fitting.GaussianFitter::::199::::7781::::7787::::maxYIdx::::observations.length	false	27.384216666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::258::::10502::::10508::::idxStep::::observations.length	false	27.4108
+org.apache.commons.math.optimization.fitting.GaussianFitter::::263::::10717::::10723::::idxStep::::observations.length	false	27.428099999999997
+org.apache.commons.math.optimization.fitting.GaussianFitter::::198::::7728::::7728::::i::::observations.length	false	27.443783333333332
+org.apache.commons.math.optimization.fitting.GaussianFitter::::199::::7755::::7770::::points[i].getY()::::DELETE::::INFIX	false	27.4438
+org.apache.commons.math.optimization.fitting.GaussianFitter::::198::::7709::::7709::::i::::observations.length	false	27.47765
+org.apache.commons.math.optimization.fitting.GaussianFitter::::302::::12432::::13581::::return new java.util.Comparator<org.apache.commons.math.optimization.fitting.WeightedObservedPoint>() {    public int compare(org.apache.commons.math.optimization.fitting.WeightedObservedPoint p1, org.apache.commons.math.optimization.fitting.WeightedObservedPoint p2) {        if ((p1 == null) && (p2 == null)) {            return 0;        }        if (p1 == null) {            return -1;        }        if (p2 == null) {            return 1;        }        if ((p1.getX()) < (p2.getX())) {            return -1;        }        if ((p1.getX()) > (p2.getX())) {            return 1;        }        if ((p1.getY()) < (p2.getY())) {            return -1;        }        if ((p1.getY()) > (p2.getY())) {            return 1;        }        if ((p1.getWeight()) < (p2.getWeight())) {            return -1;        }        if ((p1.getWeight()) > (p2.getWeight())) {            return 1;        }        return 0;    }}::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	27.536983333333335
+org.apache.commons.math.optimization.fitting.GaussianFitter::::199::::7762::::7762::::i::::observations.length	false	27.564233333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::261::::10587::::11066::::for (int i = startIdx; idxStep < 0 ? (i + idxStep) >= 0 : (i + idxStep) < (points.length); i += idxStep) {    if (isBetween(y, points[i].getY(), points[(i + idxStep)].getY())) {        return idxStep < 0 ? new org.apache.commons.math.optimization.fitting.WeightedObservedPoint[]{ points[(i + idxStep)] , points[i] } : new org.apache.commons.math.optimization.fitting.WeightedObservedPoint[]{ points[i] , points[(i + idxStep)] };    }}::::INSERT::::STATEMENT::::if ((observations.length) < 3) {    throw new org.apache.commons.math.exception.NumberIsTooSmallException(observations.length, 3, true);}	false	27.589383333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::258::::10498::::10573::::if (idxStep == 0) {    throw new org.apache.commons.math.exception.ZeroException();}::::INSERT::::STATEMENT::::if ((observations.length) < 3) {    throw new org.apache.commons.math.exception.NumberIsTooSmallException(observations.length, 3, true);}	false	27.61596666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::223::::8798::::8873::::if (idxStep == 0) {    throw new org.apache.commons.math.exception.ZeroException();}::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	27.656716666666668
+org.apache.commons.math.optimization.fitting.GaussianFitter::::258::::10498::::10573::::if (idxStep == 0) {    throw new org.apache.commons.math.exception.ZeroException();}::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	27.701016666666664
+org.apache.commons.math.optimization.fitting.GaussianFitter::::121::::4796::::4832::::new org.apache.commons.math.analysis.function.Gaussian.Parametric()::::DELETE::::PARAMETER::::fit( guess)	true	27.737583333333337
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10768::::10768::::i::::(points.length) - 1	false	27.76275
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10665::::10665::::i::::(points.length) - 1	false	27.78891666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10786::::10786::::i::::(points.length) - 1	false	27.814033333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::200::::7830::::7830::::i::::(points.length) - 1	false	27.84851666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::263::::10712::::10712::::i::::(points.length) - 1	false	27.86596666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10644::::10644::::i::::(points.length) - 1	false	27.896116666666668
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10628::::10634::::idxStep::::(points.length) - 1	false	27.9221
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10669::::10675::::idxStep::::(points.length) - 1	false	27.950116666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10648::::10654::::idxStep::::(points.length) - 1	false	27.975083333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::261::::10587::::11066::::for (int i = startIdx; idxStep < 0 ? (i + idxStep) >= 0 : (i + idxStep) < (points.length); i += idxStep) {    if (isBetween(y, points[i].getY(), points[(i + idxStep)].getY())) {        return idxStep < 0 ? new org.apache.commons.math.optimization.fitting.WeightedObservedPoint[]{ points[(i + idxStep)] , points[i] } : new org.apache.commons.math.optimization.fitting.WeightedObservedPoint[]{ points[i] , points[(i + idxStep)] };    }}::::INSERT::::STATEMENT::::if ((parameters) == null) {    parameters = basicGuess(observations);}	false	28.022933333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::199::::7762::::7762::::i::::(points.length) - 1	false	28.060166666666664
+org.apache.commons.math.optimization.fitting.GaussianFitter::::199::::7774::::7795::::points[maxYIdx].getY()::::DELETE::::INFIX	false	28.089583333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10790::::10796::::idxStep::::(points.length) - 1	false	28.128049999999998
+org.apache.commons.math.optimization.fitting.GaussianFitter::::198::::7728::::7728::::i::::(points.length) - 1	false	28.147566666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10779::::10784::::points::::getInterpolationPointsForY(points, startIdx, idxStep, y)	false	28.193416666666668
+org.apache.commons.math.optimization.fitting.GaussianFitter::::258::::10502::::10508::::idxStep::::(points.length) - 1	false	28.239216666666668
+org.apache.commons.math.optimization.fitting.GaussianFitter::::198::::7709::::7709::::i::::(points.length) - 1	false	28.290483333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::263::::10717::::10723::::idxStep::::(points.length) - 1	false	28.33791666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10761::::10766::::points::::getInterpolationPointsForY(points, startIdx, idxStep, y)	false	28.4029
+org.apache.commons.math.optimization.fitting.GaussianFitter::::273::::11226::::11231::::points::::getInterpolationPointsForY(points, startIdx, idxStep, y)	false	28.4255
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10679::::10684::::points::::getInterpolationPointsForY(points, startIdx, idxStep, y)	false	28.453533333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::226::::8950::::8955::::points::::getInterpolationPointsForY(points, startIdx, idxStep, y)	false	28.482466666666667
+org.apache.commons.math.optimization.fitting.GaussianFitter::::273::::11226::::11231::::points::::idxStep < 0 ? new org.apache.commons.math.optimization.fitting.WeightedObservedPoint[]{ points[(i + idxStep)] , points[i] } : new org.apache.commons.math.optimization.fitting.WeightedObservedPoint[]{ points[i] , points[(i + idxStep)] }	false	28.511333333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::183::::7235::::7240::::points::::this.observations	false	28.5375
+org.apache.commons.math.optimization.fitting.GaussianFitter::::183::::7200::::7205::::points::::this.observations	false	28.56048333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::183::::7207::::7212::::points::::this.observations	false	28.58373333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::273::::11226::::11231::::points::::this.observations	false	28.607483333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::226::::8950::::8955::::points::::this.observations	false	28.631833333333336
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10679::::10684::::points::::this.observations	false	28.65583333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10761::::10766::::points::::this.observations	false	28.681266666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10779::::10784::::points::::this.observations	false	28.700033333333334
+org.apache.commons.math.optimization.fitting.GaussianFitter::::179::::6973::::6978::::points::::this.observations	false	28.717699999999997
+org.apache.commons.math.optimization.fitting.GaussianFitter::::172::::6694::::6699::::points::::this.observations	false	28.737450000000003
+org.apache.commons.math.optimization.fitting.GaussianFitter::::174::::6775::::6780::::points::::this.observations	false	28.764533333333336
+org.apache.commons.math.optimization.fitting.GaussianFitter::::173::::6727::::6732::::points::::this.observations	false	28.78578333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::169::::6563::::6568::::points::::this.observations	false	28.81833333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::198::::7713::::7718::::points::::this.observations	false	28.845633333333335
+org.apache.commons.math.optimization.fitting.GaussianFitter::::273::::11226::::11231::::points::::new org.apache.commons.math.optimization.fitting.WeightedObservedPoint[]{ points[i] , points[(i + idxStep)] }	false	28.86435
+org.apache.commons.math.optimization.fitting.GaussianFitter::::273::::11226::::11231::::points::::new org.apache.commons.math.optimization.fitting.WeightedObservedPoint[]{ points[(i + idxStep)] , points[i] }	false	28.891683333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::199::::7774::::7779::::points::::this.observations	false	28.921833333333332
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10779::::10784::::points::::idxStep < 0 ? new org.apache.commons.math.optimization.fitting.WeightedObservedPoint[]{ points[(i + idxStep)] , points[i] } : new org.apache.commons.math.optimization.fitting.WeightedObservedPoint[]{ points[i] , points[(i + idxStep)] }	false	28.937866666666665
+org.apache.commons.math.optimization.fitting.GaussianFitter::::199::::7755::::7760::::points::::this.observations	false	28.9649
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10761::::10766::::points::::idxStep < 0 ? new org.apache.commons.math.optimization.fitting.WeightedObservedPoint[]{ points[(i + idxStep)] , points[i] } : new org.apache.commons.math.optimization.fitting.WeightedObservedPoint[]{ points[i] , points[(i + idxStep)] }	false	28.98085
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10679::::10684::::points::::idxStep < 0 ? new org.apache.commons.math.optimization.fitting.WeightedObservedPoint[]{ points[(i + idxStep)] , points[i] } : new org.apache.commons.math.optimization.fitting.WeightedObservedPoint[]{ points[i] , points[(i + idxStep)] }	false	28.998366666666666
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10779::::10784::::points::::new org.apache.commons.math.optimization.fitting.WeightedObservedPoint[]{ points[i] , points[(i + idxStep)] }	false	29.020166666666668
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10779::::10784::::points::::new org.apache.commons.math.optimization.fitting.WeightedObservedPoint[]{ points[(i + idxStep)] , points[i] }	false	29.044933333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10761::::10766::::points::::new org.apache.commons.math.optimization.fitting.WeightedObservedPoint[]{ points[i] , points[(i + idxStep)] }	false	29.067866666666664
+org.apache.commons.math.optimization.fitting.GaussianFitter::::264::::10761::::10766::::points::::new org.apache.commons.math.optimization.fitting.WeightedObservedPoint[]{ points[(i + idxStep)] , points[i] }	false	29.089816666666664
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10679::::10684::::points::::new org.apache.commons.math.optimization.fitting.WeightedObservedPoint[]{ points[i] , points[(i + idxStep)] }	false	29.111933333333333
+org.apache.commons.math.optimization.fitting.GaussianFitter::::262::::10679::::10684::::points::::new org.apache.commons.math.optimization.fitting.WeightedObservedPoint[]{ points[(i + idxStep)] , points[i] }	false	29.13475

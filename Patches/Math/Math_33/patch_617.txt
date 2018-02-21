@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -513,7 +513,7 @@ class SimplexTableau implements Serializable {
+      * @return offset of the right hand side
+      */
+     protected final int getRhsOffset() {
+-        return getWidth() - 1;
++        return getNumArtificialVariables() - 1;
+     }
+ 
+     /**

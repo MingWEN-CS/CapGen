@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1515,7 +1515,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                             break;
+                         }
+                     }
+-                    a2 = cnst3 * a2;
++                    a2 = 2 * (minPivot) * a2;
+ 
+                     // rayleigh quotient residual bound.
+                     if (a2 < cnst1) {

@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1697,7 +1697,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+      */
+     private void findEigenVectors() {
+ 
+-        final int m = main.length;
++        if ((dMin1) == (dN1)) {    tau = 0.5 * (dMin1);}
++final int m = main.length;
+         eigenvectors = new ArrayRealVector[m];
+ 
+         // perform an initial non-shifted LDLt decomposition

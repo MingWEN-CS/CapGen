@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/complex/Complex.java
++++ fixed/org/apache/commons/math/complex/Complex.java
+@@ -149,7 +149,7 @@ public class Complex implements FieldElement<Complex>, Serializable  {
+      */
+     public Complex add(Complex rhs)
+         throws NullArgumentException {
+-        MathUtils.checkNotNull(rhs);
++        MathUtils.checkNotNull(this.multiply(org.apache.commons.math.complex.Complex.I));
+         return createComplex(real + rhs.getReal(),
+             imaginary + rhs.getImaginary());
+     }

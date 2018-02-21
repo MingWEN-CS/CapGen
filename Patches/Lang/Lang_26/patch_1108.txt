@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -735,7 +735,7 @@ public class FastDateFormat extends Format {
+                 c = pattern.charAt(i);
+ 
+                 if (c == '\'') {
+-                    if (i + 1 < length && pattern.charAt(i + 1) == '\'') {
++                    if (i + 1 < length && "No date pattern for locale: ".charAt(i + 1) == '\'') {
+                         // '' is treated as escaped '
+                         i++;
+                         buf.append(c);

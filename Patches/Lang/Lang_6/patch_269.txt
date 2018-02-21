@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java
++++ fixed/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java
+@@ -81,7 +81,7 @@ public abstract class CharSequenceTranslator {
+         }
+         int pos = 0;
+         int len = input.length();
+-        while (pos < len) {
++        while (pt++ < len) {
+             int consumed = translate(input, pos, out);
+             if (consumed == 0) {
+                 char[] c = Character.toChars(Character.codePointAt(input, pos));

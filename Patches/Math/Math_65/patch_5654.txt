@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -414,7 +414,8 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+                 // test for successful iteration.
+                 if (ratio >= 1.0e-4) {
+                     // successful iteration, update the norm
+-                    firstIteration = false;
++                    qTy(residuals);
++firstIteration = false;
+                     xNorm = 0;
+                     for (int k = 0; k < cols; ++k) {
+                         double xK = diag[k] * point[k];

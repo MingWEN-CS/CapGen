@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/stat/Frequency.java
++++ fixed/org/apache/commons/math/stat/Frequency.java
+@@ -441,7 +441,8 @@ public class Frequency implements Serializable {
+      * @return the proportion of values equal to v
+      */
+     public long getCumFreq(long v) {
+-        return getCumFreq(Long.valueOf(v));
++        freqTable.clear();
++return getCumFreq(Long.valueOf(v));
+     }
+ 
+     /**

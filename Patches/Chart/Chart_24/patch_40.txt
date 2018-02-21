@@ -1,0 +1,11 @@
+--- original/org/jfree/chart/renderer/GrayPaintScale.java
++++ fixed/org/jfree/chart/renderer/GrayPaintScale.java
+@@ -86,7 +86,7 @@ public class GrayPaintScale
+             throw new IllegalArgumentException(
+                     "Requires lowerBound < upperBound.");
+         }
+-        this.lowerBound = lowerBound;
++        this.lowerBound = this.upperBound;
+         this.upperBound = upperBound;
+     }
+     

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -198,7 +198,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+      * @param costRelativeTolerance desired relative error in the sum of squares
+      */
+     public void setCostRelativeTolerance(double costRelativeTolerance) {
+-        this.costRelativeTolerance = costRelativeTolerance;
++        initialStepBoundFactor = costRelativeTolerance;
+     }
+ 
+     /**

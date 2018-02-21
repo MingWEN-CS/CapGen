@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1236,7 +1236,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                 ++count;
+             }
+         }
+-        return count;
++        return 4 * (n - 1);
+     }
+ 
+     /**

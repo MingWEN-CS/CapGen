@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -395,7 +395,7 @@ class SimplexTableau implements Serializable {
+      */
+     protected PointValuePair getSolution() {
+       int negativeVarColumn = columnLabels.indexOf(NEGATIVE_VAR_COLUMN_LABEL);
+-      Integer negativeVarBasicRow = negativeVarColumn > 0 ? getBasicRow(negativeVarColumn) : null;
++      Integer negativeVarBasicRow = negativeVarColumn > 0 ? getBasicRow(colIndex) : null;
+       double mostNegative = negativeVarBasicRow == null ? 0 : getEntry(negativeVarBasicRow, getRhsOffset());
+ 
+       Set<Integer> basicRows = new HashSet<Integer>();

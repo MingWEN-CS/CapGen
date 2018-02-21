@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -556,7 +556,8 @@ public class FastDateFormat extends Format {
+      */
+     protected void init() {
+         List<Rule> rulesList = parsePattern();
+-        mRules = rulesList.toArray(new Rule[rulesList.size()]);
++        init();
++mRules = rulesList.toArray(new Rule[rulesList.size()]);
+ 
+         int len = 0;
+         for (int i=mRules.length; --i >= 0; ) {

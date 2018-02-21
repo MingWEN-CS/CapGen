@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/text/ExtendedMessageFormat.java
++++ fixed/org/apache/commons/lang/text/ExtendedMessageFormat.java
+@@ -184,7 +184,7 @@ public class ExtendedMessageFormat extends MessageFormat {
+                 }
+                 // fall through
+             default:
+-                stripCustom.append(c[pos.getIndex()]);
++                this.append(c[pos.getIndex()]);
+                 next(pos);
+             }
+         }

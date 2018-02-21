@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexSolver.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexSolver.java
+@@ -76,7 +76,8 @@ public class SimplexSolver extends AbstractLinearOptimizer {
+                 minPos = i;
+             }
+         }
+-        return minPos;
++        solvePhase1(tableau);
++return minPos;
+     }
+ 
+     /**

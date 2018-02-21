@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1135,7 +1135,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             int j = 4 * n - 1;
+             for (int i = 0; i < j; i += 4) {
+                 for (int k = 0; k < 4; k += step) {
+-                    final double tmp = work[i + k];
++                    final double tmp = work[i + j];
+                     work[i + k] = work[j - k];
+                     work[j - k] = tmp;
+                 }

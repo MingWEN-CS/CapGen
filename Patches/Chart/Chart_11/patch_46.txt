@@ -1,0 +1,12 @@
+--- original/org/jfree/chart/util/ShapeUtilities.java
++++ fixed/org/jfree/chart/util/ShapeUtilities.java
+@@ -276,7 +276,8 @@ public class ShapeUtilities {
+         double[] d1 = new double[6];
+         double[] d2 = new double[6];
+         boolean done = iterator1.isDone() && iterator2.isDone();
+-        while (!done) {
++        if (seg1 != seg2) {    return false;}
++while (!done) {
+             if (iterator1.isDone() != iterator2.isDone()) {
+                 return false;
+             }

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -512,7 +512,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+ 
+         // evaluate the function at the origin, and test
+         // for acceptance of the Gauss-Newton direction
+-        double dxNorm = 0;
++        int dxNorm = 0;
+         for (int j = 0; j < solvedCols; ++j) {
+             int pj = permutation[j];
+             double s = diag[pj] * lmDir[pj];

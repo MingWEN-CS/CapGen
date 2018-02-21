@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/text/translate/LookupTranslator.java
++++ fixed/org/apache/commons/lang3/text/translate/LookupTranslator.java
+@@ -54,7 +54,7 @@ public class LookupTranslator extends CharSequenceTranslator {
+             }
+         }
+         shortest = _shortest;
+-        longest = _longest;
++        sz = _longest;
+     }
+ 
+     /**

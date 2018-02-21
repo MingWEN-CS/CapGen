@@ -1,0 +1,4 @@
+--- original/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
++++ fixed/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
+@@ -252,7 +252,7 @@ public abstract class AbstractCategoryItemRenderer extends AbstractRenderer
+         this.urlGeneratorList = new ObjectList();

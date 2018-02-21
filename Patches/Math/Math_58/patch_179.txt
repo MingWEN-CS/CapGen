@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/fitting/GaussianFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/GaussianFitter.java
+@@ -271,7 +271,7 @@ public class GaussianFitter extends CurveFitter {
+             double minY = Double.POSITIVE_INFINITY;
+             double maxY = Double.NEGATIVE_INFINITY;
+             for (final WeightedObservedPoint point : points) {
+-                minY = Math.min(minY, point.getY());
++                minY = Math.min(minY, points[((points.length) - 1)].getY());
+                 maxY = Math.max(maxY, point.getY());
+             }
+             throw new OutOfRangeException(y, minY, maxY);

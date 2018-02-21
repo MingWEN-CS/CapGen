@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ToStringBuilder.java
+@@ -951,7 +951,7 @@ public class ToStringBuilder {
+      */
+     public ToStringBuilder appendSuper(String superToString) {
+         if (superToString != null) {
+-            style.appendSuper(buffer, superToString);
++            this.getStyle().appendSuper(buffer, superToString);
+         }
+         return this;
+     }

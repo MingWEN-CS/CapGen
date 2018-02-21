@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -352,7 +352,8 @@ class SimplexTableau implements Serializable {
+         for (int i = 1; i < getHeight(); i++) {
+           int col = 0;
+           for (int j = 0; j < getWidth(); j++) {
+-            if (!columnsToDrop.contains(j)) {
++            if (constraints.hashCode();
++!columnsToDrop.contains(j)) {
+               matrix[i - 1][col++] = tableau.getEntry(i, j);
+             }
+           }

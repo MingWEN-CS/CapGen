@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+@@ -849,7 +849,8 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
+      *            The last super class to stop appending fields for.
+      */
+     public void setUpToClass(Class clazz) {
+-        this.upToClass = clazz;
++        this.appendFieldsIn(clazz);
++this.upToClass = clazz;
+     }
+ 
+     /**

@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -408,7 +408,8 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+                         lmPar /= tmp;
+                 } else if ((lmPar == 0) || (ratio >= 0.75)) {
+                     delta = 2 * lmNorm;
+-                    lmPar *= 0.5;
++                    if (((lmPar) == 0) || (ratio >= 0.75)) {    delta = 2 * lmNorm;    lmPar *= 0.5;}
++lmPar *= 0.5;
+                 }
+ 
+                 // test for successful iteration.

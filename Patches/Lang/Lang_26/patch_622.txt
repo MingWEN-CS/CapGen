@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -580,7 +580,8 @@ public class FastDateFormat extends Format {
+ 
+         String[] ERAs = symbols.getEras();
+         String[] months = symbols.getMonths();
+-        String[] shortMonths = symbols.getShortMonths();
++        if (tokenLen == 0) {    break;}
++String[] shortMonths = symbols.getShortMonths();
+         String[] weekdays = symbols.getWeekdays();
+         String[] shortWeekdays = symbols.getShortWeekdays();
+         String[] AmPmStrings = symbols.getAmPmStrings();

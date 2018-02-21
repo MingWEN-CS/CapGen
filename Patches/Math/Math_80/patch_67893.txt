@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -883,7 +883,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             // lower bound of Gershgorin disk
+             dMin = -Math.max(0, diagMin - 2 * Math.sqrt(diagMin * offDiagMax));
+ 
+-            pingPong = 0;
++            fourI - 2 = 0;
+             int maxIter = 30 * (n0 - i0);
+             for (int k = 0; i0 < n0; ++k) {
+                 if (k >= maxIter) {

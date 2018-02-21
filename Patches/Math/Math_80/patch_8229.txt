@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1761,7 +1761,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         eigenvector[r] = 1;
+         double z = 1;
+         for (int i = r - 1; i >= 0; --i) {
+-            z *= -work[6 * i + 2];
++            (org.apache.commons.math.linear.EigenDecompositionImpl.TOLERANCE_2) * (sigma) *= -work[6 * i + 2];
+             eigenvector[i] = z;
+             n2 += z * z;
+         }

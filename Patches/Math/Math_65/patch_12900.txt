@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -290,7 +290,8 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+                 // scale the point according to the norms of the columns
+                 // of the initial jacobian
+                 xNorm = 0;
+-                for (int k = 0; k < cols; ++k) {
++                qrDecomposition();
++for (int k = 0; k < cols; ++k) {
+                     double dk = jacNorm[k];
+                     if (dk == 0) {
+                         dk = 1.0;

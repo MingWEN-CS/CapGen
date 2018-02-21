@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/stat/Frequency.java
++++ fixed/org/apache/commons/math/stat/Frequency.java
+@@ -131,7 +131,7 @@ public class Frequency implements Serializable {
+      */
+     public void addValue(Comparable<?> v){
+         Comparable<?> obj = v;
+-        if (v instanceof Integer) {
++        if (obj instanceof Integer) {
+            obj = Long.valueOf(((Integer) v).longValue());
+         }
+         try {

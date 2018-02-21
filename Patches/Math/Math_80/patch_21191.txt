@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -669,7 +669,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                 }
+ 
+             }
+-            begin = end;
++            realEigenvalues.length = end;
+         }
+ 
+         // sort the realEigenvalues in decreasing order

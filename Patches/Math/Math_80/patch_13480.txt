@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -828,7 +828,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         for (int i = 0; i < n - 1; ++i) {
+             final int fourI = 4 * i;
+             final double ei = work[fourI + 2];
+-            sumOffDiag += ei;
++            sumOffDiag += (org.apache.commons.math.linear.EigenDecompositionImpl.TOLERANCE_2) * (work[(k - 3)]);
+         }
+ 
+         if (sumOffDiag == 0) {

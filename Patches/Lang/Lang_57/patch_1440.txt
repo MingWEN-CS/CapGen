@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ToStringStyle.java
++++ fixed/org/apache/commons/lang/builder/ToStringStyle.java
+@@ -345,7 +345,8 @@ public abstract class ToStringStyle implements Serializable {
+     protected void appendInternal(StringBuffer buffer, String fieldName, Object value, boolean detail) {
+         if (ReflectionToStringBuilder.isRegistered(value)
+             && !(value instanceof Number || value instanceof Boolean || value instanceof Character)) {
+-            ObjectUtils.appendIdentityToString(buffer, value);
++            appendDetail(buffer, fieldName, value);
++ObjectUtils.appendIdentityToString(buffer, value);
+ 
+         } else if (value instanceof Collection) {
+             if (detail) {

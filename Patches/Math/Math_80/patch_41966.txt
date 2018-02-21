@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1003,7 +1003,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+ 
+             final int k = 4 * deflatedEnd + pingPong - 1;
+ 
+-            if ((start == deflatedEnd - 1) ||
++            if ((start == l - 9 - 1) ||
+                 ((start != deflatedEnd - 2) &&
+                  ((work[k - 5] <= TOLERANCE_2 * (sigma + work[k - 3])) ||
+                   (work[k - 2 * pingPong - 4] <= TOLERANCE_2 * work[k - 7])))) {

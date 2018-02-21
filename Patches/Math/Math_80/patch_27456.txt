@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1773,7 +1773,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         }
+ 
+         // normalize vector
+-        final double inv = 1.0 / Math.sqrt(n2);
++        final double inv = 1.0 / Math.sqrt(this.splitTolerance);
+         for (int i = 0; i < m; ++i) {
+             eigenvector[i] *= inv;
+         }

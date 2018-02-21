@@ -1,0 +1,51 @@
+org.apache.commons.math.util.FastMath::::3482::::103193::::103201::::java.lang.Float.NaN::::b	false	1.4772
+org.apache.commons.math.util.FastMath::::3482::::103193::::103201::::java.lang.Float.NaN::::a + b	false	1.819
+org.apache.commons.math.util.FastMath::::3482::::103193::::103201::::java.lang.Float.NaN::::a	false	2.3133833333333333
+org.apache.commons.math.util.FastMath::::3446::::102063::::102071::::java.lang.Float.NaN::::b	false	2.573983333333333
+org.apache.commons.math.util.FastMath::::3446::::102063::::102071::::java.lang.Float.NaN::::a + b	false	2.7691
+org.apache.commons.math.util.FastMath::::3446::::102063::::102071::::java.lang.Float.NaN::::a	false	3.03375
+org.apache.commons.math.util.FastMath::::3446::::102037::::102037::::a::::b	false	3.28545
+org.apache.commons.math.util.FastMath::::3446::::102075::::102075::::b::::a	false	3.5369333333333333
+org.apache.commons.math.util.FastMath::::3482::::103205::::103205::::b::::a	true	4.609233333333333
+org.apache.commons.math.util.FastMath::::3482::::103167::::103167::::b::::a	false	4.99055
+org.apache.commons.math.util.FastMath::::3482::::103184::::103188::::a + b::::b	false	5.286416666666667
+org.apache.commons.math.util.FastMath::::3482::::103184::::103188::::a + b::::a	false	5.561033333333333
+org.apache.commons.math.util.FastMath::::3446::::102054::::102058::::a + b::::b	false	5.836716666666666
+org.apache.commons.math.util.FastMath::::3446::::102054::::102058::::a + b::::a	false	6.099566666666666
+org.apache.commons.math.util.FastMath::::3446::::102037::::102037::::a::::a + b	false	6.3034
+org.apache.commons.math.util.FastMath::::3482::::103157::::103157::::a::::a + b	false	6.552483333333333
+org.apache.commons.math.util.FastMath::::3446::::102027::::102027::::a::::a + b	false	6.7532499999999995
+org.apache.commons.math.util.FastMath::::3482::::103184::::103184::::a::::a + b	false	6.936933333333333
+org.apache.commons.math.util.FastMath::::3446::::102054::::102054::::a::::a + b	false	7.116833333333333
+org.apache.commons.math.util.FastMath::::3446::::102058::::102058::::b::::a + b	false	7.300633333333334
+org.apache.commons.math.util.FastMath::::3464::::102638::::102638::::b::::a	false	7.491733333333333
+org.apache.commons.math.util.FastMath::::3446::::102075::::102075::::b::::a + b	false	7.676366666666667
+org.apache.commons.math.util.FastMath::::3446::::102032::::102032::::b::::a + b	false	7.866966666666666
+org.apache.commons.math.util.FastMath::::3482::::103205::::103205::::b::::a + b	false	8.07045
+org.apache.commons.math.util.FastMath::::3482::::103188::::103188::::b::::a + b	false	8.2875
+org.apache.commons.math.util.FastMath::::3482::::103162::::103162::::b::::a + b	false	8.526433333333333
+org.apache.commons.math.util.FastMath::::3482::::103171::::103206::::java.lang.Float.isNaN((a + b)) ? java.lang.Float.NaN : b::::a + b	false	8.7663
+org.apache.commons.math.util.FastMath::::3482::::103156::::103206::::a <= b ? b : java.lang.Float.isNaN((a + b)) ? java.lang.Float.NaN : b::::a + b	false	9.009883333333333
+org.apache.commons.math.util.FastMath::::3446::::102041::::102076::::java.lang.Float.isNaN((a + b)) ? java.lang.Float.NaN : b::::a + b	false	9.236533333333334
+org.apache.commons.math.util.FastMath::::3446::::102026::::102076::::a <= b ? a : java.lang.Float.isNaN((a + b)) ? java.lang.Float.NaN : b::::a + b	false	9.44835
+org.apache.commons.math.util.FastMath::::3482::::103167::::103167::::b::::a + b	false	9.718966666666667
+org.apache.commons.math.util.FastMath::::3464::::102642::::102642::::a::::b	false	10.103133333333334
+org.apache.commons.math.util.FastMath::::3482::::103171::::103206::::java.lang.Float.isNaN((a + b)) ? java.lang.Float.NaN : b::::b	false	10.515466666666667
+org.apache.commons.math.util.FastMath::::3482::::103171::::103206::::java.lang.Float.isNaN((a + b)) ? java.lang.Float.NaN : b::::a	false	10.857866666666666
+org.apache.commons.math.util.FastMath::::3482::::103156::::103206::::a <= b ? b : java.lang.Float.isNaN((a + b)) ? java.lang.Float.NaN : b::::b	false	11.090233333333334
+org.apache.commons.math.util.FastMath::::3482::::103156::::103206::::a <= b ? b : java.lang.Float.isNaN((a + b)) ? java.lang.Float.NaN : b::::a	false	11.281466666666667
+org.apache.commons.math.util.FastMath::::3446::::102041::::102076::::java.lang.Float.isNaN((a + b)) ? java.lang.Float.NaN : b::::b	false	11.4582
+org.apache.commons.math.util.FastMath::::3446::::102041::::102076::::java.lang.Float.isNaN((a + b)) ? java.lang.Float.NaN : b::::a	false	11.635283333333332
+org.apache.commons.math.util.FastMath::::3446::::102026::::102076::::a <= b ? a : java.lang.Float.isNaN((a + b)) ? java.lang.Float.NaN : b::::b	false	11.819233333333333
+org.apache.commons.math.util.FastMath::::3446::::102026::::102076::::a <= b ? a : java.lang.Float.isNaN((a + b)) ? java.lang.Float.NaN : b::::a	false	12.000733333333333
+org.apache.commons.math.util.FastMath::::3464::::102627::::102642::::a <= b ? b : a::::a <= b ? a : b	false	12.184566666666665
+org.apache.commons.math.util.FastMath::::3464::::102638::::102638::::b::::a <= b ? b : a	false	12.366183333333334
+org.apache.commons.math.util.FastMath::::3464::::102638::::102638::::b::::a <= b ? a : b	false	12.555666666666667
+org.apache.commons.math.util.FastMath::::3464::::102633::::102633::::b::::a <= b ? b : a	false	12.577866666666667
+org.apache.commons.math.util.FastMath::::3464::::102633::::102633::::b::::a <= b ? a : b	false	12.598933333333333
+org.apache.commons.math.util.FastMath::::3464::::102642::::102642::::a::::a <= b ? b : a	false	12.794066666666668
+org.apache.commons.math.util.FastMath::::3464::::102642::::102642::::a::::a <= b ? a : b	false	13.018866666666666
+org.apache.commons.math.util.FastMath::::3464::::102627::::102642::::a <= b ? b : a::::b	false	13.233916666666666
+org.apache.commons.math.util.FastMath::::3464::::102627::::102642::::a <= b ? b : a::::a	false	13.451933333333333
+org.apache.commons.math.util.FastMath::::3464::::102628::::102628::::a::::a <= b ? b : a	false	13.492166666666666
+org.apache.commons.math.util.FastMath::::3464::::102628::::102628::::a::::a <= b ? a : b	false	13.5215

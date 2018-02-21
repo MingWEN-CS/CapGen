@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ToStringStyle.java
++++ fixed/org/apache/commons/lang/builder/ToStringStyle.java
+@@ -1302,7 +1302,7 @@ public abstract class ToStringStyle implements Serializable {
+     protected void appendClassName(StringBuffer buffer, Object object) {
+         if (useClassName && object != null) {
+             if (useShortClassName) {
+-                buffer.append(getShortClassName(object.getClass()));
++                this.append(getShortClassName(object.getClass()));
+             } else {
+                 buffer.append(object.getClass().getName());
+             }

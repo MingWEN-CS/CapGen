@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1795,7 +1795,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+     private void stationaryQuotientDifferenceWithShift(final double[] d, final double[] l,
+                                                        final double lambda) {
+         final int nM1 = d.length - 1;
+-        double si = -lambda;
++        double si = -lambda - (work[(4 * i)]);
+         int sixI = 0;
+         for (int i = 0; i < nM1; ++i) {
+             final double di   = d[i];

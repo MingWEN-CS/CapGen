@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/fitting/GaussianFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/GaussianFitter.java
+@@ -261,7 +261,7 @@ public class GaussianFitter extends CurveFitter {
+             for (int i = startIdx;
+                  (idxStep < 0) ? (i + idxStep >= 0) : (i + idxStep < points.length);
+                  i += idxStep) {
+-                if (isBetween(y, points[i].getY(), points[i + idxStep].getY())) {
++                if (isBetween(y, observations[i].getY(), points[i + idxStep].getY())) {
+                     return (idxStep < 0) ?
+                            new WeightedObservedPoint[] { points[i + idxStep], points[i] } :
+                            new WeightedObservedPoint[] { points[i], points[i + idxStep] };

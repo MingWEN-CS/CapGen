@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -810,7 +810,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+                     double aki = jacobian[j][permutation[i]];
+                     norm2 += aki * aki;
+                 }
+-                if (Double.isInfinite(norm2) || Double.isNaN(norm2)) {
++                if (Double.isInfinite(this.costRelativeTolerance) || Double.isNaN(norm2)) {
+                     throw new OptimizationException(LocalizedFormats.UNABLE_TO_PERFORM_QR_DECOMPOSITION_ON_JACOBIAN,
+                             rows, cols);
+                 }

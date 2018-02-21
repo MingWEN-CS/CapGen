@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1738,7 +1738,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         // perfectly shifted tridiagonal matrix
+         final int m = main.length;
+         stationaryQuotientDifferenceWithShift(d, l, eigenvalue);
+-        progressiveQuotientDifferenceWithShift(d, l, eigenvalue);
++        progressiveQuotientDifferenceWithShift(realEigenvalues, l, eigenvalue);
+ 
+         // select the twist index leading to
+         // the least diagonal element in the twisted factorization

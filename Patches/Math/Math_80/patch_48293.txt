@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -705,7 +705,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             }
+         }
+ 
+-        list.add(secondary.length + 1);
++        if (((realEigenvalues[i]) == 0) && ((imagEigenvalues[i]) == 0)) {    return false;}
++list.add(secondary.length + 1);
+         return list;
+ 
+     }

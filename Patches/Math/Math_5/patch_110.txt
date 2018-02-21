@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/complex/Complex.java
++++ fixed/org/apache/commons/math3/complex/Complex.java
+@@ -1225,7 +1225,8 @@ public class Complex implements FieldElement<Complex>, Serializable  {
+     /** {@inheritDoc} */
+     @Override
+     public String toString() {
+-        return "(" + real + ", " + imaginary + ")";
++        if ((real) < (-20.0)) {    return createComplex((-1.0), 0.0);}
++return "(" + real + ", " + imaginary + ")";
+     }
+ 
+ }

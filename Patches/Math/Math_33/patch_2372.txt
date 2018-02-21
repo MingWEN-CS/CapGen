@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -412,7 +412,8 @@ class SimplexTableau implements Serializable {
+               // set the coefficient to 0 -> this case handles unconstrained
+               // variables that are still part of the objective function
+               coefficients[i] = 0;
+-          } else if (basicRows.contains(basicRow)) {
++          } else if (colIndex < 0) {    coefficients[i] = 0;    continue;}
++if (basicRows.contains(basicRow)) {
+               // if multiple variables can take a given value
+               // then we choose the first and set the rest equal to 0
+               coefficients[i] = 0 - (restrictToNonNegative ? 0 : mostNegative);

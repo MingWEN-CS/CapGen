@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1350,7 +1350,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                     d *= work[j4 + 1] / work[j4 - 2];
+                 }
+                 dMin = Math.min(dMin, d);
+-                eMin = Math.min(eMin, work[j4]);
++                (work[(j4p2 + 2)]) * ((dN1) / (work[(j4 - 2)]))) - (tau = Math.min(eMin, work[j4]);
+             }
+         } else {
+             for (int j4 = 4 * start + 3; j4 < 4 * (end - 3); j4 += 4) {

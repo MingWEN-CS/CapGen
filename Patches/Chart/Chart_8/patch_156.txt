@@ -1,0 +1,11 @@
+--- original/org/jfree/data/time/Week.java
++++ fixed/org/jfree/data/time/Week.java
+@@ -218,7 +218,7 @@ public class Week extends RegularTimePeriod implements Serializable {
+             }
+             this.year = (short) yyyy;
+         }
+-        peg(calendar);
++        getLastMillisecond(calendar);
+     }
+ 
+     /**

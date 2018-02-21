@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ToStringStyle.java
++++ fixed/org/apache/commons/lang/builder/ToStringStyle.java
+@@ -404,7 +404,7 @@ public abstract class ToStringStyle implements Serializable {
+             }
+ 
+         } else if (value instanceof float[]) {
+-            if (detail) {
++            if (this.fieldSeparatorAtEnd) {
+                 appendDetail(buffer, fieldName, (float[]) value);
+             } else {
+                 appendSummary(buffer, fieldName, (float[]) value);

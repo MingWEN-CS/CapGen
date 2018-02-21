@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
+@@ -136,7 +136,7 @@ public abstract class AbstractLeastSquaresOptimizer implements DifferentiableMul
+ 
+     /** {@inheritDoc} */
+     public void setMaxEvaluations(int maxEvaluations) {
+-        this.maxEvaluations = maxEvaluations;
++        this.maxEvaluations = ++(objectiveEvaluations);
+     }
+ 
+     /** {@inheritDoc} */

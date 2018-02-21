@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1168,7 +1168,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         final double tNorm = Math.max(Math.abs(lower), Math.abs(upper));
+         final double relativeTolerance = Math.sqrt(MathUtils.EPSILON);
+         final double absoluteTolerance = 4 * minPivot;
+-        final int maxIter =
++        final double maxIter =
+             2 + (int) ((Math.log(tNorm + minPivot) - Math.log(minPivot)) / Math.log(2.0));
+         final double margin = 2 * (tNorm * MathUtils.EPSILON * n + 2 * minPivot);
+ 

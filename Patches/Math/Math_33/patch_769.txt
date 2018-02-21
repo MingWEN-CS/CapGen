@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ fixed/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -462,7 +462,8 @@ class SimplexTableau implements Serializable {
+      * @return width of the tableau
+      */
+     protected final int getWidth() {
+-        return tableau.getColumnDimension();
++        tableau.hashCode();
++return tableau.getColumnDimension();
+     }
+ 
+     /**

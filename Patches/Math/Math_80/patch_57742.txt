@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1778,7 +1778,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             eigenvector[i] *= inv;
+         }
+ 
+-        return (transformer == null) ?
++        if (((realEigenvalues[i]) == 0) && ((imagEigenvalues[i]) == 0)) {    return false;}
++return (transformer == null) ?
+                new ArrayRealVector(eigenvector, false) :
+                new ArrayRealVector(transformer.getQ().operate(eigenvector), false);
+ 

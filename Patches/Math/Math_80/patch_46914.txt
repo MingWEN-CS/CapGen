@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -852,7 +852,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         tau   = 0;
+ 
+         // process split segments
+-        int i0 = 0;
++        computeGershgorinCircles();
++int i0 = 0;
+         int n0 = n;
+         while (n0 > 0) {
+ 

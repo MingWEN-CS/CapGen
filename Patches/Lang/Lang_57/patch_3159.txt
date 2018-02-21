@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang/builder/ToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ToStringBuilder.java
+@@ -195,7 +195,7 @@ public class ToStringBuilder {
+      *  <code>null</code>
+      */
+     public ToStringBuilder(Object object) {
+-        this(object, getDefaultStyle(), null);
++        this(object, toString(), null);
+     }
+ 
+     /**

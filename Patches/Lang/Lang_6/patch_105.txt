@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/text/translate/UnicodeEscaper.java
++++ fixed/org/apache/commons/lang3/text/translate/UnicodeEscaper.java
+@@ -49,7 +49,7 @@ public class UnicodeEscaper extends CodePointTranslator {
+      * @param between whether to escape between the boundaries or outside them
+      */
+     private UnicodeEscaper(int below, int above, boolean between) {
+-        this.below = below;
++        this.above = below;
+         this.above = above;
+         this.between = between;
+     }

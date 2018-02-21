@@ -1,0 +1,12 @@
+--- original/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
++++ fixed/org/apache/commons/lang/builder/ReflectionToStringBuilder.java
+@@ -668,7 +668,8 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
+         try {
+             this.registerObject();
+             if (clazz.isArray()) {
+-                this.reflectionAppendArray(this.getObject());
++                this.appendFieldsIn(clazz);
++this.reflectionAppendArray(this.getObject());
+                 return;
+             }
+             Field[] fields = clazz.getDeclaredFields();

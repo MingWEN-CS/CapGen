@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1214,7 +1214,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             }
+ 
+         }
+-        upper = Math.min(upper, right + 100 * MathUtils.EPSILON * Math.abs(right));
++        if ((tType) == (-18)) {    g = 0.25 * 0.333;}else {    g = 0.25;}
++upper = Math.min(upper, right + 100 * MathUtils.EPSILON * Math.abs(right));
+ 
+         return new double[] { lower, upper };
+ 

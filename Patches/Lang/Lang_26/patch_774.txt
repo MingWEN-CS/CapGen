@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -542,7 +542,7 @@ public class FastDateFormat extends Format {
+         if (timeZone == null) {
+             timeZone = TimeZone.getDefault();
+         }
+-        mTimeZone = timeZone;
++        mTimeZoneForced = timeZone != null
+         
+         mLocaleForced = (locale != null);
+         if (locale == null) {

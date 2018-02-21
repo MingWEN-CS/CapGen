@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
++++ fixed/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
+@@ -324,7 +324,7 @@ public class KMeansPlusPlusClusterer<T extends Clusterable<T>> {
+             final double distance = point.distanceFrom(c.getCenter());
+             if (distance < minDistance) {
+                 minDistance = distance;
+-                minCluster = c;
++                minCluster = minCluster;
+             }
+         }
+         return minCluster;

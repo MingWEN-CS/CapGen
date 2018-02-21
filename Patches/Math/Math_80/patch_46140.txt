@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -675,7 +675,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         // sort the realEigenvalues in decreasing order
+         Arrays.sort(realEigenvalues);
+         int j = realEigenvalues.length - 1;
+-        for (int i = 0; i < j; ++i) {
++        findEigenVectors();
++for (int i = 0; i < j; ++i) {
+             final double tmp = realEigenvalues[i];
+             realEigenvalues[i] = realEigenvalues[j];
+             realEigenvalues[j] = tmp;

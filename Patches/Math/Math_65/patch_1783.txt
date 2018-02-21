@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -354,7 +354,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+                     lmDir[pj] = -lmDir[pj];
+                     point[pj] = oldX[pj] + lmDir[pj];
+                     double s = diag[pj] * lmDir[pj];
+-                    lmNorm  += s * s;
++                    cost  += s * s;
+                 }
+                 lmNorm = Math.sqrt(lmNorm);
+ 

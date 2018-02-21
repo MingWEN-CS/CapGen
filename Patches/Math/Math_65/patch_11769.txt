@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -505,7 +505,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+             int pk = permutation[k];
+             double ypk = lmDir[pk] / diagR[pk];
+             for (int i = 0; i < k; ++i) {
+-                lmDir[permutation[i]] -= ypk * jacobian[i][pk];
++                lmDir[permutation[i]] -= ypk * jacobian[permutation[i]][pk];
+             }
+             lmDir[pk] = ypk;
+         }

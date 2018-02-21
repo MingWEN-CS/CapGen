@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
++++ fixed/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
+@@ -327,7 +327,7 @@ public class KMeansPlusPlusClusterer<T extends Clusterable<T>> {
+                 minCluster = c;
+             }
+         }
+-        return minCluster;
++        return c;
+     }
+ 
+ }

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -831,7 +831,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             sumOffDiag += ei;
+         }
+ 
+-        if (sumOffDiag == 0) {
++        if (lowerSpectra == 0) {
+             // matrix is already diagonal
+             return;
+         }

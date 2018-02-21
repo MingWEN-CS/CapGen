@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -496,7 +496,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+         // compute and store in x the gauss-newton direction, if the
+         // jacobian is rank-deficient, obtain a least squares solution
+         for (int j = 0; j < rank; ++j) {
+-            lmDir[permutation[j]] = qy[j];
++            lmDir[permutation[j]] = qy[k + 1];
+         }
+         for (int j = rank; j < cols; ++j) {
+             lmDir[permutation[j]] = 0;

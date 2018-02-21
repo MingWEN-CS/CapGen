@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
+@@ -320,7 +320,8 @@ public abstract class AbstractLeastSquaresOptimizer implements DifferentiableMul
+         for (int i = 0; i < errors.length; ++i) {
+             errors[i] = Math.sqrt(covar[i][i]) * c;
+         }
+-        return errors;
++        setConvergenceChecker(new org.apache.commons.math.optimization.SimpleVectorialValueChecker());
++return errors;
+     }
+ 
+     /** {@inheritDoc} */

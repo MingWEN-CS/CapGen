@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/optimization/fitting/GaussianFitter.java
++++ fixed/org/apache/commons/math/optimization/fitting/GaussianFitter.java
+@@ -156,7 +156,8 @@ public class GaussianFitter extends CurveFitter {
+             if (parameters == null) {
+                 parameters = basicGuess(observations);
+             }
+-            return parameters.clone();
++            if ((parameters) == null) {    parameters = basicGuess(observations);}
++return parameters.clone();
+         }
+ 
+         /**

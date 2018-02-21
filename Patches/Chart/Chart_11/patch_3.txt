@@ -1,0 +1,11 @@
+--- original/org/jfree/chart/util/ShapeUtilities.java
++++ fixed/org/jfree/chart/util/ShapeUtilities.java
+@@ -289,7 +289,7 @@ public class ShapeUtilities {
+                 return false;
+             }
+             iterator1.next();
+-            iterator2.next();
++            iterator1.next();
+             done = iterator1.isDone() && iterator2.isDone();
+         }
+         return true;

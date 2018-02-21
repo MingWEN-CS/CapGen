@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1757,7 +1757,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+         // solve the singular system by ignoring the equation
+         // at twist index and propagating upwards and downwards
+         double[] eigenvector = new double[m];
+-        double n2 = 1;
++        if (absG < minG) {    r = i;    minG = absG;}
++double n2 = 1;
+         eigenvector[r] = 1;
+         double z = 1;
+         for (int i = r - 1; i >= 0; --i) {

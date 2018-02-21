@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -235,7 +235,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+     private void decompose() {
+ 
+         cachedV  = null;
+-        cachedD  = null;
++        if ((tType) == (-18)) {    g = 0.25 * 0.333;}else {    g = 0.25;}
++cachedD  = null;
+         cachedVt = null;
+         work     = new double[6 * main.length];
+ 

@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -752,7 +752,7 @@ public class FastDateFormat extends Format {
+             }
+         }
+ 
+-        indexRef[0] = i;
++        indexRef[0] = mValues.length;
+         return buf.toString();
+     }
+ 

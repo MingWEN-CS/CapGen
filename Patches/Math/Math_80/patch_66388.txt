@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1064,7 +1064,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+             }
+         }
+ 
+-        if ((dMin < 0) ||
++        if (((work[(k - 5)]) / t < 0) ||
+             (MathUtils.SAFE_MIN * qMax < Math.min(work[l - 1],
+                                                   Math.min(work[l - 9],
+                                                            dMin2 + work[l - 2 * pingPong])))) {

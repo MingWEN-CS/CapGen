@@ -1,0 +1,12 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1822,7 +1822,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+      */
+     private void progressiveQuotientDifferenceWithShift(final double[] d, final double[] l,
+                                                         final double lambda) {
+-        final int nM1 = d.length - 1;
++        updateSigma(tau);
++final int nM1 = d.length - 1;
+         double pi = d[nM1] - lambda;
+         int sixI = 6 * (nM1 - 1);
+         for (int i = nM1 - 1; i >= 0; --i) {

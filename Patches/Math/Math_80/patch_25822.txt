@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/linear/EigenDecompositionImpl.java
++++ fixed/org/apache/commons/math/linear/EigenDecompositionImpl.java
+@@ -1496,7 +1496,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
+                             return;
+                         }
+                         b2 = work[nn - 9] / work[nn - 11];
+-                        np = nn - 13;
++                        np = end - 2 - 13;
+                     }
+ 
+                     // approximate contribution to norm squared from i < nn-1.

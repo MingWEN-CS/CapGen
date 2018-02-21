@@ -1,0 +1,11 @@
+--- original/org/apache/commons/lang3/time/FastDateFormat.java
++++ fixed/org/apache/commons/lang3/time/FastDateFormat.java
+@@ -599,7 +599,7 @@ public class FastDateFormat extends Format {
+             }
+ 
+             Rule rule;
+-            char c = token.charAt(0);
++            char c = mPattern.charAt(0);
+ 
+             switch (c) {
+             case 'G': // era designator (text)

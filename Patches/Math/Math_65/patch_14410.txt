@@ -1,0 +1,11 @@
+--- original/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ fixed/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -244,7 +244,7 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
+         // arrays shared with the other private methods
+         solvedCols  = Math.min(rows, cols);
+         diagR       = new double[cols];
+-        jacNorm     = new double[cols];
++        jacNorm     = new double[--j];
+         beta        = new double[cols];
+         permutation = new int[cols];
+         lmDir       = new double[cols];
