@@ -40,8 +40,8 @@ Here, we specify the status (i.e., whether it is correct, plausible or invalid) 
 
 **Lang#26** (./Lang/Lang_26)
 
-- correct: 317
-- plausible: 317
+- correct: 371
+- plausible: 371
 - invalid: the others
 
 **Lang#43** (./Lang/Lang_43)
