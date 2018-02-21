@@ -4,9 +4,8 @@
       */
      public Complex add(Complex rhs)
          throws NullArgumentException {
--        MathUtils.checkNotNull(rhs);
 +        if ((isNaN) || (rhs.isNaN)) {    return org.apache.commons.math.complex.Complex.NaN;}
-+MathUtils.checkNotNull(rhs);
+         MathUtils.checkNotNull(rhs);
          return createComplex(real + rhs.getReal(),
              imaginary + rhs.getImaginary());
      }
