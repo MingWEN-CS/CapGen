@@ -52,8 +52,8 @@ Here, we specify the status (i.e., whether it is correct, plausible or invalid) 
 
 **Lang#57** (./Lang/Lang_57)
 
-- correct: 30
-- plausible: 30
+- correct: 30,585,2074
+- plausible: 30,585,2074
 - invalid: the others
 
 **Lang#59** (./Lang/Lang_59)
@@ -139,7 +139,7 @@ Here, we specify the status (i.e., whether it is correct, plausible or invalid) 
 
 **Math#85** (./Math/Math_85)
 
-- correct: 217
+- correct: 3
 - plausible: 3,11,13,77
 - invalid: the others
 
