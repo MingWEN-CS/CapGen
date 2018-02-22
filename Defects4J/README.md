@@ -28,7 +28,7 @@ We have added two more sub-folders in each bug, which is intermedia results gene
 
  * Based on these files, the ingredients can be ranked, and the ranking results is stored in ``./ingredients/ingredientsRank.txt``.
 
- * We have provided all the files above, and you can also regenerated them using our tool **CapGen** (referring to https://github.com/anonymousWork/CapGen/tree/master/CapGen).
+ * We have provided all the files above, and you can also regenerated them using our tool **CapGen** (referring to https://github.com/justinwm/CapGen/tree/master/CapGen).
 
 
  * Be noted that the dependency context is extracted based on the following files generated leveraging a program analysis tool Understand:
