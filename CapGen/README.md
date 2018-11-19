@@ -1,7 +1,7 @@
 
 This folder contains the necessary files to run **CapGen**.
 
-``./CapGen.jar``: is the runnable CapGen. CapGen will be open sourced once the paper got accpeted.
+``./CapGen.jar``: is the implementation of runnable CapGen.
 
 ``./config_local.txt``: is the config file for running CapGen (will be introduced later).
 
