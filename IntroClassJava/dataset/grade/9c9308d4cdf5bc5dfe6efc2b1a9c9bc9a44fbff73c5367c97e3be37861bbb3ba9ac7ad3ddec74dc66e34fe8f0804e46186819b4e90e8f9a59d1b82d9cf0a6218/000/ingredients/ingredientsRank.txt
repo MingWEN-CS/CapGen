@@ -1,0 +1,135 @@
+1	introclassJava.grade_9c9308d4_000::::84::::2294::::2300::::return ::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+2	introclassJava.grade_9c9308d4_000::::84::::2294::::2300::::return ::::INSERT::::STATEMENT::::if ((studentscore.value) >= (C.value)) {    lettergrade.value = 'C';}else {    lettergrade.value = 'D';}	1.0
+3	introclassJava.grade_9c9308d4_000::::84::::2294::::2300::::return ::::INSERT::::STATEMENT::::if ((studentscore.value) >= (B.value)) {    lettergrade.value = 'B';}else    if ((studentscore.value) >= (C.value)) {        lettergrade.value = 'C';    }else {        lettergrade.value = 'D';    }	1.0
+4	introclassJava.grade_9c9308d4_000::::84::::2294::::2300::::return ::::INSERT::::STATEMENT::::if ((studentscore.value) >= (A.value)) {    lettergrade.value = 'A';}else    if ((studentscore.value) >= (B.value)) {        lettergrade.value = 'B';    }else        if ((studentscore.value) >= (C.value)) {            lettergrade.value = 'C';        }else {            lettergrade.value = 'D';        }    	1.0
+5	introclassJava.grade_9c9308d4_000::::81::::2176::::2262::::output += java.lang.String.format("Student has an %c grade\n", lettergrade.value)::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+6	introclassJava.grade_9c9308d4_000::::81::::2176::::2262::::output += java.lang.String.format("Student has an %c grade\n", lettergrade.value)::::INSERT::::STATEMENT::::if ((studentscore.value) >= (C.value)) {    lettergrade.value = 'C';}else {    lettergrade.value = 'D';}	1.0
+7	introclassJava.grade_9c9308d4_000::::81::::2176::::2262::::output += java.lang.String.format("Student has an %c grade\n", lettergrade.value)::::INSERT::::STATEMENT::::if ((studentscore.value) >= (B.value)) {    lettergrade.value = 'B';}else    if ((studentscore.value) >= (C.value)) {        lettergrade.value = 'C';    }else {        lettergrade.value = 'D';    }	1.0
+8	introclassJava.grade_9c9308d4_000::::81::::2176::::2262::::output += java.lang.String.format("Student has an %c grade\n", lettergrade.value)::::INSERT::::STATEMENT::::if ((studentscore.value) >= (A.value)) {    lettergrade.value = 'A';}else    if ((studentscore.value) >= (B.value)) {        lettergrade.value = 'B';    }else        if ((studentscore.value) >= (C.value)) {            lettergrade.value = 'C';        }else {            lettergrade.value = 'D';        }    	1.0
+9	introclassJava.grade_9c9308d4_000::::72::::1878::::1884::::A.value::::D.value	1.0
+10	introclassJava.grade_9c9308d4_000::::72::::1878::::1884::::A.value::::C.value	1.0
+11	introclassJava.grade_9c9308d4_000::::72::::1878::::1884::::A.value::::B.value	1.0
+12	introclassJava.grade_9c9308d4_000::::72::::1878::::1878::::A::::studentscore	1.0
+13	introclassJava.grade_9c9308d4_000::::72::::1878::::1878::::A::::D	1.0
+14	introclassJava.grade_9c9308d4_000::::72::::1878::::1878::::A::::C	1.0
+15	introclassJava.grade_9c9308d4_000::::72::::1878::::1878::::A::::B	1.0
+16	introclassJava.grade_9c9308d4_000::::72::::1856::::1884::::studentscore.value) >= (A.value::::true	1.0
+17	introclassJava.grade_9c9308d4_000::::72::::1856::::1884::::studentscore.value) >= (A.value::::studentscore.value) >= (C.value	1.0
+18	introclassJava.grade_9c9308d4_000::::72::::1856::::1884::::studentscore.value) >= (A.value::::studentscore.value) >= (B.value	1.0
+19	introclassJava.grade_9c9308d4_000::::72::::1856::::1873::::studentscore.value::::D.value	1.0
+20	introclassJava.grade_9c9308d4_000::::72::::1856::::1873::::studentscore.value::::C.value	1.0
+21	introclassJava.grade_9c9308d4_000::::72::::1856::::1873::::studentscore.value::::B.value	1.0
+22	introclassJava.grade_9c9308d4_000::::72::::1856::::1867::::studentscore::::D	1.0
+23	introclassJava.grade_9c9308d4_000::::72::::1856::::1867::::studentscore::::C	1.0
+24	introclassJava.grade_9c9308d4_000::::72::::1856::::1867::::studentscore::::B	1.0
+25	introclassJava.grade_9c9308d4_000::::72::::1856::::1867::::studentscore::::A	1.0
+26	introclassJava.grade_9c9308d4_000::::72::::1852::::2166::::if ((studentscore.value) >= (A.value)) {    lettergrade.value = 'A';}else    if ((studentscore.value) >= (B.value)) {        lettergrade.value = 'B';    }else        if ((studentscore.value) >= (C.value)) {            lettergrade.value = 'C';        }else {            lettergrade.value = 'D';        }    ::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+27	introclassJava.grade_9c9308d4_000::::71::::1801::::1842::::studentscore.value = scanner.nextFloat()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+28	introclassJava.grade_9c9308d4_000::::71::::1801::::1818::::studentscore.value::::D.value	1.0
+29	introclassJava.grade_9c9308d4_000::::71::::1801::::1818::::studentscore.value::::C.value	1.0
+30	introclassJava.grade_9c9308d4_000::::71::::1801::::1818::::studentscore.value::::B.value	1.0
+31	introclassJava.grade_9c9308d4_000::::71::::1801::::1818::::studentscore.value::::A.value	1.0
+32	introclassJava.grade_9c9308d4_000::::71::::1801::::1812::::studentscore::::D	1.0
+33	introclassJava.grade_9c9308d4_000::::71::::1801::::1812::::studentscore::::C	1.0
+34	introclassJava.grade_9c9308d4_000::::71::::1801::::1812::::studentscore::::B	1.0
+35	introclassJava.grade_9c9308d4_000::::71::::1801::::1812::::studentscore::::A	1.0
+36	introclassJava.grade_9c9308d4_000::::70::::1726::::1791::::output += java.lang.String.format("Now enter student score (perecnt) >")::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+37	introclassJava.grade_9c9308d4_000::::69::::1686::::1716::::D.value = scanner.nextFloat()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+38	introclassJava.grade_9c9308d4_000::::69::::1686::::1692::::D.value::::C.value	1.0
+39	introclassJava.grade_9c9308d4_000::::69::::1686::::1692::::D.value::::B.value	1.0
+40	introclassJava.grade_9c9308d4_000::::69::::1686::::1692::::D.value::::A.value	1.0
+41	introclassJava.grade_9c9308d4_000::::69::::1686::::1686::::D::::C	1.0
+42	introclassJava.grade_9c9308d4_000::::69::::1686::::1686::::D::::B	1.0
+43	introclassJava.grade_9c9308d4_000::::69::::1686::::1686::::D::::A	1.0
+44	introclassJava.grade_9c9308d4_000::::68::::1646::::1676::::C.value = scanner.nextFloat()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+45	introclassJava.grade_9c9308d4_000::::68::::1646::::1652::::C.value::::B.value	1.0
+46	introclassJava.grade_9c9308d4_000::::68::::1646::::1652::::C.value::::A.value	1.0
+47	introclassJava.grade_9c9308d4_000::::68::::1646::::1646::::C::::B	1.0
+48	introclassJava.grade_9c9308d4_000::::68::::1646::::1646::::C::::A	1.0
+49	introclassJava.grade_9c9308d4_000::::67::::1606::::1636::::B.value = scanner.nextFloat()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+50	introclassJava.grade_9c9308d4_000::::67::::1606::::1612::::B.value::::A.value	1.0
+51	introclassJava.grade_9c9308d4_000::::67::::1606::::1606::::B::::A	1.0
+52	introclassJava.grade_9c9308d4_000::::66::::1566::::1596::::A.value = scanner.nextFloat()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+53	introclassJava.grade_9c9308d4_000::::63::::1418::::1556::::output += java.lang.String.format("Enter thresholds for A, B, C, D in that order, decreasing percentages > Thank you. ")::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+54	introclassJava.grade_9c9308d4_000::::62::::1394::::1407::::new introclassJava.CharObj()::::INSERT::::PARAMETER::::new CharObj(value)	1.0
+55	introclassJava.grade_9c9308d4_000::::62::::1372::::1408::::introclassJava.CharObj lettergrade = new introclassJava.CharObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+56	introclassJava.grade_9c9308d4_000::::61::::1347::::1361::::new introclassJava.FloatObj()::::INSERT::::PARAMETER::::new FloatObj(value)	1.0
+57	introclassJava.grade_9c9308d4_000::::61::::1315::::1329::::new introclassJava.FloatObj()::::INSERT::::PARAMETER::::new FloatObj(value)	1.0
+58	introclassJava.grade_9c9308d4_000::::61::::1294::::1308::::new introclassJava.FloatObj()::::INSERT::::PARAMETER::::new FloatObj(value)	1.0
+59	introclassJava.grade_9c9308d4_000::::61::::1227::::1362::::introclassJava.FloatObj studentscore = new introclassJava.FloatObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+60	introclassJava.grade_9c9308d4_000::::61::::1227::::1362::::introclassJava.FloatObj D = new introclassJava.FloatObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+61	introclassJava.grade_9c9308d4_000::::60::::1261::::1275::::new introclassJava.FloatObj()::::INSERT::::PARAMETER::::new FloatObj(value)	1.0
+62	introclassJava.grade_9c9308d4_000::::60::::1240::::1254::::new introclassJava.FloatObj()::::INSERT::::PARAMETER::::new FloatObj(value)	1.0
+63	introclassJava.grade_9c9308d4_000::::60::::1227::::1362::::introclassJava.FloatObj C = new introclassJava.FloatObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+64	introclassJava.grade_9c9308d4_000::::60::::1227::::1362::::introclassJava.FloatObj B = new introclassJava.FloatObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+65	introclassJava.grade_9c9308d4_000::::60::::1227::::1362::::introclassJava.FloatObj A = new introclassJava.FloatObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+66	introclassJava.grade_9c9308d4_000::::74::::1967::::1973::::B.value::::D.value	0.8819171036881969
+67	introclassJava.grade_9c9308d4_000::::74::::1967::::1973::::B.value::::C.value	0.8819171036881969
+68	introclassJava.grade_9c9308d4_000::::74::::1967::::1973::::B.value::::A.value	0.8819171036881969
+69	introclassJava.grade_9c9308d4_000::::74::::1967::::1967::::B::::studentscore	0.8819171036881969
+70	introclassJava.grade_9c9308d4_000::::74::::1967::::1967::::B::::D	0.8819171036881969
+71	introclassJava.grade_9c9308d4_000::::74::::1967::::1967::::B::::C	0.8819171036881969
+72	introclassJava.grade_9c9308d4_000::::74::::1967::::1967::::B::::A	0.8819171036881969
+73	introclassJava.grade_9c9308d4_000::::74::::1945::::1973::::studentscore.value) >= (B.value::::true	0.8819171036881969
+74	introclassJava.grade_9c9308d4_000::::74::::1945::::1973::::studentscore.value) >= (B.value::::studentscore.value) >= (C.value	0.8819171036881969
+75	introclassJava.grade_9c9308d4_000::::74::::1945::::1973::::studentscore.value) >= (B.value::::studentscore.value) >= (A.value	0.8819171036881969
+76	introclassJava.grade_9c9308d4_000::::74::::1945::::1962::::studentscore.value::::D.value	0.8819171036881969
+77	introclassJava.grade_9c9308d4_000::::74::::1945::::1962::::studentscore.value::::C.value	0.8819171036881969
+78	introclassJava.grade_9c9308d4_000::::74::::1945::::1962::::studentscore.value::::A.value	0.8819171036881969
+79	introclassJava.grade_9c9308d4_000::::74::::1945::::1956::::studentscore::::D	0.8819171036881969
+80	introclassJava.grade_9c9308d4_000::::74::::1945::::1956::::studentscore::::C	0.8819171036881969
+81	introclassJava.grade_9c9308d4_000::::74::::1945::::1956::::studentscore::::B	0.8819171036881969
+82	introclassJava.grade_9c9308d4_000::::74::::1945::::1956::::studentscore::::A	0.8819171036881969
+83	introclassJava.grade_9c9308d4_000::::74::::1941::::2166::::if ((studentscore.value) >= (B.value)) {    lettergrade.value = 'B';}else    if ((studentscore.value) >= (C.value)) {        lettergrade.value = 'C';    }else {        lettergrade.value = 'D';    }::::INSERT::::STATEMENT::::if (true)    return ;	0.8819171036881969
+84	introclassJava.grade_9c9308d4_000::::74::::1941::::2166::::if ((studentscore.value) >= (B.value)) {    lettergrade.value = 'B';}else    if ((studentscore.value) >= (C.value)) {        lettergrade.value = 'C';    }else {        lettergrade.value = 'D';    }::::INSERT::::STATEMENT::::if ((studentscore.value) >= (C.value)) {    lettergrade.value = 'C';}else {    lettergrade.value = 'D';}	0.8819171036881969
+85	introclassJava.grade_9c9308d4_000::::74::::1941::::2166::::if ((studentscore.value) >= (B.value)) {    lettergrade.value = 'B';}else    if ((studentscore.value) >= (C.value)) {        lettergrade.value = 'C';    }else {        lettergrade.value = 'D';    }::::INSERT::::STATEMENT::::if ((studentscore.value) >= (B.value)) {    lettergrade.value = 'B';}else    if ((studentscore.value) >= (C.value)) {        lettergrade.value = 'C';    }else {        lettergrade.value = 'D';    }	0.8819171036881969
+86	introclassJava.grade_9c9308d4_000::::74::::1941::::2166::::if ((studentscore.value) >= (B.value)) {    lettergrade.value = 'B';}else    if ((studentscore.value) >= (C.value)) {        lettergrade.value = 'C';    }else {        lettergrade.value = 'D';    }::::INSERT::::STATEMENT::::if ((studentscore.value) >= (A.value)) {    lettergrade.value = 'A';}else    if ((studentscore.value) >= (B.value)) {        lettergrade.value = 'B';    }else        if ((studentscore.value) >= (C.value)) {            lettergrade.value = 'C';        }else {            lettergrade.value = 'D';        }    	0.8819171036881969
+87	introclassJava.grade_9c9308d4_000::::76::::2056::::2062::::C.value::::D.value	0.7453559924999299
+88	introclassJava.grade_9c9308d4_000::::76::::2056::::2062::::C.value::::B.value	0.7453559924999299
+89	introclassJava.grade_9c9308d4_000::::76::::2056::::2062::::C.value::::A.value	0.7453559924999299
+90	introclassJava.grade_9c9308d4_000::::76::::2056::::2056::::C::::studentscore	0.7453559924999299
+91	introclassJava.grade_9c9308d4_000::::76::::2056::::2056::::C::::D	0.7453559924999299
+92	introclassJava.grade_9c9308d4_000::::76::::2056::::2056::::C::::B	0.7453559924999299
+93	introclassJava.grade_9c9308d4_000::::76::::2056::::2056::::C::::A	0.7453559924999299
+94	introclassJava.grade_9c9308d4_000::::76::::2034::::2062::::studentscore.value) >= (C.value::::true	0.7453559924999299
+95	introclassJava.grade_9c9308d4_000::::76::::2034::::2062::::studentscore.value) >= (C.value::::studentscore.value) >= (B.value	0.7453559924999299
+96	introclassJava.grade_9c9308d4_000::::76::::2034::::2062::::studentscore.value) >= (C.value::::studentscore.value) >= (A.value	0.7453559924999299
+97	introclassJava.grade_9c9308d4_000::::76::::2034::::2051::::studentscore.value::::D.value	0.7453559924999299
+98	introclassJava.grade_9c9308d4_000::::76::::2034::::2051::::studentscore.value::::B.value	0.7453559924999299
+99	introclassJava.grade_9c9308d4_000::::76::::2034::::2051::::studentscore.value::::A.value	0.7453559924999299
+100	introclassJava.grade_9c9308d4_000::::76::::2034::::2045::::studentscore::::D	0.7453559924999299
+101	introclassJava.grade_9c9308d4_000::::76::::2034::::2045::::studentscore::::C	0.7453559924999299
+102	introclassJava.grade_9c9308d4_000::::76::::2034::::2045::::studentscore::::B	0.7453559924999299
+103	introclassJava.grade_9c9308d4_000::::76::::2034::::2045::::studentscore::::A	0.7453559924999299
+104	introclassJava.grade_9c9308d4_000::::76::::2030::::2166::::if ((studentscore.value) >= (C.value)) {    lettergrade.value = 'C';}else {    lettergrade.value = 'D';}::::INSERT::::STATEMENT::::if (true)    return ;	0.7453559924999299
+105	introclassJava.grade_9c9308d4_000::::76::::2030::::2166::::if ((studentscore.value) >= (C.value)) {    lettergrade.value = 'C';}else {    lettergrade.value = 'D';}::::INSERT::::STATEMENT::::if ((studentscore.value) >= (C.value)) {    lettergrade.value = 'C';}else {    lettergrade.value = 'D';}	0.7453559924999299
+106	introclassJava.grade_9c9308d4_000::::76::::2030::::2166::::if ((studentscore.value) >= (C.value)) {    lettergrade.value = 'C';}else {    lettergrade.value = 'D';}::::INSERT::::STATEMENT::::if ((studentscore.value) >= (B.value)) {    lettergrade.value = 'B';}else    if ((studentscore.value) >= (C.value)) {        lettergrade.value = 'C';    }else {        lettergrade.value = 'D';    }	0.7453559924999299
+107	introclassJava.grade_9c9308d4_000::::76::::2030::::2166::::if ((studentscore.value) >= (C.value)) {    lettergrade.value = 'C';}else {    lettergrade.value = 'D';}::::INSERT::::STATEMENT::::if ((studentscore.value) >= (A.value)) {    lettergrade.value = 'A';}else    if ((studentscore.value) >= (B.value)) {        lettergrade.value = 'B';    }else        if ((studentscore.value) >= (C.value)) {            lettergrade.value = 'C';        }else {            lettergrade.value = 'D';        }    	0.7453559924999299
+108	introclassJava.grade_9c9308d4_000::::79::::2133::::2156::::lettergrade.value = 'D'::::lettergrade.value = 'C'	0.5773502691896257
+109	introclassJava.grade_9c9308d4_000::::79::::2133::::2156::::lettergrade.value = 'D'::::lettergrade.value = 'B'	0.5773502691896257
+110	introclassJava.grade_9c9308d4_000::::79::::2133::::2156::::lettergrade.value = 'D'::::lettergrade.value = 'A'	0.5773502691896257
+111	introclassJava.grade_9c9308d4_000::::79::::2133::::2156::::lettergrade.value = 'D'::::INSERT::::STATEMENT::::if (true)    return ;	0.5773502691896257
+112	introclassJava.grade_9c9308d4_000::::79::::2133::::2156::::lettergrade.value = 'D'::::INSERT::::STATEMENT::::if ((studentscore.value) >= (C.value)) {    lettergrade.value = 'C';}else {    lettergrade.value = 'D';}	0.5773502691896257
+113	introclassJava.grade_9c9308d4_000::::79::::2133::::2156::::lettergrade.value = 'D'::::INSERT::::STATEMENT::::if ((studentscore.value) >= (B.value)) {    lettergrade.value = 'B';}else    if ((studentscore.value) >= (C.value)) {        lettergrade.value = 'C';    }else {        lettergrade.value = 'D';    }	0.5773502691896257
+114	introclassJava.grade_9c9308d4_000::::79::::2133::::2156::::lettergrade.value = 'D'::::INSERT::::STATEMENT::::if ((studentscore.value) >= (A.value)) {    lettergrade.value = 'A';}else    if ((studentscore.value) >= (B.value)) {        lettergrade.value = 'B';    }else        if ((studentscore.value) >= (C.value)) {            lettergrade.value = 'C';        }else {            lettergrade.value = 'D';        }    	0.5773502691896257
+115	introclassJava.grade_9c9308d4_000::::77::::2079::::2102::::lettergrade.value = 'C'::::lettergrade.value = 'D'	0.47140452079103173
+116	introclassJava.grade_9c9308d4_000::::77::::2079::::2102::::lettergrade.value = 'C'::::lettergrade.value = 'B'	0.47140452079103173
+117	introclassJava.grade_9c9308d4_000::::77::::2079::::2102::::lettergrade.value = 'C'::::lettergrade.value = 'A'	0.47140452079103173
+118	introclassJava.grade_9c9308d4_000::::77::::2079::::2102::::lettergrade.value = 'C'::::INSERT::::STATEMENT::::if (true)    return ;	0.47140452079103173
+119	introclassJava.grade_9c9308d4_000::::77::::2079::::2102::::lettergrade.value = 'C'::::INSERT::::STATEMENT::::if ((studentscore.value) >= (C.value)) {    lettergrade.value = 'C';}else {    lettergrade.value = 'D';}	0.47140452079103173
+120	introclassJava.grade_9c9308d4_000::::77::::2079::::2102::::lettergrade.value = 'C'::::INSERT::::STATEMENT::::if ((studentscore.value) >= (B.value)) {    lettergrade.value = 'B';}else    if ((studentscore.value) >= (C.value)) {        lettergrade.value = 'C';    }else {        lettergrade.value = 'D';    }	0.47140452079103173
+121	introclassJava.grade_9c9308d4_000::::77::::2079::::2102::::lettergrade.value = 'C'::::INSERT::::STATEMENT::::if ((studentscore.value) >= (A.value)) {    lettergrade.value = 'A';}else    if ((studentscore.value) >= (B.value)) {        lettergrade.value = 'B';    }else        if ((studentscore.value) >= (C.value)) {            lettergrade.value = 'C';        }else {            lettergrade.value = 'D';        }    	0.47140452079103173
+122	introclassJava.grade_9c9308d4_000::::75::::1990::::2013::::lettergrade.value = 'B'::::lettergrade.value = 'D'	0.47140452079103173
+123	introclassJava.grade_9c9308d4_000::::75::::1990::::2013::::lettergrade.value = 'B'::::lettergrade.value = 'C'	0.47140452079103173
+124	introclassJava.grade_9c9308d4_000::::75::::1990::::2013::::lettergrade.value = 'B'::::lettergrade.value = 'A'	0.47140452079103173
+125	introclassJava.grade_9c9308d4_000::::75::::1990::::2013::::lettergrade.value = 'B'::::INSERT::::STATEMENT::::if (true)    return ;	0.47140452079103173
+126	introclassJava.grade_9c9308d4_000::::75::::1990::::2013::::lettergrade.value = 'B'::::INSERT::::STATEMENT::::if ((studentscore.value) >= (C.value)) {    lettergrade.value = 'C';}else {    lettergrade.value = 'D';}	0.47140452079103173
+127	introclassJava.grade_9c9308d4_000::::75::::1990::::2013::::lettergrade.value = 'B'::::INSERT::::STATEMENT::::if ((studentscore.value) >= (B.value)) {    lettergrade.value = 'B';}else    if ((studentscore.value) >= (C.value)) {        lettergrade.value = 'C';    }else {        lettergrade.value = 'D';    }	0.47140452079103173
+128	introclassJava.grade_9c9308d4_000::::75::::1990::::2013::::lettergrade.value = 'B'::::INSERT::::STATEMENT::::if ((studentscore.value) >= (A.value)) {    lettergrade.value = 'A';}else    if ((studentscore.value) >= (B.value)) {        lettergrade.value = 'B';    }else        if ((studentscore.value) >= (C.value)) {            lettergrade.value = 'C';        }else {            lettergrade.value = 'D';        }    	0.47140452079103173
+129	introclassJava.grade_9c9308d4_000::::73::::1901::::1924::::lettergrade.value = 'A'::::lettergrade.value = 'D'	0.47140452079103173
+130	introclassJava.grade_9c9308d4_000::::73::::1901::::1924::::lettergrade.value = 'A'::::lettergrade.value = 'C'	0.47140452079103173
+131	introclassJava.grade_9c9308d4_000::::73::::1901::::1924::::lettergrade.value = 'A'::::lettergrade.value = 'B'	0.47140452079103173
+132	introclassJava.grade_9c9308d4_000::::73::::1901::::1924::::lettergrade.value = 'A'::::INSERT::::STATEMENT::::if (true)    return ;	0.47140452079103173
+133	introclassJava.grade_9c9308d4_000::::73::::1901::::1924::::lettergrade.value = 'A'::::INSERT::::STATEMENT::::if ((studentscore.value) >= (C.value)) {    lettergrade.value = 'C';}else {    lettergrade.value = 'D';}	0.47140452079103173
+134	introclassJava.grade_9c9308d4_000::::73::::1901::::1924::::lettergrade.value = 'A'::::INSERT::::STATEMENT::::if ((studentscore.value) >= (B.value)) {    lettergrade.value = 'B';}else    if ((studentscore.value) >= (C.value)) {        lettergrade.value = 'C';    }else {        lettergrade.value = 'D';    }	0.47140452079103173
+135	introclassJava.grade_9c9308d4_000::::73::::1901::::1924::::lettergrade.value = 'A'::::INSERT::::STATEMENT::::if ((studentscore.value) >= (A.value)) {    lettergrade.value = 'A';}else    if ((studentscore.value) >= (B.value)) {        lettergrade.value = 'B';    }else        if ((studentscore.value) >= (C.value)) {            lettergrade.value = 'C';        }else {            lettergrade.value = 'D';        }    	0.47140452079103173

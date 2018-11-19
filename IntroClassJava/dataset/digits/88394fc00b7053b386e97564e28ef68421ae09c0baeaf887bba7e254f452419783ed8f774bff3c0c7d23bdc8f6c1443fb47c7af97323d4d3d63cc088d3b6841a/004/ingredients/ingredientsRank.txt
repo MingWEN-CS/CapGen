@@ -1,0 +1,31 @@
+1	introclassJava.digits_88394fc0_004::::76::::1843::::1849::::return ::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+2	introclassJava.digits_88394fc0_004::::74::::1751::::1811::::output += java.lang.String.format("That\'s all, have a nice day!\n")::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+3	introclassJava.digits_88394fc0_004::::69::::1562::::1572::::(n.value) > 0::::true	0.4082482904638631
+4	introclassJava.digits_88394fc0_004::::69::::1562::::1572::::(n.value) > 0::::(n.value) == 0	0.4082482904638631
+5	introclassJava.digits_88394fc0_004::::69::::1562::::1568::::n.value::::digits.value	0.4082482904638631
+6	introclassJava.digits_88394fc0_004::::69::::1562::::1568::::n.value::::(n.value) - (digits.value)	0.4082482904638631
+7	introclassJava.digits_88394fc0_004::::69::::1562::::1568::::n.value::::((n.value) - (digits.value)) / 10	0.4082482904638631
+8	introclassJava.digits_88394fc0_004::::69::::1562::::1562::::n::::digits	0.4082482904638631
+9	introclassJava.digits_88394fc0_004::::69::::1555::::1741::::while ((n.value) > 0) {    digits.value = (n.value) % 10;    output += java.lang.String.format("%d\n", digits.value);    n.value = ((n.value) - (digits.value)) / 10;} ::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+10	introclassJava.digits_88394fc0_004::::66::::1474::::1485::::(n.value) == 0::::true	0.4082482904638631
+11	introclassJava.digits_88394fc0_004::::66::::1474::::1485::::(n.value) == 0::::(n.value) > 0	0.4082482904638631
+12	introclassJava.digits_88394fc0_004::::66::::1474::::1480::::n.value::::digits.value	0.4082482904638631
+13	introclassJava.digits_88394fc0_004::::66::::1474::::1480::::n.value::::(n.value) - (digits.value)	0.4082482904638631
+14	introclassJava.digits_88394fc0_004::::66::::1474::::1480::::n.value::::((n.value) - (digits.value)) / 10	0.4082482904638631
+15	introclassJava.digits_88394fc0_004::::66::::1474::::1474::::n::::digits	0.4082482904638631
+16	introclassJava.digits_88394fc0_004::::66::::1470::::1545::::if ((n.value) == 0) {    output += java.lang.String.format("0\n");}::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+17	introclassJava.digits_88394fc0_004::::65::::1444::::1460::::digits.value = 1::::n.value = ((n.value) - (digits.value)) / 10	0.4082482904638631
+18	introclassJava.digits_88394fc0_004::::65::::1444::::1460::::digits.value = 1::::digits.value = (n.value) % 10	0.4082482904638631
+19	introclassJava.digits_88394fc0_004::::65::::1444::::1460::::digits.value = 1::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+20	introclassJava.digits_88394fc0_004::::65::::1444::::1455::::digits.value::::n.value	0.4082482904638631
+21	introclassJava.digits_88394fc0_004::::65::::1444::::1455::::digits.value::::(n.value) - (digits.value)	0.4082482904638631
+22	introclassJava.digits_88394fc0_004::::65::::1444::::1455::::digits.value::::(n.value) % 10	0.4082482904638631
+23	introclassJava.digits_88394fc0_004::::65::::1444::::1455::::digits.value::::((n.value) - (digits.value)) / 10	0.4082482904638631
+24	introclassJava.digits_88394fc0_004::::65::::1444::::1449::::digits::::n	0.4082482904638631
+25	introclassJava.digits_88394fc0_004::::64::::1402::::1434::::output += java.lang.String.format("\n")::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+26	introclassJava.digits_88394fc0_004::::63::::1364::::1392::::n.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+27	introclassJava.digits_88394fc0_004::::62::::1303::::1354::::output += java.lang.String.format("\nEnter an integer > ")::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+28	introclassJava.digits_88394fc0_004::::61::::1280::::1292::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.4082482904638631
+29	introclassJava.digits_88394fc0_004::::61::::1264::::1293::::introclassJava.IntObj digits = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+30	introclassJava.digits_88394fc0_004::::60::::1241::::1253::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.4082482904638631
+31	introclassJava.digits_88394fc0_004::::60::::1230::::1254::::introclassJava.IntObj n = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631

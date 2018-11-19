@@ -1,0 +1,143 @@
+1	introclassJava.median_9c9308d4_012::::73::::1876::::1883::::n3.value::::n2.value	0.7071067811865475
+2	introclassJava.median_9c9308d4_012::::73::::1876::::1883::::n3.value::::n1.value	0.7071067811865475
+3	introclassJava.median_9c9308d4_012::::73::::1876::::1883::::n3.value::::median.value	0.7071067811865475
+4	introclassJava.median_9c9308d4_012::::73::::1876::::1877::::n3::::n2	0.7071067811865475
+5	introclassJava.median_9c9308d4_012::::73::::1876::::1877::::n3::::n1	0.7071067811865475
+6	introclassJava.median_9c9308d4_012::::73::::1876::::1877::::n3::::median	0.7071067811865475
+7	introclassJava.median_9c9308d4_012::::73::::1861::::1884::::median.value = n3.value::::median.value = n2.value	0.7071067811865475
+8	introclassJava.median_9c9308d4_012::::73::::1861::::1884::::median.value = n3.value::::median.value = n1.value	0.7071067811865475
+9	introclassJava.median_9c9308d4_012::::73::::1861::::1884::::median.value = n3.value::::INSERT::::STATEMENT::::if (true)    return ;	0.7071067811865475
+10	introclassJava.median_9c9308d4_012::::73::::1861::::1884::::median.value = n3.value::::INSERT::::STATEMENT::::if ((n2.value) >= (n3.value)) {    median.value = n3.value;}else {    median.value = n2.value;}	0.7071067811865475
+11	introclassJava.median_9c9308d4_012::::73::::1861::::1884::::median.value = n3.value::::INSERT::::STATEMENT::::if ((n2.value) >= (n1.value)) {    median.value = n1.value;}else {    median.value = n3.value;}	0.7071067811865475
+12	introclassJava.median_9c9308d4_012::::73::::1861::::1884::::median.value = n3.value::::INSERT::::STATEMENT::::if (((n2.value) >= (n3.value)) && ((n1.value) >= (n2.value))) {    median.value = n2.value;}else    if ((n2.value) >= (n1.value)) {        median.value = n1.value;    }else {        median.value = n3.value;    }	0.7071067811865475
+13	introclassJava.median_9c9308d4_012::::73::::1861::::1884::::median.value = n3.value::::INSERT::::STATEMENT::::if (((n1.value) >= (n2.value)) || ((n1.value) >= (n3.value))) {    if (((n2.value) >= (n3.value)) && ((n1.value) >= (n2.value))) {        median.value = n2.value;    }else        if ((n2.value) >= (n1.value)) {            median.value = n1.value;        }else {            median.value = n3.value;        }    }else    if ((n2.value) >= (n3.value)) {        median.value = n3.value;    }else {        median.value = n2.value;    }	0.7071067811865475
+14	introclassJava.median_9c9308d4_012::::73::::1861::::1872::::median.value::::n3.value	0.7071067811865475
+15	introclassJava.median_9c9308d4_012::::73::::1861::::1872::::median.value::::n2.value	0.7071067811865475
+16	introclassJava.median_9c9308d4_012::::73::::1861::::1872::::median.value::::n1.value	0.7071067811865475
+17	introclassJava.median_9c9308d4_012::::73::::1861::::1866::::median::::n3	0.7071067811865475
+18	introclassJava.median_9c9308d4_012::::73::::1861::::1866::::median::::n2	0.7071067811865475
+19	introclassJava.median_9c9308d4_012::::73::::1861::::1866::::median::::n1	0.7071067811865475
+20	introclassJava.median_9c9308d4_012::::70::::1771::::1778::::n1.value::::n3.value	0.5773502691896258
+21	introclassJava.median_9c9308d4_012::::70::::1771::::1778::::n1.value::::median.value	0.5773502691896258
+22	introclassJava.median_9c9308d4_012::::70::::1771::::1772::::n1::::n3	0.5773502691896258
+23	introclassJava.median_9c9308d4_012::::70::::1771::::1772::::n1::::n2	0.5773502691896258
+24	introclassJava.median_9c9308d4_012::::70::::1771::::1772::::n1::::median	0.5773502691896258
+25	introclassJava.median_9c9308d4_012::::70::::1759::::1778::::n2.value) >= (n1.value::::true	0.5773502691896258
+26	introclassJava.median_9c9308d4_012::::70::::1759::::1778::::n2.value) >= (n1.value::::n2.value) >= (n3.value	0.5773502691896258
+27	introclassJava.median_9c9308d4_012::::70::::1759::::1778::::n2.value) >= (n1.value::::(n2.value) >= (n3.value)) && ((n1.value) >= (n2.value)	0.5773502691896258
+28	introclassJava.median_9c9308d4_012::::70::::1759::::1778::::n2.value) >= (n1.value::::(n2.value) >= (n3.value)	0.5773502691896258
+29	introclassJava.median_9c9308d4_012::::70::::1759::::1778::::n2.value) >= (n1.value::::(n1.value) >= (n3.value)	0.5773502691896258
+30	introclassJava.median_9c9308d4_012::::70::::1759::::1778::::n2.value) >= (n1.value::::(n1.value) >= (n2.value)) || ((n1.value) >= (n3.value)	0.5773502691896258
+31	introclassJava.median_9c9308d4_012::::70::::1759::::1778::::n2.value) >= (n1.value::::(n1.value) >= (n2.value)	0.5773502691896258
+32	introclassJava.median_9c9308d4_012::::70::::1759::::1766::::n2.value::::n3.value	0.5773502691896258
+33	introclassJava.median_9c9308d4_012::::70::::1759::::1766::::n2.value::::median.value	0.5773502691896258
+34	introclassJava.median_9c9308d4_012::::70::::1759::::1760::::n2::::n3	0.5773502691896258
+35	introclassJava.median_9c9308d4_012::::70::::1759::::1760::::n2::::n1	0.5773502691896258
+36	introclassJava.median_9c9308d4_012::::70::::1759::::1760::::n2::::median	0.5773502691896258
+37	introclassJava.median_9c9308d4_012::::70::::1755::::1898::::if ((n2.value) >= (n1.value)) {    median.value = n1.value;}else {    median.value = n3.value;}::::INSERT::::STATEMENT::::if (true)    return ;	0.5773502691896258
+38	introclassJava.median_9c9308d4_012::::70::::1755::::1898::::if ((n2.value) >= (n1.value)) {    median.value = n1.value;}else {    median.value = n3.value;}::::INSERT::::STATEMENT::::if ((n2.value) >= (n3.value)) {    median.value = n3.value;}else {    median.value = n2.value;}	0.5773502691896258
+39	introclassJava.median_9c9308d4_012::::70::::1755::::1898::::if ((n2.value) >= (n1.value)) {    median.value = n1.value;}else {    median.value = n3.value;}::::INSERT::::STATEMENT::::if ((n2.value) >= (n1.value)) {    median.value = n1.value;}else {    median.value = n3.value;}	0.5773502691896258
+40	introclassJava.median_9c9308d4_012::::70::::1755::::1898::::if ((n2.value) >= (n1.value)) {    median.value = n1.value;}else {    median.value = n3.value;}::::INSERT::::STATEMENT::::if (((n2.value) >= (n3.value)) && ((n1.value) >= (n2.value))) {    median.value = n2.value;}else    if ((n2.value) >= (n1.value)) {        median.value = n1.value;    }else {        median.value = n3.value;    }	0.5773502691896258
+41	introclassJava.median_9c9308d4_012::::70::::1755::::1898::::if ((n2.value) >= (n1.value)) {    median.value = n1.value;}else {    median.value = n3.value;}::::INSERT::::STATEMENT::::if (((n1.value) >= (n2.value)) || ((n1.value) >= (n3.value))) {    if (((n2.value) >= (n3.value)) && ((n1.value) >= (n2.value))) {        median.value = n2.value;    }else        if ((n2.value) >= (n1.value)) {            median.value = n1.value;        }else {            median.value = n3.value;        }    }else    if ((n2.value) >= (n3.value)) {        median.value = n3.value;    }else {        median.value = n2.value;    }	0.5773502691896258
+42	introclassJava.median_9c9308d4_012::::68::::1683::::1690::::n2.value::::n3.value	0.4472135954999579
+43	introclassJava.median_9c9308d4_012::::68::::1683::::1684::::n2::::n3	0.4472135954999579
+44	introclassJava.median_9c9308d4_012::::68::::1683::::1684::::n2::::n1	0.4472135954999579
+45	introclassJava.median_9c9308d4_012::::68::::1671::::1690::::(n1.value) >= (n2.value)::::true	0.4472135954999579
+46	introclassJava.median_9c9308d4_012::::68::::1671::::1690::::(n1.value) >= (n2.value)::::n2.value) >= (n3.value	0.4472135954999579
+47	introclassJava.median_9c9308d4_012::::68::::1671::::1690::::(n1.value) >= (n2.value)::::n2.value) >= (n1.value	0.4472135954999579
+48	introclassJava.median_9c9308d4_012::::68::::1671::::1690::::(n1.value) >= (n2.value)::::(n2.value) >= (n3.value)) && ((n1.value) >= (n2.value)	0.4472135954999579
+49	introclassJava.median_9c9308d4_012::::68::::1671::::1690::::(n1.value) >= (n2.value)::::(n2.value) >= (n3.value)	0.4472135954999579
+50	introclassJava.median_9c9308d4_012::::68::::1671::::1690::::(n1.value) >= (n2.value)::::(n1.value) >= (n3.value)	0.4472135954999579
+51	introclassJava.median_9c9308d4_012::::68::::1671::::1690::::(n1.value) >= (n2.value)::::(n1.value) >= (n2.value)) || ((n1.value) >= (n3.value)	0.4472135954999579
+52	introclassJava.median_9c9308d4_012::::68::::1671::::1678::::n1.value::::n3.value	0.4472135954999579
+53	introclassJava.median_9c9308d4_012::::68::::1671::::1672::::n1::::n3	0.4472135954999579
+54	introclassJava.median_9c9308d4_012::::68::::1671::::1672::::n1::::n2	0.4472135954999579
+55	introclassJava.median_9c9308d4_012::::68::::1659::::1666::::n3.value::::n1.value	0.4472135954999579
+56	introclassJava.median_9c9308d4_012::::68::::1659::::1660::::n3::::n2	0.4472135954999579
+57	introclassJava.median_9c9308d4_012::::68::::1659::::1660::::n3::::n1	0.4472135954999579
+58	introclassJava.median_9c9308d4_012::::68::::1647::::1690::::(n2.value) >= (n3.value)) && ((n1.value) >= (n2.value)::::true	0.4472135954999579
+59	introclassJava.median_9c9308d4_012::::68::::1647::::1690::::(n2.value) >= (n3.value)) && ((n1.value) >= (n2.value)::::n2.value) >= (n3.value	0.4472135954999579
+60	introclassJava.median_9c9308d4_012::::68::::1647::::1690::::(n2.value) >= (n3.value)) && ((n1.value) >= (n2.value)::::n2.value) >= (n1.value	0.4472135954999579
+61	introclassJava.median_9c9308d4_012::::68::::1647::::1690::::(n2.value) >= (n3.value)) && ((n1.value) >= (n2.value)::::(n2.value) >= (n3.value)	0.4472135954999579
+62	introclassJava.median_9c9308d4_012::::68::::1647::::1690::::(n2.value) >= (n3.value)) && ((n1.value) >= (n2.value)::::(n1.value) >= (n3.value)	0.4472135954999579
+63	introclassJava.median_9c9308d4_012::::68::::1647::::1690::::(n2.value) >= (n3.value)) && ((n1.value) >= (n2.value)::::(n1.value) >= (n2.value)) || ((n1.value) >= (n3.value)	0.4472135954999579
+64	introclassJava.median_9c9308d4_012::::68::::1647::::1690::::(n2.value) >= (n3.value)) && ((n1.value) >= (n2.value)::::(n1.value) >= (n2.value)	0.4472135954999579
+65	introclassJava.median_9c9308d4_012::::68::::1647::::1666::::(n2.value) >= (n3.value)::::true	0.4472135954999579
+66	introclassJava.median_9c9308d4_012::::68::::1647::::1666::::(n2.value) >= (n3.value)::::n2.value) >= (n3.value	0.4472135954999579
+67	introclassJava.median_9c9308d4_012::::68::::1647::::1666::::(n2.value) >= (n3.value)::::n2.value) >= (n1.value	0.4472135954999579
+68	introclassJava.median_9c9308d4_012::::68::::1647::::1666::::(n2.value) >= (n3.value)::::(n2.value) >= (n3.value)) && ((n1.value) >= (n2.value)	0.4472135954999579
+69	introclassJava.median_9c9308d4_012::::68::::1647::::1666::::(n2.value) >= (n3.value)::::(n1.value) >= (n3.value)	0.4472135954999579
+70	introclassJava.median_9c9308d4_012::::68::::1647::::1666::::(n2.value) >= (n3.value)::::(n1.value) >= (n2.value)) || ((n1.value) >= (n3.value)	0.4472135954999579
+71	introclassJava.median_9c9308d4_012::::68::::1647::::1666::::(n2.value) >= (n3.value)::::(n1.value) >= (n2.value)	0.4472135954999579
+72	introclassJava.median_9c9308d4_012::::68::::1647::::1654::::n2.value::::n1.value	0.4472135954999579
+73	introclassJava.median_9c9308d4_012::::68::::1647::::1648::::n2::::n3	0.4472135954999579
+74	introclassJava.median_9c9308d4_012::::68::::1647::::1648::::n2::::n1	0.4472135954999579
+75	introclassJava.median_9c9308d4_012::::68::::1643::::1898::::if (((n2.value) >= (n3.value)) && ((n1.value) >= (n2.value))) {    median.value = n2.value;}else    if ((n2.value) >= (n1.value)) {        median.value = n1.value;    }else {        median.value = n3.value;    }::::INSERT::::STATEMENT::::if (true)    return ;	0.4472135954999579
+76	introclassJava.median_9c9308d4_012::::82::::2148::::2154::::return ::::INSERT::::STATEMENT::::if (true)    return ;	0.3779644730092272
+77	introclassJava.median_9c9308d4_012::::82::::2148::::2154::::return ::::INSERT::::STATEMENT::::if ((n2.value) >= (n3.value)) {    median.value = n3.value;}else {    median.value = n2.value;}	0.3779644730092272
+78	introclassJava.median_9c9308d4_012::::82::::2148::::2154::::return ::::INSERT::::STATEMENT::::if ((n2.value) >= (n1.value)) {    median.value = n1.value;}else {    median.value = n3.value;}	0.3779644730092272
+79	introclassJava.median_9c9308d4_012::::82::::2148::::2154::::return ::::INSERT::::STATEMENT::::if (((n2.value) >= (n3.value)) && ((n1.value) >= (n2.value))) {    median.value = n2.value;}else    if ((n2.value) >= (n1.value)) {        median.value = n1.value;    }else {        median.value = n3.value;    }	0.3779644730092272
+80	introclassJava.median_9c9308d4_012::::82::::2148::::2154::::return ::::INSERT::::STATEMENT::::if (((n1.value) >= (n2.value)) || ((n1.value) >= (n3.value))) {    if (((n2.value) >= (n3.value)) && ((n1.value) >= (n2.value))) {        median.value = n2.value;    }else        if ((n2.value) >= (n1.value)) {            median.value = n1.value;        }else {            median.value = n3.value;        }    }else    if ((n2.value) >= (n3.value)) {        median.value = n3.value;    }else {        median.value = n2.value;    }	0.3779644730092272
+81	introclassJava.median_9c9308d4_012::::80::::2102::::2113::::median.value::::n3.value	0.3779644730092272
+82	introclassJava.median_9c9308d4_012::::80::::2102::::2113::::median.value::::n2.value	0.3779644730092272
+83	introclassJava.median_9c9308d4_012::::80::::2102::::2113::::median.value::::n1.value	0.3779644730092272
+84	introclassJava.median_9c9308d4_012::::80::::2102::::2107::::median::::n3	0.3779644730092272
+85	introclassJava.median_9c9308d4_012::::80::::2102::::2107::::median::::n2	0.3779644730092272
+86	introclassJava.median_9c9308d4_012::::80::::2102::::2107::::median::::n1	0.3779644730092272
+87	introclassJava.median_9c9308d4_012::::80::::2052::::2116::::output += java.lang.String.format("%.0f is the median\n", median.value)::::INSERT::::STATEMENT::::if (true)    return ;	0.3779644730092272
+88	introclassJava.median_9c9308d4_012::::80::::2052::::2116::::output += java.lang.String.format("%.0f is the median\n", median.value)::::INSERT::::STATEMENT::::if ((n2.value) >= (n3.value)) {    median.value = n3.value;}else {    median.value = n2.value;}	0.3779644730092272
+89	introclassJava.median_9c9308d4_012::::80::::2052::::2116::::output += java.lang.String.format("%.0f is the median\n", median.value)::::INSERT::::STATEMENT::::if ((n2.value) >= (n1.value)) {    median.value = n1.value;}else {    median.value = n3.value;}	0.3779644730092272
+90	introclassJava.median_9c9308d4_012::::80::::2052::::2116::::output += java.lang.String.format("%.0f is the median\n", median.value)::::INSERT::::STATEMENT::::if (((n2.value) >= (n3.value)) && ((n1.value) >= (n2.value))) {    median.value = n2.value;}else    if ((n2.value) >= (n1.value)) {        median.value = n1.value;    }else {        median.value = n3.value;    }	0.3779644730092272
+91	introclassJava.median_9c9308d4_012::::80::::2052::::2116::::output += java.lang.String.format("%.0f is the median\n", median.value)::::INSERT::::STATEMENT::::if (((n1.value) >= (n2.value)) || ((n1.value) >= (n3.value))) {    if (((n2.value) >= (n3.value)) && ((n1.value) >= (n2.value))) {        median.value = n2.value;    }else        if ((n2.value) >= (n1.value)) {            median.value = n1.value;        }else {            median.value = n3.value;        }    }else    if ((n2.value) >= (n3.value)) {        median.value = n3.value;    }else {        median.value = n2.value;    }	0.3779644730092272
+92	introclassJava.median_9c9308d4_012::::67::::1619::::1626::::n3.value::::n2.value	0.3779644730092272
+93	introclassJava.median_9c9308d4_012::::67::::1619::::1620::::n3::::n2	0.3779644730092272
+94	introclassJava.median_9c9308d4_012::::67::::1619::::1620::::n3::::n1	0.3779644730092272
+95	introclassJava.median_9c9308d4_012::::67::::1607::::1626::::(n1.value) >= (n3.value)::::true	0.3779644730092272
+96	introclassJava.median_9c9308d4_012::::67::::1607::::1626::::(n1.value) >= (n3.value)::::n2.value) >= (n3.value	0.3779644730092272
+97	introclassJava.median_9c9308d4_012::::67::::1607::::1626::::(n1.value) >= (n3.value)::::n2.value) >= (n1.value	0.3779644730092272
+98	introclassJava.median_9c9308d4_012::::67::::1607::::1626::::(n1.value) >= (n3.value)::::(n2.value) >= (n3.value)) && ((n1.value) >= (n2.value)	0.3779644730092272
+99	introclassJava.median_9c9308d4_012::::67::::1607::::1626::::(n1.value) >= (n3.value)::::(n2.value) >= (n3.value)	0.3779644730092272
+100	introclassJava.median_9c9308d4_012::::67::::1607::::1626::::(n1.value) >= (n3.value)::::(n1.value) >= (n2.value)) || ((n1.value) >= (n3.value)	0.3779644730092272
+101	introclassJava.median_9c9308d4_012::::67::::1607::::1626::::(n1.value) >= (n3.value)::::(n1.value) >= (n2.value)	0.3779644730092272
+102	introclassJava.median_9c9308d4_012::::67::::1607::::1614::::n1.value::::n2.value	0.3779644730092272
+103	introclassJava.median_9c9308d4_012::::67::::1607::::1608::::n1::::n3	0.3779644730092272
+104	introclassJava.median_9c9308d4_012::::67::::1607::::1608::::n1::::n2	0.3779644730092272
+105	introclassJava.median_9c9308d4_012::::67::::1595::::1602::::n2.value::::n3.value	0.3779644730092272
+106	introclassJava.median_9c9308d4_012::::67::::1595::::1596::::n2::::n3	0.3779644730092272
+107	introclassJava.median_9c9308d4_012::::67::::1595::::1596::::n2::::n1	0.3779644730092272
+108	introclassJava.median_9c9308d4_012::::67::::1583::::1626::::(n1.value) >= (n2.value)) || ((n1.value) >= (n3.value)::::true	0.3779644730092272
+109	introclassJava.median_9c9308d4_012::::67::::1583::::1626::::(n1.value) >= (n2.value)) || ((n1.value) >= (n3.value)::::n2.value) >= (n3.value	0.3779644730092272
+110	introclassJava.median_9c9308d4_012::::67::::1583::::1626::::(n1.value) >= (n2.value)) || ((n1.value) >= (n3.value)::::n2.value) >= (n1.value	0.3779644730092272
+111	introclassJava.median_9c9308d4_012::::67::::1583::::1626::::(n1.value) >= (n2.value)) || ((n1.value) >= (n3.value)::::(n2.value) >= (n3.value)) && ((n1.value) >= (n2.value)	0.3779644730092272
+112	introclassJava.median_9c9308d4_012::::67::::1583::::1626::::(n1.value) >= (n2.value)) || ((n1.value) >= (n3.value)::::(n2.value) >= (n3.value)	0.3779644730092272
+113	introclassJava.median_9c9308d4_012::::67::::1583::::1626::::(n1.value) >= (n2.value)) || ((n1.value) >= (n3.value)::::(n1.value) >= (n3.value)	0.3779644730092272
+114	introclassJava.median_9c9308d4_012::::67::::1583::::1626::::(n1.value) >= (n2.value)) || ((n1.value) >= (n3.value)::::(n1.value) >= (n2.value)	0.3779644730092272
+115	introclassJava.median_9c9308d4_012::::67::::1583::::1602::::(n1.value) >= (n2.value)::::true	0.3779644730092272
+116	introclassJava.median_9c9308d4_012::::67::::1583::::1602::::(n1.value) >= (n2.value)::::n2.value) >= (n3.value	0.3779644730092272
+117	introclassJava.median_9c9308d4_012::::67::::1583::::1602::::(n1.value) >= (n2.value)::::n2.value) >= (n1.value	0.3779644730092272
+118	introclassJava.median_9c9308d4_012::::67::::1583::::1602::::(n1.value) >= (n2.value)::::(n2.value) >= (n3.value)) && ((n1.value) >= (n2.value)	0.3779644730092272
+119	introclassJava.median_9c9308d4_012::::67::::1583::::1602::::(n1.value) >= (n2.value)::::(n2.value) >= (n3.value)	0.3779644730092272
+120	introclassJava.median_9c9308d4_012::::67::::1583::::1602::::(n1.value) >= (n2.value)::::(n1.value) >= (n3.value)	0.3779644730092272
+121	introclassJava.median_9c9308d4_012::::67::::1583::::1602::::(n1.value) >= (n2.value)::::(n1.value) >= (n2.value)) || ((n1.value) >= (n3.value)	0.3779644730092272
+122	introclassJava.median_9c9308d4_012::::67::::1583::::1590::::n1.value::::n3.value	0.3779644730092272
+123	introclassJava.median_9c9308d4_012::::67::::1583::::1584::::n1::::n3	0.3779644730092272
+124	introclassJava.median_9c9308d4_012::::67::::1583::::1584::::n1::::n2	0.3779644730092272
+125	introclassJava.median_9c9308d4_012::::67::::1579::::2042::::if (((n1.value) >= (n2.value)) || ((n1.value) >= (n3.value))) {    if (((n2.value) >= (n3.value)) && ((n1.value) >= (n2.value))) {        median.value = n2.value;    }else        if ((n2.value) >= (n1.value)) {            median.value = n1.value;        }else {            median.value = n3.value;        }    }else    if ((n2.value) >= (n3.value)) {        median.value = n3.value;    }else {        median.value = n2.value;    }::::INSERT::::STATEMENT::::if (true)    return ;	0.3779644730092272
+126	introclassJava.median_9c9308d4_012::::66::::1537::::1569::::n3.value = scanner.nextDouble()::::INSERT::::STATEMENT::::if (true)    return ;	0.3779644730092272
+127	introclassJava.median_9c9308d4_012::::66::::1537::::1544::::n3.value::::n2.value	0.3779644730092272
+128	introclassJava.median_9c9308d4_012::::66::::1537::::1544::::n3.value::::n1.value	0.3779644730092272
+129	introclassJava.median_9c9308d4_012::::66::::1537::::1538::::n3::::n2	0.3779644730092272
+130	introclassJava.median_9c9308d4_012::::66::::1537::::1538::::n3::::n1	0.3779644730092272
+131	introclassJava.median_9c9308d4_012::::65::::1495::::1527::::n2.value = scanner.nextDouble()::::INSERT::::STATEMENT::::if (true)    return ;	0.3779644730092272
+132	introclassJava.median_9c9308d4_012::::65::::1495::::1502::::n2.value::::n1.value	0.3779644730092272
+133	introclassJava.median_9c9308d4_012::::65::::1495::::1496::::n2::::n1	0.3779644730092272
+134	introclassJava.median_9c9308d4_012::::64::::1453::::1485::::n1.value = scanner.nextDouble()::::INSERT::::STATEMENT::::if (true)    return ;	0.3779644730092272
+135	introclassJava.median_9c9308d4_012::::62::::1356::::1443::::output += java.lang.String.format("Please enter 3 numbers separated by spaces > ")::::INSERT::::STATEMENT::::if (true)    return ;	0.3779644730092272
+136	introclassJava.median_9c9308d4_012::::61::::1330::::1345::::new introclassJava.DoubleObj()::::INSERT::::PARAMETER::::new DoubleObj(value)	0.3779644730092272
+137	introclassJava.median_9c9308d4_012::::61::::1303::::1318::::new introclassJava.DoubleObj()::::INSERT::::PARAMETER::::new DoubleObj(value)	0.3779644730092272
+138	introclassJava.median_9c9308d4_012::::61::::1230::::1346::::introclassJava.DoubleObj median = new introclassJava.DoubleObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.3779644730092272
+139	introclassJava.median_9c9308d4_012::::60::::1268::::1283::::new introclassJava.DoubleObj()::::INSERT::::PARAMETER::::new DoubleObj(value)	0.3779644730092272
+140	introclassJava.median_9c9308d4_012::::60::::1245::::1260::::new introclassJava.DoubleObj()::::INSERT::::PARAMETER::::new DoubleObj(value)	0.3779644730092272
+141	introclassJava.median_9c9308d4_012::::60::::1230::::1346::::introclassJava.DoubleObj n3 = new introclassJava.DoubleObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.3779644730092272
+142	introclassJava.median_9c9308d4_012::::60::::1230::::1346::::introclassJava.DoubleObj n2 = new introclassJava.DoubleObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.3779644730092272
+143	introclassJava.median_9c9308d4_012::::60::::1230::::1346::::introclassJava.DoubleObj n1 = new introclassJava.DoubleObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.3779644730092272

@@ -1,0 +1,505 @@
+1	introclassJava.smallest_346b1d3c_010::::80::::2225::::2231::::return ::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+2	introclassJava.smallest_346b1d3c_010::::78::::2176::::2182::::b.value::::num_4.value	1.0
+3	introclassJava.smallest_346b1d3c_010::::78::::2176::::2182::::b.value::::num_3.value	1.0
+4	introclassJava.smallest_346b1d3c_010::::78::::2176::::2182::::b.value::::num_2.value	1.0
+5	introclassJava.smallest_346b1d3c_010::::78::::2176::::2182::::b.value::::num_1.value	1.0
+6	introclassJava.smallest_346b1d3c_010::::78::::2176::::2182::::b.value::::d.value	1.0
+7	introclassJava.smallest_346b1d3c_010::::78::::2176::::2182::::b.value::::c.value	1.0
+8	introclassJava.smallest_346b1d3c_010::::78::::2176::::2182::::b.value::::a.value	1.0
+9	introclassJava.smallest_346b1d3c_010::::78::::2176::::2176::::b::::num_4	1.0
+10	introclassJava.smallest_346b1d3c_010::::78::::2176::::2176::::b::::num_3	1.0
+11	introclassJava.smallest_346b1d3c_010::::78::::2176::::2176::::b::::num_2	1.0
+12	introclassJava.smallest_346b1d3c_010::::78::::2176::::2176::::b::::num_1	1.0
+13	introclassJava.smallest_346b1d3c_010::::78::::2176::::2176::::b::::d	1.0
+14	introclassJava.smallest_346b1d3c_010::::78::::2176::::2176::::b::::c	1.0
+15	introclassJava.smallest_346b1d3c_010::::78::::2176::::2176::::b::::a	1.0
+16	introclassJava.smallest_346b1d3c_010::::78::::2127::::2185::::output += java.lang.String.format("%d is the smalles\n", b.value)::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+17	introclassJava.smallest_346b1d3c_010::::77::::2104::::2110::::d.value::::num_4.value	0.4472135954999579
+18	introclassJava.smallest_346b1d3c_010::::77::::2104::::2110::::d.value::::num_3.value	0.4472135954999579
+19	introclassJava.smallest_346b1d3c_010::::77::::2104::::2110::::d.value::::num_2.value	0.4472135954999579
+20	introclassJava.smallest_346b1d3c_010::::77::::2104::::2110::::d.value::::num_1.value	0.4472135954999579
+21	introclassJava.smallest_346b1d3c_010::::77::::2104::::2110::::d.value::::c.value	0.4472135954999579
+22	introclassJava.smallest_346b1d3c_010::::77::::2104::::2110::::d.value::::a.value	0.4472135954999579
+23	introclassJava.smallest_346b1d3c_010::::77::::2104::::2104::::d::::num_4	0.4472135954999579
+24	introclassJava.smallest_346b1d3c_010::::77::::2104::::2104::::d::::num_3	0.4472135954999579
+25	introclassJava.smallest_346b1d3c_010::::77::::2104::::2104::::d::::num_2	0.4472135954999579
+26	introclassJava.smallest_346b1d3c_010::::77::::2104::::2104::::d::::num_1	0.4472135954999579
+27	introclassJava.smallest_346b1d3c_010::::77::::2104::::2104::::d::::c	0.4472135954999579
+28	introclassJava.smallest_346b1d3c_010::::77::::2104::::2104::::d::::b	0.4472135954999579
+29	introclassJava.smallest_346b1d3c_010::::77::::2104::::2104::::d::::a	0.4472135954999579
+30	introclassJava.smallest_346b1d3c_010::::77::::2093::::2110::::(b.value) <= (d.value)::::true	0.4472135954999579
+31	introclassJava.smallest_346b1d3c_010::::77::::2093::::2110::::(b.value) <= (d.value)::::(d.value) <= (c.value)	0.4472135954999579
+32	introclassJava.smallest_346b1d3c_010::::77::::2093::::2110::::(b.value) <= (d.value)::::(d.value) <= (b.value)	0.4472135954999579
+33	introclassJava.smallest_346b1d3c_010::::77::::2093::::2110::::(b.value) <= (d.value)::::(d.value) <= (a.value)	0.4472135954999579
+34	introclassJava.smallest_346b1d3c_010::::77::::2093::::2110::::(b.value) <= (d.value)::::(c.value) <= (d.value)	0.4472135954999579
+35	introclassJava.smallest_346b1d3c_010::::77::::2093::::2110::::(b.value) <= (d.value)::::(c.value) <= (b.value)	0.4472135954999579
+36	introclassJava.smallest_346b1d3c_010::::77::::2093::::2110::::(b.value) <= (d.value)::::(c.value) <= (a.value)	0.4472135954999579
+37	introclassJava.smallest_346b1d3c_010::::77::::2093::::2110::::(b.value) <= (d.value)::::(b.value) <= (c.value)	0.4472135954999579
+38	introclassJava.smallest_346b1d3c_010::::77::::2093::::2110::::(b.value) <= (d.value)::::(b.value) <= (a.value)	0.4472135954999579
+39	introclassJava.smallest_346b1d3c_010::::77::::2093::::2110::::(b.value) <= (d.value)::::(a.value) <= (d.value)	0.4472135954999579
+40	introclassJava.smallest_346b1d3c_010::::77::::2093::::2110::::(b.value) <= (d.value)::::(a.value) <= (c.value)	0.4472135954999579
+41	introclassJava.smallest_346b1d3c_010::::77::::2093::::2110::::(b.value) <= (d.value)::::(a.value) <= (b.value)	0.4472135954999579
+42	introclassJava.smallest_346b1d3c_010::::77::::2093::::2110::::(b.value) <= (d.value)::::((d.value) <= (a.value)) && ((d.value) <= (b.value))) && ((d.value) <= (c.value)	0.4472135954999579
+43	introclassJava.smallest_346b1d3c_010::::77::::2093::::2110::::(b.value) <= (d.value)::::((d.value) <= (a.value)) && ((d.value) <= (b.value))	0.4472135954999579
+44	introclassJava.smallest_346b1d3c_010::::77::::2093::::2110::::(b.value) <= (d.value)::::((c.value) <= (a.value)) && ((c.value) <= (b.value))) && ((c.value) <= (d.value)	0.4472135954999579
+45	introclassJava.smallest_346b1d3c_010::::77::::2093::::2110::::(b.value) <= (d.value)::::((c.value) <= (a.value)) && ((c.value) <= (b.value))	0.4472135954999579
+46	introclassJava.smallest_346b1d3c_010::::77::::2093::::2110::::(b.value) <= (d.value)::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)	0.4472135954999579
+47	introclassJava.smallest_346b1d3c_010::::77::::2093::::2110::::(b.value) <= (d.value)::::((b.value) <= (a.value)) && ((b.value) <= (c.value))	0.4472135954999579
+48	introclassJava.smallest_346b1d3c_010::::77::::2093::::2110::::(b.value) <= (d.value)::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)	0.4472135954999579
+49	introclassJava.smallest_346b1d3c_010::::77::::2093::::2110::::(b.value) <= (d.value)::::((a.value) <= (b.value)) && ((a.value) <= (c.value))	0.4472135954999579
+50	introclassJava.smallest_346b1d3c_010::::77::::2093::::2099::::b.value::::num_4.value	0.4472135954999579
+51	introclassJava.smallest_346b1d3c_010::::77::::2093::::2099::::b.value::::num_3.value	0.4472135954999579
+52	introclassJava.smallest_346b1d3c_010::::77::::2093::::2099::::b.value::::num_2.value	0.4472135954999579
+53	introclassJava.smallest_346b1d3c_010::::77::::2093::::2099::::b.value::::num_1.value	0.4472135954999579
+54	introclassJava.smallest_346b1d3c_010::::77::::2093::::2099::::b.value::::c.value	0.4472135954999579
+55	introclassJava.smallest_346b1d3c_010::::77::::2093::::2099::::b.value::::a.value	0.4472135954999579
+56	introclassJava.smallest_346b1d3c_010::::77::::2093::::2093::::b::::num_4	0.4472135954999579
+57	introclassJava.smallest_346b1d3c_010::::77::::2093::::2093::::b::::num_3	0.4472135954999579
+58	introclassJava.smallest_346b1d3c_010::::77::::2093::::2093::::b::::num_2	0.4472135954999579
+59	introclassJava.smallest_346b1d3c_010::::77::::2093::::2093::::b::::num_1	0.4472135954999579
+60	introclassJava.smallest_346b1d3c_010::::77::::2093::::2093::::b::::d	0.4472135954999579
+61	introclassJava.smallest_346b1d3c_010::::77::::2093::::2093::::b::::c	0.4472135954999579
+62	introclassJava.smallest_346b1d3c_010::::77::::2093::::2093::::b::::a	0.4472135954999579
+63	introclassJava.smallest_346b1d3c_010::::77::::2082::::2088::::c.value::::num_4.value	0.4472135954999579
+64	introclassJava.smallest_346b1d3c_010::::77::::2082::::2088::::c.value::::num_3.value	0.4472135954999579
+65	introclassJava.smallest_346b1d3c_010::::77::::2082::::2088::::c.value::::num_2.value	0.4472135954999579
+66	introclassJava.smallest_346b1d3c_010::::77::::2082::::2088::::c.value::::num_1.value	0.4472135954999579
+67	introclassJava.smallest_346b1d3c_010::::77::::2082::::2088::::c.value::::d.value	0.4472135954999579
+68	introclassJava.smallest_346b1d3c_010::::77::::2082::::2088::::c.value::::a.value	0.4472135954999579
+69	introclassJava.smallest_346b1d3c_010::::77::::2082::::2082::::c::::num_4	0.4472135954999579
+70	introclassJava.smallest_346b1d3c_010::::77::::2082::::2082::::c::::num_3	0.4472135954999579
+71	introclassJava.smallest_346b1d3c_010::::77::::2082::::2082::::c::::num_2	0.4472135954999579
+72	introclassJava.smallest_346b1d3c_010::::77::::2082::::2082::::c::::num_1	0.4472135954999579
+73	introclassJava.smallest_346b1d3c_010::::77::::2082::::2082::::c::::d	0.4472135954999579
+74	introclassJava.smallest_346b1d3c_010::::77::::2082::::2082::::c::::b	0.4472135954999579
+75	introclassJava.smallest_346b1d3c_010::::77::::2082::::2082::::c::::a	0.4472135954999579
+76	introclassJava.smallest_346b1d3c_010::::77::::2071::::2088::::(b.value) <= (c.value)::::true	0.4472135954999579
+77	introclassJava.smallest_346b1d3c_010::::77::::2071::::2088::::(b.value) <= (c.value)::::(d.value) <= (c.value)	0.4472135954999579
+78	introclassJava.smallest_346b1d3c_010::::77::::2071::::2088::::(b.value) <= (c.value)::::(d.value) <= (b.value)	0.4472135954999579
+79	introclassJava.smallest_346b1d3c_010::::77::::2071::::2088::::(b.value) <= (c.value)::::(d.value) <= (a.value)	0.4472135954999579
+80	introclassJava.smallest_346b1d3c_010::::77::::2071::::2088::::(b.value) <= (c.value)::::(c.value) <= (d.value)	0.4472135954999579
+81	introclassJava.smallest_346b1d3c_010::::77::::2071::::2088::::(b.value) <= (c.value)::::(c.value) <= (b.value)	0.4472135954999579
+82	introclassJava.smallest_346b1d3c_010::::77::::2071::::2088::::(b.value) <= (c.value)::::(c.value) <= (a.value)	0.4472135954999579
+83	introclassJava.smallest_346b1d3c_010::::77::::2071::::2088::::(b.value) <= (c.value)::::(b.value) <= (d.value)	0.4472135954999579
+84	introclassJava.smallest_346b1d3c_010::::77::::2071::::2088::::(b.value) <= (c.value)::::(b.value) <= (a.value)	0.4472135954999579
+85	introclassJava.smallest_346b1d3c_010::::77::::2071::::2088::::(b.value) <= (c.value)::::(a.value) <= (d.value)	0.4472135954999579
+86	introclassJava.smallest_346b1d3c_010::::77::::2071::::2088::::(b.value) <= (c.value)::::(a.value) <= (c.value)	0.4472135954999579
+87	introclassJava.smallest_346b1d3c_010::::77::::2071::::2088::::(b.value) <= (c.value)::::(a.value) <= (b.value)	0.4472135954999579
+88	introclassJava.smallest_346b1d3c_010::::77::::2071::::2088::::(b.value) <= (c.value)::::((d.value) <= (a.value)) && ((d.value) <= (b.value))) && ((d.value) <= (c.value)	0.4472135954999579
+89	introclassJava.smallest_346b1d3c_010::::77::::2071::::2088::::(b.value) <= (c.value)::::((d.value) <= (a.value)) && ((d.value) <= (b.value))	0.4472135954999579
+90	introclassJava.smallest_346b1d3c_010::::77::::2071::::2088::::(b.value) <= (c.value)::::((c.value) <= (a.value)) && ((c.value) <= (b.value))) && ((c.value) <= (d.value)	0.4472135954999579
+91	introclassJava.smallest_346b1d3c_010::::77::::2071::::2088::::(b.value) <= (c.value)::::((c.value) <= (a.value)) && ((c.value) <= (b.value))	0.4472135954999579
+92	introclassJava.smallest_346b1d3c_010::::77::::2071::::2088::::(b.value) <= (c.value)::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)	0.4472135954999579
+93	introclassJava.smallest_346b1d3c_010::::77::::2071::::2088::::(b.value) <= (c.value)::::((b.value) <= (a.value)) && ((b.value) <= (c.value))	0.4472135954999579
+94	introclassJava.smallest_346b1d3c_010::::77::::2071::::2088::::(b.value) <= (c.value)::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)	0.4472135954999579
+95	introclassJava.smallest_346b1d3c_010::::77::::2071::::2088::::(b.value) <= (c.value)::::((a.value) <= (b.value)) && ((a.value) <= (c.value))	0.4472135954999579
+96	introclassJava.smallest_346b1d3c_010::::77::::2071::::2077::::b.value::::num_4.value	0.4472135954999579
+97	introclassJava.smallest_346b1d3c_010::::77::::2071::::2077::::b.value::::num_3.value	0.4472135954999579
+98	introclassJava.smallest_346b1d3c_010::::77::::2071::::2077::::b.value::::num_2.value	0.4472135954999579
+99	introclassJava.smallest_346b1d3c_010::::77::::2071::::2077::::b.value::::num_1.value	0.4472135954999579
+100	introclassJava.smallest_346b1d3c_010::::77::::2071::::2077::::b.value::::d.value	0.4472135954999579
+101	introclassJava.smallest_346b1d3c_010::::77::::2071::::2077::::b.value::::a.value	0.4472135954999579
+102	introclassJava.smallest_346b1d3c_010::::77::::2071::::2071::::b::::num_4	0.4472135954999579
+103	introclassJava.smallest_346b1d3c_010::::77::::2071::::2071::::b::::num_3	0.4472135954999579
+104	introclassJava.smallest_346b1d3c_010::::77::::2071::::2071::::b::::num_2	0.4472135954999579
+105	introclassJava.smallest_346b1d3c_010::::77::::2071::::2071::::b::::num_1	0.4472135954999579
+106	introclassJava.smallest_346b1d3c_010::::77::::2071::::2071::::b::::d	0.4472135954999579
+107	introclassJava.smallest_346b1d3c_010::::77::::2071::::2071::::b::::c	0.4472135954999579
+108	introclassJava.smallest_346b1d3c_010::::77::::2071::::2071::::b::::a	0.4472135954999579
+109	introclassJava.smallest_346b1d3c_010::::77::::2060::::2066::::a.value::::num_4.value	0.4472135954999579
+110	introclassJava.smallest_346b1d3c_010::::77::::2060::::2066::::a.value::::num_3.value	0.4472135954999579
+111	introclassJava.smallest_346b1d3c_010::::77::::2060::::2066::::a.value::::num_2.value	0.4472135954999579
+112	introclassJava.smallest_346b1d3c_010::::77::::2060::::2066::::a.value::::num_1.value	0.4472135954999579
+113	introclassJava.smallest_346b1d3c_010::::77::::2060::::2066::::a.value::::d.value	0.4472135954999579
+114	introclassJava.smallest_346b1d3c_010::::77::::2060::::2066::::a.value::::c.value	0.4472135954999579
+115	introclassJava.smallest_346b1d3c_010::::77::::2060::::2060::::a::::num_4	0.4472135954999579
+116	introclassJava.smallest_346b1d3c_010::::77::::2060::::2060::::a::::num_3	0.4472135954999579
+117	introclassJava.smallest_346b1d3c_010::::77::::2060::::2060::::a::::num_2	0.4472135954999579
+118	introclassJava.smallest_346b1d3c_010::::77::::2060::::2060::::a::::num_1	0.4472135954999579
+119	introclassJava.smallest_346b1d3c_010::::77::::2060::::2060::::a::::d	0.4472135954999579
+120	introclassJava.smallest_346b1d3c_010::::77::::2060::::2060::::a::::c	0.4472135954999579
+121	introclassJava.smallest_346b1d3c_010::::77::::2060::::2060::::a::::b	0.4472135954999579
+122	introclassJava.smallest_346b1d3c_010::::77::::2049::::2110::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)::::true	0.4472135954999579
+123	introclassJava.smallest_346b1d3c_010::::77::::2049::::2110::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)::::(d.value) <= (c.value)	0.4472135954999579
+124	introclassJava.smallest_346b1d3c_010::::77::::2049::::2110::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)::::(d.value) <= (b.value)	0.4472135954999579
+125	introclassJava.smallest_346b1d3c_010::::77::::2049::::2110::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)::::(d.value) <= (a.value)	0.4472135954999579
+126	introclassJava.smallest_346b1d3c_010::::77::::2049::::2110::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)::::(c.value) <= (d.value)	0.4472135954999579
+127	introclassJava.smallest_346b1d3c_010::::77::::2049::::2110::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)::::(c.value) <= (b.value)	0.4472135954999579
+128	introclassJava.smallest_346b1d3c_010::::77::::2049::::2110::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)::::(c.value) <= (a.value)	0.4472135954999579
+129	introclassJava.smallest_346b1d3c_010::::77::::2049::::2110::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)::::(b.value) <= (d.value)	0.4472135954999579
+130	introclassJava.smallest_346b1d3c_010::::77::::2049::::2110::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)::::(b.value) <= (c.value)	0.4472135954999579
+131	introclassJava.smallest_346b1d3c_010::::77::::2049::::2110::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)::::(b.value) <= (a.value)	0.4472135954999579
+132	introclassJava.smallest_346b1d3c_010::::77::::2049::::2110::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)::::(a.value) <= (d.value)	0.4472135954999579
+133	introclassJava.smallest_346b1d3c_010::::77::::2049::::2110::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)::::(a.value) <= (c.value)	0.4472135954999579
+134	introclassJava.smallest_346b1d3c_010::::77::::2049::::2110::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)::::(a.value) <= (b.value)	0.4472135954999579
+135	introclassJava.smallest_346b1d3c_010::::77::::2049::::2110::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)::::((d.value) <= (a.value)) && ((d.value) <= (b.value))) && ((d.value) <= (c.value)	0.4472135954999579
+136	introclassJava.smallest_346b1d3c_010::::77::::2049::::2110::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)::::((d.value) <= (a.value)) && ((d.value) <= (b.value))	0.4472135954999579
+137	introclassJava.smallest_346b1d3c_010::::77::::2049::::2110::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)::::((c.value) <= (a.value)) && ((c.value) <= (b.value))) && ((c.value) <= (d.value)	0.4472135954999579
+138	introclassJava.smallest_346b1d3c_010::::77::::2049::::2110::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)::::((c.value) <= (a.value)) && ((c.value) <= (b.value))	0.4472135954999579
+139	introclassJava.smallest_346b1d3c_010::::77::::2049::::2110::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)::::((b.value) <= (a.value)) && ((b.value) <= (c.value))	0.4472135954999579
+140	introclassJava.smallest_346b1d3c_010::::77::::2049::::2110::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)	0.4472135954999579
+141	introclassJava.smallest_346b1d3c_010::::77::::2049::::2110::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)::::((a.value) <= (b.value)) && ((a.value) <= (c.value))	0.4472135954999579
+142	introclassJava.smallest_346b1d3c_010::::77::::2049::::2088::::((b.value) <= (a.value)) && ((b.value) <= (c.value))::::true	0.4472135954999579
+143	introclassJava.smallest_346b1d3c_010::::77::::2049::::2088::::((b.value) <= (a.value)) && ((b.value) <= (c.value))::::(d.value) <= (c.value)	0.4472135954999579
+144	introclassJava.smallest_346b1d3c_010::::77::::2049::::2088::::((b.value) <= (a.value)) && ((b.value) <= (c.value))::::(d.value) <= (b.value)	0.4472135954999579
+145	introclassJava.smallest_346b1d3c_010::::77::::2049::::2088::::((b.value) <= (a.value)) && ((b.value) <= (c.value))::::(d.value) <= (a.value)	0.4472135954999579
+146	introclassJava.smallest_346b1d3c_010::::77::::2049::::2088::::((b.value) <= (a.value)) && ((b.value) <= (c.value))::::(c.value) <= (d.value)	0.4472135954999579
+147	introclassJava.smallest_346b1d3c_010::::77::::2049::::2088::::((b.value) <= (a.value)) && ((b.value) <= (c.value))::::(c.value) <= (b.value)	0.4472135954999579
+148	introclassJava.smallest_346b1d3c_010::::77::::2049::::2088::::((b.value) <= (a.value)) && ((b.value) <= (c.value))::::(c.value) <= (a.value)	0.4472135954999579
+149	introclassJava.smallest_346b1d3c_010::::77::::2049::::2088::::((b.value) <= (a.value)) && ((b.value) <= (c.value))::::(b.value) <= (d.value)	0.4472135954999579
+150	introclassJava.smallest_346b1d3c_010::::77::::2049::::2088::::((b.value) <= (a.value)) && ((b.value) <= (c.value))::::(b.value) <= (c.value)	0.4472135954999579
+151	introclassJava.smallest_346b1d3c_010::::77::::2049::::2088::::((b.value) <= (a.value)) && ((b.value) <= (c.value))::::(b.value) <= (a.value)	0.4472135954999579
+152	introclassJava.smallest_346b1d3c_010::::77::::2049::::2088::::((b.value) <= (a.value)) && ((b.value) <= (c.value))::::(a.value) <= (d.value)	0.4472135954999579
+153	introclassJava.smallest_346b1d3c_010::::77::::2049::::2088::::((b.value) <= (a.value)) && ((b.value) <= (c.value))::::(a.value) <= (c.value)	0.4472135954999579
+154	introclassJava.smallest_346b1d3c_010::::77::::2049::::2088::::((b.value) <= (a.value)) && ((b.value) <= (c.value))::::(a.value) <= (b.value)	0.4472135954999579
+155	introclassJava.smallest_346b1d3c_010::::77::::2049::::2088::::((b.value) <= (a.value)) && ((b.value) <= (c.value))::::((d.value) <= (a.value)) && ((d.value) <= (b.value))) && ((d.value) <= (c.value)	0.4472135954999579
+156	introclassJava.smallest_346b1d3c_010::::77::::2049::::2088::::((b.value) <= (a.value)) && ((b.value) <= (c.value))::::((d.value) <= (a.value)) && ((d.value) <= (b.value))	0.4472135954999579
+157	introclassJava.smallest_346b1d3c_010::::77::::2049::::2088::::((b.value) <= (a.value)) && ((b.value) <= (c.value))::::((c.value) <= (a.value)) && ((c.value) <= (b.value))) && ((c.value) <= (d.value)	0.4472135954999579
+158	introclassJava.smallest_346b1d3c_010::::77::::2049::::2088::::((b.value) <= (a.value)) && ((b.value) <= (c.value))::::((c.value) <= (a.value)) && ((c.value) <= (b.value))	0.4472135954999579
+159	introclassJava.smallest_346b1d3c_010::::77::::2049::::2088::::((b.value) <= (a.value)) && ((b.value) <= (c.value))::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)	0.4472135954999579
+160	introclassJava.smallest_346b1d3c_010::::77::::2049::::2088::::((b.value) <= (a.value)) && ((b.value) <= (c.value))::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)	0.4472135954999579
+161	introclassJava.smallest_346b1d3c_010::::77::::2049::::2088::::((b.value) <= (a.value)) && ((b.value) <= (c.value))::::((a.value) <= (b.value)) && ((a.value) <= (c.value))	0.4472135954999579
+162	introclassJava.smallest_346b1d3c_010::::77::::2049::::2066::::(b.value) <= (a.value)::::true	0.4472135954999579
+163	introclassJava.smallest_346b1d3c_010::::77::::2049::::2066::::(b.value) <= (a.value)::::(d.value) <= (c.value)	0.4472135954999579
+164	introclassJava.smallest_346b1d3c_010::::77::::2049::::2066::::(b.value) <= (a.value)::::(d.value) <= (b.value)	0.4472135954999579
+165	introclassJava.smallest_346b1d3c_010::::77::::2049::::2066::::(b.value) <= (a.value)::::(d.value) <= (a.value)	0.4472135954999579
+166	introclassJava.smallest_346b1d3c_010::::77::::2049::::2066::::(b.value) <= (a.value)::::(c.value) <= (d.value)	0.4472135954999579
+167	introclassJava.smallest_346b1d3c_010::::77::::2049::::2066::::(b.value) <= (a.value)::::(c.value) <= (b.value)	0.4472135954999579
+168	introclassJava.smallest_346b1d3c_010::::77::::2049::::2066::::(b.value) <= (a.value)::::(c.value) <= (a.value)	0.4472135954999579
+169	introclassJava.smallest_346b1d3c_010::::77::::2049::::2066::::(b.value) <= (a.value)::::(b.value) <= (d.value)	0.4472135954999579
+170	introclassJava.smallest_346b1d3c_010::::77::::2049::::2066::::(b.value) <= (a.value)::::(b.value) <= (c.value)	0.4472135954999579
+171	introclassJava.smallest_346b1d3c_010::::77::::2049::::2066::::(b.value) <= (a.value)::::(a.value) <= (d.value)	0.4472135954999579
+172	introclassJava.smallest_346b1d3c_010::::77::::2049::::2066::::(b.value) <= (a.value)::::(a.value) <= (c.value)	0.4472135954999579
+173	introclassJava.smallest_346b1d3c_010::::77::::2049::::2066::::(b.value) <= (a.value)::::(a.value) <= (b.value)	0.4472135954999579
+174	introclassJava.smallest_346b1d3c_010::::77::::2049::::2066::::(b.value) <= (a.value)::::((d.value) <= (a.value)) && ((d.value) <= (b.value))) && ((d.value) <= (c.value)	0.4472135954999579
+175	introclassJava.smallest_346b1d3c_010::::77::::2049::::2066::::(b.value) <= (a.value)::::((d.value) <= (a.value)) && ((d.value) <= (b.value))	0.4472135954999579
+176	introclassJava.smallest_346b1d3c_010::::77::::2049::::2066::::(b.value) <= (a.value)::::((c.value) <= (a.value)) && ((c.value) <= (b.value))) && ((c.value) <= (d.value)	0.4472135954999579
+177	introclassJava.smallest_346b1d3c_010::::77::::2049::::2066::::(b.value) <= (a.value)::::((c.value) <= (a.value)) && ((c.value) <= (b.value))	0.4472135954999579
+178	introclassJava.smallest_346b1d3c_010::::77::::2049::::2066::::(b.value) <= (a.value)::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)	0.4472135954999579
+179	introclassJava.smallest_346b1d3c_010::::77::::2049::::2066::::(b.value) <= (a.value)::::((b.value) <= (a.value)) && ((b.value) <= (c.value))	0.4472135954999579
+180	introclassJava.smallest_346b1d3c_010::::77::::2049::::2066::::(b.value) <= (a.value)::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)	0.4472135954999579
+181	introclassJava.smallest_346b1d3c_010::::77::::2049::::2066::::(b.value) <= (a.value)::::((a.value) <= (b.value)) && ((a.value) <= (c.value))	0.4472135954999579
+182	introclassJava.smallest_346b1d3c_010::::77::::2049::::2055::::b.value::::num_4.value	0.4472135954999579
+183	introclassJava.smallest_346b1d3c_010::::77::::2049::::2055::::b.value::::num_3.value	0.4472135954999579
+184	introclassJava.smallest_346b1d3c_010::::77::::2049::::2055::::b.value::::num_2.value	0.4472135954999579
+185	introclassJava.smallest_346b1d3c_010::::77::::2049::::2055::::b.value::::num_1.value	0.4472135954999579
+186	introclassJava.smallest_346b1d3c_010::::77::::2049::::2055::::b.value::::d.value	0.4472135954999579
+187	introclassJava.smallest_346b1d3c_010::::77::::2049::::2055::::b.value::::c.value	0.4472135954999579
+188	introclassJava.smallest_346b1d3c_010::::77::::2049::::2049::::b::::num_4	0.4472135954999579
+189	introclassJava.smallest_346b1d3c_010::::77::::2049::::2049::::b::::num_3	0.4472135954999579
+190	introclassJava.smallest_346b1d3c_010::::77::::2049::::2049::::b::::num_2	0.4472135954999579
+191	introclassJava.smallest_346b1d3c_010::::77::::2049::::2049::::b::::num_1	0.4472135954999579
+192	introclassJava.smallest_346b1d3c_010::::77::::2049::::2049::::b::::d	0.4472135954999579
+193	introclassJava.smallest_346b1d3c_010::::77::::2049::::2049::::b::::c	0.4472135954999579
+194	introclassJava.smallest_346b1d3c_010::::77::::2049::::2049::::b::::a	0.4472135954999579
+195	introclassJava.smallest_346b1d3c_010::::77::::2045::::2652::::if ((((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value))) {    output += java.lang.String.format("%d is the smalles\n", b.value);    if (true)        return ;    }else    if ((((c.value) <= (a.value)) && ((c.value) <= (b.value))) && ((c.value) <= (d.value))) {        output += java.lang.String.format("%d is the smallest\n", c.value);        if (true)            return ;            }else        if ((((d.value) <= (a.value)) && ((d.value) <= (b.value))) && ((d.value) <= (c.value))) {            output += java.lang.String.format("%d is the smallest\n", d.value);            if (true)                return ;                    }    ::::INSERT::::STATEMENT::::if (true)    return ;	0.4472135954999579
+196	introclassJava.smallest_346b1d3c_010::::73::::1899::::1905::::d.value::::num_4.value	0.35355339059327373
+197	introclassJava.smallest_346b1d3c_010::::73::::1899::::1905::::d.value::::num_3.value	0.35355339059327373
+198	introclassJava.smallest_346b1d3c_010::::73::::1899::::1905::::d.value::::num_2.value	0.35355339059327373
+199	introclassJava.smallest_346b1d3c_010::::73::::1899::::1905::::d.value::::num_1.value	0.35355339059327373
+200	introclassJava.smallest_346b1d3c_010::::73::::1899::::1905::::d.value::::c.value	0.35355339059327373
+201	introclassJava.smallest_346b1d3c_010::::73::::1899::::1905::::d.value::::b.value	0.35355339059327373
+202	introclassJava.smallest_346b1d3c_010::::73::::1899::::1899::::d::::num_4	0.35355339059327373
+203	introclassJava.smallest_346b1d3c_010::::73::::1899::::1899::::d::::num_3	0.35355339059327373
+204	introclassJava.smallest_346b1d3c_010::::73::::1899::::1899::::d::::num_2	0.35355339059327373
+205	introclassJava.smallest_346b1d3c_010::::73::::1899::::1899::::d::::num_1	0.35355339059327373
+206	introclassJava.smallest_346b1d3c_010::::73::::1899::::1899::::d::::c	0.35355339059327373
+207	introclassJava.smallest_346b1d3c_010::::73::::1899::::1899::::d::::b	0.35355339059327373
+208	introclassJava.smallest_346b1d3c_010::::73::::1899::::1899::::d::::a	0.35355339059327373
+209	introclassJava.smallest_346b1d3c_010::::73::::1888::::1905::::(a.value) <= (d.value)::::true	0.35355339059327373
+210	introclassJava.smallest_346b1d3c_010::::73::::1888::::1905::::(a.value) <= (d.value)::::(d.value) <= (c.value)	0.35355339059327373
+211	introclassJava.smallest_346b1d3c_010::::73::::1888::::1905::::(a.value) <= (d.value)::::(d.value) <= (b.value)	0.35355339059327373
+212	introclassJava.smallest_346b1d3c_010::::73::::1888::::1905::::(a.value) <= (d.value)::::(d.value) <= (a.value)	0.35355339059327373
+213	introclassJava.smallest_346b1d3c_010::::73::::1888::::1905::::(a.value) <= (d.value)::::(c.value) <= (d.value)	0.35355339059327373
+214	introclassJava.smallest_346b1d3c_010::::73::::1888::::1905::::(a.value) <= (d.value)::::(c.value) <= (b.value)	0.35355339059327373
+215	introclassJava.smallest_346b1d3c_010::::73::::1888::::1905::::(a.value) <= (d.value)::::(c.value) <= (a.value)	0.35355339059327373
+216	introclassJava.smallest_346b1d3c_010::::73::::1888::::1905::::(a.value) <= (d.value)::::(b.value) <= (d.value)	0.35355339059327373
+217	introclassJava.smallest_346b1d3c_010::::73::::1888::::1905::::(a.value) <= (d.value)::::(b.value) <= (c.value)	0.35355339059327373
+218	introclassJava.smallest_346b1d3c_010::::73::::1888::::1905::::(a.value) <= (d.value)::::(b.value) <= (a.value)	0.35355339059327373
+219	introclassJava.smallest_346b1d3c_010::::73::::1888::::1905::::(a.value) <= (d.value)::::(a.value) <= (c.value)	0.35355339059327373
+220	introclassJava.smallest_346b1d3c_010::::73::::1888::::1905::::(a.value) <= (d.value)::::(a.value) <= (b.value)	0.35355339059327373
+221	introclassJava.smallest_346b1d3c_010::::73::::1888::::1905::::(a.value) <= (d.value)::::((d.value) <= (a.value)) && ((d.value) <= (b.value))) && ((d.value) <= (c.value)	0.35355339059327373
+222	introclassJava.smallest_346b1d3c_010::::73::::1888::::1905::::(a.value) <= (d.value)::::((d.value) <= (a.value)) && ((d.value) <= (b.value))	0.35355339059327373
+223	introclassJava.smallest_346b1d3c_010::::73::::1888::::1905::::(a.value) <= (d.value)::::((c.value) <= (a.value)) && ((c.value) <= (b.value))) && ((c.value) <= (d.value)	0.35355339059327373
+224	introclassJava.smallest_346b1d3c_010::::73::::1888::::1905::::(a.value) <= (d.value)::::((c.value) <= (a.value)) && ((c.value) <= (b.value))	0.35355339059327373
+225	introclassJava.smallest_346b1d3c_010::::73::::1888::::1905::::(a.value) <= (d.value)::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)	0.35355339059327373
+226	introclassJava.smallest_346b1d3c_010::::73::::1888::::1905::::(a.value) <= (d.value)::::((b.value) <= (a.value)) && ((b.value) <= (c.value))	0.35355339059327373
+227	introclassJava.smallest_346b1d3c_010::::73::::1888::::1905::::(a.value) <= (d.value)::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)	0.35355339059327373
+228	introclassJava.smallest_346b1d3c_010::::73::::1888::::1905::::(a.value) <= (d.value)::::((a.value) <= (b.value)) && ((a.value) <= (c.value))	0.35355339059327373
+229	introclassJava.smallest_346b1d3c_010::::73::::1888::::1894::::a.value::::num_4.value	0.35355339059327373
+230	introclassJava.smallest_346b1d3c_010::::73::::1888::::1894::::a.value::::num_3.value	0.35355339059327373
+231	introclassJava.smallest_346b1d3c_010::::73::::1888::::1894::::a.value::::num_2.value	0.35355339059327373
+232	introclassJava.smallest_346b1d3c_010::::73::::1888::::1894::::a.value::::num_1.value	0.35355339059327373
+233	introclassJava.smallest_346b1d3c_010::::73::::1888::::1894::::a.value::::c.value	0.35355339059327373
+234	introclassJava.smallest_346b1d3c_010::::73::::1888::::1894::::a.value::::b.value	0.35355339059327373
+235	introclassJava.smallest_346b1d3c_010::::73::::1888::::1888::::a::::num_4	0.35355339059327373
+236	introclassJava.smallest_346b1d3c_010::::73::::1888::::1888::::a::::num_3	0.35355339059327373
+237	introclassJava.smallest_346b1d3c_010::::73::::1888::::1888::::a::::num_2	0.35355339059327373
+238	introclassJava.smallest_346b1d3c_010::::73::::1888::::1888::::a::::num_1	0.35355339059327373
+239	introclassJava.smallest_346b1d3c_010::::73::::1888::::1888::::a::::d	0.35355339059327373
+240	introclassJava.smallest_346b1d3c_010::::73::::1888::::1888::::a::::c	0.35355339059327373
+241	introclassJava.smallest_346b1d3c_010::::73::::1888::::1888::::a::::b	0.35355339059327373
+242	introclassJava.smallest_346b1d3c_010::::73::::1877::::1883::::c.value::::num_4.value	0.35355339059327373
+243	introclassJava.smallest_346b1d3c_010::::73::::1877::::1883::::c.value::::num_3.value	0.35355339059327373
+244	introclassJava.smallest_346b1d3c_010::::73::::1877::::1883::::c.value::::num_2.value	0.35355339059327373
+245	introclassJava.smallest_346b1d3c_010::::73::::1877::::1883::::c.value::::num_1.value	0.35355339059327373
+246	introclassJava.smallest_346b1d3c_010::::73::::1877::::1883::::c.value::::d.value	0.35355339059327373
+247	introclassJava.smallest_346b1d3c_010::::73::::1877::::1883::::c.value::::b.value	0.35355339059327373
+248	introclassJava.smallest_346b1d3c_010::::73::::1877::::1877::::c::::num_4	0.35355339059327373
+249	introclassJava.smallest_346b1d3c_010::::73::::1877::::1877::::c::::num_3	0.35355339059327373
+250	introclassJava.smallest_346b1d3c_010::::73::::1877::::1877::::c::::num_2	0.35355339059327373
+251	introclassJava.smallest_346b1d3c_010::::73::::1877::::1877::::c::::num_1	0.35355339059327373
+252	introclassJava.smallest_346b1d3c_010::::73::::1877::::1877::::c::::d	0.35355339059327373
+253	introclassJava.smallest_346b1d3c_010::::73::::1877::::1877::::c::::b	0.35355339059327373
+254	introclassJava.smallest_346b1d3c_010::::73::::1877::::1877::::c::::a	0.35355339059327373
+255	introclassJava.smallest_346b1d3c_010::::73::::1866::::1883::::(a.value) <= (c.value)::::true	0.35355339059327373
+256	introclassJava.smallest_346b1d3c_010::::73::::1866::::1883::::(a.value) <= (c.value)::::(d.value) <= (c.value)	0.35355339059327373
+257	introclassJava.smallest_346b1d3c_010::::73::::1866::::1883::::(a.value) <= (c.value)::::(d.value) <= (b.value)	0.35355339059327373
+258	introclassJava.smallest_346b1d3c_010::::73::::1866::::1883::::(a.value) <= (c.value)::::(d.value) <= (a.value)	0.35355339059327373
+259	introclassJava.smallest_346b1d3c_010::::73::::1866::::1883::::(a.value) <= (c.value)::::(c.value) <= (d.value)	0.35355339059327373
+260	introclassJava.smallest_346b1d3c_010::::73::::1866::::1883::::(a.value) <= (c.value)::::(c.value) <= (b.value)	0.35355339059327373
+261	introclassJava.smallest_346b1d3c_010::::73::::1866::::1883::::(a.value) <= (c.value)::::(c.value) <= (a.value)	0.35355339059327373
+262	introclassJava.smallest_346b1d3c_010::::73::::1866::::1883::::(a.value) <= (c.value)::::(b.value) <= (d.value)	0.35355339059327373
+263	introclassJava.smallest_346b1d3c_010::::73::::1866::::1883::::(a.value) <= (c.value)::::(b.value) <= (c.value)	0.35355339059327373
+264	introclassJava.smallest_346b1d3c_010::::73::::1866::::1883::::(a.value) <= (c.value)::::(b.value) <= (a.value)	0.35355339059327373
+265	introclassJava.smallest_346b1d3c_010::::73::::1866::::1883::::(a.value) <= (c.value)::::(a.value) <= (d.value)	0.35355339059327373
+266	introclassJava.smallest_346b1d3c_010::::73::::1866::::1883::::(a.value) <= (c.value)::::(a.value) <= (b.value)	0.35355339059327373
+267	introclassJava.smallest_346b1d3c_010::::73::::1866::::1883::::(a.value) <= (c.value)::::((d.value) <= (a.value)) && ((d.value) <= (b.value))) && ((d.value) <= (c.value)	0.35355339059327373
+268	introclassJava.smallest_346b1d3c_010::::73::::1866::::1883::::(a.value) <= (c.value)::::((d.value) <= (a.value)) && ((d.value) <= (b.value))	0.35355339059327373
+269	introclassJava.smallest_346b1d3c_010::::73::::1866::::1883::::(a.value) <= (c.value)::::((c.value) <= (a.value)) && ((c.value) <= (b.value))) && ((c.value) <= (d.value)	0.35355339059327373
+270	introclassJava.smallest_346b1d3c_010::::73::::1866::::1883::::(a.value) <= (c.value)::::((c.value) <= (a.value)) && ((c.value) <= (b.value))	0.35355339059327373
+271	introclassJava.smallest_346b1d3c_010::::73::::1866::::1883::::(a.value) <= (c.value)::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)	0.35355339059327373
+272	introclassJava.smallest_346b1d3c_010::::73::::1866::::1883::::(a.value) <= (c.value)::::((b.value) <= (a.value)) && ((b.value) <= (c.value))	0.35355339059327373
+273	introclassJava.smallest_346b1d3c_010::::73::::1866::::1883::::(a.value) <= (c.value)::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)	0.35355339059327373
+274	introclassJava.smallest_346b1d3c_010::::73::::1866::::1883::::(a.value) <= (c.value)::::((a.value) <= (b.value)) && ((a.value) <= (c.value))	0.35355339059327373
+275	introclassJava.smallest_346b1d3c_010::::73::::1866::::1872::::a.value::::num_4.value	0.35355339059327373
+276	introclassJava.smallest_346b1d3c_010::::73::::1866::::1872::::a.value::::num_3.value	0.35355339059327373
+277	introclassJava.smallest_346b1d3c_010::::73::::1866::::1872::::a.value::::num_2.value	0.35355339059327373
+278	introclassJava.smallest_346b1d3c_010::::73::::1866::::1872::::a.value::::num_1.value	0.35355339059327373
+279	introclassJava.smallest_346b1d3c_010::::73::::1866::::1872::::a.value::::d.value	0.35355339059327373
+280	introclassJava.smallest_346b1d3c_010::::73::::1866::::1872::::a.value::::b.value	0.35355339059327373
+281	introclassJava.smallest_346b1d3c_010::::73::::1866::::1866::::a::::num_4	0.35355339059327373
+282	introclassJava.smallest_346b1d3c_010::::73::::1866::::1866::::a::::num_3	0.35355339059327373
+283	introclassJava.smallest_346b1d3c_010::::73::::1866::::1866::::a::::num_2	0.35355339059327373
+284	introclassJava.smallest_346b1d3c_010::::73::::1866::::1866::::a::::num_1	0.35355339059327373
+285	introclassJava.smallest_346b1d3c_010::::73::::1866::::1866::::a::::d	0.35355339059327373
+286	introclassJava.smallest_346b1d3c_010::::73::::1866::::1866::::a::::c	0.35355339059327373
+287	introclassJava.smallest_346b1d3c_010::::73::::1866::::1866::::a::::b	0.35355339059327373
+288	introclassJava.smallest_346b1d3c_010::::73::::1855::::1861::::b.value::::num_4.value	0.35355339059327373
+289	introclassJava.smallest_346b1d3c_010::::73::::1855::::1861::::b.value::::num_3.value	0.35355339059327373
+290	introclassJava.smallest_346b1d3c_010::::73::::1855::::1861::::b.value::::num_2.value	0.35355339059327373
+291	introclassJava.smallest_346b1d3c_010::::73::::1855::::1861::::b.value::::num_1.value	0.35355339059327373
+292	introclassJava.smallest_346b1d3c_010::::73::::1855::::1861::::b.value::::d.value	0.35355339059327373
+293	introclassJava.smallest_346b1d3c_010::::73::::1855::::1861::::b.value::::c.value	0.35355339059327373
+294	introclassJava.smallest_346b1d3c_010::::73::::1855::::1855::::b::::num_4	0.35355339059327373
+295	introclassJava.smallest_346b1d3c_010::::73::::1855::::1855::::b::::num_3	0.35355339059327373
+296	introclassJava.smallest_346b1d3c_010::::73::::1855::::1855::::b::::num_2	0.35355339059327373
+297	introclassJava.smallest_346b1d3c_010::::73::::1855::::1855::::b::::num_1	0.35355339059327373
+298	introclassJava.smallest_346b1d3c_010::::73::::1855::::1855::::b::::d	0.35355339059327373
+299	introclassJava.smallest_346b1d3c_010::::73::::1855::::1855::::b::::c	0.35355339059327373
+300	introclassJava.smallest_346b1d3c_010::::73::::1855::::1855::::b::::a	0.35355339059327373
+301	introclassJava.smallest_346b1d3c_010::::73::::1844::::1905::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)::::true	0.35355339059327373
+302	introclassJava.smallest_346b1d3c_010::::73::::1844::::1905::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)::::(d.value) <= (c.value)	0.35355339059327373
+303	introclassJava.smallest_346b1d3c_010::::73::::1844::::1905::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)::::(d.value) <= (b.value)	0.35355339059327373
+304	introclassJava.smallest_346b1d3c_010::::73::::1844::::1905::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)::::(d.value) <= (a.value)	0.35355339059327373
+305	introclassJava.smallest_346b1d3c_010::::73::::1844::::1905::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)::::(c.value) <= (d.value)	0.35355339059327373
+306	introclassJava.smallest_346b1d3c_010::::73::::1844::::1905::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)::::(c.value) <= (b.value)	0.35355339059327373
+307	introclassJava.smallest_346b1d3c_010::::73::::1844::::1905::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)::::(c.value) <= (a.value)	0.35355339059327373
+308	introclassJava.smallest_346b1d3c_010::::73::::1844::::1905::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)::::(b.value) <= (d.value)	0.35355339059327373
+309	introclassJava.smallest_346b1d3c_010::::73::::1844::::1905::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)::::(b.value) <= (c.value)	0.35355339059327373
+310	introclassJava.smallest_346b1d3c_010::::73::::1844::::1905::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)::::(b.value) <= (a.value)	0.35355339059327373
+311	introclassJava.smallest_346b1d3c_010::::73::::1844::::1905::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)::::(a.value) <= (d.value)	0.35355339059327373
+312	introclassJava.smallest_346b1d3c_010::::73::::1844::::1905::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)::::(a.value) <= (c.value)	0.35355339059327373
+313	introclassJava.smallest_346b1d3c_010::::73::::1844::::1905::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)::::(a.value) <= (b.value)	0.35355339059327373
+314	introclassJava.smallest_346b1d3c_010::::73::::1844::::1905::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)::::((d.value) <= (a.value)) && ((d.value) <= (b.value))) && ((d.value) <= (c.value)	0.35355339059327373
+315	introclassJava.smallest_346b1d3c_010::::73::::1844::::1905::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)::::((d.value) <= (a.value)) && ((d.value) <= (b.value))	0.35355339059327373
+316	introclassJava.smallest_346b1d3c_010::::73::::1844::::1905::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)::::((c.value) <= (a.value)) && ((c.value) <= (b.value))) && ((c.value) <= (d.value)	0.35355339059327373
+317	introclassJava.smallest_346b1d3c_010::::73::::1844::::1905::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)::::((c.value) <= (a.value)) && ((c.value) <= (b.value))	0.35355339059327373
+318	introclassJava.smallest_346b1d3c_010::::73::::1844::::1905::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)	0.35355339059327373
+319	introclassJava.smallest_346b1d3c_010::::73::::1844::::1905::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)::::((b.value) <= (a.value)) && ((b.value) <= (c.value))	0.35355339059327373
+320	introclassJava.smallest_346b1d3c_010::::73::::1844::::1905::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)::::((a.value) <= (b.value)) && ((a.value) <= (c.value))	0.35355339059327373
+321	introclassJava.smallest_346b1d3c_010::::73::::1844::::1883::::((a.value) <= (b.value)) && ((a.value) <= (c.value))::::true	0.35355339059327373
+322	introclassJava.smallest_346b1d3c_010::::73::::1844::::1883::::((a.value) <= (b.value)) && ((a.value) <= (c.value))::::(d.value) <= (c.value)	0.35355339059327373
+323	introclassJava.smallest_346b1d3c_010::::73::::1844::::1883::::((a.value) <= (b.value)) && ((a.value) <= (c.value))::::(d.value) <= (b.value)	0.35355339059327373
+324	introclassJava.smallest_346b1d3c_010::::73::::1844::::1883::::((a.value) <= (b.value)) && ((a.value) <= (c.value))::::(d.value) <= (a.value)	0.35355339059327373
+325	introclassJava.smallest_346b1d3c_010::::73::::1844::::1883::::((a.value) <= (b.value)) && ((a.value) <= (c.value))::::(c.value) <= (d.value)	0.35355339059327373
+326	introclassJava.smallest_346b1d3c_010::::73::::1844::::1883::::((a.value) <= (b.value)) && ((a.value) <= (c.value))::::(c.value) <= (b.value)	0.35355339059327373
+327	introclassJava.smallest_346b1d3c_010::::73::::1844::::1883::::((a.value) <= (b.value)) && ((a.value) <= (c.value))::::(c.value) <= (a.value)	0.35355339059327373
+328	introclassJava.smallest_346b1d3c_010::::73::::1844::::1883::::((a.value) <= (b.value)) && ((a.value) <= (c.value))::::(b.value) <= (d.value)	0.35355339059327373
+329	introclassJava.smallest_346b1d3c_010::::73::::1844::::1883::::((a.value) <= (b.value)) && ((a.value) <= (c.value))::::(b.value) <= (c.value)	0.35355339059327373
+330	introclassJava.smallest_346b1d3c_010::::73::::1844::::1883::::((a.value) <= (b.value)) && ((a.value) <= (c.value))::::(b.value) <= (a.value)	0.35355339059327373
+331	introclassJava.smallest_346b1d3c_010::::73::::1844::::1883::::((a.value) <= (b.value)) && ((a.value) <= (c.value))::::(a.value) <= (d.value)	0.35355339059327373
+332	introclassJava.smallest_346b1d3c_010::::73::::1844::::1883::::((a.value) <= (b.value)) && ((a.value) <= (c.value))::::(a.value) <= (c.value)	0.35355339059327373
+333	introclassJava.smallest_346b1d3c_010::::73::::1844::::1883::::((a.value) <= (b.value)) && ((a.value) <= (c.value))::::(a.value) <= (b.value)	0.35355339059327373
+334	introclassJava.smallest_346b1d3c_010::::73::::1844::::1883::::((a.value) <= (b.value)) && ((a.value) <= (c.value))::::((d.value) <= (a.value)) && ((d.value) <= (b.value))) && ((d.value) <= (c.value)	0.35355339059327373
+335	introclassJava.smallest_346b1d3c_010::::73::::1844::::1883::::((a.value) <= (b.value)) && ((a.value) <= (c.value))::::((d.value) <= (a.value)) && ((d.value) <= (b.value))	0.35355339059327373
+336	introclassJava.smallest_346b1d3c_010::::73::::1844::::1883::::((a.value) <= (b.value)) && ((a.value) <= (c.value))::::((c.value) <= (a.value)) && ((c.value) <= (b.value))) && ((c.value) <= (d.value)	0.35355339059327373
+337	introclassJava.smallest_346b1d3c_010::::73::::1844::::1883::::((a.value) <= (b.value)) && ((a.value) <= (c.value))::::((c.value) <= (a.value)) && ((c.value) <= (b.value))	0.35355339059327373
+338	introclassJava.smallest_346b1d3c_010::::73::::1844::::1883::::((a.value) <= (b.value)) && ((a.value) <= (c.value))::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)	0.35355339059327373
+339	introclassJava.smallest_346b1d3c_010::::73::::1844::::1883::::((a.value) <= (b.value)) && ((a.value) <= (c.value))::::((b.value) <= (a.value)) && ((b.value) <= (c.value))	0.35355339059327373
+340	introclassJava.smallest_346b1d3c_010::::73::::1844::::1883::::((a.value) <= (b.value)) && ((a.value) <= (c.value))::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)	0.35355339059327373
+341	introclassJava.smallest_346b1d3c_010::::73::::1844::::1861::::(a.value) <= (b.value)::::true	0.35355339059327373
+342	introclassJava.smallest_346b1d3c_010::::73::::1844::::1861::::(a.value) <= (b.value)::::(d.value) <= (c.value)	0.35355339059327373
+343	introclassJava.smallest_346b1d3c_010::::73::::1844::::1861::::(a.value) <= (b.value)::::(d.value) <= (b.value)	0.35355339059327373
+344	introclassJava.smallest_346b1d3c_010::::73::::1844::::1861::::(a.value) <= (b.value)::::(d.value) <= (a.value)	0.35355339059327373
+345	introclassJava.smallest_346b1d3c_010::::73::::1844::::1861::::(a.value) <= (b.value)::::(c.value) <= (d.value)	0.35355339059327373
+346	introclassJava.smallest_346b1d3c_010::::73::::1844::::1861::::(a.value) <= (b.value)::::(c.value) <= (b.value)	0.35355339059327373
+347	introclassJava.smallest_346b1d3c_010::::73::::1844::::1861::::(a.value) <= (b.value)::::(c.value) <= (a.value)	0.35355339059327373
+348	introclassJava.smallest_346b1d3c_010::::73::::1844::::1861::::(a.value) <= (b.value)::::(b.value) <= (d.value)	0.35355339059327373
+349	introclassJava.smallest_346b1d3c_010::::73::::1844::::1861::::(a.value) <= (b.value)::::(b.value) <= (c.value)	0.35355339059327373
+350	introclassJava.smallest_346b1d3c_010::::73::::1844::::1861::::(a.value) <= (b.value)::::(b.value) <= (a.value)	0.35355339059327373
+351	introclassJava.smallest_346b1d3c_010::::73::::1844::::1861::::(a.value) <= (b.value)::::(a.value) <= (d.value)	0.35355339059327373
+352	introclassJava.smallest_346b1d3c_010::::73::::1844::::1861::::(a.value) <= (b.value)::::(a.value) <= (c.value)	0.35355339059327373
+353	introclassJava.smallest_346b1d3c_010::::73::::1844::::1861::::(a.value) <= (b.value)::::((d.value) <= (a.value)) && ((d.value) <= (b.value))) && ((d.value) <= (c.value)	0.35355339059327373
+354	introclassJava.smallest_346b1d3c_010::::73::::1844::::1861::::(a.value) <= (b.value)::::((d.value) <= (a.value)) && ((d.value) <= (b.value))	0.35355339059327373
+355	introclassJava.smallest_346b1d3c_010::::73::::1844::::1861::::(a.value) <= (b.value)::::((c.value) <= (a.value)) && ((c.value) <= (b.value))) && ((c.value) <= (d.value)	0.35355339059327373
+356	introclassJava.smallest_346b1d3c_010::::73::::1844::::1861::::(a.value) <= (b.value)::::((c.value) <= (a.value)) && ((c.value) <= (b.value))	0.35355339059327373
+357	introclassJava.smallest_346b1d3c_010::::73::::1844::::1861::::(a.value) <= (b.value)::::((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value)	0.35355339059327373
+358	introclassJava.smallest_346b1d3c_010::::73::::1844::::1861::::(a.value) <= (b.value)::::((b.value) <= (a.value)) && ((b.value) <= (c.value))	0.35355339059327373
+359	introclassJava.smallest_346b1d3c_010::::73::::1844::::1861::::(a.value) <= (b.value)::::((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value)	0.35355339059327373
+360	introclassJava.smallest_346b1d3c_010::::73::::1844::::1861::::(a.value) <= (b.value)::::((a.value) <= (b.value)) && ((a.value) <= (c.value))	0.35355339059327373
+361	introclassJava.smallest_346b1d3c_010::::73::::1844::::1850::::a.value::::num_4.value	0.35355339059327373
+362	introclassJava.smallest_346b1d3c_010::::73::::1844::::1850::::a.value::::num_3.value	0.35355339059327373
+363	introclassJava.smallest_346b1d3c_010::::73::::1844::::1850::::a.value::::num_2.value	0.35355339059327373
+364	introclassJava.smallest_346b1d3c_010::::73::::1844::::1850::::a.value::::num_1.value	0.35355339059327373
+365	introclassJava.smallest_346b1d3c_010::::73::::1844::::1850::::a.value::::d.value	0.35355339059327373
+366	introclassJava.smallest_346b1d3c_010::::73::::1844::::1850::::a.value::::c.value	0.35355339059327373
+367	introclassJava.smallest_346b1d3c_010::::73::::1844::::1844::::a::::num_4	0.35355339059327373
+368	introclassJava.smallest_346b1d3c_010::::73::::1844::::1844::::a::::num_3	0.35355339059327373
+369	introclassJava.smallest_346b1d3c_010::::73::::1844::::1844::::a::::num_2	0.35355339059327373
+370	introclassJava.smallest_346b1d3c_010::::73::::1844::::1844::::a::::num_1	0.35355339059327373
+371	introclassJava.smallest_346b1d3c_010::::73::::1844::::1844::::a::::d	0.35355339059327373
+372	introclassJava.smallest_346b1d3c_010::::73::::1844::::1844::::a::::c	0.35355339059327373
+373	introclassJava.smallest_346b1d3c_010::::73::::1844::::1844::::a::::b	0.35355339059327373
+374	introclassJava.smallest_346b1d3c_010::::73::::1840::::2652::::if ((((a.value) <= (b.value)) && ((a.value) <= (c.value))) && ((a.value) <= (d.value))) {    output += java.lang.String.format("%d is the smallest\n", a.value);    if (true)        return ;    }else    if ((((b.value) <= (a.value)) && ((b.value) <= (c.value))) && ((b.value) <= (d.value))) {        output += java.lang.String.format("%d is the smalles\n", b.value);        if (true)            return ;            }else        if ((((c.value) <= (a.value)) && ((c.value) <= (b.value))) && ((c.value) <= (d.value))) {            output += java.lang.String.format("%d is the smallest\n", c.value);            if (true)                return ;                    }else            if ((((d.value) <= (a.value)) && ((d.value) <= (b.value))) && ((d.value) <= (c.value))) {                output += java.lang.String.format("%d is the smallest\n", d.value);                if (true)                    return ;                            }            ::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+375	introclassJava.smallest_346b1d3c_010::::72::::1817::::1829::::num_4.value::::num_3.value	0.35355339059327373
+376	introclassJava.smallest_346b1d3c_010::::72::::1817::::1829::::num_4.value::::num_2.value	0.35355339059327373
+377	introclassJava.smallest_346b1d3c_010::::72::::1817::::1829::::num_4.value::::num_1.value	0.35355339059327373
+378	introclassJava.smallest_346b1d3c_010::::72::::1817::::1829::::num_4.value::::d.value	0.35355339059327373
+379	introclassJava.smallest_346b1d3c_010::::72::::1817::::1829::::num_4.value::::c.value	0.35355339059327373
+380	introclassJava.smallest_346b1d3c_010::::72::::1817::::1829::::num_4.value::::b.value	0.35355339059327373
+381	introclassJava.smallest_346b1d3c_010::::72::::1817::::1829::::num_4.value::::a.value	0.35355339059327373
+382	introclassJava.smallest_346b1d3c_010::::72::::1817::::1822::::num_4::::num_3	0.35355339059327373
+383	introclassJava.smallest_346b1d3c_010::::72::::1817::::1822::::num_4::::num_2	0.35355339059327373
+384	introclassJava.smallest_346b1d3c_010::::72::::1817::::1822::::num_4::::num_1	0.35355339059327373
+385	introclassJava.smallest_346b1d3c_010::::72::::1817::::1822::::num_4::::d	0.35355339059327373
+386	introclassJava.smallest_346b1d3c_010::::72::::1817::::1822::::num_4::::c	0.35355339059327373
+387	introclassJava.smallest_346b1d3c_010::::72::::1817::::1822::::num_4::::b	0.35355339059327373
+388	introclassJava.smallest_346b1d3c_010::::72::::1817::::1822::::num_4::::a	0.35355339059327373
+389	introclassJava.smallest_346b1d3c_010::::72::::1807::::1830::::d.value = num_4.value::::c.value = num_3.value	0.35355339059327373
+390	introclassJava.smallest_346b1d3c_010::::72::::1807::::1830::::d.value = num_4.value::::b.value = num_2.value	0.35355339059327373
+391	introclassJava.smallest_346b1d3c_010::::72::::1807::::1830::::d.value = num_4.value::::a.value = num_1.value	0.35355339059327373
+392	introclassJava.smallest_346b1d3c_010::::72::::1807::::1830::::d.value = num_4.value::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+393	introclassJava.smallest_346b1d3c_010::::72::::1807::::1813::::d.value::::num_4.value	0.35355339059327373
+394	introclassJava.smallest_346b1d3c_010::::72::::1807::::1813::::d.value::::num_3.value	0.35355339059327373
+395	introclassJava.smallest_346b1d3c_010::::72::::1807::::1813::::d.value::::num_2.value	0.35355339059327373
+396	introclassJava.smallest_346b1d3c_010::::72::::1807::::1813::::d.value::::num_1.value	0.35355339059327373
+397	introclassJava.smallest_346b1d3c_010::::72::::1807::::1813::::d.value::::c.value	0.35355339059327373
+398	introclassJava.smallest_346b1d3c_010::::72::::1807::::1813::::d.value::::b.value	0.35355339059327373
+399	introclassJava.smallest_346b1d3c_010::::72::::1807::::1813::::d.value::::a.value	0.35355339059327373
+400	introclassJava.smallest_346b1d3c_010::::72::::1807::::1807::::d::::num_4	0.35355339059327373
+401	introclassJava.smallest_346b1d3c_010::::72::::1807::::1807::::d::::num_3	0.35355339059327373
+402	introclassJava.smallest_346b1d3c_010::::72::::1807::::1807::::d::::num_2	0.35355339059327373
+403	introclassJava.smallest_346b1d3c_010::::72::::1807::::1807::::d::::num_1	0.35355339059327373
+404	introclassJava.smallest_346b1d3c_010::::72::::1807::::1807::::d::::c	0.35355339059327373
+405	introclassJava.smallest_346b1d3c_010::::72::::1807::::1807::::d::::b	0.35355339059327373
+406	introclassJava.smallest_346b1d3c_010::::72::::1807::::1807::::d::::a	0.35355339059327373
+407	introclassJava.smallest_346b1d3c_010::::71::::1784::::1796::::num_3.value::::num_4.value	0.35355339059327373
+408	introclassJava.smallest_346b1d3c_010::::71::::1784::::1796::::num_3.value::::num_2.value	0.35355339059327373
+409	introclassJava.smallest_346b1d3c_010::::71::::1784::::1796::::num_3.value::::num_1.value	0.35355339059327373
+410	introclassJava.smallest_346b1d3c_010::::71::::1784::::1796::::num_3.value::::c.value	0.35355339059327373
+411	introclassJava.smallest_346b1d3c_010::::71::::1784::::1796::::num_3.value::::b.value	0.35355339059327373
+412	introclassJava.smallest_346b1d3c_010::::71::::1784::::1796::::num_3.value::::a.value	0.35355339059327373
+413	introclassJava.smallest_346b1d3c_010::::71::::1784::::1789::::num_3::::num_4	0.35355339059327373
+414	introclassJava.smallest_346b1d3c_010::::71::::1784::::1789::::num_3::::num_2	0.35355339059327373
+415	introclassJava.smallest_346b1d3c_010::::71::::1784::::1789::::num_3::::num_1	0.35355339059327373
+416	introclassJava.smallest_346b1d3c_010::::71::::1784::::1789::::num_3::::c	0.35355339059327373
+417	introclassJava.smallest_346b1d3c_010::::71::::1784::::1789::::num_3::::b	0.35355339059327373
+418	introclassJava.smallest_346b1d3c_010::::71::::1784::::1789::::num_3::::a	0.35355339059327373
+419	introclassJava.smallest_346b1d3c_010::::71::::1774::::1797::::c.value = num_3.value::::b.value = num_2.value	0.35355339059327373
+420	introclassJava.smallest_346b1d3c_010::::71::::1774::::1797::::c.value = num_3.value::::a.value = num_1.value	0.35355339059327373
+421	introclassJava.smallest_346b1d3c_010::::71::::1774::::1797::::c.value = num_3.value::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+422	introclassJava.smallest_346b1d3c_010::::71::::1774::::1780::::c.value::::num_4.value	0.35355339059327373
+423	introclassJava.smallest_346b1d3c_010::::71::::1774::::1780::::c.value::::num_3.value	0.35355339059327373
+424	introclassJava.smallest_346b1d3c_010::::71::::1774::::1780::::c.value::::num_2.value	0.35355339059327373
+425	introclassJava.smallest_346b1d3c_010::::71::::1774::::1780::::c.value::::num_1.value	0.35355339059327373
+426	introclassJava.smallest_346b1d3c_010::::71::::1774::::1780::::c.value::::b.value	0.35355339059327373
+427	introclassJava.smallest_346b1d3c_010::::71::::1774::::1780::::c.value::::a.value	0.35355339059327373
+428	introclassJava.smallest_346b1d3c_010::::71::::1774::::1774::::c::::num_4	0.35355339059327373
+429	introclassJava.smallest_346b1d3c_010::::71::::1774::::1774::::c::::num_3	0.35355339059327373
+430	introclassJava.smallest_346b1d3c_010::::71::::1774::::1774::::c::::num_2	0.35355339059327373
+431	introclassJava.smallest_346b1d3c_010::::71::::1774::::1774::::c::::num_1	0.35355339059327373
+432	introclassJava.smallest_346b1d3c_010::::71::::1774::::1774::::c::::b	0.35355339059327373
+433	introclassJava.smallest_346b1d3c_010::::71::::1774::::1774::::c::::a	0.35355339059327373
+434	introclassJava.smallest_346b1d3c_010::::70::::1751::::1763::::num_2.value::::num_4.value	0.35355339059327373
+435	introclassJava.smallest_346b1d3c_010::::70::::1751::::1763::::num_2.value::::num_3.value	0.35355339059327373
+436	introclassJava.smallest_346b1d3c_010::::70::::1751::::1763::::num_2.value::::num_1.value	0.35355339059327373
+437	introclassJava.smallest_346b1d3c_010::::70::::1751::::1763::::num_2.value::::b.value	0.35355339059327373
+438	introclassJava.smallest_346b1d3c_010::::70::::1751::::1763::::num_2.value::::a.value	0.35355339059327373
+439	introclassJava.smallest_346b1d3c_010::::70::::1751::::1756::::num_2::::num_4	0.35355339059327373
+440	introclassJava.smallest_346b1d3c_010::::70::::1751::::1756::::num_2::::num_3	0.35355339059327373
+441	introclassJava.smallest_346b1d3c_010::::70::::1751::::1756::::num_2::::num_1	0.35355339059327373
+442	introclassJava.smallest_346b1d3c_010::::70::::1751::::1756::::num_2::::b	0.35355339059327373
+443	introclassJava.smallest_346b1d3c_010::::70::::1751::::1756::::num_2::::a	0.35355339059327373
+444	introclassJava.smallest_346b1d3c_010::::70::::1741::::1764::::b.value = num_2.value::::a.value = num_1.value	0.35355339059327373
+445	introclassJava.smallest_346b1d3c_010::::70::::1741::::1764::::b.value = num_2.value::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+446	introclassJava.smallest_346b1d3c_010::::70::::1741::::1747::::b.value::::num_4.value	0.35355339059327373
+447	introclassJava.smallest_346b1d3c_010::::70::::1741::::1747::::b.value::::num_3.value	0.35355339059327373
+448	introclassJava.smallest_346b1d3c_010::::70::::1741::::1747::::b.value::::num_2.value	0.35355339059327373
+449	introclassJava.smallest_346b1d3c_010::::70::::1741::::1747::::b.value::::num_1.value	0.35355339059327373
+450	introclassJava.smallest_346b1d3c_010::::70::::1741::::1747::::b.value::::a.value	0.35355339059327373
+451	introclassJava.smallest_346b1d3c_010::::70::::1741::::1741::::b::::num_4	0.35355339059327373
+452	introclassJava.smallest_346b1d3c_010::::70::::1741::::1741::::b::::num_3	0.35355339059327373
+453	introclassJava.smallest_346b1d3c_010::::70::::1741::::1741::::b::::num_2	0.35355339059327373
+454	introclassJava.smallest_346b1d3c_010::::70::::1741::::1741::::b::::num_1	0.35355339059327373
+455	introclassJava.smallest_346b1d3c_010::::70::::1741::::1741::::b::::a	0.35355339059327373
+456	introclassJava.smallest_346b1d3c_010::::69::::1718::::1730::::num_1.value::::num_4.value	0.35355339059327373
+457	introclassJava.smallest_346b1d3c_010::::69::::1718::::1730::::num_1.value::::num_3.value	0.35355339059327373
+458	introclassJava.smallest_346b1d3c_010::::69::::1718::::1730::::num_1.value::::num_2.value	0.35355339059327373
+459	introclassJava.smallest_346b1d3c_010::::69::::1718::::1730::::num_1.value::::a.value	0.35355339059327373
+460	introclassJava.smallest_346b1d3c_010::::69::::1718::::1723::::num_1::::num_4	0.35355339059327373
+461	introclassJava.smallest_346b1d3c_010::::69::::1718::::1723::::num_1::::num_3	0.35355339059327373
+462	introclassJava.smallest_346b1d3c_010::::69::::1718::::1723::::num_1::::num_2	0.35355339059327373
+463	introclassJava.smallest_346b1d3c_010::::69::::1718::::1723::::num_1::::a	0.35355339059327373
+464	introclassJava.smallest_346b1d3c_010::::69::::1708::::1731::::a.value = num_1.value::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+465	introclassJava.smallest_346b1d3c_010::::69::::1708::::1714::::a.value::::num_4.value	0.35355339059327373
+466	introclassJava.smallest_346b1d3c_010::::69::::1708::::1714::::a.value::::num_3.value	0.35355339059327373
+467	introclassJava.smallest_346b1d3c_010::::69::::1708::::1714::::a.value::::num_2.value	0.35355339059327373
+468	introclassJava.smallest_346b1d3c_010::::69::::1708::::1714::::a.value::::num_1.value	0.35355339059327373
+469	introclassJava.smallest_346b1d3c_010::::69::::1708::::1708::::a::::num_4	0.35355339059327373
+470	introclassJava.smallest_346b1d3c_010::::69::::1708::::1708::::a::::num_3	0.35355339059327373
+471	introclassJava.smallest_346b1d3c_010::::69::::1708::::1708::::a::::num_2	0.35355339059327373
+472	introclassJava.smallest_346b1d3c_010::::69::::1708::::1708::::a::::num_1	0.35355339059327373
+473	introclassJava.smallest_346b1d3c_010::::68::::1666::::1698::::num_4.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+474	introclassJava.smallest_346b1d3c_010::::68::::1666::::1676::::num_4.value::::num_3.value	0.35355339059327373
+475	introclassJava.smallest_346b1d3c_010::::68::::1666::::1676::::num_4.value::::num_2.value	0.35355339059327373
+476	introclassJava.smallest_346b1d3c_010::::68::::1666::::1676::::num_4.value::::num_1.value	0.35355339059327373
+477	introclassJava.smallest_346b1d3c_010::::68::::1666::::1670::::num_4::::num_3	0.35355339059327373
+478	introclassJava.smallest_346b1d3c_010::::68::::1666::::1670::::num_4::::num_2	0.35355339059327373
+479	introclassJava.smallest_346b1d3c_010::::68::::1666::::1670::::num_4::::num_1	0.35355339059327373
+480	introclassJava.smallest_346b1d3c_010::::67::::1624::::1656::::num_3.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+481	introclassJava.smallest_346b1d3c_010::::67::::1624::::1634::::num_3.value::::num_2.value	0.35355339059327373
+482	introclassJava.smallest_346b1d3c_010::::67::::1624::::1634::::num_3.value::::num_1.value	0.35355339059327373
+483	introclassJava.smallest_346b1d3c_010::::67::::1624::::1628::::num_3::::num_2	0.35355339059327373
+484	introclassJava.smallest_346b1d3c_010::::67::::1624::::1628::::num_3::::num_1	0.35355339059327373
+485	introclassJava.smallest_346b1d3c_010::::66::::1582::::1614::::num_2.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+486	introclassJava.smallest_346b1d3c_010::::66::::1582::::1592::::num_2.value::::num_1.value	0.35355339059327373
+487	introclassJava.smallest_346b1d3c_010::::66::::1582::::1586::::num_2::::num_1	0.35355339059327373
+488	introclassJava.smallest_346b1d3c_010::::65::::1540::::1572::::num_1.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+489	introclassJava.smallest_346b1d3c_010::::63::::1443::::1530::::output += java.lang.String.format("Please enter 4 numbers separated by spaces > ")::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+490	introclassJava.smallest_346b1d3c_010::::62::::1420::::1432::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.35355339059327373
+491	introclassJava.smallest_346b1d3c_010::::62::::1397::::1409::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.35355339059327373
+492	introclassJava.smallest_346b1d3c_010::::62::::1236::::1433::::introclassJava.IntObj num_4 = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+493	introclassJava.smallest_346b1d3c_010::::61::::1362::::1374::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.35355339059327373
+494	introclassJava.smallest_346b1d3c_010::::61::::1339::::1351::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.35355339059327373
+495	introclassJava.smallest_346b1d3c_010::::61::::1316::::1328::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.35355339059327373
+496	introclassJava.smallest_346b1d3c_010::::61::::1236::::1433::::introclassJava.IntObj num_3 = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+497	introclassJava.smallest_346b1d3c_010::::61::::1236::::1433::::introclassJava.IntObj num_2 = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+498	introclassJava.smallest_346b1d3c_010::::61::::1236::::1433::::introclassJava.IntObj num_1 = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+499	introclassJava.smallest_346b1d3c_010::::60::::1285::::1297::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.35355339059327373
+500	introclassJava.smallest_346b1d3c_010::::60::::1266::::1278::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.35355339059327373
+501	introclassJava.smallest_346b1d3c_010::::60::::1247::::1259::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.35355339059327373
+502	introclassJava.smallest_346b1d3c_010::::60::::1236::::1433::::introclassJava.IntObj d = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+503	introclassJava.smallest_346b1d3c_010::::60::::1236::::1433::::introclassJava.IntObj c = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+504	introclassJava.smallest_346b1d3c_010::::60::::1236::::1433::::introclassJava.IntObj b = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+505	introclassJava.smallest_346b1d3c_010::::60::::1236::::1433::::introclassJava.IntObj a = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373

@@ -1,0 +1,432 @@
+1	introclassJava.digits_d2b889e1_001::::98::::2702::::2708::::return ::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+2	introclassJava.digits_d2b889e1_001::::84::::2201::::2211::::(a.value) < 0::::true	1.0
+3	introclassJava.digits_d2b889e1_001::::84::::2201::::2211::::(a.value) < 0::::(c.value) > 0	1.0
+4	introclassJava.digits_d2b889e1_001::::84::::2201::::2211::::(a.value) < 0::::(c.value) < 0	1.0
+5	introclassJava.digits_d2b889e1_001::::84::::2201::::2211::::(a.value) < 0::::(a.value) > 0	1.0
+6	introclassJava.digits_d2b889e1_001::::84::::2201::::2211::::(a.value) < 0::::(a.value) < 10	1.0
+7	introclassJava.digits_d2b889e1_001::::84::::2201::::2207::::a.value::::y.value	1.0
+8	introclassJava.digits_d2b889e1_001::::84::::2201::::2207::::a.value::::x.value	1.0
+9	introclassJava.digits_d2b889e1_001::::84::::2201::::2207::::a.value::::c.value) * (-1	1.0
+10	introclassJava.digits_d2b889e1_001::::84::::2201::::2207::::a.value::::c.value	1.0
+11	introclassJava.digits_d2b889e1_001::::84::::2201::::2207::::a.value::::b.value	1.0
+12	introclassJava.digits_d2b889e1_001::::84::::2201::::2207::::a.value::::(b.value) / 10	1.0
+13	introclassJava.digits_d2b889e1_001::::84::::2201::::2207::::a.value::::(b.value) % 10	1.0
+14	introclassJava.digits_d2b889e1_001::::84::::2201::::2201::::a::::y	1.0
+15	introclassJava.digits_d2b889e1_001::::84::::2201::::2201::::a::::x	1.0
+16	introclassJava.digits_d2b889e1_001::::84::::2201::::2201::::a::::c	1.0
+17	introclassJava.digits_d2b889e1_001::::84::::2201::::2201::::a::::b	1.0
+18	introclassJava.digits_d2b889e1_001::::84::::2197::::2670::::if ((a.value) < 0) {    a.value = (a.value) * (-1);    while ((a.value) > 0) {        x.value = (a.value) % 10;        a.value = (a.value) / 10;        output += java.lang.String.format("%d\n", x.value);        if ((a.value) < 10) {            a.value = (a.value) * (-1);            output += java.lang.String.format("%d\nTHat\'s all, have a nice day~\n", a.value);        }    } }::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+19	introclassJava.digits_d2b889e1_001::::93::::2619::::2625::::a.value::::y.value	0.7071067811865475
+20	introclassJava.digits_d2b889e1_001::::93::::2619::::2625::::a.value::::x.value	0.7071067811865475
+21	introclassJava.digits_d2b889e1_001::::93::::2619::::2625::::a.value::::c.value) * (-1	0.7071067811865475
+22	introclassJava.digits_d2b889e1_001::::93::::2619::::2625::::a.value::::c.value	0.7071067811865475
+23	introclassJava.digits_d2b889e1_001::::93::::2619::::2625::::a.value::::b.value	0.7071067811865475
+24	introclassJava.digits_d2b889e1_001::::93::::2619::::2625::::a.value::::(b.value) / 10	0.7071067811865475
+25	introclassJava.digits_d2b889e1_001::::93::::2619::::2625::::a.value::::(b.value) % 10	0.7071067811865475
+26	introclassJava.digits_d2b889e1_001::::93::::2619::::2619::::a::::y	0.7071067811865475
+27	introclassJava.digits_d2b889e1_001::::93::::2619::::2619::::a::::x	0.7071067811865475
+28	introclassJava.digits_d2b889e1_001::::93::::2619::::2619::::a::::c	0.7071067811865475
+29	introclassJava.digits_d2b889e1_001::::93::::2619::::2619::::a::::b	0.7071067811865475
+30	introclassJava.digits_d2b889e1_001::::92::::2531::::2628::::output += java.lang.String.format("%d\nTHat\'s all, have a nice day~\n", a.value)::::INSERT::::STATEMENT::::if (true)    return ;	0.7071067811865475
+31	introclassJava.digits_d2b889e1_001::::91::::2505::::2508::::-1::::DELETE::::INFIX	0.7071067811865475
+32	introclassJava.digits_d2b889e1_001::::91::::2495::::2508::::a.value) * (-1::::y.value	0.7071067811865475
+33	introclassJava.digits_d2b889e1_001::::91::::2495::::2508::::a.value) * (-1::::x.value	0.7071067811865475
+34	introclassJava.digits_d2b889e1_001::::91::::2495::::2508::::a.value) * (-1::::value	0.7071067811865475
+35	introclassJava.digits_d2b889e1_001::::91::::2495::::2508::::a.value) * (-1::::c.value) * (-1	0.7071067811865475
+36	introclassJava.digits_d2b889e1_001::::91::::2495::::2508::::a.value) * (-1::::c.value	0.7071067811865475
+37	introclassJava.digits_d2b889e1_001::::91::::2495::::2508::::a.value) * (-1::::b.value	0.7071067811865475
+38	introclassJava.digits_d2b889e1_001::::91::::2495::::2508::::a.value) * (-1::::a.value	0.7071067811865475
+39	introclassJava.digits_d2b889e1_001::::91::::2495::::2508::::a.value) * (-1::::10	0.7071067811865475
+40	introclassJava.digits_d2b889e1_001::::91::::2495::::2508::::a.value) * (-1::::1	0.7071067811865475
+41	introclassJava.digits_d2b889e1_001::::91::::2495::::2508::::a.value) * (-1::::0	0.7071067811865475
+42	introclassJava.digits_d2b889e1_001::::91::::2495::::2508::::a.value) * (-1::::-1	0.7071067811865475
+43	introclassJava.digits_d2b889e1_001::::91::::2495::::2508::::a.value) * (-1::::(b.value) / 10	0.7071067811865475
+44	introclassJava.digits_d2b889e1_001::::91::::2495::::2508::::a.value) * (-1::::(b.value) % 10	0.7071067811865475
+45	introclassJava.digits_d2b889e1_001::::91::::2495::::2508::::a.value) * (-1::::(a.value) / 10	0.7071067811865475
+46	introclassJava.digits_d2b889e1_001::::91::::2495::::2508::::a.value) * (-1::::(a.value) % 10	0.7071067811865475
+47	introclassJava.digits_d2b889e1_001::::91::::2495::::2501::::a.value::::y.value	0.7071067811865475
+48	introclassJava.digits_d2b889e1_001::::91::::2495::::2501::::a.value::::x.value	0.7071067811865475
+49	introclassJava.digits_d2b889e1_001::::91::::2495::::2501::::a.value::::c.value) * (-1	0.7071067811865475
+50	introclassJava.digits_d2b889e1_001::::91::::2495::::2501::::a.value::::c.value	0.7071067811865475
+51	introclassJava.digits_d2b889e1_001::::91::::2495::::2501::::a.value::::b.value	0.7071067811865475
+52	introclassJava.digits_d2b889e1_001::::91::::2495::::2501::::a.value::::(b.value) / 10	0.7071067811865475
+53	introclassJava.digits_d2b889e1_001::::91::::2495::::2501::::a.value::::(b.value) % 10	0.7071067811865475
+54	introclassJava.digits_d2b889e1_001::::91::::2495::::2495::::a::::y	0.7071067811865475
+55	introclassJava.digits_d2b889e1_001::::91::::2495::::2495::::a::::x	0.7071067811865475
+56	introclassJava.digits_d2b889e1_001::::91::::2495::::2495::::a::::c	0.7071067811865475
+57	introclassJava.digits_d2b889e1_001::::91::::2495::::2495::::a::::b	0.7071067811865475
+58	introclassJava.digits_d2b889e1_001::::91::::2485::::2509::::a.value = (a.value) * (-1)::::y.value = (c.value) * (-1)	0.7071067811865475
+59	introclassJava.digits_d2b889e1_001::::91::::2485::::2509::::a.value = (a.value) * (-1)::::x.value = (a.value) % 10	0.7071067811865475
+60	introclassJava.digits_d2b889e1_001::::91::::2485::::2509::::a.value = (a.value) * (-1)::::c.value = (b.value) % 10	0.7071067811865475
+61	introclassJava.digits_d2b889e1_001::::91::::2485::::2509::::a.value = (a.value) * (-1)::::a.value = (b.value) / 10	0.7071067811865475
+62	introclassJava.digits_d2b889e1_001::::91::::2485::::2509::::a.value = (a.value) * (-1)::::a.value = (a.value) / 10	0.7071067811865475
+63	introclassJava.digits_d2b889e1_001::::91::::2485::::2509::::a.value = (a.value) * (-1)::::INSERT::::STATEMENT::::if (true)    return ;	0.7071067811865475
+64	introclassJava.digits_d2b889e1_001::::91::::2485::::2491::::a.value::::y.value	0.7071067811865475
+65	introclassJava.digits_d2b889e1_001::::91::::2485::::2491::::a.value::::x.value	0.7071067811865475
+66	introclassJava.digits_d2b889e1_001::::91::::2485::::2491::::a.value::::c.value) * (-1	0.7071067811865475
+67	introclassJava.digits_d2b889e1_001::::91::::2485::::2491::::a.value::::c.value	0.7071067811865475
+68	introclassJava.digits_d2b889e1_001::::91::::2485::::2491::::a.value::::b.value	0.7071067811865475
+69	introclassJava.digits_d2b889e1_001::::91::::2485::::2491::::a.value::::(b.value) / 10	0.7071067811865475
+70	introclassJava.digits_d2b889e1_001::::91::::2485::::2491::::a.value::::(b.value) % 10	0.7071067811865475
+71	introclassJava.digits_d2b889e1_001::::91::::2485::::2485::::a::::y	0.7071067811865475
+72	introclassJava.digits_d2b889e1_001::::91::::2485::::2485::::a::::x	0.7071067811865475
+73	introclassJava.digits_d2b889e1_001::::91::::2485::::2485::::a::::c	0.7071067811865475
+74	introclassJava.digits_d2b889e1_001::::91::::2485::::2485::::a::::b	0.7071067811865475
+75	introclassJava.digits_d2b889e1_001::::90::::2449::::2460::::(a.value) < 10::::true	0.7071067811865475
+76	introclassJava.digits_d2b889e1_001::::90::::2449::::2460::::(a.value) < 10::::(c.value) > 0	0.7071067811865475
+77	introclassJava.digits_d2b889e1_001::::90::::2449::::2460::::(a.value) < 10::::(c.value) < 0	0.7071067811865475
+78	introclassJava.digits_d2b889e1_001::::90::::2449::::2460::::(a.value) < 10::::(a.value) > 0	0.7071067811865475
+79	introclassJava.digits_d2b889e1_001::::90::::2449::::2460::::(a.value) < 10::::(a.value) < 0	0.7071067811865475
+80	introclassJava.digits_d2b889e1_001::::90::::2449::::2455::::a.value::::y.value	0.7071067811865475
+81	introclassJava.digits_d2b889e1_001::::90::::2449::::2455::::a.value::::x.value	0.7071067811865475
+82	introclassJava.digits_d2b889e1_001::::90::::2449::::2455::::a.value::::c.value) * (-1	0.7071067811865475
+83	introclassJava.digits_d2b889e1_001::::90::::2449::::2455::::a.value::::c.value	0.7071067811865475
+84	introclassJava.digits_d2b889e1_001::::90::::2449::::2455::::a.value::::b.value	0.7071067811865475
+85	introclassJava.digits_d2b889e1_001::::90::::2449::::2455::::a.value::::(b.value) / 10	0.7071067811865475
+86	introclassJava.digits_d2b889e1_001::::90::::2449::::2455::::a.value::::(b.value) % 10	0.7071067811865475
+87	introclassJava.digits_d2b889e1_001::::90::::2449::::2449::::a::::y	0.7071067811865475
+88	introclassJava.digits_d2b889e1_001::::90::::2449::::2449::::a::::x	0.7071067811865475
+89	introclassJava.digits_d2b889e1_001::::90::::2449::::2449::::a::::c	0.7071067811865475
+90	introclassJava.digits_d2b889e1_001::::90::::2449::::2449::::a::::b	0.7071067811865475
+91	introclassJava.digits_d2b889e1_001::::89::::2418::::2424::::x.value::::y.value	0.7071067811865475
+92	introclassJava.digits_d2b889e1_001::::89::::2418::::2424::::x.value::::c.value) * (-1	0.7071067811865475
+93	introclassJava.digits_d2b889e1_001::::89::::2418::::2424::::x.value::::c.value	0.7071067811865475
+94	introclassJava.digits_d2b889e1_001::::89::::2418::::2424::::x.value::::b.value	0.7071067811865475
+95	introclassJava.digits_d2b889e1_001::::89::::2418::::2424::::x.value::::a.value) * (-1	0.7071067811865475
+96	introclassJava.digits_d2b889e1_001::::89::::2418::::2424::::x.value::::a.value	0.7071067811865475
+97	introclassJava.digits_d2b889e1_001::::89::::2418::::2424::::x.value::::(b.value) / 10	0.7071067811865475
+98	introclassJava.digits_d2b889e1_001::::89::::2418::::2424::::x.value::::(b.value) % 10	0.7071067811865475
+99	introclassJava.digits_d2b889e1_001::::89::::2418::::2424::::x.value::::(a.value) / 10	0.7071067811865475
+100	introclassJava.digits_d2b889e1_001::::89::::2418::::2424::::x.value::::(a.value) % 10	0.7071067811865475
+101	introclassJava.digits_d2b889e1_001::::89::::2418::::2418::::x::::y	0.7071067811865475
+102	introclassJava.digits_d2b889e1_001::::89::::2418::::2418::::x::::c	0.7071067811865475
+103	introclassJava.digits_d2b889e1_001::::89::::2418::::2418::::x::::b	0.7071067811865475
+104	introclassJava.digits_d2b889e1_001::::89::::2418::::2418::::x::::a	0.7071067811865475
+105	introclassJava.digits_d2b889e1_001::::88::::2354::::2365::::(a.value) / 10::::y.value	0.7071067811865475
+106	introclassJava.digits_d2b889e1_001::::88::::2354::::2365::::(a.value) / 10::::x.value	0.7071067811865475
+107	introclassJava.digits_d2b889e1_001::::88::::2354::::2365::::(a.value) / 10::::value	0.7071067811865475
+108	introclassJava.digits_d2b889e1_001::::88::::2354::::2365::::(a.value) / 10::::c.value) * (-1	0.7071067811865475
+109	introclassJava.digits_d2b889e1_001::::88::::2354::::2365::::(a.value) / 10::::c.value	0.7071067811865475
+110	introclassJava.digits_d2b889e1_001::::88::::2354::::2365::::(a.value) / 10::::b.value	0.7071067811865475
+111	introclassJava.digits_d2b889e1_001::::88::::2354::::2365::::(a.value) / 10::::a.value) * (-1	0.7071067811865475
+112	introclassJava.digits_d2b889e1_001::::88::::2354::::2365::::(a.value) / 10::::a.value	0.7071067811865475
+113	introclassJava.digits_d2b889e1_001::::88::::2354::::2365::::(a.value) / 10::::10	0.7071067811865475
+114	introclassJava.digits_d2b889e1_001::::88::::2354::::2365::::(a.value) / 10::::1	0.7071067811865475
+115	introclassJava.digits_d2b889e1_001::::88::::2354::::2365::::(a.value) / 10::::0	0.7071067811865475
+116	introclassJava.digits_d2b889e1_001::::88::::2354::::2365::::(a.value) / 10::::-1	0.7071067811865475
+117	introclassJava.digits_d2b889e1_001::::88::::2354::::2365::::(a.value) / 10::::(b.value) / 10	0.7071067811865475
+118	introclassJava.digits_d2b889e1_001::::88::::2354::::2365::::(a.value) / 10::::(b.value) % 10	0.7071067811865475
+119	introclassJava.digits_d2b889e1_001::::88::::2354::::2365::::(a.value) / 10::::(a.value) % 10	0.7071067811865475
+120	introclassJava.digits_d2b889e1_001::::88::::2354::::2360::::a.value::::y.value	0.7071067811865475
+121	introclassJava.digits_d2b889e1_001::::88::::2354::::2360::::a.value::::x.value	0.7071067811865475
+122	introclassJava.digits_d2b889e1_001::::88::::2354::::2360::::a.value::::c.value) * (-1	0.7071067811865475
+123	introclassJava.digits_d2b889e1_001::::88::::2354::::2360::::a.value::::c.value	0.7071067811865475
+124	introclassJava.digits_d2b889e1_001::::88::::2354::::2360::::a.value::::b.value	0.7071067811865475
+125	introclassJava.digits_d2b889e1_001::::88::::2354::::2360::::a.value::::(b.value) / 10	0.7071067811865475
+126	introclassJava.digits_d2b889e1_001::::88::::2354::::2360::::a.value::::(b.value) % 10	0.7071067811865475
+127	introclassJava.digits_d2b889e1_001::::88::::2354::::2354::::a::::y	0.7071067811865475
+128	introclassJava.digits_d2b889e1_001::::88::::2354::::2354::::a::::x	0.7071067811865475
+129	introclassJava.digits_d2b889e1_001::::88::::2354::::2354::::a::::c	0.7071067811865475
+130	introclassJava.digits_d2b889e1_001::::88::::2354::::2354::::a::::b	0.7071067811865475
+131	introclassJava.digits_d2b889e1_001::::88::::2344::::2366::::a.value = (a.value) / 10::::y.value = (c.value) * (-1)	0.7071067811865475
+132	introclassJava.digits_d2b889e1_001::::88::::2344::::2366::::a.value = (a.value) / 10::::x.value = (a.value) % 10	0.7071067811865475
+133	introclassJava.digits_d2b889e1_001::::88::::2344::::2366::::a.value = (a.value) / 10::::c.value = (b.value) % 10	0.7071067811865475
+134	introclassJava.digits_d2b889e1_001::::88::::2344::::2366::::a.value = (a.value) / 10::::a.value = (b.value) / 10	0.7071067811865475
+135	introclassJava.digits_d2b889e1_001::::88::::2344::::2366::::a.value = (a.value) / 10::::a.value = (a.value) * (-1)	0.7071067811865475
+136	introclassJava.digits_d2b889e1_001::::88::::2344::::2350::::a.value::::y.value	0.7071067811865475
+137	introclassJava.digits_d2b889e1_001::::88::::2344::::2350::::a.value::::x.value	0.7071067811865475
+138	introclassJava.digits_d2b889e1_001::::88::::2344::::2350::::a.value::::c.value) * (-1	0.7071067811865475
+139	introclassJava.digits_d2b889e1_001::::88::::2344::::2350::::a.value::::c.value	0.7071067811865475
+140	introclassJava.digits_d2b889e1_001::::88::::2344::::2350::::a.value::::b.value	0.7071067811865475
+141	introclassJava.digits_d2b889e1_001::::88::::2344::::2350::::a.value::::(b.value) / 10	0.7071067811865475
+142	introclassJava.digits_d2b889e1_001::::88::::2344::::2350::::a.value::::(b.value) % 10	0.7071067811865475
+143	introclassJava.digits_d2b889e1_001::::88::::2344::::2344::::a::::y	0.7071067811865475
+144	introclassJava.digits_d2b889e1_001::::88::::2344::::2344::::a::::x	0.7071067811865475
+145	introclassJava.digits_d2b889e1_001::::88::::2344::::2344::::a::::c	0.7071067811865475
+146	introclassJava.digits_d2b889e1_001::::88::::2344::::2344::::a::::b	0.7071067811865475
+147	introclassJava.digits_d2b889e1_001::::87::::2314::::2325::::(a.value) % 10::::y.value	0.7071067811865475
+148	introclassJava.digits_d2b889e1_001::::87::::2314::::2325::::(a.value) % 10::::x.value	0.7071067811865475
+149	introclassJava.digits_d2b889e1_001::::87::::2314::::2325::::(a.value) % 10::::value	0.7071067811865475
+150	introclassJava.digits_d2b889e1_001::::87::::2314::::2325::::(a.value) % 10::::c.value) * (-1	0.7071067811865475
+151	introclassJava.digits_d2b889e1_001::::87::::2314::::2325::::(a.value) % 10::::c.value	0.7071067811865475
+152	introclassJava.digits_d2b889e1_001::::87::::2314::::2325::::(a.value) % 10::::b.value	0.7071067811865475
+153	introclassJava.digits_d2b889e1_001::::87::::2314::::2325::::(a.value) % 10::::a.value) * (-1	0.7071067811865475
+154	introclassJava.digits_d2b889e1_001::::87::::2314::::2325::::(a.value) % 10::::a.value	0.7071067811865475
+155	introclassJava.digits_d2b889e1_001::::87::::2314::::2325::::(a.value) % 10::::10	0.7071067811865475
+156	introclassJava.digits_d2b889e1_001::::87::::2314::::2325::::(a.value) % 10::::1	0.7071067811865475
+157	introclassJava.digits_d2b889e1_001::::87::::2314::::2325::::(a.value) % 10::::0	0.7071067811865475
+158	introclassJava.digits_d2b889e1_001::::87::::2314::::2325::::(a.value) % 10::::-1	0.7071067811865475
+159	introclassJava.digits_d2b889e1_001::::87::::2314::::2325::::(a.value) % 10::::(b.value) / 10	0.7071067811865475
+160	introclassJava.digits_d2b889e1_001::::87::::2314::::2325::::(a.value) % 10::::(b.value) % 10	0.7071067811865475
+161	introclassJava.digits_d2b889e1_001::::87::::2314::::2325::::(a.value) % 10::::(a.value) / 10	0.7071067811865475
+162	introclassJava.digits_d2b889e1_001::::87::::2314::::2320::::a.value::::y.value	0.7071067811865475
+163	introclassJava.digits_d2b889e1_001::::87::::2314::::2320::::a.value::::x.value	0.7071067811865475
+164	introclassJava.digits_d2b889e1_001::::87::::2314::::2320::::a.value::::c.value) * (-1	0.7071067811865475
+165	introclassJava.digits_d2b889e1_001::::87::::2314::::2320::::a.value::::c.value	0.7071067811865475
+166	introclassJava.digits_d2b889e1_001::::87::::2314::::2320::::a.value::::b.value	0.7071067811865475
+167	introclassJava.digits_d2b889e1_001::::87::::2314::::2320::::a.value::::(b.value) / 10	0.7071067811865475
+168	introclassJava.digits_d2b889e1_001::::87::::2314::::2320::::a.value::::(b.value) % 10	0.7071067811865475
+169	introclassJava.digits_d2b889e1_001::::87::::2314::::2314::::a::::y	0.7071067811865475
+170	introclassJava.digits_d2b889e1_001::::87::::2314::::2314::::a::::x	0.7071067811865475
+171	introclassJava.digits_d2b889e1_001::::87::::2314::::2314::::a::::c	0.7071067811865475
+172	introclassJava.digits_d2b889e1_001::::87::::2314::::2314::::a::::b	0.7071067811865475
+173	introclassJava.digits_d2b889e1_001::::87::::2304::::2326::::x.value = (a.value) % 10::::y.value = (c.value) * (-1)	0.7071067811865475
+174	introclassJava.digits_d2b889e1_001::::87::::2304::::2326::::x.value = (a.value) % 10::::c.value = (b.value) % 10	0.7071067811865475
+175	introclassJava.digits_d2b889e1_001::::87::::2304::::2326::::x.value = (a.value) % 10::::a.value = (b.value) / 10	0.7071067811865475
+176	introclassJava.digits_d2b889e1_001::::87::::2304::::2326::::x.value = (a.value) % 10::::a.value = (a.value) / 10	0.7071067811865475
+177	introclassJava.digits_d2b889e1_001::::87::::2304::::2326::::x.value = (a.value) % 10::::a.value = (a.value) * (-1)	0.7071067811865475
+178	introclassJava.digits_d2b889e1_001::::87::::2304::::2310::::x.value::::y.value	0.7071067811865475
+179	introclassJava.digits_d2b889e1_001::::87::::2304::::2310::::x.value::::c.value) * (-1	0.7071067811865475
+180	introclassJava.digits_d2b889e1_001::::87::::2304::::2310::::x.value::::c.value	0.7071067811865475
+181	introclassJava.digits_d2b889e1_001::::87::::2304::::2310::::x.value::::b.value	0.7071067811865475
+182	introclassJava.digits_d2b889e1_001::::87::::2304::::2310::::x.value::::a.value) * (-1	0.7071067811865475
+183	introclassJava.digits_d2b889e1_001::::87::::2304::::2310::::x.value::::a.value	0.7071067811865475
+184	introclassJava.digits_d2b889e1_001::::87::::2304::::2310::::x.value::::(b.value) / 10	0.7071067811865475
+185	introclassJava.digits_d2b889e1_001::::87::::2304::::2310::::x.value::::(b.value) % 10	0.7071067811865475
+186	introclassJava.digits_d2b889e1_001::::87::::2304::::2310::::x.value::::(a.value) / 10	0.7071067811865475
+187	introclassJava.digits_d2b889e1_001::::87::::2304::::2310::::x.value::::(a.value) % 10	0.7071067811865475
+188	introclassJava.digits_d2b889e1_001::::87::::2304::::2304::::x::::y	0.7071067811865475
+189	introclassJava.digits_d2b889e1_001::::87::::2304::::2304::::x::::c	0.7071067811865475
+190	introclassJava.digits_d2b889e1_001::::87::::2304::::2304::::x::::b	0.7071067811865475
+191	introclassJava.digits_d2b889e1_001::::87::::2304::::2304::::x::::a	0.7071067811865475
+192	introclassJava.digits_d2b889e1_001::::86::::2273::::2283::::(a.value) > 0::::true	0.7071067811865475
+193	introclassJava.digits_d2b889e1_001::::86::::2273::::2283::::(a.value) > 0::::(c.value) > 0	0.7071067811865475
+194	introclassJava.digits_d2b889e1_001::::86::::2273::::2283::::(a.value) > 0::::(c.value) < 0	0.7071067811865475
+195	introclassJava.digits_d2b889e1_001::::86::::2273::::2283::::(a.value) > 0::::(a.value) < 10	0.7071067811865475
+196	introclassJava.digits_d2b889e1_001::::86::::2273::::2283::::(a.value) > 0::::(a.value) < 0	0.7071067811865475
+197	introclassJava.digits_d2b889e1_001::::86::::2273::::2279::::a.value::::y.value	0.7071067811865475
+198	introclassJava.digits_d2b889e1_001::::86::::2273::::2279::::a.value::::x.value	0.7071067811865475
+199	introclassJava.digits_d2b889e1_001::::86::::2273::::2279::::a.value::::c.value) * (-1	0.7071067811865475
+200	introclassJava.digits_d2b889e1_001::::86::::2273::::2279::::a.value::::c.value	0.7071067811865475
+201	introclassJava.digits_d2b889e1_001::::86::::2273::::2279::::a.value::::b.value	0.7071067811865475
+202	introclassJava.digits_d2b889e1_001::::86::::2273::::2279::::a.value::::(b.value) / 10	0.7071067811865475
+203	introclassJava.digits_d2b889e1_001::::86::::2273::::2279::::a.value::::(b.value) % 10	0.7071067811865475
+204	introclassJava.digits_d2b889e1_001::::86::::2273::::2273::::a::::y	0.7071067811865475
+205	introclassJava.digits_d2b889e1_001::::86::::2273::::2273::::a::::x	0.7071067811865475
+206	introclassJava.digits_d2b889e1_001::::86::::2273::::2273::::a::::c	0.7071067811865475
+207	introclassJava.digits_d2b889e1_001::::86::::2273::::2273::::a::::b	0.7071067811865475
+208	introclassJava.digits_d2b889e1_001::::86::::2266::::2660::::while ((a.value) > 0) {    x.value = (a.value) % 10;    a.value = (a.value) / 10;    output += java.lang.String.format("%d\n", x.value);    if ((a.value) < 10) {        a.value = (a.value) * (-1);        output += java.lang.String.format("%d\nTHat\'s all, have a nice day~\n", a.value);    }} ::::INSERT::::STATEMENT::::if (true)    return ;	0.7071067811865475
+209	introclassJava.digits_d2b889e1_001::::85::::2248::::2251::::-1::::DELETE::::INFIX	0.7071067811865475
+210	introclassJava.digits_d2b889e1_001::::85::::2238::::2251::::a.value) * (-1::::y.value	0.7071067811865475
+211	introclassJava.digits_d2b889e1_001::::85::::2238::::2251::::a.value) * (-1::::x.value	0.7071067811865475
+212	introclassJava.digits_d2b889e1_001::::85::::2238::::2251::::a.value) * (-1::::value	0.7071067811865475
+213	introclassJava.digits_d2b889e1_001::::85::::2238::::2251::::a.value) * (-1::::c.value) * (-1	0.7071067811865475
+214	introclassJava.digits_d2b889e1_001::::85::::2238::::2251::::a.value) * (-1::::c.value	0.7071067811865475
+215	introclassJava.digits_d2b889e1_001::::85::::2238::::2251::::a.value) * (-1::::b.value	0.7071067811865475
+216	introclassJava.digits_d2b889e1_001::::85::::2238::::2251::::a.value) * (-1::::a.value	0.7071067811865475
+217	introclassJava.digits_d2b889e1_001::::85::::2238::::2251::::a.value) * (-1::::10	0.7071067811865475
+218	introclassJava.digits_d2b889e1_001::::85::::2238::::2251::::a.value) * (-1::::1	0.7071067811865475
+219	introclassJava.digits_d2b889e1_001::::85::::2238::::2251::::a.value) * (-1::::0	0.7071067811865475
+220	introclassJava.digits_d2b889e1_001::::85::::2238::::2251::::a.value) * (-1::::-1	0.7071067811865475
+221	introclassJava.digits_d2b889e1_001::::85::::2238::::2251::::a.value) * (-1::::(b.value) / 10	0.7071067811865475
+222	introclassJava.digits_d2b889e1_001::::85::::2238::::2251::::a.value) * (-1::::(b.value) % 10	0.7071067811865475
+223	introclassJava.digits_d2b889e1_001::::85::::2238::::2251::::a.value) * (-1::::(a.value) / 10	0.7071067811865475
+224	introclassJava.digits_d2b889e1_001::::85::::2238::::2251::::a.value) * (-1::::(a.value) % 10	0.7071067811865475
+225	introclassJava.digits_d2b889e1_001::::85::::2238::::2244::::a.value::::y.value	0.7071067811865475
+226	introclassJava.digits_d2b889e1_001::::85::::2238::::2244::::a.value::::x.value	0.7071067811865475
+227	introclassJava.digits_d2b889e1_001::::85::::2238::::2244::::a.value::::c.value) * (-1	0.7071067811865475
+228	introclassJava.digits_d2b889e1_001::::85::::2238::::2244::::a.value::::c.value	0.7071067811865475
+229	introclassJava.digits_d2b889e1_001::::85::::2238::::2244::::a.value::::b.value	0.7071067811865475
+230	introclassJava.digits_d2b889e1_001::::85::::2238::::2244::::a.value::::(b.value) / 10	0.7071067811865475
+231	introclassJava.digits_d2b889e1_001::::85::::2238::::2244::::a.value::::(b.value) % 10	0.7071067811865475
+232	introclassJava.digits_d2b889e1_001::::85::::2238::::2238::::a::::y	0.7071067811865475
+233	introclassJava.digits_d2b889e1_001::::85::::2238::::2238::::a::::x	0.7071067811865475
+234	introclassJava.digits_d2b889e1_001::::85::::2238::::2238::::a::::c	0.7071067811865475
+235	introclassJava.digits_d2b889e1_001::::85::::2238::::2238::::a::::b	0.7071067811865475
+236	introclassJava.digits_d2b889e1_001::::85::::2228::::2252::::a.value = (a.value) * (-1)::::y.value = (c.value) * (-1)	0.7071067811865475
+237	introclassJava.digits_d2b889e1_001::::85::::2228::::2252::::a.value = (a.value) * (-1)::::x.value = (a.value) % 10	0.7071067811865475
+238	introclassJava.digits_d2b889e1_001::::85::::2228::::2252::::a.value = (a.value) * (-1)::::c.value = (b.value) % 10	0.7071067811865475
+239	introclassJava.digits_d2b889e1_001::::85::::2228::::2252::::a.value = (a.value) * (-1)::::a.value = (b.value) / 10	0.7071067811865475
+240	introclassJava.digits_d2b889e1_001::::85::::2228::::2252::::a.value = (a.value) * (-1)::::a.value = (a.value) / 10	0.7071067811865475
+241	introclassJava.digits_d2b889e1_001::::85::::2228::::2252::::a.value = (a.value) * (-1)::::INSERT::::STATEMENT::::if (true)    return ;	0.7071067811865475
+242	introclassJava.digits_d2b889e1_001::::85::::2228::::2234::::a.value::::y.value	0.7071067811865475
+243	introclassJava.digits_d2b889e1_001::::85::::2228::::2234::::a.value::::x.value	0.7071067811865475
+244	introclassJava.digits_d2b889e1_001::::85::::2228::::2234::::a.value::::c.value) * (-1	0.7071067811865475
+245	introclassJava.digits_d2b889e1_001::::85::::2228::::2234::::a.value::::c.value	0.7071067811865475
+246	introclassJava.digits_d2b889e1_001::::85::::2228::::2234::::a.value::::b.value	0.7071067811865475
+247	introclassJava.digits_d2b889e1_001::::85::::2228::::2234::::a.value::::(b.value) / 10	0.7071067811865475
+248	introclassJava.digits_d2b889e1_001::::85::::2228::::2234::::a.value::::(b.value) % 10	0.7071067811865475
+249	introclassJava.digits_d2b889e1_001::::85::::2228::::2228::::a::::y	0.7071067811865475
+250	introclassJava.digits_d2b889e1_001::::85::::2228::::2228::::a::::x	0.7071067811865475
+251	introclassJava.digits_d2b889e1_001::::85::::2228::::2228::::a::::c	0.7071067811865475
+252	introclassJava.digits_d2b889e1_001::::85::::2228::::2228::::a::::b	0.7071067811865475
+253	introclassJava.digits_d2b889e1_001::::70::::1709::::1715::::y.value::::c.value) * (-1	0.7071067811865475
+254	introclassJava.digits_d2b889e1_001::::70::::1709::::1715::::y.value::::c.value	0.7071067811865475
+255	introclassJava.digits_d2b889e1_001::::70::::1709::::1715::::y.value::::b.value	0.7071067811865475
+256	introclassJava.digits_d2b889e1_001::::70::::1709::::1715::::y.value::::a.value) * (-1	0.7071067811865475
+257	introclassJava.digits_d2b889e1_001::::70::::1709::::1715::::y.value::::a.value	0.7071067811865475
+258	introclassJava.digits_d2b889e1_001::::70::::1709::::1715::::y.value::::(b.value) / 10	0.7071067811865475
+259	introclassJava.digits_d2b889e1_001::::70::::1709::::1715::::y.value::::(b.value) % 10	0.7071067811865475
+260	introclassJava.digits_d2b889e1_001::::70::::1709::::1715::::y.value::::(a.value) / 10	0.7071067811865475
+261	introclassJava.digits_d2b889e1_001::::70::::1709::::1715::::y.value::::(a.value) % 10	0.7071067811865475
+262	introclassJava.digits_d2b889e1_001::::70::::1709::::1709::::y::::c	0.7071067811865475
+263	introclassJava.digits_d2b889e1_001::::70::::1709::::1709::::y::::b	0.7071067811865475
+264	introclassJava.digits_d2b889e1_001::::70::::1709::::1709::::y::::a	0.7071067811865475
+265	introclassJava.digits_d2b889e1_001::::70::::1675::::1718::::output += java.lang.String.format("%d\n", y.value)::::INSERT::::STATEMENT::::if (true)    return ;	0.7071067811865475
+266	introclassJava.digits_d2b889e1_001::::69::::1657::::1660::::-1::::DELETE::::INFIX	0.7071067811865475
+267	introclassJava.digits_d2b889e1_001::::69::::1647::::1660::::c.value) * (-1::::y.value	0.7071067811865475
+268	introclassJava.digits_d2b889e1_001::::69::::1647::::1660::::c.value) * (-1::::value	0.7071067811865475
+269	introclassJava.digits_d2b889e1_001::::69::::1647::::1660::::c.value) * (-1::::c.value	0.7071067811865475
+270	introclassJava.digits_d2b889e1_001::::69::::1647::::1660::::c.value) * (-1::::b.value	0.7071067811865475
+271	introclassJava.digits_d2b889e1_001::::69::::1647::::1660::::c.value) * (-1::::a.value) * (-1	0.7071067811865475
+272	introclassJava.digits_d2b889e1_001::::69::::1647::::1660::::c.value) * (-1::::a.value	0.7071067811865475
+273	introclassJava.digits_d2b889e1_001::::69::::1647::::1660::::c.value) * (-1::::10	0.7071067811865475
+274	introclassJava.digits_d2b889e1_001::::69::::1647::::1660::::c.value) * (-1::::1	0.7071067811865475
+275	introclassJava.digits_d2b889e1_001::::69::::1647::::1660::::c.value) * (-1::::0	0.7071067811865475
+276	introclassJava.digits_d2b889e1_001::::69::::1647::::1660::::c.value) * (-1::::-1	0.7071067811865475
+277	introclassJava.digits_d2b889e1_001::::69::::1647::::1660::::c.value) * (-1::::(b.value) / 10	0.7071067811865475
+278	introclassJava.digits_d2b889e1_001::::69::::1647::::1660::::c.value) * (-1::::(b.value) % 10	0.7071067811865475
+279	introclassJava.digits_d2b889e1_001::::69::::1647::::1660::::c.value) * (-1::::(a.value) / 10	0.7071067811865475
+280	introclassJava.digits_d2b889e1_001::::69::::1647::::1660::::c.value) * (-1::::(a.value) % 10	0.7071067811865475
+281	introclassJava.digits_d2b889e1_001::::69::::1647::::1653::::c.value::::y.value	0.7071067811865475
+282	introclassJava.digits_d2b889e1_001::::69::::1647::::1653::::c.value::::b.value	0.7071067811865475
+283	introclassJava.digits_d2b889e1_001::::69::::1647::::1653::::c.value::::a.value) * (-1	0.7071067811865475
+284	introclassJava.digits_d2b889e1_001::::69::::1647::::1653::::c.value::::a.value	0.7071067811865475
+285	introclassJava.digits_d2b889e1_001::::69::::1647::::1653::::c.value::::(b.value) / 10	0.7071067811865475
+286	introclassJava.digits_d2b889e1_001::::69::::1647::::1653::::c.value::::(b.value) % 10	0.7071067811865475
+287	introclassJava.digits_d2b889e1_001::::69::::1647::::1653::::c.value::::(a.value) / 10	0.7071067811865475
+288	introclassJava.digits_d2b889e1_001::::69::::1647::::1653::::c.value::::(a.value) % 10	0.7071067811865475
+289	introclassJava.digits_d2b889e1_001::::69::::1647::::1647::::c::::y	0.7071067811865475
+290	introclassJava.digits_d2b889e1_001::::69::::1647::::1647::::c::::b	0.7071067811865475
+291	introclassJava.digits_d2b889e1_001::::69::::1647::::1647::::c::::a	0.7071067811865475
+292	introclassJava.digits_d2b889e1_001::::69::::1637::::1661::::y.value = (c.value) * (-1)::::c.value = (b.value) % 10	0.7071067811865475
+293	introclassJava.digits_d2b889e1_001::::69::::1637::::1661::::y.value = (c.value) * (-1)::::a.value = (b.value) / 10	0.7071067811865475
+294	introclassJava.digits_d2b889e1_001::::69::::1637::::1661::::y.value = (c.value) * (-1)::::a.value = (a.value) / 10	0.7071067811865475
+295	introclassJava.digits_d2b889e1_001::::69::::1637::::1661::::y.value = (c.value) * (-1)::::a.value = (a.value) * (-1)	0.7071067811865475
+296	introclassJava.digits_d2b889e1_001::::69::::1637::::1661::::y.value = (c.value) * (-1)::::INSERT::::STATEMENT::::if (true)    return ;	0.7071067811865475
+297	introclassJava.digits_d2b889e1_001::::69::::1637::::1643::::y.value::::c.value) * (-1	0.7071067811865475
+298	introclassJava.digits_d2b889e1_001::::69::::1637::::1643::::y.value::::c.value	0.7071067811865475
+299	introclassJava.digits_d2b889e1_001::::69::::1637::::1643::::y.value::::b.value	0.7071067811865475
+300	introclassJava.digits_d2b889e1_001::::69::::1637::::1643::::y.value::::a.value) * (-1	0.7071067811865475
+301	introclassJava.digits_d2b889e1_001::::69::::1637::::1643::::y.value::::a.value	0.7071067811865475
+302	introclassJava.digits_d2b889e1_001::::69::::1637::::1643::::y.value::::(b.value) / 10	0.7071067811865475
+303	introclassJava.digits_d2b889e1_001::::69::::1637::::1643::::y.value::::(b.value) % 10	0.7071067811865475
+304	introclassJava.digits_d2b889e1_001::::69::::1637::::1643::::y.value::::(a.value) / 10	0.7071067811865475
+305	introclassJava.digits_d2b889e1_001::::69::::1637::::1643::::y.value::::(a.value) % 10	0.7071067811865475
+306	introclassJava.digits_d2b889e1_001::::69::::1637::::1637::::y::::c	0.7071067811865475
+307	introclassJava.digits_d2b889e1_001::::69::::1637::::1637::::y::::b	0.7071067811865475
+308	introclassJava.digits_d2b889e1_001::::69::::1637::::1637::::y::::a	0.7071067811865475
+309	introclassJava.digits_d2b889e1_001::::68::::1610::::1620::::(c.value) < 0::::true	0.7071067811865475
+310	introclassJava.digits_d2b889e1_001::::68::::1610::::1620::::(c.value) < 0::::(c.value) > 0	0.7071067811865475
+311	introclassJava.digits_d2b889e1_001::::68::::1610::::1620::::(c.value) < 0::::(a.value) > 0	0.7071067811865475
+312	introclassJava.digits_d2b889e1_001::::68::::1610::::1620::::(c.value) < 0::::(a.value) < 10	0.7071067811865475
+313	introclassJava.digits_d2b889e1_001::::68::::1610::::1620::::(c.value) < 0::::(a.value) < 0	0.7071067811865475
+314	introclassJava.digits_d2b889e1_001::::68::::1610::::1616::::c.value::::b.value	0.7071067811865475
+315	introclassJava.digits_d2b889e1_001::::68::::1610::::1616::::c.value::::a.value) * (-1	0.7071067811865475
+316	introclassJava.digits_d2b889e1_001::::68::::1610::::1616::::c.value::::a.value	0.7071067811865475
+317	introclassJava.digits_d2b889e1_001::::68::::1610::::1616::::c.value::::(b.value) / 10	0.7071067811865475
+318	introclassJava.digits_d2b889e1_001::::68::::1610::::1616::::c.value::::(b.value) % 10	0.7071067811865475
+319	introclassJava.digits_d2b889e1_001::::68::::1610::::1616::::c.value::::(a.value) / 10	0.7071067811865475
+320	introclassJava.digits_d2b889e1_001::::68::::1610::::1616::::c.value::::(a.value) % 10	0.7071067811865475
+321	introclassJava.digits_d2b889e1_001::::68::::1610::::1610::::c::::b	0.7071067811865475
+322	introclassJava.digits_d2b889e1_001::::68::::1610::::1610::::c::::a	0.7071067811865475
+323	introclassJava.digits_d2b889e1_001::::68::::1606::::1728::::if ((c.value) < 0) {    y.value = (c.value) * (-1);    output += java.lang.String.format("%d\n", y.value);}::::INSERT::::STATEMENT::::if (true)    return ;	0.7071067811865475
+324	introclassJava.digits_d2b889e1_001::::72::::1742::::1752::::(a.value) > 0::::true	0.5773502691896258
+325	introclassJava.digits_d2b889e1_001::::72::::1742::::1752::::(a.value) > 0::::(c.value) > 0	0.5773502691896258
+326	introclassJava.digits_d2b889e1_001::::72::::1742::::1752::::(a.value) > 0::::(c.value) < 0	0.5773502691896258
+327	introclassJava.digits_d2b889e1_001::::72::::1742::::1752::::(a.value) > 0::::(a.value) < 10	0.5773502691896258
+328	introclassJava.digits_d2b889e1_001::::72::::1742::::1752::::(a.value) > 0::::(a.value) < 0	0.5773502691896258
+329	introclassJava.digits_d2b889e1_001::::72::::1742::::1748::::a.value::::y.value	0.5773502691896258
+330	introclassJava.digits_d2b889e1_001::::72::::1742::::1748::::a.value::::c.value) * (-1	0.5773502691896258
+331	introclassJava.digits_d2b889e1_001::::72::::1742::::1748::::a.value::::c.value	0.5773502691896258
+332	introclassJava.digits_d2b889e1_001::::72::::1742::::1748::::a.value::::b.value	0.5773502691896258
+333	introclassJava.digits_d2b889e1_001::::72::::1742::::1748::::a.value::::(b.value) / 10	0.5773502691896258
+334	introclassJava.digits_d2b889e1_001::::72::::1742::::1748::::a.value::::(b.value) % 10	0.5773502691896258
+335	introclassJava.digits_d2b889e1_001::::72::::1742::::1742::::a::::y	0.5773502691896258
+336	introclassJava.digits_d2b889e1_001::::72::::1742::::1742::::a::::c	0.5773502691896258
+337	introclassJava.digits_d2b889e1_001::::72::::1742::::1742::::a::::b	0.5773502691896258
+338	introclassJava.digits_d2b889e1_001::::72::::1738::::2670::::if ((a.value) > 0) {    while ((a.value) > 0) {        x.value = (a.value) % 10;        a.value = (a.value) / 10;        output += java.lang.String.format("%d\n", x.value);        if ((a.value) < 10) {            output += java.lang.String.format("%d\nThat\'s all, have a nice day!\n", a.value);            if (true)                return ;                    }    } }else    if ((a.value) < 0) {        a.value = (a.value) * (-1);        while ((a.value) > 0) {            x.value = (a.value) % 10;            a.value = (a.value) / 10;            output += java.lang.String.format("%d\n", x.value);            if ((a.value) < 10) {                a.value = (a.value) * (-1);                output += java.lang.String.format("%d\nTHat\'s all, have a nice day~\n", a.value);            }        }     }::::INSERT::::STATEMENT::::if (true)    return ;	0.5773502691896258
+339	introclassJava.digits_d2b889e1_001::::66::::1517::::1527::::(c.value) > 0::::true	0.5773502691896258
+340	introclassJava.digits_d2b889e1_001::::66::::1517::::1527::::(c.value) > 0::::(c.value) < 0	0.5773502691896258
+341	introclassJava.digits_d2b889e1_001::::66::::1517::::1527::::(c.value) > 0::::(a.value) > 0	0.5773502691896258
+342	introclassJava.digits_d2b889e1_001::::66::::1517::::1527::::(c.value) > 0::::(a.value) < 10	0.5773502691896258
+343	introclassJava.digits_d2b889e1_001::::66::::1517::::1527::::(c.value) > 0::::(a.value) < 0	0.5773502691896258
+344	introclassJava.digits_d2b889e1_001::::66::::1517::::1523::::c.value::::b.value	0.5773502691896258
+345	introclassJava.digits_d2b889e1_001::::66::::1517::::1523::::c.value::::a.value) * (-1	0.5773502691896258
+346	introclassJava.digits_d2b889e1_001::::66::::1517::::1523::::c.value::::a.value	0.5773502691896258
+347	introclassJava.digits_d2b889e1_001::::66::::1517::::1523::::c.value::::(b.value) / 10	0.5773502691896258
+348	introclassJava.digits_d2b889e1_001::::66::::1517::::1523::::c.value::::(b.value) % 10	0.5773502691896258
+349	introclassJava.digits_d2b889e1_001::::66::::1517::::1523::::c.value::::(a.value) / 10	0.5773502691896258
+350	introclassJava.digits_d2b889e1_001::::66::::1517::::1523::::c.value::::(a.value) % 10	0.5773502691896258
+351	introclassJava.digits_d2b889e1_001::::66::::1517::::1517::::c::::b	0.5773502691896258
+352	introclassJava.digits_d2b889e1_001::::66::::1517::::1517::::c::::a	0.5773502691896258
+353	introclassJava.digits_d2b889e1_001::::66::::1513::::1728::::if ((c.value) > 0) {    output += java.lang.String.format("\n%d\n", c.value);}else    if ((c.value) < 0) {        y.value = (c.value) * (-1);        output += java.lang.String.format("%d\n", y.value);    }::::INSERT::::STATEMENT::::if (true)    return ;	0.5773502691896258
+354	introclassJava.digits_d2b889e1_001::::65::::1491::::1502::::(b.value) % 10::::value	0.5773502691896258
+355	introclassJava.digits_d2b889e1_001::::65::::1491::::1502::::(b.value) % 10::::c.value) * (-1	0.5773502691896258
+356	introclassJava.digits_d2b889e1_001::::65::::1491::::1502::::(b.value) % 10::::c.value	0.5773502691896258
+357	introclassJava.digits_d2b889e1_001::::65::::1491::::1502::::(b.value) % 10::::b.value	0.5773502691896258
+358	introclassJava.digits_d2b889e1_001::::65::::1491::::1502::::(b.value) % 10::::a.value) * (-1	0.5773502691896258
+359	introclassJava.digits_d2b889e1_001::::65::::1491::::1502::::(b.value) % 10::::a.value	0.5773502691896258
+360	introclassJava.digits_d2b889e1_001::::65::::1491::::1502::::(b.value) % 10::::10	0.5773502691896258
+361	introclassJava.digits_d2b889e1_001::::65::::1491::::1502::::(b.value) % 10::::1	0.5773502691896258
+362	introclassJava.digits_d2b889e1_001::::65::::1491::::1502::::(b.value) % 10::::0	0.5773502691896258
+363	introclassJava.digits_d2b889e1_001::::65::::1491::::1502::::(b.value) % 10::::-1	0.5773502691896258
+364	introclassJava.digits_d2b889e1_001::::65::::1491::::1502::::(b.value) % 10::::(b.value) / 10	0.5773502691896258
+365	introclassJava.digits_d2b889e1_001::::65::::1491::::1502::::(b.value) % 10::::(a.value) / 10	0.5773502691896258
+366	introclassJava.digits_d2b889e1_001::::65::::1491::::1502::::(b.value) % 10::::(a.value) % 10	0.5773502691896258
+367	introclassJava.digits_d2b889e1_001::::65::::1491::::1497::::b.value::::c.value) * (-1	0.5773502691896258
+368	introclassJava.digits_d2b889e1_001::::65::::1491::::1497::::b.value::::c.value	0.5773502691896258
+369	introclassJava.digits_d2b889e1_001::::65::::1491::::1497::::b.value::::a.value) * (-1	0.5773502691896258
+370	introclassJava.digits_d2b889e1_001::::65::::1491::::1497::::b.value::::a.value	0.5773502691896258
+371	introclassJava.digits_d2b889e1_001::::65::::1491::::1497::::b.value::::(a.value) / 10	0.5773502691896258
+372	introclassJava.digits_d2b889e1_001::::65::::1491::::1497::::b.value::::(a.value) % 10	0.5773502691896258
+373	introclassJava.digits_d2b889e1_001::::65::::1491::::1491::::b::::c	0.5773502691896258
+374	introclassJava.digits_d2b889e1_001::::65::::1491::::1491::::b::::a	0.5773502691896258
+375	introclassJava.digits_d2b889e1_001::::65::::1481::::1503::::c.value = (b.value) % 10::::a.value = (b.value) / 10	0.5773502691896258
+376	introclassJava.digits_d2b889e1_001::::65::::1481::::1503::::c.value = (b.value) % 10::::a.value = (a.value) / 10	0.5773502691896258
+377	introclassJava.digits_d2b889e1_001::::65::::1481::::1503::::c.value = (b.value) % 10::::a.value = (a.value) * (-1)	0.5773502691896258
+378	introclassJava.digits_d2b889e1_001::::65::::1481::::1503::::c.value = (b.value) % 10::::INSERT::::STATEMENT::::if (true)    return ;	0.5773502691896258
+379	introclassJava.digits_d2b889e1_001::::65::::1481::::1487::::c.value::::b.value	0.5773502691896258
+380	introclassJava.digits_d2b889e1_001::::65::::1481::::1487::::c.value::::a.value) * (-1	0.5773502691896258
+381	introclassJava.digits_d2b889e1_001::::65::::1481::::1487::::c.value::::a.value	0.5773502691896258
+382	introclassJava.digits_d2b889e1_001::::65::::1481::::1487::::c.value::::(b.value) / 10	0.5773502691896258
+383	introclassJava.digits_d2b889e1_001::::65::::1481::::1487::::c.value::::(b.value) % 10	0.5773502691896258
+384	introclassJava.digits_d2b889e1_001::::65::::1481::::1487::::c.value::::(a.value) / 10	0.5773502691896258
+385	introclassJava.digits_d2b889e1_001::::65::::1481::::1487::::c.value::::(a.value) % 10	0.5773502691896258
+386	introclassJava.digits_d2b889e1_001::::65::::1481::::1481::::c::::b	0.5773502691896258
+387	introclassJava.digits_d2b889e1_001::::65::::1481::::1481::::c::::a	0.5773502691896258
+388	introclassJava.digits_d2b889e1_001::::64::::1459::::1470::::(b.value) / 10::::value	0.5773502691896258
+389	introclassJava.digits_d2b889e1_001::::64::::1459::::1470::::(b.value) / 10::::b.value	0.5773502691896258
+390	introclassJava.digits_d2b889e1_001::::64::::1459::::1470::::(b.value) / 10::::a.value) * (-1	0.5773502691896258
+391	introclassJava.digits_d2b889e1_001::::64::::1459::::1470::::(b.value) / 10::::a.value	0.5773502691896258
+392	introclassJava.digits_d2b889e1_001::::64::::1459::::1470::::(b.value) / 10::::10	0.5773502691896258
+393	introclassJava.digits_d2b889e1_001::::64::::1459::::1470::::(b.value) / 10::::1	0.5773502691896258
+394	introclassJava.digits_d2b889e1_001::::64::::1459::::1470::::(b.value) / 10::::0	0.5773502691896258
+395	introclassJava.digits_d2b889e1_001::::64::::1459::::1470::::(b.value) / 10::::-1	0.5773502691896258
+396	introclassJava.digits_d2b889e1_001::::64::::1459::::1470::::(b.value) / 10::::(b.value) % 10	0.5773502691896258
+397	introclassJava.digits_d2b889e1_001::::64::::1459::::1470::::(b.value) / 10::::(a.value) / 10	0.5773502691896258
+398	introclassJava.digits_d2b889e1_001::::64::::1459::::1470::::(b.value) / 10::::(a.value) % 10	0.5773502691896258
+399	introclassJava.digits_d2b889e1_001::::64::::1459::::1465::::b.value::::a.value) * (-1	0.5773502691896258
+400	introclassJava.digits_d2b889e1_001::::64::::1459::::1465::::b.value::::a.value	0.5773502691896258
+401	introclassJava.digits_d2b889e1_001::::64::::1459::::1465::::b.value::::(a.value) / 10	0.5773502691896258
+402	introclassJava.digits_d2b889e1_001::::64::::1459::::1465::::b.value::::(a.value) % 10	0.5773502691896258
+403	introclassJava.digits_d2b889e1_001::::64::::1459::::1459::::b::::a	0.5773502691896258
+404	introclassJava.digits_d2b889e1_001::::64::::1449::::1471::::a.value = (b.value) / 10::::a.value = (a.value) / 10	0.5773502691896258
+405	introclassJava.digits_d2b889e1_001::::64::::1449::::1471::::a.value = (b.value) / 10::::a.value = (a.value) * (-1)	0.5773502691896258
+406	introclassJava.digits_d2b889e1_001::::64::::1449::::1471::::a.value = (b.value) / 10::::INSERT::::STATEMENT::::if (true)    return ;	0.5773502691896258
+407	introclassJava.digits_d2b889e1_001::::64::::1449::::1455::::a.value::::b.value	0.5773502691896258
+408	introclassJava.digits_d2b889e1_001::::64::::1449::::1455::::a.value::::(b.value) / 10	0.5773502691896258
+409	introclassJava.digits_d2b889e1_001::::64::::1449::::1455::::a.value::::(b.value) % 10	0.5773502691896258
+410	introclassJava.digits_d2b889e1_001::::64::::1449::::1449::::a::::b	0.5773502691896258
+411	introclassJava.digits_d2b889e1_001::::63::::1411::::1439::::b.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	0.5773502691896258
+412	introclassJava.digits_d2b889e1_001::::62::::1352::::1401::::output += java.lang.String.format("Enter an integer > ")::::INSERT::::STATEMENT::::if (true)    return ;	0.5773502691896258
+413	introclassJava.digits_d2b889e1_001::::61::::1329::::1341::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.5773502691896258
+414	introclassJava.digits_d2b889e1_001::::61::::1310::::1322::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.5773502691896258
+415	introclassJava.digits_d2b889e1_001::::61::::1230::::1342::::introclassJava.IntObj y = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.5773502691896258
+416	introclassJava.digits_d2b889e1_001::::60::::1279::::1291::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.5773502691896258
+417	introclassJava.digits_d2b889e1_001::::60::::1260::::1272::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.5773502691896258
+418	introclassJava.digits_d2b889e1_001::::60::::1241::::1253::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.5773502691896258
+419	introclassJava.digits_d2b889e1_001::::60::::1230::::1342::::introclassJava.IntObj x = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.5773502691896258
+420	introclassJava.digits_d2b889e1_001::::60::::1230::::1342::::introclassJava.IntObj c = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.5773502691896258
+421	introclassJava.digits_d2b889e1_001::::60::::1230::::1342::::introclassJava.IntObj b = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.5773502691896258
+422	introclassJava.digits_d2b889e1_001::::60::::1230::::1342::::introclassJava.IntObj a = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.5773502691896258
+423	introclassJava.digits_d2b889e1_001::::67::::1580::::1586::::c.value::::b.value	0.31622776601683794
+424	introclassJava.digits_d2b889e1_001::::67::::1580::::1586::::c.value::::a.value) * (-1	0.31622776601683794
+425	introclassJava.digits_d2b889e1_001::::67::::1580::::1586::::c.value::::a.value	0.31622776601683794
+426	introclassJava.digits_d2b889e1_001::::67::::1580::::1586::::c.value::::(b.value) / 10	0.31622776601683794
+427	introclassJava.digits_d2b889e1_001::::67::::1580::::1586::::c.value::::(b.value) % 10	0.31622776601683794
+428	introclassJava.digits_d2b889e1_001::::67::::1580::::1586::::c.value::::(a.value) / 10	0.31622776601683794
+429	introclassJava.digits_d2b889e1_001::::67::::1580::::1586::::c.value::::(a.value) % 10	0.31622776601683794
+430	introclassJava.digits_d2b889e1_001::::67::::1580::::1580::::c::::b	0.31622776601683794
+431	introclassJava.digits_d2b889e1_001::::67::::1580::::1580::::c::::a	0.31622776601683794
+432	introclassJava.digits_d2b889e1_001::::67::::1544::::1589::::output += java.lang.String.format("\n%d\n", c.value)::::INSERT::::STATEMENT::::if (true)    return ;	0.31622776601683794

@@ -1,0 +1,142 @@
+1	introclassJava.digits_317aa705_004::::68::::1642::::1647::::break::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+2	introclassJava.digits_317aa705_004::::67::::1591::::1624::::output += java.lang.String.format("0\n")::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+3	introclassJava.digits_317aa705_004::::81::::2171::::2177::::return ::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+4	introclassJava.digits_317aa705_004::::79::::2077::::2139::::output += java.lang.String.format("\nThat\'s all, have a nice day!\n")::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+5	introclassJava.digits_317aa705_004::::74::::1933::::1950::::(integer.value) != 0::::true	0.4082482904638631
+6	introclassJava.digits_317aa705_004::::74::::1933::::1950::::(integer.value) != 0::::(integer.value) == 0	0.4082482904638631
+7	introclassJava.digits_317aa705_004::::74::::1933::::1950::::(integer.value) != 0::::(i.value) <= 10	0.4082482904638631
+8	introclassJava.digits_317aa705_004::::74::::1933::::1945::::integer.value::::i.value	0.4082482904638631
+9	introclassJava.digits_317aa705_004::::74::::1933::::1945::::integer.value::::digit.value	0.4082482904638631
+10	introclassJava.digits_317aa705_004::::74::::1933::::1939::::integer::::i	0.4082482904638631
+11	introclassJava.digits_317aa705_004::::74::::1933::::1939::::integer::::digit	0.4082482904638631
+12	introclassJava.digits_317aa705_004::::74::::1910::::1922::::integer.value::::i.value	0.4082482904638631
+13	introclassJava.digits_317aa705_004::::74::::1910::::1922::::integer.value::::digit.value	0.4082482904638631
+14	introclassJava.digits_317aa705_004::::74::::1910::::1916::::integer::::i	0.4082482904638631
+15	introclassJava.digits_317aa705_004::::74::::1910::::1916::::integer::::digit	0.4082482904638631
+16	introclassJava.digits_317aa705_004::::74::::1900::::1950::::(java.lang.Math.abs(integer.value)) < 10) && ((integer.value) != 0::::true	0.4082482904638631
+17	introclassJava.digits_317aa705_004::::74::::1900::::1950::::(java.lang.Math.abs(integer.value)) < 10) && ((integer.value) != 0::::(integer.value) == 0	0.4082482904638631
+18	introclassJava.digits_317aa705_004::::74::::1900::::1950::::(java.lang.Math.abs(integer.value)) < 10) && ((integer.value) != 0::::(integer.value) != 0	0.4082482904638631
+19	introclassJava.digits_317aa705_004::::74::::1900::::1950::::(java.lang.Math.abs(integer.value)) < 10) && ((integer.value) != 0::::(i.value) <= 10	0.4082482904638631
+20	introclassJava.digits_317aa705_004::::74::::1900::::1928::::(java.lang.Math.abs(integer.value)) < 10::::true	0.4082482904638631
+21	introclassJava.digits_317aa705_004::::74::::1900::::1928::::(java.lang.Math.abs(integer.value)) < 10::::(integer.value) == 0	0.4082482904638631
+22	introclassJava.digits_317aa705_004::::74::::1900::::1928::::(java.lang.Math.abs(integer.value)) < 10::::(integer.value) != 0	0.4082482904638631
+23	introclassJava.digits_317aa705_004::::74::::1900::::1928::::(java.lang.Math.abs(integer.value)) < 10::::(i.value) <= 10	0.4082482904638631
+24	introclassJava.digits_317aa705_004::::74::::1900::::1923::::java.lang.Math.abs(integer.value)::::DELETE::::INFIX	0.4082482904638631
+25	introclassJava.digits_317aa705_004::::73::::1864::::1881::::(integer.value) / 10::::value	0.4082482904638631
+26	introclassJava.digits_317aa705_004::::73::::1864::::1881::::(integer.value) / 10::::integer.value	0.4082482904638631
+27	introclassJava.digits_317aa705_004::::73::::1864::::1881::::(integer.value) / 10::::i.value	0.4082482904638631
+28	introclassJava.digits_317aa705_004::::73::::1864::::1881::::(integer.value) / 10::::digit.value	0.4082482904638631
+29	introclassJava.digits_317aa705_004::::73::::1864::::1881::::(integer.value) / 10::::10	0.4082482904638631
+30	introclassJava.digits_317aa705_004::::73::::1864::::1881::::(integer.value) / 10::::1	0.4082482904638631
+31	introclassJava.digits_317aa705_004::::73::::1864::::1881::::(integer.value) / 10::::0	0.4082482904638631
+32	introclassJava.digits_317aa705_004::::73::::1864::::1881::::(integer.value) / 10::::(integer.value) % 10	0.4082482904638631
+33	introclassJava.digits_317aa705_004::::73::::1864::::1876::::integer.value::::i.value	0.4082482904638631
+34	introclassJava.digits_317aa705_004::::73::::1864::::1876::::integer.value::::digit.value	0.4082482904638631
+35	introclassJava.digits_317aa705_004::::73::::1864::::1870::::integer::::i	0.4082482904638631
+36	introclassJava.digits_317aa705_004::::73::::1864::::1870::::integer::::digit	0.4082482904638631
+37	introclassJava.digits_317aa705_004::::73::::1848::::1882::::integer.value = (integer.value) / 10::::i.value = 1	0.4082482904638631
+38	introclassJava.digits_317aa705_004::::73::::1848::::1882::::integer.value = (integer.value) / 10::::digit.value = 0	0.4082482904638631
+39	introclassJava.digits_317aa705_004::::73::::1848::::1882::::integer.value = (integer.value) / 10::::digit.value = (integer.value) % 10	0.4082482904638631
+40	introclassJava.digits_317aa705_004::::73::::1848::::1860::::integer.value::::i.value	0.4082482904638631
+41	introclassJava.digits_317aa705_004::::73::::1848::::1860::::integer.value::::digit.value	0.4082482904638631
+42	introclassJava.digits_317aa705_004::::73::::1848::::1854::::integer::::i	0.4082482904638631
+43	introclassJava.digits_317aa705_004::::73::::1848::::1854::::integer::::digit	0.4082482904638631
+44	introclassJava.digits_317aa705_004::::71::::1807::::1817::::digit.value::::integer.value	0.4082482904638631
+45	introclassJava.digits_317aa705_004::::71::::1807::::1817::::digit.value::::i.value	0.4082482904638631
+46	introclassJava.digits_317aa705_004::::71::::1807::::1817::::digit.value::::(integer.value) / 10	0.4082482904638631
+47	introclassJava.digits_317aa705_004::::71::::1807::::1817::::digit.value::::(integer.value) % 10	0.4082482904638631
+48	introclassJava.digits_317aa705_004::::71::::1807::::1811::::digit::::integer	0.4082482904638631
+49	introclassJava.digits_317aa705_004::::71::::1807::::1811::::digit::::i	0.4082482904638631
+50	introclassJava.digits_317aa705_004::::71::::1773::::1820::::output += java.lang.String.format("%d\n", digit.value)::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+51	introclassJava.digits_317aa705_004::::70::::1743::::1753::::digit.value::::integer.value	0.4082482904638631
+52	introclassJava.digits_317aa705_004::::70::::1743::::1753::::digit.value::::i.value	0.4082482904638631
+53	introclassJava.digits_317aa705_004::::70::::1743::::1753::::digit.value::::(integer.value) / 10	0.4082482904638631
+54	introclassJava.digits_317aa705_004::::70::::1743::::1753::::digit.value::::(integer.value) % 10	0.4082482904638631
+55	introclassJava.digits_317aa705_004::::70::::1743::::1747::::digit::::integer	0.4082482904638631
+56	introclassJava.digits_317aa705_004::::70::::1743::::1747::::digit::::i	0.4082482904638631
+57	introclassJava.digits_317aa705_004::::70::::1719::::1755::::digit.value = java.lang.Math.abs(digit.value)::::integer.value = (integer.value) / 10	0.4082482904638631
+58	introclassJava.digits_317aa705_004::::70::::1719::::1755::::digit.value = java.lang.Math.abs(digit.value)::::i.value = 1	0.4082482904638631
+59	introclassJava.digits_317aa705_004::::70::::1719::::1755::::digit.value = java.lang.Math.abs(digit.value)::::digit.value = 0	0.4082482904638631
+60	introclassJava.digits_317aa705_004::::70::::1719::::1755::::digit.value = java.lang.Math.abs(digit.value)::::digit.value = (integer.value) % 10	0.4082482904638631
+61	introclassJava.digits_317aa705_004::::70::::1719::::1755::::digit.value = java.lang.Math.abs(digit.value)::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+62	introclassJava.digits_317aa705_004::::70::::1719::::1729::::digit.value::::integer.value	0.4082482904638631
+63	introclassJava.digits_317aa705_004::::70::::1719::::1729::::digit.value::::i.value	0.4082482904638631
+64	introclassJava.digits_317aa705_004::::70::::1719::::1729::::digit.value::::(integer.value) / 10	0.4082482904638631
+65	introclassJava.digits_317aa705_004::::70::::1719::::1729::::digit.value::::(integer.value) % 10	0.4082482904638631
+66	introclassJava.digits_317aa705_004::::70::::1719::::1723::::digit::::integer	0.4082482904638631
+67	introclassJava.digits_317aa705_004::::70::::1719::::1723::::digit::::i	0.4082482904638631
+68	introclassJava.digits_317aa705_004::::69::::1682::::1692::::digit.value::::integer.value	0.4082482904638631
+69	introclassJava.digits_317aa705_004::::69::::1682::::1692::::digit.value::::i.value	0.4082482904638631
+70	introclassJava.digits_317aa705_004::::69::::1682::::1692::::digit.value::::(integer.value) / 10	0.4082482904638631
+71	introclassJava.digits_317aa705_004::::69::::1682::::1692::::digit.value::::(integer.value) % 10	0.4082482904638631
+72	introclassJava.digits_317aa705_004::::69::::1682::::1686::::digit::::integer	0.4082482904638631
+73	introclassJava.digits_317aa705_004::::69::::1682::::1686::::digit::::i	0.4082482904638631
+74	introclassJava.digits_317aa705_004::::69::::1672::::1698::::(java.lang.Math.abs(digit.value)) < 10::::true	0.4082482904638631
+75	introclassJava.digits_317aa705_004::::69::::1672::::1698::::(java.lang.Math.abs(digit.value)) < 10::::(integer.value) == 0	0.4082482904638631
+76	introclassJava.digits_317aa705_004::::69::::1672::::1698::::(java.lang.Math.abs(digit.value)) < 10::::(integer.value) != 0	0.4082482904638631
+77	introclassJava.digits_317aa705_004::::69::::1672::::1698::::(java.lang.Math.abs(digit.value)) < 10::::(i.value) <= 10	0.4082482904638631
+78	introclassJava.digits_317aa705_004::::69::::1672::::1693::::java.lang.Math.abs(digit.value)::::DELETE::::INFIX	0.4082482904638631
+79	introclassJava.digits_317aa705_004::::69::::1668::::1834::::if ((java.lang.Math.abs(digit.value)) < 10) {    digit.value = java.lang.Math.abs(digit.value);    output += java.lang.String.format("%d\n", digit.value);}::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+80	introclassJava.digits_317aa705_004::::66::::1553::::1570::::(integer.value) == 0::::true	0.4082482904638631
+81	introclassJava.digits_317aa705_004::::66::::1553::::1570::::(integer.value) == 0::::(integer.value) != 0	0.4082482904638631
+82	introclassJava.digits_317aa705_004::::66::::1553::::1570::::(integer.value) == 0::::(i.value) <= 10	0.4082482904638631
+83	introclassJava.digits_317aa705_004::::66::::1553::::1565::::integer.value::::i.value	0.4082482904638631
+84	introclassJava.digits_317aa705_004::::66::::1553::::1565::::integer.value::::digit.value	0.4082482904638631
+85	introclassJava.digits_317aa705_004::::66::::1553::::1559::::integer::::i	0.4082482904638631
+86	introclassJava.digits_317aa705_004::::66::::1553::::1559::::integer::::digit	0.4082482904638631
+87	introclassJava.digits_317aa705_004::::65::::1517::::1534::::(integer.value) % 10::::value	0.4082482904638631
+88	introclassJava.digits_317aa705_004::::65::::1517::::1534::::(integer.value) % 10::::integer.value	0.4082482904638631
+89	introclassJava.digits_317aa705_004::::65::::1517::::1534::::(integer.value) % 10::::i.value	0.4082482904638631
+90	introclassJava.digits_317aa705_004::::65::::1517::::1534::::(integer.value) % 10::::digit.value	0.4082482904638631
+91	introclassJava.digits_317aa705_004::::65::::1517::::1534::::(integer.value) % 10::::10	0.4082482904638631
+92	introclassJava.digits_317aa705_004::::65::::1517::::1534::::(integer.value) % 10::::1	0.4082482904638631
+93	introclassJava.digits_317aa705_004::::65::::1517::::1534::::(integer.value) % 10::::0	0.4082482904638631
+94	introclassJava.digits_317aa705_004::::65::::1517::::1534::::(integer.value) % 10::::(integer.value) / 10	0.4082482904638631
+95	introclassJava.digits_317aa705_004::::65::::1517::::1529::::integer.value::::i.value	0.4082482904638631
+96	introclassJava.digits_317aa705_004::::65::::1517::::1529::::integer.value::::digit.value	0.4082482904638631
+97	introclassJava.digits_317aa705_004::::65::::1517::::1523::::integer::::i	0.4082482904638631
+98	introclassJava.digits_317aa705_004::::65::::1517::::1523::::integer::::digit	0.4082482904638631
+99	introclassJava.digits_317aa705_004::::65::::1503::::1535::::digit.value = (integer.value) % 10::::integer.value = (integer.value) / 10	0.4082482904638631
+100	introclassJava.digits_317aa705_004::::65::::1503::::1535::::digit.value = (integer.value) % 10::::i.value = 1	0.4082482904638631
+101	introclassJava.digits_317aa705_004::::65::::1503::::1535::::digit.value = (integer.value) % 10::::digit.value = 0	0.4082482904638631
+102	introclassJava.digits_317aa705_004::::65::::1503::::1513::::digit.value::::integer.value	0.4082482904638631
+103	introclassJava.digits_317aa705_004::::65::::1503::::1513::::digit.value::::i.value	0.4082482904638631
+104	introclassJava.digits_317aa705_004::::65::::1503::::1513::::digit.value::::(integer.value) / 10	0.4082482904638631
+105	introclassJava.digits_317aa705_004::::65::::1503::::1513::::digit.value::::(integer.value) % 10	0.4082482904638631
+106	introclassJava.digits_317aa705_004::::65::::1503::::1507::::digit::::integer	0.4082482904638631
+107	introclassJava.digits_317aa705_004::::65::::1503::::1507::::digit::::i	0.4082482904638631
+108	introclassJava.digits_317aa705_004::::64::::1475::::1481::::i.value::::integer.value	0.4082482904638631
+109	introclassJava.digits_317aa705_004::::64::::1475::::1481::::i.value::::digit.value	0.4082482904638631
+110	introclassJava.digits_317aa705_004::::64::::1475::::1481::::i.value::::(integer.value) / 10	0.4082482904638631
+111	introclassJava.digits_317aa705_004::::64::::1475::::1481::::i.value::::(integer.value) % 10	0.4082482904638631
+112	introclassJava.digits_317aa705_004::::64::::1475::::1475::::i::::integer	0.4082482904638631
+113	introclassJava.digits_317aa705_004::::64::::1475::::1475::::i::::digit	0.4082482904638631
+114	introclassJava.digits_317aa705_004::::64::::1460::::1466::::i.value::::integer.value	0.4082482904638631
+115	introclassJava.digits_317aa705_004::::64::::1460::::1466::::i.value::::digit.value	0.4082482904638631
+116	introclassJava.digits_317aa705_004::::64::::1460::::1466::::i.value::::(integer.value) / 10	0.4082482904638631
+117	introclassJava.digits_317aa705_004::::64::::1460::::1466::::i.value::::(integer.value) % 10	0.4082482904638631
+118	introclassJava.digits_317aa705_004::::64::::1460::::1460::::i::::integer	0.4082482904638631
+119	introclassJava.digits_317aa705_004::::64::::1460::::1460::::i::::digit	0.4082482904638631
+120	introclassJava.digits_317aa705_004::::64::::1447::::1453::::i.value::::integer.value	0.4082482904638631
+121	introclassJava.digits_317aa705_004::::64::::1447::::1453::::i.value::::digit.value	0.4082482904638631
+122	introclassJava.digits_317aa705_004::::64::::1447::::1453::::i.value::::(integer.value) / 10	0.4082482904638631
+123	introclassJava.digits_317aa705_004::::64::::1447::::1453::::i.value::::(integer.value) % 10	0.4082482904638631
+124	introclassJava.digits_317aa705_004::::64::::1447::::1447::::i::::integer	0.4082482904638631
+125	introclassJava.digits_317aa705_004::::64::::1447::::1447::::i::::digit	0.4082482904638631
+126	introclassJava.digits_317aa705_004::::64::::1442::::2067::::for (i.value = 1; (i.value) <= 10; i.value += 1) {    digit.value = (integer.value) % 10;    if ((integer.value) == 0) {        output += java.lang.String.format("0\n");        break;    }else        if ((java.lang.Math.abs(digit.value)) < 10) {            digit.value = java.lang.Math.abs(digit.value);            output += java.lang.String.format("%d\n", digit.value);        }        integer.value = (integer.value) / 10;    if (((java.lang.Math.abs(integer.value)) < 10) && ((integer.value) != 0)) {        output += java.lang.String.format("%d\n", integer.value);        break;    }}::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+127	introclassJava.digits_317aa705_004::::63::::1417::::1432::::digit.value = 0::::integer.value = (integer.value) / 10	0.4082482904638631
+128	introclassJava.digits_317aa705_004::::63::::1417::::1432::::digit.value = 0::::digit.value = (integer.value) % 10	0.4082482904638631
+129	introclassJava.digits_317aa705_004::::63::::1417::::1432::::digit.value = 0::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+130	introclassJava.digits_317aa705_004::::63::::1417::::1427::::digit.value::::integer.value	0.4082482904638631
+131	introclassJava.digits_317aa705_004::::63::::1417::::1427::::digit.value::::(integer.value) / 10	0.4082482904638631
+132	introclassJava.digits_317aa705_004::::63::::1417::::1427::::digit.value::::(integer.value) % 10	0.4082482904638631
+133	introclassJava.digits_317aa705_004::::63::::1417::::1421::::digit::::integer	0.4082482904638631
+134	introclassJava.digits_317aa705_004::::62::::1373::::1407::::integer.value = scanner.nextInt()::::integer.value = (integer.value) / 10	0.4082482904638631
+135	introclassJava.digits_317aa705_004::::62::::1373::::1407::::integer.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+136	introclassJava.digits_317aa705_004::::61::::1312::::1363::::output += java.lang.String.format("\nEnter an integer > ")::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+137	introclassJava.digits_317aa705_004::::60::::1289::::1301::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.4082482904638631
+138	introclassJava.digits_317aa705_004::::60::::1266::::1278::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.4082482904638631
+139	introclassJava.digits_317aa705_004::::60::::1247::::1259::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.4082482904638631
+140	introclassJava.digits_317aa705_004::::60::::1230::::1302::::introclassJava.IntObj integer = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+141	introclassJava.digits_317aa705_004::::60::::1230::::1302::::introclassJava.IntObj i = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+142	introclassJava.digits_317aa705_004::::60::::1230::::1302::::introclassJava.IntObj digit = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631

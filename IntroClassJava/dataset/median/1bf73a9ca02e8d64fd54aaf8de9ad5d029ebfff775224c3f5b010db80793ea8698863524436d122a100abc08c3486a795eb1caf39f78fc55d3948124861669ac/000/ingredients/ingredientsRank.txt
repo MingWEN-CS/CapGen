@@ -1,0 +1,229 @@
+1	introclassJava.median_1bf73a9c_000::::78::::2114::::2120::::return ::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+2	introclassJava.median_1bf73a9c_000::::78::::2114::::2120::::return ::::INSERT::::STATEMENT::::if ((((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value)))) {    ans.value = second.value;}else {    ans.value = third.value;}	1.0
+3	introclassJava.median_1bf73a9c_000::::78::::2114::::2120::::return ::::INSERT::::STATEMENT::::if ((((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value)))) {    ans.value = first.value;}else    if ((((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value)))) {        ans.value = second.value;    }else {        ans.value = third.value;    }	1.0
+4	introclassJava.median_1bf73a9c_000::::76::::2071::::2079::::ans.value::::third.value	1.0
+5	introclassJava.median_1bf73a9c_000::::76::::2071::::2079::::ans.value::::second.value	1.0
+6	introclassJava.median_1bf73a9c_000::::76::::2071::::2079::::ans.value::::first.value	1.0
+7	introclassJava.median_1bf73a9c_000::::76::::2071::::2073::::ans::::third	1.0
+8	introclassJava.median_1bf73a9c_000::::76::::2071::::2073::::ans::::second	1.0
+9	introclassJava.median_1bf73a9c_000::::76::::2071::::2073::::ans::::first	1.0
+10	introclassJava.median_1bf73a9c_000::::76::::2023::::2082::::output += java.lang.String.format("%d is the median\n", ans.value)::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+11	introclassJava.median_1bf73a9c_000::::76::::2023::::2082::::output += java.lang.String.format("%d is the median\n", ans.value)::::INSERT::::STATEMENT::::if ((((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value)))) {    ans.value = second.value;}else {    ans.value = third.value;}	1.0
+12	introclassJava.median_1bf73a9c_000::::76::::2023::::2082::::output += java.lang.String.format("%d is the median\n", ans.value)::::INSERT::::STATEMENT::::if ((((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value)))) {    ans.value = first.value;}else    if ((((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value)))) {        ans.value = second.value;    }else {        ans.value = third.value;    }	1.0
+13	introclassJava.median_1bf73a9c_000::::67::::1621::::1631::::third.value::::second.value	1.0
+14	introclassJava.median_1bf73a9c_000::::67::::1621::::1625::::third::::second	1.0
+15	introclassJava.median_1bf73a9c_000::::67::::1621::::1625::::third::::first	1.0
+16	introclassJava.median_1bf73a9c_000::::67::::1607::::1631::::(first.value) < (third.value)::::true	1.0
+17	introclassJava.median_1bf73a9c_000::::67::::1607::::1631::::(first.value) < (third.value)::::(second.value) > (third.value)	1.0
+18	introclassJava.median_1bf73a9c_000::::67::::1607::::1631::::(first.value) < (third.value)::::(second.value) > (first.value)	1.0
+19	introclassJava.median_1bf73a9c_000::::67::::1607::::1631::::(first.value) < (third.value)::::(second.value) < (third.value)	1.0
+20	introclassJava.median_1bf73a9c_000::::67::::1607::::1631::::(first.value) < (third.value)::::(second.value) < (first.value)	1.0
+21	introclassJava.median_1bf73a9c_000::::67::::1607::::1631::::(first.value) < (third.value)::::(first.value) > (third.value)	1.0
+22	introclassJava.median_1bf73a9c_000::::67::::1607::::1631::::(first.value) < (third.value)::::(first.value) > (second.value)	1.0
+23	introclassJava.median_1bf73a9c_000::::67::::1607::::1631::::(first.value) < (third.value)::::(first.value) < (second.value)	1.0
+24	introclassJava.median_1bf73a9c_000::::67::::1607::::1631::::(first.value) < (third.value)::::((second.value) > (third.value)) && ((second.value) < (first.value))	1.0
+25	introclassJava.median_1bf73a9c_000::::67::::1607::::1631::::(first.value) < (third.value)::::((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value))	1.0
+26	introclassJava.median_1bf73a9c_000::::67::::1607::::1631::::(first.value) < (third.value)::::((second.value) > (first.value)) && ((second.value) < (third.value))	1.0
+27	introclassJava.median_1bf73a9c_000::::67::::1607::::1631::::(first.value) < (third.value)::::((first.value) > (third.value)) && ((first.value) < (second.value))	1.0
+28	introclassJava.median_1bf73a9c_000::::67::::1607::::1631::::(first.value) < (third.value)::::((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value))	1.0
+29	introclassJava.median_1bf73a9c_000::::67::::1607::::1631::::(first.value) < (third.value)::::((first.value) > (second.value)) && ((first.value) < (third.value))	1.0
+30	introclassJava.median_1bf73a9c_000::::67::::1607::::1617::::first.value::::second.value	1.0
+31	introclassJava.median_1bf73a9c_000::::67::::1607::::1611::::first::::third	1.0
+32	introclassJava.median_1bf73a9c_000::::67::::1607::::1611::::first::::second	1.0
+33	introclassJava.median_1bf73a9c_000::::67::::1591::::1602::::second.value::::third.value	1.0
+34	introclassJava.median_1bf73a9c_000::::67::::1591::::1596::::second::::third	1.0
+35	introclassJava.median_1bf73a9c_000::::67::::1591::::1596::::second::::first	1.0
+36	introclassJava.median_1bf73a9c_000::::67::::1577::::1602::::(first.value) > (second.value)::::true	1.0
+37	introclassJava.median_1bf73a9c_000::::67::::1577::::1602::::(first.value) > (second.value)::::(second.value) > (third.value)	1.0
+38	introclassJava.median_1bf73a9c_000::::67::::1577::::1602::::(first.value) > (second.value)::::(second.value) > (first.value)	1.0
+39	introclassJava.median_1bf73a9c_000::::67::::1577::::1602::::(first.value) > (second.value)::::(second.value) < (third.value)	1.0
+40	introclassJava.median_1bf73a9c_000::::67::::1577::::1602::::(first.value) > (second.value)::::(second.value) < (first.value)	1.0
+41	introclassJava.median_1bf73a9c_000::::67::::1577::::1602::::(first.value) > (second.value)::::(first.value) > (third.value)	1.0
+42	introclassJava.median_1bf73a9c_000::::67::::1577::::1602::::(first.value) > (second.value)::::(first.value) < (third.value)	1.0
+43	introclassJava.median_1bf73a9c_000::::67::::1577::::1602::::(first.value) > (second.value)::::(first.value) < (second.value)	1.0
+44	introclassJava.median_1bf73a9c_000::::67::::1577::::1602::::(first.value) > (second.value)::::((second.value) > (third.value)) && ((second.value) < (first.value))	1.0
+45	introclassJava.median_1bf73a9c_000::::67::::1577::::1602::::(first.value) > (second.value)::::((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value))	1.0
+46	introclassJava.median_1bf73a9c_000::::67::::1577::::1602::::(first.value) > (second.value)::::((second.value) > (first.value)) && ((second.value) < (third.value))	1.0
+47	introclassJava.median_1bf73a9c_000::::67::::1577::::1602::::(first.value) > (second.value)::::((first.value) > (third.value)) && ((first.value) < (second.value))	1.0
+48	introclassJava.median_1bf73a9c_000::::67::::1577::::1602::::(first.value) > (second.value)::::((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value))	1.0
+49	introclassJava.median_1bf73a9c_000::::67::::1577::::1602::::(first.value) > (second.value)::::((first.value) > (second.value)) && ((first.value) < (third.value))	1.0
+50	introclassJava.median_1bf73a9c_000::::67::::1577::::1587::::first.value::::third.value	1.0
+51	introclassJava.median_1bf73a9c_000::::67::::1577::::1581::::first::::third	1.0
+52	introclassJava.median_1bf73a9c_000::::67::::1577::::1581::::first::::second	1.0
+53	introclassJava.median_1bf73a9c_000::::67::::1576::::1709::::((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value))::::true	1.0
+54	introclassJava.median_1bf73a9c_000::::67::::1576::::1709::::((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value))::::(second.value) > (third.value)	1.0
+55	introclassJava.median_1bf73a9c_000::::67::::1576::::1709::::((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value))::::(second.value) > (first.value)	1.0
+56	introclassJava.median_1bf73a9c_000::::67::::1576::::1709::::((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value))::::(second.value) < (third.value)	1.0
+57	introclassJava.median_1bf73a9c_000::::67::::1576::::1709::::((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value))::::(second.value) < (first.value)	1.0
+58	introclassJava.median_1bf73a9c_000::::67::::1576::::1709::::((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value))::::(first.value) > (third.value)	1.0
+59	introclassJava.median_1bf73a9c_000::::67::::1576::::1709::::((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value))::::(first.value) > (second.value)	1.0
+60	introclassJava.median_1bf73a9c_000::::67::::1576::::1709::::((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value))::::(first.value) < (third.value)	1.0
+61	introclassJava.median_1bf73a9c_000::::67::::1576::::1709::::((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value))::::(first.value) < (second.value)	1.0
+62	introclassJava.median_1bf73a9c_000::::67::::1576::::1709::::((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value))::::((second.value) > (third.value)) && ((second.value) < (first.value))	1.0
+63	introclassJava.median_1bf73a9c_000::::67::::1576::::1709::::((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value))::::((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value))	1.0
+64	introclassJava.median_1bf73a9c_000::::67::::1576::::1709::::((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value))::::((second.value) > (first.value)) && ((second.value) < (third.value))	1.0
+65	introclassJava.median_1bf73a9c_000::::67::::1576::::1709::::((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value))::::((first.value) > (third.value)) && ((first.value) < (second.value))	1.0
+66	introclassJava.median_1bf73a9c_000::::67::::1576::::1709::::((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value))::::((first.value) > (second.value)) && ((first.value) < (third.value))	1.0
+67	introclassJava.median_1bf73a9c_000::::67::::1576::::1632::::((first.value) > (second.value)) && ((first.value) < (third.value))::::true	1.0
+68	introclassJava.median_1bf73a9c_000::::67::::1576::::1632::::((first.value) > (second.value)) && ((first.value) < (third.value))::::(second.value) > (third.value)	1.0
+69	introclassJava.median_1bf73a9c_000::::67::::1576::::1632::::((first.value) > (second.value)) && ((first.value) < (third.value))::::(second.value) > (first.value)	1.0
+70	introclassJava.median_1bf73a9c_000::::67::::1576::::1632::::((first.value) > (second.value)) && ((first.value) < (third.value))::::(second.value) < (third.value)	1.0
+71	introclassJava.median_1bf73a9c_000::::67::::1576::::1632::::((first.value) > (second.value)) && ((first.value) < (third.value))::::(second.value) < (first.value)	1.0
+72	introclassJava.median_1bf73a9c_000::::67::::1576::::1632::::((first.value) > (second.value)) && ((first.value) < (third.value))::::(first.value) > (third.value)	1.0
+73	introclassJava.median_1bf73a9c_000::::67::::1576::::1632::::((first.value) > (second.value)) && ((first.value) < (third.value))::::(first.value) > (second.value)	1.0
+74	introclassJava.median_1bf73a9c_000::::67::::1576::::1632::::((first.value) > (second.value)) && ((first.value) < (third.value))::::(first.value) < (third.value)	1.0
+75	introclassJava.median_1bf73a9c_000::::67::::1576::::1632::::((first.value) > (second.value)) && ((first.value) < (third.value))::::(first.value) < (second.value)	1.0
+76	introclassJava.median_1bf73a9c_000::::67::::1576::::1632::::((first.value) > (second.value)) && ((first.value) < (third.value))::::((second.value) > (third.value)) && ((second.value) < (first.value))	1.0
+77	introclassJava.median_1bf73a9c_000::::67::::1576::::1632::::((first.value) > (second.value)) && ((first.value) < (third.value))::::((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value))	1.0
+78	introclassJava.median_1bf73a9c_000::::67::::1576::::1632::::((first.value) > (second.value)) && ((first.value) < (third.value))::::((second.value) > (first.value)) && ((second.value) < (third.value))	1.0
+79	introclassJava.median_1bf73a9c_000::::67::::1576::::1632::::((first.value) > (second.value)) && ((first.value) < (third.value))::::((first.value) > (third.value)) && ((first.value) < (second.value))	1.0
+80	introclassJava.median_1bf73a9c_000::::67::::1576::::1632::::((first.value) > (second.value)) && ((first.value) < (third.value))::::((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value))	1.0
+81	introclassJava.median_1bf73a9c_000::::67::::1572::::2013::::if ((((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value)))) {    ans.value = first.value;}else    if ((((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value)))) {        ans.value = second.value;    }else {        ans.value = third.value;    }::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+82	introclassJava.median_1bf73a9c_000::::66::::1530::::1562::::third.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+83	introclassJava.median_1bf73a9c_000::::66::::1530::::1540::::third.value::::second.value	1.0
+84	introclassJava.median_1bf73a9c_000::::66::::1530::::1540::::third.value::::first.value	1.0
+85	introclassJava.median_1bf73a9c_000::::66::::1530::::1534::::third::::second	1.0
+86	introclassJava.median_1bf73a9c_000::::66::::1530::::1534::::third::::first	1.0
+87	introclassJava.median_1bf73a9c_000::::65::::1487::::1520::::second.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+88	introclassJava.median_1bf73a9c_000::::65::::1487::::1498::::second.value::::first.value	1.0
+89	introclassJava.median_1bf73a9c_000::::65::::1487::::1492::::second::::first	1.0
+90	introclassJava.median_1bf73a9c_000::::64::::1445::::1477::::first.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+91	introclassJava.median_1bf73a9c_000::::62::::1348::::1435::::output += java.lang.String.format("Please enter 3 numbers separeted by spaces > ")::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+92	introclassJava.median_1bf73a9c_000::::61::::1325::::1337::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	1.0
+93	introclassJava.median_1bf73a9c_000::::61::::1304::::1316::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	1.0
+94	introclassJava.median_1bf73a9c_000::::61::::1230::::1338::::introclassJava.IntObj ans = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+95	introclassJava.median_1bf73a9c_000::::60::::1269::::1281::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	1.0
+96	introclassJava.median_1bf73a9c_000::::60::::1245::::1257::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	1.0
+97	introclassJava.median_1bf73a9c_000::::60::::1230::::1338::::introclassJava.IntObj third = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+98	introclassJava.median_1bf73a9c_000::::60::::1230::::1338::::introclassJava.IntObj second = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+99	introclassJava.median_1bf73a9c_000::::60::::1230::::1338::::introclassJava.IntObj first = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+100	introclassJava.median_1bf73a9c_000::::70::::1816::::1826::::third.value::::first.value	0.8451542547285166
+101	introclassJava.median_1bf73a9c_000::::70::::1816::::1826::::third.value::::ans.value	0.8451542547285166
+102	introclassJava.median_1bf73a9c_000::::70::::1816::::1820::::third::::second	0.8451542547285166
+103	introclassJava.median_1bf73a9c_000::::70::::1816::::1820::::third::::first	0.8451542547285166
+104	introclassJava.median_1bf73a9c_000::::70::::1816::::1820::::third::::ans	0.8451542547285166
+105	introclassJava.median_1bf73a9c_000::::70::::1801::::1826::::(second.value) < (third.value)::::true	0.8451542547285166
+106	introclassJava.median_1bf73a9c_000::::70::::1801::::1826::::(second.value) < (third.value)::::(second.value) > (third.value)	0.8451542547285166
+107	introclassJava.median_1bf73a9c_000::::70::::1801::::1826::::(second.value) < (third.value)::::(second.value) > (first.value)	0.8451542547285166
+108	introclassJava.median_1bf73a9c_000::::70::::1801::::1826::::(second.value) < (third.value)::::(second.value) < (first.value)	0.8451542547285166
+109	introclassJava.median_1bf73a9c_000::::70::::1801::::1826::::(second.value) < (third.value)::::(first.value) > (third.value)	0.8451542547285166
+110	introclassJava.median_1bf73a9c_000::::70::::1801::::1826::::(second.value) < (third.value)::::(first.value) > (second.value)	0.8451542547285166
+111	introclassJava.median_1bf73a9c_000::::70::::1801::::1826::::(second.value) < (third.value)::::(first.value) < (third.value)	0.8451542547285166
+112	introclassJava.median_1bf73a9c_000::::70::::1801::::1826::::(second.value) < (third.value)::::(first.value) < (second.value)	0.8451542547285166
+113	introclassJava.median_1bf73a9c_000::::70::::1801::::1826::::(second.value) < (third.value)::::((second.value) > (third.value)) && ((second.value) < (first.value))	0.8451542547285166
+114	introclassJava.median_1bf73a9c_000::::70::::1801::::1826::::(second.value) < (third.value)::::((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value))	0.8451542547285166
+115	introclassJava.median_1bf73a9c_000::::70::::1801::::1826::::(second.value) < (third.value)::::((second.value) > (first.value)) && ((second.value) < (third.value))	0.8451542547285166
+116	introclassJava.median_1bf73a9c_000::::70::::1801::::1826::::(second.value) < (third.value)::::((first.value) > (third.value)) && ((first.value) < (second.value))	0.8451542547285166
+117	introclassJava.median_1bf73a9c_000::::70::::1801::::1826::::(second.value) < (third.value)::::((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value))	0.8451542547285166
+118	introclassJava.median_1bf73a9c_000::::70::::1801::::1826::::(second.value) < (third.value)::::((first.value) > (second.value)) && ((first.value) < (third.value))	0.8451542547285166
+119	introclassJava.median_1bf73a9c_000::::70::::1801::::1812::::second.value::::first.value	0.8451542547285166
+120	introclassJava.median_1bf73a9c_000::::70::::1801::::1812::::second.value::::ans.value	0.8451542547285166
+121	introclassJava.median_1bf73a9c_000::::70::::1801::::1806::::second::::third	0.8451542547285166
+122	introclassJava.median_1bf73a9c_000::::70::::1801::::1806::::second::::first	0.8451542547285166
+123	introclassJava.median_1bf73a9c_000::::70::::1801::::1806::::second::::ans	0.8451542547285166
+124	introclassJava.median_1bf73a9c_000::::70::::1786::::1796::::first.value::::third.value	0.8451542547285166
+125	introclassJava.median_1bf73a9c_000::::70::::1786::::1796::::first.value::::ans.value	0.8451542547285166
+126	introclassJava.median_1bf73a9c_000::::70::::1786::::1790::::first::::third	0.8451542547285166
+127	introclassJava.median_1bf73a9c_000::::70::::1786::::1790::::first::::second	0.8451542547285166
+128	introclassJava.median_1bf73a9c_000::::70::::1786::::1790::::first::::ans	0.8451542547285166
+129	introclassJava.median_1bf73a9c_000::::70::::1771::::1796::::(second.value) > (first.value)::::true	0.8451542547285166
+130	introclassJava.median_1bf73a9c_000::::70::::1771::::1796::::(second.value) > (first.value)::::(second.value) > (third.value)	0.8451542547285166
+131	introclassJava.median_1bf73a9c_000::::70::::1771::::1796::::(second.value) > (first.value)::::(second.value) < (third.value)	0.8451542547285166
+132	introclassJava.median_1bf73a9c_000::::70::::1771::::1796::::(second.value) > (first.value)::::(second.value) < (first.value)	0.8451542547285166
+133	introclassJava.median_1bf73a9c_000::::70::::1771::::1796::::(second.value) > (first.value)::::(first.value) > (third.value)	0.8451542547285166
+134	introclassJava.median_1bf73a9c_000::::70::::1771::::1796::::(second.value) > (first.value)::::(first.value) > (second.value)	0.8451542547285166
+135	introclassJava.median_1bf73a9c_000::::70::::1771::::1796::::(second.value) > (first.value)::::(first.value) < (third.value)	0.8451542547285166
+136	introclassJava.median_1bf73a9c_000::::70::::1771::::1796::::(second.value) > (first.value)::::(first.value) < (second.value)	0.8451542547285166
+137	introclassJava.median_1bf73a9c_000::::70::::1771::::1796::::(second.value) > (first.value)::::((second.value) > (third.value)) && ((second.value) < (first.value))	0.8451542547285166
+138	introclassJava.median_1bf73a9c_000::::70::::1771::::1796::::(second.value) > (first.value)::::((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value))	0.8451542547285166
+139	introclassJava.median_1bf73a9c_000::::70::::1771::::1796::::(second.value) > (first.value)::::((second.value) > (first.value)) && ((second.value) < (third.value))	0.8451542547285166
+140	introclassJava.median_1bf73a9c_000::::70::::1771::::1796::::(second.value) > (first.value)::::((first.value) > (third.value)) && ((first.value) < (second.value))	0.8451542547285166
+141	introclassJava.median_1bf73a9c_000::::70::::1771::::1796::::(second.value) > (first.value)::::((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value))	0.8451542547285166
+142	introclassJava.median_1bf73a9c_000::::70::::1771::::1796::::(second.value) > (first.value)::::((first.value) > (second.value)) && ((first.value) < (third.value))	0.8451542547285166
+143	introclassJava.median_1bf73a9c_000::::70::::1771::::1782::::second.value::::third.value	0.8451542547285166
+144	introclassJava.median_1bf73a9c_000::::70::::1771::::1782::::second.value::::ans.value	0.8451542547285166
+145	introclassJava.median_1bf73a9c_000::::70::::1771::::1776::::second::::third	0.8451542547285166
+146	introclassJava.median_1bf73a9c_000::::70::::1771::::1776::::second::::first	0.8451542547285166
+147	introclassJava.median_1bf73a9c_000::::70::::1771::::1776::::second::::ans	0.8451542547285166
+148	introclassJava.median_1bf73a9c_000::::70::::1770::::1908::::((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value))::::true	0.8451542547285166
+149	introclassJava.median_1bf73a9c_000::::70::::1770::::1908::::((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value))::::(second.value) > (third.value)	0.8451542547285166
+150	introclassJava.median_1bf73a9c_000::::70::::1770::::1908::::((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value))::::(second.value) > (first.value)	0.8451542547285166
+151	introclassJava.median_1bf73a9c_000::::70::::1770::::1908::::((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value))::::(second.value) < (third.value)	0.8451542547285166
+152	introclassJava.median_1bf73a9c_000::::70::::1770::::1908::::((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value))::::(second.value) < (first.value)	0.8451542547285166
+153	introclassJava.median_1bf73a9c_000::::70::::1770::::1908::::((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value))::::(first.value) > (third.value)	0.8451542547285166
+154	introclassJava.median_1bf73a9c_000::::70::::1770::::1908::::((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value))::::(first.value) > (second.value)	0.8451542547285166
+155	introclassJava.median_1bf73a9c_000::::70::::1770::::1908::::((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value))::::(first.value) < (third.value)	0.8451542547285166
+156	introclassJava.median_1bf73a9c_000::::70::::1770::::1908::::((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value))::::(first.value) < (second.value)	0.8451542547285166
+157	introclassJava.median_1bf73a9c_000::::70::::1770::::1908::::((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value))::::((second.value) > (third.value)) && ((second.value) < (first.value))	0.8451542547285166
+158	introclassJava.median_1bf73a9c_000::::70::::1770::::1908::::((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value))::::((second.value) > (first.value)) && ((second.value) < (third.value))	0.8451542547285166
+159	introclassJava.median_1bf73a9c_000::::70::::1770::::1908::::((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value))::::((first.value) > (third.value)) && ((first.value) < (second.value))	0.8451542547285166
+160	introclassJava.median_1bf73a9c_000::::70::::1770::::1908::::((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value))::::((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value))	0.8451542547285166
+161	introclassJava.median_1bf73a9c_000::::70::::1770::::1908::::((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value))::::((first.value) > (second.value)) && ((first.value) < (third.value))	0.8451542547285166
+162	introclassJava.median_1bf73a9c_000::::70::::1770::::1827::::((second.value) > (first.value)) && ((second.value) < (third.value))::::true	0.8451542547285166
+163	introclassJava.median_1bf73a9c_000::::70::::1770::::1827::::((second.value) > (first.value)) && ((second.value) < (third.value))::::(second.value) > (third.value)	0.8451542547285166
+164	introclassJava.median_1bf73a9c_000::::70::::1770::::1827::::((second.value) > (first.value)) && ((second.value) < (third.value))::::(second.value) > (first.value)	0.8451542547285166
+165	introclassJava.median_1bf73a9c_000::::70::::1770::::1827::::((second.value) > (first.value)) && ((second.value) < (third.value))::::(second.value) < (third.value)	0.8451542547285166
+166	introclassJava.median_1bf73a9c_000::::70::::1770::::1827::::((second.value) > (first.value)) && ((second.value) < (third.value))::::(second.value) < (first.value)	0.8451542547285166
+167	introclassJava.median_1bf73a9c_000::::70::::1770::::1827::::((second.value) > (first.value)) && ((second.value) < (third.value))::::(first.value) > (third.value)	0.8451542547285166
+168	introclassJava.median_1bf73a9c_000::::70::::1770::::1827::::((second.value) > (first.value)) && ((second.value) < (third.value))::::(first.value) > (second.value)	0.8451542547285166
+169	introclassJava.median_1bf73a9c_000::::70::::1770::::1827::::((second.value) > (first.value)) && ((second.value) < (third.value))::::(first.value) < (third.value)	0.8451542547285166
+170	introclassJava.median_1bf73a9c_000::::70::::1770::::1827::::((second.value) > (first.value)) && ((second.value) < (third.value))::::(first.value) < (second.value)	0.8451542547285166
+171	introclassJava.median_1bf73a9c_000::::70::::1770::::1827::::((second.value) > (first.value)) && ((second.value) < (third.value))::::((second.value) > (third.value)) && ((second.value) < (first.value))	0.8451542547285166
+172	introclassJava.median_1bf73a9c_000::::70::::1770::::1827::::((second.value) > (first.value)) && ((second.value) < (third.value))::::((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value))	0.8451542547285166
+173	introclassJava.median_1bf73a9c_000::::70::::1770::::1827::::((second.value) > (first.value)) && ((second.value) < (third.value))::::((first.value) > (third.value)) && ((first.value) < (second.value))	0.8451542547285166
+174	introclassJava.median_1bf73a9c_000::::70::::1770::::1827::::((second.value) > (first.value)) && ((second.value) < (third.value))::::((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value))	0.8451542547285166
+175	introclassJava.median_1bf73a9c_000::::70::::1770::::1827::::((second.value) > (first.value)) && ((second.value) < (third.value))::::((first.value) > (second.value)) && ((first.value) < (third.value))	0.8451542547285166
+176	introclassJava.median_1bf73a9c_000::::70::::1766::::2013::::if ((((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value)))) {    ans.value = second.value;}else {    ans.value = third.value;}::::INSERT::::STATEMENT::::if (true)    return ;	0.8451542547285166
+177	introclassJava.median_1bf73a9c_000::::70::::1766::::2013::::if ((((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value)))) {    ans.value = second.value;}else {    ans.value = third.value;}::::INSERT::::STATEMENT::::if ((((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value)))) {    ans.value = second.value;}else {    ans.value = third.value;}	0.8451542547285166
+178	introclassJava.median_1bf73a9c_000::::70::::1766::::2013::::if ((((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value)))) {    ans.value = second.value;}else {    ans.value = third.value;}::::INSERT::::STATEMENT::::if ((((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value)))) {    ans.value = first.value;}else    if ((((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value)))) {        ans.value = second.value;    }else {        ans.value = third.value;    }	0.8451542547285166
+179	introclassJava.median_1bf73a9c_000::::74::::1992::::2002::::third.value::::second.value	0.6546536707079772
+180	introclassJava.median_1bf73a9c_000::::74::::1992::::2002::::third.value::::first.value	0.6546536707079772
+181	introclassJava.median_1bf73a9c_000::::74::::1992::::2002::::third.value::::ans.value	0.6546536707079772
+182	introclassJava.median_1bf73a9c_000::::74::::1992::::1996::::third::::second	0.6546536707079772
+183	introclassJava.median_1bf73a9c_000::::74::::1992::::1996::::third::::first	0.6546536707079772
+184	introclassJava.median_1bf73a9c_000::::74::::1992::::1996::::third::::ans	0.6546536707079772
+185	introclassJava.median_1bf73a9c_000::::74::::1980::::2003::::ans.value = third.value::::ans.value = second.value	0.6546536707079772
+186	introclassJava.median_1bf73a9c_000::::74::::1980::::2003::::ans.value = third.value::::ans.value = first.value	0.6546536707079772
+187	introclassJava.median_1bf73a9c_000::::74::::1980::::2003::::ans.value = third.value::::INSERT::::STATEMENT::::if (true)    return ;	0.6546536707079772
+188	introclassJava.median_1bf73a9c_000::::74::::1980::::2003::::ans.value = third.value::::INSERT::::STATEMENT::::if ((((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value)))) {    ans.value = second.value;}else {    ans.value = third.value;}	0.6546536707079772
+189	introclassJava.median_1bf73a9c_000::::74::::1980::::2003::::ans.value = third.value::::INSERT::::STATEMENT::::if ((((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value)))) {    ans.value = first.value;}else    if ((((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value)))) {        ans.value = second.value;    }else {        ans.value = third.value;    }	0.6546536707079772
+190	introclassJava.median_1bf73a9c_000::::74::::1980::::1988::::ans.value::::third.value	0.6546536707079772
+191	introclassJava.median_1bf73a9c_000::::74::::1980::::1988::::ans.value::::second.value	0.6546536707079772
+192	introclassJava.median_1bf73a9c_000::::74::::1980::::1988::::ans.value::::first.value	0.6546536707079772
+193	introclassJava.median_1bf73a9c_000::::74::::1980::::1982::::ans::::third	0.6546536707079772
+194	introclassJava.median_1bf73a9c_000::::74::::1980::::1982::::ans::::second	0.6546536707079772
+195	introclassJava.median_1bf73a9c_000::::74::::1980::::1982::::ans::::first	0.6546536707079772
+196	introclassJava.median_1bf73a9c_000::::72::::1937::::1948::::second.value::::third.value	0.5345224838248488
+197	introclassJava.median_1bf73a9c_000::::72::::1937::::1948::::second.value::::first.value	0.5345224838248488
+198	introclassJava.median_1bf73a9c_000::::72::::1937::::1948::::second.value::::ans.value	0.5345224838248488
+199	introclassJava.median_1bf73a9c_000::::72::::1937::::1942::::second::::third	0.5345224838248488
+200	introclassJava.median_1bf73a9c_000::::72::::1937::::1942::::second::::first	0.5345224838248488
+201	introclassJava.median_1bf73a9c_000::::72::::1937::::1942::::second::::ans	0.5345224838248488
+202	introclassJava.median_1bf73a9c_000::::72::::1925::::1949::::ans.value = second.value::::ans.value = third.value	0.5345224838248488
+203	introclassJava.median_1bf73a9c_000::::72::::1925::::1949::::ans.value = second.value::::ans.value = first.value	0.5345224838248488
+204	introclassJava.median_1bf73a9c_000::::72::::1925::::1949::::ans.value = second.value::::INSERT::::STATEMENT::::if (true)    return ;	0.5345224838248488
+205	introclassJava.median_1bf73a9c_000::::72::::1925::::1949::::ans.value = second.value::::INSERT::::STATEMENT::::if ((((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value)))) {    ans.value = second.value;}else {    ans.value = third.value;}	0.5345224838248488
+206	introclassJava.median_1bf73a9c_000::::72::::1925::::1949::::ans.value = second.value::::INSERT::::STATEMENT::::if ((((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value)))) {    ans.value = first.value;}else    if ((((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value)))) {        ans.value = second.value;    }else {        ans.value = third.value;    }	0.5345224838248488
+207	introclassJava.median_1bf73a9c_000::::72::::1925::::1933::::ans.value::::third.value	0.5345224838248488
+208	introclassJava.median_1bf73a9c_000::::72::::1925::::1933::::ans.value::::second.value	0.5345224838248488
+209	introclassJava.median_1bf73a9c_000::::72::::1925::::1933::::ans.value::::first.value	0.5345224838248488
+210	introclassJava.median_1bf73a9c_000::::72::::1925::::1927::::ans::::third	0.5345224838248488
+211	introclassJava.median_1bf73a9c_000::::72::::1925::::1927::::ans::::second	0.5345224838248488
+212	introclassJava.median_1bf73a9c_000::::72::::1925::::1927::::ans::::first	0.5345224838248488
+213	introclassJava.median_1bf73a9c_000::::69::::1738::::1748::::first.value::::third.value	0.5345224838248488
+214	introclassJava.median_1bf73a9c_000::::69::::1738::::1748::::first.value::::second.value	0.5345224838248488
+215	introclassJava.median_1bf73a9c_000::::69::::1738::::1748::::first.value::::ans.value	0.5345224838248488
+216	introclassJava.median_1bf73a9c_000::::69::::1738::::1742::::first::::third	0.5345224838248488
+217	introclassJava.median_1bf73a9c_000::::69::::1738::::1742::::first::::second	0.5345224838248488
+218	introclassJava.median_1bf73a9c_000::::69::::1738::::1742::::first::::ans	0.5345224838248488
+219	introclassJava.median_1bf73a9c_000::::69::::1726::::1749::::ans.value = first.value::::ans.value = third.value	0.5345224838248488
+220	introclassJava.median_1bf73a9c_000::::69::::1726::::1749::::ans.value = first.value::::ans.value = second.value	0.5345224838248488
+221	introclassJava.median_1bf73a9c_000::::69::::1726::::1749::::ans.value = first.value::::INSERT::::STATEMENT::::if (true)    return ;	0.5345224838248488
+222	introclassJava.median_1bf73a9c_000::::69::::1726::::1749::::ans.value = first.value::::INSERT::::STATEMENT::::if ((((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value)))) {    ans.value = second.value;}else {    ans.value = third.value;}	0.5345224838248488
+223	introclassJava.median_1bf73a9c_000::::69::::1726::::1749::::ans.value = first.value::::INSERT::::STATEMENT::::if ((((first.value) > (second.value)) && ((first.value) < (third.value))) || (((first.value) > (third.value)) && ((first.value) < (second.value)))) {    ans.value = first.value;}else    if ((((second.value) > (first.value)) && ((second.value) < (third.value))) || (((second.value) > (third.value)) && ((second.value) < (first.value)))) {        ans.value = second.value;    }else {        ans.value = third.value;    }	0.5345224838248488
+224	introclassJava.median_1bf73a9c_000::::69::::1726::::1734::::ans.value::::third.value	0.5345224838248488
+225	introclassJava.median_1bf73a9c_000::::69::::1726::::1734::::ans.value::::second.value	0.5345224838248488
+226	introclassJava.median_1bf73a9c_000::::69::::1726::::1734::::ans.value::::first.value	0.5345224838248488
+227	introclassJava.median_1bf73a9c_000::::69::::1726::::1728::::ans::::third	0.5345224838248488
+228	introclassJava.median_1bf73a9c_000::::69::::1726::::1728::::ans::::second	0.5345224838248488
+229	introclassJava.median_1bf73a9c_000::::69::::1726::::1728::::ans::::first	0.5345224838248488

@@ -1,0 +1,238 @@
+1	introclassJava.median_15cb07a7_003::::88::::2287::::2293::::return ::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+2	introclassJava.median_15cb07a7_003::::88::::2287::::2293::::return ::::INSERT::::STATEMENT::::if ((scnd.value) <= (thrd.value)) {    cmp2.value = scnd.value;}else {    cmp2.value = thrd.value;}	1.0
+3	introclassJava.median_15cb07a7_003::::88::::2287::::2293::::return ::::INSERT::::STATEMENT::::if ((frst.value) <= (scnd.value)) {    cmp1.value = frst.value;}else {    cmp1.value = scnd.value;}	1.0
+4	introclassJava.median_15cb07a7_003::::88::::2287::::2293::::return ::::INSERT::::STATEMENT::::if ((cmp1.value) >= (cmp2.value)) {    med.value = cmp1.value;}else {    med.value = cmp2.value;}	1.0
+5	introclassJava.median_15cb07a7_003::::86::::2244::::2252::::med.value::::thrd.value	1.0
+6	introclassJava.median_15cb07a7_003::::86::::2244::::2252::::med.value::::scnd.value	1.0
+7	introclassJava.median_15cb07a7_003::::86::::2244::::2252::::med.value::::frst.value	1.0
+8	introclassJava.median_15cb07a7_003::::86::::2244::::2252::::med.value::::cmp2.value	1.0
+9	introclassJava.median_15cb07a7_003::::86::::2244::::2252::::med.value::::cmp1.value	1.0
+10	introclassJava.median_15cb07a7_003::::86::::2244::::2246::::med::::thrd	1.0
+11	introclassJava.median_15cb07a7_003::::86::::2244::::2246::::med::::scnd	1.0
+12	introclassJava.median_15cb07a7_003::::86::::2244::::2246::::med::::frst	1.0
+13	introclassJava.median_15cb07a7_003::::86::::2244::::2246::::med::::cmp2	1.0
+14	introclassJava.median_15cb07a7_003::::86::::2244::::2246::::med::::cmp1	1.0
+15	introclassJava.median_15cb07a7_003::::86::::2196::::2255::::output += java.lang.String.format("%d is the median\n", med.value)::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+16	introclassJava.median_15cb07a7_003::::86::::2196::::2255::::output += java.lang.String.format("%d is the median\n", med.value)::::INSERT::::STATEMENT::::if ((scnd.value) <= (thrd.value)) {    cmp2.value = scnd.value;}else {    cmp2.value = thrd.value;}	1.0
+17	introclassJava.median_15cb07a7_003::::86::::2196::::2255::::output += java.lang.String.format("%d is the median\n", med.value)::::INSERT::::STATEMENT::::if ((frst.value) <= (scnd.value)) {    cmp1.value = frst.value;}else {    cmp1.value = scnd.value;}	1.0
+18	introclassJava.median_15cb07a7_003::::86::::2196::::2255::::output += java.lang.String.format("%d is the median\n", med.value)::::INSERT::::STATEMENT::::if ((cmp1.value) >= (cmp2.value)) {    med.value = cmp1.value;}else {    med.value = cmp2.value;}	1.0
+19	introclassJava.median_15cb07a7_003::::85::::2174::::2183::::cmp2.value::::thrd.value	1.0
+20	introclassJava.median_15cb07a7_003::::85::::2174::::2183::::cmp2.value::::scnd.value	1.0
+21	introclassJava.median_15cb07a7_003::::85::::2174::::2183::::cmp2.value::::med.value	1.0
+22	introclassJava.median_15cb07a7_003::::85::::2174::::2183::::cmp2.value::::frst.value	1.0
+23	introclassJava.median_15cb07a7_003::::85::::2174::::2183::::cmp2.value::::cmp1.value	1.0
+24	introclassJava.median_15cb07a7_003::::85::::2174::::2177::::cmp2::::thrd	1.0
+25	introclassJava.median_15cb07a7_003::::85::::2174::::2177::::cmp2::::scnd	1.0
+26	introclassJava.median_15cb07a7_003::::85::::2174::::2177::::cmp2::::med	1.0
+27	introclassJava.median_15cb07a7_003::::85::::2174::::2177::::cmp2::::frst	1.0
+28	introclassJava.median_15cb07a7_003::::85::::2174::::2177::::cmp2::::cmp1	1.0
+29	introclassJava.median_15cb07a7_003::::85::::2162::::2171::::cmp1.value::::thrd.value	1.0
+30	introclassJava.median_15cb07a7_003::::85::::2162::::2171::::cmp1.value::::scnd.value	1.0
+31	introclassJava.median_15cb07a7_003::::85::::2162::::2171::::cmp1.value::::med.value	1.0
+32	introclassJava.median_15cb07a7_003::::85::::2162::::2171::::cmp1.value::::frst.value	1.0
+33	introclassJava.median_15cb07a7_003::::85::::2162::::2171::::cmp1.value::::cmp2.value	1.0
+34	introclassJava.median_15cb07a7_003::::85::::2162::::2165::::cmp1::::thrd	1.0
+35	introclassJava.median_15cb07a7_003::::85::::2162::::2165::::cmp1::::scnd	1.0
+36	introclassJava.median_15cb07a7_003::::85::::2162::::2165::::cmp1::::med	1.0
+37	introclassJava.median_15cb07a7_003::::85::::2162::::2165::::cmp1::::frst	1.0
+38	introclassJava.median_15cb07a7_003::::85::::2162::::2165::::cmp1::::cmp2	1.0
+39	introclassJava.median_15cb07a7_003::::83::::2041::::2186::::output += java.lang.String.format("%d is lesser of first 2\n%d is lesser of second 2\n", cmp1.value, cmp2.value)::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+40	introclassJava.median_15cb07a7_003::::83::::2041::::2186::::output += java.lang.String.format("%d is lesser of first 2\n%d is lesser of second 2\n", cmp1.value, cmp2.value)::::INSERT::::STATEMENT::::if ((scnd.value) <= (thrd.value)) {    cmp2.value = scnd.value;}else {    cmp2.value = thrd.value;}	1.0
+41	introclassJava.median_15cb07a7_003::::83::::2041::::2186::::output += java.lang.String.format("%d is lesser of first 2\n%d is lesser of second 2\n", cmp1.value, cmp2.value)::::INSERT::::STATEMENT::::if ((frst.value) <= (scnd.value)) {    cmp1.value = frst.value;}else {    cmp1.value = scnd.value;}	1.0
+42	introclassJava.median_15cb07a7_003::::83::::2041::::2186::::output += java.lang.String.format("%d is lesser of first 2\n%d is lesser of second 2\n", cmp1.value, cmp2.value)::::INSERT::::STATEMENT::::if ((cmp1.value) >= (cmp2.value)) {    med.value = cmp1.value;}else {    med.value = cmp2.value;}	1.0
+43	introclassJava.median_15cb07a7_003::::78::::1920::::1929::::cmp2.value::::thrd.value	1.0
+44	introclassJava.median_15cb07a7_003::::78::::1920::::1929::::cmp2.value::::scnd.value	1.0
+45	introclassJava.median_15cb07a7_003::::78::::1920::::1929::::cmp2.value::::frst.value	1.0
+46	introclassJava.median_15cb07a7_003::::78::::1920::::1923::::cmp2::::thrd	1.0
+47	introclassJava.median_15cb07a7_003::::78::::1920::::1923::::cmp2::::scnd	1.0
+48	introclassJava.median_15cb07a7_003::::78::::1920::::1923::::cmp2::::frst	1.0
+49	introclassJava.median_15cb07a7_003::::78::::1920::::1923::::cmp2::::cmp1	1.0
+50	introclassJava.median_15cb07a7_003::::78::::1906::::1929::::cmp1.value) >= (cmp2.value::::true	1.0
+51	introclassJava.median_15cb07a7_003::::78::::1906::::1929::::cmp1.value) >= (cmp2.value::::scnd.value) <= (thrd.value	1.0
+52	introclassJava.median_15cb07a7_003::::78::::1906::::1929::::cmp1.value) >= (cmp2.value::::frst.value) <= (scnd.value	1.0
+53	introclassJava.median_15cb07a7_003::::78::::1906::::1915::::cmp1.value::::thrd.value	1.0
+54	introclassJava.median_15cb07a7_003::::78::::1906::::1915::::cmp1.value::::scnd.value	1.0
+55	introclassJava.median_15cb07a7_003::::78::::1906::::1915::::cmp1.value::::frst.value	1.0
+56	introclassJava.median_15cb07a7_003::::78::::1906::::1909::::cmp1::::thrd	1.0
+57	introclassJava.median_15cb07a7_003::::78::::1906::::1909::::cmp1::::scnd	1.0
+58	introclassJava.median_15cb07a7_003::::78::::1906::::1909::::cmp1::::frst	1.0
+59	introclassJava.median_15cb07a7_003::::78::::1906::::1909::::cmp1::::cmp2	1.0
+60	introclassJava.median_15cb07a7_003::::78::::1902::::2031::::if ((cmp1.value) >= (cmp2.value)) {    med.value = cmp1.value;}else {    med.value = cmp2.value;}::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+61	introclassJava.median_15cb07a7_003::::78::::1902::::2031::::if ((cmp1.value) >= (cmp2.value)) {    med.value = cmp1.value;}else {    med.value = cmp2.value;}::::INSERT::::STATEMENT::::if ((scnd.value) <= (thrd.value)) {    cmp2.value = scnd.value;}else {    cmp2.value = thrd.value;}	1.0
+62	introclassJava.median_15cb07a7_003::::78::::1902::::2031::::if ((cmp1.value) >= (cmp2.value)) {    med.value = cmp1.value;}else {    med.value = cmp2.value;}::::INSERT::::STATEMENT::::if ((frst.value) <= (scnd.value)) {    cmp1.value = frst.value;}else {    cmp1.value = scnd.value;}	1.0
+63	introclassJava.median_15cb07a7_003::::73::::1779::::1788::::thrd.value::::frst.value	1.0
+64	introclassJava.median_15cb07a7_003::::73::::1779::::1788::::thrd.value::::cmp1.value	1.0
+65	introclassJava.median_15cb07a7_003::::73::::1779::::1782::::thrd::::scnd	1.0
+66	introclassJava.median_15cb07a7_003::::73::::1779::::1782::::thrd::::frst	1.0
+67	introclassJava.median_15cb07a7_003::::73::::1779::::1782::::thrd::::cmp1	1.0
+68	introclassJava.median_15cb07a7_003::::73::::1765::::1788::::scnd.value) <= (thrd.value::::true	1.0
+69	introclassJava.median_15cb07a7_003::::73::::1765::::1788::::scnd.value) <= (thrd.value::::frst.value) <= (scnd.value	1.0
+70	introclassJava.median_15cb07a7_003::::73::::1765::::1774::::scnd.value::::frst.value	1.0
+71	introclassJava.median_15cb07a7_003::::73::::1765::::1774::::scnd.value::::cmp1.value	1.0
+72	introclassJava.median_15cb07a7_003::::73::::1765::::1768::::scnd::::thrd	1.0
+73	introclassJava.median_15cb07a7_003::::73::::1765::::1768::::scnd::::frst	1.0
+74	introclassJava.median_15cb07a7_003::::73::::1765::::1768::::scnd::::cmp1	1.0
+75	introclassJava.median_15cb07a7_003::::73::::1761::::1892::::if ((scnd.value) <= (thrd.value)) {    cmp2.value = scnd.value;}else {    cmp2.value = thrd.value;}::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+76	introclassJava.median_15cb07a7_003::::73::::1761::::1892::::if ((scnd.value) <= (thrd.value)) {    cmp2.value = scnd.value;}else {    cmp2.value = thrd.value;}::::INSERT::::STATEMENT::::if ((frst.value) <= (scnd.value)) {    cmp1.value = frst.value;}else {    cmp1.value = scnd.value;}	1.0
+77	introclassJava.median_15cb07a7_003::::68::::1638::::1647::::scnd.value::::thrd.value	1.0
+78	introclassJava.median_15cb07a7_003::::68::::1638::::1641::::scnd::::thrd	1.0
+79	introclassJava.median_15cb07a7_003::::68::::1638::::1641::::scnd::::frst	1.0
+80	introclassJava.median_15cb07a7_003::::68::::1624::::1647::::frst.value) <= (scnd.value::::true	1.0
+81	introclassJava.median_15cb07a7_003::::68::::1624::::1647::::frst.value) <= (scnd.value::::scnd.value) <= (thrd.value	1.0
+82	introclassJava.median_15cb07a7_003::::68::::1624::::1633::::frst.value::::thrd.value	1.0
+83	introclassJava.median_15cb07a7_003::::68::::1624::::1627::::frst::::thrd	1.0
+84	introclassJava.median_15cb07a7_003::::68::::1624::::1627::::frst::::scnd	1.0
+85	introclassJava.median_15cb07a7_003::::68::::1620::::1751::::if ((frst.value) <= (scnd.value)) {    cmp1.value = frst.value;}else {    cmp1.value = scnd.value;}::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+86	introclassJava.median_15cb07a7_003::::67::::1579::::1610::::thrd.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+87	introclassJava.median_15cb07a7_003::::67::::1579::::1588::::thrd.value::::scnd.value	1.0
+88	introclassJava.median_15cb07a7_003::::67::::1579::::1588::::thrd.value::::frst.value	1.0
+89	introclassJava.median_15cb07a7_003::::67::::1579::::1582::::thrd::::scnd	1.0
+90	introclassJava.median_15cb07a7_003::::67::::1579::::1582::::thrd::::frst	1.0
+91	introclassJava.median_15cb07a7_003::::66::::1538::::1569::::scnd.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+92	introclassJava.median_15cb07a7_003::::66::::1538::::1547::::scnd.value::::frst.value	1.0
+93	introclassJava.median_15cb07a7_003::::66::::1538::::1541::::scnd::::frst	1.0
+94	introclassJava.median_15cb07a7_003::::65::::1497::::1528::::frst.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+95	introclassJava.median_15cb07a7_003::::63::::1400::::1487::::output += java.lang.String.format("Please enter 3 numbers separated by spaces > ")::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+96	introclassJava.median_15cb07a7_003::::61::::1344::::1356::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	1.0
+97	introclassJava.median_15cb07a7_003::::61::::1322::::1334::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	1.0
+98	introclassJava.median_15cb07a7_003::::61::::1300::::1312::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	1.0
+99	introclassJava.median_15cb07a7_003::::61::::1230::::1390::::introclassJava.IntObj med = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+100	introclassJava.median_15cb07a7_003::::61::::1230::::1390::::introclassJava.IntObj cmp2 = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+101	introclassJava.median_15cb07a7_003::::61::::1230::::1390::::introclassJava.IntObj cmp1 = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+102	introclassJava.median_15cb07a7_003::::60::::1266::::1278::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	1.0
+103	introclassJava.median_15cb07a7_003::::60::::1244::::1256::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	1.0
+104	introclassJava.median_15cb07a7_003::::60::::1230::::1390::::introclassJava.IntObj thrd = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+105	introclassJava.median_15cb07a7_003::::60::::1230::::1390::::introclassJava.IntObj scnd = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+106	introclassJava.median_15cb07a7_003::::60::::1230::::1390::::introclassJava.IntObj frst = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+107	introclassJava.median_15cb07a7_003::::79::::1958::::1967::::cmp1.value::::thrd.value	0.8451542547285166
+108	introclassJava.median_15cb07a7_003::::79::::1958::::1967::::cmp1.value::::scnd.value	0.8451542547285166
+109	introclassJava.median_15cb07a7_003::::79::::1958::::1967::::cmp1.value::::med.value	0.8451542547285166
+110	introclassJava.median_15cb07a7_003::::79::::1958::::1967::::cmp1.value::::frst.value	0.8451542547285166
+111	introclassJava.median_15cb07a7_003::::79::::1958::::1967::::cmp1.value::::cmp2.value	0.8451542547285166
+112	introclassJava.median_15cb07a7_003::::79::::1958::::1961::::cmp1::::thrd	0.8451542547285166
+113	introclassJava.median_15cb07a7_003::::79::::1958::::1961::::cmp1::::scnd	0.8451542547285166
+114	introclassJava.median_15cb07a7_003::::79::::1958::::1961::::cmp1::::med	0.8451542547285166
+115	introclassJava.median_15cb07a7_003::::79::::1958::::1961::::cmp1::::frst	0.8451542547285166
+116	introclassJava.median_15cb07a7_003::::79::::1958::::1961::::cmp1::::cmp2	0.8451542547285166
+117	introclassJava.median_15cb07a7_003::::79::::1946::::1968::::med.value = cmp1.value::::med.value = cmp2.value	0.8451542547285166
+118	introclassJava.median_15cb07a7_003::::79::::1946::::1968::::med.value = cmp1.value::::cmp2.value = thrd.value	0.8451542547285166
+119	introclassJava.median_15cb07a7_003::::79::::1946::::1968::::med.value = cmp1.value::::cmp2.value = scnd.value	0.8451542547285166
+120	introclassJava.median_15cb07a7_003::::79::::1946::::1968::::med.value = cmp1.value::::cmp1.value = scnd.value	0.8451542547285166
+121	introclassJava.median_15cb07a7_003::::79::::1946::::1968::::med.value = cmp1.value::::cmp1.value = frst.value	0.8451542547285166
+122	introclassJava.median_15cb07a7_003::::79::::1946::::1968::::med.value = cmp1.value::::INSERT::::STATEMENT::::if (true)    return ;	0.8451542547285166
+123	introclassJava.median_15cb07a7_003::::79::::1946::::1968::::med.value = cmp1.value::::INSERT::::STATEMENT::::if ((scnd.value) <= (thrd.value)) {    cmp2.value = scnd.value;}else {    cmp2.value = thrd.value;}	0.8451542547285166
+124	introclassJava.median_15cb07a7_003::::79::::1946::::1968::::med.value = cmp1.value::::INSERT::::STATEMENT::::if ((frst.value) <= (scnd.value)) {    cmp1.value = frst.value;}else {    cmp1.value = scnd.value;}	0.8451542547285166
+125	introclassJava.median_15cb07a7_003::::79::::1946::::1968::::med.value = cmp1.value::::INSERT::::STATEMENT::::if ((cmp1.value) >= (cmp2.value)) {    med.value = cmp1.value;}else {    med.value = cmp2.value;}	0.8451542547285166
+126	introclassJava.median_15cb07a7_003::::79::::1946::::1954::::med.value::::thrd.value	0.8451542547285166
+127	introclassJava.median_15cb07a7_003::::79::::1946::::1954::::med.value::::scnd.value	0.8451542547285166
+128	introclassJava.median_15cb07a7_003::::79::::1946::::1954::::med.value::::frst.value	0.8451542547285166
+129	introclassJava.median_15cb07a7_003::::79::::1946::::1954::::med.value::::cmp2.value	0.8451542547285166
+130	introclassJava.median_15cb07a7_003::::79::::1946::::1954::::med.value::::cmp1.value	0.8451542547285166
+131	introclassJava.median_15cb07a7_003::::79::::1946::::1948::::med::::thrd	0.8451542547285166
+132	introclassJava.median_15cb07a7_003::::79::::1946::::1948::::med::::scnd	0.8451542547285166
+133	introclassJava.median_15cb07a7_003::::79::::1946::::1948::::med::::frst	0.8451542547285166
+134	introclassJava.median_15cb07a7_003::::79::::1946::::1948::::med::::cmp2	0.8451542547285166
+135	introclassJava.median_15cb07a7_003::::79::::1946::::1948::::med::::cmp1	0.8451542547285166
+136	introclassJava.median_15cb07a7_003::::74::::1818::::1827::::scnd.value::::thrd.value	0.7559289460184544
+137	introclassJava.median_15cb07a7_003::::74::::1818::::1827::::scnd.value::::frst.value	0.7559289460184544
+138	introclassJava.median_15cb07a7_003::::74::::1818::::1827::::scnd.value::::cmp2.value	0.7559289460184544
+139	introclassJava.median_15cb07a7_003::::74::::1818::::1827::::scnd.value::::cmp1.value	0.7559289460184544
+140	introclassJava.median_15cb07a7_003::::74::::1818::::1821::::scnd::::thrd	0.7559289460184544
+141	introclassJava.median_15cb07a7_003::::74::::1818::::1821::::scnd::::frst	0.7559289460184544
+142	introclassJava.median_15cb07a7_003::::74::::1818::::1821::::scnd::::cmp2	0.7559289460184544
+143	introclassJava.median_15cb07a7_003::::74::::1818::::1821::::scnd::::cmp1	0.7559289460184544
+144	introclassJava.median_15cb07a7_003::::74::::1805::::1828::::cmp2.value = scnd.value::::cmp2.value = thrd.value	0.7559289460184544
+145	introclassJava.median_15cb07a7_003::::74::::1805::::1828::::cmp2.value = scnd.value::::cmp1.value = scnd.value	0.7559289460184544
+146	introclassJava.median_15cb07a7_003::::74::::1805::::1828::::cmp2.value = scnd.value::::cmp1.value = frst.value	0.7559289460184544
+147	introclassJava.median_15cb07a7_003::::74::::1805::::1828::::cmp2.value = scnd.value::::INSERT::::STATEMENT::::if (true)    return ;	0.7559289460184544
+148	introclassJava.median_15cb07a7_003::::74::::1805::::1828::::cmp2.value = scnd.value::::INSERT::::STATEMENT::::if ((scnd.value) <= (thrd.value)) {    cmp2.value = scnd.value;}else {    cmp2.value = thrd.value;}	0.7559289460184544
+149	introclassJava.median_15cb07a7_003::::74::::1805::::1828::::cmp2.value = scnd.value::::INSERT::::STATEMENT::::if ((frst.value) <= (scnd.value)) {    cmp1.value = frst.value;}else {    cmp1.value = scnd.value;}	0.7559289460184544
+150	introclassJava.median_15cb07a7_003::::74::::1805::::1814::::cmp2.value::::thrd.value	0.7559289460184544
+151	introclassJava.median_15cb07a7_003::::74::::1805::::1814::::cmp2.value::::scnd.value	0.7559289460184544
+152	introclassJava.median_15cb07a7_003::::74::::1805::::1814::::cmp2.value::::frst.value	0.7559289460184544
+153	introclassJava.median_15cb07a7_003::::74::::1805::::1814::::cmp2.value::::cmp1.value	0.7559289460184544
+154	introclassJava.median_15cb07a7_003::::74::::1805::::1808::::cmp2::::thrd	0.7559289460184544
+155	introclassJava.median_15cb07a7_003::::74::::1805::::1808::::cmp2::::scnd	0.7559289460184544
+156	introclassJava.median_15cb07a7_003::::74::::1805::::1808::::cmp2::::frst	0.7559289460184544
+157	introclassJava.median_15cb07a7_003::::74::::1805::::1808::::cmp2::::cmp1	0.7559289460184544
+158	introclassJava.median_15cb07a7_003::::69::::1677::::1686::::frst.value::::thrd.value	0.7559289460184544
+159	introclassJava.median_15cb07a7_003::::69::::1677::::1686::::frst.value::::scnd.value	0.7559289460184544
+160	introclassJava.median_15cb07a7_003::::69::::1677::::1686::::frst.value::::cmp1.value	0.7559289460184544
+161	introclassJava.median_15cb07a7_003::::69::::1677::::1680::::frst::::thrd	0.7559289460184544
+162	introclassJava.median_15cb07a7_003::::69::::1677::::1680::::frst::::scnd	0.7559289460184544
+163	introclassJava.median_15cb07a7_003::::69::::1677::::1680::::frst::::cmp1	0.7559289460184544
+164	introclassJava.median_15cb07a7_003::::69::::1664::::1687::::cmp1.value = frst.value::::cmp1.value = scnd.value	0.7559289460184544
+165	introclassJava.median_15cb07a7_003::::69::::1664::::1687::::cmp1.value = frst.value::::INSERT::::STATEMENT::::if (true)    return ;	0.7559289460184544
+166	introclassJava.median_15cb07a7_003::::69::::1664::::1687::::cmp1.value = frst.value::::INSERT::::STATEMENT::::if ((frst.value) <= (scnd.value)) {    cmp1.value = frst.value;}else {    cmp1.value = scnd.value;}	0.7559289460184544
+167	introclassJava.median_15cb07a7_003::::69::::1664::::1673::::cmp1.value::::thrd.value	0.7559289460184544
+168	introclassJava.median_15cb07a7_003::::69::::1664::::1673::::cmp1.value::::scnd.value	0.7559289460184544
+169	introclassJava.median_15cb07a7_003::::69::::1664::::1673::::cmp1.value::::frst.value	0.7559289460184544
+170	introclassJava.median_15cb07a7_003::::69::::1664::::1667::::cmp1::::thrd	0.7559289460184544
+171	introclassJava.median_15cb07a7_003::::69::::1664::::1667::::cmp1::::scnd	0.7559289460184544
+172	introclassJava.median_15cb07a7_003::::69::::1664::::1667::::cmp1::::frst	0.7559289460184544
+173	introclassJava.median_15cb07a7_003::::76::::1872::::1881::::thrd.value::::scnd.value	0.6546536707079772
+174	introclassJava.median_15cb07a7_003::::76::::1872::::1881::::thrd.value::::frst.value	0.6546536707079772
+175	introclassJava.median_15cb07a7_003::::76::::1872::::1881::::thrd.value::::cmp2.value	0.6546536707079772
+176	introclassJava.median_15cb07a7_003::::76::::1872::::1881::::thrd.value::::cmp1.value	0.6546536707079772
+177	introclassJava.median_15cb07a7_003::::76::::1872::::1875::::thrd::::scnd	0.6546536707079772
+178	introclassJava.median_15cb07a7_003::::76::::1872::::1875::::thrd::::frst	0.6546536707079772
+179	introclassJava.median_15cb07a7_003::::76::::1872::::1875::::thrd::::cmp2	0.6546536707079772
+180	introclassJava.median_15cb07a7_003::::76::::1872::::1875::::thrd::::cmp1	0.6546536707079772
+181	introclassJava.median_15cb07a7_003::::76::::1859::::1882::::cmp2.value = thrd.value::::cmp2.value = scnd.value	0.6546536707079772
+182	introclassJava.median_15cb07a7_003::::76::::1859::::1882::::cmp2.value = thrd.value::::cmp1.value = scnd.value	0.6546536707079772
+183	introclassJava.median_15cb07a7_003::::76::::1859::::1882::::cmp2.value = thrd.value::::cmp1.value = frst.value	0.6546536707079772
+184	introclassJava.median_15cb07a7_003::::76::::1859::::1882::::cmp2.value = thrd.value::::INSERT::::STATEMENT::::if (true)    return ;	0.6546536707079772
+185	introclassJava.median_15cb07a7_003::::76::::1859::::1882::::cmp2.value = thrd.value::::INSERT::::STATEMENT::::if ((scnd.value) <= (thrd.value)) {    cmp2.value = scnd.value;}else {    cmp2.value = thrd.value;}	0.6546536707079772
+186	introclassJava.median_15cb07a7_003::::76::::1859::::1882::::cmp2.value = thrd.value::::INSERT::::STATEMENT::::if ((frst.value) <= (scnd.value)) {    cmp1.value = frst.value;}else {    cmp1.value = scnd.value;}	0.6546536707079772
+187	introclassJava.median_15cb07a7_003::::76::::1859::::1868::::cmp2.value::::thrd.value	0.6546536707079772
+188	introclassJava.median_15cb07a7_003::::76::::1859::::1868::::cmp2.value::::scnd.value	0.6546536707079772
+189	introclassJava.median_15cb07a7_003::::76::::1859::::1868::::cmp2.value::::frst.value	0.6546536707079772
+190	introclassJava.median_15cb07a7_003::::76::::1859::::1868::::cmp2.value::::cmp1.value	0.6546536707079772
+191	introclassJava.median_15cb07a7_003::::76::::1859::::1862::::cmp2::::thrd	0.6546536707079772
+192	introclassJava.median_15cb07a7_003::::76::::1859::::1862::::cmp2::::scnd	0.6546536707079772
+193	introclassJava.median_15cb07a7_003::::76::::1859::::1862::::cmp2::::frst	0.6546536707079772
+194	introclassJava.median_15cb07a7_003::::76::::1859::::1862::::cmp2::::cmp1	0.6546536707079772
+195	introclassJava.median_15cb07a7_003::::71::::1731::::1740::::scnd.value::::thrd.value	0.6546536707079772
+196	introclassJava.median_15cb07a7_003::::71::::1731::::1740::::scnd.value::::frst.value	0.6546536707079772
+197	introclassJava.median_15cb07a7_003::::71::::1731::::1740::::scnd.value::::cmp1.value	0.6546536707079772
+198	introclassJava.median_15cb07a7_003::::71::::1731::::1734::::scnd::::thrd	0.6546536707079772
+199	introclassJava.median_15cb07a7_003::::71::::1731::::1734::::scnd::::frst	0.6546536707079772
+200	introclassJava.median_15cb07a7_003::::71::::1731::::1734::::scnd::::cmp1	0.6546536707079772
+201	introclassJava.median_15cb07a7_003::::71::::1718::::1741::::cmp1.value = scnd.value::::cmp1.value = frst.value	0.6546536707079772
+202	introclassJava.median_15cb07a7_003::::71::::1718::::1741::::cmp1.value = scnd.value::::INSERT::::STATEMENT::::if (true)    return ;	0.6546536707079772
+203	introclassJava.median_15cb07a7_003::::71::::1718::::1741::::cmp1.value = scnd.value::::INSERT::::STATEMENT::::if ((frst.value) <= (scnd.value)) {    cmp1.value = frst.value;}else {    cmp1.value = scnd.value;}	0.6546536707079772
+204	introclassJava.median_15cb07a7_003::::71::::1718::::1727::::cmp1.value::::thrd.value	0.6546536707079772
+205	introclassJava.median_15cb07a7_003::::71::::1718::::1727::::cmp1.value::::scnd.value	0.6546536707079772
+206	introclassJava.median_15cb07a7_003::::71::::1718::::1727::::cmp1.value::::frst.value	0.6546536707079772
+207	introclassJava.median_15cb07a7_003::::71::::1718::::1721::::cmp1::::thrd	0.6546536707079772
+208	introclassJava.median_15cb07a7_003::::71::::1718::::1721::::cmp1::::scnd	0.6546536707079772
+209	introclassJava.median_15cb07a7_003::::71::::1718::::1721::::cmp1::::frst	0.6546536707079772
+210	introclassJava.median_15cb07a7_003::::81::::2011::::2020::::cmp2.value::::thrd.value	0.5345224838248488
+211	introclassJava.median_15cb07a7_003::::81::::2011::::2020::::cmp2.value::::scnd.value	0.5345224838248488
+212	introclassJava.median_15cb07a7_003::::81::::2011::::2020::::cmp2.value::::med.value	0.5345224838248488
+213	introclassJava.median_15cb07a7_003::::81::::2011::::2020::::cmp2.value::::frst.value	0.5345224838248488
+214	introclassJava.median_15cb07a7_003::::81::::2011::::2020::::cmp2.value::::cmp1.value	0.5345224838248488
+215	introclassJava.median_15cb07a7_003::::81::::2011::::2014::::cmp2::::thrd	0.5345224838248488
+216	introclassJava.median_15cb07a7_003::::81::::2011::::2014::::cmp2::::scnd	0.5345224838248488
+217	introclassJava.median_15cb07a7_003::::81::::2011::::2014::::cmp2::::med	0.5345224838248488
+218	introclassJava.median_15cb07a7_003::::81::::2011::::2014::::cmp2::::frst	0.5345224838248488
+219	introclassJava.median_15cb07a7_003::::81::::2011::::2014::::cmp2::::cmp1	0.5345224838248488
+220	introclassJava.median_15cb07a7_003::::81::::1999::::2021::::med.value = cmp2.value::::med.value = cmp1.value	0.5345224838248488
+221	introclassJava.median_15cb07a7_003::::81::::1999::::2021::::med.value = cmp2.value::::cmp2.value = thrd.value	0.5345224838248488
+222	introclassJava.median_15cb07a7_003::::81::::1999::::2021::::med.value = cmp2.value::::cmp2.value = scnd.value	0.5345224838248488
+223	introclassJava.median_15cb07a7_003::::81::::1999::::2021::::med.value = cmp2.value::::cmp1.value = scnd.value	0.5345224838248488
+224	introclassJava.median_15cb07a7_003::::81::::1999::::2021::::med.value = cmp2.value::::cmp1.value = frst.value	0.5345224838248488
+225	introclassJava.median_15cb07a7_003::::81::::1999::::2021::::med.value = cmp2.value::::INSERT::::STATEMENT::::if (true)    return ;	0.5345224838248488
+226	introclassJava.median_15cb07a7_003::::81::::1999::::2021::::med.value = cmp2.value::::INSERT::::STATEMENT::::if ((scnd.value) <= (thrd.value)) {    cmp2.value = scnd.value;}else {    cmp2.value = thrd.value;}	0.5345224838248488
+227	introclassJava.median_15cb07a7_003::::81::::1999::::2021::::med.value = cmp2.value::::INSERT::::STATEMENT::::if ((frst.value) <= (scnd.value)) {    cmp1.value = frst.value;}else {    cmp1.value = scnd.value;}	0.5345224838248488
+228	introclassJava.median_15cb07a7_003::::81::::1999::::2021::::med.value = cmp2.value::::INSERT::::STATEMENT::::if ((cmp1.value) >= (cmp2.value)) {    med.value = cmp1.value;}else {    med.value = cmp2.value;}	0.5345224838248488
+229	introclassJava.median_15cb07a7_003::::81::::1999::::2007::::med.value::::thrd.value	0.5345224838248488
+230	introclassJava.median_15cb07a7_003::::81::::1999::::2007::::med.value::::scnd.value	0.5345224838248488
+231	introclassJava.median_15cb07a7_003::::81::::1999::::2007::::med.value::::frst.value	0.5345224838248488
+232	introclassJava.median_15cb07a7_003::::81::::1999::::2007::::med.value::::cmp2.value	0.5345224838248488
+233	introclassJava.median_15cb07a7_003::::81::::1999::::2007::::med.value::::cmp1.value	0.5345224838248488
+234	introclassJava.median_15cb07a7_003::::81::::1999::::2001::::med::::thrd	0.5345224838248488
+235	introclassJava.median_15cb07a7_003::::81::::1999::::2001::::med::::scnd	0.5345224838248488
+236	introclassJava.median_15cb07a7_003::::81::::1999::::2001::::med::::frst	0.5345224838248488
+237	introclassJava.median_15cb07a7_003::::81::::1999::::2001::::med::::cmp2	0.5345224838248488
+238	introclassJava.median_15cb07a7_003::::81::::1999::::2001::::med::::cmp1	0.5345224838248488

@@ -1,0 +1,254 @@
+1	introclassJava.grade_95362737_010::::84::::2472::::2478::::return ::::INSERT::::STATEMENT::::if (true)    return ;	0.9428090415820635
+2	introclassJava.grade_95362737_010::::72::::1824::::1830::::a.value::::d.value	0.9428090415820635
+3	introclassJava.grade_95362737_010::::72::::1824::::1830::::a.value::::c.value	0.9428090415820635
+4	introclassJava.grade_95362737_010::::72::::1824::::1830::::a.value::::b.value	0.9428090415820635
+5	introclassJava.grade_95362737_010::::72::::1824::::1824::::a::::score	0.9428090415820635
+6	introclassJava.grade_95362737_010::::72::::1824::::1824::::a::::d	0.9428090415820635
+7	introclassJava.grade_95362737_010::::72::::1824::::1824::::a::::c	0.9428090415820635
+8	introclassJava.grade_95362737_010::::72::::1824::::1824::::a::::b	0.9428090415820635
+9	introclassJava.grade_95362737_010::::72::::1809::::1830::::score.value) >= (a.value::::true	0.9428090415820635
+10	introclassJava.grade_95362737_010::::72::::1809::::1830::::score.value) >= (a.value::::score.value) < (d.value	0.9428090415820635
+11	introclassJava.grade_95362737_010::::72::::1809::::1830::::score.value) >= (a.value::::(score.value) >= (d.value)) && ((score.value) < (c.value)	0.9428090415820635
+12	introclassJava.grade_95362737_010::::72::::1809::::1830::::score.value) >= (a.value::::(score.value) >= (d.value)	0.9428090415820635
+13	introclassJava.grade_95362737_010::::72::::1809::::1830::::score.value) >= (a.value::::(score.value) >= (c.value)) && ((score.value) < (b.value)	0.9428090415820635
+14	introclassJava.grade_95362737_010::::72::::1809::::1830::::score.value) >= (a.value::::(score.value) >= (c.value)	0.9428090415820635
+15	introclassJava.grade_95362737_010::::72::::1809::::1830::::score.value) >= (a.value::::(score.value) >= (b.value)) && ((score.value) < (a.value)	0.9428090415820635
+16	introclassJava.grade_95362737_010::::72::::1809::::1830::::score.value) >= (a.value::::(score.value) >= (b.value)	0.9428090415820635
+17	introclassJava.grade_95362737_010::::72::::1809::::1830::::score.value) >= (a.value::::(score.value) < (c.value)	0.9428090415820635
+18	introclassJava.grade_95362737_010::::72::::1809::::1830::::score.value) >= (a.value::::(score.value) < (b.value)	0.9428090415820635
+19	introclassJava.grade_95362737_010::::72::::1809::::1830::::score.value) >= (a.value::::(score.value) < (a.value)	0.9428090415820635
+20	introclassJava.grade_95362737_010::::72::::1809::::1819::::score.value::::d.value	0.9428090415820635
+21	introclassJava.grade_95362737_010::::72::::1809::::1819::::score.value::::c.value	0.9428090415820635
+22	introclassJava.grade_95362737_010::::72::::1809::::1819::::score.value::::b.value	0.9428090415820635
+23	introclassJava.grade_95362737_010::::72::::1809::::1813::::score::::d	0.9428090415820635
+24	introclassJava.grade_95362737_010::::72::::1809::::1813::::score::::c	0.9428090415820635
+25	introclassJava.grade_95362737_010::::72::::1809::::1813::::score::::b	0.9428090415820635
+26	introclassJava.grade_95362737_010::::72::::1809::::1813::::score::::a	0.9428090415820635
+27	introclassJava.grade_95362737_010::::72::::1805::::2440::::if ((score.value) >= (a.value)) {    output += java.lang.String.format("Student has a A grade\n");}else    if (((score.value) >= (b.value)) && ((score.value) < (a.value))) {        output += java.lang.String.format("Student has a B grade\n");    }else        if (((score.value) >= (c.value)) && ((score.value) < (b.value))) {            output += java.lang.String.format("Student has a C grade\n");        }else            if (((score.value) >= (d.value)) && ((score.value) < (c.value))) {                output += java.lang.String.format("Student has a D grade\n");            }else                if ((score.value) < (d.value)) {                    output += java.lang.String.format("Student has failed the course\n");                }                        ::::INSERT::::STATEMENT::::if (true)    return ;	0.9428090415820635
+28	introclassJava.grade_95362737_010::::71::::1761::::1795::::score.value = scanner.nextFloat()::::INSERT::::STATEMENT::::if (true)    return ;	0.9428090415820635
+29	introclassJava.grade_95362737_010::::71::::1761::::1771::::score.value::::d.value	0.9428090415820635
+30	introclassJava.grade_95362737_010::::71::::1761::::1771::::score.value::::c.value	0.9428090415820635
+31	introclassJava.grade_95362737_010::::71::::1761::::1771::::score.value::::b.value	0.9428090415820635
+32	introclassJava.grade_95362737_010::::71::::1761::::1771::::score.value::::a.value	0.9428090415820635
+33	introclassJava.grade_95362737_010::::71::::1761::::1765::::score::::d	0.9428090415820635
+34	introclassJava.grade_95362737_010::::71::::1761::::1765::::score::::c	0.9428090415820635
+35	introclassJava.grade_95362737_010::::71::::1761::::1765::::score::::b	0.9428090415820635
+36	introclassJava.grade_95362737_010::::71::::1761::::1765::::score::::a	0.9428090415820635
+37	introclassJava.grade_95362737_010::::69::::1663::::1751::::output += java.lang.String.format("Thank you. Now enter student score (percent) >")::::INSERT::::STATEMENT::::if (true)    return ;	0.9428090415820635
+38	introclassJava.grade_95362737_010::::68::::1623::::1653::::d.value = scanner.nextFloat()::::INSERT::::STATEMENT::::if (true)    return ;	0.9428090415820635
+39	introclassJava.grade_95362737_010::::68::::1623::::1629::::d.value::::c.value	0.9428090415820635
+40	introclassJava.grade_95362737_010::::68::::1623::::1629::::d.value::::b.value	0.9428090415820635
+41	introclassJava.grade_95362737_010::::68::::1623::::1629::::d.value::::a.value	0.9428090415820635
+42	introclassJava.grade_95362737_010::::68::::1623::::1623::::d::::c	0.9428090415820635
+43	introclassJava.grade_95362737_010::::68::::1623::::1623::::d::::b	0.9428090415820635
+44	introclassJava.grade_95362737_010::::68::::1623::::1623::::d::::a	0.9428090415820635
+45	introclassJava.grade_95362737_010::::67::::1583::::1613::::c.value = scanner.nextFloat()::::INSERT::::STATEMENT::::if (true)    return ;	0.9428090415820635
+46	introclassJava.grade_95362737_010::::67::::1583::::1589::::c.value::::b.value	0.9428090415820635
+47	introclassJava.grade_95362737_010::::67::::1583::::1589::::c.value::::a.value	0.9428090415820635
+48	introclassJava.grade_95362737_010::::67::::1583::::1583::::c::::b	0.9428090415820635
+49	introclassJava.grade_95362737_010::::67::::1583::::1583::::c::::a	0.9428090415820635
+50	introclassJava.grade_95362737_010::::66::::1543::::1573::::b.value = scanner.nextFloat()::::INSERT::::STATEMENT::::if (true)    return ;	0.9428090415820635
+51	introclassJava.grade_95362737_010::::66::::1543::::1549::::b.value::::a.value	0.9428090415820635
+52	introclassJava.grade_95362737_010::::66::::1543::::1543::::b::::a	0.9428090415820635
+53	introclassJava.grade_95362737_010::::65::::1503::::1533::::a.value = scanner.nextFloat()::::INSERT::::STATEMENT::::if (true)    return ;	0.9428090415820635
+54	introclassJava.grade_95362737_010::::62::::1365::::1493::::output += java.lang.String.format("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ")::::INSERT::::STATEMENT::::if (true)    return ;	0.9428090415820635
+55	introclassJava.grade_95362737_010::::61::::1340::::1354::::new introclassJava.FloatObj()::::INSERT::::PARAMETER::::new FloatObj(value)	0.9428090415820635
+56	introclassJava.grade_95362737_010::::61::::1315::::1329::::new introclassJava.FloatObj()::::INSERT::::PARAMETER::::new FloatObj(value)	0.9428090415820635
+57	introclassJava.grade_95362737_010::::61::::1294::::1308::::new introclassJava.FloatObj()::::INSERT::::PARAMETER::::new FloatObj(value)	0.9428090415820635
+58	introclassJava.grade_95362737_010::::61::::1227::::1355::::introclassJava.FloatObj score = new introclassJava.FloatObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.9428090415820635
+59	introclassJava.grade_95362737_010::::61::::1227::::1355::::introclassJava.FloatObj d = new introclassJava.FloatObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.9428090415820635
+60	introclassJava.grade_95362737_010::::60::::1261::::1275::::new introclassJava.FloatObj()::::INSERT::::PARAMETER::::new FloatObj(value)	0.9428090415820635
+61	introclassJava.grade_95362737_010::::60::::1240::::1254::::new introclassJava.FloatObj()::::INSERT::::PARAMETER::::new FloatObj(value)	0.9428090415820635
+62	introclassJava.grade_95362737_010::::60::::1227::::1355::::introclassJava.FloatObj c = new introclassJava.FloatObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.9428090415820635
+63	introclassJava.grade_95362737_010::::60::::1227::::1355::::introclassJava.FloatObj b = new introclassJava.FloatObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.9428090415820635
+64	introclassJava.grade_95362737_010::::60::::1227::::1355::::introclassJava.FloatObj a = new introclassJava.FloatObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.9428090415820635
+65	introclassJava.grade_95362737_010::::74::::1961::::1967::::a.value::::d.value	0.8017837257372732
+66	introclassJava.grade_95362737_010::::74::::1961::::1967::::a.value::::c.value	0.8017837257372732
+67	introclassJava.grade_95362737_010::::74::::1961::::1967::::a.value::::b.value	0.8017837257372732
+68	introclassJava.grade_95362737_010::::74::::1961::::1961::::a::::score	0.8017837257372732
+69	introclassJava.grade_95362737_010::::74::::1961::::1961::::a::::d	0.8017837257372732
+70	introclassJava.grade_95362737_010::::74::::1961::::1961::::a::::c	0.8017837257372732
+71	introclassJava.grade_95362737_010::::74::::1961::::1961::::a::::b	0.8017837257372732
+72	introclassJava.grade_95362737_010::::74::::1947::::1967::::(score.value) < (a.value)::::true	0.8017837257372732
+73	introclassJava.grade_95362737_010::::74::::1947::::1967::::(score.value) < (a.value)::::score.value) >= (a.value	0.8017837257372732
+74	introclassJava.grade_95362737_010::::74::::1947::::1967::::(score.value) < (a.value)::::score.value) < (d.value	0.8017837257372732
+75	introclassJava.grade_95362737_010::::74::::1947::::1967::::(score.value) < (a.value)::::(score.value) >= (d.value)) && ((score.value) < (c.value)	0.8017837257372732
+76	introclassJava.grade_95362737_010::::74::::1947::::1967::::(score.value) < (a.value)::::(score.value) >= (d.value)	0.8017837257372732
+77	introclassJava.grade_95362737_010::::74::::1947::::1967::::(score.value) < (a.value)::::(score.value) >= (c.value)) && ((score.value) < (b.value)	0.8017837257372732
+78	introclassJava.grade_95362737_010::::74::::1947::::1967::::(score.value) < (a.value)::::(score.value) >= (c.value)	0.8017837257372732
+79	introclassJava.grade_95362737_010::::74::::1947::::1967::::(score.value) < (a.value)::::(score.value) >= (b.value)) && ((score.value) < (a.value)	0.8017837257372732
+80	introclassJava.grade_95362737_010::::74::::1947::::1967::::(score.value) < (a.value)::::(score.value) >= (b.value)	0.8017837257372732
+81	introclassJava.grade_95362737_010::::74::::1947::::1967::::(score.value) < (a.value)::::(score.value) < (c.value)	0.8017837257372732
+82	introclassJava.grade_95362737_010::::74::::1947::::1967::::(score.value) < (a.value)::::(score.value) < (b.value)	0.8017837257372732
+83	introclassJava.grade_95362737_010::::74::::1947::::1957::::score.value::::d.value	0.8017837257372732
+84	introclassJava.grade_95362737_010::::74::::1947::::1957::::score.value::::c.value	0.8017837257372732
+85	introclassJava.grade_95362737_010::::74::::1947::::1957::::score.value::::b.value	0.8017837257372732
+86	introclassJava.grade_95362737_010::::74::::1947::::1951::::score::::d	0.8017837257372732
+87	introclassJava.grade_95362737_010::::74::::1947::::1951::::score::::c	0.8017837257372732
+88	introclassJava.grade_95362737_010::::74::::1947::::1951::::score::::b	0.8017837257372732
+89	introclassJava.grade_95362737_010::::74::::1947::::1951::::score::::a	0.8017837257372732
+90	introclassJava.grade_95362737_010::::74::::1936::::1942::::b.value::::d.value	0.8017837257372732
+91	introclassJava.grade_95362737_010::::74::::1936::::1942::::b.value::::c.value	0.8017837257372732
+92	introclassJava.grade_95362737_010::::74::::1936::::1942::::b.value::::a.value	0.8017837257372732
+93	introclassJava.grade_95362737_010::::74::::1936::::1936::::b::::score	0.8017837257372732
+94	introclassJava.grade_95362737_010::::74::::1936::::1936::::b::::d	0.8017837257372732
+95	introclassJava.grade_95362737_010::::74::::1936::::1936::::b::::c	0.8017837257372732
+96	introclassJava.grade_95362737_010::::74::::1936::::1936::::b::::a	0.8017837257372732
+97	introclassJava.grade_95362737_010::::74::::1921::::1967::::(score.value) >= (b.value)) && ((score.value) < (a.value)::::true	0.8017837257372732
+98	introclassJava.grade_95362737_010::::74::::1921::::1967::::(score.value) >= (b.value)) && ((score.value) < (a.value)::::score.value) >= (a.value	0.8017837257372732
+99	introclassJava.grade_95362737_010::::74::::1921::::1967::::(score.value) >= (b.value)) && ((score.value) < (a.value)::::score.value) < (d.value	0.8017837257372732
+100	introclassJava.grade_95362737_010::::74::::1921::::1967::::(score.value) >= (b.value)) && ((score.value) < (a.value)::::(score.value) >= (d.value)) && ((score.value) < (c.value)	0.8017837257372732
+101	introclassJava.grade_95362737_010::::74::::1921::::1967::::(score.value) >= (b.value)) && ((score.value) < (a.value)::::(score.value) >= (d.value)	0.8017837257372732
+102	introclassJava.grade_95362737_010::::74::::1921::::1967::::(score.value) >= (b.value)) && ((score.value) < (a.value)::::(score.value) >= (c.value)) && ((score.value) < (b.value)	0.8017837257372732
+103	introclassJava.grade_95362737_010::::74::::1921::::1967::::(score.value) >= (b.value)) && ((score.value) < (a.value)::::(score.value) >= (c.value)	0.8017837257372732
+104	introclassJava.grade_95362737_010::::74::::1921::::1967::::(score.value) >= (b.value)) && ((score.value) < (a.value)::::(score.value) >= (b.value)	0.8017837257372732
+105	introclassJava.grade_95362737_010::::74::::1921::::1967::::(score.value) >= (b.value)) && ((score.value) < (a.value)::::(score.value) < (c.value)	0.8017837257372732
+106	introclassJava.grade_95362737_010::::74::::1921::::1967::::(score.value) >= (b.value)) && ((score.value) < (a.value)::::(score.value) < (b.value)	0.8017837257372732
+107	introclassJava.grade_95362737_010::::74::::1921::::1967::::(score.value) >= (b.value)) && ((score.value) < (a.value)::::(score.value) < (a.value)	0.8017837257372732
+108	introclassJava.grade_95362737_010::::74::::1921::::1942::::(score.value) >= (b.value)::::true	0.8017837257372732
+109	introclassJava.grade_95362737_010::::74::::1921::::1942::::(score.value) >= (b.value)::::score.value) >= (a.value	0.8017837257372732
+110	introclassJava.grade_95362737_010::::74::::1921::::1942::::(score.value) >= (b.value)::::score.value) < (d.value	0.8017837257372732
+111	introclassJava.grade_95362737_010::::74::::1921::::1942::::(score.value) >= (b.value)::::(score.value) >= (d.value)) && ((score.value) < (c.value)	0.8017837257372732
+112	introclassJava.grade_95362737_010::::74::::1921::::1942::::(score.value) >= (b.value)::::(score.value) >= (d.value)	0.8017837257372732
+113	introclassJava.grade_95362737_010::::74::::1921::::1942::::(score.value) >= (b.value)::::(score.value) >= (c.value)) && ((score.value) < (b.value)	0.8017837257372732
+114	introclassJava.grade_95362737_010::::74::::1921::::1942::::(score.value) >= (b.value)::::(score.value) >= (c.value)	0.8017837257372732
+115	introclassJava.grade_95362737_010::::74::::1921::::1942::::(score.value) >= (b.value)::::(score.value) >= (b.value)) && ((score.value) < (a.value)	0.8017837257372732
+116	introclassJava.grade_95362737_010::::74::::1921::::1942::::(score.value) >= (b.value)::::(score.value) < (c.value)	0.8017837257372732
+117	introclassJava.grade_95362737_010::::74::::1921::::1942::::(score.value) >= (b.value)::::(score.value) < (b.value)	0.8017837257372732
+118	introclassJava.grade_95362737_010::::74::::1921::::1942::::(score.value) >= (b.value)::::(score.value) < (a.value)	0.8017837257372732
+119	introclassJava.grade_95362737_010::::74::::1921::::1931::::score.value::::d.value	0.8017837257372732
+120	introclassJava.grade_95362737_010::::74::::1921::::1931::::score.value::::c.value	0.8017837257372732
+121	introclassJava.grade_95362737_010::::74::::1921::::1931::::score.value::::a.value	0.8017837257372732
+122	introclassJava.grade_95362737_010::::74::::1921::::1925::::score::::d	0.8017837257372732
+123	introclassJava.grade_95362737_010::::74::::1921::::1925::::score::::c	0.8017837257372732
+124	introclassJava.grade_95362737_010::::74::::1921::::1925::::score::::b	0.8017837257372732
+125	introclassJava.grade_95362737_010::::74::::1921::::1925::::score::::a	0.8017837257372732
+126	introclassJava.grade_95362737_010::::74::::1917::::2440::::if (((score.value) >= (b.value)) && ((score.value) < (a.value))) {    output += java.lang.String.format("Student has a B grade\n");}else    if (((score.value) >= (c.value)) && ((score.value) < (b.value))) {        output += java.lang.String.format("Student has a C grade\n");    }else        if (((score.value) >= (d.value)) && ((score.value) < (c.value))) {            output += java.lang.String.format("Student has a D grade\n");        }else            if ((score.value) < (d.value)) {                output += java.lang.String.format("Student has failed the course\n");            }            ::::INSERT::::STATEMENT::::if (true)    return ;	0.8017837257372732
+127	introclassJava.grade_95362737_010::::76::::2098::::2104::::b.value::::d.value	0.6324555320336759
+128	introclassJava.grade_95362737_010::::76::::2098::::2104::::b.value::::c.value	0.6324555320336759
+129	introclassJava.grade_95362737_010::::76::::2098::::2104::::b.value::::a.value	0.6324555320336759
+130	introclassJava.grade_95362737_010::::76::::2098::::2098::::b::::score	0.6324555320336759
+131	introclassJava.grade_95362737_010::::76::::2098::::2098::::b::::d	0.6324555320336759
+132	introclassJava.grade_95362737_010::::76::::2098::::2098::::b::::c	0.6324555320336759
+133	introclassJava.grade_95362737_010::::76::::2098::::2098::::b::::a	0.6324555320336759
+134	introclassJava.grade_95362737_010::::76::::2084::::2104::::(score.value) < (b.value)::::true	0.6324555320336759
+135	introclassJava.grade_95362737_010::::76::::2084::::2104::::(score.value) < (b.value)::::score.value) >= (a.value	0.6324555320336759
+136	introclassJava.grade_95362737_010::::76::::2084::::2104::::(score.value) < (b.value)::::score.value) < (d.value	0.6324555320336759
+137	introclassJava.grade_95362737_010::::76::::2084::::2104::::(score.value) < (b.value)::::(score.value) >= (d.value)) && ((score.value) < (c.value)	0.6324555320336759
+138	introclassJava.grade_95362737_010::::76::::2084::::2104::::(score.value) < (b.value)::::(score.value) >= (d.value)	0.6324555320336759
+139	introclassJava.grade_95362737_010::::76::::2084::::2104::::(score.value) < (b.value)::::(score.value) >= (c.value)) && ((score.value) < (b.value)	0.6324555320336759
+140	introclassJava.grade_95362737_010::::76::::2084::::2104::::(score.value) < (b.value)::::(score.value) >= (c.value)	0.6324555320336759
+141	introclassJava.grade_95362737_010::::76::::2084::::2104::::(score.value) < (b.value)::::(score.value) >= (b.value)) && ((score.value) < (a.value)	0.6324555320336759
+142	introclassJava.grade_95362737_010::::76::::2084::::2104::::(score.value) < (b.value)::::(score.value) >= (b.value)	0.6324555320336759
+143	introclassJava.grade_95362737_010::::76::::2084::::2104::::(score.value) < (b.value)::::(score.value) < (c.value)	0.6324555320336759
+144	introclassJava.grade_95362737_010::::76::::2084::::2104::::(score.value) < (b.value)::::(score.value) < (a.value)	0.6324555320336759
+145	introclassJava.grade_95362737_010::::76::::2084::::2094::::score.value::::d.value	0.6324555320336759
+146	introclassJava.grade_95362737_010::::76::::2084::::2094::::score.value::::c.value	0.6324555320336759
+147	introclassJava.grade_95362737_010::::76::::2084::::2094::::score.value::::a.value	0.6324555320336759
+148	introclassJava.grade_95362737_010::::76::::2084::::2088::::score::::d	0.6324555320336759
+149	introclassJava.grade_95362737_010::::76::::2084::::2088::::score::::c	0.6324555320336759
+150	introclassJava.grade_95362737_010::::76::::2084::::2088::::score::::b	0.6324555320336759
+151	introclassJava.grade_95362737_010::::76::::2084::::2088::::score::::a	0.6324555320336759
+152	introclassJava.grade_95362737_010::::76::::2073::::2079::::c.value::::d.value	0.6324555320336759
+153	introclassJava.grade_95362737_010::::76::::2073::::2079::::c.value::::b.value	0.6324555320336759
+154	introclassJava.grade_95362737_010::::76::::2073::::2079::::c.value::::a.value	0.6324555320336759
+155	introclassJava.grade_95362737_010::::76::::2073::::2073::::c::::score	0.6324555320336759
+156	introclassJava.grade_95362737_010::::76::::2073::::2073::::c::::d	0.6324555320336759
+157	introclassJava.grade_95362737_010::::76::::2073::::2073::::c::::b	0.6324555320336759
+158	introclassJava.grade_95362737_010::::76::::2073::::2073::::c::::a	0.6324555320336759
+159	introclassJava.grade_95362737_010::::76::::2058::::2104::::(score.value) >= (c.value)) && ((score.value) < (b.value)::::true	0.6324555320336759
+160	introclassJava.grade_95362737_010::::76::::2058::::2104::::(score.value) >= (c.value)) && ((score.value) < (b.value)::::score.value) >= (a.value	0.6324555320336759
+161	introclassJava.grade_95362737_010::::76::::2058::::2104::::(score.value) >= (c.value)) && ((score.value) < (b.value)::::score.value) < (d.value	0.6324555320336759
+162	introclassJava.grade_95362737_010::::76::::2058::::2104::::(score.value) >= (c.value)) && ((score.value) < (b.value)::::(score.value) >= (d.value)) && ((score.value) < (c.value)	0.6324555320336759
+163	introclassJava.grade_95362737_010::::76::::2058::::2104::::(score.value) >= (c.value)) && ((score.value) < (b.value)::::(score.value) >= (d.value)	0.6324555320336759
+164	introclassJava.grade_95362737_010::::76::::2058::::2104::::(score.value) >= (c.value)) && ((score.value) < (b.value)::::(score.value) >= (c.value)	0.6324555320336759
+165	introclassJava.grade_95362737_010::::76::::2058::::2104::::(score.value) >= (c.value)) && ((score.value) < (b.value)::::(score.value) >= (b.value)) && ((score.value) < (a.value)	0.6324555320336759
+166	introclassJava.grade_95362737_010::::76::::2058::::2104::::(score.value) >= (c.value)) && ((score.value) < (b.value)::::(score.value) >= (b.value)	0.6324555320336759
+167	introclassJava.grade_95362737_010::::76::::2058::::2104::::(score.value) >= (c.value)) && ((score.value) < (b.value)::::(score.value) < (c.value)	0.6324555320336759
+168	introclassJava.grade_95362737_010::::76::::2058::::2104::::(score.value) >= (c.value)) && ((score.value) < (b.value)::::(score.value) < (b.value)	0.6324555320336759
+169	introclassJava.grade_95362737_010::::76::::2058::::2104::::(score.value) >= (c.value)) && ((score.value) < (b.value)::::(score.value) < (a.value)	0.6324555320336759
+170	introclassJava.grade_95362737_010::::76::::2058::::2079::::(score.value) >= (c.value)::::true	0.6324555320336759
+171	introclassJava.grade_95362737_010::::76::::2058::::2079::::(score.value) >= (c.value)::::score.value) >= (a.value	0.6324555320336759
+172	introclassJava.grade_95362737_010::::76::::2058::::2079::::(score.value) >= (c.value)::::score.value) < (d.value	0.6324555320336759
+173	introclassJava.grade_95362737_010::::76::::2058::::2079::::(score.value) >= (c.value)::::(score.value) >= (d.value)) && ((score.value) < (c.value)	0.6324555320336759
+174	introclassJava.grade_95362737_010::::76::::2058::::2079::::(score.value) >= (c.value)::::(score.value) >= (d.value)	0.6324555320336759
+175	introclassJava.grade_95362737_010::::76::::2058::::2079::::(score.value) >= (c.value)::::(score.value) >= (c.value)) && ((score.value) < (b.value)	0.6324555320336759
+176	introclassJava.grade_95362737_010::::76::::2058::::2079::::(score.value) >= (c.value)::::(score.value) >= (b.value)) && ((score.value) < (a.value)	0.6324555320336759
+177	introclassJava.grade_95362737_010::::76::::2058::::2079::::(score.value) >= (c.value)::::(score.value) >= (b.value)	0.6324555320336759
+178	introclassJava.grade_95362737_010::::76::::2058::::2079::::(score.value) >= (c.value)::::(score.value) < (c.value)	0.6324555320336759
+179	introclassJava.grade_95362737_010::::76::::2058::::2079::::(score.value) >= (c.value)::::(score.value) < (b.value)	0.6324555320336759
+180	introclassJava.grade_95362737_010::::76::::2058::::2079::::(score.value) >= (c.value)::::(score.value) < (a.value)	0.6324555320336759
+181	introclassJava.grade_95362737_010::::76::::2058::::2068::::score.value::::d.value	0.6324555320336759
+182	introclassJava.grade_95362737_010::::76::::2058::::2068::::score.value::::b.value	0.6324555320336759
+183	introclassJava.grade_95362737_010::::76::::2058::::2068::::score.value::::a.value	0.6324555320336759
+184	introclassJava.grade_95362737_010::::76::::2058::::2062::::score::::d	0.6324555320336759
+185	introclassJava.grade_95362737_010::::76::::2058::::2062::::score::::c	0.6324555320336759
+186	introclassJava.grade_95362737_010::::76::::2058::::2062::::score::::b	0.6324555320336759
+187	introclassJava.grade_95362737_010::::76::::2058::::2062::::score::::a	0.6324555320336759
+188	introclassJava.grade_95362737_010::::76::::2054::::2440::::if (((score.value) >= (c.value)) && ((score.value) < (b.value))) {    output += java.lang.String.format("Student has a C grade\n");}else    if (((score.value) >= (d.value)) && ((score.value) < (c.value))) {        output += java.lang.String.format("Student has a D grade\n");    }else        if ((score.value) < (d.value)) {            output += java.lang.String.format("Student has failed the course\n");        }    ::::INSERT::::STATEMENT::::if (true)    return ;	0.6324555320336759
+189	introclassJava.grade_95362737_010::::79::::2258::::2311::::output += java.lang.String.format("Student has a D grade\n")::::INSERT::::STATEMENT::::if (true)    return ;	0.5
+190	introclassJava.grade_95362737_010::::77::::2121::::2174::::output += java.lang.String.format("Student has a C grade\n")::::INSERT::::STATEMENT::::if (true)    return ;	0.5
+191	introclassJava.grade_95362737_010::::75::::1984::::2037::::output += java.lang.String.format("Student has a B grade\n")::::INSERT::::STATEMENT::::if (true)    return ;	0.5
+192	introclassJava.grade_95362737_010::::73::::1847::::1900::::output += java.lang.String.format("Student has a A grade\n")::::INSERT::::STATEMENT::::if (true)    return ;	0.5
+193	introclassJava.grade_95362737_010::::78::::2235::::2241::::c.value::::d.value	0.4082482904638631
+194	introclassJava.grade_95362737_010::::78::::2235::::2241::::c.value::::b.value	0.4082482904638631
+195	introclassJava.grade_95362737_010::::78::::2235::::2241::::c.value::::a.value	0.4082482904638631
+196	introclassJava.grade_95362737_010::::78::::2235::::2235::::c::::score	0.4082482904638631
+197	introclassJava.grade_95362737_010::::78::::2235::::2235::::c::::d	0.4082482904638631
+198	introclassJava.grade_95362737_010::::78::::2235::::2235::::c::::b	0.4082482904638631
+199	introclassJava.grade_95362737_010::::78::::2235::::2235::::c::::a	0.4082482904638631
+200	introclassJava.grade_95362737_010::::78::::2221::::2241::::(score.value) < (c.value)::::true	0.4082482904638631
+201	introclassJava.grade_95362737_010::::78::::2221::::2241::::(score.value) < (c.value)::::score.value) >= (a.value	0.4082482904638631
+202	introclassJava.grade_95362737_010::::78::::2221::::2241::::(score.value) < (c.value)::::score.value) < (d.value	0.4082482904638631
+203	introclassJava.grade_95362737_010::::78::::2221::::2241::::(score.value) < (c.value)::::(score.value) >= (d.value)) && ((score.value) < (c.value)	0.4082482904638631
+204	introclassJava.grade_95362737_010::::78::::2221::::2241::::(score.value) < (c.value)::::(score.value) >= (d.value)	0.4082482904638631
+205	introclassJava.grade_95362737_010::::78::::2221::::2241::::(score.value) < (c.value)::::(score.value) >= (c.value)) && ((score.value) < (b.value)	0.4082482904638631
+206	introclassJava.grade_95362737_010::::78::::2221::::2241::::(score.value) < (c.value)::::(score.value) >= (c.value)	0.4082482904638631
+207	introclassJava.grade_95362737_010::::78::::2221::::2241::::(score.value) < (c.value)::::(score.value) >= (b.value)) && ((score.value) < (a.value)	0.4082482904638631
+208	introclassJava.grade_95362737_010::::78::::2221::::2241::::(score.value) < (c.value)::::(score.value) >= (b.value)	0.4082482904638631
+209	introclassJava.grade_95362737_010::::78::::2221::::2241::::(score.value) < (c.value)::::(score.value) < (b.value)	0.4082482904638631
+210	introclassJava.grade_95362737_010::::78::::2221::::2241::::(score.value) < (c.value)::::(score.value) < (a.value)	0.4082482904638631
+211	introclassJava.grade_95362737_010::::78::::2221::::2231::::score.value::::d.value	0.4082482904638631
+212	introclassJava.grade_95362737_010::::78::::2221::::2231::::score.value::::b.value	0.4082482904638631
+213	introclassJava.grade_95362737_010::::78::::2221::::2231::::score.value::::a.value	0.4082482904638631
+214	introclassJava.grade_95362737_010::::78::::2221::::2225::::score::::d	0.4082482904638631
+215	introclassJava.grade_95362737_010::::78::::2221::::2225::::score::::c	0.4082482904638631
+216	introclassJava.grade_95362737_010::::78::::2221::::2225::::score::::b	0.4082482904638631
+217	introclassJava.grade_95362737_010::::78::::2221::::2225::::score::::a	0.4082482904638631
+218	introclassJava.grade_95362737_010::::78::::2210::::2216::::d.value::::c.value	0.4082482904638631
+219	introclassJava.grade_95362737_010::::78::::2210::::2216::::d.value::::b.value	0.4082482904638631
+220	introclassJava.grade_95362737_010::::78::::2210::::2216::::d.value::::a.value	0.4082482904638631
+221	introclassJava.grade_95362737_010::::78::::2210::::2210::::d::::score	0.4082482904638631
+222	introclassJava.grade_95362737_010::::78::::2210::::2210::::d::::c	0.4082482904638631
+223	introclassJava.grade_95362737_010::::78::::2210::::2210::::d::::b	0.4082482904638631
+224	introclassJava.grade_95362737_010::::78::::2210::::2210::::d::::a	0.4082482904638631
+225	introclassJava.grade_95362737_010::::78::::2195::::2241::::(score.value) >= (d.value)) && ((score.value) < (c.value)::::true	0.4082482904638631
+226	introclassJava.grade_95362737_010::::78::::2195::::2241::::(score.value) >= (d.value)) && ((score.value) < (c.value)::::score.value) >= (a.value	0.4082482904638631
+227	introclassJava.grade_95362737_010::::78::::2195::::2241::::(score.value) >= (d.value)) && ((score.value) < (c.value)::::score.value) < (d.value	0.4082482904638631
+228	introclassJava.grade_95362737_010::::78::::2195::::2241::::(score.value) >= (d.value)) && ((score.value) < (c.value)::::(score.value) >= (d.value)	0.4082482904638631
+229	introclassJava.grade_95362737_010::::78::::2195::::2241::::(score.value) >= (d.value)) && ((score.value) < (c.value)::::(score.value) >= (c.value)) && ((score.value) < (b.value)	0.4082482904638631
+230	introclassJava.grade_95362737_010::::78::::2195::::2241::::(score.value) >= (d.value)) && ((score.value) < (c.value)::::(score.value) >= (c.value)	0.4082482904638631
+231	introclassJava.grade_95362737_010::::78::::2195::::2241::::(score.value) >= (d.value)) && ((score.value) < (c.value)::::(score.value) >= (b.value)) && ((score.value) < (a.value)	0.4082482904638631
+232	introclassJava.grade_95362737_010::::78::::2195::::2241::::(score.value) >= (d.value)) && ((score.value) < (c.value)::::(score.value) >= (b.value)	0.4082482904638631
+233	introclassJava.grade_95362737_010::::78::::2195::::2241::::(score.value) >= (d.value)) && ((score.value) < (c.value)::::(score.value) < (c.value)	0.4082482904638631
+234	introclassJava.grade_95362737_010::::78::::2195::::2241::::(score.value) >= (d.value)) && ((score.value) < (c.value)::::(score.value) < (b.value)	0.4082482904638631
+235	introclassJava.grade_95362737_010::::78::::2195::::2241::::(score.value) >= (d.value)) && ((score.value) < (c.value)::::(score.value) < (a.value)	0.4082482904638631
+236	introclassJava.grade_95362737_010::::78::::2195::::2216::::(score.value) >= (d.value)::::true	0.4082482904638631
+237	introclassJava.grade_95362737_010::::78::::2195::::2216::::(score.value) >= (d.value)::::score.value) >= (a.value	0.4082482904638631
+238	introclassJava.grade_95362737_010::::78::::2195::::2216::::(score.value) >= (d.value)::::score.value) < (d.value	0.4082482904638631
+239	introclassJava.grade_95362737_010::::78::::2195::::2216::::(score.value) >= (d.value)::::(score.value) >= (d.value)) && ((score.value) < (c.value)	0.4082482904638631
+240	introclassJava.grade_95362737_010::::78::::2195::::2216::::(score.value) >= (d.value)::::(score.value) >= (c.value)) && ((score.value) < (b.value)	0.4082482904638631
+241	introclassJava.grade_95362737_010::::78::::2195::::2216::::(score.value) >= (d.value)::::(score.value) >= (c.value)	0.4082482904638631
+242	introclassJava.grade_95362737_010::::78::::2195::::2216::::(score.value) >= (d.value)::::(score.value) >= (b.value)) && ((score.value) < (a.value)	0.4082482904638631
+243	introclassJava.grade_95362737_010::::78::::2195::::2216::::(score.value) >= (d.value)::::(score.value) >= (b.value)	0.4082482904638631
+244	introclassJava.grade_95362737_010::::78::::2195::::2216::::(score.value) >= (d.value)::::(score.value) < (c.value)	0.4082482904638631
+245	introclassJava.grade_95362737_010::::78::::2195::::2216::::(score.value) >= (d.value)::::(score.value) < (b.value)	0.4082482904638631
+246	introclassJava.grade_95362737_010::::78::::2195::::2216::::(score.value) >= (d.value)::::(score.value) < (a.value)	0.4082482904638631
+247	introclassJava.grade_95362737_010::::78::::2195::::2205::::score.value::::c.value	0.4082482904638631
+248	introclassJava.grade_95362737_010::::78::::2195::::2205::::score.value::::b.value	0.4082482904638631
+249	introclassJava.grade_95362737_010::::78::::2195::::2205::::score.value::::a.value	0.4082482904638631
+250	introclassJava.grade_95362737_010::::78::::2195::::2199::::score::::d	0.4082482904638631
+251	introclassJava.grade_95362737_010::::78::::2195::::2199::::score::::c	0.4082482904638631
+252	introclassJava.grade_95362737_010::::78::::2195::::2199::::score::::b	0.4082482904638631
+253	introclassJava.grade_95362737_010::::78::::2195::::2199::::score::::a	0.4082482904638631
+254	introclassJava.grade_95362737_010::::78::::2191::::2440::::if (((score.value) >= (d.value)) && ((score.value) < (c.value))) {    output += java.lang.String.format("Student has a D grade\n");}else    if ((score.value) < (d.value)) {        output += java.lang.String.format("Student has failed the course\n");    }::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631

@@ -1,0 +1,12 @@
+1	introclassJava.digits_2af3c416_000::::71::::1707::::1713::::return ::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+2	introclassJava.digits_2af3c416_000::::69::::1615::::1675::::output += java.lang.String.format("That\'s all, have a nice day!\n")::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+3	introclassJava.digits_2af3c416_000::::64::::1437::::1449::::(num.value) > 0::::true	0.4082482904638631
+4	introclassJava.digits_2af3c416_000::::64::::1430::::1605::::while ((num.value) > 0) {    digit.value = (num.value) % 10;    output += java.lang.String.format("%d\n", digit.value);    num.value = (num.value) / 10;} ::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+5	introclassJava.digits_2af3c416_000::::63::::1388::::1420::::output += java.lang.String.format("\n")::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+6	introclassJava.digits_2af3c416_000::::62::::1348::::1378::::num.value = scanner.nextInt()::::num.value = (num.value) / 10	0.4082482904638631
+7	introclassJava.digits_2af3c416_000::::62::::1348::::1378::::num.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+8	introclassJava.digits_2af3c416_000::::61::::1289::::1338::::output += java.lang.String.format("Enter an integer > ")::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+9	introclassJava.digits_2af3c416_000::::60::::1266::::1278::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.4082482904638631
+10	introclassJava.digits_2af3c416_000::::60::::1243::::1255::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.4082482904638631
+11	introclassJava.digits_2af3c416_000::::60::::1230::::1279::::introclassJava.IntObj num = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+12	introclassJava.digits_2af3c416_000::::60::::1230::::1279::::introclassJava.IntObj digit = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631

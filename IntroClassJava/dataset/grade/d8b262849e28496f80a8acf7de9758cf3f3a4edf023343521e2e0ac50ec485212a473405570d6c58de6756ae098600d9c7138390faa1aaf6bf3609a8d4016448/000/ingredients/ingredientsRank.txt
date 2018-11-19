@@ -1,0 +1,65 @@
+1	introclassJava.grade_d8b26284_000::::73::::1858::::1912::::output += java.lang.String.format("Student has an F grade\n")::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+2	introclassJava.grade_d8b26284_000::::84::::2481::::2487::::return ::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+3	introclassJava.grade_d8b26284_000::::72::::1835::::1841::::D.value::::C.value	0.3333333333333333
+4	introclassJava.grade_d8b26284_000::::72::::1835::::1841::::D.value::::B.value	0.3333333333333333
+5	introclassJava.grade_d8b26284_000::::72::::1835::::1841::::D.value::::A.value	0.3333333333333333
+6	introclassJava.grade_d8b26284_000::::72::::1835::::1835::::D::::score	0.3333333333333333
+7	introclassJava.grade_d8b26284_000::::72::::1835::::1835::::D::::C	0.3333333333333333
+8	introclassJava.grade_d8b26284_000::::72::::1835::::1835::::D::::B	0.3333333333333333
+9	introclassJava.grade_d8b26284_000::::72::::1835::::1835::::D::::A	0.3333333333333333
+10	introclassJava.grade_d8b26284_000::::72::::1821::::1841::::score.value) < (D.value::::true	0.3333333333333333
+11	introclassJava.grade_d8b26284_000::::72::::1821::::1841::::score.value) < (D.value::::score.value) >= (A.value	0.3333333333333333
+12	introclassJava.grade_d8b26284_000::::72::::1821::::1841::::score.value) < (D.value::::(score.value) >= (D.value)) && ((score.value) < (C.value)	0.3333333333333333
+13	introclassJava.grade_d8b26284_000::::72::::1821::::1841::::score.value) < (D.value::::(score.value) >= (D.value)	0.3333333333333333
+14	introclassJava.grade_d8b26284_000::::72::::1821::::1841::::score.value) < (D.value::::(score.value) >= (C.value)) && ((score.value) < (B.value)	0.3333333333333333
+15	introclassJava.grade_d8b26284_000::::72::::1821::::1841::::score.value) < (D.value::::(score.value) >= (C.value)	0.3333333333333333
+16	introclassJava.grade_d8b26284_000::::72::::1821::::1841::::score.value) < (D.value::::(score.value) >= (B.value)) && ((score.value) < (A.value)	0.3333333333333333
+17	introclassJava.grade_d8b26284_000::::72::::1821::::1841::::score.value) < (D.value::::(score.value) >= (B.value)	0.3333333333333333
+18	introclassJava.grade_d8b26284_000::::72::::1821::::1841::::score.value) < (D.value::::(score.value) < (C.value)	0.3333333333333333
+19	introclassJava.grade_d8b26284_000::::72::::1821::::1841::::score.value) < (D.value::::(score.value) < (B.value)	0.3333333333333333
+20	introclassJava.grade_d8b26284_000::::72::::1821::::1841::::score.value) < (D.value::::(score.value) < (A.value)	0.3333333333333333
+21	introclassJava.grade_d8b26284_000::::72::::1821::::1831::::score.value::::C.value	0.3333333333333333
+22	introclassJava.grade_d8b26284_000::::72::::1821::::1831::::score.value::::B.value	0.3333333333333333
+23	introclassJava.grade_d8b26284_000::::72::::1821::::1831::::score.value::::A.value	0.3333333333333333
+24	introclassJava.grade_d8b26284_000::::72::::1821::::1825::::score::::D	0.3333333333333333
+25	introclassJava.grade_d8b26284_000::::72::::1821::::1825::::score::::C	0.3333333333333333
+26	introclassJava.grade_d8b26284_000::::72::::1821::::1825::::score::::B	0.3333333333333333
+27	introclassJava.grade_d8b26284_000::::72::::1821::::1825::::score::::A	0.3333333333333333
+28	introclassJava.grade_d8b26284_000::::72::::1817::::2449::::if ((score.value) < (D.value)) {    output += java.lang.String.format("Student has an F grade\n");}else    if (((score.value) >= (D.value)) && ((score.value) < (C.value))) {        output += java.lang.String.format("Student has an D grade\n");    }else        if (((score.value) >= (C.value)) && ((score.value) < (B.value))) {            output += java.lang.String.format("Student has an C grade\n");        }else            if (((score.value) >= (B.value)) && ((score.value) < (A.value))) {                output += java.lang.String.format("Student has an B grade\n");            }else                if ((score.value) >= (A.value)) {                    output += java.lang.String.format("Student has an A grade\n");                }                        ::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+29	introclassJava.grade_d8b26284_000::::71::::1772::::1807::::score.value = scanner.nextDouble()::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+30	introclassJava.grade_d8b26284_000::::71::::1772::::1782::::score.value::::D.value	0.3333333333333333
+31	introclassJava.grade_d8b26284_000::::71::::1772::::1782::::score.value::::C.value	0.3333333333333333
+32	introclassJava.grade_d8b26284_000::::71::::1772::::1782::::score.value::::B.value	0.3333333333333333
+33	introclassJava.grade_d8b26284_000::::71::::1772::::1782::::score.value::::A.value	0.3333333333333333
+34	introclassJava.grade_d8b26284_000::::71::::1772::::1776::::score::::D	0.3333333333333333
+35	introclassJava.grade_d8b26284_000::::71::::1772::::1776::::score::::C	0.3333333333333333
+36	introclassJava.grade_d8b26284_000::::71::::1772::::1776::::score::::B	0.3333333333333333
+37	introclassJava.grade_d8b26284_000::::71::::1772::::1776::::score::::A	0.3333333333333333
+38	introclassJava.grade_d8b26284_000::::69::::1673::::1762::::output += java.lang.String.format("Thank you. Now enter student score (percent) > ")::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+39	introclassJava.grade_d8b26284_000::::68::::1632::::1663::::D.value = scanner.nextDouble()::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+40	introclassJava.grade_d8b26284_000::::68::::1632::::1638::::D.value::::C.value	0.3333333333333333
+41	introclassJava.grade_d8b26284_000::::68::::1632::::1638::::D.value::::B.value	0.3333333333333333
+42	introclassJava.grade_d8b26284_000::::68::::1632::::1638::::D.value::::A.value	0.3333333333333333
+43	introclassJava.grade_d8b26284_000::::68::::1632::::1632::::D::::C	0.3333333333333333
+44	introclassJava.grade_d8b26284_000::::68::::1632::::1632::::D::::B	0.3333333333333333
+45	introclassJava.grade_d8b26284_000::::68::::1632::::1632::::D::::A	0.3333333333333333
+46	introclassJava.grade_d8b26284_000::::67::::1591::::1622::::C.value = scanner.nextDouble()::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+47	introclassJava.grade_d8b26284_000::::67::::1591::::1597::::C.value::::B.value	0.3333333333333333
+48	introclassJava.grade_d8b26284_000::::67::::1591::::1597::::C.value::::A.value	0.3333333333333333
+49	introclassJava.grade_d8b26284_000::::67::::1591::::1591::::C::::B	0.3333333333333333
+50	introclassJava.grade_d8b26284_000::::67::::1591::::1591::::C::::A	0.3333333333333333
+51	introclassJava.grade_d8b26284_000::::66::::1550::::1581::::B.value = scanner.nextDouble()::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+52	introclassJava.grade_d8b26284_000::::66::::1550::::1556::::B.value::::A.value	0.3333333333333333
+53	introclassJava.grade_d8b26284_000::::66::::1550::::1550::::B::::A	0.3333333333333333
+54	introclassJava.grade_d8b26284_000::::65::::1509::::1540::::A.value = scanner.nextDouble()::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+55	introclassJava.grade_d8b26284_000::::62::::1371::::1499::::output += java.lang.String.format("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ")::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+56	introclassJava.grade_d8b26284_000::::61::::1345::::1360::::new introclassJava.DoubleObj()::::INSERT::::PARAMETER::::new DoubleObj(value)	0.3333333333333333
+57	introclassJava.grade_d8b26284_000::::61::::1319::::1334::::new introclassJava.DoubleObj()::::INSERT::::PARAMETER::::new DoubleObj(value)	0.3333333333333333
+58	introclassJava.grade_d8b26284_000::::61::::1297::::1312::::new introclassJava.DoubleObj()::::INSERT::::PARAMETER::::new DoubleObj(value)	0.3333333333333333
+59	introclassJava.grade_d8b26284_000::::61::::1227::::1361::::introclassJava.DoubleObj score = new introclassJava.DoubleObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+60	introclassJava.grade_d8b26284_000::::61::::1227::::1361::::introclassJava.DoubleObj D = new introclassJava.DoubleObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+61	introclassJava.grade_d8b26284_000::::60::::1263::::1278::::new introclassJava.DoubleObj()::::INSERT::::PARAMETER::::new DoubleObj(value)	0.3333333333333333
+62	introclassJava.grade_d8b26284_000::::60::::1241::::1256::::new introclassJava.DoubleObj()::::INSERT::::PARAMETER::::new DoubleObj(value)	0.3333333333333333
+63	introclassJava.grade_d8b26284_000::::60::::1227::::1361::::introclassJava.DoubleObj C = new introclassJava.DoubleObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+64	introclassJava.grade_d8b26284_000::::60::::1227::::1361::::introclassJava.DoubleObj B = new introclassJava.DoubleObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+65	introclassJava.grade_d8b26284_000::::60::::1227::::1361::::introclassJava.DoubleObj A = new introclassJava.DoubleObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333

@@ -1,0 +1,319 @@
+1	introclassJava.grade_317aa705_000::::86::::2309::::2326::::grade.value = 'F'::::grade.value = 'D'	1.0
+2	introclassJava.grade_317aa705_000::::86::::2309::::2326::::grade.value = 'F'::::grade.value = 'C'	1.0
+3	introclassJava.grade_317aa705_000::::86::::2309::::2326::::grade.value = 'F'::::grade.value = 'B'	1.0
+4	introclassJava.grade_317aa705_000::::86::::2309::::2326::::grade.value = 'F'::::grade.value = 'A'	1.0
+5	introclassJava.grade_317aa705_000::::86::::2309::::2326::::grade.value = 'F'::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+6	introclassJava.grade_317aa705_000::::86::::2309::::2326::::grade.value = 'F'::::INSERT::::STATEMENT::::if ((percent.value) >= (A.value)) {    grade.value = 'A';}	1.0
+7	introclassJava.grade_317aa705_000::::86::::2309::::2326::::grade.value = 'F'::::INSERT::::STATEMENT::::if ((percent.value) < (D.value)) {    grade.value = 'F';}	1.0
+8	introclassJava.grade_317aa705_000::::86::::2309::::2326::::grade.value = 'F'::::INSERT::::STATEMENT::::if (((percent.value) < (C.value)) && ((percent.value) >= (D.value))) {    grade.value = 'D';}	1.0
+9	introclassJava.grade_317aa705_000::::86::::2309::::2326::::grade.value = 'F'::::INSERT::::STATEMENT::::if (((percent.value) < (B.value)) && ((percent.value) >= (C.value))) {    grade.value = 'C';}	1.0
+10	introclassJava.grade_317aa705_000::::86::::2309::::2326::::grade.value = 'F'::::INSERT::::STATEMENT::::if (((percent.value) < (A.value)) && ((percent.value) >= (B.value))) {    grade.value = 'B';}	1.0
+11	introclassJava.grade_317aa705_000::::90::::2448::::2454::::return ::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+12	introclassJava.grade_317aa705_000::::90::::2448::::2454::::return ::::INSERT::::STATEMENT::::if ((percent.value) >= (A.value)) {    grade.value = 'A';}	0.3333333333333333
+13	introclassJava.grade_317aa705_000::::90::::2448::::2454::::return ::::INSERT::::STATEMENT::::if ((percent.value) < (D.value)) {    grade.value = 'F';}	0.3333333333333333
+14	introclassJava.grade_317aa705_000::::90::::2448::::2454::::return ::::INSERT::::STATEMENT::::if (((percent.value) < (C.value)) && ((percent.value) >= (D.value))) {    grade.value = 'D';}	0.3333333333333333
+15	introclassJava.grade_317aa705_000::::90::::2448::::2454::::return ::::INSERT::::STATEMENT::::if (((percent.value) < (B.value)) && ((percent.value) >= (C.value))) {    grade.value = 'C';}	0.3333333333333333
+16	introclassJava.grade_317aa705_000::::90::::2448::::2454::::return ::::INSERT::::STATEMENT::::if (((percent.value) < (A.value)) && ((percent.value) >= (B.value))) {    grade.value = 'B';}	0.3333333333333333
+17	introclassJava.grade_317aa705_000::::88::::2346::::2416::::output += java.lang.String.format("Student has an %c grade\n\n", grade.value)::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+18	introclassJava.grade_317aa705_000::::88::::2346::::2416::::output += java.lang.String.format("Student has an %c grade\n\n", grade.value)::::INSERT::::STATEMENT::::if ((percent.value) >= (A.value)) {    grade.value = 'A';}	0.3333333333333333
+19	introclassJava.grade_317aa705_000::::88::::2346::::2416::::output += java.lang.String.format("Student has an %c grade\n\n", grade.value)::::INSERT::::STATEMENT::::if ((percent.value) < (D.value)) {    grade.value = 'F';}	0.3333333333333333
+20	introclassJava.grade_317aa705_000::::88::::2346::::2416::::output += java.lang.String.format("Student has an %c grade\n\n", grade.value)::::INSERT::::STATEMENT::::if (((percent.value) < (C.value)) && ((percent.value) >= (D.value))) {    grade.value = 'D';}	0.3333333333333333
+21	introclassJava.grade_317aa705_000::::88::::2346::::2416::::output += java.lang.String.format("Student has an %c grade\n\n", grade.value)::::INSERT::::STATEMENT::::if (((percent.value) < (B.value)) && ((percent.value) >= (C.value))) {    grade.value = 'C';}	0.3333333333333333
+22	introclassJava.grade_317aa705_000::::88::::2346::::2416::::output += java.lang.String.format("Student has an %c grade\n\n", grade.value)::::INSERT::::STATEMENT::::if (((percent.value) < (A.value)) && ((percent.value) >= (B.value))) {    grade.value = 'B';}	0.3333333333333333
+23	introclassJava.grade_317aa705_000::::85::::2286::::2292::::D.value::::C.value	0.3333333333333333
+24	introclassJava.grade_317aa705_000::::85::::2286::::2292::::D.value::::B.value	0.3333333333333333
+25	introclassJava.grade_317aa705_000::::85::::2286::::2292::::D.value::::A.value	0.3333333333333333
+26	introclassJava.grade_317aa705_000::::85::::2286::::2286::::D::::percent	0.3333333333333333
+27	introclassJava.grade_317aa705_000::::85::::2286::::2286::::D::::C	0.3333333333333333
+28	introclassJava.grade_317aa705_000::::85::::2286::::2286::::D::::B	0.3333333333333333
+29	introclassJava.grade_317aa705_000::::85::::2286::::2286::::D::::A	0.3333333333333333
+30	introclassJava.grade_317aa705_000::::85::::2270::::2292::::percent.value) < (D.value::::true	0.3333333333333333
+31	introclassJava.grade_317aa705_000::::85::::2270::::2292::::percent.value) < (D.value::::percent.value) >= (A.value	0.3333333333333333
+32	introclassJava.grade_317aa705_000::::85::::2270::::2292::::percent.value) < (D.value::::(percent.value) >= (D.value)	0.3333333333333333
+33	introclassJava.grade_317aa705_000::::85::::2270::::2292::::percent.value) < (D.value::::(percent.value) >= (C.value)	0.3333333333333333
+34	introclassJava.grade_317aa705_000::::85::::2270::::2292::::percent.value) < (D.value::::(percent.value) >= (B.value)	0.3333333333333333
+35	introclassJava.grade_317aa705_000::::85::::2270::::2292::::percent.value) < (D.value::::(percent.value) < (C.value)) && ((percent.value) >= (D.value)	0.3333333333333333
+36	introclassJava.grade_317aa705_000::::85::::2270::::2292::::percent.value) < (D.value::::(percent.value) < (C.value)	0.3333333333333333
+37	introclassJava.grade_317aa705_000::::85::::2270::::2292::::percent.value) < (D.value::::(percent.value) < (B.value)) && ((percent.value) >= (C.value)	0.3333333333333333
+38	introclassJava.grade_317aa705_000::::85::::2270::::2292::::percent.value) < (D.value::::(percent.value) < (B.value)	0.3333333333333333
+39	introclassJava.grade_317aa705_000::::85::::2270::::2292::::percent.value) < (D.value::::(percent.value) < (A.value)) && ((percent.value) >= (B.value)	0.3333333333333333
+40	introclassJava.grade_317aa705_000::::85::::2270::::2292::::percent.value) < (D.value::::(percent.value) < (A.value)	0.3333333333333333
+41	introclassJava.grade_317aa705_000::::85::::2270::::2282::::percent.value::::C.value	0.3333333333333333
+42	introclassJava.grade_317aa705_000::::85::::2270::::2282::::percent.value::::B.value	0.3333333333333333
+43	introclassJava.grade_317aa705_000::::85::::2270::::2282::::percent.value::::A.value	0.3333333333333333
+44	introclassJava.grade_317aa705_000::::85::::2270::::2276::::percent::::D	0.3333333333333333
+45	introclassJava.grade_317aa705_000::::85::::2270::::2276::::percent::::C	0.3333333333333333
+46	introclassJava.grade_317aa705_000::::85::::2270::::2276::::percent::::B	0.3333333333333333
+47	introclassJava.grade_317aa705_000::::85::::2270::::2276::::percent::::A	0.3333333333333333
+48	introclassJava.grade_317aa705_000::::85::::2266::::2336::::if ((percent.value) < (D.value)) {    grade.value = 'F';}::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+49	introclassJava.grade_317aa705_000::::85::::2266::::2336::::if ((percent.value) < (D.value)) {    grade.value = 'F';}::::INSERT::::STATEMENT::::if ((percent.value) >= (A.value)) {    grade.value = 'A';}	0.3333333333333333
+50	introclassJava.grade_317aa705_000::::85::::2266::::2336::::if ((percent.value) < (D.value)) {    grade.value = 'F';}::::INSERT::::STATEMENT::::if ((percent.value) < (D.value)) {    grade.value = 'F';}	0.3333333333333333
+51	introclassJava.grade_317aa705_000::::85::::2266::::2336::::if ((percent.value) < (D.value)) {    grade.value = 'F';}::::INSERT::::STATEMENT::::if (((percent.value) < (C.value)) && ((percent.value) >= (D.value))) {    grade.value = 'D';}	0.3333333333333333
+52	introclassJava.grade_317aa705_000::::85::::2266::::2336::::if ((percent.value) < (D.value)) {    grade.value = 'F';}::::INSERT::::STATEMENT::::if (((percent.value) < (B.value)) && ((percent.value) >= (C.value))) {    grade.value = 'C';}	0.3333333333333333
+53	introclassJava.grade_317aa705_000::::85::::2266::::2336::::if ((percent.value) < (D.value)) {    grade.value = 'F';}::::INSERT::::STATEMENT::::if (((percent.value) < (A.value)) && ((percent.value) >= (B.value))) {    grade.value = 'B';}	0.3333333333333333
+54	introclassJava.grade_317aa705_000::::82::::2205::::2211::::D.value::::C.value	0.3333333333333333
+55	introclassJava.grade_317aa705_000::::82::::2205::::2211::::D.value::::B.value	0.3333333333333333
+56	introclassJava.grade_317aa705_000::::82::::2205::::2211::::D.value::::A.value	0.3333333333333333
+57	introclassJava.grade_317aa705_000::::82::::2205::::2205::::D::::percent	0.3333333333333333
+58	introclassJava.grade_317aa705_000::::82::::2205::::2205::::D::::C	0.3333333333333333
+59	introclassJava.grade_317aa705_000::::82::::2205::::2205::::D::::B	0.3333333333333333
+60	introclassJava.grade_317aa705_000::::82::::2205::::2205::::D::::A	0.3333333333333333
+61	introclassJava.grade_317aa705_000::::82::::2188::::2200::::percent.value::::C.value	0.3333333333333333
+62	introclassJava.grade_317aa705_000::::82::::2188::::2200::::percent.value::::B.value	0.3333333333333333
+63	introclassJava.grade_317aa705_000::::82::::2188::::2200::::percent.value::::A.value	0.3333333333333333
+64	introclassJava.grade_317aa705_000::::82::::2188::::2194::::percent::::D	0.3333333333333333
+65	introclassJava.grade_317aa705_000::::82::::2188::::2194::::percent::::C	0.3333333333333333
+66	introclassJava.grade_317aa705_000::::82::::2188::::2194::::percent::::B	0.3333333333333333
+67	introclassJava.grade_317aa705_000::::82::::2188::::2194::::percent::::A	0.3333333333333333
+68	introclassJava.grade_317aa705_000::::82::::2187::::2212::::(percent.value) >= (D.value)::::true	0.3333333333333333
+69	introclassJava.grade_317aa705_000::::82::::2187::::2212::::(percent.value) >= (D.value)::::percent.value) >= (A.value	0.3333333333333333
+70	introclassJava.grade_317aa705_000::::82::::2187::::2212::::(percent.value) >= (D.value)::::percent.value) < (D.value	0.3333333333333333
+71	introclassJava.grade_317aa705_000::::82::::2187::::2212::::(percent.value) >= (D.value)::::(percent.value) >= (C.value)	0.3333333333333333
+72	introclassJava.grade_317aa705_000::::82::::2187::::2212::::(percent.value) >= (D.value)::::(percent.value) >= (B.value)	0.3333333333333333
+73	introclassJava.grade_317aa705_000::::82::::2187::::2212::::(percent.value) >= (D.value)::::(percent.value) < (C.value)) && ((percent.value) >= (D.value)	0.3333333333333333
+74	introclassJava.grade_317aa705_000::::82::::2187::::2212::::(percent.value) >= (D.value)::::(percent.value) < (C.value)	0.3333333333333333
+75	introclassJava.grade_317aa705_000::::82::::2187::::2212::::(percent.value) >= (D.value)::::(percent.value) < (B.value)) && ((percent.value) >= (C.value)	0.3333333333333333
+76	introclassJava.grade_317aa705_000::::82::::2187::::2212::::(percent.value) >= (D.value)::::(percent.value) < (B.value)	0.3333333333333333
+77	introclassJava.grade_317aa705_000::::82::::2187::::2212::::(percent.value) >= (D.value)::::(percent.value) < (A.value)) && ((percent.value) >= (B.value)	0.3333333333333333
+78	introclassJava.grade_317aa705_000::::82::::2187::::2212::::(percent.value) >= (D.value)::::(percent.value) < (A.value)	0.3333333333333333
+79	introclassJava.grade_317aa705_000::::82::::2175::::2181::::C.value::::D.value	0.3333333333333333
+80	introclassJava.grade_317aa705_000::::82::::2175::::2181::::C.value::::B.value	0.3333333333333333
+81	introclassJava.grade_317aa705_000::::82::::2175::::2181::::C.value::::A.value	0.3333333333333333
+82	introclassJava.grade_317aa705_000::::82::::2175::::2175::::C::::percent	0.3333333333333333
+83	introclassJava.grade_317aa705_000::::82::::2175::::2175::::C::::D	0.3333333333333333
+84	introclassJava.grade_317aa705_000::::82::::2175::::2175::::C::::B	0.3333333333333333
+85	introclassJava.grade_317aa705_000::::82::::2175::::2175::::C::::A	0.3333333333333333
+86	introclassJava.grade_317aa705_000::::82::::2159::::2171::::percent.value::::D.value	0.3333333333333333
+87	introclassJava.grade_317aa705_000::::82::::2159::::2171::::percent.value::::B.value	0.3333333333333333
+88	introclassJava.grade_317aa705_000::::82::::2159::::2171::::percent.value::::A.value	0.3333333333333333
+89	introclassJava.grade_317aa705_000::::82::::2159::::2165::::percent::::D	0.3333333333333333
+90	introclassJava.grade_317aa705_000::::82::::2159::::2165::::percent::::C	0.3333333333333333
+91	introclassJava.grade_317aa705_000::::82::::2159::::2165::::percent::::B	0.3333333333333333
+92	introclassJava.grade_317aa705_000::::82::::2159::::2165::::percent::::A	0.3333333333333333
+93	introclassJava.grade_317aa705_000::::82::::2158::::2212::::(percent.value) < (C.value)) && ((percent.value) >= (D.value)::::true	0.3333333333333333
+94	introclassJava.grade_317aa705_000::::82::::2158::::2212::::(percent.value) < (C.value)) && ((percent.value) >= (D.value)::::percent.value) >= (A.value	0.3333333333333333
+95	introclassJava.grade_317aa705_000::::82::::2158::::2212::::(percent.value) < (C.value)) && ((percent.value) >= (D.value)::::percent.value) < (D.value	0.3333333333333333
+96	introclassJava.grade_317aa705_000::::82::::2158::::2212::::(percent.value) < (C.value)) && ((percent.value) >= (D.value)::::(percent.value) >= (D.value)	0.3333333333333333
+97	introclassJava.grade_317aa705_000::::82::::2158::::2212::::(percent.value) < (C.value)) && ((percent.value) >= (D.value)::::(percent.value) >= (C.value)	0.3333333333333333
+98	introclassJava.grade_317aa705_000::::82::::2158::::2212::::(percent.value) < (C.value)) && ((percent.value) >= (D.value)::::(percent.value) >= (B.value)	0.3333333333333333
+99	introclassJava.grade_317aa705_000::::82::::2158::::2212::::(percent.value) < (C.value)) && ((percent.value) >= (D.value)::::(percent.value) < (C.value)	0.3333333333333333
+100	introclassJava.grade_317aa705_000::::82::::2158::::2212::::(percent.value) < (C.value)) && ((percent.value) >= (D.value)::::(percent.value) < (B.value)) && ((percent.value) >= (C.value)	0.3333333333333333
+101	introclassJava.grade_317aa705_000::::82::::2158::::2212::::(percent.value) < (C.value)) && ((percent.value) >= (D.value)::::(percent.value) < (B.value)	0.3333333333333333
+102	introclassJava.grade_317aa705_000::::82::::2158::::2212::::(percent.value) < (C.value)) && ((percent.value) >= (D.value)::::(percent.value) < (A.value)) && ((percent.value) >= (B.value)	0.3333333333333333
+103	introclassJava.grade_317aa705_000::::82::::2158::::2212::::(percent.value) < (C.value)) && ((percent.value) >= (D.value)::::(percent.value) < (A.value)	0.3333333333333333
+104	introclassJava.grade_317aa705_000::::82::::2158::::2182::::(percent.value) < (C.value)::::true	0.3333333333333333
+105	introclassJava.grade_317aa705_000::::82::::2158::::2182::::(percent.value) < (C.value)::::percent.value) >= (A.value	0.3333333333333333
+106	introclassJava.grade_317aa705_000::::82::::2158::::2182::::(percent.value) < (C.value)::::percent.value) < (D.value	0.3333333333333333
+107	introclassJava.grade_317aa705_000::::82::::2158::::2182::::(percent.value) < (C.value)::::(percent.value) >= (D.value)	0.3333333333333333
+108	introclassJava.grade_317aa705_000::::82::::2158::::2182::::(percent.value) < (C.value)::::(percent.value) >= (C.value)	0.3333333333333333
+109	introclassJava.grade_317aa705_000::::82::::2158::::2182::::(percent.value) < (C.value)::::(percent.value) >= (B.value)	0.3333333333333333
+110	introclassJava.grade_317aa705_000::::82::::2158::::2182::::(percent.value) < (C.value)::::(percent.value) < (C.value)) && ((percent.value) >= (D.value)	0.3333333333333333
+111	introclassJava.grade_317aa705_000::::82::::2158::::2182::::(percent.value) < (C.value)::::(percent.value) < (B.value)) && ((percent.value) >= (C.value)	0.3333333333333333
+112	introclassJava.grade_317aa705_000::::82::::2158::::2182::::(percent.value) < (C.value)::::(percent.value) < (B.value)	0.3333333333333333
+113	introclassJava.grade_317aa705_000::::82::::2158::::2182::::(percent.value) < (C.value)::::(percent.value) < (A.value)) && ((percent.value) >= (B.value)	0.3333333333333333
+114	introclassJava.grade_317aa705_000::::82::::2158::::2182::::(percent.value) < (C.value)::::(percent.value) < (A.value)	0.3333333333333333
+115	introclassJava.grade_317aa705_000::::82::::2154::::2256::::if (((percent.value) < (C.value)) && ((percent.value) >= (D.value))) {    grade.value = 'D';}::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+116	introclassJava.grade_317aa705_000::::82::::2154::::2256::::if (((percent.value) < (C.value)) && ((percent.value) >= (D.value))) {    grade.value = 'D';}::::INSERT::::STATEMENT::::if ((percent.value) >= (A.value)) {    grade.value = 'A';}	0.3333333333333333
+117	introclassJava.grade_317aa705_000::::82::::2154::::2256::::if (((percent.value) < (C.value)) && ((percent.value) >= (D.value))) {    grade.value = 'D';}::::INSERT::::STATEMENT::::if ((percent.value) < (D.value)) {    grade.value = 'F';}	0.3333333333333333
+118	introclassJava.grade_317aa705_000::::82::::2154::::2256::::if (((percent.value) < (C.value)) && ((percent.value) >= (D.value))) {    grade.value = 'D';}::::INSERT::::STATEMENT::::if (((percent.value) < (C.value)) && ((percent.value) >= (D.value))) {    grade.value = 'D';}	0.3333333333333333
+119	introclassJava.grade_317aa705_000::::82::::2154::::2256::::if (((percent.value) < (C.value)) && ((percent.value) >= (D.value))) {    grade.value = 'D';}::::INSERT::::STATEMENT::::if (((percent.value) < (B.value)) && ((percent.value) >= (C.value))) {    grade.value = 'C';}	0.3333333333333333
+120	introclassJava.grade_317aa705_000::::82::::2154::::2256::::if (((percent.value) < (C.value)) && ((percent.value) >= (D.value))) {    grade.value = 'D';}::::INSERT::::STATEMENT::::if (((percent.value) < (A.value)) && ((percent.value) >= (B.value))) {    grade.value = 'B';}	0.3333333333333333
+121	introclassJava.grade_317aa705_000::::79::::2093::::2099::::C.value::::D.value	0.3333333333333333
+122	introclassJava.grade_317aa705_000::::79::::2093::::2099::::C.value::::B.value	0.3333333333333333
+123	introclassJava.grade_317aa705_000::::79::::2093::::2099::::C.value::::A.value	0.3333333333333333
+124	introclassJava.grade_317aa705_000::::79::::2093::::2093::::C::::percent	0.3333333333333333
+125	introclassJava.grade_317aa705_000::::79::::2093::::2093::::C::::D	0.3333333333333333
+126	introclassJava.grade_317aa705_000::::79::::2093::::2093::::C::::B	0.3333333333333333
+127	introclassJava.grade_317aa705_000::::79::::2093::::2093::::C::::A	0.3333333333333333
+128	introclassJava.grade_317aa705_000::::79::::2076::::2088::::percent.value::::D.value	0.3333333333333333
+129	introclassJava.grade_317aa705_000::::79::::2076::::2088::::percent.value::::B.value	0.3333333333333333
+130	introclassJava.grade_317aa705_000::::79::::2076::::2088::::percent.value::::A.value	0.3333333333333333
+131	introclassJava.grade_317aa705_000::::79::::2076::::2082::::percent::::D	0.3333333333333333
+132	introclassJava.grade_317aa705_000::::79::::2076::::2082::::percent::::C	0.3333333333333333
+133	introclassJava.grade_317aa705_000::::79::::2076::::2082::::percent::::B	0.3333333333333333
+134	introclassJava.grade_317aa705_000::::79::::2076::::2082::::percent::::A	0.3333333333333333
+135	introclassJava.grade_317aa705_000::::79::::2075::::2100::::(percent.value) >= (C.value)::::true	0.3333333333333333
+136	introclassJava.grade_317aa705_000::::79::::2075::::2100::::(percent.value) >= (C.value)::::percent.value) >= (A.value	0.3333333333333333
+137	introclassJava.grade_317aa705_000::::79::::2075::::2100::::(percent.value) >= (C.value)::::percent.value) < (D.value	0.3333333333333333
+138	introclassJava.grade_317aa705_000::::79::::2075::::2100::::(percent.value) >= (C.value)::::(percent.value) >= (D.value)	0.3333333333333333
+139	introclassJava.grade_317aa705_000::::79::::2075::::2100::::(percent.value) >= (C.value)::::(percent.value) >= (B.value)	0.3333333333333333
+140	introclassJava.grade_317aa705_000::::79::::2075::::2100::::(percent.value) >= (C.value)::::(percent.value) < (C.value)) && ((percent.value) >= (D.value)	0.3333333333333333
+141	introclassJava.grade_317aa705_000::::79::::2075::::2100::::(percent.value) >= (C.value)::::(percent.value) < (C.value)	0.3333333333333333
+142	introclassJava.grade_317aa705_000::::79::::2075::::2100::::(percent.value) >= (C.value)::::(percent.value) < (B.value)) && ((percent.value) >= (C.value)	0.3333333333333333
+143	introclassJava.grade_317aa705_000::::79::::2075::::2100::::(percent.value) >= (C.value)::::(percent.value) < (B.value)	0.3333333333333333
+144	introclassJava.grade_317aa705_000::::79::::2075::::2100::::(percent.value) >= (C.value)::::(percent.value) < (A.value)) && ((percent.value) >= (B.value)	0.3333333333333333
+145	introclassJava.grade_317aa705_000::::79::::2075::::2100::::(percent.value) >= (C.value)::::(percent.value) < (A.value)	0.3333333333333333
+146	introclassJava.grade_317aa705_000::::79::::2063::::2069::::B.value::::D.value	0.3333333333333333
+147	introclassJava.grade_317aa705_000::::79::::2063::::2069::::B.value::::C.value	0.3333333333333333
+148	introclassJava.grade_317aa705_000::::79::::2063::::2069::::B.value::::A.value	0.3333333333333333
+149	introclassJava.grade_317aa705_000::::79::::2063::::2063::::B::::percent	0.3333333333333333
+150	introclassJava.grade_317aa705_000::::79::::2063::::2063::::B::::D	0.3333333333333333
+151	introclassJava.grade_317aa705_000::::79::::2063::::2063::::B::::C	0.3333333333333333
+152	introclassJava.grade_317aa705_000::::79::::2063::::2063::::B::::A	0.3333333333333333
+153	introclassJava.grade_317aa705_000::::79::::2047::::2059::::percent.value::::D.value	0.3333333333333333
+154	introclassJava.grade_317aa705_000::::79::::2047::::2059::::percent.value::::C.value	0.3333333333333333
+155	introclassJava.grade_317aa705_000::::79::::2047::::2059::::percent.value::::A.value	0.3333333333333333
+156	introclassJava.grade_317aa705_000::::79::::2047::::2053::::percent::::D	0.3333333333333333
+157	introclassJava.grade_317aa705_000::::79::::2047::::2053::::percent::::C	0.3333333333333333
+158	introclassJava.grade_317aa705_000::::79::::2047::::2053::::percent::::B	0.3333333333333333
+159	introclassJava.grade_317aa705_000::::79::::2047::::2053::::percent::::A	0.3333333333333333
+160	introclassJava.grade_317aa705_000::::79::::2046::::2100::::(percent.value) < (B.value)) && ((percent.value) >= (C.value)::::true	0.3333333333333333
+161	introclassJava.grade_317aa705_000::::79::::2046::::2100::::(percent.value) < (B.value)) && ((percent.value) >= (C.value)::::percent.value) >= (A.value	0.3333333333333333
+162	introclassJava.grade_317aa705_000::::79::::2046::::2100::::(percent.value) < (B.value)) && ((percent.value) >= (C.value)::::percent.value) < (D.value	0.3333333333333333
+163	introclassJava.grade_317aa705_000::::79::::2046::::2100::::(percent.value) < (B.value)) && ((percent.value) >= (C.value)::::(percent.value) >= (D.value)	0.3333333333333333
+164	introclassJava.grade_317aa705_000::::79::::2046::::2100::::(percent.value) < (B.value)) && ((percent.value) >= (C.value)::::(percent.value) >= (C.value)	0.3333333333333333
+165	introclassJava.grade_317aa705_000::::79::::2046::::2100::::(percent.value) < (B.value)) && ((percent.value) >= (C.value)::::(percent.value) >= (B.value)	0.3333333333333333
+166	introclassJava.grade_317aa705_000::::79::::2046::::2100::::(percent.value) < (B.value)) && ((percent.value) >= (C.value)::::(percent.value) < (C.value)) && ((percent.value) >= (D.value)	0.3333333333333333
+167	introclassJava.grade_317aa705_000::::79::::2046::::2100::::(percent.value) < (B.value)) && ((percent.value) >= (C.value)::::(percent.value) < (C.value)	0.3333333333333333
+168	introclassJava.grade_317aa705_000::::79::::2046::::2100::::(percent.value) < (B.value)) && ((percent.value) >= (C.value)::::(percent.value) < (B.value)	0.3333333333333333
+169	introclassJava.grade_317aa705_000::::79::::2046::::2100::::(percent.value) < (B.value)) && ((percent.value) >= (C.value)::::(percent.value) < (A.value)) && ((percent.value) >= (B.value)	0.3333333333333333
+170	introclassJava.grade_317aa705_000::::79::::2046::::2100::::(percent.value) < (B.value)) && ((percent.value) >= (C.value)::::(percent.value) < (A.value)	0.3333333333333333
+171	introclassJava.grade_317aa705_000::::79::::2046::::2070::::(percent.value) < (B.value)::::true	0.3333333333333333
+172	introclassJava.grade_317aa705_000::::79::::2046::::2070::::(percent.value) < (B.value)::::percent.value) >= (A.value	0.3333333333333333
+173	introclassJava.grade_317aa705_000::::79::::2046::::2070::::(percent.value) < (B.value)::::percent.value) < (D.value	0.3333333333333333
+174	introclassJava.grade_317aa705_000::::79::::2046::::2070::::(percent.value) < (B.value)::::(percent.value) >= (D.value)	0.3333333333333333
+175	introclassJava.grade_317aa705_000::::79::::2046::::2070::::(percent.value) < (B.value)::::(percent.value) >= (C.value)	0.3333333333333333
+176	introclassJava.grade_317aa705_000::::79::::2046::::2070::::(percent.value) < (B.value)::::(percent.value) >= (B.value)	0.3333333333333333
+177	introclassJava.grade_317aa705_000::::79::::2046::::2070::::(percent.value) < (B.value)::::(percent.value) < (C.value)) && ((percent.value) >= (D.value)	0.3333333333333333
+178	introclassJava.grade_317aa705_000::::79::::2046::::2070::::(percent.value) < (B.value)::::(percent.value) < (C.value)	0.3333333333333333
+179	introclassJava.grade_317aa705_000::::79::::2046::::2070::::(percent.value) < (B.value)::::(percent.value) < (B.value)) && ((percent.value) >= (C.value)	0.3333333333333333
+180	introclassJava.grade_317aa705_000::::79::::2046::::2070::::(percent.value) < (B.value)::::(percent.value) < (A.value)) && ((percent.value) >= (B.value)	0.3333333333333333
+181	introclassJava.grade_317aa705_000::::79::::2046::::2070::::(percent.value) < (B.value)::::(percent.value) < (A.value)	0.3333333333333333
+182	introclassJava.grade_317aa705_000::::79::::2042::::2144::::if (((percent.value) < (B.value)) && ((percent.value) >= (C.value))) {    grade.value = 'C';}::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+183	introclassJava.grade_317aa705_000::::79::::2042::::2144::::if (((percent.value) < (B.value)) && ((percent.value) >= (C.value))) {    grade.value = 'C';}::::INSERT::::STATEMENT::::if ((percent.value) >= (A.value)) {    grade.value = 'A';}	0.3333333333333333
+184	introclassJava.grade_317aa705_000::::79::::2042::::2144::::if (((percent.value) < (B.value)) && ((percent.value) >= (C.value))) {    grade.value = 'C';}::::INSERT::::STATEMENT::::if ((percent.value) < (D.value)) {    grade.value = 'F';}	0.3333333333333333
+185	introclassJava.grade_317aa705_000::::79::::2042::::2144::::if (((percent.value) < (B.value)) && ((percent.value) >= (C.value))) {    grade.value = 'C';}::::INSERT::::STATEMENT::::if (((percent.value) < (C.value)) && ((percent.value) >= (D.value))) {    grade.value = 'D';}	0.3333333333333333
+186	introclassJava.grade_317aa705_000::::79::::2042::::2144::::if (((percent.value) < (B.value)) && ((percent.value) >= (C.value))) {    grade.value = 'C';}::::INSERT::::STATEMENT::::if (((percent.value) < (B.value)) && ((percent.value) >= (C.value))) {    grade.value = 'C';}	0.3333333333333333
+187	introclassJava.grade_317aa705_000::::79::::2042::::2144::::if (((percent.value) < (B.value)) && ((percent.value) >= (C.value))) {    grade.value = 'C';}::::INSERT::::STATEMENT::::if (((percent.value) < (A.value)) && ((percent.value) >= (B.value))) {    grade.value = 'B';}	0.3333333333333333
+188	introclassJava.grade_317aa705_000::::76::::1981::::1987::::B.value::::D.value	0.3333333333333333
+189	introclassJava.grade_317aa705_000::::76::::1981::::1987::::B.value::::C.value	0.3333333333333333
+190	introclassJava.grade_317aa705_000::::76::::1981::::1987::::B.value::::A.value	0.3333333333333333
+191	introclassJava.grade_317aa705_000::::76::::1981::::1981::::B::::percent	0.3333333333333333
+192	introclassJava.grade_317aa705_000::::76::::1981::::1981::::B::::D	0.3333333333333333
+193	introclassJava.grade_317aa705_000::::76::::1981::::1981::::B::::C	0.3333333333333333
+194	introclassJava.grade_317aa705_000::::76::::1981::::1981::::B::::A	0.3333333333333333
+195	introclassJava.grade_317aa705_000::::76::::1964::::1976::::percent.value::::D.value	0.3333333333333333
+196	introclassJava.grade_317aa705_000::::76::::1964::::1976::::percent.value::::C.value	0.3333333333333333
+197	introclassJava.grade_317aa705_000::::76::::1964::::1976::::percent.value::::A.value	0.3333333333333333
+198	introclassJava.grade_317aa705_000::::76::::1964::::1970::::percent::::D	0.3333333333333333
+199	introclassJava.grade_317aa705_000::::76::::1964::::1970::::percent::::C	0.3333333333333333
+200	introclassJava.grade_317aa705_000::::76::::1964::::1970::::percent::::B	0.3333333333333333
+201	introclassJava.grade_317aa705_000::::76::::1964::::1970::::percent::::A	0.3333333333333333
+202	introclassJava.grade_317aa705_000::::76::::1963::::1988::::(percent.value) >= (B.value)::::true	0.3333333333333333
+203	introclassJava.grade_317aa705_000::::76::::1963::::1988::::(percent.value) >= (B.value)::::percent.value) >= (A.value	0.3333333333333333
+204	introclassJava.grade_317aa705_000::::76::::1963::::1988::::(percent.value) >= (B.value)::::percent.value) < (D.value	0.3333333333333333
+205	introclassJava.grade_317aa705_000::::76::::1963::::1988::::(percent.value) >= (B.value)::::(percent.value) >= (D.value)	0.3333333333333333
+206	introclassJava.grade_317aa705_000::::76::::1963::::1988::::(percent.value) >= (B.value)::::(percent.value) >= (C.value)	0.3333333333333333
+207	introclassJava.grade_317aa705_000::::76::::1963::::1988::::(percent.value) >= (B.value)::::(percent.value) < (C.value)) && ((percent.value) >= (D.value)	0.3333333333333333
+208	introclassJava.grade_317aa705_000::::76::::1963::::1988::::(percent.value) >= (B.value)::::(percent.value) < (C.value)	0.3333333333333333
+209	introclassJava.grade_317aa705_000::::76::::1963::::1988::::(percent.value) >= (B.value)::::(percent.value) < (B.value)) && ((percent.value) >= (C.value)	0.3333333333333333
+210	introclassJava.grade_317aa705_000::::76::::1963::::1988::::(percent.value) >= (B.value)::::(percent.value) < (B.value)	0.3333333333333333
+211	introclassJava.grade_317aa705_000::::76::::1963::::1988::::(percent.value) >= (B.value)::::(percent.value) < (A.value)) && ((percent.value) >= (B.value)	0.3333333333333333
+212	introclassJava.grade_317aa705_000::::76::::1963::::1988::::(percent.value) >= (B.value)::::(percent.value) < (A.value)	0.3333333333333333
+213	introclassJava.grade_317aa705_000::::76::::1951::::1957::::A.value::::D.value	0.3333333333333333
+214	introclassJava.grade_317aa705_000::::76::::1951::::1957::::A.value::::C.value	0.3333333333333333
+215	introclassJava.grade_317aa705_000::::76::::1951::::1957::::A.value::::B.value	0.3333333333333333
+216	introclassJava.grade_317aa705_000::::76::::1951::::1951::::A::::percent	0.3333333333333333
+217	introclassJava.grade_317aa705_000::::76::::1951::::1951::::A::::D	0.3333333333333333
+218	introclassJava.grade_317aa705_000::::76::::1951::::1951::::A::::C	0.3333333333333333
+219	introclassJava.grade_317aa705_000::::76::::1951::::1951::::A::::B	0.3333333333333333
+220	introclassJava.grade_317aa705_000::::76::::1935::::1947::::percent.value::::D.value	0.3333333333333333
+221	introclassJava.grade_317aa705_000::::76::::1935::::1947::::percent.value::::C.value	0.3333333333333333
+222	introclassJava.grade_317aa705_000::::76::::1935::::1947::::percent.value::::B.value	0.3333333333333333
+223	introclassJava.grade_317aa705_000::::76::::1935::::1941::::percent::::D	0.3333333333333333
+224	introclassJava.grade_317aa705_000::::76::::1935::::1941::::percent::::C	0.3333333333333333
+225	introclassJava.grade_317aa705_000::::76::::1935::::1941::::percent::::B	0.3333333333333333
+226	introclassJava.grade_317aa705_000::::76::::1935::::1941::::percent::::A	0.3333333333333333
+227	introclassJava.grade_317aa705_000::::76::::1934::::1988::::(percent.value) < (A.value)) && ((percent.value) >= (B.value)::::true	0.3333333333333333
+228	introclassJava.grade_317aa705_000::::76::::1934::::1988::::(percent.value) < (A.value)) && ((percent.value) >= (B.value)::::percent.value) >= (A.value	0.3333333333333333
+229	introclassJava.grade_317aa705_000::::76::::1934::::1988::::(percent.value) < (A.value)) && ((percent.value) >= (B.value)::::percent.value) < (D.value	0.3333333333333333
+230	introclassJava.grade_317aa705_000::::76::::1934::::1988::::(percent.value) < (A.value)) && ((percent.value) >= (B.value)::::(percent.value) >= (D.value)	0.3333333333333333
+231	introclassJava.grade_317aa705_000::::76::::1934::::1988::::(percent.value) < (A.value)) && ((percent.value) >= (B.value)::::(percent.value) >= (C.value)	0.3333333333333333
+232	introclassJava.grade_317aa705_000::::76::::1934::::1988::::(percent.value) < (A.value)) && ((percent.value) >= (B.value)::::(percent.value) >= (B.value)	0.3333333333333333
+233	introclassJava.grade_317aa705_000::::76::::1934::::1988::::(percent.value) < (A.value)) && ((percent.value) >= (B.value)::::(percent.value) < (C.value)) && ((percent.value) >= (D.value)	0.3333333333333333
+234	introclassJava.grade_317aa705_000::::76::::1934::::1988::::(percent.value) < (A.value)) && ((percent.value) >= (B.value)::::(percent.value) < (C.value)	0.3333333333333333
+235	introclassJava.grade_317aa705_000::::76::::1934::::1988::::(percent.value) < (A.value)) && ((percent.value) >= (B.value)::::(percent.value) < (B.value)) && ((percent.value) >= (C.value)	0.3333333333333333
+236	introclassJava.grade_317aa705_000::::76::::1934::::1988::::(percent.value) < (A.value)) && ((percent.value) >= (B.value)::::(percent.value) < (B.value)	0.3333333333333333
+237	introclassJava.grade_317aa705_000::::76::::1934::::1988::::(percent.value) < (A.value)) && ((percent.value) >= (B.value)::::(percent.value) < (A.value)	0.3333333333333333
+238	introclassJava.grade_317aa705_000::::76::::1934::::1958::::(percent.value) < (A.value)::::true	0.3333333333333333
+239	introclassJava.grade_317aa705_000::::76::::1934::::1958::::(percent.value) < (A.value)::::percent.value) >= (A.value	0.3333333333333333
+240	introclassJava.grade_317aa705_000::::76::::1934::::1958::::(percent.value) < (A.value)::::percent.value) < (D.value	0.3333333333333333
+241	introclassJava.grade_317aa705_000::::76::::1934::::1958::::(percent.value) < (A.value)::::(percent.value) >= (D.value)	0.3333333333333333
+242	introclassJava.grade_317aa705_000::::76::::1934::::1958::::(percent.value) < (A.value)::::(percent.value) >= (C.value)	0.3333333333333333
+243	introclassJava.grade_317aa705_000::::76::::1934::::1958::::(percent.value) < (A.value)::::(percent.value) >= (B.value)	0.3333333333333333
+244	introclassJava.grade_317aa705_000::::76::::1934::::1958::::(percent.value) < (A.value)::::(percent.value) < (C.value)) && ((percent.value) >= (D.value)	0.3333333333333333
+245	introclassJava.grade_317aa705_000::::76::::1934::::1958::::(percent.value) < (A.value)::::(percent.value) < (C.value)	0.3333333333333333
+246	introclassJava.grade_317aa705_000::::76::::1934::::1958::::(percent.value) < (A.value)::::(percent.value) < (B.value)) && ((percent.value) >= (C.value)	0.3333333333333333
+247	introclassJava.grade_317aa705_000::::76::::1934::::1958::::(percent.value) < (A.value)::::(percent.value) < (B.value)	0.3333333333333333
+248	introclassJava.grade_317aa705_000::::76::::1934::::1958::::(percent.value) < (A.value)::::(percent.value) < (A.value)) && ((percent.value) >= (B.value)	0.3333333333333333
+249	introclassJava.grade_317aa705_000::::76::::1930::::2032::::if (((percent.value) < (A.value)) && ((percent.value) >= (B.value))) {    grade.value = 'B';}::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+250	introclassJava.grade_317aa705_000::::76::::1930::::2032::::if (((percent.value) < (A.value)) && ((percent.value) >= (B.value))) {    grade.value = 'B';}::::INSERT::::STATEMENT::::if ((percent.value) >= (A.value)) {    grade.value = 'A';}	0.3333333333333333
+251	introclassJava.grade_317aa705_000::::76::::1930::::2032::::if (((percent.value) < (A.value)) && ((percent.value) >= (B.value))) {    grade.value = 'B';}::::INSERT::::STATEMENT::::if ((percent.value) < (D.value)) {    grade.value = 'F';}	0.3333333333333333
+252	introclassJava.grade_317aa705_000::::76::::1930::::2032::::if (((percent.value) < (A.value)) && ((percent.value) >= (B.value))) {    grade.value = 'B';}::::INSERT::::STATEMENT::::if (((percent.value) < (C.value)) && ((percent.value) >= (D.value))) {    grade.value = 'D';}	0.3333333333333333
+253	introclassJava.grade_317aa705_000::::76::::1930::::2032::::if (((percent.value) < (A.value)) && ((percent.value) >= (B.value))) {    grade.value = 'B';}::::INSERT::::STATEMENT::::if (((percent.value) < (B.value)) && ((percent.value) >= (C.value))) {    grade.value = 'C';}	0.3333333333333333
+254	introclassJava.grade_317aa705_000::::76::::1930::::2032::::if (((percent.value) < (A.value)) && ((percent.value) >= (B.value))) {    grade.value = 'B';}::::INSERT::::STATEMENT::::if (((percent.value) < (A.value)) && ((percent.value) >= (B.value))) {    grade.value = 'B';}	0.3333333333333333
+255	introclassJava.grade_317aa705_000::::73::::1870::::1876::::A.value::::D.value	0.3333333333333333
+256	introclassJava.grade_317aa705_000::::73::::1870::::1876::::A.value::::C.value	0.3333333333333333
+257	introclassJava.grade_317aa705_000::::73::::1870::::1876::::A.value::::B.value	0.3333333333333333
+258	introclassJava.grade_317aa705_000::::73::::1870::::1870::::A::::percent	0.3333333333333333
+259	introclassJava.grade_317aa705_000::::73::::1870::::1870::::A::::D	0.3333333333333333
+260	introclassJava.grade_317aa705_000::::73::::1870::::1870::::A::::C	0.3333333333333333
+261	introclassJava.grade_317aa705_000::::73::::1870::::1870::::A::::B	0.3333333333333333
+262	introclassJava.grade_317aa705_000::::73::::1853::::1876::::percent.value) >= (A.value::::true	0.3333333333333333
+263	introclassJava.grade_317aa705_000::::73::::1853::::1876::::percent.value) >= (A.value::::percent.value) < (D.value	0.3333333333333333
+264	introclassJava.grade_317aa705_000::::73::::1853::::1876::::percent.value) >= (A.value::::(percent.value) >= (D.value)	0.3333333333333333
+265	introclassJava.grade_317aa705_000::::73::::1853::::1876::::percent.value) >= (A.value::::(percent.value) >= (C.value)	0.3333333333333333
+266	introclassJava.grade_317aa705_000::::73::::1853::::1876::::percent.value) >= (A.value::::(percent.value) >= (B.value)	0.3333333333333333
+267	introclassJava.grade_317aa705_000::::73::::1853::::1876::::percent.value) >= (A.value::::(percent.value) < (C.value)) && ((percent.value) >= (D.value)	0.3333333333333333
+268	introclassJava.grade_317aa705_000::::73::::1853::::1876::::percent.value) >= (A.value::::(percent.value) < (C.value)	0.3333333333333333
+269	introclassJava.grade_317aa705_000::::73::::1853::::1876::::percent.value) >= (A.value::::(percent.value) < (B.value)) && ((percent.value) >= (C.value)	0.3333333333333333
+270	introclassJava.grade_317aa705_000::::73::::1853::::1876::::percent.value) >= (A.value::::(percent.value) < (B.value)	0.3333333333333333
+271	introclassJava.grade_317aa705_000::::73::::1853::::1876::::percent.value) >= (A.value::::(percent.value) < (A.value)) && ((percent.value) >= (B.value)	0.3333333333333333
+272	introclassJava.grade_317aa705_000::::73::::1853::::1876::::percent.value) >= (A.value::::(percent.value) < (A.value)	0.3333333333333333
+273	introclassJava.grade_317aa705_000::::73::::1853::::1865::::percent.value::::D.value	0.3333333333333333
+274	introclassJava.grade_317aa705_000::::73::::1853::::1865::::percent.value::::C.value	0.3333333333333333
+275	introclassJava.grade_317aa705_000::::73::::1853::::1865::::percent.value::::B.value	0.3333333333333333
+276	introclassJava.grade_317aa705_000::::73::::1853::::1859::::percent::::D	0.3333333333333333
+277	introclassJava.grade_317aa705_000::::73::::1853::::1859::::percent::::C	0.3333333333333333
+278	introclassJava.grade_317aa705_000::::73::::1853::::1859::::percent::::B	0.3333333333333333
+279	introclassJava.grade_317aa705_000::::73::::1853::::1859::::percent::::A	0.3333333333333333
+280	introclassJava.grade_317aa705_000::::73::::1849::::1920::::if ((percent.value) >= (A.value)) {    grade.value = 'A';}::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+281	introclassJava.grade_317aa705_000::::72::::1803::::1839::::percent.value = scanner.nextFloat()::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+282	introclassJava.grade_317aa705_000::::72::::1803::::1815::::percent.value::::D.value	0.3333333333333333
+283	introclassJava.grade_317aa705_000::::72::::1803::::1815::::percent.value::::C.value	0.3333333333333333
+284	introclassJava.grade_317aa705_000::::72::::1803::::1815::::percent.value::::B.value	0.3333333333333333
+285	introclassJava.grade_317aa705_000::::72::::1803::::1815::::percent.value::::A.value	0.3333333333333333
+286	introclassJava.grade_317aa705_000::::72::::1803::::1809::::percent::::D	0.3333333333333333
+287	introclassJava.grade_317aa705_000::::72::::1803::::1809::::percent::::C	0.3333333333333333
+288	introclassJava.grade_317aa705_000::::72::::1803::::1809::::percent::::B	0.3333333333333333
+289	introclassJava.grade_317aa705_000::::72::::1803::::1809::::percent::::A	0.3333333333333333
+290	introclassJava.grade_317aa705_000::::70::::1704::::1793::::output += java.lang.String.format("Thank you. Now enter student score (percent) > ")::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+291	introclassJava.grade_317aa705_000::::69::::1664::::1694::::D.value = scanner.nextFloat()::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+292	introclassJava.grade_317aa705_000::::69::::1664::::1670::::D.value::::C.value	0.3333333333333333
+293	introclassJava.grade_317aa705_000::::69::::1664::::1670::::D.value::::B.value	0.3333333333333333
+294	introclassJava.grade_317aa705_000::::69::::1664::::1670::::D.value::::A.value	0.3333333333333333
+295	introclassJava.grade_317aa705_000::::69::::1664::::1664::::D::::C	0.3333333333333333
+296	introclassJava.grade_317aa705_000::::69::::1664::::1664::::D::::B	0.3333333333333333
+297	introclassJava.grade_317aa705_000::::69::::1664::::1664::::D::::A	0.3333333333333333
+298	introclassJava.grade_317aa705_000::::68::::1624::::1654::::C.value = scanner.nextFloat()::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+299	introclassJava.grade_317aa705_000::::68::::1624::::1630::::C.value::::B.value	0.3333333333333333
+300	introclassJava.grade_317aa705_000::::68::::1624::::1630::::C.value::::A.value	0.3333333333333333
+301	introclassJava.grade_317aa705_000::::68::::1624::::1624::::C::::B	0.3333333333333333
+302	introclassJava.grade_317aa705_000::::68::::1624::::1624::::C::::A	0.3333333333333333
+303	introclassJava.grade_317aa705_000::::67::::1584::::1614::::B.value = scanner.nextFloat()::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+304	introclassJava.grade_317aa705_000::::67::::1584::::1590::::B.value::::A.value	0.3333333333333333
+305	introclassJava.grade_317aa705_000::::67::::1584::::1584::::B::::A	0.3333333333333333
+306	introclassJava.grade_317aa705_000::::66::::1544::::1574::::A.value = scanner.nextFloat()::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+307	introclassJava.grade_317aa705_000::::63::::1407::::1534::::output += java.lang.String.format("Enter thresholds for A, B, C, D\nin that order, decreasing percentages >")::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+308	introclassJava.grade_317aa705_000::::62::::1383::::1396::::new introclassJava.CharObj()::::INSERT::::PARAMETER::::new CharObj(value)	0.3333333333333333
+309	introclassJava.grade_317aa705_000::::62::::1367::::1397::::introclassJava.CharObj grade = new introclassJava.CharObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+310	introclassJava.grade_317aa705_000::::61::::1342::::1356::::new introclassJava.FloatObj()::::INSERT::::PARAMETER::::new FloatObj(value)	0.3333333333333333
+311	introclassJava.grade_317aa705_000::::61::::1315::::1329::::new introclassJava.FloatObj()::::INSERT::::PARAMETER::::new FloatObj(value)	0.3333333333333333
+312	introclassJava.grade_317aa705_000::::61::::1294::::1308::::new introclassJava.FloatObj()::::INSERT::::PARAMETER::::new FloatObj(value)	0.3333333333333333
+313	introclassJava.grade_317aa705_000::::61::::1227::::1357::::introclassJava.FloatObj percent = new introclassJava.FloatObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+314	introclassJava.grade_317aa705_000::::61::::1227::::1357::::introclassJava.FloatObj D = new introclassJava.FloatObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+315	introclassJava.grade_317aa705_000::::60::::1261::::1275::::new introclassJava.FloatObj()::::INSERT::::PARAMETER::::new FloatObj(value)	0.3333333333333333
+316	introclassJava.grade_317aa705_000::::60::::1240::::1254::::new introclassJava.FloatObj()::::INSERT::::PARAMETER::::new FloatObj(value)	0.3333333333333333
+317	introclassJava.grade_317aa705_000::::60::::1227::::1357::::introclassJava.FloatObj C = new introclassJava.FloatObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+318	introclassJava.grade_317aa705_000::::60::::1227::::1357::::introclassJava.FloatObj B = new introclassJava.FloatObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333
+319	introclassJava.grade_317aa705_000::::60::::1227::::1357::::introclassJava.FloatObj A = new introclassJava.FloatObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.3333333333333333

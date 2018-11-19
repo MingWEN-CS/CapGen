@@ -1,0 +1,186 @@
+1	introclassJava.smallest_95362737_009::::92::::2639::::2645::::return ::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+2	introclassJava.smallest_95362737_009::::68::::1602::::1608::::b.value::::d.value	1.0
+3	introclassJava.smallest_95362737_009::::68::::1602::::1608::::b.value::::c.value	1.0
+4	introclassJava.smallest_95362737_009::::68::::1602::::1602::::b::::d	1.0
+5	introclassJava.smallest_95362737_009::::68::::1602::::1602::::b::::c	1.0
+6	introclassJava.smallest_95362737_009::::68::::1602::::1602::::b::::a	1.0
+7	introclassJava.smallest_95362737_009::::68::::1592::::1608::::a.value) > (b.value::::true	1.0
+8	introclassJava.smallest_95362737_009::::68::::1592::::1608::::a.value) > (b.value::::c.value) > (d.value	1.0
+9	introclassJava.smallest_95362737_009::::68::::1592::::1608::::a.value) > (b.value::::b.value) > (d.value	1.0
+10	introclassJava.smallest_95362737_009::::68::::1592::::1608::::a.value) > (b.value::::b.value) > (c.value	1.0
+11	introclassJava.smallest_95362737_009::::68::::1592::::1608::::a.value) > (b.value::::a.value) > (d.value	1.0
+12	introclassJava.smallest_95362737_009::::68::::1592::::1608::::a.value) > (b.value::::a.value) > (c.value	1.0
+13	introclassJava.smallest_95362737_009::::68::::1592::::1598::::a.value::::d.value	1.0
+14	introclassJava.smallest_95362737_009::::68::::1592::::1598::::a.value::::c.value	1.0
+15	introclassJava.smallest_95362737_009::::68::::1592::::1592::::a::::d	1.0
+16	introclassJava.smallest_95362737_009::::68::::1592::::1592::::a::::c	1.0
+17	introclassJava.smallest_95362737_009::::68::::1592::::1592::::a::::b	1.0
+18	introclassJava.smallest_95362737_009::::68::::1588::::2607::::if ((a.value) > (b.value)) {    if ((b.value) > (c.value)) {        if ((c.value) > (d.value)) {            output += java.lang.String.format("%d is the smallest\n", d.value);        }else {            output += java.lang.String.format("%d is the smallest\n", c.value);        }    }else        if ((b.value) > (d.value)) {            output += java.lang.String.format("%d is the smallest\n", d.value);        }else {            output += java.lang.String.format("%d is the smallesst\n", b.value);        }    }else    if ((a.value) > (c.value)) {        if ((c.value) > (d.value)) {            output += java.lang.String.format("%d is the smallest\n", d.value);        }else {            output += java.lang.String.format("%d is the smallest\n", c.value);        }    }else        if ((a.value) > (d.value)) {            output += java.lang.String.format("%d is the smallest\n", d.value);        }else {            output += java.lang.String.format("%d is the smallest\n", a.value);        }    ::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+19	introclassJava.smallest_95362737_009::::67::::1550::::1578::::d.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+20	introclassJava.smallest_95362737_009::::67::::1550::::1556::::d.value::::c.value	1.0
+21	introclassJava.smallest_95362737_009::::67::::1550::::1556::::d.value::::b.value	1.0
+22	introclassJava.smallest_95362737_009::::67::::1550::::1556::::d.value::::a.value	1.0
+23	introclassJava.smallest_95362737_009::::67::::1550::::1550::::d::::c	1.0
+24	introclassJava.smallest_95362737_009::::67::::1550::::1550::::d::::b	1.0
+25	introclassJava.smallest_95362737_009::::67::::1550::::1550::::d::::a	1.0
+26	introclassJava.smallest_95362737_009::::66::::1512::::1540::::c.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+27	introclassJava.smallest_95362737_009::::66::::1512::::1518::::c.value::::b.value	1.0
+28	introclassJava.smallest_95362737_009::::66::::1512::::1518::::c.value::::a.value	1.0
+29	introclassJava.smallest_95362737_009::::66::::1512::::1512::::c::::b	1.0
+30	introclassJava.smallest_95362737_009::::66::::1512::::1512::::c::::a	1.0
+31	introclassJava.smallest_95362737_009::::65::::1474::::1502::::b.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+32	introclassJava.smallest_95362737_009::::65::::1474::::1480::::b.value::::a.value	1.0
+33	introclassJava.smallest_95362737_009::::65::::1474::::1474::::b::::a	1.0
+34	introclassJava.smallest_95362737_009::::64::::1436::::1464::::a.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+35	introclassJava.smallest_95362737_009::::62::::1339::::1426::::output += java.lang.String.format("Please enter 4 numbers seperated by spaces > ")::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+36	introclassJava.smallest_95362737_009::::60::::1285::::1297::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	1.0
+37	introclassJava.smallest_95362737_009::::60::::1266::::1278::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	1.0
+38	introclassJava.smallest_95362737_009::::60::::1247::::1259::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	1.0
+39	introclassJava.smallest_95362737_009::::60::::1236::::1329::::introclassJava.IntObj d = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+40	introclassJava.smallest_95362737_009::::60::::1236::::1329::::introclassJava.IntObj c = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+41	introclassJava.smallest_95362737_009::::60::::1236::::1329::::introclassJava.IntObj b = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+42	introclassJava.smallest_95362737_009::::60::::1236::::1329::::introclassJava.IntObj a = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+43	introclassJava.smallest_95362737_009::::80::::2159::::2165::::c.value::::d.value	0.7905694150420948
+44	introclassJava.smallest_95362737_009::::80::::2159::::2165::::c.value::::b.value	0.7905694150420948
+45	introclassJava.smallest_95362737_009::::80::::2159::::2159::::c::::d	0.7905694150420948
+46	introclassJava.smallest_95362737_009::::80::::2159::::2159::::c::::b	0.7905694150420948
+47	introclassJava.smallest_95362737_009::::80::::2159::::2159::::c::::a	0.7905694150420948
+48	introclassJava.smallest_95362737_009::::80::::2149::::2165::::a.value) > (c.value::::true	0.7905694150420948
+49	introclassJava.smallest_95362737_009::::80::::2149::::2165::::a.value) > (c.value::::c.value) > (d.value	0.7905694150420948
+50	introclassJava.smallest_95362737_009::::80::::2149::::2165::::a.value) > (c.value::::b.value) > (d.value	0.7905694150420948
+51	introclassJava.smallest_95362737_009::::80::::2149::::2165::::a.value) > (c.value::::b.value) > (c.value	0.7905694150420948
+52	introclassJava.smallest_95362737_009::::80::::2149::::2165::::a.value) > (c.value::::a.value) > (d.value	0.7905694150420948
+53	introclassJava.smallest_95362737_009::::80::::2149::::2165::::a.value) > (c.value::::a.value) > (b.value	0.7905694150420948
+54	introclassJava.smallest_95362737_009::::80::::2149::::2155::::a.value::::d.value	0.7905694150420948
+55	introclassJava.smallest_95362737_009::::80::::2149::::2155::::a.value::::b.value	0.7905694150420948
+56	introclassJava.smallest_95362737_009::::80::::2149::::2149::::a::::d	0.7905694150420948
+57	introclassJava.smallest_95362737_009::::80::::2149::::2149::::a::::c	0.7905694150420948
+58	introclassJava.smallest_95362737_009::::80::::2149::::2149::::a::::b	0.7905694150420948
+59	introclassJava.smallest_95362737_009::::80::::2145::::2607::::if ((a.value) > (c.value)) {    if ((c.value) > (d.value)) {        output += java.lang.String.format("%d is the smallest\n", d.value);    }else {        output += java.lang.String.format("%d is the smallest\n", c.value);    }}else    if ((a.value) > (d.value)) {        output += java.lang.String.format("%d is the smallest\n", d.value);    }else {        output += java.lang.String.format("%d is the smallest\n", a.value);    }::::INSERT::::STATEMENT::::if (true)    return ;	0.7905694150420948
+60	introclassJava.smallest_95362737_009::::86::::2425::::2431::::d.value::::c.value	0.7071067811865475
+61	introclassJava.smallest_95362737_009::::86::::2425::::2431::::d.value::::b.value	0.7071067811865475
+62	introclassJava.smallest_95362737_009::::86::::2425::::2425::::d::::c	0.7071067811865475
+63	introclassJava.smallest_95362737_009::::86::::2425::::2425::::d::::b	0.7071067811865475
+64	introclassJava.smallest_95362737_009::::86::::2425::::2425::::d::::a	0.7071067811865475
+65	introclassJava.smallest_95362737_009::::86::::2415::::2431::::a.value) > (d.value::::true	0.7071067811865475
+66	introclassJava.smallest_95362737_009::::86::::2415::::2431::::a.value) > (d.value::::c.value) > (d.value	0.7071067811865475
+67	introclassJava.smallest_95362737_009::::86::::2415::::2431::::a.value) > (d.value::::b.value) > (d.value	0.7071067811865475
+68	introclassJava.smallest_95362737_009::::86::::2415::::2431::::a.value) > (d.value::::b.value) > (c.value	0.7071067811865475
+69	introclassJava.smallest_95362737_009::::86::::2415::::2431::::a.value) > (d.value::::a.value) > (c.value	0.7071067811865475
+70	introclassJava.smallest_95362737_009::::86::::2415::::2431::::a.value) > (d.value::::a.value) > (b.value	0.7071067811865475
+71	introclassJava.smallest_95362737_009::::86::::2415::::2421::::a.value::::c.value	0.7071067811865475
+72	introclassJava.smallest_95362737_009::::86::::2415::::2421::::a.value::::b.value	0.7071067811865475
+73	introclassJava.smallest_95362737_009::::86::::2415::::2415::::a::::d	0.7071067811865475
+74	introclassJava.smallest_95362737_009::::86::::2415::::2415::::a::::c	0.7071067811865475
+75	introclassJava.smallest_95362737_009::::86::::2415::::2415::::a::::b	0.7071067811865475
+76	introclassJava.smallest_95362737_009::::86::::2411::::2607::::if ((a.value) > (d.value)) {    output += java.lang.String.format("%d is the smallest\n", d.value);}else {    output += java.lang.String.format("%d is the smallest\n", a.value);}::::INSERT::::STATEMENT::::if (true)    return ;	0.7071067811865475
+77	introclassJava.smallest_95362737_009::::89::::2588::::2594::::a.value::::d.value	0.6123724356957946
+78	introclassJava.smallest_95362737_009::::89::::2588::::2594::::a.value::::c.value	0.6123724356957946
+79	introclassJava.smallest_95362737_009::::89::::2588::::2594::::a.value::::b.value	0.6123724356957946
+80	introclassJava.smallest_95362737_009::::89::::2588::::2588::::a::::d	0.6123724356957946
+81	introclassJava.smallest_95362737_009::::89::::2588::::2588::::a::::c	0.6123724356957946
+82	introclassJava.smallest_95362737_009::::89::::2588::::2588::::a::::b	0.6123724356957946
+83	introclassJava.smallest_95362737_009::::89::::2538::::2597::::output += java.lang.String.format("%d is the smallest\n", a.value)::::INSERT::::STATEMENT::::if (true)    return ;	0.6123724356957946
+84	introclassJava.smallest_95362737_009::::69::::1639::::1645::::c.value::::d.value	0.6123724356957946
+85	introclassJava.smallest_95362737_009::::69::::1639::::1645::::c.value::::a.value	0.6123724356957946
+86	introclassJava.smallest_95362737_009::::69::::1639::::1639::::c::::d	0.6123724356957946
+87	introclassJava.smallest_95362737_009::::69::::1639::::1639::::c::::b	0.6123724356957946
+88	introclassJava.smallest_95362737_009::::69::::1639::::1639::::c::::a	0.6123724356957946
+89	introclassJava.smallest_95362737_009::::69::::1629::::1645::::b.value) > (c.value::::true	0.6123724356957946
+90	introclassJava.smallest_95362737_009::::69::::1629::::1645::::b.value) > (c.value::::c.value) > (d.value	0.6123724356957946
+91	introclassJava.smallest_95362737_009::::69::::1629::::1645::::b.value) > (c.value::::b.value) > (d.value	0.6123724356957946
+92	introclassJava.smallest_95362737_009::::69::::1629::::1645::::b.value) > (c.value::::a.value) > (d.value	0.6123724356957946
+93	introclassJava.smallest_95362737_009::::69::::1629::::1645::::b.value) > (c.value::::a.value) > (c.value	0.6123724356957946
+94	introclassJava.smallest_95362737_009::::69::::1629::::1645::::b.value) > (c.value::::a.value) > (b.value	0.6123724356957946
+95	introclassJava.smallest_95362737_009::::69::::1629::::1635::::b.value::::d.value	0.6123724356957946
+96	introclassJava.smallest_95362737_009::::69::::1629::::1635::::b.value::::a.value	0.6123724356957946
+97	introclassJava.smallest_95362737_009::::69::::1629::::1629::::b::::d	0.6123724356957946
+98	introclassJava.smallest_95362737_009::::69::::1629::::1629::::b::::c	0.6123724356957946
+99	introclassJava.smallest_95362737_009::::69::::1629::::1629::::b::::a	0.6123724356957946
+100	introclassJava.smallest_95362737_009::::69::::1625::::2128::::if ((b.value) > (c.value)) {    if ((c.value) > (d.value)) {        output += java.lang.String.format("%d is the smallest\n", d.value);    }else {        output += java.lang.String.format("%d is the smallest\n", c.value);    }}else    if ((b.value) > (d.value)) {        output += java.lang.String.format("%d is the smallest\n", d.value);    }else {        output += java.lang.String.format("%d is the smallesst\n", b.value);    }::::INSERT::::STATEMENT::::if (true)    return ;	0.6123724356957946
+101	introclassJava.smallest_95362737_009::::75::::1929::::1935::::d.value::::c.value	0.5
+102	introclassJava.smallest_95362737_009::::75::::1929::::1935::::d.value::::a.value	0.5
+103	introclassJava.smallest_95362737_009::::75::::1929::::1929::::d::::c	0.5
+104	introclassJava.smallest_95362737_009::::75::::1929::::1929::::d::::b	0.5
+105	introclassJava.smallest_95362737_009::::75::::1929::::1929::::d::::a	0.5
+106	introclassJava.smallest_95362737_009::::75::::1919::::1935::::b.value) > (d.value::::true	0.5
+107	introclassJava.smallest_95362737_009::::75::::1919::::1935::::b.value) > (d.value::::c.value) > (d.value	0.5
+108	introclassJava.smallest_95362737_009::::75::::1919::::1935::::b.value) > (d.value::::b.value) > (c.value	0.5
+109	introclassJava.smallest_95362737_009::::75::::1919::::1935::::b.value) > (d.value::::a.value) > (d.value	0.5
+110	introclassJava.smallest_95362737_009::::75::::1919::::1935::::b.value) > (d.value::::a.value) > (c.value	0.5
+111	introclassJava.smallest_95362737_009::::75::::1919::::1935::::b.value) > (d.value::::a.value) > (b.value	0.5
+112	introclassJava.smallest_95362737_009::::75::::1919::::1925::::b.value::::c.value	0.5
+113	introclassJava.smallest_95362737_009::::75::::1919::::1925::::b.value::::a.value	0.5
+114	introclassJava.smallest_95362737_009::::75::::1919::::1919::::b::::d	0.5
+115	introclassJava.smallest_95362737_009::::75::::1919::::1919::::b::::c	0.5
+116	introclassJava.smallest_95362737_009::::75::::1919::::1919::::b::::a	0.5
+117	introclassJava.smallest_95362737_009::::75::::1915::::2128::::if ((b.value) > (d.value)) {    output += java.lang.String.format("%d is the smallest\n", d.value);}else {    output += java.lang.String.format("%d is the smallesst\n", b.value);}::::INSERT::::STATEMENT::::if (true)    return ;	0.5
+118	introclassJava.smallest_95362737_009::::87::::2498::::2504::::d.value::::c.value	0.35355339059327373
+119	introclassJava.smallest_95362737_009::::87::::2498::::2504::::d.value::::b.value	0.35355339059327373
+120	introclassJava.smallest_95362737_009::::87::::2498::::2504::::d.value::::a.value	0.35355339059327373
+121	introclassJava.smallest_95362737_009::::87::::2498::::2498::::d::::c	0.35355339059327373
+122	introclassJava.smallest_95362737_009::::87::::2498::::2498::::d::::b	0.35355339059327373
+123	introclassJava.smallest_95362737_009::::87::::2498::::2498::::d::::a	0.35355339059327373
+124	introclassJava.smallest_95362737_009::::87::::2448::::2507::::output += java.lang.String.format("%d is the smallest\n", d.value)::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+125	introclassJava.smallest_95362737_009::::82::::2273::::2279::::d.value::::c.value	0.35355339059327373
+126	introclassJava.smallest_95362737_009::::82::::2273::::2279::::d.value::::b.value	0.35355339059327373
+127	introclassJava.smallest_95362737_009::::82::::2273::::2279::::d.value::::a.value	0.35355339059327373
+128	introclassJava.smallest_95362737_009::::82::::2273::::2273::::d::::c	0.35355339059327373
+129	introclassJava.smallest_95362737_009::::82::::2273::::2273::::d::::b	0.35355339059327373
+130	introclassJava.smallest_95362737_009::::82::::2273::::2273::::d::::a	0.35355339059327373
+131	introclassJava.smallest_95362737_009::::82::::2223::::2282::::output += java.lang.String.format("%d is the smallest\n", d.value)::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+132	introclassJava.smallest_95362737_009::::81::::2196::::2202::::d.value::::b.value	0.35355339059327373
+133	introclassJava.smallest_95362737_009::::81::::2196::::2202::::d.value::::a.value	0.35355339059327373
+134	introclassJava.smallest_95362737_009::::81::::2196::::2196::::d::::c	0.35355339059327373
+135	introclassJava.smallest_95362737_009::::81::::2196::::2196::::d::::b	0.35355339059327373
+136	introclassJava.smallest_95362737_009::::81::::2196::::2196::::d::::a	0.35355339059327373
+137	introclassJava.smallest_95362737_009::::81::::2186::::2202::::c.value) > (d.value::::true	0.35355339059327373
+138	introclassJava.smallest_95362737_009::::81::::2186::::2202::::c.value) > (d.value::::b.value) > (d.value	0.35355339059327373
+139	introclassJava.smallest_95362737_009::::81::::2186::::2202::::c.value) > (d.value::::b.value) > (c.value	0.35355339059327373
+140	introclassJava.smallest_95362737_009::::81::::2186::::2202::::c.value) > (d.value::::a.value) > (d.value	0.35355339059327373
+141	introclassJava.smallest_95362737_009::::81::::2186::::2202::::c.value) > (d.value::::a.value) > (c.value	0.35355339059327373
+142	introclassJava.smallest_95362737_009::::81::::2186::::2202::::c.value) > (d.value::::a.value) > (b.value	0.35355339059327373
+143	introclassJava.smallest_95362737_009::::81::::2186::::2192::::c.value::::b.value	0.35355339059327373
+144	introclassJava.smallest_95362737_009::::81::::2186::::2192::::c.value::::a.value	0.35355339059327373
+145	introclassJava.smallest_95362737_009::::81::::2186::::2186::::c::::d	0.35355339059327373
+146	introclassJava.smallest_95362737_009::::81::::2186::::2186::::c::::b	0.35355339059327373
+147	introclassJava.smallest_95362737_009::::81::::2186::::2186::::c::::a	0.35355339059327373
+148	introclassJava.smallest_95362737_009::::81::::2182::::2394::::if ((c.value) > (d.value)) {    output += java.lang.String.format("%d is the smallest\n", d.value);}else {    output += java.lang.String.format("%d is the smallest\n", c.value);}::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+149	introclassJava.smallest_95362737_009::::78::::2105::::2111::::b.value::::d.value	0.35355339059327373
+150	introclassJava.smallest_95362737_009::::78::::2105::::2111::::b.value::::c.value	0.35355339059327373
+151	introclassJava.smallest_95362737_009::::78::::2105::::2111::::b.value::::a.value	0.35355339059327373
+152	introclassJava.smallest_95362737_009::::78::::2105::::2105::::b::::d	0.35355339059327373
+153	introclassJava.smallest_95362737_009::::78::::2105::::2105::::b::::c	0.35355339059327373
+154	introclassJava.smallest_95362737_009::::78::::2105::::2105::::b::::a	0.35355339059327373
+155	introclassJava.smallest_95362737_009::::78::::2054::::2114::::output += java.lang.String.format("%d is the smallesst\n", b.value)::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+156	introclassJava.smallest_95362737_009::::76::::2006::::2012::::d.value::::c.value	0.35355339059327373
+157	introclassJava.smallest_95362737_009::::76::::2006::::2012::::d.value::::b.value	0.35355339059327373
+158	introclassJava.smallest_95362737_009::::76::::2006::::2012::::d.value::::a.value	0.35355339059327373
+159	introclassJava.smallest_95362737_009::::76::::2006::::2006::::d::::c	0.35355339059327373
+160	introclassJava.smallest_95362737_009::::76::::2006::::2006::::d::::b	0.35355339059327373
+161	introclassJava.smallest_95362737_009::::76::::2006::::2006::::d::::a	0.35355339059327373
+162	introclassJava.smallest_95362737_009::::76::::1956::::2015::::output += java.lang.String.format("%d is the smallest\n", d.value)::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+163	introclassJava.smallest_95362737_009::::71::::1761::::1767::::d.value::::c.value	0.35355339059327373
+164	introclassJava.smallest_95362737_009::::71::::1761::::1767::::d.value::::b.value	0.35355339059327373
+165	introclassJava.smallest_95362737_009::::71::::1761::::1767::::d.value::::a.value	0.35355339059327373
+166	introclassJava.smallest_95362737_009::::71::::1761::::1761::::d::::c	0.35355339059327373
+167	introclassJava.smallest_95362737_009::::71::::1761::::1761::::d::::b	0.35355339059327373
+168	introclassJava.smallest_95362737_009::::71::::1761::::1761::::d::::a	0.35355339059327373
+169	introclassJava.smallest_95362737_009::::71::::1711::::1770::::output += java.lang.String.format("%d is the smallest\n", d.value)::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+170	introclassJava.smallest_95362737_009::::70::::1680::::1686::::d.value::::b.value	0.35355339059327373
+171	introclassJava.smallest_95362737_009::::70::::1680::::1686::::d.value::::a.value	0.35355339059327373
+172	introclassJava.smallest_95362737_009::::70::::1680::::1680::::d::::c	0.35355339059327373
+173	introclassJava.smallest_95362737_009::::70::::1680::::1680::::d::::b	0.35355339059327373
+174	introclassJava.smallest_95362737_009::::70::::1680::::1680::::d::::a	0.35355339059327373
+175	introclassJava.smallest_95362737_009::::70::::1670::::1686::::c.value) > (d.value::::true	0.35355339059327373
+176	introclassJava.smallest_95362737_009::::70::::1670::::1686::::c.value) > (d.value::::b.value) > (d.value	0.35355339059327373
+177	introclassJava.smallest_95362737_009::::70::::1670::::1686::::c.value) > (d.value::::b.value) > (c.value	0.35355339059327373
+178	introclassJava.smallest_95362737_009::::70::::1670::::1686::::c.value) > (d.value::::a.value) > (d.value	0.35355339059327373
+179	introclassJava.smallest_95362737_009::::70::::1670::::1686::::c.value) > (d.value::::a.value) > (c.value	0.35355339059327373
+180	introclassJava.smallest_95362737_009::::70::::1670::::1686::::c.value) > (d.value::::a.value) > (b.value	0.35355339059327373
+181	introclassJava.smallest_95362737_009::::70::::1670::::1676::::c.value::::b.value	0.35355339059327373
+182	introclassJava.smallest_95362737_009::::70::::1670::::1676::::c.value::::a.value	0.35355339059327373
+183	introclassJava.smallest_95362737_009::::70::::1670::::1670::::c::::d	0.35355339059327373
+184	introclassJava.smallest_95362737_009::::70::::1670::::1670::::c::::b	0.35355339059327373
+185	introclassJava.smallest_95362737_009::::70::::1670::::1670::::c::::a	0.35355339059327373
+186	introclassJava.smallest_95362737_009::::70::::1666::::1894::::if ((c.value) > (d.value)) {    output += java.lang.String.format("%d is the smallest\n", d.value);}else {    output += java.lang.String.format("%d is the smallest\n", c.value);}::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373

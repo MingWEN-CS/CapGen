@@ -1,0 +1,356 @@
+1	introclassJava.smallest_ea67b841_003::::77::::2031::::2037::::d.value::::c.value	0.4082482904638631
+2	introclassJava.smallest_ea67b841_003::::77::::2031::::2037::::d.value::::b.value	0.4082482904638631
+3	introclassJava.smallest_ea67b841_003::::77::::2031::::2037::::d.value::::a.value	0.4082482904638631
+4	introclassJava.smallest_ea67b841_003::::77::::2031::::2037::::d.value::::SN.value	0.4082482904638631
+5	introclassJava.smallest_ea67b841_003::::77::::2031::::2031::::d::::c	0.4082482904638631
+6	introclassJava.smallest_ea67b841_003::::77::::2031::::2031::::d::::b	0.4082482904638631
+7	introclassJava.smallest_ea67b841_003::::77::::2031::::2031::::d::::a	0.4082482904638631
+8	introclassJava.smallest_ea67b841_003::::77::::2031::::2031::::d::::SN	0.4082482904638631
+9	introclassJava.smallest_ea67b841_003::::77::::2020::::2038::::SN.value = d.value::::SN.value = c.value	0.4082482904638631
+10	introclassJava.smallest_ea67b841_003::::77::::2020::::2038::::SN.value = d.value::::SN.value = b.value	0.4082482904638631
+11	introclassJava.smallest_ea67b841_003::::77::::2020::::2038::::SN.value = d.value::::SN.value = a.value	0.4082482904638631
+12	introclassJava.smallest_ea67b841_003::::77::::2020::::2038::::SN.value = d.value::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+13	introclassJava.smallest_ea67b841_003::::77::::2020::::2038::::SN.value = d.value::::INSERT::::STATEMENT::::if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {    SN.value = c.value;}else {    SN.value = d.value;}	0.4082482904638631
+14	introclassJava.smallest_ea67b841_003::::77::::2020::::2038::::SN.value = d.value::::INSERT::::STATEMENT::::if ((((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value))) {    SN.value = b.value;}else    if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {        SN.value = c.value;    }else {        SN.value = d.value;    }	0.4082482904638631
+15	introclassJava.smallest_ea67b841_003::::77::::2020::::2038::::SN.value = d.value::::INSERT::::STATEMENT::::if ((((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value))) {    SN.value = a.value;}else    if ((((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value))) {        SN.value = b.value;    }else        if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {            SN.value = c.value;        }else {            SN.value = d.value;        }    	0.4082482904638631
+16	introclassJava.smallest_ea67b841_003::::77::::2020::::2027::::SN.value::::d.value	0.4082482904638631
+17	introclassJava.smallest_ea67b841_003::::77::::2020::::2027::::SN.value::::c.value	0.4082482904638631
+18	introclassJava.smallest_ea67b841_003::::77::::2020::::2027::::SN.value::::b.value	0.4082482904638631
+19	introclassJava.smallest_ea67b841_003::::77::::2020::::2027::::SN.value::::a.value	0.4082482904638631
+20	introclassJava.smallest_ea67b841_003::::77::::2020::::2021::::SN::::d	0.4082482904638631
+21	introclassJava.smallest_ea67b841_003::::77::::2020::::2021::::SN::::c	0.4082482904638631
+22	introclassJava.smallest_ea67b841_003::::77::::2020::::2021::::SN::::b	0.4082482904638631
+23	introclassJava.smallest_ea67b841_003::::77::::2020::::2021::::SN::::a	0.4082482904638631
+24	introclassJava.smallest_ea67b841_003::::73::::1905::::1911::::b.value::::d.value	0.4082482904638631
+25	introclassJava.smallest_ea67b841_003::::73::::1905::::1911::::b.value::::a.value	0.4082482904638631
+26	introclassJava.smallest_ea67b841_003::::73::::1905::::1911::::b.value::::SN.value	0.4082482904638631
+27	introclassJava.smallest_ea67b841_003::::73::::1905::::1905::::b::::d	0.4082482904638631
+28	introclassJava.smallest_ea67b841_003::::73::::1905::::1905::::b::::c	0.4082482904638631
+29	introclassJava.smallest_ea67b841_003::::73::::1905::::1905::::b::::a	0.4082482904638631
+30	introclassJava.smallest_ea67b841_003::::73::::1905::::1905::::b::::SN	0.4082482904638631
+31	introclassJava.smallest_ea67b841_003::::73::::1895::::1901::::c.value::::d.value	0.4082482904638631
+32	introclassJava.smallest_ea67b841_003::::73::::1895::::1901::::c.value::::a.value	0.4082482904638631
+33	introclassJava.smallest_ea67b841_003::::73::::1895::::1901::::c.value::::SN.value	0.4082482904638631
+34	introclassJava.smallest_ea67b841_003::::73::::1895::::1895::::c::::d	0.4082482904638631
+35	introclassJava.smallest_ea67b841_003::::73::::1895::::1895::::c::::b	0.4082482904638631
+36	introclassJava.smallest_ea67b841_003::::73::::1895::::1895::::c::::a	0.4082482904638631
+37	introclassJava.smallest_ea67b841_003::::73::::1895::::1895::::c::::SN	0.4082482904638631
+38	introclassJava.smallest_ea67b841_003::::73::::1894::::1912::::(c.value) < (b.value)::::true	0.4082482904638631
+39	introclassJava.smallest_ea67b841_003::::73::::1894::::1912::::(c.value) < (b.value)::::(c.value) < (d.value)	0.4082482904638631
+40	introclassJava.smallest_ea67b841_003::::73::::1894::::1912::::(c.value) < (b.value)::::(c.value) < (a.value)	0.4082482904638631
+41	introclassJava.smallest_ea67b841_003::::73::::1894::::1912::::(c.value) < (b.value)::::(b.value) < (d.value)	0.4082482904638631
+42	introclassJava.smallest_ea67b841_003::::73::::1894::::1912::::(c.value) < (b.value)::::(b.value) < (c.value)	0.4082482904638631
+43	introclassJava.smallest_ea67b841_003::::73::::1894::::1912::::(c.value) < (b.value)::::(b.value) < (a.value)	0.4082482904638631
+44	introclassJava.smallest_ea67b841_003::::73::::1894::::1912::::(c.value) < (b.value)::::(a.value) < (d.value)	0.4082482904638631
+45	introclassJava.smallest_ea67b841_003::::73::::1894::::1912::::(c.value) < (b.value)::::(a.value) < (c.value)	0.4082482904638631
+46	introclassJava.smallest_ea67b841_003::::73::::1894::::1912::::(c.value) < (b.value)::::(a.value) < (b.value)	0.4082482904638631
+47	introclassJava.smallest_ea67b841_003::::73::::1894::::1912::::(c.value) < (b.value)::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)	0.4082482904638631
+48	introclassJava.smallest_ea67b841_003::::73::::1894::::1912::::(c.value) < (b.value)::::((c.value) < (a.value)) && ((c.value) < (b.value))	0.4082482904638631
+49	introclassJava.smallest_ea67b841_003::::73::::1894::::1912::::(c.value) < (b.value)::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)	0.4082482904638631
+50	introclassJava.smallest_ea67b841_003::::73::::1894::::1912::::(c.value) < (b.value)::::((b.value) < (a.value)) && ((b.value) < (c.value))	0.4082482904638631
+51	introclassJava.smallest_ea67b841_003::::73::::1894::::1912::::(c.value) < (b.value)::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)	0.4082482904638631
+52	introclassJava.smallest_ea67b841_003::::73::::1894::::1912::::(c.value) < (b.value)::::((a.value) < (b.value)) && ((a.value) < (c.value))	0.4082482904638631
+53	introclassJava.smallest_ea67b841_003::::73::::1882::::1888::::a.value::::d.value	0.4082482904638631
+54	introclassJava.smallest_ea67b841_003::::73::::1882::::1888::::a.value::::b.value	0.4082482904638631
+55	introclassJava.smallest_ea67b841_003::::73::::1882::::1888::::a.value::::SN.value	0.4082482904638631
+56	introclassJava.smallest_ea67b841_003::::73::::1882::::1882::::a::::d	0.4082482904638631
+57	introclassJava.smallest_ea67b841_003::::73::::1882::::1882::::a::::c	0.4082482904638631
+58	introclassJava.smallest_ea67b841_003::::73::::1882::::1882::::a::::b	0.4082482904638631
+59	introclassJava.smallest_ea67b841_003::::73::::1882::::1882::::a::::SN	0.4082482904638631
+60	introclassJava.smallest_ea67b841_003::::73::::1872::::1878::::c.value::::d.value	0.4082482904638631
+61	introclassJava.smallest_ea67b841_003::::73::::1872::::1878::::c.value::::b.value	0.4082482904638631
+62	introclassJava.smallest_ea67b841_003::::73::::1872::::1878::::c.value::::SN.value	0.4082482904638631
+63	introclassJava.smallest_ea67b841_003::::73::::1872::::1872::::c::::d	0.4082482904638631
+64	introclassJava.smallest_ea67b841_003::::73::::1872::::1872::::c::::b	0.4082482904638631
+65	introclassJava.smallest_ea67b841_003::::73::::1872::::1872::::c::::a	0.4082482904638631
+66	introclassJava.smallest_ea67b841_003::::73::::1872::::1872::::c::::SN	0.4082482904638631
+67	introclassJava.smallest_ea67b841_003::::73::::1871::::1954::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)::::true	0.4082482904638631
+68	introclassJava.smallest_ea67b841_003::::73::::1871::::1954::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)::::(c.value) < (d.value)	0.4082482904638631
+69	introclassJava.smallest_ea67b841_003::::73::::1871::::1954::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)::::(c.value) < (b.value)	0.4082482904638631
+70	introclassJava.smallest_ea67b841_003::::73::::1871::::1954::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)::::(c.value) < (a.value)	0.4082482904638631
+71	introclassJava.smallest_ea67b841_003::::73::::1871::::1954::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)::::(b.value) < (d.value)	0.4082482904638631
+72	introclassJava.smallest_ea67b841_003::::73::::1871::::1954::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)::::(b.value) < (c.value)	0.4082482904638631
+73	introclassJava.smallest_ea67b841_003::::73::::1871::::1954::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)::::(b.value) < (a.value)	0.4082482904638631
+74	introclassJava.smallest_ea67b841_003::::73::::1871::::1954::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)::::(a.value) < (d.value)	0.4082482904638631
+75	introclassJava.smallest_ea67b841_003::::73::::1871::::1954::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)::::(a.value) < (c.value)	0.4082482904638631
+76	introclassJava.smallest_ea67b841_003::::73::::1871::::1954::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)::::(a.value) < (b.value)	0.4082482904638631
+77	introclassJava.smallest_ea67b841_003::::73::::1871::::1954::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)::::((c.value) < (a.value)) && ((c.value) < (b.value))	0.4082482904638631
+78	introclassJava.smallest_ea67b841_003::::73::::1871::::1954::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)	0.4082482904638631
+79	introclassJava.smallest_ea67b841_003::::73::::1871::::1954::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)::::((b.value) < (a.value)) && ((b.value) < (c.value))	0.4082482904638631
+80	introclassJava.smallest_ea67b841_003::::73::::1871::::1954::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)	0.4082482904638631
+81	introclassJava.smallest_ea67b841_003::::73::::1871::::1954::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)::::((a.value) < (b.value)) && ((a.value) < (c.value))	0.4082482904638631
+82	introclassJava.smallest_ea67b841_003::::73::::1871::::1912::::((c.value) < (a.value)) && ((c.value) < (b.value))::::true	0.4082482904638631
+83	introclassJava.smallest_ea67b841_003::::73::::1871::::1912::::((c.value) < (a.value)) && ((c.value) < (b.value))::::(c.value) < (d.value)	0.4082482904638631
+84	introclassJava.smallest_ea67b841_003::::73::::1871::::1912::::((c.value) < (a.value)) && ((c.value) < (b.value))::::(c.value) < (b.value)	0.4082482904638631
+85	introclassJava.smallest_ea67b841_003::::73::::1871::::1912::::((c.value) < (a.value)) && ((c.value) < (b.value))::::(c.value) < (a.value)	0.4082482904638631
+86	introclassJava.smallest_ea67b841_003::::73::::1871::::1912::::((c.value) < (a.value)) && ((c.value) < (b.value))::::(b.value) < (d.value)	0.4082482904638631
+87	introclassJava.smallest_ea67b841_003::::73::::1871::::1912::::((c.value) < (a.value)) && ((c.value) < (b.value))::::(b.value) < (c.value)	0.4082482904638631
+88	introclassJava.smallest_ea67b841_003::::73::::1871::::1912::::((c.value) < (a.value)) && ((c.value) < (b.value))::::(b.value) < (a.value)	0.4082482904638631
+89	introclassJava.smallest_ea67b841_003::::73::::1871::::1912::::((c.value) < (a.value)) && ((c.value) < (b.value))::::(a.value) < (d.value)	0.4082482904638631
+90	introclassJava.smallest_ea67b841_003::::73::::1871::::1912::::((c.value) < (a.value)) && ((c.value) < (b.value))::::(a.value) < (c.value)	0.4082482904638631
+91	introclassJava.smallest_ea67b841_003::::73::::1871::::1912::::((c.value) < (a.value)) && ((c.value) < (b.value))::::(a.value) < (b.value)	0.4082482904638631
+92	introclassJava.smallest_ea67b841_003::::73::::1871::::1912::::((c.value) < (a.value)) && ((c.value) < (b.value))::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)	0.4082482904638631
+93	introclassJava.smallest_ea67b841_003::::73::::1871::::1912::::((c.value) < (a.value)) && ((c.value) < (b.value))::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)	0.4082482904638631
+94	introclassJava.smallest_ea67b841_003::::73::::1871::::1912::::((c.value) < (a.value)) && ((c.value) < (b.value))::::((b.value) < (a.value)) && ((b.value) < (c.value))	0.4082482904638631
+95	introclassJava.smallest_ea67b841_003::::73::::1871::::1912::::((c.value) < (a.value)) && ((c.value) < (b.value))::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)	0.4082482904638631
+96	introclassJava.smallest_ea67b841_003::::73::::1871::::1912::::((c.value) < (a.value)) && ((c.value) < (b.value))::::((a.value) < (b.value)) && ((a.value) < (c.value))	0.4082482904638631
+97	introclassJava.smallest_ea67b841_003::::73::::1871::::1889::::(c.value) < (a.value)::::true	0.4082482904638631
+98	introclassJava.smallest_ea67b841_003::::73::::1871::::1889::::(c.value) < (a.value)::::(c.value) < (d.value)	0.4082482904638631
+99	introclassJava.smallest_ea67b841_003::::73::::1871::::1889::::(c.value) < (a.value)::::(c.value) < (b.value)	0.4082482904638631
+100	introclassJava.smallest_ea67b841_003::::73::::1871::::1889::::(c.value) < (a.value)::::(b.value) < (d.value)	0.4082482904638631
+101	introclassJava.smallest_ea67b841_003::::73::::1871::::1889::::(c.value) < (a.value)::::(b.value) < (c.value)	0.4082482904638631
+102	introclassJava.smallest_ea67b841_003::::73::::1871::::1889::::(c.value) < (a.value)::::(b.value) < (a.value)	0.4082482904638631
+103	introclassJava.smallest_ea67b841_003::::73::::1871::::1889::::(c.value) < (a.value)::::(a.value) < (d.value)	0.4082482904638631
+104	introclassJava.smallest_ea67b841_003::::73::::1871::::1889::::(c.value) < (a.value)::::(a.value) < (c.value)	0.4082482904638631
+105	introclassJava.smallest_ea67b841_003::::73::::1871::::1889::::(c.value) < (a.value)::::(a.value) < (b.value)	0.4082482904638631
+106	introclassJava.smallest_ea67b841_003::::73::::1871::::1889::::(c.value) < (a.value)::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)	0.4082482904638631
+107	introclassJava.smallest_ea67b841_003::::73::::1871::::1889::::(c.value) < (a.value)::::((c.value) < (a.value)) && ((c.value) < (b.value))	0.4082482904638631
+108	introclassJava.smallest_ea67b841_003::::73::::1871::::1889::::(c.value) < (a.value)::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)	0.4082482904638631
+109	introclassJava.smallest_ea67b841_003::::73::::1871::::1889::::(c.value) < (a.value)::::((b.value) < (a.value)) && ((b.value) < (c.value))	0.4082482904638631
+110	introclassJava.smallest_ea67b841_003::::73::::1871::::1889::::(c.value) < (a.value)::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)	0.4082482904638631
+111	introclassJava.smallest_ea67b841_003::::73::::1871::::1889::::(c.value) < (a.value)::::((a.value) < (b.value)) && ((a.value) < (c.value))	0.4082482904638631
+112	introclassJava.smallest_ea67b841_003::::73::::1867::::2048::::if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {    SN.value = c.value;}else {    SN.value = d.value;}::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+113	introclassJava.smallest_ea67b841_003::::73::::1867::::2048::::if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {    SN.value = c.value;}else {    SN.value = d.value;}::::INSERT::::STATEMENT::::if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {    SN.value = c.value;}else {    SN.value = d.value;}	0.4082482904638631
+114	introclassJava.smallest_ea67b841_003::::73::::1867::::2048::::if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {    SN.value = c.value;}else {    SN.value = d.value;}::::INSERT::::STATEMENT::::if ((((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value))) {    SN.value = b.value;}else    if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {        SN.value = c.value;    }else {        SN.value = d.value;    }	0.4082482904638631
+115	introclassJava.smallest_ea67b841_003::::73::::1867::::2048::::if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {    SN.value = c.value;}else {    SN.value = d.value;}::::INSERT::::STATEMENT::::if ((((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value))) {    SN.value = a.value;}else    if ((((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value))) {        SN.value = b.value;    }else        if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {            SN.value = c.value;        }else {            SN.value = d.value;        }    	0.4082482904638631
+116	introclassJava.smallest_ea67b841_003::::70::::1766::::1772::::c.value::::d.value	0.3779644730092272
+117	introclassJava.smallest_ea67b841_003::::70::::1766::::1772::::c.value::::a.value	0.3779644730092272
+118	introclassJava.smallest_ea67b841_003::::70::::1766::::1772::::c.value::::SN.value	0.3779644730092272
+119	introclassJava.smallest_ea67b841_003::::70::::1766::::1766::::c::::d	0.3779644730092272
+120	introclassJava.smallest_ea67b841_003::::70::::1766::::1766::::c::::b	0.3779644730092272
+121	introclassJava.smallest_ea67b841_003::::70::::1766::::1766::::c::::a	0.3779644730092272
+122	introclassJava.smallest_ea67b841_003::::70::::1766::::1766::::c::::SN	0.3779644730092272
+123	introclassJava.smallest_ea67b841_003::::70::::1756::::1762::::b.value::::d.value	0.3779644730092272
+124	introclassJava.smallest_ea67b841_003::::70::::1756::::1762::::b.value::::a.value	0.3779644730092272
+125	introclassJava.smallest_ea67b841_003::::70::::1756::::1762::::b.value::::SN.value	0.3779644730092272
+126	introclassJava.smallest_ea67b841_003::::70::::1756::::1756::::b::::d	0.3779644730092272
+127	introclassJava.smallest_ea67b841_003::::70::::1756::::1756::::b::::c	0.3779644730092272
+128	introclassJava.smallest_ea67b841_003::::70::::1756::::1756::::b::::a	0.3779644730092272
+129	introclassJava.smallest_ea67b841_003::::70::::1756::::1756::::b::::SN	0.3779644730092272
+130	introclassJava.smallest_ea67b841_003::::70::::1755::::1773::::(b.value) < (c.value)::::true	0.3779644730092272
+131	introclassJava.smallest_ea67b841_003::::70::::1755::::1773::::(b.value) < (c.value)::::(c.value) < (d.value)	0.3779644730092272
+132	introclassJava.smallest_ea67b841_003::::70::::1755::::1773::::(b.value) < (c.value)::::(c.value) < (b.value)	0.3779644730092272
+133	introclassJava.smallest_ea67b841_003::::70::::1755::::1773::::(b.value) < (c.value)::::(c.value) < (a.value)	0.3779644730092272
+134	introclassJava.smallest_ea67b841_003::::70::::1755::::1773::::(b.value) < (c.value)::::(b.value) < (d.value)	0.3779644730092272
+135	introclassJava.smallest_ea67b841_003::::70::::1755::::1773::::(b.value) < (c.value)::::(b.value) < (a.value)	0.3779644730092272
+136	introclassJava.smallest_ea67b841_003::::70::::1755::::1773::::(b.value) < (c.value)::::(a.value) < (d.value)	0.3779644730092272
+137	introclassJava.smallest_ea67b841_003::::70::::1755::::1773::::(b.value) < (c.value)::::(a.value) < (c.value)	0.3779644730092272
+138	introclassJava.smallest_ea67b841_003::::70::::1755::::1773::::(b.value) < (c.value)::::(a.value) < (b.value)	0.3779644730092272
+139	introclassJava.smallest_ea67b841_003::::70::::1755::::1773::::(b.value) < (c.value)::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)	0.3779644730092272
+140	introclassJava.smallest_ea67b841_003::::70::::1755::::1773::::(b.value) < (c.value)::::((c.value) < (a.value)) && ((c.value) < (b.value))	0.3779644730092272
+141	introclassJava.smallest_ea67b841_003::::70::::1755::::1773::::(b.value) < (c.value)::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)	0.3779644730092272
+142	introclassJava.smallest_ea67b841_003::::70::::1755::::1773::::(b.value) < (c.value)::::((b.value) < (a.value)) && ((b.value) < (c.value))	0.3779644730092272
+143	introclassJava.smallest_ea67b841_003::::70::::1755::::1773::::(b.value) < (c.value)::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)	0.3779644730092272
+144	introclassJava.smallest_ea67b841_003::::70::::1755::::1773::::(b.value) < (c.value)::::((a.value) < (b.value)) && ((a.value) < (c.value))	0.3779644730092272
+145	introclassJava.smallest_ea67b841_003::::70::::1743::::1749::::a.value::::d.value	0.3779644730092272
+146	introclassJava.smallest_ea67b841_003::::70::::1743::::1749::::a.value::::c.value	0.3779644730092272
+147	introclassJava.smallest_ea67b841_003::::70::::1743::::1749::::a.value::::SN.value	0.3779644730092272
+148	introclassJava.smallest_ea67b841_003::::70::::1743::::1743::::a::::d	0.3779644730092272
+149	introclassJava.smallest_ea67b841_003::::70::::1743::::1743::::a::::c	0.3779644730092272
+150	introclassJava.smallest_ea67b841_003::::70::::1743::::1743::::a::::b	0.3779644730092272
+151	introclassJava.smallest_ea67b841_003::::70::::1743::::1743::::a::::SN	0.3779644730092272
+152	introclassJava.smallest_ea67b841_003::::70::::1733::::1739::::b.value::::d.value	0.3779644730092272
+153	introclassJava.smallest_ea67b841_003::::70::::1733::::1739::::b.value::::c.value	0.3779644730092272
+154	introclassJava.smallest_ea67b841_003::::70::::1733::::1739::::b.value::::SN.value	0.3779644730092272
+155	introclassJava.smallest_ea67b841_003::::70::::1733::::1733::::b::::d	0.3779644730092272
+156	introclassJava.smallest_ea67b841_003::::70::::1733::::1733::::b::::c	0.3779644730092272
+157	introclassJava.smallest_ea67b841_003::::70::::1733::::1733::::b::::a	0.3779644730092272
+158	introclassJava.smallest_ea67b841_003::::70::::1733::::1733::::b::::SN	0.3779644730092272
+159	introclassJava.smallest_ea67b841_003::::70::::1732::::1815::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)::::true	0.3779644730092272
+160	introclassJava.smallest_ea67b841_003::::70::::1732::::1815::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)::::(c.value) < (d.value)	0.3779644730092272
+161	introclassJava.smallest_ea67b841_003::::70::::1732::::1815::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)::::(c.value) < (b.value)	0.3779644730092272
+162	introclassJava.smallest_ea67b841_003::::70::::1732::::1815::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)::::(c.value) < (a.value)	0.3779644730092272
+163	introclassJava.smallest_ea67b841_003::::70::::1732::::1815::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)::::(b.value) < (d.value)	0.3779644730092272
+164	introclassJava.smallest_ea67b841_003::::70::::1732::::1815::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)::::(b.value) < (c.value)	0.3779644730092272
+165	introclassJava.smallest_ea67b841_003::::70::::1732::::1815::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)::::(b.value) < (a.value)	0.3779644730092272
+166	introclassJava.smallest_ea67b841_003::::70::::1732::::1815::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)::::(a.value) < (d.value)	0.3779644730092272
+167	introclassJava.smallest_ea67b841_003::::70::::1732::::1815::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)::::(a.value) < (c.value)	0.3779644730092272
+168	introclassJava.smallest_ea67b841_003::::70::::1732::::1815::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)::::(a.value) < (b.value)	0.3779644730092272
+169	introclassJava.smallest_ea67b841_003::::70::::1732::::1815::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)	0.3779644730092272
+170	introclassJava.smallest_ea67b841_003::::70::::1732::::1815::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)::::((c.value) < (a.value)) && ((c.value) < (b.value))	0.3779644730092272
+171	introclassJava.smallest_ea67b841_003::::70::::1732::::1815::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)::::((b.value) < (a.value)) && ((b.value) < (c.value))	0.3779644730092272
+172	introclassJava.smallest_ea67b841_003::::70::::1732::::1815::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)	0.3779644730092272
+173	introclassJava.smallest_ea67b841_003::::70::::1732::::1815::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)::::((a.value) < (b.value)) && ((a.value) < (c.value))	0.3779644730092272
+174	introclassJava.smallest_ea67b841_003::::70::::1732::::1773::::((b.value) < (a.value)) && ((b.value) < (c.value))::::true	0.3779644730092272
+175	introclassJava.smallest_ea67b841_003::::70::::1732::::1773::::((b.value) < (a.value)) && ((b.value) < (c.value))::::(c.value) < (d.value)	0.3779644730092272
+176	introclassJava.smallest_ea67b841_003::::70::::1732::::1773::::((b.value) < (a.value)) && ((b.value) < (c.value))::::(c.value) < (b.value)	0.3779644730092272
+177	introclassJava.smallest_ea67b841_003::::70::::1732::::1773::::((b.value) < (a.value)) && ((b.value) < (c.value))::::(c.value) < (a.value)	0.3779644730092272
+178	introclassJava.smallest_ea67b841_003::::70::::1732::::1773::::((b.value) < (a.value)) && ((b.value) < (c.value))::::(b.value) < (d.value)	0.3779644730092272
+179	introclassJava.smallest_ea67b841_003::::70::::1732::::1773::::((b.value) < (a.value)) && ((b.value) < (c.value))::::(b.value) < (c.value)	0.3779644730092272
+180	introclassJava.smallest_ea67b841_003::::70::::1732::::1773::::((b.value) < (a.value)) && ((b.value) < (c.value))::::(b.value) < (a.value)	0.3779644730092272
+181	introclassJava.smallest_ea67b841_003::::70::::1732::::1773::::((b.value) < (a.value)) && ((b.value) < (c.value))::::(a.value) < (d.value)	0.3779644730092272
+182	introclassJava.smallest_ea67b841_003::::70::::1732::::1773::::((b.value) < (a.value)) && ((b.value) < (c.value))::::(a.value) < (c.value)	0.3779644730092272
+183	introclassJava.smallest_ea67b841_003::::70::::1732::::1773::::((b.value) < (a.value)) && ((b.value) < (c.value))::::(a.value) < (b.value)	0.3779644730092272
+184	introclassJava.smallest_ea67b841_003::::70::::1732::::1773::::((b.value) < (a.value)) && ((b.value) < (c.value))::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)	0.3779644730092272
+185	introclassJava.smallest_ea67b841_003::::70::::1732::::1773::::((b.value) < (a.value)) && ((b.value) < (c.value))::::((c.value) < (a.value)) && ((c.value) < (b.value))	0.3779644730092272
+186	introclassJava.smallest_ea67b841_003::::70::::1732::::1773::::((b.value) < (a.value)) && ((b.value) < (c.value))::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)	0.3779644730092272
+187	introclassJava.smallest_ea67b841_003::::70::::1732::::1773::::((b.value) < (a.value)) && ((b.value) < (c.value))::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)	0.3779644730092272
+188	introclassJava.smallest_ea67b841_003::::70::::1732::::1773::::((b.value) < (a.value)) && ((b.value) < (c.value))::::((a.value) < (b.value)) && ((a.value) < (c.value))	0.3779644730092272
+189	introclassJava.smallest_ea67b841_003::::70::::1732::::1750::::(b.value) < (a.value)::::true	0.3779644730092272
+190	introclassJava.smallest_ea67b841_003::::70::::1732::::1750::::(b.value) < (a.value)::::(c.value) < (d.value)	0.3779644730092272
+191	introclassJava.smallest_ea67b841_003::::70::::1732::::1750::::(b.value) < (a.value)::::(c.value) < (b.value)	0.3779644730092272
+192	introclassJava.smallest_ea67b841_003::::70::::1732::::1750::::(b.value) < (a.value)::::(c.value) < (a.value)	0.3779644730092272
+193	introclassJava.smallest_ea67b841_003::::70::::1732::::1750::::(b.value) < (a.value)::::(b.value) < (d.value)	0.3779644730092272
+194	introclassJava.smallest_ea67b841_003::::70::::1732::::1750::::(b.value) < (a.value)::::(b.value) < (c.value)	0.3779644730092272
+195	introclassJava.smallest_ea67b841_003::::70::::1732::::1750::::(b.value) < (a.value)::::(a.value) < (d.value)	0.3779644730092272
+196	introclassJava.smallest_ea67b841_003::::70::::1732::::1750::::(b.value) < (a.value)::::(a.value) < (c.value)	0.3779644730092272
+197	introclassJava.smallest_ea67b841_003::::70::::1732::::1750::::(b.value) < (a.value)::::(a.value) < (b.value)	0.3779644730092272
+198	introclassJava.smallest_ea67b841_003::::70::::1732::::1750::::(b.value) < (a.value)::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)	0.3779644730092272
+199	introclassJava.smallest_ea67b841_003::::70::::1732::::1750::::(b.value) < (a.value)::::((c.value) < (a.value)) && ((c.value) < (b.value))	0.3779644730092272
+200	introclassJava.smallest_ea67b841_003::::70::::1732::::1750::::(b.value) < (a.value)::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)	0.3779644730092272
+201	introclassJava.smallest_ea67b841_003::::70::::1732::::1750::::(b.value) < (a.value)::::((b.value) < (a.value)) && ((b.value) < (c.value))	0.3779644730092272
+202	introclassJava.smallest_ea67b841_003::::70::::1732::::1750::::(b.value) < (a.value)::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)	0.3779644730092272
+203	introclassJava.smallest_ea67b841_003::::70::::1732::::1750::::(b.value) < (a.value)::::((a.value) < (b.value)) && ((a.value) < (c.value))	0.3779644730092272
+204	introclassJava.smallest_ea67b841_003::::70::::1728::::2048::::if ((((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value))) {    SN.value = b.value;}else    if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {        SN.value = c.value;    }else {        SN.value = d.value;    }::::INSERT::::STATEMENT::::if (true)    return ;	0.3779644730092272
+205	introclassJava.smallest_ea67b841_003::::70::::1728::::2048::::if ((((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value))) {    SN.value = b.value;}else    if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {        SN.value = c.value;    }else {        SN.value = d.value;    }::::INSERT::::STATEMENT::::if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {    SN.value = c.value;}else {    SN.value = d.value;}	0.3779644730092272
+206	introclassJava.smallest_ea67b841_003::::70::::1728::::2048::::if ((((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value))) {    SN.value = b.value;}else    if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {        SN.value = c.value;    }else {        SN.value = d.value;    }::::INSERT::::STATEMENT::::if ((((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value))) {    SN.value = b.value;}else    if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {        SN.value = c.value;    }else {        SN.value = d.value;    }	0.3779644730092272
+207	introclassJava.smallest_ea67b841_003::::70::::1728::::2048::::if ((((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value))) {    SN.value = b.value;}else    if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {        SN.value = c.value;    }else {        SN.value = d.value;    }::::INSERT::::STATEMENT::::if ((((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value))) {    SN.value = a.value;}else    if ((((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value))) {        SN.value = b.value;    }else        if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {            SN.value = c.value;        }else {            SN.value = d.value;        }    	0.3779644730092272
+208	introclassJava.smallest_ea67b841_003::::81::::2150::::2156::::return ::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+209	introclassJava.smallest_ea67b841_003::::81::::2150::::2156::::return ::::INSERT::::STATEMENT::::if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {    SN.value = c.value;}else {    SN.value = d.value;}	0.35355339059327373
+210	introclassJava.smallest_ea67b841_003::::81::::2150::::2156::::return ::::INSERT::::STATEMENT::::if ((((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value))) {    SN.value = b.value;}else    if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {        SN.value = c.value;    }else {        SN.value = d.value;    }	0.35355339059327373
+211	introclassJava.smallest_ea67b841_003::::81::::2150::::2156::::return ::::INSERT::::STATEMENT::::if ((((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value))) {    SN.value = a.value;}else    if ((((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value))) {        SN.value = b.value;    }else        if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {            SN.value = c.value;        }else {            SN.value = d.value;        }    	0.35355339059327373
+212	introclassJava.smallest_ea67b841_003::::79::::2108::::2115::::SN.value::::d.value	0.35355339059327373
+213	introclassJava.smallest_ea67b841_003::::79::::2108::::2115::::SN.value::::c.value	0.35355339059327373
+214	introclassJava.smallest_ea67b841_003::::79::::2108::::2115::::SN.value::::b.value	0.35355339059327373
+215	introclassJava.smallest_ea67b841_003::::79::::2108::::2115::::SN.value::::a.value	0.35355339059327373
+216	introclassJava.smallest_ea67b841_003::::79::::2108::::2109::::SN::::d	0.35355339059327373
+217	introclassJava.smallest_ea67b841_003::::79::::2108::::2109::::SN::::c	0.35355339059327373
+218	introclassJava.smallest_ea67b841_003::::79::::2108::::2109::::SN::::b	0.35355339059327373
+219	introclassJava.smallest_ea67b841_003::::79::::2108::::2109::::SN::::a	0.35355339059327373
+220	introclassJava.smallest_ea67b841_003::::79::::2058::::2118::::output += java.lang.String.format("%d is the smallest\n", SN.value)::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+221	introclassJava.smallest_ea67b841_003::::79::::2058::::2118::::output += java.lang.String.format("%d is the smallest\n", SN.value)::::INSERT::::STATEMENT::::if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {    SN.value = c.value;}else {    SN.value = d.value;}	0.35355339059327373
+222	introclassJava.smallest_ea67b841_003::::79::::2058::::2118::::output += java.lang.String.format("%d is the smallest\n", SN.value)::::INSERT::::STATEMENT::::if ((((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value))) {    SN.value = b.value;}else    if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {        SN.value = c.value;    }else {        SN.value = d.value;    }	0.35355339059327373
+223	introclassJava.smallest_ea67b841_003::::79::::2058::::2118::::output += java.lang.String.format("%d is the smallest\n", SN.value)::::INSERT::::STATEMENT::::if ((((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value))) {    SN.value = a.value;}else    if ((((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value))) {        SN.value = b.value;    }else        if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {            SN.value = c.value;        }else {            SN.value = d.value;        }    	0.35355339059327373
+224	introclassJava.smallest_ea67b841_003::::68::::1669::::1675::::d.value::::c.value	0.35355339059327373
+225	introclassJava.smallest_ea67b841_003::::68::::1669::::1675::::d.value::::b.value	0.35355339059327373
+226	introclassJava.smallest_ea67b841_003::::68::::1669::::1669::::d::::c	0.35355339059327373
+227	introclassJava.smallest_ea67b841_003::::68::::1669::::1669::::d::::b	0.35355339059327373
+228	introclassJava.smallest_ea67b841_003::::68::::1669::::1669::::d::::a	0.35355339059327373
+229	introclassJava.smallest_ea67b841_003::::68::::1659::::1665::::a.value::::c.value	0.35355339059327373
+230	introclassJava.smallest_ea67b841_003::::68::::1659::::1665::::a.value::::b.value	0.35355339059327373
+231	introclassJava.smallest_ea67b841_003::::68::::1659::::1659::::a::::d	0.35355339059327373
+232	introclassJava.smallest_ea67b841_003::::68::::1659::::1659::::a::::c	0.35355339059327373
+233	introclassJava.smallest_ea67b841_003::::68::::1659::::1659::::a::::b	0.35355339059327373
+234	introclassJava.smallest_ea67b841_003::::68::::1658::::1676::::(a.value) < (d.value)::::true	0.35355339059327373
+235	introclassJava.smallest_ea67b841_003::::68::::1658::::1676::::(a.value) < (d.value)::::(c.value) < (d.value)	0.35355339059327373
+236	introclassJava.smallest_ea67b841_003::::68::::1658::::1676::::(a.value) < (d.value)::::(c.value) < (b.value)	0.35355339059327373
+237	introclassJava.smallest_ea67b841_003::::68::::1658::::1676::::(a.value) < (d.value)::::(c.value) < (a.value)	0.35355339059327373
+238	introclassJava.smallest_ea67b841_003::::68::::1658::::1676::::(a.value) < (d.value)::::(b.value) < (d.value)	0.35355339059327373
+239	introclassJava.smallest_ea67b841_003::::68::::1658::::1676::::(a.value) < (d.value)::::(b.value) < (c.value)	0.35355339059327373
+240	introclassJava.smallest_ea67b841_003::::68::::1658::::1676::::(a.value) < (d.value)::::(b.value) < (a.value)	0.35355339059327373
+241	introclassJava.smallest_ea67b841_003::::68::::1658::::1676::::(a.value) < (d.value)::::(a.value) < (c.value)	0.35355339059327373
+242	introclassJava.smallest_ea67b841_003::::68::::1658::::1676::::(a.value) < (d.value)::::(a.value) < (b.value)	0.35355339059327373
+243	introclassJava.smallest_ea67b841_003::::68::::1658::::1676::::(a.value) < (d.value)::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)	0.35355339059327373
+244	introclassJava.smallest_ea67b841_003::::68::::1658::::1676::::(a.value) < (d.value)::::((c.value) < (a.value)) && ((c.value) < (b.value))	0.35355339059327373
+245	introclassJava.smallest_ea67b841_003::::68::::1658::::1676::::(a.value) < (d.value)::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)	0.35355339059327373
+246	introclassJava.smallest_ea67b841_003::::68::::1658::::1676::::(a.value) < (d.value)::::((b.value) < (a.value)) && ((b.value) < (c.value))	0.35355339059327373
+247	introclassJava.smallest_ea67b841_003::::68::::1658::::1676::::(a.value) < (d.value)::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)	0.35355339059327373
+248	introclassJava.smallest_ea67b841_003::::68::::1658::::1676::::(a.value) < (d.value)::::((a.value) < (b.value)) && ((a.value) < (c.value))	0.35355339059327373
+249	introclassJava.smallest_ea67b841_003::::68::::1646::::1652::::c.value::::d.value	0.35355339059327373
+250	introclassJava.smallest_ea67b841_003::::68::::1646::::1652::::c.value::::b.value	0.35355339059327373
+251	introclassJava.smallest_ea67b841_003::::68::::1646::::1646::::c::::d	0.35355339059327373
+252	introclassJava.smallest_ea67b841_003::::68::::1646::::1646::::c::::b	0.35355339059327373
+253	introclassJava.smallest_ea67b841_003::::68::::1646::::1646::::c::::a	0.35355339059327373
+254	introclassJava.smallest_ea67b841_003::::68::::1636::::1642::::a.value::::d.value	0.35355339059327373
+255	introclassJava.smallest_ea67b841_003::::68::::1636::::1642::::a.value::::b.value	0.35355339059327373
+256	introclassJava.smallest_ea67b841_003::::68::::1636::::1636::::a::::d	0.35355339059327373
+257	introclassJava.smallest_ea67b841_003::::68::::1636::::1636::::a::::c	0.35355339059327373
+258	introclassJava.smallest_ea67b841_003::::68::::1636::::1636::::a::::b	0.35355339059327373
+259	introclassJava.smallest_ea67b841_003::::68::::1635::::1653::::(a.value) < (c.value)::::true	0.35355339059327373
+260	introclassJava.smallest_ea67b841_003::::68::::1635::::1653::::(a.value) < (c.value)::::(c.value) < (d.value)	0.35355339059327373
+261	introclassJava.smallest_ea67b841_003::::68::::1635::::1653::::(a.value) < (c.value)::::(c.value) < (b.value)	0.35355339059327373
+262	introclassJava.smallest_ea67b841_003::::68::::1635::::1653::::(a.value) < (c.value)::::(c.value) < (a.value)	0.35355339059327373
+263	introclassJava.smallest_ea67b841_003::::68::::1635::::1653::::(a.value) < (c.value)::::(b.value) < (d.value)	0.35355339059327373
+264	introclassJava.smallest_ea67b841_003::::68::::1635::::1653::::(a.value) < (c.value)::::(b.value) < (c.value)	0.35355339059327373
+265	introclassJava.smallest_ea67b841_003::::68::::1635::::1653::::(a.value) < (c.value)::::(b.value) < (a.value)	0.35355339059327373
+266	introclassJava.smallest_ea67b841_003::::68::::1635::::1653::::(a.value) < (c.value)::::(a.value) < (d.value)	0.35355339059327373
+267	introclassJava.smallest_ea67b841_003::::68::::1635::::1653::::(a.value) < (c.value)::::(a.value) < (b.value)	0.35355339059327373
+268	introclassJava.smallest_ea67b841_003::::68::::1635::::1653::::(a.value) < (c.value)::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)	0.35355339059327373
+269	introclassJava.smallest_ea67b841_003::::68::::1635::::1653::::(a.value) < (c.value)::::((c.value) < (a.value)) && ((c.value) < (b.value))	0.35355339059327373
+270	introclassJava.smallest_ea67b841_003::::68::::1635::::1653::::(a.value) < (c.value)::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)	0.35355339059327373
+271	introclassJava.smallest_ea67b841_003::::68::::1635::::1653::::(a.value) < (c.value)::::((b.value) < (a.value)) && ((b.value) < (c.value))	0.35355339059327373
+272	introclassJava.smallest_ea67b841_003::::68::::1635::::1653::::(a.value) < (c.value)::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)	0.35355339059327373
+273	introclassJava.smallest_ea67b841_003::::68::::1635::::1653::::(a.value) < (c.value)::::((a.value) < (b.value)) && ((a.value) < (c.value))	0.35355339059327373
+274	introclassJava.smallest_ea67b841_003::::68::::1623::::1629::::b.value::::d.value	0.35355339059327373
+275	introclassJava.smallest_ea67b841_003::::68::::1623::::1629::::b.value::::c.value	0.35355339059327373
+276	introclassJava.smallest_ea67b841_003::::68::::1623::::1623::::b::::d	0.35355339059327373
+277	introclassJava.smallest_ea67b841_003::::68::::1623::::1623::::b::::c	0.35355339059327373
+278	introclassJava.smallest_ea67b841_003::::68::::1623::::1623::::b::::a	0.35355339059327373
+279	introclassJava.smallest_ea67b841_003::::68::::1613::::1619::::a.value::::d.value	0.35355339059327373
+280	introclassJava.smallest_ea67b841_003::::68::::1613::::1619::::a.value::::c.value	0.35355339059327373
+281	introclassJava.smallest_ea67b841_003::::68::::1613::::1613::::a::::d	0.35355339059327373
+282	introclassJava.smallest_ea67b841_003::::68::::1613::::1613::::a::::c	0.35355339059327373
+283	introclassJava.smallest_ea67b841_003::::68::::1613::::1613::::a::::b	0.35355339059327373
+284	introclassJava.smallest_ea67b841_003::::68::::1612::::1676::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)::::true	0.35355339059327373
+285	introclassJava.smallest_ea67b841_003::::68::::1612::::1676::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)::::(c.value) < (d.value)	0.35355339059327373
+286	introclassJava.smallest_ea67b841_003::::68::::1612::::1676::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)::::(c.value) < (b.value)	0.35355339059327373
+287	introclassJava.smallest_ea67b841_003::::68::::1612::::1676::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)::::(c.value) < (a.value)	0.35355339059327373
+288	introclassJava.smallest_ea67b841_003::::68::::1612::::1676::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)::::(b.value) < (d.value)	0.35355339059327373
+289	introclassJava.smallest_ea67b841_003::::68::::1612::::1676::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)::::(b.value) < (c.value)	0.35355339059327373
+290	introclassJava.smallest_ea67b841_003::::68::::1612::::1676::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)::::(b.value) < (a.value)	0.35355339059327373
+291	introclassJava.smallest_ea67b841_003::::68::::1612::::1676::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)::::(a.value) < (d.value)	0.35355339059327373
+292	introclassJava.smallest_ea67b841_003::::68::::1612::::1676::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)::::(a.value) < (c.value)	0.35355339059327373
+293	introclassJava.smallest_ea67b841_003::::68::::1612::::1676::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)::::(a.value) < (b.value)	0.35355339059327373
+294	introclassJava.smallest_ea67b841_003::::68::::1612::::1676::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)	0.35355339059327373
+295	introclassJava.smallest_ea67b841_003::::68::::1612::::1676::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)::::((c.value) < (a.value)) && ((c.value) < (b.value))	0.35355339059327373
+296	introclassJava.smallest_ea67b841_003::::68::::1612::::1676::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)	0.35355339059327373
+297	introclassJava.smallest_ea67b841_003::::68::::1612::::1676::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)::::((b.value) < (a.value)) && ((b.value) < (c.value))	0.35355339059327373
+298	introclassJava.smallest_ea67b841_003::::68::::1612::::1676::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)::::((a.value) < (b.value)) && ((a.value) < (c.value))	0.35355339059327373
+299	introclassJava.smallest_ea67b841_003::::68::::1612::::1653::::((a.value) < (b.value)) && ((a.value) < (c.value))::::true	0.35355339059327373
+300	introclassJava.smallest_ea67b841_003::::68::::1612::::1653::::((a.value) < (b.value)) && ((a.value) < (c.value))::::(c.value) < (d.value)	0.35355339059327373
+301	introclassJava.smallest_ea67b841_003::::68::::1612::::1653::::((a.value) < (b.value)) && ((a.value) < (c.value))::::(c.value) < (b.value)	0.35355339059327373
+302	introclassJava.smallest_ea67b841_003::::68::::1612::::1653::::((a.value) < (b.value)) && ((a.value) < (c.value))::::(c.value) < (a.value)	0.35355339059327373
+303	introclassJava.smallest_ea67b841_003::::68::::1612::::1653::::((a.value) < (b.value)) && ((a.value) < (c.value))::::(b.value) < (d.value)	0.35355339059327373
+304	introclassJava.smallest_ea67b841_003::::68::::1612::::1653::::((a.value) < (b.value)) && ((a.value) < (c.value))::::(b.value) < (c.value)	0.35355339059327373
+305	introclassJava.smallest_ea67b841_003::::68::::1612::::1653::::((a.value) < (b.value)) && ((a.value) < (c.value))::::(b.value) < (a.value)	0.35355339059327373
+306	introclassJava.smallest_ea67b841_003::::68::::1612::::1653::::((a.value) < (b.value)) && ((a.value) < (c.value))::::(a.value) < (d.value)	0.35355339059327373
+307	introclassJava.smallest_ea67b841_003::::68::::1612::::1653::::((a.value) < (b.value)) && ((a.value) < (c.value))::::(a.value) < (c.value)	0.35355339059327373
+308	introclassJava.smallest_ea67b841_003::::68::::1612::::1653::::((a.value) < (b.value)) && ((a.value) < (c.value))::::(a.value) < (b.value)	0.35355339059327373
+309	introclassJava.smallest_ea67b841_003::::68::::1612::::1653::::((a.value) < (b.value)) && ((a.value) < (c.value))::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)	0.35355339059327373
+310	introclassJava.smallest_ea67b841_003::::68::::1612::::1653::::((a.value) < (b.value)) && ((a.value) < (c.value))::::((c.value) < (a.value)) && ((c.value) < (b.value))	0.35355339059327373
+311	introclassJava.smallest_ea67b841_003::::68::::1612::::1653::::((a.value) < (b.value)) && ((a.value) < (c.value))::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)	0.35355339059327373
+312	introclassJava.smallest_ea67b841_003::::68::::1612::::1653::::((a.value) < (b.value)) && ((a.value) < (c.value))::::((b.value) < (a.value)) && ((b.value) < (c.value))	0.35355339059327373
+313	introclassJava.smallest_ea67b841_003::::68::::1612::::1653::::((a.value) < (b.value)) && ((a.value) < (c.value))::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)	0.35355339059327373
+314	introclassJava.smallest_ea67b841_003::::68::::1612::::1630::::(a.value) < (b.value)::::true	0.35355339059327373
+315	introclassJava.smallest_ea67b841_003::::68::::1612::::1630::::(a.value) < (b.value)::::(c.value) < (d.value)	0.35355339059327373
+316	introclassJava.smallest_ea67b841_003::::68::::1612::::1630::::(a.value) < (b.value)::::(c.value) < (b.value)	0.35355339059327373
+317	introclassJava.smallest_ea67b841_003::::68::::1612::::1630::::(a.value) < (b.value)::::(c.value) < (a.value)	0.35355339059327373
+318	introclassJava.smallest_ea67b841_003::::68::::1612::::1630::::(a.value) < (b.value)::::(b.value) < (d.value)	0.35355339059327373
+319	introclassJava.smallest_ea67b841_003::::68::::1612::::1630::::(a.value) < (b.value)::::(b.value) < (c.value)	0.35355339059327373
+320	introclassJava.smallest_ea67b841_003::::68::::1612::::1630::::(a.value) < (b.value)::::(b.value) < (a.value)	0.35355339059327373
+321	introclassJava.smallest_ea67b841_003::::68::::1612::::1630::::(a.value) < (b.value)::::(a.value) < (d.value)	0.35355339059327373
+322	introclassJava.smallest_ea67b841_003::::68::::1612::::1630::::(a.value) < (b.value)::::(a.value) < (c.value)	0.35355339059327373
+323	introclassJava.smallest_ea67b841_003::::68::::1612::::1630::::(a.value) < (b.value)::::((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value)	0.35355339059327373
+324	introclassJava.smallest_ea67b841_003::::68::::1612::::1630::::(a.value) < (b.value)::::((c.value) < (a.value)) && ((c.value) < (b.value))	0.35355339059327373
+325	introclassJava.smallest_ea67b841_003::::68::::1612::::1630::::(a.value) < (b.value)::::((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value)	0.35355339059327373
+326	introclassJava.smallest_ea67b841_003::::68::::1612::::1630::::(a.value) < (b.value)::::((b.value) < (a.value)) && ((b.value) < (c.value))	0.35355339059327373
+327	introclassJava.smallest_ea67b841_003::::68::::1612::::1630::::(a.value) < (b.value)::::((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value)	0.35355339059327373
+328	introclassJava.smallest_ea67b841_003::::68::::1612::::1630::::(a.value) < (b.value)::::((a.value) < (b.value)) && ((a.value) < (c.value))	0.35355339059327373
+329	introclassJava.smallest_ea67b841_003::::68::::1608::::2048::::if ((((a.value) < (b.value)) && ((a.value) < (c.value))) && ((a.value) < (d.value))) {    SN.value = a.value;}else    if ((((b.value) < (a.value)) && ((b.value) < (c.value))) && ((b.value) < (d.value))) {        SN.value = b.value;    }else        if ((((c.value) < (a.value)) && ((c.value) < (b.value))) && ((c.value) < (d.value))) {            SN.value = c.value;        }else {            SN.value = d.value;        }    ::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+330	introclassJava.smallest_ea67b841_003::::67::::1570::::1598::::d.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+331	introclassJava.smallest_ea67b841_003::::67::::1570::::1576::::d.value::::c.value	0.35355339059327373
+332	introclassJava.smallest_ea67b841_003::::67::::1570::::1576::::d.value::::b.value	0.35355339059327373
+333	introclassJava.smallest_ea67b841_003::::67::::1570::::1576::::d.value::::a.value	0.35355339059327373
+334	introclassJava.smallest_ea67b841_003::::67::::1570::::1570::::d::::c	0.35355339059327373
+335	introclassJava.smallest_ea67b841_003::::67::::1570::::1570::::d::::b	0.35355339059327373
+336	introclassJava.smallest_ea67b841_003::::67::::1570::::1570::::d::::a	0.35355339059327373
+337	introclassJava.smallest_ea67b841_003::::66::::1532::::1560::::c.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+338	introclassJava.smallest_ea67b841_003::::66::::1532::::1538::::c.value::::b.value	0.35355339059327373
+339	introclassJava.smallest_ea67b841_003::::66::::1532::::1538::::c.value::::a.value	0.35355339059327373
+340	introclassJava.smallest_ea67b841_003::::66::::1532::::1532::::c::::b	0.35355339059327373
+341	introclassJava.smallest_ea67b841_003::::66::::1532::::1532::::c::::a	0.35355339059327373
+342	introclassJava.smallest_ea67b841_003::::65::::1494::::1522::::b.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+343	introclassJava.smallest_ea67b841_003::::65::::1494::::1500::::b.value::::a.value	0.35355339059327373
+344	introclassJava.smallest_ea67b841_003::::65::::1494::::1494::::b::::a	0.35355339059327373
+345	introclassJava.smallest_ea67b841_003::::64::::1456::::1484::::a.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+346	introclassJava.smallest_ea67b841_003::::62::::1359::::1446::::output += java.lang.String.format("Please enter 4 numbers separated by spaces > ")::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+347	introclassJava.smallest_ea67b841_003::::61::::1336::::1348::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.35355339059327373
+348	introclassJava.smallest_ea67b841_003::::61::::1316::::1328::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.35355339059327373
+349	introclassJava.smallest_ea67b841_003::::61::::1236::::1349::::introclassJava.IntObj SN = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+350	introclassJava.smallest_ea67b841_003::::60::::1285::::1297::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.35355339059327373
+351	introclassJava.smallest_ea67b841_003::::60::::1266::::1278::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.35355339059327373
+352	introclassJava.smallest_ea67b841_003::::60::::1247::::1259::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	0.35355339059327373
+353	introclassJava.smallest_ea67b841_003::::60::::1236::::1349::::introclassJava.IntObj d = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+354	introclassJava.smallest_ea67b841_003::::60::::1236::::1349::::introclassJava.IntObj c = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+355	introclassJava.smallest_ea67b841_003::::60::::1236::::1349::::introclassJava.IntObj b = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373
+356	introclassJava.smallest_ea67b841_003::::60::::1236::::1349::::introclassJava.IntObj a = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	0.35355339059327373

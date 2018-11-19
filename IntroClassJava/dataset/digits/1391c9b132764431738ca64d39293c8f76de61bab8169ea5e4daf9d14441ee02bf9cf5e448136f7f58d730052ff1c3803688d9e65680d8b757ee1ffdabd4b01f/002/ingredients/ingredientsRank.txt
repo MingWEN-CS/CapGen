@@ -1,0 +1,285 @@
+1	introclassJava.digits_1391c9b1_002::::85::::2235::::2241::::return ::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+2	introclassJava.digits_1391c9b1_002::::83::::2143::::2203::::output += java.lang.String.format("That\'s all, have a nice day!\n")::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+3	introclassJava.digits_1391c9b1_002::::72::::1737::::1749::::(Num.value) < 0::::true	1.0
+4	introclassJava.digits_1391c9b1_002::::72::::1737::::1749::::(Num.value) < 0::::(X.value) < 0	1.0
+5	introclassJava.digits_1391c9b1_002::::72::::1737::::1749::::(Num.value) < 0::::(Num.value) > 0	1.0
+6	introclassJava.digits_1391c9b1_002::::72::::1737::::1749::::(Num.value) < 0::::(Num.value) > (-10)	1.0
+7	introclassJava.digits_1391c9b1_002::::72::::1737::::1749::::(Num.value) < 0::::(Num.value) == 0	1.0
+8	introclassJava.digits_1391c9b1_002::::72::::1737::::1749::::(Num.value) < 0::::(Num.value) < 0) && ((Num.value) > (-10)	1.0
+9	introclassJava.digits_1391c9b1_002::::72::::1737::::1745::::Num.value::::X.value	1.0
+10	introclassJava.digits_1391c9b1_002::::72::::1737::::1745::::Num.value::::NewNum.value	1.0
+11	introclassJava.digits_1391c9b1_002::::72::::1737::::1745::::Num.value::::(X.value) * (-1)	1.0
+12	introclassJava.digits_1391c9b1_002::::72::::1737::::1745::::Num.value::::(Num.value) - (X.value)	1.0
+13	introclassJava.digits_1391c9b1_002::::72::::1737::::1745::::Num.value::::((Num.value) - (X.value)) / 10	1.0
+14	introclassJava.digits_1391c9b1_002::::72::::1737::::1739::::Num::::X	1.0
+15	introclassJava.digits_1391c9b1_002::::72::::1737::::1739::::Num::::NewNum	1.0
+16	introclassJava.digits_1391c9b1_002::::72::::1730::::2133::::while ((Num.value) < 0) {    X.value = (Num.value) % 10;    NewNum.value = ((Num.value) - (X.value)) / 10;    if ((X.value) < 0) {        output += java.lang.String.format("%d\n", ((X.value) * (-1)));    }    if (((Num.value) < 0) && ((Num.value) > (-10))) {        output += java.lang.String.format("%d\n", X.value);    }    Num.value = NewNum.value;} ::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+17	introclassJava.digits_1391c9b1_002::::66::::1507::::1519::::(Num.value) > 0::::true	1.0
+18	introclassJava.digits_1391c9b1_002::::66::::1507::::1519::::(Num.value) > 0::::(Num.value) > (-10)	1.0
+19	introclassJava.digits_1391c9b1_002::::66::::1507::::1519::::(Num.value) > 0::::(Num.value) == 0	1.0
+20	introclassJava.digits_1391c9b1_002::::66::::1507::::1519::::(Num.value) > 0::::(Num.value) < 0) && ((Num.value) > (-10)	1.0
+21	introclassJava.digits_1391c9b1_002::::66::::1507::::1519::::(Num.value) > 0::::(Num.value) < 0	1.0
+22	introclassJava.digits_1391c9b1_002::::66::::1500::::1720::::while ((Num.value) > 0) {    X.value = (Num.value) % 10;    output += java.lang.String.format("%d\n", X.value);    NewNum.value = ((Num.value) - (X.value)) / 10;    Num.value = NewNum.value;} ::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+23	introclassJava.digits_1391c9b1_002::::63::::1417::::1430::::(Num.value) == 0::::true	1.0
+24	introclassJava.digits_1391c9b1_002::::63::::1417::::1430::::(Num.value) == 0::::(Num.value) > 0	1.0
+25	introclassJava.digits_1391c9b1_002::::63::::1417::::1430::::(Num.value) == 0::::(Num.value) > (-10)	1.0
+26	introclassJava.digits_1391c9b1_002::::63::::1417::::1430::::(Num.value) == 0::::(Num.value) < 0) && ((Num.value) > (-10)	1.0
+27	introclassJava.digits_1391c9b1_002::::63::::1417::::1430::::(Num.value) == 0::::(Num.value) < 0	1.0
+28	introclassJava.digits_1391c9b1_002::::63::::1413::::1490::::if ((Num.value) == 0) {    output += java.lang.String.format("0\n");}::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+29	introclassJava.digits_1391c9b1_002::::62::::1373::::1403::::Num.value = scanner.nextInt()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+30	introclassJava.digits_1391c9b1_002::::61::::1309::::1363::::output += java.lang.String.format("Please enter a number > ")::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+31	introclassJava.digits_1391c9b1_002::::60::::1286::::1298::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	1.0
+32	introclassJava.digits_1391c9b1_002::::60::::1262::::1274::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	1.0
+33	introclassJava.digits_1391c9b1_002::::60::::1243::::1255::::new introclassJava.IntObj()::::INSERT::::PARAMETER::::new IntObj(value)	1.0
+34	introclassJava.digits_1391c9b1_002::::60::::1230::::1299::::introclassJava.IntObj X = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+35	introclassJava.digits_1391c9b1_002::::60::::1230::::1299::::introclassJava.IntObj Num = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+36	introclassJava.digits_1391c9b1_002::::60::::1230::::1299::::introclassJava.IntObj NewNum = new introclassJava.IntObj()::::INSERT::::STATEMENT::::if (true)    return ;	1.0
+37	introclassJava.digits_1391c9b1_002::::70::::1698::::1709::::NewNum.value::::X.value	0.9128709291752769
+38	introclassJava.digits_1391c9b1_002::::70::::1698::::1709::::NewNum.value::::Num.value	0.9128709291752769
+39	introclassJava.digits_1391c9b1_002::::70::::1698::::1709::::NewNum.value::::(X.value) * (-1)	0.9128709291752769
+40	introclassJava.digits_1391c9b1_002::::70::::1698::::1709::::NewNum.value::::(Num.value) - (X.value)	0.9128709291752769
+41	introclassJava.digits_1391c9b1_002::::70::::1698::::1709::::NewNum.value::::(Num.value) % 10	0.9128709291752769
+42	introclassJava.digits_1391c9b1_002::::70::::1698::::1709::::NewNum.value::::((Num.value) - (X.value)) / 10	0.9128709291752769
+43	introclassJava.digits_1391c9b1_002::::70::::1698::::1703::::NewNum::::X	0.9128709291752769
+44	introclassJava.digits_1391c9b1_002::::70::::1698::::1703::::NewNum::::Num	0.9128709291752769
+45	introclassJava.digits_1391c9b1_002::::70::::1686::::1710::::Num.value = NewNum.value::::X.value = (Num.value) % 10	0.9128709291752769
+46	introclassJava.digits_1391c9b1_002::::70::::1686::::1710::::Num.value = NewNum.value::::NewNum.value = ((Num.value) - (X.value)) / 10	0.9128709291752769
+47	introclassJava.digits_1391c9b1_002::::70::::1686::::1694::::Num.value::::X.value	0.9128709291752769
+48	introclassJava.digits_1391c9b1_002::::70::::1686::::1694::::Num.value::::NewNum.value	0.9128709291752769
+49	introclassJava.digits_1391c9b1_002::::70::::1686::::1694::::Num.value::::(X.value) * (-1)	0.9128709291752769
+50	introclassJava.digits_1391c9b1_002::::70::::1686::::1694::::Num.value::::(Num.value) - (X.value)	0.9128709291752769
+51	introclassJava.digits_1391c9b1_002::::70::::1686::::1694::::Num.value::::((Num.value) - (X.value)) / 10	0.9128709291752769
+52	introclassJava.digits_1391c9b1_002::::70::::1686::::1688::::Num::::X	0.9128709291752769
+53	introclassJava.digits_1391c9b1_002::::70::::1686::::1688::::Num::::NewNum	0.9128709291752769
+54	introclassJava.digits_1391c9b1_002::::69::::1659::::1665::::X.value::::NewNum.value	0.9128709291752769
+55	introclassJava.digits_1391c9b1_002::::69::::1659::::1665::::X.value::::(Num.value) - (X.value)	0.9128709291752769
+56	introclassJava.digits_1391c9b1_002::::69::::1659::::1665::::X.value::::(Num.value) % 10	0.9128709291752769
+57	introclassJava.digits_1391c9b1_002::::69::::1659::::1665::::X.value::::((Num.value) - (X.value)) / 10	0.9128709291752769
+58	introclassJava.digits_1391c9b1_002::::69::::1659::::1659::::X::::Num	0.9128709291752769
+59	introclassJava.digits_1391c9b1_002::::69::::1659::::1659::::X::::NewNum	0.9128709291752769
+60	introclassJava.digits_1391c9b1_002::::69::::1647::::1655::::Num.value::::NewNum.value	0.9128709291752769
+61	introclassJava.digits_1391c9b1_002::::69::::1647::::1655::::Num.value::::(X.value) * (-1)	0.9128709291752769
+62	introclassJava.digits_1391c9b1_002::::69::::1647::::1655::::Num.value::::(Num.value) - (X.value)	0.9128709291752769
+63	introclassJava.digits_1391c9b1_002::::69::::1647::::1655::::Num.value::::((Num.value) - (X.value)) / 10	0.9128709291752769
+64	introclassJava.digits_1391c9b1_002::::69::::1647::::1649::::Num::::X	0.9128709291752769
+65	introclassJava.digits_1391c9b1_002::::69::::1647::::1649::::Num::::NewNum	0.9128709291752769
+66	introclassJava.digits_1391c9b1_002::::69::::1646::::1671::::((Num.value) - (X.value)) / 10::::value	0.9128709291752769
+67	introclassJava.digits_1391c9b1_002::::69::::1646::::1671::::((Num.value) - (X.value)) / 10::::X.value	0.9128709291752769
+68	introclassJava.digits_1391c9b1_002::::69::::1646::::1671::::((Num.value) - (X.value)) / 10::::Num.value	0.9128709291752769
+69	introclassJava.digits_1391c9b1_002::::69::::1646::::1671::::((Num.value) - (X.value)) / 10::::NewNum.value	0.9128709291752769
+70	introclassJava.digits_1391c9b1_002::::69::::1646::::1671::::((Num.value) - (X.value)) / 10::::10	0.9128709291752769
+71	introclassJava.digits_1391c9b1_002::::69::::1646::::1671::::((Num.value) - (X.value)) / 10::::1	0.9128709291752769
+72	introclassJava.digits_1391c9b1_002::::69::::1646::::1671::::((Num.value) - (X.value)) / 10::::0	0.9128709291752769
+73	introclassJava.digits_1391c9b1_002::::69::::1646::::1671::::((Num.value) - (X.value)) / 10::::-10	0.9128709291752769
+74	introclassJava.digits_1391c9b1_002::::69::::1646::::1671::::((Num.value) - (X.value)) / 10::::-1	0.9128709291752769
+75	introclassJava.digits_1391c9b1_002::::69::::1646::::1671::::((Num.value) - (X.value)) / 10::::(X.value) * (-1)	0.9128709291752769
+76	introclassJava.digits_1391c9b1_002::::69::::1646::::1671::::((Num.value) - (X.value)) / 10::::(Num.value) - (X.value)	0.9128709291752769
+77	introclassJava.digits_1391c9b1_002::::69::::1646::::1671::::((Num.value) - (X.value)) / 10::::(Num.value) % 10	0.9128709291752769
+78	introclassJava.digits_1391c9b1_002::::69::::1646::::1666::::(Num.value) - (X.value)::::NewNum.value	0.9128709291752769
+79	introclassJava.digits_1391c9b1_002::::69::::1646::::1666::::(Num.value) - (X.value)::::10	0.9128709291752769
+80	introclassJava.digits_1391c9b1_002::::69::::1646::::1666::::(Num.value) - (X.value)::::1	0.9128709291752769
+81	introclassJava.digits_1391c9b1_002::::69::::1646::::1666::::(Num.value) - (X.value)::::0	0.9128709291752769
+82	introclassJava.digits_1391c9b1_002::::69::::1646::::1666::::(Num.value) - (X.value)::::-10	0.9128709291752769
+83	introclassJava.digits_1391c9b1_002::::69::::1646::::1666::::(Num.value) - (X.value)::::-1	0.9128709291752769
+84	introclassJava.digits_1391c9b1_002::::69::::1646::::1666::::(Num.value) - (X.value)::::(X.value) * (-1)	0.9128709291752769
+85	introclassJava.digits_1391c9b1_002::::69::::1646::::1666::::(Num.value) - (X.value)::::(Num.value) % 10	0.9128709291752769
+86	introclassJava.digits_1391c9b1_002::::69::::1646::::1666::::(Num.value) - (X.value)::::((Num.value) - (X.value)) / 10	0.9128709291752769
+87	introclassJava.digits_1391c9b1_002::::69::::1631::::1672::::NewNum.value = ((Num.value) - (X.value)) / 10::::X.value = (Num.value) % 10	0.9128709291752769
+88	introclassJava.digits_1391c9b1_002::::69::::1631::::1672::::NewNum.value = ((Num.value) - (X.value)) / 10::::Num.value = NewNum.value	0.9128709291752769
+89	introclassJava.digits_1391c9b1_002::::69::::1631::::1642::::NewNum.value::::X.value	0.9128709291752769
+90	introclassJava.digits_1391c9b1_002::::69::::1631::::1642::::NewNum.value::::Num.value	0.9128709291752769
+91	introclassJava.digits_1391c9b1_002::::69::::1631::::1642::::NewNum.value::::(X.value) * (-1)	0.9128709291752769
+92	introclassJava.digits_1391c9b1_002::::69::::1631::::1642::::NewNum.value::::(Num.value) - (X.value)	0.9128709291752769
+93	introclassJava.digits_1391c9b1_002::::69::::1631::::1642::::NewNum.value::::(Num.value) % 10	0.9128709291752769
+94	introclassJava.digits_1391c9b1_002::::69::::1631::::1642::::NewNum.value::::((Num.value) - (X.value)) / 10	0.9128709291752769
+95	introclassJava.digits_1391c9b1_002::::69::::1631::::1636::::NewNum::::X	0.9128709291752769
+96	introclassJava.digits_1391c9b1_002::::69::::1631::::1636::::NewNum::::Num	0.9128709291752769
+97	introclassJava.digits_1391c9b1_002::::68::::1608::::1614::::X.value::::Num.value	0.9128709291752769
+98	introclassJava.digits_1391c9b1_002::::68::::1608::::1614::::X.value::::(Num.value) - (X.value)	0.9128709291752769
+99	introclassJava.digits_1391c9b1_002::::68::::1608::::1614::::X.value::::(Num.value) % 10	0.9128709291752769
+100	introclassJava.digits_1391c9b1_002::::68::::1608::::1614::::X.value::::((Num.value) - (X.value)) / 10	0.9128709291752769
+101	introclassJava.digits_1391c9b1_002::::68::::1608::::1608::::X::::Num	0.9128709291752769
+102	introclassJava.digits_1391c9b1_002::::67::::1546::::1559::::(Num.value) % 10::::value	0.9128709291752769
+103	introclassJava.digits_1391c9b1_002::::67::::1546::::1559::::(Num.value) % 10::::X.value	0.9128709291752769
+104	introclassJava.digits_1391c9b1_002::::67::::1546::::1559::::(Num.value) % 10::::Num.value	0.9128709291752769
+105	introclassJava.digits_1391c9b1_002::::67::::1546::::1559::::(Num.value) % 10::::10	0.9128709291752769
+106	introclassJava.digits_1391c9b1_002::::67::::1546::::1559::::(Num.value) % 10::::1	0.9128709291752769
+107	introclassJava.digits_1391c9b1_002::::67::::1546::::1559::::(Num.value) % 10::::0	0.9128709291752769
+108	introclassJava.digits_1391c9b1_002::::67::::1546::::1559::::(Num.value) % 10::::-10	0.9128709291752769
+109	introclassJava.digits_1391c9b1_002::::67::::1546::::1559::::(Num.value) % 10::::-1	0.9128709291752769
+110	introclassJava.digits_1391c9b1_002::::67::::1546::::1559::::(Num.value) % 10::::(X.value) * (-1)	0.9128709291752769
+111	introclassJava.digits_1391c9b1_002::::67::::1546::::1559::::(Num.value) % 10::::(Num.value) - (X.value)	0.9128709291752769
+112	introclassJava.digits_1391c9b1_002::::67::::1546::::1559::::(Num.value) % 10::::((Num.value) - (X.value)) / 10	0.9128709291752769
+113	introclassJava.digits_1391c9b1_002::::67::::1546::::1554::::Num.value::::X.value	0.9128709291752769
+114	introclassJava.digits_1391c9b1_002::::67::::1546::::1554::::Num.value::::(X.value) * (-1)	0.9128709291752769
+115	introclassJava.digits_1391c9b1_002::::67::::1546::::1554::::Num.value::::(Num.value) - (X.value)	0.9128709291752769
+116	introclassJava.digits_1391c9b1_002::::67::::1546::::1554::::Num.value::::((Num.value) - (X.value)) / 10	0.9128709291752769
+117	introclassJava.digits_1391c9b1_002::::67::::1546::::1548::::Num::::X	0.9128709291752769
+118	introclassJava.digits_1391c9b1_002::::67::::1536::::1542::::X.value::::Num.value	0.9128709291752769
+119	introclassJava.digits_1391c9b1_002::::67::::1536::::1542::::X.value::::(Num.value) - (X.value)	0.9128709291752769
+120	introclassJava.digits_1391c9b1_002::::67::::1536::::1542::::X.value::::(Num.value) % 10	0.9128709291752769
+121	introclassJava.digits_1391c9b1_002::::67::::1536::::1542::::X.value::::((Num.value) - (X.value)) / 10	0.9128709291752769
+122	introclassJava.digits_1391c9b1_002::::67::::1536::::1536::::X::::Num	0.9128709291752769
+123	introclassJava.digits_1391c9b1_002::::81::::2111::::2122::::NewNum.value::::X.value	0.4082482904638631
+124	introclassJava.digits_1391c9b1_002::::81::::2111::::2122::::NewNum.value::::Num.value	0.4082482904638631
+125	introclassJava.digits_1391c9b1_002::::81::::2111::::2122::::NewNum.value::::(X.value) * (-1)	0.4082482904638631
+126	introclassJava.digits_1391c9b1_002::::81::::2111::::2122::::NewNum.value::::(Num.value) - (X.value)	0.4082482904638631
+127	introclassJava.digits_1391c9b1_002::::81::::2111::::2122::::NewNum.value::::(Num.value) % 10	0.4082482904638631
+128	introclassJava.digits_1391c9b1_002::::81::::2111::::2122::::NewNum.value::::((Num.value) - (X.value)) / 10	0.4082482904638631
+129	introclassJava.digits_1391c9b1_002::::81::::2111::::2116::::NewNum::::X	0.4082482904638631
+130	introclassJava.digits_1391c9b1_002::::81::::2111::::2116::::NewNum::::Num	0.4082482904638631
+131	introclassJava.digits_1391c9b1_002::::81::::2099::::2123::::Num.value = NewNum.value::::X.value = (Num.value) % 10	0.4082482904638631
+132	introclassJava.digits_1391c9b1_002::::81::::2099::::2123::::Num.value = NewNum.value::::NewNum.value = ((Num.value) - (X.value)) / 10	0.4082482904638631
+133	introclassJava.digits_1391c9b1_002::::81::::2099::::2107::::Num.value::::X.value	0.4082482904638631
+134	introclassJava.digits_1391c9b1_002::::81::::2099::::2107::::Num.value::::NewNum.value	0.4082482904638631
+135	introclassJava.digits_1391c9b1_002::::81::::2099::::2107::::Num.value::::(X.value) * (-1)	0.4082482904638631
+136	introclassJava.digits_1391c9b1_002::::81::::2099::::2107::::Num.value::::(Num.value) - (X.value)	0.4082482904638631
+137	introclassJava.digits_1391c9b1_002::::81::::2099::::2107::::Num.value::::((Num.value) - (X.value)) / 10	0.4082482904638631
+138	introclassJava.digits_1391c9b1_002::::81::::2099::::2101::::Num::::X	0.4082482904638631
+139	introclassJava.digits_1391c9b1_002::::81::::2099::::2101::::Num::::NewNum	0.4082482904638631
+140	introclassJava.digits_1391c9b1_002::::79::::2062::::2068::::X.value::::Num.value	0.4082482904638631
+141	introclassJava.digits_1391c9b1_002::::79::::2062::::2068::::X.value::::NewNum.value	0.4082482904638631
+142	introclassJava.digits_1391c9b1_002::::79::::2062::::2068::::X.value::::(Num.value) - (X.value)	0.4082482904638631
+143	introclassJava.digits_1391c9b1_002::::79::::2062::::2068::::X.value::::(Num.value) % 10	0.4082482904638631
+144	introclassJava.digits_1391c9b1_002::::79::::2062::::2068::::X.value::::((Num.value) - (X.value)) / 10	0.4082482904638631
+145	introclassJava.digits_1391c9b1_002::::79::::2062::::2062::::X::::Num	0.4082482904638631
+146	introclassJava.digits_1391c9b1_002::::79::::2062::::2062::::X::::NewNum	0.4082482904638631
+147	introclassJava.digits_1391c9b1_002::::79::::2028::::2071::::output += java.lang.String.format("%d\n", X.value)::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+148	introclassJava.digits_1391c9b1_002::::78::::2005::::2007::::-10::::DELETE::::INFIX	0.4082482904638631
+149	introclassJava.digits_1391c9b1_002::::78::::1993::::2007::::(Num.value) > (-10)::::true	0.4082482904638631
+150	introclassJava.digits_1391c9b1_002::::78::::1993::::2007::::(Num.value) > (-10)::::(X.value) < 0	0.4082482904638631
+151	introclassJava.digits_1391c9b1_002::::78::::1993::::2007::::(Num.value) > (-10)::::(Num.value) > 0	0.4082482904638631
+152	introclassJava.digits_1391c9b1_002::::78::::1993::::2007::::(Num.value) > (-10)::::(Num.value) == 0	0.4082482904638631
+153	introclassJava.digits_1391c9b1_002::::78::::1993::::2007::::(Num.value) > (-10)::::(Num.value) < 0) && ((Num.value) > (-10)	0.4082482904638631
+154	introclassJava.digits_1391c9b1_002::::78::::1993::::2007::::(Num.value) > (-10)::::(Num.value) < 0	0.4082482904638631
+155	introclassJava.digits_1391c9b1_002::::78::::1993::::2001::::Num.value::::X.value	0.4082482904638631
+156	introclassJava.digits_1391c9b1_002::::78::::1993::::2001::::Num.value::::NewNum.value	0.4082482904638631
+157	introclassJava.digits_1391c9b1_002::::78::::1993::::2001::::Num.value::::(X.value) * (-1)	0.4082482904638631
+158	introclassJava.digits_1391c9b1_002::::78::::1993::::2001::::Num.value::::(Num.value) - (X.value)	0.4082482904638631
+159	introclassJava.digits_1391c9b1_002::::78::::1993::::2001::::Num.value::::((Num.value) - (X.value)) / 10	0.4082482904638631
+160	introclassJava.digits_1391c9b1_002::::78::::1993::::1995::::Num::::X	0.4082482904638631
+161	introclassJava.digits_1391c9b1_002::::78::::1993::::1995::::Num::::NewNum	0.4082482904638631
+162	introclassJava.digits_1391c9b1_002::::78::::1976::::2007::::(Num.value) < 0) && ((Num.value) > (-10)::::true	0.4082482904638631
+163	introclassJava.digits_1391c9b1_002::::78::::1976::::2007::::(Num.value) < 0) && ((Num.value) > (-10)::::(X.value) < 0	0.4082482904638631
+164	introclassJava.digits_1391c9b1_002::::78::::1976::::2007::::(Num.value) < 0) && ((Num.value) > (-10)::::(Num.value) > 0	0.4082482904638631
+165	introclassJava.digits_1391c9b1_002::::78::::1976::::2007::::(Num.value) < 0) && ((Num.value) > (-10)::::(Num.value) > (-10)	0.4082482904638631
+166	introclassJava.digits_1391c9b1_002::::78::::1976::::2007::::(Num.value) < 0) && ((Num.value) > (-10)::::(Num.value) == 0	0.4082482904638631
+167	introclassJava.digits_1391c9b1_002::::78::::1976::::2007::::(Num.value) < 0) && ((Num.value) > (-10)::::(Num.value) < 0	0.4082482904638631
+168	introclassJava.digits_1391c9b1_002::::78::::1976::::1988::::(Num.value) < 0::::true	0.4082482904638631
+169	introclassJava.digits_1391c9b1_002::::78::::1976::::1988::::(Num.value) < 0::::(X.value) < 0	0.4082482904638631
+170	introclassJava.digits_1391c9b1_002::::78::::1976::::1988::::(Num.value) < 0::::(Num.value) > 0	0.4082482904638631
+171	introclassJava.digits_1391c9b1_002::::78::::1976::::1988::::(Num.value) < 0::::(Num.value) > (-10)	0.4082482904638631
+172	introclassJava.digits_1391c9b1_002::::78::::1976::::1988::::(Num.value) < 0::::(Num.value) == 0	0.4082482904638631
+173	introclassJava.digits_1391c9b1_002::::78::::1976::::1988::::(Num.value) < 0::::(Num.value) < 0) && ((Num.value) > (-10)	0.4082482904638631
+174	introclassJava.digits_1391c9b1_002::::78::::1976::::1984::::Num.value::::X.value	0.4082482904638631
+175	introclassJava.digits_1391c9b1_002::::78::::1976::::1984::::Num.value::::NewNum.value	0.4082482904638631
+176	introclassJava.digits_1391c9b1_002::::78::::1976::::1984::::Num.value::::(X.value) * (-1)	0.4082482904638631
+177	introclassJava.digits_1391c9b1_002::::78::::1976::::1984::::Num.value::::(Num.value) - (X.value)	0.4082482904638631
+178	introclassJava.digits_1391c9b1_002::::78::::1976::::1984::::Num.value::::((Num.value) - (X.value)) / 10	0.4082482904638631
+179	introclassJava.digits_1391c9b1_002::::78::::1976::::1978::::Num::::X	0.4082482904638631
+180	introclassJava.digits_1391c9b1_002::::78::::1976::::1978::::Num::::NewNum	0.4082482904638631
+181	introclassJava.digits_1391c9b1_002::::76::::1939::::1940::::-1::::DELETE::::INFIX	0.4082482904638631
+182	introclassJava.digits_1391c9b1_002::::76::::1929::::1935::::X.value::::Num.value	0.4082482904638631
+183	introclassJava.digits_1391c9b1_002::::76::::1929::::1935::::X.value::::NewNum.value	0.4082482904638631
+184	introclassJava.digits_1391c9b1_002::::76::::1929::::1935::::X.value::::(Num.value) - (X.value)	0.4082482904638631
+185	introclassJava.digits_1391c9b1_002::::76::::1929::::1935::::X.value::::(Num.value) % 10	0.4082482904638631
+186	introclassJava.digits_1391c9b1_002::::76::::1929::::1935::::X.value::::((Num.value) - (X.value)) / 10	0.4082482904638631
+187	introclassJava.digits_1391c9b1_002::::76::::1929::::1929::::X::::Num	0.4082482904638631
+188	introclassJava.digits_1391c9b1_002::::76::::1929::::1929::::X::::NewNum	0.4082482904638631
+189	introclassJava.digits_1391c9b1_002::::76::::1928::::1941::::(X.value) * (-1)::::value	0.4082482904638631
+190	introclassJava.digits_1391c9b1_002::::76::::1928::::1941::::(X.value) * (-1)::::X.value	0.4082482904638631
+191	introclassJava.digits_1391c9b1_002::::76::::1928::::1941::::(X.value) * (-1)::::Num.value	0.4082482904638631
+192	introclassJava.digits_1391c9b1_002::::76::::1928::::1941::::(X.value) * (-1)::::NewNum.value	0.4082482904638631
+193	introclassJava.digits_1391c9b1_002::::76::::1928::::1941::::(X.value) * (-1)::::10	0.4082482904638631
+194	introclassJava.digits_1391c9b1_002::::76::::1928::::1941::::(X.value) * (-1)::::1	0.4082482904638631
+195	introclassJava.digits_1391c9b1_002::::76::::1928::::1941::::(X.value) * (-1)::::0	0.4082482904638631
+196	introclassJava.digits_1391c9b1_002::::76::::1928::::1941::::(X.value) * (-1)::::-10	0.4082482904638631
+197	introclassJava.digits_1391c9b1_002::::76::::1928::::1941::::(X.value) * (-1)::::-1	0.4082482904638631
+198	introclassJava.digits_1391c9b1_002::::76::::1928::::1941::::(X.value) * (-1)::::(Num.value) - (X.value)	0.4082482904638631
+199	introclassJava.digits_1391c9b1_002::::76::::1928::::1941::::(X.value) * (-1)::::(Num.value) % 10	0.4082482904638631
+200	introclassJava.digits_1391c9b1_002::::76::::1928::::1941::::(X.value) * (-1)::::((Num.value) - (X.value)) / 10	0.4082482904638631
+201	introclassJava.digits_1391c9b1_002::::76::::1894::::1944::::output += java.lang.String.format("%d\n", ((X.value) * (-1)))::::INSERT::::STATEMENT::::if (true)    return ;	0.4082482904638631
+202	introclassJava.digits_1391c9b1_002::::75::::1863::::1873::::(X.value) < 0::::true	0.4082482904638631
+203	introclassJava.digits_1391c9b1_002::::75::::1863::::1873::::(X.value) < 0::::(Num.value) > 0	0.4082482904638631
+204	introclassJava.digits_1391c9b1_002::::75::::1863::::1873::::(X.value) < 0::::(Num.value) > (-10)	0.4082482904638631
+205	introclassJava.digits_1391c9b1_002::::75::::1863::::1873::::(X.value) < 0::::(Num.value) == 0	0.4082482904638631
+206	introclassJava.digits_1391c9b1_002::::75::::1863::::1873::::(X.value) < 0::::(Num.value) < 0) && ((Num.value) > (-10)	0.4082482904638631
+207	introclassJava.digits_1391c9b1_002::::75::::1863::::1873::::(X.value) < 0::::(Num.value) < 0	0.4082482904638631
+208	introclassJava.digits_1391c9b1_002::::75::::1863::::1869::::X.value::::Num.value	0.4082482904638631
+209	introclassJava.digits_1391c9b1_002::::75::::1863::::1869::::X.value::::NewNum.value	0.4082482904638631
+210	introclassJava.digits_1391c9b1_002::::75::::1863::::1869::::X.value::::(Num.value) - (X.value)	0.4082482904638631
+211	introclassJava.digits_1391c9b1_002::::75::::1863::::1869::::X.value::::(Num.value) % 10	0.4082482904638631
+212	introclassJava.digits_1391c9b1_002::::75::::1863::::1869::::X.value::::((Num.value) - (X.value)) / 10	0.4082482904638631
+213	introclassJava.digits_1391c9b1_002::::75::::1863::::1863::::X::::Num	0.4082482904638631
+214	introclassJava.digits_1391c9b1_002::::75::::1863::::1863::::X::::NewNum	0.4082482904638631
+215	introclassJava.digits_1391c9b1_002::::74::::1832::::1838::::X.value::::NewNum.value	0.4082482904638631
+216	introclassJava.digits_1391c9b1_002::::74::::1832::::1838::::X.value::::(Num.value) - (X.value)	0.4082482904638631
+217	introclassJava.digits_1391c9b1_002::::74::::1832::::1838::::X.value::::(Num.value) % 10	0.4082482904638631
+218	introclassJava.digits_1391c9b1_002::::74::::1832::::1838::::X.value::::((Num.value) - (X.value)) / 10	0.4082482904638631
+219	introclassJava.digits_1391c9b1_002::::74::::1832::::1832::::X::::Num	0.4082482904638631
+220	introclassJava.digits_1391c9b1_002::::74::::1832::::1832::::X::::NewNum	0.4082482904638631
+221	introclassJava.digits_1391c9b1_002::::74::::1820::::1828::::Num.value::::NewNum.value	0.4082482904638631
+222	introclassJava.digits_1391c9b1_002::::74::::1820::::1828::::Num.value::::(X.value) * (-1)	0.4082482904638631
+223	introclassJava.digits_1391c9b1_002::::74::::1820::::1828::::Num.value::::(Num.value) - (X.value)	0.4082482904638631
+224	introclassJava.digits_1391c9b1_002::::74::::1820::::1828::::Num.value::::((Num.value) - (X.value)) / 10	0.4082482904638631
+225	introclassJava.digits_1391c9b1_002::::74::::1820::::1822::::Num::::X	0.4082482904638631
+226	introclassJava.digits_1391c9b1_002::::74::::1820::::1822::::Num::::NewNum	0.4082482904638631
+227	introclassJava.digits_1391c9b1_002::::74::::1819::::1844::::((Num.value) - (X.value)) / 10::::value	0.4082482904638631
+228	introclassJava.digits_1391c9b1_002::::74::::1819::::1844::::((Num.value) - (X.value)) / 10::::X.value	0.4082482904638631
+229	introclassJava.digits_1391c9b1_002::::74::::1819::::1844::::((Num.value) - (X.value)) / 10::::Num.value	0.4082482904638631
+230	introclassJava.digits_1391c9b1_002::::74::::1819::::1844::::((Num.value) - (X.value)) / 10::::NewNum.value	0.4082482904638631
+231	introclassJava.digits_1391c9b1_002::::74::::1819::::1844::::((Num.value) - (X.value)) / 10::::10	0.4082482904638631
+232	introclassJava.digits_1391c9b1_002::::74::::1819::::1844::::((Num.value) - (X.value)) / 10::::1	0.4082482904638631
+233	introclassJava.digits_1391c9b1_002::::74::::1819::::1844::::((Num.value) - (X.value)) / 10::::0	0.4082482904638631
+234	introclassJava.digits_1391c9b1_002::::74::::1819::::1844::::((Num.value) - (X.value)) / 10::::-10	0.4082482904638631
+235	introclassJava.digits_1391c9b1_002::::74::::1819::::1844::::((Num.value) - (X.value)) / 10::::-1	0.4082482904638631
+236	introclassJava.digits_1391c9b1_002::::74::::1819::::1844::::((Num.value) - (X.value)) / 10::::(X.value) * (-1)	0.4082482904638631
+237	introclassJava.digits_1391c9b1_002::::74::::1819::::1844::::((Num.value) - (X.value)) / 10::::(Num.value) - (X.value)	0.4082482904638631
+238	introclassJava.digits_1391c9b1_002::::74::::1819::::1844::::((Num.value) - (X.value)) / 10::::(Num.value) % 10	0.4082482904638631
+239	introclassJava.digits_1391c9b1_002::::74::::1819::::1839::::(Num.value) - (X.value)::::NewNum.value	0.4082482904638631
+240	introclassJava.digits_1391c9b1_002::::74::::1819::::1839::::(Num.value) - (X.value)::::10	0.4082482904638631
+241	introclassJava.digits_1391c9b1_002::::74::::1819::::1839::::(Num.value) - (X.value)::::1	0.4082482904638631
+242	introclassJava.digits_1391c9b1_002::::74::::1819::::1839::::(Num.value) - (X.value)::::0	0.4082482904638631
+243	introclassJava.digits_1391c9b1_002::::74::::1819::::1839::::(Num.value) - (X.value)::::-10	0.4082482904638631
+244	introclassJava.digits_1391c9b1_002::::74::::1819::::1839::::(Num.value) - (X.value)::::-1	0.4082482904638631
+245	introclassJava.digits_1391c9b1_002::::74::::1819::::1839::::(Num.value) - (X.value)::::(X.value) * (-1)	0.4082482904638631
+246	introclassJava.digits_1391c9b1_002::::74::::1819::::1839::::(Num.value) - (X.value)::::(Num.value) % 10	0.4082482904638631
+247	introclassJava.digits_1391c9b1_002::::74::::1819::::1839::::(Num.value) - (X.value)::::((Num.value) - (X.value)) / 10	0.4082482904638631
+248	introclassJava.digits_1391c9b1_002::::74::::1804::::1845::::NewNum.value = ((Num.value) - (X.value)) / 10::::X.value = (Num.value) % 10	0.4082482904638631
+249	introclassJava.digits_1391c9b1_002::::74::::1804::::1845::::NewNum.value = ((Num.value) - (X.value)) / 10::::Num.value = NewNum.value	0.4082482904638631
+250	introclassJava.digits_1391c9b1_002::::74::::1804::::1815::::NewNum.value::::X.value	0.4082482904638631
+251	introclassJava.digits_1391c9b1_002::::74::::1804::::1815::::NewNum.value::::Num.value	0.4082482904638631
+252	introclassJava.digits_1391c9b1_002::::74::::1804::::1815::::NewNum.value::::(X.value) * (-1)	0.4082482904638631
+253	introclassJava.digits_1391c9b1_002::::74::::1804::::1815::::NewNum.value::::(Num.value) - (X.value)	0.4082482904638631
+254	introclassJava.digits_1391c9b1_002::::74::::1804::::1815::::NewNum.value::::(Num.value) % 10	0.4082482904638631
+255	introclassJava.digits_1391c9b1_002::::74::::1804::::1815::::NewNum.value::::((Num.value) - (X.value)) / 10	0.4082482904638631
+256	introclassJava.digits_1391c9b1_002::::74::::1804::::1809::::NewNum::::X	0.4082482904638631
+257	introclassJava.digits_1391c9b1_002::::74::::1804::::1809::::NewNum::::Num	0.4082482904638631
+258	introclassJava.digits_1391c9b1_002::::73::::1776::::1789::::(Num.value) % 10::::value	0.4082482904638631
+259	introclassJava.digits_1391c9b1_002::::73::::1776::::1789::::(Num.value) % 10::::X.value	0.4082482904638631
+260	introclassJava.digits_1391c9b1_002::::73::::1776::::1789::::(Num.value) % 10::::Num.value	0.4082482904638631
+261	introclassJava.digits_1391c9b1_002::::73::::1776::::1789::::(Num.value) % 10::::NewNum.value	0.4082482904638631
+262	introclassJava.digits_1391c9b1_002::::73::::1776::::1789::::(Num.value) % 10::::10	0.4082482904638631
+263	introclassJava.digits_1391c9b1_002::::73::::1776::::1789::::(Num.value) % 10::::1	0.4082482904638631
+264	introclassJava.digits_1391c9b1_002::::73::::1776::::1789::::(Num.value) % 10::::0	0.4082482904638631
+265	introclassJava.digits_1391c9b1_002::::73::::1776::::1789::::(Num.value) % 10::::-10	0.4082482904638631
+266	introclassJava.digits_1391c9b1_002::::73::::1776::::1789::::(Num.value) % 10::::-1	0.4082482904638631
+267	introclassJava.digits_1391c9b1_002::::73::::1776::::1789::::(Num.value) % 10::::(X.value) * (-1)	0.4082482904638631
+268	introclassJava.digits_1391c9b1_002::::73::::1776::::1789::::(Num.value) % 10::::(Num.value) - (X.value)	0.4082482904638631
+269	introclassJava.digits_1391c9b1_002::::73::::1776::::1789::::(Num.value) % 10::::((Num.value) - (X.value)) / 10	0.4082482904638631
+270	introclassJava.digits_1391c9b1_002::::73::::1776::::1784::::Num.value::::X.value	0.4082482904638631
+271	introclassJava.digits_1391c9b1_002::::73::::1776::::1784::::Num.value::::NewNum.value	0.4082482904638631
+272	introclassJava.digits_1391c9b1_002::::73::::1776::::1784::::Num.value::::(X.value) * (-1)	0.4082482904638631
+273	introclassJava.digits_1391c9b1_002::::73::::1776::::1784::::Num.value::::(Num.value) - (X.value)	0.4082482904638631
+274	introclassJava.digits_1391c9b1_002::::73::::1776::::1784::::Num.value::::((Num.value) - (X.value)) / 10	0.4082482904638631
+275	introclassJava.digits_1391c9b1_002::::73::::1776::::1778::::Num::::X	0.4082482904638631
+276	introclassJava.digits_1391c9b1_002::::73::::1776::::1778::::Num::::NewNum	0.4082482904638631
+277	introclassJava.digits_1391c9b1_002::::73::::1766::::1790::::X.value = (Num.value) % 10::::Num.value = NewNum.value	0.4082482904638631
+278	introclassJava.digits_1391c9b1_002::::73::::1766::::1790::::X.value = (Num.value) % 10::::NewNum.value = ((Num.value) - (X.value)) / 10	0.4082482904638631
+279	introclassJava.digits_1391c9b1_002::::73::::1766::::1772::::X.value::::Num.value	0.4082482904638631
+280	introclassJava.digits_1391c9b1_002::::73::::1766::::1772::::X.value::::NewNum.value	0.4082482904638631
+281	introclassJava.digits_1391c9b1_002::::73::::1766::::1772::::X.value::::(Num.value) - (X.value)	0.4082482904638631
+282	introclassJava.digits_1391c9b1_002::::73::::1766::::1772::::X.value::::(Num.value) % 10	0.4082482904638631
+283	introclassJava.digits_1391c9b1_002::::73::::1766::::1772::::X.value::::((Num.value) - (X.value)) / 10	0.4082482904638631
+284	introclassJava.digits_1391c9b1_002::::73::::1766::::1766::::X::::Num	0.4082482904638631
+285	introclassJava.digits_1391c9b1_002::::73::::1766::::1766::::X::::NewNum	0.4082482904638631
