@@ -1,0 +1,314 @@
+1	org.mockito.internal.creation.SerializableMockitoMethodProxy::::25::::891::::892::::c2::::c1	0.03133397807202561
+2	org.mockito.internal.creation.SerializableMockitoMethodProxy::::26::::954::::957::::desc::::name	0.027647627710610835
+3	org.mockito.internal.creation.SerializableMockitoMethodProxy::::24::::828::::829::::c1::::c2	0.02563689114983914
+4	org.mockito.internal.stubbing.answers.AnswersValidator::::22::::721::::726::::(org.mockito.internal.stubbing.answers.Returns) (answer)::::answer	0.01296480382904943
+5	org.mockito.internal.invocation.SerializableMethod::::26::::786::::792::::getName::::getParameterTypes	0.011607348488012053
+6	org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::785::::(args.length) - 1::::args.length	0.011494739329713595
+7	org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::751::::(args.length) - 1::::args.length	0.011494739329713595
+8	org.mockito.internal.stubbing.answers.MethodInfo::::20::::467::::479::::theInvocation::::this	0.010357836077671847
+9	org.mockito.internal.stubbing.answers.AnswersValidator::::25::::773::::801::::answer instanceof org.mockito.internal.stubbing.answers.DoesNothing::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException	0.009578949441427995
+10	org.mockito.internal.stubbing.answers.AnswersValidator::::25::::773::::801::::answer instanceof org.mockito.internal.stubbing.answers.DoesNothing::::answer instanceof org.mockito.internal.stubbing.answers.Returns	0.009578949441427995
+11	org.mockito.internal.stubbing.answers.AnswersValidator::::21::::650::::674::::answer instanceof org.mockito.internal.stubbing.answers.Returns::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException	0.009444501377615284
+12	org.mockito.internal.invocation.SerializableMethod::::26::::786::::792::::getName::::getReturnType	0.009285878790409641
+13	org.mockito.internal.invocation.SerializableMethod::::27::::829::::845::::getParameterTypes::::getName	0.008755257145243375
+14	org.mockito.internal.invocation.SerializableMethod::::27::::829::::845::::getParameterTypes::::getExceptionTypes	0.008357290911368677
+15	org.mockito.internal.invocation.ArgumentsComparator::::18::::640::::651::::varArgsMatch::::argumentsMatch	0.007931747686306171
+16	org.mockito.internal.invocation.ArgumentsComparator::::18::::591::::635::::argumentsMatch(invocationMatcher, actualArgs)::::argumentsMatch(invocationMatcher,actual)	0.007931747686306171
+17	org.mockito.internal.invocation.ArgumentsComparator::::18::::591::::604::::argumentsMatch::::varArgsMatch	0.007931747686306171
+18	org.mockito.internal.stubbing.answers.AnswersValidator::::17::::513::::545::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException::::answer instanceof org.mockito.internal.stubbing.answers.Returns	0.007656204793656254
+19	org.mockito.internal.stubbing.answers.AnswersValidator::::21::::650::::674::::answer instanceof org.mockito.internal.stubbing.answers.Returns::::answer instanceof org.mockito.internal.stubbing.answers.DoesNothing	0.007512671550375794
+20	org.mockito.internal.stubbing.answers.AnswersValidator::::25::::773::::801::::answer instanceof org.mockito.internal.stubbing.answers.DoesNothing::::answer instanceof org.mockito.internal.stubbing.answers.CallsRealMethods	0.0071157910136322245
+21	org.mockito.internal.creation.cglib.CGLIBHacker::::22::::775::::789::::createInfoField::::namingPolicyField	0.007027819284987273
+22	org.mockito.internal.invocation.SerializableMethod::::27::::829::::845::::getParameterTypes::::getReturnType	0.0070042057161947
+23	org.mockito.internal.creation.cglib.CGLIBHacker::::21::::706::::720::::createInfoField::::namingPolicyField	0.006979351565780464
+24	org.mockito.internal.invocation.SerializableMethod::::26::::786::::792::::getName::::getExceptionTypes	0.006964409092807231
+25	org.mockito.internal.invocation.ArgumentsComparator::::22::::794::::852::::actualArgs.length) != (invocationMatcher.getMatchers().size()::::int	0.006777106212114713
+26	org.mockito.internal.stubbing.answers.AnswersValidator::::17::::513::::545::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException::::answer instanceof org.mockito.internal.stubbing.answers.DoesNothing	0.006090162904044747
+27	org.mockito.internal.invocation.MatchersBinder::::26::::970::::981::::(java.util.List<org.hamcrest.Matcher>) ((java.util.List) (lastMatchers))::::lastMatchers	0.006033048842615979
+28	org.mockito.internal.invocation.ArgumentsComparator::::18::::591::::678::::argumentsMatch(invocationMatcher, actualArgs)) || (varArgsMatch(invocationMatcher, actual)::::int	0.00587536865652309
+29	org.mockito.internal.handler.MockHandlerFactory::::18::::631::::648::::nullResultGuardian::::handler	0.0057092533172599606
+30	org.mockito.internal.handler.MockHandlerFactory::::17::::552::::558::::handler::::nullResultGuardian	0.0057092533172599606
+31	org.mockito.internal.stubbing.answers.AnswersValidator::::21::::650::::674::::answer instanceof org.mockito.internal.stubbing.answers.Returns::::answer instanceof org.mockito.internal.stubbing.answers.CallsRealMethods	0.005580841723136305
+32	org.mockito.internal.creation.cglib.CGLIBHacker::::26::::1031::::1047::::namingPolicyField::::createInfoField	0.005432975300522791
+33	org.mockito.internal.creation.cglib.CGLIBHacker::::24::::915::::931::::namingPolicyField::::createInfoField	0.005097511588044102
+34	org.mockito.internal.creation.cglib.CGLIBHacker::::25::::970::::986::::namingPolicyField::::createInfoField	0.0050352574953740235
+35	org.mockito.internal.util.reflection.Whitebox::::14::::374::::394::::getFieldFromHierarchy::::getField	0.004954155992468914
+36	org.mockito.internal.invocation.ArgumentsProcessor::::22::::684::::807::::(!isVarArgs) || (new org.mockito.internal.util.collections.ArrayUtils().isEmpty(args))) || (((args[((args.length) - 1)]) != null) && (!(args[((args.length) - 1)].getClass().isArray()))::::int	0.004937880979665699
+37	org.mockito.internal.invocation.ArgumentsProcessor::::22::::684::::727::::(!isVarArgs) || (new org.mockito.internal.util.collections.ArrayUtils().isEmpty(args))::::int	0.00466355425857316
+38	org.mockito.internal.stubbing.answers.AnswersValidator::::25::::773::::801::::answer instanceof org.mockito.internal.stubbing.answers.DoesNothing::::answer instanceof org.mockito.internal.stubbing.answers.ReturnsArgumentAt	0.004652632585836454
+39	org.mockito.internal.stubbing.answers.AnswersValidator::::17::::513::::545::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException::::answer instanceof org.mockito.internal.stubbing.answers.CallsRealMethods	0.004524121014433241
+40	org.mockito.internal.handler.MockHandlerFactory::::20::::678::::685::::notifier::::nullResultGuardian	0.004281939987944971
+41	org.mockito.internal.handler.MockHandlerFactory::::20::::678::::685::::notifier::::handler	0.004281939987944971
+42	org.mockito.internal.handler.MockHandlerFactory::::17::::552::::558::::handler::::notifier	0.004078038083757115
+43	org.mockito.internal.invocation.ArgumentsComparator::::22::::794::::810::::actualArgs.length::::i	0.003939192985791677
+44	org.mockito.internal.stubbing.StubbedInvocationMatcher::::24::::905::::914::::invocation::::this	0.003908763289216657
+45	org.mockito.internal.creation.SerializableMockitoMethodProxy::::25::::891::::944::::c2 = ((java.lang.Class<?>) (org.mockito.internal.util.reflection.Whitebox.getInternalState(info, "c2")))::::c1 = ((java.lang.Class<?>) (org.mockito.internal.util.reflection.Whitebox.getInternalState(info, "c1")))	0.0038645239622164926
+46	org.mockito.internal.stubbing.StubbedInvocationMatcher::::24::::877::::886::::invocation::::this	0.0038430697885575536
+47	org.mockito.internal.handler.MockHandlerFactory::::18::::631::::648::::nullResultGuardian::::notifier	0.0038061688781733075
+48	org.mockito.internal.invocation.ArgumentsComparator::::25::::921::::937::::actualArgs.length::::i++	0.0036807007877102883
+49	org.mockito.internal.invocation.SerializableMethod::::25::::720::::733::::declaringClass::::returnType	0.0036684953246062775
+50	org.mockito.internal.stubbing.answers.AnswersValidator::::21::::650::::674::::answer instanceof org.mockito.internal.stubbing.answers.Returns::::answer instanceof org.mockito.internal.stubbing.answers.ReturnsArgumentAt	0.003649011895896814
+51	org.mockito.internal.invocation.SerializableMethod::::27::::829::::845::::getParameterTypes::::isVarArgs	0.00350210285809735
+52	org.mockito.internal.invocation.ArgumentsComparator::::22::::794::::810::::actualArgs.length::::i++	0.0034718311061214782
+53	org.mockito.internal.invocation.SerializableMethod::::26::::786::::792::::getName::::isVarArgs	0.003385476642336848
+54	org.mockito.internal.creation.cglib.CGLIBHacker::::22::::775::::789::::createInfoField::::reflectOnCreateInfo(methodProxy)	0.003382372917908313
+55	org.mockito.internal.invocation.MatchersBinder::::24::::818::::860::::validateMatchers(invocation, lastMatchers)::::INSERT::::STATEMENT::::validateMatchers(invocation, lastMatchers)	0.0031869021895485337
+56	org.mockito.internal.stubbing.StubbedInvocationMatcher::::25::::940::::951::::this.answers::::answers	0.0031836081088642454
+57	org.mockito.internal.stubbing.answers.AnswersValidator::::17::::513::::545::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException::::answer instanceof org.mockito.internal.stubbing.answers.ReturnsArgumentAt	0.0029580791248217343
+58	org.mockito.internal.invocation.MatchersBinder::::27::::993::::1022::::return invocationWithMatchers::::INSERT::::STATEMENT::::validateMatchers(invocation, lastMatchers)	0.002921327007086156
+59	org.mockito.internal.creation.SerializableMockitoMethodProxy::::24::::828::::881::::c1 = ((java.lang.Class<?>) (org.mockito.internal.util.reflection.Whitebox.getInternalState(info, "c1")))::::c2 = ((java.lang.Class<?>) (org.mockito.internal.util.reflection.Whitebox.getInternalState(info, "c2")))	0.002833984238958761
+60	org.mockito.internal.invocation.MatchersBinder::::23::::724::::808::::java.util.List<org.mockito.internal.matchers.LocalizedMatcher> lastMatchers = argumentMatcherStorage.pullLocalizedMatchers()::::INSERT::::STATEMENT::::validateMatchers(invocation, lastMatchers)	0.002784285348670305
+61	org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::781::::args.length::::nonVarArgsCount	0.002617105829533006
+62	org.mockito.internal.invocation.MatchersBinder::::26::::871::::983::::org.mockito.internal.invocation.InvocationMatcher invocationWithMatchers = new org.mockito.internal.invocation.InvocationMatcher(invocation, ((java.util.List<org.hamcrest.Matcher>) ((java.util.List) (lastMatchers))))::::INSERT::::STATEMENT::::validateMatchers(invocation, lastMatchers)	0.0025039945775024194
+63	org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::747::::args.length::::nonVarArgsCount	0.0024375005275062305
+64	org.mockito.internal.invocation.ArgumentsProcessor::::23::::831::::842::::args == null::::(args[((args.length) - 1)]) != null	0.002364773286173069
+65	org.mockito.internal.invocation.ArgumentsProcessor::::22::::732::::807::::((args[((args.length) - 1)]) != null) && (!(args[((args.length) - 1)].getClass().isArray()))::::(args[nonVarArgsCount]) == null	0.0023445190808127365
+66	org.mockito.internal.invocation.ArgumentsProcessor::::22::::732::::760::::(args[((args.length) - 1)]) != null::::(args[nonVarArgsCount]) == null	0.00234057871260969
+67	org.mockito.internal.creation.cglib.CGLIBHacker::::21::::706::::720::::createInfoField::::reflectOnCreateInfo(methodProxy)	0.0022067067450629407
+68	org.mockito.internal.util.reflection.Whitebox::::16::::461::::461::::f::::org.mockito.internal.util.reflection.Whitebox.getFieldFromHierarchy(c, field)	0.0021733007967475165
+69	org.mockito.internal.creation.cglib.CGLIBHacker::::26::::1031::::1047::::namingPolicyField::::reflectOnCreateInfo(methodProxy)	0.0020340551011382045
+70	org.mockito.internal.invocation.ArgumentsProcessor::::23::::831::::842::::args == null::::(args[nonVarArgsCount]) == null	0.0018190563739792836
+71	org.mockito.internal.creation.cglib.CGLIBHacker::::25::::970::::986::::namingPolicyField::::reflectOnCreateInfo(methodProxy)	0.001756954821246818
+72	org.mockito.internal.util.reflection.Whitebox::::15::::419::::419::::f::::org.mockito.internal.util.reflection.Whitebox.getFieldFromHierarchy(c, field)	0.0017361515312600058
+73	org.mockito.internal.invocation.SerializableMethod::::27::::812::::855::::parameterTypes = method.getParameterTypes()::::methodName = method.getName()	0.0017178875762257839
+74	org.mockito.internal.creation.cglib.CGLIBHacker::::24::::915::::931::::namingPolicyField::::reflectOnCreateInfo(methodProxy)	0.0016750443757873113
+75	org.mockito.internal.invocation.SerializableMethod::::25::::720::::763::::declaringClass = method.getDeclaringClass()::::methodName = method.getName()	0.001472475065336386
+76	org.mockito.internal.invocation.SerializableMethod::::26::::773::::802::::methodName = method.getName()::::parameterTypes = method.getParameterTypes()	0.0014315729801881532
+77	org.mockito.internal.invocation.SerializableMethod::::27::::812::::825::::parameterTypes::::exceptionTypes	0.001414991053776707
+78	org.mockito.internal.invocation.SerializableMethod::::27::::812::::855::::parameterTypes = method.getParameterTypes()::::returnType = method.getReturnType()	0.0013743100609806271
+79	org.mockito.internal.stubbing.BaseStubbing::::16::::667::::704::::return thenAnswer(new org.mockito.internal.stubbing.answers.Returns(value))::::INSERT::::STATEMENT::::thenThrow(((java.lang.Throwable) (null)))	0.0013008816216822242
+80	org.mockito.internal.invocation.SerializableMethod::::25::::720::::763::::declaringClass = method.getDeclaringClass()::::parameterTypes = method.getParameterTypes()	0.0012270625544469884
+81	org.mockito.internal.invocation.SerializableMethod::::26::::773::::802::::methodName = method.getName()::::returnType = method.getReturnType()	0.0011452583841505225
+82	org.mockito.internal.invocation.SerializableMethod::::27::::812::::855::::parameterTypes = method.getParameterTypes()::::exceptionTypes = method.getExceptionTypes()	0.0010307325457354702
+83	org.mockito.internal.creation.SerializableMockitoMethodProxy::::26::::954::::1003::::desc = methodProxy.getSignature().getDescriptor()::::this.methodProxy = methodProxy	0.0010144375400818293
+84	org.mockito.internal.invocation.SerializableMethod::::25::::720::::763::::declaringClass = method.getDeclaringClass()::::returnType = method.getReturnType()	9.816500435575906E-4
+85	org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::781::::args.length::::varArgs.length	9.219738837374444E-4
+86	org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::781::::args.length::::varArgsCount	8.678784772936658E-4
+87	org.mockito.internal.invocation.SerializableMethod::::26::::773::::802::::methodName = method.getName()::::exceptionTypes = method.getExceptionTypes()	8.589437881128919E-4
+88	org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::747::::args.length::::varArgs.length	7.996712256906406E-4
+89	org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::747::::args.length::::varArgsCount	7.67064310739351E-4
+90	org.mockito.internal.invocation.SerializableMethod::::25::::720::::763::::declaringClass = method.getDeclaringClass()::::exceptionTypes = method.getExceptionTypes()	7.36237532668193E-4
+91	org.mockito.internal.invocation.SerializableMethod::::27::::812::::855::::parameterTypes = method.getParameterTypes()::::isVarArgs = method.isVarArgs()	6.871550304903136E-4
+92	org.mockito.internal.invocation.MatchersBinder::::24::::818::::860::::validateMatchers(invocation, lastMatchers)::::DELETE::::STATEMENT	6.127454884690248E-4
+93	org.mockito.internal.util.MockNameImpl::::21::::626::::649::::this.defaultName = true::::INSERT::::STATEMENT::::if (mockName == null) {    this.mockName = org.mockito.internal.util.MockNameImpl.toInstanceName(classToMock);    this.defaultName = true;}else {    this.mockName = mockName;}	5.736530756822188E-4
+94	org.mockito.internal.util.MockNameImpl::::20::::569::::612::::this.mockName = org.mockito.internal.util.MockNameImpl.toInstanceName(classToMock)::::INSERT::::STATEMENT::::if (mockName == null) {    this.mockName = org.mockito.internal.util.MockNameImpl.toInstanceName(classToMock);    this.defaultName = true;}else {    this.mockName = mockName;}	5.736530756822188E-4
+95	org.mockito.internal.invocation.SerializableMethod::::26::::773::::802::::methodName = method.getName()::::isVarArgs = method.isVarArgs()	5.726291920752612E-4
+96	org.mockito.internal.util.MockNameImpl::::20::::569::::612::::this.mockName = org.mockito.internal.util.MockNameImpl.toInstanceName(classToMock)::::this.mockName = mockName	5.4153500836904E-4
+97	org.mockito.internal.stubbing.answers.AnswersValidator::::22::::691::::740::::validateReturnValue(((org.mockito.internal.stubbing.answers.Returns) (answer)), methodInfo)::::DELETE::::STATEMENT	5.32978536358247E-4
+98	org.mockito.internal.invocation.ArgumentsProcessor::::23::::831::::865::::args == null ? new java.lang.Object[0] : args::::args	5.006206674359009E-4
+99	org.mockito.internal.creation.CglibMockMaker::::23::::811::::885::::new org.mockito.internal.creation.AcrossJVMSerializationFeature().enableSerializationAcrossJVM(settings)::::DELETE::::STATEMENT	4.970222193414643E-4
+100	org.mockito.internal.invocation.SerializableMethod::::25::::720::::763::::declaringClass = method.getDeclaringClass()::::isVarArgs = method.isVarArgs()	4.908250217787953E-4
+101	org.mockito.internal.invocation.ArgumentsProcessor::::23::::862::::865::::args::::newArgs	4.786634598266287E-4
+102	org.mockito.internal.invocation.ArgumentsProcessor::::23::::862::::865::::args::::varArgs	4.76490228266046E-4
+103	org.mockito.internal.invocation.ArgumentsProcessor::::23::::831::::834::::args::::newArgs	4.753028646238436E-4
+104	org.mockito.internal.invocation.ArgumentsProcessor::::23::::831::::834::::args::::varArgs	4.746353243687317E-4
+105	org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::774::::args::::varArgs	4.5660809440256005E-4
+106	org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::774::::args::::newArgs	4.5525592971598194E-4
+107	org.mockito.internal.invocation.ArgumentsProcessor::::22::::766::::769::::args::::varArgs	4.530228032700406E-4
+108	org.mockito.internal.invocation.ArgumentsProcessor::::22::::766::::769::::args::::newArgs	4.4876033056500845E-4
+109	org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::740::::args::::varArgs	4.473152770276891E-4
+110	org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::740::::args::::newArgs	4.3841980276861575E-4
+111	org.mockito.internal.invocation.ArgumentsProcessor::::22::::732::::735::::args::::varArgs	4.368090663013222E-4
+112	org.mockito.internal.invocation.ArgumentsProcessor::::22::::732::::735::::args::::newArgs	4.193853280351284E-4
+113	org.mockito.internal.invocation.ArgumentsProcessor::::22::::723::::726::::args::::varArgs	4.1106307737846706E-4
+114	org.mockito.internal.stubbing.answers.AnswersValidator::::22::::691::::740::::validateReturnValue(((org.mockito.internal.stubbing.answers.Returns) (answer)), methodInfo)::::INSERT::::STATEMENT::::validateReturnArgIdentity(returnsArgumentAt, invocation)	4.034821332002562E-4
+115	org.mockito.internal.invocation.ArgumentsProcessor::::22::::723::::726::::args::::newArgs	3.727404064354838E-4
+116	org.mockito.internal.creation.SerializableMockitoMethodProxy::::26::::961::::971::::methodProxy::::this.methodProxy	3.203228181560582E-4
+117	org.mockito.internal.stubbing.OngoingStubbingImpl::::24::::764::::786::::invocationContainerImpl::::this.invocationContainerImpl	3.1163545017352123E-4
+118	org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::785::::(args.length) - 1::::varArgs.length	2.8283180180652026E-4
+119	org.mockito.internal.creation.cglib.CGLIBHacker::::26::::1031::::1094::::namingPolicyField.set(createInfo, MockitoNamingPolicy.INSTANCE)::::DELETE::::STATEMENT	2.8150320580421244E-4
+120	org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::751::::(args.length) - 1::::varArgs.length	2.700574649571079E-4
+121	org.mockito.internal.stubbing.answers.AnswersValidator::::25::::769::::879::::if (answer instanceof org.mockito.internal.stubbing.answers.DoesNothing) {    validateDoNothing(((org.mockito.internal.stubbing.answers.DoesNothing) (answer)), methodInfo);}::::INSERT::::STATEMENT::::validateReturnArgIdentity(returnsArgumentAt, invocation)	2.6273032001608994E-4
+122	org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::781::::args.length::::nonVarArgsCount + varArgsCount	2.3573195891014206E-4
+123	org.mockito.internal.progress.ThreadSafeMockingProgress::::23::::773::::819::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.set(new org.mockito.internal.progress.MockingProgressImpl())::::DELETE::::STATEMENT	2.2476442694307214E-4
+124	org.mockito.internal.stubbing.answers.AnswersValidator::::17::::509::::627::::if (answer instanceof org.mockito.internal.stubbing.answers.ThrowsException) {    validateException(((org.mockito.internal.stubbing.answers.ThrowsException) (answer)), methodInfo);}::::INSERT::::STATEMENT::::validateReturnArgIdentity(returnsArgumentAt, invocation)	2.170499889770733E-4
+125	org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::747::::args.length::::nonVarArgsCount + varArgsCount	2.0446139293226606E-4
+126	org.mockito.internal.util.Checks::::14::::291::::401::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}::::INSERT::::STATEMENT::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}	2.008007048715793E-4
+127	org.mockito.internal.util.MockCreationValidator::::25::::724::::783::::if (extraInterfaces == null) {    return ;}::::INSERT::::STATEMENT::::if (extraInterfaces == null) {    return ;}	1.9857289236132467E-4
+128	org.mockito.internal.stubbing.answers.AnswersValidator::::16::::449::::499::::org.mockito.internal.stubbing.answers.MethodInfo methodInfo = new org.mockito.internal.stubbing.answers.MethodInfo(invocation)::::INSERT::::STATEMENT::::validateReturnArgIdentity(returnsArgumentAt, invocation)	1.7895550111579104E-4
+129	org.mockito.internal.verification.DefaultRegisteredInvocations::::25::::804::::814::::invocations::::new java.util.LinkedList<org.mockito.invocation.Invocation>(invocations)	1.649196447028665E-4
+130	org.mockito.internal.util.Checks::::17::::411::::423::::return value::::INSERT::::STATEMENT::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}	1.5067781915333435E-4
+131	org.mockito.internal.invocation.ArgumentsProcessor::::22::::765::::807::::!(args[((args.length) - 1)].getClass().isArray())::::DELETE::::INFIX	1.4637832115182154E-4
+132	org.mockito.internal.invocation.ArgumentsProcessor::::22::::684::::693::::!isVarArgs::::DELETE::::INFIX	1.4637832115182154E-4
+133	org.mockito.internal.util.MockUtil::::26::::924::::961::::!(java.lang.reflect.Modifier.isFinal(type.getModifiers()))::::DELETE::::INFIX	1.2892729442304777E-4
+134	org.mockito.internal.util.MockUtil::::26::::901::::919::::!(type.isPrimitive())::::DELETE::::INFIX	1.2892729442304777E-4
+135	org.mockito.internal.invocation.ArgumentsComparator::::18::::640::::678::::varArgsMatch(invocationMatcher, actual)::::DELETE::::INFIX	1.2430811235038727E-4
+136	org.mockito.internal.invocation.ArgumentsComparator::::18::::591::::635::::argumentsMatch(invocationMatcher, actualArgs)::::DELETE::::INFIX	1.2430811235038727E-4
+137	org.mockito.internal.invocation.ArgumentsComparator::::22::::815::::852::::invocationMatcher.getMatchers().size()::::DELETE::::INFIX	1.2347181569909244E-4
+138	org.mockito.internal.creation.cglib.CGLIBHacker::::25::::970::::1002::::namingPolicyField.get(createInfo)::::DELETE::::INFIX	1.1014154557193943E-4
+139	org.mockito.internal.stubbing.answers.AnswersValidator::::21::::646::::750::::if (answer instanceof org.mockito.internal.stubbing.answers.Returns) {    validateReturnValue(((org.mockito.internal.stubbing.answers.Returns) (answer)), methodInfo);}::::INSERT::::STATEMENT::::validateReturnArgIdentity(returnsArgumentAt, invocation)	1.0143238019445631E-4
+140	org.mockito.internal.invocation.ArgumentsProcessor::::22::::698::::727::::new org.mockito.internal.util.collections.ArrayUtils().isEmpty(args)::::DELETE::::INFIX	1.0133331140350642E-4
+141	org.mockito.internal.invocation.SerializableMethod::::27::::829::::834::::method::::this	9.532605038464004E-5
+142	org.mockito.internal.invocation.SerializableMethod::::26::::786::::791::::method::::this	8.948976158558043E-5
+143	org.mockito.internal.progress.ThreadSafeMockingProgress::::22::::728::::748::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.get()::::DELETE::::INFIX	8.794180976510492E-5
+144	org.mockito.internal.invocation.ArgumentsProcessor::::22::::732::::807::::((args[((args.length) - 1)]) != null) && (!(args[((args.length) - 1)].getClass().isArray()))::::args == null	8.769460756236898E-5
+145	org.mockito.internal.invocation.ArgumentsProcessor::::22::::732::::760::::(args[((args.length) - 1)]) != null::::args == null	6.0133445185624444E-5
+146	org.mockito.internal.invocation.ArgumentsComparator::::25::::940::::940::::i::::actualArgs.length	4.9859266645851664E-5
+147	org.mockito.internal.creation.CglibMockMaker::::23::::811::::885::::new org.mockito.internal.creation.AcrossJVMSerializationFeature().enableSerializationAcrossJVM(settings)::::INSERT::::STATEMENT::::if (!(handler instanceof org.mockito.internal.InternalMockHandler)) {    throw new org.mockito.exceptions.base.MockitoException(("At the moment you cannot provide own implementations of MockHandler." + "\nPlease see the javadocs for the MockMaker interface."));}	2.0834243454572458E-5
+148	org.mockito.internal.creation.CglibMockMaker::::22::::751::::801::::org.mockito.internal.InternalMockHandler mockitoHandler = cast(handler)::::INSERT::::STATEMENT::::if (!(handler instanceof org.mockito.internal.InternalMockHandler)) {    throw new org.mockito.exceptions.base.MockitoException(("At the moment you cannot provide own implementations of MockHandler." + "\nPlease see the javadocs for the MockMaker interface."));}	1.7046199190104738E-5
+149	org.mockito.internal.creation.CglibMockMaker::::24::::895::::1069::::return ClassImposterizer.INSTANCE.imposterise(new org.mockito.internal.creation.MethodInterceptorFilter(mockitoHandler, settings), settings.getTypeToMock(), settings.getExtraInterfaces())::::INSERT::::STATEMENT::::if (!(handler instanceof org.mockito.internal.InternalMockHandler)) {    throw new org.mockito.exceptions.base.MockitoException(("At the moment you cannot provide own implementations of MockHandler." + "\nPlease see the javadocs for the MockMaker interface."));}	1.2626814214892398E-5
+150	org.mockito.internal.verification.DefaultRegisteredInvocations::::25::::804::::814::::invocations::::new java.util.LinkedList<org.mockito.invocation.Invocation>()	0.0
+151	org.mockito.internal.verification.DefaultRegisteredInvocations::::24::::777::::787::::invocations::::new java.util.LinkedList<org.mockito.invocation.Invocation>(invocations)	0.0
+152	org.mockito.internal.verification.DefaultRegisteredInvocations::::24::::777::::787::::invocations::::new java.util.LinkedList<org.mockito.invocation.Invocation>()	0.0
+153	org.mockito.internal.verification.DefaultRegisteredInvocations::::24::::763::::841::::synchronized(invocations) {    invocations.add(invocation);}::::INSERT::::STATEMENT::::-2674402327380736290L	0.0
+154	org.mockito.internal.util.reflection.Whitebox::::15::::435::::438::::true::::f == null	0.0
+155	org.mockito.internal.util.reflection.Whitebox::::14::::399::::403::::field::::("You want me to get this field: '" + field) + "' on this class: '"	0.0
+156	org.mockito.internal.util.reflection.Whitebox::::14::::399::::403::::field::::"You want me to get this field: '" + field	0.0
+157	org.mockito.internal.util.reflection.Whitebox::::14::::399::::403::::field::::"You want me to get this field: '"	0.0
+158	org.mockito.internal.util.reflection.Whitebox::::14::::399::::403::::field::::"Unable to set internal state on a private field. Please report to mockito mailing list."	0.0
+159	org.mockito.internal.util.reflection.Whitebox::::14::::399::::403::::field::::"Unable to get internal state on a private field. Please report to mockito mailing list."	0.0
+160	org.mockito.internal.util.reflection.Whitebox::::14::::399::::403::::field::::"' on this class: '"	0.0
+161	org.mockito.internal.util.reflection.Whitebox::::14::::399::::403::::field::::"' but this field is not declared withing hierarchy of this class!"	0.0
+162	org.mockito.internal.util.MockNameImpl::::21::::645::::648::::true::::this.defaultName	0.0
+163	org.mockito.internal.util.MockNameImpl::::21::::645::::648::::true::::mockName == null	0.0
+164	org.mockito.internal.util.MockNameImpl::::21::::645::::648::::true::::defaultName	0.0
+165	org.mockito.internal.util.MockNameImpl::::21::::626::::649::::this.defaultName = true::::this.mockName = org.mockito.internal.util.MockNameImpl.toInstanceName(classToMock)	0.0
+166	org.mockito.internal.util.MockNameImpl::::21::::626::::649::::this.defaultName = true::::this.mockName = mockName	0.0
+167	org.mockito.internal.util.MockNameImpl::::21::::626::::641::::this.defaultName::::true	0.0
+168	org.mockito.internal.util.MockNameImpl::::21::::626::::641::::this.defaultName::::mockName == null	0.0
+169	org.mockito.internal.util.MockNameImpl::::21::::626::::641::::this.defaultName::::defaultName	0.0
+170	org.mockito.internal.util.MockNameImpl::::20::::569::::612::::this.mockName = org.mockito.internal.util.MockNameImpl.toInstanceName(classToMock)::::this.defaultName = true	0.0
+171	org.mockito.internal.util.MockNameImpl::::20::::569::::581::::this.mockName::::org.mockito.internal.util.MockNameImpl.toInstanceName(classToMock)	0.0
+172	org.mockito.internal.util.MockNameImpl::::20::::569::::581::::this.mockName::::mockName	0.0
+173	org.mockito.internal.util.MockNameImpl::::20::::569::::581::::this.mockName::::"unchecked"	0.0
+174	org.mockito.internal.util.MockNameImpl::::19::::537::::552::::mockName == null::::true	0.0
+175	org.mockito.internal.util.MockNameImpl::::19::::537::::552::::mockName == null::::this.defaultName	0.0
+176	org.mockito.internal.util.MockNameImpl::::19::::537::::552::::mockName == null::::defaultName	0.0
+177	org.mockito.internal.util.MockNameImpl::::19::::537::::544::::mockName::::org.mockito.internal.util.MockNameImpl.toInstanceName(classToMock)	0.0
+178	org.mockito.internal.util.MockNameImpl::::19::::537::::544::::mockName::::"unchecked"	0.0
+179	org.mockito.internal.util.MockCreationValidator::::25::::728::::750::::extraInterfaces == null::::classToMock == null	0.0
+180	org.mockito.internal.util.MockCreationValidator::::25::::728::::750::::extraInterfaces == null::::classToMock == i	0.0
+181	org.mockito.internal.util.MockCreationValidator::::19::::501::::508::::mockUtil::::new org.mockito.internal.util.MockUtil()	0.0
+182	org.mockito.internal.stubbing.answers.Returns::::18::::508::::512::::value::::this.value	0.0
+183	org.mockito.internal.stubbing.answers.Returns::::18::::495::::504::::this.value::::value	0.0
+184	org.mockito.internal.stubbing.answers.MethodInfo::::20::::453::::463::::this.method::::theInvocation.getMethod()	0.0
+185	org.mockito.internal.stubbing.answers.MethodInfo::::20::::453::::463::::this.method::::method	0.0
+186	org.mockito.internal.stubbing.answers.AnswersValidator::::22::::729::::738::::methodInfo::::new org.mockito.internal.stubbing.answers.MethodInfo(invocation)	0.0
+187	org.mockito.internal.stubbing.StubbedInvocationMatcher::::24::::905::::914::::invocation::::usedAt	0.0
+188	org.mockito.internal.stubbing.StubbedInvocationMatcher::::24::::905::::914::::invocation::::this.usedAt	0.0
+189	org.mockito.internal.stubbing.StubbedInvocationMatcher::::24::::877::::886::::invocation::::usedAt	0.0
+190	org.mockito.internal.stubbing.StubbedInvocationMatcher::::24::::877::::886::::invocation::::this.usedAt	0.0
+191	org.mockito.internal.stubbing.OngoingStubbingImpl::::20::::659::::681::::invocationContainerImpl::::this.invocationContainerImpl	0.0
+192	org.mockito.internal.stubbing.OngoingStubbingImpl::::20::::628::::655::::this.invocationContainerImpl::::invocationContainerImpl	0.0
+193	org.mockito.internal.stubbing.ConsecutiveStubbing::::15::::548::::570::::invocationContainerImpl::::this.invocationContainerImpl	0.0
+194	org.mockito.internal.stubbing.ConsecutiveStubbing::::15::::517::::544::::this.invocationContainerImpl::::invocationContainerImpl	0.0
+195	org.mockito.internal.progress.ThreadSafeMockingProgress::::25::::846::::860::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress::::new java.lang.ThreadLocal<org.mockito.internal.progress.MockingProgress>()	0.0
+196	org.mockito.internal.progress.ThreadSafeMockingProgress::::23::::773::::787::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress::::new java.lang.ThreadLocal<org.mockito.internal.progress.MockingProgress>()	0.0
+197	org.mockito.internal.progress.ThreadSafeMockingProgress::::22::::728::::756::::(org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.get()) == null::::long	0.0
+198	org.mockito.internal.progress.ThreadSafeMockingProgress::::22::::728::::742::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress::::new java.lang.ThreadLocal<org.mockito.internal.progress.MockingProgress>()	0.0
+199	org.mockito.internal.progress.SequenceNumber::::12::::298::::311::::org.mockito.internal.progress.SequenceNumber.sequenceNumber::::1	0.0
+200	org.mockito.internal.progress.SequenceNumber::::12::::298::::311::::org.mockito.internal.progress.SequenceNumber.sequenceNumber::::(org.mockito.internal.progress.SequenceNumber.sequenceNumber)++	0.0
+201	org.mockito.internal.invocation.realmethod.FilteredCGLIBProxyRealMethod::::22::::780::::789::::realMethod::::this.realMethod	0.0
+202	org.mockito.internal.invocation.realmethod.FilteredCGLIBProxyRealMethod::::22::::762::::776::::this.realMethod::::realMethod	0.0
+203	org.mockito.internal.invocation.realmethod.CGLIBProxyRealMethod::::18::::572::::582::::methodProxy::::this.methodProxy	0.0
+204	org.mockito.internal.invocation.realmethod.CGLIBProxyRealMethod::::18::::553::::568::::this.methodProxy::::methodProxy	0.0
+205	org.mockito.internal.invocation.StubInfoImpl::::18::::583::::591::::stubbedAt::::this.stubbedAt	0.0
+206	org.mockito.internal.invocation.StubInfoImpl::::18::::566::::579::::this.stubbedAt::::stubbedAt	0.0
+207	org.mockito.internal.invocation.SerializableMethod::::27::::812::::825::::parameterTypes::::method.getParameterTypes()	0.0
+208	org.mockito.internal.invocation.SerializableMethod::::27::::812::::825::::parameterTypes::::method.getExceptionTypes()	0.0
+209	org.mockito.internal.invocation.SerializableMethod::::26::::773::::782::::methodName::::method.getName()	0.0
+210	org.mockito.internal.invocation.SerializableMethod::::26::::773::::782::::methodName::::"The method %1$s.%2$s is probably private or protected and cannot be mocked.\n" + "Please report this as a defect with an example of how to reproduce it."	0.0
+211	org.mockito.internal.invocation.SerializableMethod::::26::::773::::782::::methodName::::"The method %1$s.%2$s is probably private or protected and cannot be mocked.\n"	0.0
+212	org.mockito.internal.invocation.SerializableMethod::::26::::773::::782::::methodName::::"The method %1$s.%2$s does not exists and you should not get to this point.\n" + "Please report this as a defect with an example of how to reproduce it."	0.0
+213	org.mockito.internal.invocation.SerializableMethod::::26::::773::::782::::methodName::::"The method %1$s.%2$s does not exists and you should not get to this point.\n"	0.0
+214	org.mockito.internal.invocation.SerializableMethod::::26::::773::::782::::methodName::::"Please report this as a defect with an example of how to reproduce it."	0.0
+215	org.mockito.internal.invocation.SerializableMethod::::25::::720::::733::::declaringClass::::method.getReturnType()	0.0
+216	org.mockito.internal.invocation.MatchersBinder::::27::::993::::1022::::return invocationWithMatchers::::INSERT::::STATEMENT::::-311433939339443463L	0.0
+217	org.mockito.internal.invocation.MatchersBinder::::26::::871::::983::::org.mockito.internal.invocation.InvocationMatcher invocationWithMatchers = new org.mockito.internal.invocation.InvocationMatcher(invocation, ((java.util.List<org.hamcrest.Matcher>) ((java.util.List) (lastMatchers))))::::INSERT::::STATEMENT::::-311433939339443463L	0.0
+218	org.mockito.internal.invocation.MatchersBinder::::24::::818::::860::::validateMatchers(invocation, lastMatchers)::::INSERT::::STATEMENT::::-311433939339443463L	0.0
+219	org.mockito.internal.invocation.MatchersBinder::::23::::724::::808::::java.util.List<org.mockito.internal.matchers.LocalizedMatcher> lastMatchers = argumentMatcherStorage.pullLocalizedMatchers()::::INSERT::::STATEMENT::::-311433939339443463L	0.0
+220	org.mockito.internal.invocation.ArgumentsProcessor::::23::::862::::865::::args::::new java.lang.Object[nonVarArgsCount + varArgsCount]	0.0
+221	org.mockito.internal.invocation.ArgumentsProcessor::::23::::862::::865::::args::::new java.lang.Object[]{ null }	0.0
+222	org.mockito.internal.invocation.ArgumentsProcessor::::23::::862::::865::::args::::new java.lang.Object[0]	0.0
+223	org.mockito.internal.invocation.ArgumentsProcessor::::23::::862::::865::::args::::args == null ? new java.lang.Object[0] : args	0.0
+224	org.mockito.internal.invocation.ArgumentsProcessor::::23::::831::::865::::args == null ? new java.lang.Object[0] : args::::varArgs	0.0
+225	org.mockito.internal.invocation.ArgumentsProcessor::::23::::831::::865::::args == null ? new java.lang.Object[0] : args::::newArgs	0.0
+226	org.mockito.internal.invocation.ArgumentsProcessor::::23::::831::::865::::args == null ? new java.lang.Object[0] : args::::new java.lang.Object[nonVarArgsCount + varArgsCount]	0.0
+227	org.mockito.internal.invocation.ArgumentsProcessor::::23::::831::::865::::args == null ? new java.lang.Object[0] : args::::new java.lang.Object[]{ null }	0.0
+228	org.mockito.internal.invocation.ArgumentsProcessor::::23::::831::::865::::args == null ? new java.lang.Object[0] : args::::new java.lang.Object[0]	0.0
+229	org.mockito.internal.invocation.ArgumentsProcessor::::23::::831::::842::::args == null::::isVarArgs	0.0
+230	org.mockito.internal.invocation.ArgumentsProcessor::::23::::831::::842::::args == null::::!isVarArgs	0.0
+231	org.mockito.internal.invocation.ArgumentsProcessor::::23::::831::::834::::args::::new java.lang.Object[nonVarArgsCount + varArgsCount]	0.0
+232	org.mockito.internal.invocation.ArgumentsProcessor::::23::::831::::834::::args::::new java.lang.Object[]{ null }	0.0
+233	org.mockito.internal.invocation.ArgumentsProcessor::::23::::831::::834::::args::::new java.lang.Object[0]	0.0
+234	org.mockito.internal.invocation.ArgumentsProcessor::::23::::831::::834::::args::::args == null ? new java.lang.Object[0] : args	0.0
+235	org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::785::::(args.length) - 1::::varArgsCount	0.0
+236	org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::785::::(args.length) - 1::::nonVarArgsCount + varArgsCount	0.0
+237	org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::785::::(args.length) - 1::::nonVarArgsCount	0.0
+238	org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::785::::(args.length) - 1::::1	0.0
+239	org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::785::::(args.length) - 1::::0	0.0
+240	org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::781::::args.length::::1	0.0
+241	org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::781::::args.length::::0	0.0
+242	org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::781::::args.length::::(args.length) - 1	0.0
+243	org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::774::::args::::new java.lang.Object[nonVarArgsCount + varArgsCount]	0.0
+244	org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::774::::args::::new java.lang.Object[]{ null }	0.0
+245	org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::774::::args::::new java.lang.Object[0]	0.0
+246	org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::774::::args::::args == null ? new java.lang.Object[0] : args	0.0
+247	org.mockito.internal.invocation.ArgumentsProcessor::::22::::766::::769::::args::::new java.lang.Object[nonVarArgsCount + varArgsCount]	0.0
+248	org.mockito.internal.invocation.ArgumentsProcessor::::22::::766::::769::::args::::new java.lang.Object[]{ null }	0.0
+249	org.mockito.internal.invocation.ArgumentsProcessor::::22::::766::::769::::args::::new java.lang.Object[0]	0.0
+250	org.mockito.internal.invocation.ArgumentsProcessor::::22::::766::::769::::args::::args == null ? new java.lang.Object[0] : args	0.0
+251	org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::751::::(args.length) - 1::::varArgsCount	0.0
+252	org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::751::::(args.length) - 1::::nonVarArgsCount + varArgsCount	0.0
+253	org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::751::::(args.length) - 1::::nonVarArgsCount	0.0
+254	org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::751::::(args.length) - 1::::1	0.0
+255	org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::751::::(args.length) - 1::::0	0.0
+256	org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::747::::args.length::::1	0.0
+257	org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::747::::args.length::::0	0.0
+258	org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::747::::args.length::::(args.length) - 1	0.0
+259	org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::740::::args::::new java.lang.Object[nonVarArgsCount + varArgsCount]	0.0
+260	org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::740::::args::::new java.lang.Object[]{ null }	0.0
+261	org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::740::::args::::new java.lang.Object[0]	0.0
+262	org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::740::::args::::args == null ? new java.lang.Object[0] : args	0.0
+263	org.mockito.internal.invocation.ArgumentsProcessor::::22::::732::::807::::((args[((args.length) - 1)]) != null) && (!(args[((args.length) - 1)].getClass().isArray()))::::(args[((args.length) - 1)]) != null	0.0
+264	org.mockito.internal.invocation.ArgumentsProcessor::::22::::732::::807::::((args[((args.length) - 1)]) != null) && (!(args[((args.length) - 1)].getClass().isArray()))::::!isVarArgs	0.0
+265	org.mockito.internal.invocation.ArgumentsProcessor::::22::::732::::760::::(args[((args.length) - 1)]) != null::::isVarArgs	0.0
+266	org.mockito.internal.invocation.ArgumentsProcessor::::22::::732::::760::::(args[((args.length) - 1)]) != null::::!isVarArgs	0.0
+267	org.mockito.internal.invocation.ArgumentsProcessor::::22::::732::::735::::args::::new java.lang.Object[nonVarArgsCount + varArgsCount]	0.0
+268	org.mockito.internal.invocation.ArgumentsProcessor::::22::::732::::735::::args::::new java.lang.Object[]{ null }	0.0
+269	org.mockito.internal.invocation.ArgumentsProcessor::::22::::732::::735::::args::::new java.lang.Object[0]	0.0
+270	org.mockito.internal.invocation.ArgumentsProcessor::::22::::732::::735::::args::::args == null ? new java.lang.Object[0] : args	0.0
+271	org.mockito.internal.invocation.ArgumentsProcessor::::22::::723::::726::::args::::new java.lang.Object[nonVarArgsCount + varArgsCount]	0.0
+272	org.mockito.internal.invocation.ArgumentsProcessor::::22::::723::::726::::args::::new java.lang.Object[]{ null }	0.0
+273	org.mockito.internal.invocation.ArgumentsProcessor::::22::::723::::726::::args::::new java.lang.Object[0]	0.0
+274	org.mockito.internal.invocation.ArgumentsProcessor::::22::::723::::726::::args::::args == null ? new java.lang.Object[0] : args	0.0
+275	org.mockito.internal.invocation.ArgumentsProcessor::::22::::685::::693::::isVarArgs::::args == null	0.0
+276	org.mockito.internal.invocation.ArgumentsProcessor::::22::::685::::693::::isVarArgs::::(args[nonVarArgsCount]) == null	0.0
+277	org.mockito.internal.invocation.ArgumentsProcessor::::22::::685::::693::::isVarArgs::::(args[((args.length) - 1)]) != null	0.0
+278	org.mockito.internal.invocation.ArgumentsProcessor::::22::::685::::693::::isVarArgs::::!isVarArgs	0.0
+279	org.mockito.internal.invocation.ArgumentsComparator::::25::::940::::940::::i::::i++	0.0
+280	org.mockito.internal.invocation.ArgumentsComparator::::25::::940::::940::::i::::1	0.0
+281	org.mockito.internal.invocation.ArgumentsComparator::::25::::940::::940::::i::::0	0.0
+282	org.mockito.internal.invocation.ArgumentsComparator::::25::::921::::937::::actualArgs.length::::1	0.0
+283	org.mockito.internal.invocation.ArgumentsComparator::::25::::921::::937::::actualArgs.length::::0	0.0
+284	org.mockito.internal.invocation.ArgumentsComparator::::25::::917::::917::::i::::i++	0.0
+285	org.mockito.internal.invocation.ArgumentsComparator::::25::::917::::917::::i::::1	0.0
+286	org.mockito.internal.invocation.ArgumentsComparator::::25::::917::::917::::i::::0	0.0
+287	org.mockito.internal.invocation.ArgumentsComparator::::22::::794::::810::::actualArgs.length::::1	0.0
+288	org.mockito.internal.invocation.ArgumentsComparator::::22::::794::::810::::actualArgs.length::::0	0.0
+289	org.mockito.internal.handler.NullResultGuardian::::25::::815::::822::::delegate::::this.delegate	0.0
+290	org.mockito.internal.handler.NullResultGuardian::::25::::799::::811::::this.delegate::::delegate	0.0
+291	org.mockito.internal.debugging.LocationImpl::::24::::727::::761::::stackTraceHolder = new java.lang.Throwable()::::this.stackTraceFilter = stackTraceFilter	0.0
+292	org.mockito.internal.debugging.LocationImpl::::24::::727::::742::::stackTraceHolder::::new java.lang.Throwable()	0.0
+293	org.mockito.internal.debugging.LocationImpl::::23::::701::::716::::stackTraceFilter::::this.stackTraceFilter	0.0
+294	org.mockito.internal.debugging.LocationImpl::::23::::701::::716::::stackTraceFilter::::new org.mockito.internal.exceptions.stacktrace.StackTraceFilter()	0.0
+295	org.mockito.internal.debugging.LocationImpl::::23::::677::::717::::this.stackTraceFilter = stackTraceFilter::::stackTraceHolder = new java.lang.Throwable()	0.0
+296	org.mockito.internal.debugging.LocationImpl::::23::::677::::697::::this.stackTraceFilter::::stackTraceFilter	0.0
+297	org.mockito.internal.debugging.LocationImpl::::23::::677::::697::::this.stackTraceFilter::::new org.mockito.internal.exceptions.stacktrace.StackTraceFilter()	0.0
+298	org.mockito.internal.creation.cglib.CGLIBHacker::::26::::1031::::1094::::namingPolicyField.set(createInfo, MockitoNamingPolicy.INSTANCE)::::INSERT::::STATEMENT::::-4389233991416356668L	0.0
+299	org.mockito.internal.creation.cglib.CGLIBHacker::::25::::970::::1010::::(namingPolicyField.get(createInfo)) == null::::true	0.0
+300	org.mockito.internal.creation.cglib.CGLIBHacker::::25::::966::::1108::::if ((namingPolicyField.get(createInfo)) == null) {    namingPolicyField.set(createInfo, MockitoNamingPolicy.INSTANCE);}::::INSERT::::STATEMENT::::-4389233991416356668L	0.0
+301	org.mockito.internal.creation.cglib.CGLIBHacker::::24::::915::::952::::namingPolicyField.setAccessible(true)::::INSERT::::STATEMENT::::-4389233991416356668L	0.0
+302	org.mockito.internal.creation.cglib.CGLIBHacker::::23::::821::::901::::java.lang.reflect.Field namingPolicyField = createInfo.getClass().getDeclaredField("namingPolicy")::::INSERT::::STATEMENT::::-4389233991416356668L	0.0
+303	org.mockito.internal.creation.cglib.CGLIBHacker::::22::::755::::807::::java.lang.Object createInfo = createInfoField.get(methodProxy)::::INSERT::::STATEMENT::::-4389233991416356668L	0.0
+304	org.mockito.internal.creation.cglib.CGLIBHacker::::21::::706::::741::::createInfoField.setAccessible(true)::::INSERT::::STATEMENT::::-4389233991416356668L	0.0
+305	org.mockito.internal.creation.cglib.CGLIBHacker::::20::::636::::692::::java.lang.reflect.Field createInfoField = reflectOnCreateInfo(methodProxy)::::INSERT::::STATEMENT::::-4389233991416356668L	0.0
+306	org.mockito.internal.creation.cglib.CGLIBHacker::::19::::561::::622::::org.mockito.cglib.proxy.MethodProxy methodProxy = mockitoMethodProxy.getMethodProxy()::::INSERT::::STATEMENT::::-4389233991416356668L	0.0
+307	org.mockito.internal.creation.SerializableMockitoMethodProxy::::26::::954::::957::::desc::::"createInfo"	0.0
+308	org.mockito.internal.creation.SerializableMockitoMethodProxy::::26::::954::::957::::desc::::"c2"	0.0
+309	org.mockito.internal.creation.SerializableMockitoMethodProxy::::26::::954::::957::::desc::::"c1"	0.0
+310	org.mockito.internal.creation.SerializableMockitoMethodProxy::::26::::954::::1003::::desc = methodProxy.getSignature().getDescriptor()::::c2 = ((java.lang.Class<?>) (org.mockito.internal.util.reflection.Whitebox.getInternalState(info, "c2")))	0.0
+311	org.mockito.internal.creation.SerializableMockitoMethodProxy::::26::::954::::1003::::desc = methodProxy.getSignature().getDescriptor()::::c1 = ((java.lang.Class<?>) (org.mockito.internal.util.reflection.Whitebox.getInternalState(info, "c1")))	0.0
+312	org.mockito.internal.creation.SerializableMockitoMethodProxy::::25::::891::::944::::c2 = ((java.lang.Class<?>) (org.mockito.internal.util.reflection.Whitebox.getInternalState(info, "c2")))::::this.methodProxy = methodProxy	0.0
+313	org.mockito.internal.creation.SerializableMockitoMethodProxy::::24::::828::::881::::c1 = ((java.lang.Class<?>) (org.mockito.internal.util.reflection.Whitebox.getInternalState(info, "c1")))::::this.methodProxy = methodProxy	0.0
+314	org.mockito.internal.creation.SerializableMockitoMethodProxy::::23::::792::::802::::methodProxy::::this.methodProxy	0.0

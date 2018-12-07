@@ -1,0 +1,11 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+9669	ParseErrorList.maxSize	int	variable	20	use	org.jsoup.parser.ParseErrorList.canAddError	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_41_buggy/src/main/java/org/jsoup/parser/ParseErrorList.java	19	21
+9669	ParseErrorList.maxSize	int	variable	24	use	org.jsoup.parser.ParseErrorList.getMaxSize	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_41_buggy/src/main/java/org/jsoup/parser/ParseErrorList.java	23	25
+9661	initialCapacity	int	param	14	define	org.jsoup.parser.ParseErrorList.ParseErrorList	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_41_buggy/src/main/java/org/jsoup/parser/ParseErrorList.java	14	17
+9662	maxSize	int	param	14	define	org.jsoup.parser.ParseErrorList.ParseErrorList	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_41_buggy/src/main/java/org/jsoup/parser/ParseErrorList.java	14	17
+9661	initialCapacity	int	param	15	use	org.jsoup.parser.ParseErrorList.ParseErrorList	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_41_buggy/src/main/java/org/jsoup/parser/ParseErrorList.java	14	17
+9662	maxSize	int	param	16	use	org.jsoup.parser.ParseErrorList.ParseErrorList	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_41_buggy/src/main/java/org/jsoup/parser/ParseErrorList.java	14	17
+9669	ParseErrorList.maxSize	int	variable	16	set	org.jsoup.parser.ParseErrorList.ParseErrorList	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_41_buggy/src/main/java/org/jsoup/parser/ParseErrorList.java	14	17
+9667	maxSize	int	param	31	define	org.jsoup.parser.ParseErrorList.tracking	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_41_buggy/src/main/java/org/jsoup/parser/ParseErrorList.java	31	33
+9667	maxSize	int	param	32	use	org.jsoup.parser.ParseErrorList.tracking	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_41_buggy/src/main/java/org/jsoup/parser/ParseErrorList.java	31	33
+9668	ParseErrorList.INITIAL_CAPACITY	int	variable	32	use	org.jsoup.parser.ParseErrorList.tracking	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_41_buggy/src/main/java/org/jsoup/parser/ParseErrorList.java	31	33

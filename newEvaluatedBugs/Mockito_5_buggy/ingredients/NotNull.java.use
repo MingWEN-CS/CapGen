@@ -1,0 +1,5 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+2790	description	Description	param	27	define	org.mockito.internal.matchers.NotNull.describeTo	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_5_buggy/src/org/mockito/internal/matchers/NotNull.java	27	29
+2790	description	Description	param	28	use	org.mockito.internal.matchers.NotNull.describeTo	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_5_buggy/src/org/mockito/internal/matchers/NotNull.java	27	29
+2792	actual	Object	param	23	define	org.mockito.internal.matchers.NotNull.matches	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_5_buggy/src/org/mockito/internal/matchers/NotNull.java	23	25
+2792	actual	Object	param	24	use	org.mockito.internal.matchers.NotNull.matches	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_5_buggy/src/org/mockito/internal/matchers/NotNull.java	23	25

@@ -1,0 +1,551 @@
+1	org.mockito.internal.configuration.injection.MockInjectionStrategy::::89::::2901::::2979::::(nextStrategy) != null) && (nextStrategy.process(field, fieldOwner, mockCandidates)::::nextStrategy.process(field, fieldOwner, mockCandidates)	0.05842373946721772
+2	org.mockito.internal.util.reflection.FieldInitializer::::240::::9402::::9417::::newFieldInstance::::testClass	0.02545584412271571
+3	org.mockito.internal.util.Primitives::::29::::795::::809::::org.mockito.internal.util.Primitives.primitiveValues::::org.mockito.internal.util.Primitives.wrapperReturnValues	0.020164033210003342
+4	org.mockito.internal.invocation.SerializableMethod::::30::::975::::983::::isVarArgs::::getReturnType	0.019242809417694552
+5	org.mockito.internal.invocation.SerializableMethod::::30::::975::::983::::isVarArgs::::getParameterTypes	0.019242809417694552
+6	org.mockito.internal.invocation.SerializableMethod::::30::::975::::983::::isVarArgs::::getName	0.019242809417694552
+7	org.mockito.internal.invocation.SerializableMethod::::30::::975::::983::::isVarArgs::::getExceptionTypes	0.019242809417694552
+8	org.mockito.internal.invocation.SerializableMethod::::29::::927::::943::::getExceptionTypes::::getParameterTypes	0.019242809417694552
+9	org.mockito.internal.invocation.SerializableMethod::::29::::910::::923::::exceptionTypes::::parameterTypes	0.019242809417694552
+10	org.mockito.internal.invocation.SerializableMethod::::28::::878::::890::::getReturnType::::getParameterTypes	0.019242809417694552
+11	org.mockito.internal.invocation.SerializableMethod::::28::::878::::890::::getReturnType::::getName	0.019242809417694552
+12	org.mockito.internal.invocation.SerializableMethod::::28::::865::::874::::returnType::::declaringClass	0.019242809417694552
+13	org.mockito.internal.util.reflection.FieldInitializer::::240::::9402::::9417::::newFieldInstance::::fieldOwner	0.017380197021716243
+14	org.mockito.internal.configuration.injection.MockInjection::::93::::3124::::3146::::postInjectionStrategies::::injectionStrategies	0.01643167672515498
+15	org.mockito.internal.util.reflection.FieldInitializer::::236::::9134::::9140::::changer::::new org.mockito.internal.util.reflection.AccessibilityChanger()	0.01613743060919757
+16	org.mockito.internal.invocation.SerializableMethod::::26::::786::::792::::getName::::getParameterTypes	0.01603567451474546
+17	org.mockito.internal.invocation.SerializableMethod::::29::::927::::943::::getExceptionTypes::::getReturnType	0.015862315871342805
+18	org.mockito.internal.util.reflection.FieldInitializer::::268::::11111::::11122::::constructors::::field	0.015428869044748548
+19	org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler::::43::::1564::::1573::::fieldOwner::::instance	0.015244798798460106
+20	org.mockito.internal.util.reflection.FieldInitializationReport::::46::::1399::::1432::::wasInitializedUsingConstructorArgs::::wasInitialized	0.014948186373673195
+21	org.mockito.internal.util.reflection.FieldInitializer::::68::::2214::::2229::::checkNotAbstract::::checkNotLocal	0.014696938456699069
+22	org.mockito.internal.util.reflection.FieldInitializer::::68::::2214::::2229::::checkNotAbstract::::checkNotInterface	0.014696938456699069
+23	org.mockito.internal.util.reflection.FieldInitializer::::68::::2214::::2229::::checkNotAbstract::::checkNotInner	0.014696938456699069
+24	org.mockito.internal.util.Checks::::23::::648::::675::::"item in " + checkedIterable::::checkedIterable	0.01460593486680443
+25	org.mockito.internal.util.reflection.FieldInitializer::::67::::2176::::2192::::checkNotInterface::::checkNotLocal	0.01445794792024498
+26	org.mockito.internal.util.reflection.FieldInitializer::::67::::2176::::2192::::checkNotInterface::::checkNotInner	0.01445794792024498
+27	org.mockito.internal.invocation.SerializableMethod::::28::::878::::890::::getReturnType::::getExceptionTypes	0.014432107063270914
+28	org.mockito.internal.util.reflection.FieldInitializer::::66::::2142::::2154::::checkNotInner::::checkNotLocal	0.014230249470757707
+29	org.mockito.internal.util.reflection.FieldInitializer::::228::::8823::::8838::::argumentResolver::::this.argResolver	0.014230249470757707
+30	org.mockito.internal.util.reflection.FieldInitializer::::228::::8804::::8819::::this.argResolver::::argumentResolver	0.014230249470757707
+31	org.mockito.internal.util.reflection.FieldInitializer::::226::::8732::::8745::::this.testClass::::fieldOwner	0.014230249470757707
+32	org.mockito.internal.util.Primitives::::66::::2481::::2495::::org.mockito.internal.util.Primitives.primitiveValues::::org.mockito.internal.util.Primitives.wrapperReturnValues	0.013606721028332179
+33	org.mockito.internal.util.Primitives::::65::::2435::::2449::::org.mockito.internal.util.Primitives.primitiveValues::::org.mockito.internal.util.Primitives.wrapperReturnValues	0.013606721028332179
+34	org.mockito.internal.util.Primitives::::64::::2390::::2404::::org.mockito.internal.util.Primitives.primitiveValues::::org.mockito.internal.util.Primitives.wrapperReturnValues	0.013606721028332179
+35	org.mockito.internal.util.Primitives::::63::::2347::::2361::::org.mockito.internal.util.Primitives.primitiveValues::::org.mockito.internal.util.Primitives.wrapperReturnValues	0.013606721028332179
+36	org.mockito.internal.util.Primitives::::62::::2294::::2308::::org.mockito.internal.util.Primitives.primitiveValues::::org.mockito.internal.util.Primitives.wrapperReturnValues	0.013606721028332179
+37	org.mockito.internal.util.Primitives::::61::::2243::::2257::::org.mockito.internal.util.Primitives.primitiveValues::::org.mockito.internal.util.Primitives.wrapperReturnValues	0.013606721028332179
+38	org.mockito.internal.util.Primitives::::60::::2192::::2206::::org.mockito.internal.util.Primitives.primitiveValues::::org.mockito.internal.util.Primitives.wrapperReturnValues	0.013606721028332179
+39	org.mockito.internal.util.Primitives::::59::::2141::::2155::::org.mockito.internal.util.Primitives.primitiveValues::::org.mockito.internal.util.Primitives.wrapperReturnValues	0.013606721028332179
+40	org.mockito.internal.configuration.injection.MockInjectionStrategy::::71::::2187::::2212::::relayProcessToNextStrategy::::process	0.013444099138763167
+41	org.mockito.internal.util.reflection.FieldInitializationReport::::19::::647::::680::::wasInitializedUsingConstructorArgs::::wasInitialized	0.01323386319768854
+42	org.mockito.internal.util.reflection.FieldInitializationReport::::19::::605::::643::::this.wasInitializedUsingConstructorArgs::::wasInitialized	0.01323386319768854
+43	org.mockito.internal.util.reflection.FieldInitializationReport::::19::::605::::643::::this.wasInitializedUsingConstructorArgs::::this.wasInitialized	0.01323386319768854
+44	org.mockito.internal.util.reflection.FieldInitializationReport::::18::::581::::594::::wasInitialized::::wasInitializedUsingConstructorArgs	0.01323386319768854
+45	org.mockito.internal.util.reflection.FieldInitializationReport::::18::::559::::577::::this.wasInitialized::::wasInitializedUsingConstructorArgs	0.01323386319768854
+46	org.mockito.internal.util.reflection.FieldInitializationReport::::18::::559::::577::::this.wasInitialized::::this.wasInitializedUsingConstructorArgs	0.01323386319768854
+47	org.mockito.internal.stubbing.defaultanswers.ReturnsMocks::::22::::817::::824::::delegate::::this	0.013145341380123986
+48	org.mockito.internal.invocation.SerializableMethod::::26::::786::::792::::getName::::getReturnType	0.012828539611796367
+49	org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler::::32::::1021::::1030::::fieldOwner::::instance	0.012612032574132112
+50	org.mockito.internal.invocation.SerializableMethod::::29::::927::::943::::getExceptionTypes::::getName	0.012481822324991062
+51	org.mockito.internal.configuration.injection.MockInjectionStrategy::::71::::2187::::2212::::relayProcessToNextStrategy::::processInjection	0.012448239943299228
+52	org.mockito.internal.invocation.SerializableMethod::::27::::829::::845::::getParameterTypes::::getName	0.012095480205408004
+53	org.mockito.internal.configuration.injection.MockInjection::::92::::3053::::3071::::injectionStrategies::::postInjectionStrategies	0.01204989626511365
+54	org.mockito.internal.util.reflection.FieldInitializer::::65::::2108::::2120::::checkNotLocal::::checkNotInner	0.012011126567063496
+55	org.mockito.internal.util.reflection.FieldInitializer::::66::::2142::::2154::::checkNotInner::::checkNotInterface	0.011858541225631423
+56	org.mockito.internal.util.reflection.FieldInitializer::::70::::2257::::2271::::this.fieldOwner::::testClass	0.011628864424563477
+57	org.mockito.internal.util.reflection.FieldInitializer::::67::::2176::::2192::::checkNotInterface::::checkNotAbstract	0.011566358336195985
+58	org.mockito.internal.invocation.SerializableMethod::::27::::829::::845::::getParameterTypes::::getExceptionTypes	0.01154568565061673
+59	org.mockito.internal.util.reflection.FieldInitializer::::253::::10435::::10441::::changer::::new org.mockito.internal.util.reflection.AccessibilityChanger()	0.011180339887498947
+60	org.mockito.internal.util.reflection.FieldInitializer::::119::::4122::::4134::::fieldInstance::::fieldOwner	0.01054683639516657
+61	org.mockito.internal.util.reflection.FieldInitializer::::269::::11144::::11182::::checkParameterized(constructor, field)::::INSERT::::STATEMENT::::checkParameterized(constructor, field)	0.010521604757196814
+62	org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler::::37::::1236::::1246::::fieldReader::::new org.mockito.internal.util.reflection.FieldReader(fieldOwner, field)	0.010491611262390997
+63	org.mockito.internal.util.reflection.FieldInitializer::::60::::1896::::1905::::fieldOwner::::testClass	0.010402316042943836
+64	org.mockito.internal.util.reflection.FieldInitializer::::60::::1836::::1845::::fieldOwner::::testClass	0.010339271703289632
+65	org.mockito.internal.util.reflection.FieldInitializer::::85::::2696::::2715::::acquireFieldInstance::::instantiate	0.010205040771249134
+66	org.mockito.internal.util.reflection.FieldInitializer::::65::::2108::::2120::::checkNotLocal::::checkNotInterface	0.010009272139219582
+67	org.mockito.internal.util.reflection.FieldInitializer::::242::::9485::::9493::::testClass::::fieldOwner	0.00988781814602033
+68	org.mockito.internal.util.reflection.FieldInitializer::::270::::11196::::11214::::return constructor::::INSERT::::STATEMENT::::checkParameterized(constructor, field)	0.009864004459872013
+69	org.mockito.internal.util.reflection.FieldInitializer::::240::::9380::::9388::::testClass::::fieldOwner	0.009826171122566948
+70	org.mockito.internal.invocation.SerializableMethod::::27::::829::::845::::getParameterTypes::::getReturnType	0.009676384164326403
+71	org.mockito.internal.invocation.SerializableMethod::::28::::878::::890::::getReturnType::::isVarArgs	0.009621404708847276
+72	org.mockito.internal.invocation.SerializableMethod::::26::::786::::792::::getName::::getExceptionTypes	0.009621404708847276
+73	org.mockito.internal.util.reflection.FieldInitializer::::66::::2142::::2154::::checkNotInner::::checkNotAbstract	0.009486832980505138
+74	org.mockito.internal.util.reflection.FieldInitializer::::89::::2946::::2952::::changer::::new org.mockito.internal.util.reflection.AccessibilityChanger()	0.009190182776172597
+75	org.mockito.internal.util.reflection.FieldInitializer::::82::::2633::::2639::::changer::::new org.mockito.internal.util.reflection.AccessibilityChanger()	0.009190182776172597
+76	org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler::::35::::1120::::1130::::fieldReader::::new org.mockito.internal.util.reflection.FieldReader(fieldOwner, field)	0.008887209045939202
+77	org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler::::38::::1298::::1305::::instance::::fieldOwner	0.008398460994485128
+78	org.mockito.internal.invocation.SerializableMethod::::29::::927::::943::::getExceptionTypes::::isVarArgs	0.008321214883327373
+79	org.mockito.internal.util.reflection.FieldInitializationReport::::46::::1399::::1432::::wasInitializedUsingConstructorArgs::::this.wasInitialized	0.008304547985373997
+80	org.mockito.internal.util.reflection.FieldInitializer::::118::::4098::::4107::::fieldOwner::::testClass	0.008268339091721233
+81	org.mockito.internal.util.reflection.FieldInitializer::::119::::4122::::4134::::fieldInstance::::testClass	0.008203094974018443
+82	org.mockito.internal.util.reflection.FieldInitializer::::65::::2108::::2120::::checkNotLocal::::checkNotAbstract	0.008007417711375664
+83	org.mockito.internal.util.reflection.FieldInitializer::::70::::2257::::2271::::this.fieldOwner::::this.testClass	0.007857340827407754
+84	org.mockito.internal.util.reflection.FieldInitializer::::64::::2065::::2074::::fieldOwner::::testClass	0.00780327868852459
+85	org.mockito.internal.util.reflection.FieldInitializationReport::::18::::581::::594::::wasInitialized::::this.wasInitializedUsingConstructorArgs	0.007562207541536308
+86	org.mockito.internal.util.reflection.FieldInitializer::::70::::2275::::2284::::fieldOwner::::testClass	0.007428615703991807
+87	org.mockito.internal.util.reflection.FieldInitializationReport::::19::::647::::680::::wasInitializedUsingConstructorArgs::::this.wasInitialized	0.007399579422363484
+88	org.mockito.internal.util.Primitives::::49::::1748::::1766::::org.mockito.internal.util.Primitives.wrapperReturnValues::::org.mockito.internal.util.Primitives.primitiveValues	0.00734930919740164
+89	org.mockito.internal.util.Primitives::::48::::1693::::1711::::org.mockito.internal.util.Primitives.wrapperReturnValues::::org.mockito.internal.util.Primitives.primitiveValues	0.00734534730565102
+90	org.mockito.internal.util.Primitives::::54::::2020::::2038::::org.mockito.internal.util.Primitives.wrapperReturnValues::::org.mockito.internal.util.Primitives.primitiveValues	0.0073412330334484514
+91	org.mockito.internal.util.Primitives::::55::::2070::::2088::::org.mockito.internal.util.Primitives.wrapperReturnValues::::org.mockito.internal.util.Primitives.primitiveValues	0.00734063232703871
+92	org.mockito.internal.util.Primitives::::52::::1920::::1938::::org.mockito.internal.util.Primitives.wrapperReturnValues::::org.mockito.internal.util.Primitives.primitiveValues	0.007340179620758906
+93	org.mockito.internal.util.Primitives::::53::::1971::::1989::::org.mockito.internal.util.Primitives.wrapperReturnValues::::org.mockito.internal.util.Primitives.primitiveValues	0.00733982621779209
+94	org.mockito.internal.util.Primitives::::50::::1808::::1826::::org.mockito.internal.util.Primitives.wrapperReturnValues::::org.mockito.internal.util.Primitives.primitiveValues	0.007339542673551272
+95	org.mockito.internal.util.Primitives::::51::::1863::::1881::::org.mockito.internal.util.Primitives.wrapperReturnValues::::org.mockito.internal.util.Primitives.primitiveValues	0.007339310137269121
+96	org.mockito.internal.util.reflection.FieldInitializer::::123::::4252::::4263::::instantiator::::this	0.007244179326244427
+97	org.mockito.internal.configuration.injection.MockInjectionStrategy::::68::::2078::::2093::::processInjection::::relayProcessToNextStrategy	0.006969562527272071
+98	org.mockito.internal.configuration.injection.ConstructorInjection::::51::::1647::::1660::::mockCandidates::::objects	0.006917835305389974
+99	org.mockito.internal.configuration.injection.MockInjectionStrategy::::89::::2925::::2931::::process::::relayProcessToNextStrategy	0.006161878771933117
+100	org.mockito.internal.util.reflection.FieldInitializer::::226::::8749::::8757::::testClass::::fieldOwner	0.006081842793624634
+101	org.mockito.internal.invocation.SerializableMethod::::55::::1439::::1452::::declaringClass::::returnType	0.006061798760097445
+102	org.mockito.internal.util.reflection.FieldInitializer::::268::::11082::::11130::::java.lang.reflect.Constructor<?> constructor = constructors.get(0)::::INSERT::::STATEMENT::::checkParameterized(constructor, field)	0.006021828283753782
+103	org.mockito.internal.util.reflection.FieldInitializer::::266::::11018::::11067::::java.util.Collections.sort(constructors, byParameterNumber)::::INSERT::::STATEMENT::::checkParameterized(constructor, field)	0.005831665285319452
+104	org.mockito.internal.util.reflection.FieldInitializer::::123::::4252::::4263::::instantiator::::this.instantiator	0.005795343460995542
+105	org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues::::59::::1852::::1862::::return ret::::INSERT::::STATEMENT::::if (ret != null) {    return ret;}	0.005644
+106	org.mockito.internal.util.reflection.FieldInitializer::::265::::10916::::11004::::final java.util.List<java.lang.reflect.Constructor<?>> constructors = java.util.Arrays.asList(clazz.getDeclaredConstructors())::::INSERT::::STATEMENT::::checkParameterized(constructor, field)	0.005399690078999492
+107	org.mockito.internal.invocation.SerializableMethod::::26::::786::::792::::getName::::isVarArgs	0.005287438623780935
+108	org.mockito.internal.invocation.SerializableMethod::::25::::720::::733::::declaringClass::::returnType	0.005282339840151445
+109	org.mockito.internal.configuration.injection.MockInjectionStrategy::::89::::2925::::2931::::process::::processInjection	0.005134898976610932
+110	org.mockito.internal.util.reflection.FieldInitializer::::259::::10618::::10660::::(constructor.getParameterTypes().length) == 0::::constructor != null	0.00511101251999952
+111	org.mockito.internal.invocation.SerializableMethod::::27::::829::::845::::getParameterTypes::::isVarArgs	0.004838192082163201
+112	org.mockito.internal.util.reflection.FieldInitializer::::228::::8823::::8838::::argumentResolver::::argResolver	0.0039133186044583695
+113	org.mockito.internal.util.reflection.FieldInitializer::::123::::4252::::4262::::instantiate::::acquireFieldInstance	0.0039007119449008454
+114	org.mockito.internal.configuration.injection.MockInjectionStrategy::::68::::2078::::2093::::processInjection::::process	0.0038332593899996397
+115	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls::::43::::1726::::1733::::delegate::::new org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls.ThrowsSmartNullPointer(invocation, location)	0.0037726686497634694
+116	org.mockito.internal.util.reflection.FieldInitializer::::226::::8732::::8745::::this.testClass::::this.fieldOwner	0.0036802369320925107
+117	org.mockito.internal.util.reflection.FieldInitializer::::238::::9208::::9218::::argResolver::::this	0.003400957329000087
+118	org.mockito.internal.configuration.injection.ConstructorInjection::::86::::3044::::3049::::object::::objectThatIsAssignableFrom(argType)	0.0032453923381575035
+119	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls::::45::::1809::::1834::::return defaultReturnValue::::INSERT::::STATEMENT::::if (defaultReturnValue != null) {    return defaultReturnValue;}	0.003155091916252203
+120	org.mockito.internal.stubbing.defaultanswers.ReturnsMocks::::24::::885::::895::::return ret::::INSERT::::STATEMENT::::if (ret != null) {    return ret;}	0.003155091916252203
+121	org.mockito.internal.util.reflection.FieldInitializer::::68::::2214::::2237::::checkNotAbstract(field)::::INSERT::::STATEMENT::::checkNotLocal(field)	0.002482966102601215
+122	org.mockito.internal.util.reflection.FieldInitializer::::68::::2214::::2237::::checkNotAbstract(field)::::INSERT::::STATEMENT::::checkNotInterface(field)	0.002482966102601215
+123	org.mockito.internal.util.reflection.FieldInitializer::::68::::2214::::2237::::checkNotAbstract(field)::::INSERT::::STATEMENT::::checkNotInner(field)	0.002482966102601215
+124	org.mockito.internal.util.reflection.FieldInitializer::::68::::2214::::2237::::checkNotAbstract(field)::::INSERT::::STATEMENT::::checkNotAbstract(field)	0.002482966102601215
+125	org.mockito.internal.util.reflection.FieldInitializer::::270::::11196::::11214::::return constructor::::INSERT::::STATEMENT::::checkNotLocal(field)	0.0024660011149680037
+126	org.mockito.internal.util.reflection.FieldInitializer::::270::::11196::::11214::::return constructor::::INSERT::::STATEMENT::::checkNotInterface(field)	0.0024660011149680037
+127	org.mockito.internal.util.reflection.FieldInitializer::::270::::11196::::11214::::return constructor::::INSERT::::STATEMENT::::checkNotInner(field)	0.0024660011149680037
+128	org.mockito.internal.util.reflection.FieldInitializer::::67::::2176::::2200::::checkNotInterface(field)::::INSERT::::STATEMENT::::checkNotLocal(field)	0.002442589979192499
+129	org.mockito.internal.util.reflection.FieldInitializer::::67::::2176::::2200::::checkNotInterface(field)::::INSERT::::STATEMENT::::checkNotInterface(field)	0.002442589979192499
+130	org.mockito.internal.util.reflection.FieldInitializer::::67::::2176::::2200::::checkNotInterface(field)::::INSERT::::STATEMENT::::checkNotInner(field)	0.002442589979192499
+131	org.mockito.internal.util.reflection.FieldInitializer::::66::::2142::::2162::::checkNotInner(field)::::INSERT::::STATEMENT::::checkNotLocal(field)	0.0024041215911430104
+132	org.mockito.internal.util.reflection.FieldInitializer::::66::::2142::::2162::::checkNotInner(field)::::INSERT::::STATEMENT::::checkNotInner(field)	0.0024041215911430104
+133	org.mockito.internal.invocation.SerializableMethod::::30::::963::::993::::isVarArgs = method.isVarArgs()::::returnType = method.getReturnType()	0.002373279828182328
+134	org.mockito.internal.invocation.SerializableMethod::::30::::963::::993::::isVarArgs = method.isVarArgs()::::parameterTypes = method.getParameterTypes()	0.002373279828182328
+135	org.mockito.internal.invocation.SerializableMethod::::30::::963::::993::::isVarArgs = method.isVarArgs()::::methodName = method.getName()	0.002373279828182328
+136	org.mockito.internal.invocation.SerializableMethod::::30::::963::::993::::isVarArgs = method.isVarArgs()::::exceptionTypes = method.getExceptionTypes()	0.002373279828182328
+137	org.mockito.internal.invocation.SerializableMethod::::29::::910::::953::::exceptionTypes = method.getExceptionTypes()::::returnType = method.getReturnType()	0.002373279828182328
+138	org.mockito.internal.invocation.SerializableMethod::::29::::910::::953::::exceptionTypes = method.getExceptionTypes()::::parameterTypes = method.getParameterTypes()	0.002373279828182328
+139	org.mockito.internal.invocation.SerializableMethod::::29::::910::::953::::exceptionTypes = method.getExceptionTypes()::::methodName = method.getName()	0.002373279828182328
+140	org.mockito.internal.invocation.SerializableMethod::::28::::865::::900::::returnType = method.getReturnType()::::parameterTypes = method.getParameterTypes()	0.002373279828182328
+141	org.mockito.internal.invocation.SerializableMethod::::28::::865::::900::::returnType = method.getReturnType()::::methodName = method.getName()	0.002373279828182328
+142	org.mockito.internal.invocation.SerializableMethod::::27::::812::::855::::parameterTypes = method.getParameterTypes()::::methodName = method.getName()	0.002373279828182328
+143	org.mockito.internal.util.reflection.FieldInitializer::::65::::2108::::2128::::checkNotLocal(field)::::INSERT::::STATEMENT::::checkNotLocal(field)	0.002367415289195191
+144	org.mockito.internal.util.reflection.FieldInitializer::::269::::11144::::11182::::checkParameterized(constructor, field)::::INSERT::::STATEMENT::::checkNotLocal(field)	0.0023673610703692834
+145	org.mockito.internal.util.reflection.FieldInitializer::::269::::11144::::11182::::checkParameterized(constructor, field)::::INSERT::::STATEMENT::::checkNotInner(field)	0.0023673610703692834
+146	org.mockito.internal.util.reflection.FieldInitializer::::233::::8998::::9031::::java.lang.reflect.Constructor<?> constructor = null::::INSERT::::STATEMENT::::checkParameterized(constructor, field)	0.002301973138941889
+147	org.mockito.internal.util.reflection.FieldInitializer::::270::::11196::::11214::::return constructor::::INSERT::::STATEMENT::::checkNotAbstract(field)	0.0020550009291400028
+148	org.mockito.internal.invocation.SerializableMethod::::25::::720::::763::::declaringClass = method.getDeclaringClass()::::methodName = method.getName()	0.00203423985272771
+149	org.mockito.internal.util.reflection.FieldInitializer::::259::::10615::::10823::::if ((constructor.getParameterTypes().length) == 0) {    throw new org.mockito.exceptions.base.MockitoException((((("the field " + (field.getName())) + " of type ") + (field.getType())) + " has no parameterized constructor"));}::::INSERT::::STATEMENT::::checkParameterized(constructor, field)	0.002030669161852309
+150	org.mockito.internal.util.reflection.FieldInitializer::::65::::2108::::2128::::checkNotLocal(field)::::INSERT::::STATEMENT::::checkNotInner(field)	0.0020292131050244494
+151	org.mockito.internal.util.reflection.FieldInitializer::::269::::11144::::11182::::checkParameterized(constructor, field)::::DELETE::::STATEMENT	0.002022988301169007
+152	org.mockito.internal.util.reflection.FieldInitializer::::266::::11018::::11067::::java.util.Collections.sort(constructors, byParameterNumber)::::INSERT::::STATEMENT::::checkNotLocal(field)	0.0020046349418285617
+153	org.mockito.internal.util.reflection.FieldInitializer::::66::::2142::::2162::::checkNotInner(field)::::INSERT::::STATEMENT::::checkNotInterface(field)	0.002003434659285842
+154	org.mockito.internal.configuration.injection.MockInjection::::93::::3124::::3146::::postInjectionStrategies::::new org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler()	0.0019917183909278764
+155	org.mockito.internal.configuration.injection.MockInjection::::93::::3124::::3146::::postInjectionStrategies::::new org.mockito.internal.configuration.injection.ConstructorInjection()	0.0019917183909278764
+156	org.mockito.internal.invocation.SerializableMethod::::26::::773::::802::::methodName = method.getName()::::parameterTypes = method.getParameterTypes()	0.0019777331901519404
+157	org.mockito.internal.invocation.SerializableMethod::::27::::812::::825::::parameterTypes::::exceptionTypes	0.0019548250837023036
+158	org.mockito.internal.util.reflection.FieldInitializer::::67::::2176::::2200::::checkNotInterface(field)::::INSERT::::STATEMENT::::checkNotAbstract(field)	0.0019540719833539993
+159	org.mockito.internal.invocation.SerializableMethod::::55::::1484::::1497::::parameterTypes::::exceptionTypes	0.0019173816969836888
+160	org.mockito.internal.invocation.SerializableMethod::::27::::812::::855::::parameterTypes = method.getParameterTypes()::::returnType = method.getReturnType()	0.0018986238625458625
+161	org.mockito.internal.util.reflection.FieldInitializer::::106::::3553::::3708::::if (field.getType().isInterface()) {    throw new org.mockito.exceptions.base.MockitoException((("the type '" + (field.getType().getSimpleName())) + "' is an interface."));}::::INSERT::::STATEMENT::::checkNotLocal(field)	0.001851477222009504
+162	org.mockito.internal.util.reflection.FieldInitializer::::269::::11144::::11182::::checkParameterized(constructor, field)::::INSERT::::STATEMENT::::checkNotInterface(field)	0.0018412808325094423
+163	org.mockito.internal.util.reflection.FieldInitializer::::112::::3774::::3955::::if (java.lang.reflect.Modifier.isAbstract(field.getType().getModifiers())) {    throw new org.mockito.exceptions.base.MockitoException((("the type '" + (field.getType().getSimpleName())) + " is an abstract class."));}::::INSERT::::STATEMENT::::checkNotLocal(field)	0.0018100195937019443
+164	org.mockito.internal.util.reflection.FieldInitializer::::94::::3053::::3210::::if (field.getType().isLocalClass()) {    throw new org.mockito.exceptions.base.MockitoException((("the type '" + (field.getType().getSimpleName())) + "' is a local class."));}::::INSERT::::STATEMENT::::checkNotLocal(field)	0.0017961967411224337
+165	org.mockito.internal.util.reflection.FieldInitializer::::268::::11082::::11130::::java.lang.reflect.Constructor<?> constructor = constructors.get(0)::::INSERT::::STATEMENT::::checkNotLocal(field)	0.0017827781103218433
+166	org.mockito.internal.util.reflection.FieldInitializer::::268::::11082::::11130::::java.lang.reflect.Constructor<?> constructor = constructors.get(0)::::INSERT::::STATEMENT::::checkNotInner(field)	0.0017827781103218433
+167	org.mockito.internal.invocation.SerializableMethod::::28::::865::::900::::returnType = method.getReturnType()::::exceptionTypes = method.getExceptionTypes()	0.001779959871136746
+168	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls::::43::::1742::::1751::::invocation::::unstubbedInvocation	0.0017257062991162437
+169	org.mockito.internal.invocation.SerializableMethod::::25::::720::::763::::declaringClass = method.getDeclaringClass()::::parameterTypes = method.getParameterTypes()	0.0016951998772730915
+170	org.mockito.internal.util.reflection.FieldInitializer::::65::::2108::::2128::::checkNotLocal(field)::::INSERT::::STATEMENT::::checkNotInterface(field)	0.001691010920853708
+171	org.mockito.internal.util.reflection.FieldInitializer::::106::::3553::::3708::::if (field.getType().isInterface()) {    throw new org.mockito.exceptions.base.MockitoException((("the type '" + (field.getType().getSimpleName())) + "' is an interface."));}::::INSERT::::STATEMENT::::checkNotInner(field)	0.0016663294998085535
+172	org.mockito.internal.util.reflection.FieldInitializer::::259::::10615::::10823::::if ((constructor.getParameterTypes().length) == 0) {    throw new org.mockito.exceptions.base.MockitoException((((("the field " + (field.getName())) + " of type ") + (field.getType())) + " has no parameterized constructor"));}::::INSERT::::STATEMENT::::checkNotLocal(field)	0.0016661900815198433
+173	org.mockito.internal.util.reflection.FieldInitializer::::259::::10615::::10823::::if ((constructor.getParameterTypes().length) == 0) {    throw new org.mockito.exceptions.base.MockitoException((((("the field " + (field.getName())) + " of type ") + (field.getType())) + " has no parameterized constructor"));}::::INSERT::::STATEMENT::::checkNotInner(field)	0.0016661900815198433
+174	org.mockito.internal.util.reflection.FieldInitializer::::266::::11018::::11067::::java.util.Collections.sort(constructors, byParameterNumber)::::INSERT::::STATEMENT::::checkNotInner(field)	0.0016401558614960957
+175	org.mockito.internal.util.reflection.FieldInitializer::::112::::3774::::3955::::if (java.lang.reflect.Modifier.isAbstract(field.getType().getModifiers())) {    throw new org.mockito.exceptions.base.MockitoException((("the type '" + (field.getType().getSimpleName())) + " is an abstract class."));}::::INSERT::::STATEMENT::::checkNotInner(field)	0.00162901763433175
+176	org.mockito.internal.util.reflection.FieldInitializer::::240::::9380::::9388::::testClass::::newFieldInstance	0.0016287247204826378
+177	org.mockito.internal.util.reflection.FieldInitializer::::94::::3053::::3210::::if (field.getType().isLocalClass()) {    throw new org.mockito.exceptions.base.MockitoException((("the type '" + (field.getType().getSimpleName())) + "' is a local class."));}::::INSERT::::STATEMENT::::checkNotInner(field)	0.0016165770670101903
+178	org.mockito.internal.util.reflection.FieldInitializer::::100::::3273::::3486::::if ((field.getType().isMemberClass()) && (!(java.lang.reflect.Modifier.isStatic(field.getType().getModifiers())))) {    throw new org.mockito.exceptions.base.MockitoException((("the type '" + (field.getType().getSimpleName())) + "' is an inner class."));}::::INSERT::::STATEMENT::::checkNotLocal(field)	0.0016113692431533743
+179	org.mockito.internal.util.reflection.FieldInitializer::::66::::2142::::2162::::checkNotInner(field)::::INSERT::::STATEMENT::::checkNotAbstract(field)	0.0016027477274286736
+180	org.mockito.internal.invocation.SerializableMethod::::29::::910::::953::::exceptionTypes = method.getExceptionTypes()::::isVarArgs = method.isVarArgs()	0.001582186552121552
+181	org.mockito.internal.invocation.SerializableMethod::::26::::773::::802::::methodName = method.getName()::::returnType = method.getReturnType()	0.001582186552121552
+182	org.mockito.internal.util.reflection.FieldInitializer::::265::::10916::::11004::::final java.util.List<java.lang.reflect.Constructor<?>> constructors = java.util.Arrays.asList(clazz.getDeclaredConstructors())::::INSERT::::STATEMENT::::checkNotLocal(field)	0.0014849147717248604
+183	org.mockito.internal.util.reflection.FieldInitializer::::259::::10615::::10823::::if ((constructor.getParameterTypes().length) == 0) {    throw new org.mockito.exceptions.base.MockitoException((((("the field " + (field.getName())) + " of type ") + (field.getType())) + " has no parameterized constructor"));}::::INSERT::::STATEMENT::::checkNotInterface(field)	0.001457916321329863
+184	org.mockito.internal.util.reflection.FieldInitializer::::100::::3273::::3486::::if ((field.getType().isMemberClass()) && (!(java.lang.reflect.Modifier.isStatic(field.getType().getModifiers())))) {    throw new org.mockito.exceptions.base.MockitoException((("the type '" + (field.getType().getSimpleName())) + "' is an inner class."));}::::INSERT::::STATEMENT::::checkNotInner(field)	0.0014502323188380368
+185	org.mockito.internal.util.reflection.FieldInitializer::::82::::2633::::2660::::changer.enableAccess(field)::::INSERT::::STATEMENT::::checkNotLocal(field)	0.001438079800815488
+186	org.mockito.internal.util.reflection.FieldInitializer::::82::::2633::::2660::::changer.enableAccess(field)::::INSERT::::STATEMENT::::checkNotInner(field)	0.001438079800815488
+187	org.mockito.internal.invocation.SerializableMethod::::27::::812::::855::::parameterTypes = method.getParameterTypes()::::exceptionTypes = method.getExceptionTypes()	0.0014239678969093967
+188	org.mockito.internal.util.reflection.FieldInitializer::::266::::11018::::11067::::java.util.Collections.sort(constructors, byParameterNumber)::::DELETE::::STATEMENT	0.0014015674082968682
+189	org.mockito.internal.util.reflection.FieldInitializer::::268::::11082::::11130::::java.lang.reflect.Constructor<?> constructor = constructors.get(0)::::INSERT::::STATEMENT::::checkNotInterface(field)	0.0013866051969169892
+190	org.mockito.internal.invocation.SerializableMethod::::25::::720::::763::::declaringClass = method.getDeclaringClass()::::returnType = method.getReturnType()	0.0013561599018184732
+191	org.mockito.internal.util.reflection.FieldInitializer::::65::::2108::::2128::::checkNotLocal(field)::::INSERT::::STATEMENT::::checkNotAbstract(field)	0.0013528087366829662
+192	org.mockito.internal.util.reflection.FieldInitializer::::269::::11144::::11182::::checkParameterized(constructor, field)::::INSERT::::STATEMENT::::checkNotAbstract(field)	0.0013152005946496018
+193	org.mockito.internal.configuration.injection.MockInjection::::92::::3053::::3071::::injectionStrategies::::new org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler()	0.0013145341380123984
+194	org.mockito.internal.configuration.injection.MockInjection::::92::::3053::::3071::::injectionStrategies::::new org.mockito.internal.configuration.injection.ConstructorInjection()	0.0013145341380123984
+195	org.mockito.internal.util.reflection.FieldInitializer::::106::::3553::::3708::::if (field.getType().isInterface()) {    throw new org.mockito.exceptions.base.MockitoException((("the type '" + (field.getType().getSimpleName())) + "' is an interface."));}::::INSERT::::STATEMENT::::checkNotInterface(field)	0.0012960340554066527
+196	org.mockito.internal.util.reflection.FieldInitializer::::266::::11018::::11067::::java.util.Collections.sort(constructors, byParameterNumber)::::INSERT::::STATEMENT::::checkNotInterface(field)	0.0012756767811636302
+197	org.mockito.internal.util.reflection.FieldInitializer::::112::::3774::::3955::::if (java.lang.reflect.Modifier.isAbstract(field.getType().getModifiers())) {    throw new org.mockito.exceptions.base.MockitoException((("the type '" + (field.getType().getSimpleName())) + " is an abstract class."));}::::INSERT::::STATEMENT::::checkNotInterface(field)	0.0012670137155913611
+198	org.mockito.internal.configuration.injection.MockInjectionStrategy::::69::::2149::::2160::::return true::::INSERT::::STATEMENT::::if (processInjection(onField, fieldOwnedBy, mockCandidates)) {    return true;}	0.0012620367665008812
+199	org.mockito.internal.util.reflection.FieldInitializer::::82::::2633::::2660::::changer.enableAccess(field)::::INSERT::::STATEMENT::::checkNotInterface(field)	0.001258319825713552
+200	org.mockito.internal.util.reflection.FieldInitializer::::94::::3053::::3210::::if (field.getType().isLocalClass()) {    throw new org.mockito.exceptions.base.MockitoException((("the type '" + (field.getType().getSimpleName())) + "' is a local class."));}::::INSERT::::STATEMENT::::checkNotInterface(field)	0.0012573377187857036
+201	org.mockito.internal.util.reflection.FieldInitializer::::240::::9402::::9417::::newFieldInstance::::this.fieldOwner	0.001253982469099296
+202	org.mockito.internal.util.reflection.FieldInitializer::::232::::8921::::8984::::final org.mockito.internal.util.reflection.AccessibilityChanger changer = new org.mockito.internal.util.reflection.AccessibilityChanger()::::INSERT::::STATEMENT::::checkParameterized(constructor, field)	0.0012517463364953368
+203	org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues::::58::::1821::::1872::::if (ret != null) {    return ret;}::::INSERT::::STATEMENT::::if (ret != null) {    return ret;}	0.0012237786914774608
+204	org.mockito.internal.util.reflection.FieldInitializer::::265::::10916::::11004::::final java.util.List<java.lang.reflect.Constructor<?>> constructors = java.util.Arrays.asList(clazz.getDeclaredConstructors())::::INSERT::::STATEMENT::::checkNotInner(field)	0.0012149302677748857
+205	org.mockito.internal.invocation.SerializableMethod::::28::::865::::900::::returnType = method.getReturnType()::::isVarArgs = method.isVarArgs()	0.001186639914091164
+206	org.mockito.internal.invocation.SerializableMethod::::26::::773::::802::::methodName = method.getName()::::exceptionTypes = method.getExceptionTypes()	0.001186639914091164
+207	org.mockito.internal.util.reflection.FieldInitializer::::82::::2633::::2660::::changer.enableAccess(field)::::DELETE::::STATEMENT	0.0011520813128209966
+208	org.mockito.internal.util.reflection.FieldInitializer::::123::::4245::::4278::::return instantiator.instantiate()::::INSERT::::STATEMENT::::checkNotLocal(field)	0.001148001196006235
+209	org.mockito.internal.util.reflection.FieldInitializer::::123::::4245::::4278::::return instantiator.instantiate()::::INSERT::::STATEMENT::::checkNotInterface(field)	0.001148001196006235
+210	org.mockito.internal.util.reflection.FieldInitializer::::123::::4245::::4278::::return instantiator.instantiate()::::INSERT::::STATEMENT::::checkNotInner(field)	0.001148001196006235
+211	org.mockito.internal.util.reflection.FieldInitializer::::123::::4245::::4278::::return instantiator.instantiate()::::INSERT::::STATEMENT::::checkNotAbstract(field)	0.001148001196006235
+212	org.mockito.internal.stubbing.defaultanswers.ReturnsMocks::::23::::854::::905::::if (ret != null) {    return ret;}::::INSERT::::STATEMENT::::if (ret != null) {    return ret;}	0.0011447401451857972
+213	org.mockito.internal.util.reflection.FieldInitializer::::100::::3273::::3486::::if ((field.getType().isMemberClass()) && (!(java.lang.reflect.Modifier.isStatic(field.getType().getModifiers())))) {    throw new org.mockito.exceptions.base.MockitoException((("the type '" + (field.getType().getSimpleName())) + "' is an inner class."));}::::INSERT::::STATEMENT::::checkNotInterface(field)	0.001127958470207362
+214	org.mockito.internal.stubbing.defaultanswers.ReturnsMocks::::22::::804::::844::::java.lang.Object ret = delegate.answer(invocation)::::INSERT::::STATEMENT::::if (ret != null) {    return ret;}	0.0010875031379265073
+215	org.mockito.internal.util.reflection.FieldInitializer::::259::::10615::::10823::::if ((constructor.getParameterTypes().length) == 0) {    throw new org.mockito.exceptions.base.MockitoException((((("the field " + (field.getName())) + " of type ") + (field.getType())) + " has no parameterized constructor"));}::::INSERT::::STATEMENT::::checkNotAbstract(field)	0.001041368800949902
+216	org.mockito.internal.invocation.SerializableMethod::::25::::720::::763::::declaringClass = method.getDeclaringClass()::::exceptionTypes = method.getExceptionTypes()	0.001017119926363855
+217	org.mockito.internal.creation.CglibMockMaker::::41::::1669::::1680::::return null::::INSERT::::STATEMENT::::if (!(mock instanceof org.mockito.cglib.proxy.Factory)) {    return null;}	0.0010014436128417278
+218	org.mockito.internal.creation.CglibMockMaker::::41::::1669::::1680::::return null::::INSERT::::STATEMENT::::if (!(callback instanceof org.mockito.internal.creation.MethodInterceptorFilter)) {    return null;}	0.0010014436128417278
+219	org.mockito.internal.util.reflection.FieldInitializer::::242::::9485::::9493::::testClass::::newFieldInstance	9.967132195319959E-4
+220	org.mockito.internal.util.reflection.FieldInitializer::::268::::11082::::11130::::java.lang.reflect.Constructor<?> constructor = constructors.get(0)::::INSERT::::STATEMENT::::checkNotAbstract(field)	9.90432283512135E-4
+221	org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues::::57::::1771::::1811::::java.lang.Object ret = delegate.answer(invocation)::::INSERT::::STATEMENT::::if (ret != null) {    return ret;}	9.790229531819686E-4
+222	org.mockito.internal.invocation.SerializableMethod::::27::::812::::855::::parameterTypes = method.getParameterTypes()::::isVarArgs = method.isVarArgs()	9.493119312729313E-4
+223	org.mockito.internal.util.reflection.FieldInitializer::::265::::10916::::11004::::final java.util.List<java.lang.reflect.Constructor<?>> constructors = java.util.Arrays.asList(clazz.getDeclaredConstructors())::::INSERT::::STATEMENT::::checkNotInterface(field)	9.449457638249111E-4
+224	org.mockito.internal.util.reflection.FieldInitializer::::106::::3553::::3708::::if (field.getType().isInterface()) {    throw new org.mockito.exceptions.base.MockitoException((("the type '" + (field.getType().getSimpleName())) + "' is an interface."));}::::INSERT::::STATEMENT::::checkNotAbstract(field)	9.25738611004752E-4
+225	org.mockito.internal.util.reflection.FieldInitializer::::266::::11018::::11067::::java.util.Collections.sort(constructors, byParameterNumber)::::INSERT::::STATEMENT::::checkNotAbstract(field)	9.111977008311644E-4
+226	org.mockito.internal.util.reflection.FieldInitializer::::112::::3774::::3955::::if (java.lang.reflect.Modifier.isAbstract(field.getType().getModifiers())) {    throw new org.mockito.exceptions.base.MockitoException((("the type '" + (field.getType().getSimpleName())) + " is an abstract class."));}::::INSERT::::STATEMENT::::checkNotAbstract(field)	9.050097968509722E-4
+227	org.mockito.internal.util.reflection.FieldInitializer::::233::::8998::::9031::::java.lang.reflect.Constructor<?> constructor = null::::INSERT::::STATEMENT::::checkNotLocal(field)	9.043465902985992E-4
+228	org.mockito.internal.util.reflection.FieldInitializer::::233::::8998::::9031::::java.lang.reflect.Constructor<?> constructor = null::::INSERT::::STATEMENT::::checkNotInner(field)	9.043465902985992E-4
+229	org.mockito.internal.util.reflection.FieldInitializer::::240::::9402::::9417::::newFieldInstance::::this.testClass	9.028673777514932E-4
+230	org.mockito.internal.configuration.injection.MockInjectionStrategy::::68::::2078::::2132::::processInjection(onField, fieldOwnedBy, mockCandidates)::::INSERT::::STATEMENT::::if (processInjection(onField, fieldOwnedBy, mockCandidates)) {    return true;}	9.014548332149151E-4
+231	org.mockito.internal.util.reflection.FieldInitializer::::82::::2633::::2660::::changer.enableAccess(field)::::INSERT::::STATEMENT::::checkNotAbstract(field)	8.9879987550968E-4
+232	org.mockito.internal.util.reflection.FieldInitializer::::94::::3053::::3210::::if (field.getType().isLocalClass()) {    throw new org.mockito.exceptions.base.MockitoException((("the type '" + (field.getType().getSimpleName())) + "' is a local class."));}::::INSERT::::STATEMENT::::checkNotAbstract(field)	8.980983705612169E-4
+233	org.mockito.internal.configuration.injection.MockInjectionStrategy::::89::::2901::::2920::::(nextStrategy) != null::::nextStrategy.process(field, fieldOwner, mockCandidates)	8.65536880995818E-4
+234	org.mockito.internal.util.reflection.FieldInitializer::::64::::2049::::2091::::new org.mockito.internal.util.reflection.FieldReader(fieldOwner, field).isNull()::::INSERT::::STATEMENT::::checkNotLocal(field)	8.109333333333334E-4
+235	org.mockito.internal.util.reflection.FieldInitializer::::100::::3273::::3486::::if ((field.getType().isMemberClass()) && (!(java.lang.reflect.Modifier.isStatic(field.getType().getModifiers())))) {    throw new org.mockito.exceptions.base.MockitoException((("the type '" + (field.getType().getSimpleName())) + "' is an inner class."));}::::INSERT::::STATEMENT::::checkNotAbstract(field)	8.056846215766871E-4
+236	org.mockito.internal.util.reflection.FieldInitializer::::123::::4252::::4263::::instantiator::::new org.mockito.internal.util.reflection.FieldInitializer.ParameterizedConstructorInstantiator(fieldOwner, field, argResolver)	7.968597258868869E-4
+237	org.mockito.internal.util.reflection.FieldInitializer::::123::::4252::::4263::::instantiator::::new org.mockito.internal.util.reflection.FieldInitializer.NoArgConstructorInstantiator(fieldOwner, field)	7.968597258868869E-4
+238	org.mockito.internal.util.reflection.FieldInitializer::::233::::8998::::9031::::java.lang.reflect.Constructor<?> constructor = null::::INSERT::::STATEMENT::::checkNotInterface(field)	7.913032665112742E-4
+239	org.mockito.internal.invocation.SerializableMethod::::26::::773::::802::::methodName = method.getName()::::isVarArgs = method.isVarArgs()	7.91093276060776E-4
+240	org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler::::43::::1548::::1858::::new org.mockito.internal.util.reflection.FieldSetter(fieldOwner, field).set(org.mockito.Mockito.mock(instance.getClass(), org.mockito.Mockito.withSettings().spiedInstance(instance).defaultAnswer(Mockito.CALLS_REAL_METHODS).name(field.getName())))::::DELETE::::STATEMENT	7.600007309938005E-4
+241	org.mockito.internal.util.reflection.FieldInitializer::::60::::1836::::1845::::fieldOwner::::this.testClass	7.342811324430943E-4
+242	org.mockito.internal.util.reflection.FieldInitializer::::60::::1896::::1905::::fieldOwner::::this.testClass	7.308338031827982E-4
+243	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls::::44::::1763::::1844::::if (defaultReturnValue != null) {    return defaultReturnValue;}::::INSERT::::STATEMENT::::if (defaultReturnValue != null) {    return defaultReturnValue;}	7.239972375637907E-4
+244	org.mockito.internal.util.MockCreationValidator::::42::::1245::::1289::::!(classToMock.equals(spiedInstance.getClass()))::::INSERT::::STATEMENT::::if ((classToMock == null) || (spiedInstance == null)) {    return ;}	6.989113512996498E-4
+245	org.mockito.internal.util.reflection.FieldInitializer::::64::::2049::::2091::::new org.mockito.internal.util.reflection.FieldReader(fieldOwner, field).isNull()::::INSERT::::STATEMENT::::checkNotInner(field)	6.950857142857143E-4
+246	org.mockito.internal.util.reflection.FieldInitializer::::106::::3556::::3584::::field.getType().isInterface()::::INSERT::::STATEMENT::::checkNotLocal(field)	6.868918831837174E-4
+247	org.mockito.internal.util.reflection.FieldInitializer::::106::::3556::::3584::::field.getType().isInterface()::::INSERT::::STATEMENT::::checkNotInterface(field)	6.868918831837174E-4
+248	org.mockito.internal.util.reflection.FieldInitializer::::106::::3556::::3584::::field.getType().isInterface()::::INSERT::::STATEMENT::::checkNotInner(field)	6.868918831837174E-4
+249	org.mockito.internal.util.reflection.FieldInitializer::::118::::4065::::4109::::java.lang.Object fieldInstance = field.get(fieldOwner)::::INSERT::::STATEMENT::::checkNotLocal(field)	6.84535656672267E-4
+250	org.mockito.internal.util.reflection.FieldInitializer::::118::::4065::::4109::::java.lang.Object fieldInstance = field.get(fieldOwner)::::INSERT::::STATEMENT::::checkNotInterface(field)	6.84535656672267E-4
+251	org.mockito.internal.util.reflection.FieldInitializer::::118::::4065::::4109::::java.lang.Object fieldInstance = field.get(fieldOwner)::::INSERT::::STATEMENT::::checkNotInner(field)	6.84535656672267E-4
+252	org.mockito.internal.util.reflection.FieldInitializer::::118::::4065::::4109::::java.lang.Object fieldInstance = field.get(fieldOwner)::::INSERT::::STATEMENT::::checkNotAbstract(field)	6.84535656672267E-4
+253	org.mockito.internal.util.MockUtil::::30::::1115::::1168::::new org.mockito.internal.util.reflection.LenientCopyTool().copyToMock(spiedInstance, mock)::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	6.816249258699269E-4
+254	org.mockito.internal.invocation.SerializableMethod::::25::::720::::763::::declaringClass = method.getDeclaringClass()::::isVarArgs = method.isVarArgs()	6.780799509092366E-4
+255	org.mockito.internal.util.reflection.FieldInitializer::::265::::10916::::11004::::final java.util.List<java.lang.reflect.Constructor<?>> constructors = java.util.Arrays.asList(clazz.getDeclaredConstructors())::::INSERT::::STATEMENT::::checkNotAbstract(field)	6.749612598749365E-4
+256	org.mockito.internal.util.reflection.FieldInitializer::::118::::4098::::4107::::fieldOwner::::this.testClass	6.680302313651457E-4
+257	org.mockito.internal.util.reflection.FieldInitializer::::94::::3056::::3085::::field.getType().isLocalClass()::::INSERT::::STATEMENT::::checkNotLocal(field)	6.663830088813867E-4
+258	org.mockito.internal.util.reflection.FieldInitializer::::94::::3056::::3085::::field.getType().isLocalClass()::::INSERT::::STATEMENT::::checkNotInterface(field)	6.663830088813867E-4
+259	org.mockito.internal.util.reflection.FieldInitializer::::94::::3056::::3085::::field.getType().isLocalClass()::::INSERT::::STATEMENT::::checkNotInner(field)	6.663830088813867E-4
+260	org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::54::::1573::::1603::::mockDependentFields.add(field)::::DELETE::::STATEMENT	6.581799399353746E-4
+261	org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::53::::1472::::1555::::assertNoAnnotations(field, org.mockito.Mock.class, org.mockito.Mock.class, org.mockito.Captor.class)::::DELETE::::STATEMENT	6.581799399353746E-4
+262	org.mockito.internal.util.reflection.FieldInitializer::::112::::3777::::3827::::java.lang.reflect.Modifier.isAbstract(field.getType().getModifiers())::::INSERT::::STATEMENT::::checkNotLocal(field)	6.465679356686027E-4
+263	org.mockito.internal.util.reflection.FieldInitializer::::112::::3777::::3827::::java.lang.reflect.Modifier.isAbstract(field.getType().getModifiers())::::INSERT::::STATEMENT::::checkNotInterface(field)	6.465679356686027E-4
+264	org.mockito.internal.util.reflection.FieldInitializer::::112::::3777::::3827::::java.lang.reflect.Modifier.isAbstract(field.getType().getModifiers())::::INSERT::::STATEMENT::::checkNotInner(field)	6.465679356686027E-4
+265	org.mockito.internal.creation.MockSettingsImpl::::153::::4974::::5006::::interfaces.add(org.mockito.internal.util.MockitoSpy.class)::::INSERT::::STATEMENT::::invocationListeners(new org.mockito.internal.debugging.VerboseMockInvocationLogger())	6.381368573322185E-4
+266	org.mockito.internal.util.reflection.FieldInitializer::::232::::8921::::8984::::final org.mockito.internal.util.reflection.AccessibilityChanger changer = new org.mockito.internal.util.reflection.AccessibilityChanger()::::INSERT::::STATEMENT::::checkNotLocal(field)	6.317637392429405E-4
+267	org.mockito.internal.util.reflection.FieldInitializer::::70::::2275::::2284::::fieldOwner::::this.testClass	6.287444523056967E-4
+268	org.mockito.internal.util.reflection.FieldInitializer::::253::::10435::::10475::::changer.safelyDisableAccess(constructor)::::INSERT::::STATEMENT::::checkParameterized(constructor, field)	6.181711563251691E-4
+269	org.mockito.internal.util.reflection.FieldInitializer::::68::::2214::::2237::::checkNotAbstract(field)::::DELETE::::STATEMENT	5.886940348488905E-4
+270	org.mockito.internal.util.reflection.FieldInitializer::::64::::2049::::2091::::new org.mockito.internal.util.reflection.FieldReader(fieldOwner, field).isNull()::::INSERT::::STATEMENT::::checkNotInterface(field)	5.792380952380953E-4
+271	org.mockito.internal.util.reflection.FieldInitializer::::67::::2176::::2200::::checkNotInterface(field)::::DELETE::::STATEMENT	5.791211361387017E-4
+272	org.mockito.internal.util.reflection.FieldInitializer::::106::::3556::::3584::::field.getType().isInterface()::::INSERT::::STATEMENT::::checkNotAbstract(field)	5.724099026530977E-4
+273	org.mockito.internal.configuration.injection.MockInjectionStrategy::::71::::2180::::2252::::return relayProcessToNextStrategy(onField, fieldOwnedBy, mockCandidates)::::INSERT::::STATEMENT::::if (processInjection(onField, fieldOwnedBy, mockCandidates)) {    return true;}	5.723700725928986E-4
+274	org.mockito.internal.util.reflection.FieldInitializer::::66::::2142::::2162::::checkNotInner(field)::::DELETE::::STATEMENT	5.700005482453505E-4
+275	org.mockito.internal.util.reflection.FieldInitializer::::233::::8998::::9031::::java.lang.reflect.Constructor<?> constructor = null::::INSERT::::STATEMENT::::checkNotAbstract(field)	5.652166189366245E-4
+276	org.mockito.internal.util.reflection.FieldInitializer::::65::::2108::::2128::::checkNotLocal(field)::::DELETE::::STATEMENT	5.612977387404581E-4
+277	org.mockito.internal.util.reflection.FieldInitializer::::64::::2065::::2074::::fieldOwner::::this.testClass	5.611894776972932E-4
+278	org.mockito.internal.configuration.injection.MockInjectionStrategy::::68::::2075::::2170::::if (processInjection(onField, fieldOwnedBy, mockCandidates)) {    return true;}::::INSERT::::STATEMENT::::if (processInjection(onField, fieldOwnedBy, mockCandidates)) {    return true;}	5.608058487569473E-4
+279	org.mockito.internal.util.reflection.FieldInitializer::::94::::3056::::3085::::field.getType().isLocalClass()::::INSERT::::STATEMENT::::checkNotAbstract(field)	5.553191740678222E-4
+280	org.mockito.internal.util.reflection.FieldInitializer::::119::::4119::::4234::::if (fieldInstance != null) {    return new org.mockito.internal.util.reflection.FieldInitializationReport(fieldInstance, false, false);}::::INSERT::::STATEMENT::::checkNotLocal(field)	5.445169996256671E-4
+281	org.mockito.internal.util.reflection.FieldInitializer::::119::::4119::::4234::::if (fieldInstance != null) {    return new org.mockito.internal.util.reflection.FieldInitializationReport(fieldInstance, false, false);}::::INSERT::::STATEMENT::::checkNotInner(field)	5.445169996256671E-4
+282	org.mockito.internal.configuration.injection.MockInjectionStrategy::::89::::2901::::2920::::(nextStrategy) != null::::(nextStrategy) != null) && (nextStrategy.process(field, fieldOwner, mockCandidates)	5.409605506223863E-4
+283	org.mockito.internal.util.reflection.FieldInitializer::::112::::3777::::3827::::java.lang.reflect.Modifier.isAbstract(field.getType().getModifiers())::::INSERT::::STATEMENT::::checkNotAbstract(field)	5.388066130571689E-4
+284	org.mockito.internal.util.reflection.FieldInitializer::::238::::9208::::9218::::argResolver::::this.argResolver	5.332511491463551E-4
+285	org.mockito.internal.util.reflection.FieldInitializer::::123::::4245::::4278::::return instantiator.instantiate()::::INSERT::::STATEMENT::::if (fieldInstance != null) {    return new org.mockito.internal.util.reflection.FieldInitializationReport(fieldInstance, false, false);}	5.299117177147798E-4
+286	org.mockito.internal.util.reflection.FieldInitializer::::232::::8921::::8984::::final org.mockito.internal.util.reflection.AccessibilityChanger changer = new org.mockito.internal.util.reflection.AccessibilityChanger()::::INSERT::::STATEMENT::::checkNotInner(field)	5.168976048351331E-4
+287	org.mockito.internal.util.reflection.FieldInitializer::::81::::2560::::2623::::final org.mockito.internal.util.reflection.AccessibilityChanger changer = new org.mockito.internal.util.reflection.AccessibilityChanger()::::INSERT::::STATEMENT::::checkNotLocal(field)	5.12648817883299E-4
+288	org.mockito.internal.configuration.injection.ConstructorInjection::::51::::1647::::1660::::mockCandidates::::this.objects	5.031152949374527E-4
+289	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls::::43::::1698::::1753::::java.lang.Object defaultReturnValue = delegate.answer(invocation)::::INSERT::::STATEMENT::::if (defaultReturnValue != null) {    return defaultReturnValue;}	4.964552486151708E-4
+290	org.mockito.internal.util.reflection.FieldInitializer::::253::::10435::::10475::::changer.safelyDisableAccess(constructor)::::INSERT::::STATEMENT::::checkNotLocal(field)	4.945369250601353E-4
+291	org.mockito.internal.util.reflection.FieldInitializer::::253::::10435::::10475::::changer.safelyDisableAccess(constructor)::::INSERT::::STATEMENT::::checkNotInner(field)	4.945369250601353E-4
+292	org.mockito.internal.util.MockUtil::::30::::1115::::1168::::new org.mockito.internal.util.reflection.LenientCopyTool().copyToMock(spiedInstance, mock)::::DELETE::::STATEMENT	4.917179187582114E-4
+293	org.mockito.internal.creation.MockSettingsImpl::::153::::4974::::5006::::interfaces.add(org.mockito.internal.util.MockitoSpy.class)::::DELETE::::STATEMENT	4.917179187582114E-4
+294	org.mockito.internal.util.reflection.FieldInitializer::::119::::4119::::4234::::if (fieldInstance != null) {    return new org.mockito.internal.util.reflection.FieldInitializationReport(fieldInstance, false, false);}::::INSERT::::STATEMENT::::if (fieldInstance != null) {    return new org.mockito.internal.util.reflection.FieldInitializationReport(fieldInstance, false, false);}	4.7396744915357094E-4
+295	org.mockito.internal.util.reflection.FieldInitializer::::118::::4065::::4109::::java.lang.Object fieldInstance = field.get(fieldOwner)::::INSERT::::STATEMENT::::if (fieldInstance != null) {    return new org.mockito.internal.util.reflection.FieldInitializationReport(fieldInstance, false, false);}	4.7396744915357094E-4
+296	org.mockito.internal.util.reflection.FieldInitializer::::119::::4119::::4234::::if (fieldInstance != null) {    return new org.mockito.internal.util.reflection.FieldInitializationReport(fieldInstance, false, false);}::::INSERT::::STATEMENT::::checkNotInterface(field)	4.6672885682200036E-4
+297	org.mockito.internal.util.reflection.FieldInitializer::::64::::2049::::2091::::new org.mockito.internal.util.reflection.FieldReader(fieldOwner, field).isNull()::::INSERT::::STATEMENT::::checkNotAbstract(field)	4.633904761904762E-4
+298	org.mockito.internal.util.reflection.FieldInitializer::::268::::11111::::11122::::constructors::::this.field	4.599911267999567E-4
+299	org.mockito.internal.util.reflection.FieldInitializer::::253::::10435::::10475::::changer.safelyDisableAccess(constructor)::::INSERT::::STATEMENT::::checkNotInterface(field)	4.327198094276184E-4
+300	org.mockito.internal.util.reflection.FieldInitializer::::81::::2560::::2623::::final org.mockito.internal.util.reflection.AccessibilityChanger changer = new org.mockito.internal.util.reflection.AccessibilityChanger()::::INSERT::::STATEMENT::::checkNotInner(field)	4.1943994190451735E-4
+301	org.mockito.internal.util.reflection.FieldInitializer::::232::::8921::::8984::::final org.mockito.internal.util.reflection.AccessibilityChanger changer = new org.mockito.internal.util.reflection.AccessibilityChanger()::::INSERT::::STATEMENT::::checkNotInterface(field)	4.0203147042732585E-4
+302	org.mockito.internal.util.reflection.FieldInitializer::::119::::4119::::4234::::if (fieldInstance != null) {    return new org.mockito.internal.util.reflection.FieldInitializationReport(fieldInstance, false, false);}::::INSERT::::STATEMENT::::checkNotAbstract(field)	3.889407140183336E-4
+303	org.mockito.internal.util.reflection.FieldInitializer::::242::::9485::::9493::::testClass::::this.fieldOwner	3.8599503992485783E-4
+304	org.mockito.internal.util.reflection.FieldInitializer::::240::::9380::::9388::::testClass::::this.fieldOwner	3.8377996287234566E-4
+305	org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler::::35::::1119::::1139::::!(fieldReader.isNull())::::DELETE::::INFIX	3.7199490363892525E-4
+306	org.mockito.internal.invocation.SerializableMethod::::55::::1472::::1481::::methodName::::message	3.6509268669791795E-4
+307	org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::54::::1573::::1591::::mockDependentFields::::scan()	3.5785865826108845E-4
+308	org.mockito.internal.util.reflection.FieldInitializer::::119::::4122::::4134::::fieldInstance::::this.testClass	3.472209512812039E-4
+309	org.mockito.internal.util.reflection.FieldInitializer::::119::::4122::::4134::::fieldInstance::::this.fieldOwner	3.472209512812039E-4
+310	org.mockito.internal.util.reflection.FieldInitializer::::81::::2560::::2623::::final org.mockito.internal.util.reflection.AccessibilityChanger changer = new org.mockito.internal.util.reflection.AccessibilityChanger()::::INSERT::::STATEMENT::::checkNotInterface(field)	3.2623106592573575E-4
+311	org.mockito.internal.util.reflection.FieldInitializer::::100::::3311::::3360::::!(java.lang.reflect.Modifier.isStatic(field.getType().getModifiers()))::::DELETE::::INFIX	3.172383197458206E-4
+312	org.mockito.internal.util.reflection.FieldInitializer::::253::::10435::::10475::::changer.safelyDisableAccess(constructor)::::INSERT::::STATEMENT::::checkNotAbstract(field)	3.0908557816258455E-4
+313	org.mockito.internal.util.reflection.FieldInitializer::::235::::9067::::9116::::constructor = biggestConstructor(field.getType())::::this.field = field	2.976238740662469E-4
+314	org.mockito.internal.util.reflection.FieldInitializer::::232::::8921::::8984::::final org.mockito.internal.util.reflection.AccessibilityChanger changer = new org.mockito.internal.util.reflection.AccessibilityChanger()::::INSERT::::STATEMENT::::checkNotAbstract(field)	2.8716533601951845E-4
+315	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls::::43::::1726::::1733::::delegate::::this	2.7945693701951626E-4
+316	org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler::::35::::1144::::1179::::field.isAnnotationPresent(org.mockito.Spy.class)::::DELETE::::INFIX	2.575208891203456E-4
+317	org.mockito.internal.configuration.injection.MockInjectionStrategy::::89::::2925::::2979::::nextStrategy.process(field, fieldOwner, mockCandidates)::::DELETE::::INFIX	2.575208891203456E-4
+318	org.mockito.internal.util.MockCreationValidator::::42::::1241::::1404::::if (!(classToMock.equals(spiedInstance.getClass()))) {    new org.mockito.exceptions.Reporter().mockedTypeIsInconsistentWithSpiedInstanceType(classToMock, spiedInstance);}::::INSERT::::STATEMENT::::if ((classToMock == null) || (spiedInstance == null)) {    return ;}	2.4979104904263125E-4
+319	org.mockito.internal.util.reflection.FieldInitializer::::226::::8749::::8757::::testClass::::this.fieldOwner	2.356977138013699E-4
+320	org.mockito.internal.util.reflection.FieldInitializer::::81::::2560::::2623::::final org.mockito.internal.util.reflection.AccessibilityChanger changer = new org.mockito.internal.util.reflection.AccessibilityChanger()::::INSERT::::STATEMENT::::checkNotAbstract(field)	2.3302218994695407E-4
+321	org.mockito.internal.util.reflection.FieldInitializer::::100::::3276::::3306::::field.getType().isMemberClass()::::DELETE::::INFIX	2.1961455214796564E-4
+322	org.mockito.internal.util.reflection.FieldInitializer::::118::::4098::::4107::::fieldOwner::::fieldInstance	2.175493187669389E-4
+323	org.mockito.internal.util.reflection.FieldReader::::24::::604::::609::::read()::::DELETE::::INFIX	1.8806666666666667E-4
+324	org.mockito.internal.invocation.SerializableMethod::::29::::927::::932::::method::::this	1.8544657602086585E-4
+325	org.mockito.internal.invocation.SerializableMethod::::30::::975::::980::::method::::this	1.7210004214057628E-4
+326	org.mockito.internal.invocation.SerializableMethod::::28::::878::::883::::method::::this	1.6827559675967456E-4
+327	org.mockito.internal.invocation.SerializableMethod::::26::::786::::791::::method::::this	1.6154457288928761E-4
+328	org.mockito.internal.util.reflection.FieldInitializer::::253::::10435::::10475::::changer.safelyDisableAccess(constructor)::::DELETE::::STATEMENT	1.6122050117773484E-4
+329	org.mockito.internal.invocation.SerializableMethod::::27::::829::::834::::method::::this	1.3169394529018012E-4
+330	org.mockito.internal.util.reflection.FieldInitializer::::242::::9475::::9479::::field::::this.field	1.12951114972267E-4
+331	org.mockito.internal.util.reflection.FieldInitializer::::235::::9100::::9104::::field::::this.field	1.0553461759014243E-4
+332	org.mockito.internal.util.reflection.FieldInitializer::::100::::3330::::3334::::field::::this.field	6.556237017738482E-5
+333	org.mockito.internal.util.reflection.FieldInitializer::::112::::3797::::3801::::field::::this.field	6.416389486801385E-5
+334	org.mockito.internal.util.reflection.FieldInitializer::::100::::3276::::3280::::field::::this.field	6.226545920740104E-5
+335	org.mockito.internal.util.reflection.FieldInitializer::::106::::3556::::3560::::field::::this.field	5.942108501553636E-5
+336	org.mockito.internal.util.reflection.FieldInitializer::::118::::4088::::4092::::field::::this.field	5.874753328854336E-5
+337	org.mockito.internal.util.reflection.FieldInitializer::::94::::3056::::3060::::field::::this.field	5.6564316060281756E-5
+338	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls::::43::::1742::::1751::::invocation::::this.unstubbedInvocation	1.2689016905266497E-5
+339	org.mockito.internal.util.reflection.FieldInitializer::::89::::2974::::2978::::field::::this.field	0.0
+340	org.mockito.internal.util.reflection.FieldInitializer::::89::::2946::::2980::::changer.safelyDisableAccess(field)::::INSERT::::STATEMENT::::checkNotLocal(field)	0.0
+341	org.mockito.internal.util.reflection.FieldInitializer::::89::::2946::::2980::::changer.safelyDisableAccess(field)::::INSERT::::STATEMENT::::checkNotInterface(field)	0.0
+342	org.mockito.internal.util.reflection.FieldInitializer::::89::::2946::::2980::::changer.safelyDisableAccess(field)::::INSERT::::STATEMENT::::checkNotInner(field)	0.0
+343	org.mockito.internal.util.reflection.FieldInitializer::::89::::2946::::2980::::changer.safelyDisableAccess(field)::::INSERT::::STATEMENT::::checkNotAbstract(field)	0.0
+344	org.mockito.internal.util.reflection.FieldInitializer::::85::::2689::::2718::::return acquireFieldInstance()::::INSERT::::STATEMENT::::checkNotLocal(field)	0.0
+345	org.mockito.internal.util.reflection.FieldInitializer::::85::::2689::::2718::::return acquireFieldInstance()::::INSERT::::STATEMENT::::checkNotInterface(field)	0.0
+346	org.mockito.internal.util.reflection.FieldInitializer::::85::::2689::::2718::::return acquireFieldInstance()::::INSERT::::STATEMENT::::checkNotInner(field)	0.0
+347	org.mockito.internal.util.reflection.FieldInitializer::::85::::2689::::2718::::return acquireFieldInstance()::::INSERT::::STATEMENT::::checkNotAbstract(field)	0.0
+348	org.mockito.internal.util.reflection.FieldInitializer::::82::::2654::::2658::::field::::this.field	0.0
+349	org.mockito.internal.util.reflection.FieldInitializer::::72::::2343::::2354::::instantiator::::this.instantiator	0.0
+350	org.mockito.internal.util.reflection.FieldInitializer::::72::::2323::::2355::::this.instantiator = instantiator::::this.testClass = testClass	0.0
+351	org.mockito.internal.util.reflection.FieldInitializer::::72::::2323::::2355::::this.instantiator = instantiator::::this.fieldOwner = fieldOwner	0.0
+352	org.mockito.internal.util.reflection.FieldInitializer::::72::::2323::::2355::::this.instantiator = instantiator::::this.field = field	0.0
+353	org.mockito.internal.util.reflection.FieldInitializer::::72::::2323::::2339::::this.instantiator::::instantiator	0.0
+354	org.mockito.internal.util.reflection.FieldInitializer::::71::::2308::::2312::::field::::this.field	0.0
+355	org.mockito.internal.util.reflection.FieldInitializer::::71::::2295::::2313::::this.field = field::::this.testClass = testClass	0.0
+356	org.mockito.internal.util.reflection.FieldInitializer::::71::::2295::::2313::::this.field = field::::this.instantiator = instantiator	0.0
+357	org.mockito.internal.util.reflection.FieldInitializer::::71::::2295::::2313::::this.field = field::::this.fieldOwner = fieldOwner	0.0
+358	org.mockito.internal.util.reflection.FieldInitializer::::71::::2295::::2304::::this.field::::field	0.0
+359	org.mockito.internal.util.reflection.FieldInitializer::::70::::2275::::2284::::fieldOwner::::this.fieldOwner	0.0
+360	org.mockito.internal.util.reflection.FieldInitializer::::70::::2257::::2285::::this.fieldOwner = fieldOwner::::this.testClass = testClass	0.0
+361	org.mockito.internal.util.reflection.FieldInitializer::::70::::2257::::2285::::this.fieldOwner = fieldOwner::::this.instantiator = instantiator	0.0
+362	org.mockito.internal.util.reflection.FieldInitializer::::70::::2257::::2285::::this.fieldOwner = fieldOwner::::this.field = field	0.0
+363	org.mockito.internal.util.reflection.FieldInitializer::::70::::2257::::2271::::this.fieldOwner::::fieldOwner	0.0
+364	org.mockito.internal.util.reflection.FieldInitializer::::68::::2231::::2235::::field::::this.field	0.0
+365	org.mockito.internal.util.reflection.FieldInitializer::::67::::2194::::2198::::field::::this.field	0.0
+366	org.mockito.internal.util.reflection.FieldInitializer::::66::::2156::::2160::::field::::this.field	0.0
+367	org.mockito.internal.util.reflection.FieldInitializer::::65::::2122::::2126::::field::::this.field	0.0
+368	org.mockito.internal.util.reflection.FieldInitializer::::64::::2077::::2081::::field::::this.field	0.0
+369	org.mockito.internal.util.reflection.FieldInitializer::::64::::2065::::2074::::fieldOwner::::this.fieldOwner	0.0
+370	org.mockito.internal.util.reflection.FieldInitializer::::60::::1915::::1925::::argResolver::::this.argResolver	0.0
+371	org.mockito.internal.util.reflection.FieldInitializer::::60::::1908::::1912::::field::::this.field	0.0
+372	org.mockito.internal.util.reflection.FieldInitializer::::60::::1896::::1905::::fieldOwner::::this.fieldOwner	0.0
+373	org.mockito.internal.util.reflection.FieldInitializer::::60::::1848::::1852::::field::::this.field	0.0
+374	org.mockito.internal.util.reflection.FieldInitializer::::60::::1836::::1845::::fieldOwner::::this.fieldOwner	0.0
+375	org.mockito.internal.util.reflection.FieldInitializer::::269::::11176::::11180::::field::::this.field	0.0
+376	org.mockito.internal.util.reflection.FieldInitializer::::259::::10618::::10660::::(constructor.getParameterTypes().length) == 0::::true	0.0
+377	org.mockito.internal.util.reflection.FieldInitializer::::259::::10618::::10660::::(constructor.getParameterTypes().length) == 0::::false	0.0
+378	org.mockito.internal.util.reflection.FieldInitializer::::259::::10618::::10655::::constructor.getParameterTypes().length::::0	0.0
+379	org.mockito.internal.util.reflection.FieldInitializer::::252::::10392::::10410::::constructor != null::::true	0.0
+380	org.mockito.internal.util.reflection.FieldInitializer::::252::::10392::::10410::::constructor != null::::false	0.0
+381	org.mockito.internal.util.reflection.FieldInitializer::::252::::10389::::10493::::if (constructor != null) {    changer.safelyDisableAccess(constructor);}::::INSERT::::STATEMENT::::checkParameterized(constructor, field)	0.0
+382	org.mockito.internal.util.reflection.FieldInitializer::::252::::10389::::10493::::if (constructor != null) {    changer.safelyDisableAccess(constructor);}::::INSERT::::STATEMENT::::checkNotLocal(field)	0.0
+383	org.mockito.internal.util.reflection.FieldInitializer::::252::::10389::::10493::::if (constructor != null) {    changer.safelyDisableAccess(constructor);}::::INSERT::::STATEMENT::::checkNotInterface(field)	0.0
+384	org.mockito.internal.util.reflection.FieldInitializer::::252::::10389::::10493::::if (constructor != null) {    changer.safelyDisableAccess(constructor);}::::INSERT::::STATEMENT::::checkNotInner(field)	0.0
+385	org.mockito.internal.util.reflection.FieldInitializer::::252::::10389::::10493::::if (constructor != null) {    changer.safelyDisableAccess(constructor);}::::INSERT::::STATEMENT::::checkNotAbstract(field)	0.0
+386	org.mockito.internal.util.reflection.FieldInitializer::::242::::9504::::9507::::true::::constructor != null	0.0
+387	org.mockito.internal.util.reflection.FieldInitializer::::242::::9497::::9501::::false::::constructor != null	0.0
+388	org.mockito.internal.util.reflection.FieldInitializer::::242::::9485::::9493::::testClass::::this.testClass	0.0
+389	org.mockito.internal.util.reflection.FieldInitializer::::242::::9438::::9509::::return new org.mockito.internal.util.reflection.FieldInitializationReport(field.get(testClass), false, true)::::INSERT::::STATEMENT::::checkParameterized(constructor, field)	0.0
+390	org.mockito.internal.util.reflection.FieldInitializer::::242::::9438::::9509::::return new org.mockito.internal.util.reflection.FieldInitializationReport(field.get(testClass), false, true)::::INSERT::::STATEMENT::::checkNotLocal(field)	0.0
+391	org.mockito.internal.util.reflection.FieldInitializer::::242::::9438::::9509::::return new org.mockito.internal.util.reflection.FieldInitializationReport(field.get(testClass), false, true)::::INSERT::::STATEMENT::::checkNotInterface(field)	0.0
+392	org.mockito.internal.util.reflection.FieldInitializer::::242::::9438::::9509::::return new org.mockito.internal.util.reflection.FieldInitializationReport(field.get(testClass), false, true)::::INSERT::::STATEMENT::::checkNotInner(field)	0.0
+393	org.mockito.internal.util.reflection.FieldInitializer::::242::::9438::::9509::::return new org.mockito.internal.util.reflection.FieldInitializationReport(field.get(testClass), false, true)::::INSERT::::STATEMENT::::checkNotAbstract(field)	0.0
+394	org.mockito.internal.util.reflection.FieldInitializer::::240::::9391::::9395::::field::::this.field	0.0
+395	org.mockito.internal.util.reflection.FieldInitializer::::240::::9380::::9388::::testClass::::this.testClass	0.0
+396	org.mockito.internal.util.reflection.FieldInitializer::::240::::9364::::9419::::new org.mockito.internal.util.reflection.FieldSetter(testClass, field).set(newFieldInstance)::::INSERT::::STATEMENT::::checkParameterized(constructor, field)	0.0
+397	org.mockito.internal.util.reflection.FieldInitializer::::240::::9364::::9419::::new org.mockito.internal.util.reflection.FieldSetter(testClass, field).set(newFieldInstance)::::INSERT::::STATEMENT::::checkNotLocal(field)	0.0
+398	org.mockito.internal.util.reflection.FieldInitializer::::240::::9364::::9419::::new org.mockito.internal.util.reflection.FieldSetter(testClass, field).set(newFieldInstance)::::INSERT::::STATEMENT::::checkNotInterface(field)	0.0
+399	org.mockito.internal.util.reflection.FieldInitializer::::240::::9364::::9419::::new org.mockito.internal.util.reflection.FieldSetter(testClass, field).set(newFieldInstance)::::INSERT::::STATEMENT::::checkNotInner(field)	0.0
+400	org.mockito.internal.util.reflection.FieldInitializer::::240::::9364::::9419::::new org.mockito.internal.util.reflection.FieldSetter(testClass, field).set(newFieldInstance)::::INSERT::::STATEMENT::::checkNotAbstract(field)	0.0
+401	org.mockito.internal.util.reflection.FieldInitializer::::239::::9341::::9344::::args::::new java.lang.Object[0]	0.0
+402	org.mockito.internal.util.reflection.FieldInitializer::::239::::9291::::9346::::java.lang.Object newFieldInstance = constructor.newInstance(args)::::INSERT::::STATEMENT::::checkParameterized(constructor, field)	0.0
+403	org.mockito.internal.util.reflection.FieldInitializer::::239::::9291::::9346::::java.lang.Object newFieldInstance = constructor.newInstance(args)::::INSERT::::STATEMENT::::checkNotLocal(field)	0.0
+404	org.mockito.internal.util.reflection.FieldInitializer::::239::::9291::::9346::::java.lang.Object newFieldInstance = constructor.newInstance(args)::::INSERT::::STATEMENT::::checkNotInterface(field)	0.0
+405	org.mockito.internal.util.reflection.FieldInitializer::::239::::9291::::9346::::java.lang.Object newFieldInstance = constructor.newInstance(args)::::INSERT::::STATEMENT::::checkNotInner(field)	0.0
+406	org.mockito.internal.util.reflection.FieldInitializer::::239::::9291::::9346::::java.lang.Object newFieldInstance = constructor.newInstance(args)::::INSERT::::STATEMENT::::checkNotAbstract(field)	0.0
+407	org.mockito.internal.util.reflection.FieldInitializer::::238::::9186::::9273::::final java.lang.Object[] args = argResolver.resolveTypeInstances(constructor.getParameterTypes())::::INSERT::::STATEMENT::::checkParameterized(constructor, field)	0.0
+408	org.mockito.internal.util.reflection.FieldInitializer::::238::::9186::::9273::::final java.lang.Object[] args = argResolver.resolveTypeInstances(constructor.getParameterTypes())::::INSERT::::STATEMENT::::checkNotLocal(field)	0.0
+409	org.mockito.internal.util.reflection.FieldInitializer::::238::::9186::::9273::::final java.lang.Object[] args = argResolver.resolveTypeInstances(constructor.getParameterTypes())::::INSERT::::STATEMENT::::checkNotInterface(field)	0.0
+410	org.mockito.internal.util.reflection.FieldInitializer::::238::::9186::::9273::::final java.lang.Object[] args = argResolver.resolveTypeInstances(constructor.getParameterTypes())::::INSERT::::STATEMENT::::checkNotInner(field)	0.0
+411	org.mockito.internal.util.reflection.FieldInitializer::::238::::9186::::9273::::final java.lang.Object[] args = argResolver.resolveTypeInstances(constructor.getParameterTypes())::::INSERT::::STATEMENT::::checkNotAbstract(field)	0.0
+412	org.mockito.internal.util.reflection.FieldInitializer::::236::::9134::::9167::::changer.enableAccess(constructor)::::INSERT::::STATEMENT::::checkParameterized(constructor, field)	0.0
+413	org.mockito.internal.util.reflection.FieldInitializer::::236::::9134::::9167::::changer.enableAccess(constructor)::::INSERT::::STATEMENT::::checkNotLocal(field)	0.0
+414	org.mockito.internal.util.reflection.FieldInitializer::::236::::9134::::9167::::changer.enableAccess(constructor)::::INSERT::::STATEMENT::::checkNotInterface(field)	0.0
+415	org.mockito.internal.util.reflection.FieldInitializer::::236::::9134::::9167::::changer.enableAccess(constructor)::::INSERT::::STATEMENT::::checkNotInner(field)	0.0
+416	org.mockito.internal.util.reflection.FieldInitializer::::236::::9134::::9167::::changer.enableAccess(constructor)::::INSERT::::STATEMENT::::checkNotAbstract(field)	0.0
+417	org.mockito.internal.util.reflection.FieldInitializer::::235::::9067::::9116::::constructor = biggestConstructor(field.getType())::::this.testClass = testClass	0.0
+418	org.mockito.internal.util.reflection.FieldInitializer::::235::::9067::::9116::::constructor = biggestConstructor(field.getType())::::this.instantiator = instantiator	0.0
+419	org.mockito.internal.util.reflection.FieldInitializer::::235::::9067::::9116::::constructor = biggestConstructor(field.getType())::::this.fieldOwner = fieldOwner	0.0
+420	org.mockito.internal.util.reflection.FieldInitializer::::235::::9067::::9116::::constructor = biggestConstructor(field.getType())::::INSERT::::STATEMENT::::checkParameterized(constructor, field)	0.0
+421	org.mockito.internal.util.reflection.FieldInitializer::::235::::9067::::9116::::constructor = biggestConstructor(field.getType())::::INSERT::::STATEMENT::::checkNotLocal(field)	0.0
+422	org.mockito.internal.util.reflection.FieldInitializer::::235::::9067::::9116::::constructor = biggestConstructor(field.getType())::::INSERT::::STATEMENT::::checkNotInterface(field)	0.0
+423	org.mockito.internal.util.reflection.FieldInitializer::::235::::9067::::9116::::constructor = biggestConstructor(field.getType())::::INSERT::::STATEMENT::::checkNotInner(field)	0.0
+424	org.mockito.internal.util.reflection.FieldInitializer::::235::::9067::::9116::::constructor = biggestConstructor(field.getType())::::INSERT::::STATEMENT::::checkNotAbstract(field)	0.0
+425	org.mockito.internal.util.reflection.FieldInitializer::::228::::8804::::8839::::this.argResolver = argumentResolver::::this.testClass = testClass	0.0
+426	org.mockito.internal.util.reflection.FieldInitializer::::228::::8804::::8839::::this.argResolver = argumentResolver::::this.instantiator = instantiator	0.0
+427	org.mockito.internal.util.reflection.FieldInitializer::::228::::8804::::8839::::this.argResolver = argumentResolver::::this.fieldOwner = fieldOwner	0.0
+428	org.mockito.internal.util.reflection.FieldInitializer::::228::::8804::::8839::::this.argResolver = argumentResolver::::this.field = field	0.0
+429	org.mockito.internal.util.reflection.FieldInitializer::::228::::8804::::8819::::this.argResolver::::argResolver	0.0
+430	org.mockito.internal.util.reflection.FieldInitializer::::227::::8785::::8789::::field::::this.field	0.0
+431	org.mockito.internal.util.reflection.FieldInitializer::::227::::8772::::8790::::this.field = field::::this.testClass = testClass	0.0
+432	org.mockito.internal.util.reflection.FieldInitializer::::227::::8772::::8790::::this.field = field::::this.instantiator = instantiator	0.0
+433	org.mockito.internal.util.reflection.FieldInitializer::::227::::8772::::8790::::this.field = field::::this.fieldOwner = fieldOwner	0.0
+434	org.mockito.internal.util.reflection.FieldInitializer::::227::::8772::::8790::::this.field = field::::this.argResolver = argumentResolver	0.0
+435	org.mockito.internal.util.reflection.FieldInitializer::::227::::8772::::8781::::this.field::::field	0.0
+436	org.mockito.internal.util.reflection.FieldInitializer::::226::::8749::::8757::::testClass::::this.testClass	0.0
+437	org.mockito.internal.util.reflection.FieldInitializer::::226::::8732::::8758::::this.testClass = testClass::::this.instantiator = instantiator	0.0
+438	org.mockito.internal.util.reflection.FieldInitializer::::226::::8732::::8758::::this.testClass = testClass::::this.fieldOwner = fieldOwner	0.0
+439	org.mockito.internal.util.reflection.FieldInitializer::::226::::8732::::8758::::this.testClass = testClass::::this.field = field	0.0
+440	org.mockito.internal.util.reflection.FieldInitializer::::226::::8732::::8758::::this.testClass = testClass::::this.argResolver = argumentResolver	0.0
+441	org.mockito.internal.util.reflection.FieldInitializer::::226::::8732::::8745::::this.testClass::::testClass	0.0
+442	org.mockito.internal.util.reflection.FieldInitializer::::119::::4122::::4142::::fieldInstance != null::::true	0.0
+443	org.mockito.internal.util.reflection.FieldInitializer::::119::::4122::::4142::::fieldInstance != null::::false	0.0
+444	org.mockito.internal.util.reflection.FieldInitializer::::118::::4098::::4107::::fieldOwner::::this.fieldOwner	0.0
+445	org.mockito.internal.util.reflection.FieldInitializer::::100::::3276::::3360::::field.getType().isMemberClass()) && (!(java.lang.reflect.Modifier.isStatic(field.getType().getModifiers()))::::true	0.0
+446	org.mockito.internal.util.reflection.FieldInitializer::::100::::3276::::3360::::field.getType().isMemberClass()) && (!(java.lang.reflect.Modifier.isStatic(field.getType().getModifiers()))::::false	0.0
+447	org.mockito.internal.util.reflection.FieldInitializationReport::::46::::1399::::1432::::wasInitializedUsingConstructorArgs::::this.wasInitializedUsingConstructorArgs	0.0
+448	org.mockito.internal.util.reflection.FieldInitializationReport::::46::::1399::::1432::::wasInitializedUsingConstructorArgs::::(fieldInstance) != null	0.0
+449	org.mockito.internal.util.reflection.FieldInitializationReport::::19::::647::::680::::wasInitializedUsingConstructorArgs::::this.wasInitializedUsingConstructorArgs	0.0
+450	org.mockito.internal.util.reflection.FieldInitializationReport::::19::::647::::680::::wasInitializedUsingConstructorArgs::::(fieldInstance) != null	0.0
+451	org.mockito.internal.util.reflection.FieldInitializationReport::::19::::605::::681::::this.wasInitializedUsingConstructorArgs = wasInitializedUsingConstructorArgs::::this.wasInitialized = wasInitialized	0.0
+452	org.mockito.internal.util.reflection.FieldInitializationReport::::19::::605::::681::::this.wasInitializedUsingConstructorArgs = wasInitializedUsingConstructorArgs::::this.fieldInstance = fieldInstance	0.0
+453	org.mockito.internal.util.reflection.FieldInitializationReport::::19::::605::::643::::this.wasInitializedUsingConstructorArgs::::wasInitializedUsingConstructorArgs	0.0
+454	org.mockito.internal.util.reflection.FieldInitializationReport::::19::::605::::643::::this.wasInitializedUsingConstructorArgs::::(fieldInstance) != null	0.0
+455	org.mockito.internal.util.reflection.FieldInitializationReport::::18::::581::::594::::wasInitialized::::this.wasInitialized	0.0
+456	org.mockito.internal.util.reflection.FieldInitializationReport::::18::::581::::594::::wasInitialized::::(fieldInstance) != null	0.0
+457	org.mockito.internal.util.reflection.FieldInitializationReport::::18::::559::::595::::this.wasInitialized = wasInitialized::::this.wasInitializedUsingConstructorArgs = wasInitializedUsingConstructorArgs	0.0
+458	org.mockito.internal.util.reflection.FieldInitializationReport::::18::::559::::595::::this.wasInitialized = wasInitialized::::this.fieldInstance = fieldInstance	0.0
+459	org.mockito.internal.util.reflection.FieldInitializationReport::::18::::559::::577::::this.wasInitialized::::wasInitialized	0.0
+460	org.mockito.internal.util.reflection.FieldInitializationReport::::18::::559::::577::::this.wasInitialized::::(fieldInstance) != null	0.0
+461	org.mockito.internal.util.reflection.FieldInitializationReport::::17::::536::::548::::fieldInstance::::this.fieldInstance	0.0
+462	org.mockito.internal.util.reflection.FieldInitializationReport::::17::::515::::549::::this.fieldInstance = fieldInstance::::this.wasInitializedUsingConstructorArgs = wasInitializedUsingConstructorArgs	0.0
+463	org.mockito.internal.util.reflection.FieldInitializationReport::::17::::515::::549::::this.fieldInstance = fieldInstance::::this.wasInitialized = wasInitialized	0.0
+464	org.mockito.internal.util.reflection.FieldInitializationReport::::17::::515::::532::::this.fieldInstance::::fieldInstance	0.0
+465	org.mockito.internal.util.Primitives::::62::::2328::::2332::::short::::byte	0.0
+466	org.mockito.internal.util.Primitives::::61::::2276::::2279::::byte::::short	0.0
+467	org.mockito.internal.util.Primitives::::51::::1901::::1905::::short::::byte	0.0
+468	org.mockito.internal.util.Primitives::::50::::1845::::1848::::byte::::short	0.0
+469	org.mockito.internal.util.MockUtil::::30::::1163::::1166::::mock::::org.mockito.internal.util.MockUtil.mockMaker.createMock(settings, mockHandler)	0.0
+470	org.mockito.internal.util.Checks::::23::::661::::675::::checkedIterable::::"item in " + checkedIterable	0.0
+471	org.mockito.internal.util.Checks::::23::::661::::675::::checkedIterable::::"item in "	0.0
+472	org.mockito.internal.util.Checks::::23::::661::::675::::checkedIterable::::" should not be null"	0.0
+473	org.mockito.internal.util.Checks::::23::::648::::675::::"item in " + checkedIterable::::"item in "	0.0
+474	org.mockito.internal.util.Checks::::23::::648::::675::::"item in " + checkedIterable::::" should not be null"	0.0
+475	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls::::45::::1816::::1833::::defaultReturnValue::::delegate.answer(invocation)	0.0
+476	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls::::44::::1767::::1784::::defaultReturnValue::::delegate.answer(invocation)	0.0
+477	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls::::43::::1726::::1733::::delegate::::new org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues()	0.0
+478	org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues::::59::::1859::::1861::::ret::::returnValueFor(returnType)	0.0
+479	org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues::::59::::1859::::1861::::ret::::delegate.answer(invocation)	0.0
+480	org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues::::59::::1852::::1862::::return ret::::INSERT::::STATEMENT::::-2816745041482698471L	0.0
+481	org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues::::58::::1825::::1827::::ret::::returnValueFor(returnType)	0.0
+482	org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues::::58::::1825::::1827::::ret::::delegate.answer(invocation)	0.0
+483	org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues::::58::::1821::::1872::::if (ret != null) {    return ret;}::::INSERT::::STATEMENT::::-2816745041482698471L	0.0
+484	org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues::::57::::1784::::1791::::delegate::::new org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues()	0.0
+485	org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues::::57::::1771::::1811::::java.lang.Object ret = delegate.answer(invocation)::::INSERT::::STATEMENT::::-2816745041482698471L	0.0
+486	org.mockito.internal.stubbing.defaultanswers.ReturnsMocks::::24::::892::::894::::ret::::delegate.answer(invocation)	0.0
+487	org.mockito.internal.stubbing.defaultanswers.ReturnsMocks::::24::::885::::895::::return ret::::INSERT::::STATEMENT::::-6755257986994634579L	0.0
+488	org.mockito.internal.stubbing.defaultanswers.ReturnsMocks::::23::::858::::860::::ret::::delegate.answer(invocation)	0.0
+489	org.mockito.internal.stubbing.defaultanswers.ReturnsMocks::::23::::854::::905::::if (ret != null) {    return ret;}::::INSERT::::STATEMENT::::-6755257986994634579L	0.0
+490	org.mockito.internal.stubbing.defaultanswers.ReturnsMocks::::22::::817::::824::::delegate::::new org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues()	0.0
+491	org.mockito.internal.stubbing.defaultanswers.ReturnsMocks::::22::::804::::844::::java.lang.Object ret = delegate.answer(invocation)::::INSERT::::STATEMENT::::-6755257986994634579L	0.0
+492	org.mockito.internal.invocation.SerializableMethod::::55::::1472::::1481::::methodName::::"The method %1$s.%2$s is probably private or protected and cannot be mocked.\n" + "Please report this as a defect with an example of how to reproduce it."	0.0
+493	org.mockito.internal.invocation.SerializableMethod::::55::::1472::::1481::::methodName::::"The method %1$s.%2$s is probably private or protected and cannot be mocked.\n"	0.0
+494	org.mockito.internal.invocation.SerializableMethod::::55::::1472::::1481::::methodName::::"The method %1$s.%2$s does not exists and you should not get to this point.\n" + "Please report this as a defect with an example of how to reproduce it."	0.0
+495	org.mockito.internal.invocation.SerializableMethod::::55::::1472::::1481::::methodName::::"The method %1$s.%2$s does not exists and you should not get to this point.\n"	0.0
+496	org.mockito.internal.invocation.SerializableMethod::::55::::1472::::1481::::methodName::::"Please report this as a defect with an example of how to reproduce it."	0.0
+497	org.mockito.internal.invocation.SerializableMethod::::50::::1350::::1358::::isVarArgs::::true	0.0
+498	org.mockito.internal.invocation.SerializableMethod::::50::::1350::::1358::::isVarArgs::::false	0.0
+499	org.mockito.internal.invocation.SerializableMethod::::50::::1350::::1358::::isVarArgs::::(returnType) == null	0.0
+500	org.mockito.internal.invocation.SerializableMethod::::50::::1350::::1358::::isVarArgs::::(methodName) == null	0.0
+501	org.mockito.internal.invocation.SerializableMethod::::50::::1350::::1358::::isVarArgs::::(declaringClass) == null	0.0
+502	org.mockito.internal.invocation.SerializableMethod::::30::::963::::971::::isVarArgs::::true	0.0
+503	org.mockito.internal.invocation.SerializableMethod::::30::::963::::971::::isVarArgs::::method.isVarArgs()	0.0
+504	org.mockito.internal.invocation.SerializableMethod::::30::::963::::971::::isVarArgs::::false	0.0
+505	org.mockito.internal.invocation.SerializableMethod::::30::::963::::971::::isVarArgs::::(returnType) == null	0.0
+506	org.mockito.internal.invocation.SerializableMethod::::30::::963::::971::::isVarArgs::::(methodName) == null	0.0
+507	org.mockito.internal.invocation.SerializableMethod::::30::::963::::971::::isVarArgs::::(declaringClass) == null	0.0
+508	org.mockito.internal.invocation.SerializableMethod::::29::::910::::923::::exceptionTypes::::method.getParameterTypes()	0.0
+509	org.mockito.internal.invocation.SerializableMethod::::29::::910::::923::::exceptionTypes::::method.getExceptionTypes()	0.0
+510	org.mockito.internal.invocation.SerializableMethod::::28::::865::::874::::returnType::::method.getReturnType()	0.0
+511	org.mockito.internal.invocation.SerializableMethod::::27::::812::::825::::parameterTypes::::method.getParameterTypes()	0.0
+512	org.mockito.internal.invocation.SerializableMethod::::27::::812::::825::::parameterTypes::::method.getExceptionTypes()	0.0
+513	org.mockito.internal.invocation.SerializableMethod::::26::::773::::782::::methodName::::method.getName()	0.0
+514	org.mockito.internal.invocation.SerializableMethod::::26::::773::::782::::methodName::::"The method %1$s.%2$s is probably private or protected and cannot be mocked.\n" + "Please report this as a defect with an example of how to reproduce it."	0.0
+515	org.mockito.internal.invocation.SerializableMethod::::26::::773::::782::::methodName::::"The method %1$s.%2$s is probably private or protected and cannot be mocked.\n"	0.0
+516	org.mockito.internal.invocation.SerializableMethod::::26::::773::::782::::methodName::::"The method %1$s.%2$s does not exists and you should not get to this point.\n" + "Please report this as a defect with an example of how to reproduce it."	0.0
+517	org.mockito.internal.invocation.SerializableMethod::::26::::773::::782::::methodName::::"The method %1$s.%2$s does not exists and you should not get to this point.\n"	0.0
+518	org.mockito.internal.invocation.SerializableMethod::::26::::773::::782::::methodName::::"Please report this as a defect with an example of how to reproduce it."	0.0
+519	org.mockito.internal.invocation.SerializableMethod::::25::::720::::733::::declaringClass::::method.getReturnType()	0.0
+520	org.mockito.internal.creation.MockSettingsImpl::::69::::2146::::2157::::return this::::INSERT::::STATEMENT::::invocationListeners(new org.mockito.internal.debugging.VerboseMockInvocationLogger())	0.0
+521	org.mockito.internal.creation.MockSettingsImpl::::68::::2102::::2136::::this.spiedInstance = spiedInstance::::this.serializable = true	0.0
+522	org.mockito.internal.creation.MockSettingsImpl::::68::::2102::::2136::::this.spiedInstance = spiedInstance::::INSERT::::STATEMENT::::invocationListeners(new org.mockito.internal.debugging.VerboseMockInvocationLogger())	0.0
+523	org.mockito.internal.creation.MockSettingsImpl::::68::::2102::::2119::::this.spiedInstance::::this.serializable	0.0
+524	org.mockito.internal.creation.MockSettingsImpl::::68::::2102::::2119::::this.spiedInstance::::this.name	0.0
+525	org.mockito.internal.creation.MockSettingsImpl::::68::::2102::::2119::::this.spiedInstance::::this.invocationListeners	0.0
+526	org.mockito.internal.creation.MockSettingsImpl::::68::::2102::::2119::::this.spiedInstance::::this.extraInterfaces	0.0
+527	org.mockito.internal.creation.MockSettingsImpl::::68::::2102::::2119::::this.spiedInstance::::this.defaultAnswer	0.0
+528	org.mockito.internal.creation.MockSettingsImpl::::68::::2102::::2119::::this.spiedInstance::::long	0.0
+529	org.mockito.internal.creation.MethodInterceptorFilter::::41::::1656::::1660::::proxy::::args[0]	0.0
+530	org.mockito.internal.configuration.injection.MockInjectionStrategy::::89::::2901::::2979::::(nextStrategy) != null) && (nextStrategy.process(field, fieldOwner, mockCandidates)::::true	0.0
+531	org.mockito.internal.configuration.injection.MockInjectionStrategy::::89::::2901::::2979::::(nextStrategy) != null) && (nextStrategy.process(field, fieldOwner, mockCandidates)::::false	0.0
+532	org.mockito.internal.configuration.injection.MockInjectionStrategy::::89::::2901::::2979::::(nextStrategy) != null) && (nextStrategy.process(field, fieldOwner, mockCandidates)::::(nextStrategy) != null	0.0
+533	org.mockito.internal.configuration.injection.MockInjectionStrategy::::89::::2901::::2920::::(nextStrategy) != null::::true	0.0
+534	org.mockito.internal.configuration.injection.MockInjectionStrategy::::89::::2901::::2920::::(nextStrategy) != null::::false	0.0
+535	org.mockito.internal.configuration.injection.MockInjectionStrategy::::69::::2156::::2159::::true::::relayProcessToNextStrategy(onField, fieldOwnedBy, mockCandidates)	0.0
+536	org.mockito.internal.configuration.injection.MockInjectionStrategy::::69::::2156::::2159::::true::::processInjection(onField, fieldOwnedBy, mockCandidates)	0.0
+537	org.mockito.internal.configuration.injection.MockInjectionStrategy::::69::::2156::::2159::::true::::(nextStrategy) != null	0.0
+538	org.mockito.internal.configuration.injection.MockInjectionStrategy::::22::::623::::627::::false::::nextStrategy.process(field, fieldOwner, mockCandidates)	0.0
+539	org.mockito.internal.configuration.injection.MockInjectionStrategy::::22::::623::::627::::false::::(nextStrategy) != null) && (nextStrategy.process(field, fieldOwner, mockCandidates)	0.0
+540	org.mockito.internal.configuration.injection.MockInjectionStrategy::::22::::623::::627::::false::::(nextStrategy) != null	0.0
+541	org.mockito.internal.configuration.injection.MockInjection::::93::::3175::::3179::::mocks::::this.mocks	0.0
+542	org.mockito.internal.configuration.injection.MockInjection::::93::::3163::::3172::::fieldOwner::::this.fieldOwner	0.0
+543	org.mockito.internal.configuration.injection.MockInjection::::92::::3100::::3104::::mocks::::this.mocks	0.0
+544	org.mockito.internal.configuration.injection.MockInjection::::92::::3088::::3097::::fieldOwner::::this.fieldOwner	0.0
+545	org.mockito.internal.configuration.injection.ConstructorInjection::::86::::3071::::3076::::object::::objectThatIsAssignableFrom(argType)	0.0
+546	org.mockito.internal.configuration.injection.ConstructorInjection::::85::::2989::::2995::::objects::::this.objects	0.0
+547	org.mockito.internal.configuration.injection.ConstructorInjection::::73::::2515::::2521::::objects::::this.objects	0.0
+548	org.mockito.internal.configuration.injection.ConstructorInjection::::73::::2500::::2522::::this.objects = objects::::this.argResolver = argResolver	0.0
+549	org.mockito.internal.configuration.injection.ConstructorInjection::::73::::2500::::2511::::this.objects::::objects	0.0
+550	org.mockito.internal.configuration.injection.ConstructorInjection::::52::::1751::::1772::::simpleArgumentResolver::::this	0.0
+551	org.mockito.internal.configuration.injection.ConstructorInjection::::52::::1751::::1772::::simpleArgumentResolver::::new org.mockito.internal.configuration.injection.ConstructorInjection.SimpleArgumentResolver(mockCandidates)	0.0

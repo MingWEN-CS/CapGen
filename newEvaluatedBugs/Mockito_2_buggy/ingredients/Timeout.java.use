@@ -1,0 +1,22 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+21677	maxNumberOfInvocations	int	param	47	define	org.mockito.verification.Timeout.atMost	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/Timeout.java	47	50
+21681	newVerificationMode	VerificationMode	param	43	define	org.mockito.verification.Timeout.copySelfWithNewVerificationMode	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/Timeout.java	43	45
+21681	newVerificationMode	VerificationMode	param	44	use	org.mockito.verification.Timeout.copySelfWithNewVerificationMode	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/Timeout.java	43	45
+21665	millis	long	param	24	define	org.mockito.verification.Timeout.Timeout	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/Timeout.java	24	26
+21664	delegate	VerificationMode	param	24	define	org.mockito.verification.Timeout.Timeout	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/Timeout.java	24	26
+21665	millis	long	param	25	use	org.mockito.verification.Timeout.Timeout	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/Timeout.java	24	26
+21664	delegate	VerificationMode	param	25	use	org.mockito.verification.Timeout.Timeout	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/Timeout.java	24	26
+21673	pollingPeriodMillis	long	param	38	define	org.mockito.verification.Timeout.Timeout	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/Timeout.java	38	40
+21672	millis	long	param	38	define	org.mockito.verification.Timeout.Timeout	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/Timeout.java	38	40
+21671	delegate	VerificationMode	param	38	define	org.mockito.verification.Timeout.Timeout	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/Timeout.java	38	40
+21674	timer	Timer	param	38	define	org.mockito.verification.Timeout.Timeout	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/Timeout.java	38	40
+21673	pollingPeriodMillis	long	param	39	use	org.mockito.verification.Timeout.Timeout	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/Timeout.java	38	40
+21672	millis	long	param	39	use	org.mockito.verification.Timeout.Timeout	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/Timeout.java	38	40
+21671	delegate	VerificationMode	param	39	use	org.mockito.verification.Timeout.Timeout	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/Timeout.java	38	40
+21674	timer	Timer	param	39	use	org.mockito.verification.Timeout.Timeout	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/Timeout.java	38	40
+21669	pollingPeriodMillis	long	param	31	define	org.mockito.verification.Timeout.Timeout	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/Timeout.java	31	33
+21668	millis	long	param	31	define	org.mockito.verification.Timeout.Timeout	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/Timeout.java	31	33
+21667	delegate	VerificationMode	param	31	define	org.mockito.verification.Timeout.Timeout	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/Timeout.java	31	33
+21669	pollingPeriodMillis	long	param	32	use	org.mockito.verification.Timeout.Timeout	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/Timeout.java	31	33
+21668	millis	long	param	32	use	org.mockito.verification.Timeout.Timeout	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/Timeout.java	31	33
+21667	delegate	VerificationMode	param	32	use	org.mockito.verification.Timeout.Timeout	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/Timeout.java	31	33

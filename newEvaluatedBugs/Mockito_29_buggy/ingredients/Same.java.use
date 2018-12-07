@@ -1,0 +1,19 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+5608	description	Description	param	34	define	org.mockito.internal.matchers.Same.appendQuoting	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_29_buggy/src/org/mockito/internal/matchers/Same.java	34	40
+5608	description	Description	param	36	use	org.mockito.internal.matchers.Same.appendQuoting	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_29_buggy/src/org/mockito/internal/matchers/Same.java	34	40
+5608	description	Description	param	38	use	org.mockito.internal.matchers.Same.appendQuoting	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_29_buggy/src/org/mockito/internal/matchers/Same.java	34	40
+5614	Same.wanted	Object	variable	35	use	org.mockito.internal.matchers.Same.appendQuoting	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_29_buggy/src/org/mockito/internal/matchers/Same.java	34	40
+5614	Same.wanted	Object	variable	37	use	org.mockito.internal.matchers.Same.appendQuoting	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_29_buggy/src/org/mockito/internal/matchers/Same.java	34	40
+5610	description	Description	param	26	define	org.mockito.internal.matchers.Same.describeTo	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_29_buggy/src/org/mockito/internal/matchers/Same.java	26	32
+5610	description	Description	param	27	use	org.mockito.internal.matchers.Same.describeTo	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_29_buggy/src/org/mockito/internal/matchers/Same.java	26	32
+5610	description	Description	param	28	use	org.mockito.internal.matchers.Same.describeTo	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_29_buggy/src/org/mockito/internal/matchers/Same.java	26	32
+5610	description	Description	param	29	use	org.mockito.internal.matchers.Same.describeTo	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_29_buggy/src/org/mockito/internal/matchers/Same.java	26	32
+5610	description	Description	param	30	use	org.mockito.internal.matchers.Same.describeTo	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_29_buggy/src/org/mockito/internal/matchers/Same.java	26	32
+5610	description	Description	param	31	use	org.mockito.internal.matchers.Same.describeTo	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_29_buggy/src/org/mockito/internal/matchers/Same.java	26	32
+5614	Same.wanted	Object	variable	29	use	org.mockito.internal.matchers.Same.describeTo	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_29_buggy/src/org/mockito/internal/matchers/Same.java	26	32
+5612	actual	Object	param	22	define	org.mockito.internal.matchers.Same.matches	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_29_buggy/src/org/mockito/internal/matchers/Same.java	22	24
+5612	actual	Object	param	23	use	org.mockito.internal.matchers.Same.matches	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_29_buggy/src/org/mockito/internal/matchers/Same.java	22	24
+5614	Same.wanted	Object	variable	23	use	org.mockito.internal.matchers.Same.matches	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_29_buggy/src/org/mockito/internal/matchers/Same.java	22	24
+5605	wanted	Object	param	18	define	org.mockito.internal.matchers.Same.Same	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_29_buggy/src/org/mockito/internal/matchers/Same.java	18	20
+5605	wanted	Object	param	19	use	org.mockito.internal.matchers.Same.Same	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_29_buggy/src/org/mockito/internal/matchers/Same.java	18	20
+5614	Same.wanted	Object	variable	19	set	org.mockito.internal.matchers.Same.Same	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_29_buggy/src/org/mockito/internal/matchers/Same.java	18	20

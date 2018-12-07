@@ -1,0 +1,6 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+7744	implementation	Answer<Object>	param	76	define	org.mockito.Answers.Answers	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/Answers.java	76	78
+7744	implementation	Answer<Object>	param	77	use	org.mockito.Answers.Answers	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/Answers.java	76	78
+7754	Answers.implementation	Answer<Object>	variable	77	set	org.mockito.Answers.Answers	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/Answers.java	76	78
+7754	Answers.implementation	Answer<Object>	variable	81	use	org.mockito.Answers.get	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/Answers.java	80	82
+7747	s		param	25	define	org.mockito.Answers.valueOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/Answers.java	25	25

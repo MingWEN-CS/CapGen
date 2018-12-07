@@ -1,0 +1,78 @@
+org.mockito.internal.util.collections.ArrayUtils::::11::::302::::318::::(array.length) == 0::::array == null) || ((array.length) == 0	false
+org.mockito.internal.util.collections.ArrayUtils::::11::::302::::318::::(array.length) == 0::::array == null	false
+org.mockito.internal.util.collections.ArrayUtils::::11::::285::::297::::array == null::::(array.length) == 0	false
+org.mockito.internal.invocation.ArgumentsComparator::::18::::640::::651::::varArgsMatch::::argumentsMatch	false
+org.mockito.internal.invocation.ArgumentsComparator::::18::::591::::635::::argumentsMatch(invocationMatcher, actualArgs)::::argumentsMatch(invocationMatcher,actual)	false
+org.mockito.internal.invocation.ArgumentsComparator::::18::::591::::604::::argumentsMatch::::varArgsMatch	false
+org.mockito.internal.util.collections.ArrayUtils::::11::::285::::297::::array == null::::array == null) || ((array.length) == 0	false
+org.mockito.internal.configuration.plugins.Plugins::::17::::473::::500::::getStackTraceCleanerProvider::::getMockMaker	false
+org.mockito.internal.handler.MockHandlerFactory::::18::::631::::648::::nullResultGuardian::::handler	false
+org.mockito.internal.handler.MockHandlerFactory::::17::::552::::558::::handler::::nullResultGuardian	false
+org.mockito.internal.invocation.ArgumentsComparator::::18::::591::::678::::argumentsMatch(invocationMatcher, actualArgs)) || (varArgsMatch(invocationMatcher, actual)::::int	false
+org.mockito.internal.matchers.Equality::::13::::378::::385::::o1 == o2::::o1 == null) || (o2 == null	false
+org.mockito.internal.stubbing.answers.AnswersValidator::::17::::515::::547::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException::::answer instanceof org.mockito.internal.stubbing.answers.Returns	false
+org.mockito.internal.handler.MockHandlerFactory::::17::::552::::558::::handler::::notifier	false
+org.mockito.internal.matchers.Equality::::15::::431::::454::::o1 == null) || (o2 == null::::o1 == o2	false
+org.mockito.internal.stubbing.answers.AnswersValidator::::17::::515::::547::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException::::answer instanceof org.mockito.internal.stubbing.answers.DoesNothing	false
+org.mockito.internal.handler.MockHandlerFactory::::18::::631::::648::::nullResultGuardian::::notifier	false
+org.mockito.internal.stubbing.answers.AnswersValidator::::17::::515::::547::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException::::answer instanceof org.mockito.internal.stubbing.answers.CallsRealMethods	false
+org.mockito.internal.configuration.MockAnnotationProcessor::::19::::564::::573::::annotation::::mockSettings	false
+org.mockito.internal.matchers.Equality::::15::::445::::446::::o2::::o1	false
+org.mockito.internal.stubbing.answers.AnswersValidator::::18::::600::::605::::(org.mockito.internal.stubbing.answers.ThrowsException) (answer)::::answer	false
+org.mockito.internal.stubbing.answers.AnswersValidator::::17::::515::::547::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException::::answer instanceof org.mockito.internal.stubbing.answers.ReturnsArgumentAt	false
+org.mockito.internal.matchers.Equality::::13::::378::::385::::o1 == o2::::o2 == null	false
+org.mockito.internal.matchers.Equality::::13::::378::::385::::o1 == o2::::o1 == null	false
+org.mockito.internal.matchers.Equality::::15::::431::::432::::o1::::o2	false
+org.mockito.internal.matchers.Equality::::17::::531::::532::::o1::::o2	false
+org.mockito.internal.matchers.Equality::::13::::378::::385::::o1 == o2::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::13::::378::::385::::o1 == o2::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.util.collections.ListUtil::::17::::481::::488::::filtered::::new java.util.LinkedList<T>()	false
+org.mockito.internal.matchers.Equality::::15::::431::::454::::o1 == null) || (o2 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::13::::378::::385::::o1 == o2::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::15::::431::::454::::o1 == null) || (o2 == null::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::13::::378::::385::::o1 == o2::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::13::::378::::385::::o1 == o2::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
+org.mockito.internal.stubbing.BaseStubbing::::18::::736::::773::::return thenAnswer(new org.mockito.internal.stubbing.answers.Returns(value))::::INSERT::::STATEMENT::::thenThrow(((java.lang.Throwable) (null)))	false
+org.mockito.internal.matchers.Equality::::15::::445::::454::::o2 == null::::o1 == o2	false
+org.mockito.internal.matchers.Equality::::13::::378::::385::::o1 == o2::::org.mockito.internal.matchers.Equality.isArray(o1)	false
+org.mockito.internal.matchers.Equality::::15::::431::::454::::o1 == null) || (o2 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::15::::431::::454::::o1 == null) || (o2 == null::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::15::::431::::454::::o1 == null) || (o2 == null::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::15::::445::::454::::o2 == null::::o1 == null) || (o2 == null	false
+org.mockito.internal.matchers.Equality::::15::::431::::440::::o1 == null::::o1 == o2	false
+org.mockito.internal.matchers.Equality::::15::::431::::440::::o1 == null::::org.mockito.internal.matchers.Equality.isArray(o1)	false
+org.mockito.internal.matchers.Equality::::15::::431::::440::::o1 == null::::o1 == null) || (o2 == null	false
+org.mockito.internal.matchers.Equality::::15::::431::::454::::o1 == null) || (o2 == null::::org.mockito.internal.matchers.Equality.isArray(o1)	false
+org.mockito.internal.invocation.InvocationMarker::::15::::431::::529::::for (org.mockito.invocation.Invocation invocation : invocations) {    markVerified(invocation, wanted);}::::INSERT::::STATEMENT::::markVerified(invocation, wanted)	false
+org.mockito.internal.matchers.Equality::::13::::378::::385::::o1 == o2::::o1 == null) && (o2 == null	false
+org.mockito.internal.matchers.Equality::::15::::431::::454::::o1 == null) || (o2 == null::::o1 == null) && (o2 == null	false
+org.mockito.internal.util.Checks::::14::::291::::401::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}::::INSERT::::STATEMENT::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}	false
+org.mockito.internal.matchers.Equality::::15::::445::::454::::o2 == null::::org.mockito.internal.matchers.Equality.isArray(o2)	false
+org.mockito.internal.matchers.Equality::::17::::523::::533::::org.mockito.internal.matchers.Equality.isArray(o1)::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::13::::378::::385::::o1 == o2::::org.mockito.internal.matchers.Equality.isArray(o2)	false
+org.mockito.internal.matchers.Equality::::13::::374::::655::::if (o1 == o2) {    return true;}else    if ((o1 == null) || (o2 == null)) {        return (o1 == null) && (o2 == null);    }else        if (org.mockito.internal.matchers.Equality.isArray(o1)) {            return (org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2));        }else {            return o1.equals(o2);        }::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::15::::431::::440::::o1 == null::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.util.Checks::::17::::411::::423::::return value::::INSERT::::STATEMENT::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}	false
+org.mockito.internal.matchers.Equality::::15::::445::::454::::o2 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::15::::431::::454::::o1 == null) || (o2 == null::::org.mockito.internal.matchers.Equality.isArray(o2)	false
+org.mockito.internal.matchers.Equality::::15::::445::::454::::o2 == null::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::15::::431::::440::::o1 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.util.collections.ListUtil::::17::::481::::496::::filtered.add(t)::::DELETE::::STATEMENT	false
+org.mockito.internal.matchers.Equality::::14::::403::::414::::return true::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.invocation.ArgumentsComparator::::18::::640::::678::::varArgsMatch(invocationMatcher, actual)::::DELETE::::INFIX	false
+org.mockito.internal.invocation.ArgumentsComparator::::18::::591::::635::::argumentsMatch(invocationMatcher, actualArgs)::::DELETE::::INFIX	false
+org.mockito.internal.matchers.Equality::::15::::431::::440::::o1 == null::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::17::::519::::655::::if (org.mockito.internal.matchers.Equality.isArray(o1)) {    return (org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2));}else {    return o1.equals(o2);}::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::15::::431::::440::::o1 == null::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::15::::445::::454::::o2 == null::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::15::::445::::454::::o2 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::15::::431::::440::::o1 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::15::::445::::454::::o2 == null::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
+org.mockito.internal.stubbing.answers.AnswersValidator::::17::::511::::629::::if (answer instanceof org.mockito.internal.stubbing.answers.ThrowsException) {    validateException(((org.mockito.internal.stubbing.answers.ThrowsException) (answer)), methodInfo);}::::INSERT::::STATEMENT::::validateReturnArgIdentity(returnsArgumentAt, invocation)	false
+org.mockito.internal.stubbing.answers.AnswersValidator::::18::::564::::619::::validateException(((org.mockito.internal.stubbing.answers.ThrowsException) (answer)), methodInfo)::::DELETE::::STATEMENT	false
+org.mockito.internal.matchers.Equality::::15::::431::::440::::o1 == null::::o1 == null) && (o2 == null	false
+org.mockito.internal.stubbing.answers.AnswersValidator::::18::::564::::619::::validateException(((org.mockito.internal.stubbing.answers.ThrowsException) (answer)), methodInfo)::::INSERT::::STATEMENT::::validateReturnArgIdentity(returnsArgumentAt, invocation)	false
+org.mockito.internal.matchers.Equality::::15::::445::::454::::o2 == null::::o1 == null) && (o2 == null	false
+org.mockito.internal.matchers.Equality::::15::::427::::655::::if ((o1 == null) || (o2 == null)) {    return (o1 == null) && (o2 == null);}else    if (org.mockito.internal.matchers.Equality.isArray(o1)) {        return (org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2));    }else {        return o1.equals(o2);    }::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.stubbing.answers.AnswersValidator::::16::::451::::501::::org.mockito.internal.stubbing.answers.MethodInfo methodInfo = new org.mockito.internal.stubbing.answers.MethodInfo(invocation)::::INSERT::::STATEMENT::::validateReturnArgIdentity(returnsArgumentAt, invocation)	false
+org.mockito.internal.configuration.plugins.PluginFinder::::19::::474::::1299::::for (java.net.URL resource : resources) {    java.io.InputStream s = null;    try {        s = resource.openStream();        java.lang.String pluginClassName = new org.mockito.internal.configuration.plugins.PluginFileReader().readPluginClass(s);        if (pluginClassName == null) {            continue;        }        if (!(pluginSwitch.isEnabled(pluginClassName))) {            continue;        }        return pluginClassName;    } catch (java.lang.Exception e) {        throw new org.mockito.exceptions.base.MockitoException(("Problems reading plugin implementation from: " + resource), e);    } finally {        org.mockito.internal.util.io.IOUtil.closeQuietly(s);    }}::::INSERT::::STATEMENT::::if (pluginClassName == null) {    continue;}	false

@@ -1,0 +1,87 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+11623	attributeKey	String	param	173	define	org.jsoup.nodes.TextNode.absUrl	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	173	176
+11623	attributeKey	String	param	175	use	org.jsoup.nodes.TextNode.absUrl	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	173	176
+11626	attributeKey	String	param	143	define	org.jsoup.nodes.TextNode.attr	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	143	146
+11626	attributeKey	String	param	145	use	org.jsoup.nodes.TextNode.attr	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	143	146
+11628	attributeKey	String	param	155	define	org.jsoup.nodes.TextNode.attr	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	155	158
+11629	attributeValue	String	param	155	define	org.jsoup.nodes.TextNode.attr	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	155	158
+11628	attributeKey	String	param	157	use	org.jsoup.nodes.TextNode.attr	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	155	158
+11629	attributeValue	String	param	157	use	org.jsoup.nodes.TextNode.attr	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	155	158
+11635	encodedText	String	param	116	define	org.jsoup.nodes.TextNode.createFromEncoded	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	116	119
+11634	baseUri	String	param	116	define	org.jsoup.nodes.TextNode.createFromEncoded	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	116	119
+11635	encodedText	String	param	117	use	org.jsoup.nodes.TextNode.createFromEncoded	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	116	119
+11634	baseUri	String	param	118	use	org.jsoup.nodes.TextNode.createFromEncoded	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	116	119
+11636	text	String	variable	117	define	org.jsoup.nodes.TextNode.createFromEncoded	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	116	119
+11636	text	String	variable	117	set	org.jsoup.nodes.TextNode.createFromEncoded	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	116	119
+11636	text	String	variable	118	use	org.jsoup.nodes.TextNode.createFromEncoded	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	116	119
+11639	attributes		variable	136	use	org.jsoup.nodes.TextNode.ensureAttributes	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	135	140
+11639	attributes		variable	137	use	org.jsoup.nodes.TextNode.ensureAttributes	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	135	140
+11639	attributes		variable	138	use	org.jsoup.nodes.TextNode.ensureAttributes	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	135	140
+11692	TextNode.TEXT_KEY	String	variable	138	use	org.jsoup.nodes.TextNode.ensureAttributes	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	135	140
+11693	TextNode.text	String	variable	138	use	org.jsoup.nodes.TextNode.ensureAttributes	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	135	140
+11639	attributes		variable	63	use	org.jsoup.nodes.TextNode.getWholeText	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	62	64
+11693	TextNode.text	String	variable	63	use	org.jsoup.nodes.TextNode.getWholeText	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	62	64
+11639	attributes		variable	63	use	org.jsoup.nodes.TextNode.getWholeText	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	62	64
+11692	TextNode.TEXT_KEY	String	variable	63	use	org.jsoup.nodes.TextNode.getWholeText	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	62	64
+11644	attributeKey	String	param	161	define	org.jsoup.nodes.TextNode.hasAttr	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	161	164
+11644	attributeKey	String	param	163	use	org.jsoup.nodes.TextNode.hasAttr	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	161	164
+11648	sb	StringBuilder	param	130	define	org.jsoup.nodes.TextNode.lastCharIsWhitespace	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	130	132
+11648	sb	StringBuilder	param	131	use	org.jsoup.nodes.TextNode.lastCharIsWhitespace	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	130	132
+11648	sb	StringBuilder	param	131	use	org.jsoup.nodes.TextNode.lastCharIsWhitespace	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	130	132
+11648	sb	StringBuilder	param	131	use	org.jsoup.nodes.TextNode.lastCharIsWhitespace	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	130	132
+11652	text	String	param	121	define	org.jsoup.nodes.TextNode.normaliseWhitespace	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	121	124
+11652	text	String	param	122	set	org.jsoup.nodes.TextNode.normaliseWhitespace	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	121	124
+11652	text	String	param	122	use	org.jsoup.nodes.TextNode.normaliseWhitespace	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	121	124
+11652	text	String	param	123	use	org.jsoup.nodes.TextNode.normaliseWhitespace	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	121	124
+11665	accum	Appendable	param	94	define	org.jsoup.nodes.TextNode.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	94	100
+11666	depth	int	param	94	define	org.jsoup.nodes.TextNode.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	94	100
+11668	out	Document.OutputSettings	param	94	define	org.jsoup.nodes.TextNode.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	94	100
+11668	out	Document.OutputSettings	param	95	use	org.jsoup.nodes.TextNode.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	94	100
+11668	out	Document.OutputSettings	param	95	use	org.jsoup.nodes.TextNode.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	94	100
+11665	accum	Appendable	param	96	use	org.jsoup.nodes.TextNode.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	94	100
+11666	depth	int	param	96	use	org.jsoup.nodes.TextNode.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	94	100
+11668	out	Document.OutputSettings	param	96	use	org.jsoup.nodes.TextNode.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	94	100
+11668	out	Document.OutputSettings	param	98	use	org.jsoup.nodes.TextNode.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	94	100
+11665	accum	Appendable	param	100	use	org.jsoup.nodes.TextNode.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	94	100
+11668	out	Document.OutputSettings	param	100	use	org.jsoup.nodes.TextNode.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	94	100
+11667	normaliseWhite	boolean	variable	98	define	org.jsoup.nodes.TextNode.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	94	100
+11667	normaliseWhite	boolean	variable	98	set	org.jsoup.nodes.TextNode.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	94	100
+11669	parentNode		variable	95	use	org.jsoup.nodes.TextNode.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	94	100
+11669	parentNode		variable	95	use	org.jsoup.nodes.TextNode.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	94	100
+11667	normaliseWhite	boolean	variable	100	use	org.jsoup.nodes.TextNode.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	94	100
+11671	accum	Appendable	param	103	define	org.jsoup.nodes.TextNode.outerHtmlTail	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	103	103
+11672	depth	int	param	103	define	org.jsoup.nodes.TextNode.outerHtmlTail	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	103	103
+11673	out	Document.OutputSettings	param	103	define	org.jsoup.nodes.TextNode.outerHtmlTail	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	103	103
+11676	attributeKey	String	param	167	define	org.jsoup.nodes.TextNode.removeAttr	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	167	170
+11676	attributeKey	String	param	169	use	org.jsoup.nodes.TextNode.removeAttr	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	167	170
+11682	offset	int	param	80	define	org.jsoup.nodes.TextNode.splitText	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	80	91
+11682	offset	int	param	81	use	org.jsoup.nodes.TextNode.splitText	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	80	91
+11682	offset	int	param	82	use	org.jsoup.nodes.TextNode.splitText	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	80	91
+11682	offset	int	param	84	use	org.jsoup.nodes.TextNode.splitText	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	80	91
+11682	offset	int	param	85	use	org.jsoup.nodes.TextNode.splitText	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	80	91
+11681	head	String	variable	84	define	org.jsoup.nodes.TextNode.splitText	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	80	91
+11683	tail	String	variable	85	define	org.jsoup.nodes.TextNode.splitText	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	80	91
+11684	tailNode	TextNode	variable	87	define	org.jsoup.nodes.TextNode.splitText	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	80	91
+11681	head	String	variable	84	set	org.jsoup.nodes.TextNode.splitText	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	80	91
+11683	tail	String	variable	85	set	org.jsoup.nodes.TextNode.splitText	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	80	91
+11684	tailNode	TextNode	variable	87	set	org.jsoup.nodes.TextNode.splitText	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	80	91
+11693	TextNode.text	String	variable	82	use	org.jsoup.nodes.TextNode.splitText	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	80	91
+11681	head	String	variable	86	use	org.jsoup.nodes.TextNode.splitText	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	80	91
+11683	tail	String	variable	87	use	org.jsoup.nodes.TextNode.splitText	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	80	91
+11684	tailNode	TextNode	variable	89	use	org.jsoup.nodes.TextNode.splitText	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	80	91
+11684	tailNode	TextNode	variable	91	use	org.jsoup.nodes.TextNode.splitText	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	80	91
+11686	text	String	param	126	define	org.jsoup.nodes.TextNode.stripLeadingWhitespace	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	126	128
+11686	text	String	param	127	use	org.jsoup.nodes.TextNode.stripLeadingWhitespace	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	126	128
+11689	text	String	param	51	define	org.jsoup.nodes.TextNode.text	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	51	56
+11689	text	String	param	52	use	org.jsoup.nodes.TextNode.text	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	51	56
+11689	text	String	param	54	use	org.jsoup.nodes.TextNode.text	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	51	56
+11693	TextNode.text	String	variable	52	set	org.jsoup.nodes.TextNode.text	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	51	56
+11639	attributes		variable	53	use	org.jsoup.nodes.TextNode.text	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	51	56
+11639	attributes		variable	54	use	org.jsoup.nodes.TextNode.text	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	51	56
+11692	TextNode.TEXT_KEY	String	variable	54	use	org.jsoup.nodes.TextNode.text	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	51	56
+11620	text	String	param	28	define	org.jsoup.nodes.TextNode.TextNode	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	28	31
+11618	baseUri	String	param	28	define	org.jsoup.nodes.TextNode.TextNode	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	28	31
+11618	baseUri	String	param	29	use	org.jsoup.nodes.TextNode.TextNode	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	28	31
+11620	text	String	param	30	use	org.jsoup.nodes.TextNode.TextNode	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	28	31
+11693	TextNode.text	String	variable	30	set	org.jsoup.nodes.TextNode.TextNode	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	28	31
+11619	baseUri		variable	29	use	org.jsoup.nodes.TextNode.TextNode	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_9_buggy/src/main/java/org/jsoup/nodes/TextNode.java	28	31

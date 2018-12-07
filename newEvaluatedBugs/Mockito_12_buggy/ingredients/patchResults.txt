@@ -1,0 +1,69 @@
+org.mockito.internal.util.reflection.GenericMaster::::20::::682::::687::::(java.lang.Class) (actual)::::generic	false
+org.mockito.internal.configuration.DefaultAnnotationEngine::::42::::1551::::1560::::(org.mockito.Captor) (annotation)::::annotation	false
+org.mockito.internal.util.reflection.GenericMaster::::19::::613::::619::::(java.lang.reflect.ParameterizedType) (generic)::::generic	false
+org.mockito.internal.util.reflection.GenericMaster::::18::::526::::561::::generic instanceof java.lang.reflect.ParameterizedType::::generic != null	false
+org.mockito.internal.util.reflection.GenericMaster::::18::::507::::521::::generic != null::::generic instanceof java.lang.reflect.ParameterizedType	false
+org.mockito.internal.util.reflection.GenericMaster::::18::::526::::561::::generic instanceof java.lang.reflect.ParameterizedType::::generic != null) && (generic instanceof java.lang.reflect.ParameterizedType	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::595::::599::::value::::target	false
+org.mockito.internal.configuration.DefaultAnnotationEngine::::41::::1471::::1498::::annotation instanceof org.mockito.Captor::::annotation instanceof org.mockito.MockitoAnnotations.Mock	false
+org.mockito.internal.configuration.DefaultAnnotationEngine::::41::::1471::::1498::::annotation instanceof org.mockito.Captor::::annotation instanceof org.mockito.Mock	false
+org.mockito.internal.util.reflection.GenericMaster::::18::::507::::521::::generic != null::::generic != null) && (generic instanceof java.lang.reflect.ParameterizedType	false
+org.mockito.internal.util.reflection.FieldSetter::::27::::790::::796::::changer::::new org.mockito.internal.util.reflection.AccessibilityChanger()	false
+org.mockito.internal.configuration.DefaultAnnotationEngine::::35::::1197::::1222::::annotation instanceof org.mockito.Mock::::annotation instanceof org.mockito.MockitoAnnotations.Mock	false
+org.mockito.internal.util.reflection.FieldSetter::::21::::522::::528::::changer::::new org.mockito.internal.util.reflection.AccessibilityChanger()	false
+org.mockito.internal.configuration.DefaultAnnotationEngine::::36::::1273::::1282::::(org.mockito.Mock) (annotation)::::annotation	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::35::::1166::::1173::::delegate::::spyAnnotationEngine	false
+org.mockito.internal.configuration.DefaultAnnotationEngine::::38::::1315::::1359::::annotation instanceof org.mockito.MockitoAnnotations.Mock::::annotation instanceof org.mockito.Captor	false
+org.mockito.internal.creation.jmock.SearchingClassLoader::::32::::996::::996::::c::::first	false
+org.mockito.internal.configuration.DefaultAnnotationEngine::::35::::1197::::1222::::annotation instanceof org.mockito.Mock::::annotation instanceof org.mockito.Captor	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::587::::592::::target::::value	false
+org.mockito.internal.util.MockCreationValidator::::36::::1082::::1100::::classToMock == null::::classToMock == null) || (spiedInstance == null	false
+org.mockito.internal.util.MockCreationValidator::::36::::1105::::1125::::spiedInstance == null::::classToMock == null) || (spiedInstance == null	false
+org.mockito.internal.util.MockCreationValidator::::36::::1082::::1100::::classToMock == null::::isTypeMockable(classToMock)	false
+org.mockito.internal.util.MockCreationValidator::::36::::1082::::1100::::classToMock == null::::!(isTypeMockable(classToMock))	false
+org.mockito.internal.util.reflection.FieldSetter::::27::::790::::824::::changer.safelyDisableAccess(field)::::INSERT::::STATEMENT::::field.set(target, value)	false
+org.mockito.internal.creation.jmock.SearchingClassLoader::::30::::898::::902::::first::::c	false
+org.mockito.internal.util.MockCreationValidator::::36::::1082::::1125::::classToMock == null) || (spiedInstance == null::::isTypeMockable(classToMock)	false
+org.mockito.internal.util.MockCreationValidator::::36::::1082::::1125::::classToMock == null) || (spiedInstance == null::::!(isTypeMockable(classToMock))	false
+org.mockito.internal.util.reflection.FieldSetter::::21::::522::::549::::changer.enableAccess(field)::::INSERT::::STATEMENT::::field.set(target, value)	false
+org.mockito.internal.util.reflection.FieldSetter::::20::::455::::512::::org.mockito.internal.util.reflection.AccessibilityChanger changer = new org.mockito.internal.util.reflection.AccessibilityChanger()::::INSERT::::STATEMENT::::field.set(target, value)	false
+org.mockito.internal.util.reflection.FieldSetter::::27::::790::::824::::changer.safelyDisableAccess(field)::::DELETE::::STATEMENT	false
+org.mockito.internal.util.reflection.FieldSetter::::21::::522::::549::::changer.enableAccess(field)::::DELETE::::STATEMENT	false
+org.mockito.internal.util.reflection.AccessibilityChanger::::30::::750::::775::::field.setAccessible(true)::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.GlobalConfiguration::::39::::1467::::1472::::config::::defaultConfiguration	false
+org.mockito.internal.configuration.GlobalConfiguration::::40::::1497::::1510::::return config::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	false
+org.mockito.internal.configuration.GlobalConfiguration::::40::::1504::::1509::::config::::defaultConfiguration	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::581::::field::::this	false
+org.mockito.internal.util.MockName::::21::::623::::647::::this.mockName = mockName::::this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock)	false
+org.mockito.internal.util.MockUtil::::39::::1355::::1393::::settings.initiateMockName(classToMock)::::DELETE::::STATEMENT	false
+org.mockito.internal.util.MockUtil::::37::::1266::::1344::::creationValidator.validateMockedType(classToMock, settings.getSpiedInstance())::::DELETE::::STATEMENT	false
+org.mockito.internal.util.MockUtil::::36::::1171::::1256::::creationValidator.validateExtraInterfaces(classToMock, settings.getExtraInterfaces())::::DELETE::::STATEMENT	false
+org.mockito.internal.util.MockUtil::::35::::1118::::1161::::creationValidator.validateType(classToMock)::::DELETE::::STATEMENT	false
+org.mockito.internal.creation.jmock.SearchingClassLoader::::40::::1317::::1386::::org.mockito.internal.creation.jmock.SearchingClassLoader.addIfNewElement(loaders, org.mockito.internal.creation.jmock.SearchingClassLoader.class.getClassLoader())::::DELETE::::STATEMENT	false
+org.mockito.internal.creation.jmock.SearchingClassLoader::::30::::873::::921::::org.mockito.internal.creation.jmock.SearchingClassLoader.addIfNewElement(loaders, first.getClassLoader())::::DELETE::::STATEMENT	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::581::::field::::this.field	false
+org.mockito.internal.util.MockName::::21::::623::::647::::this.mockName = mockName::::INSERT::::STATEMENT::::if (mockName == null) {    this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock);    this.surrogate = true;}else {    this.mockName = mockName;}	false
+org.mockito.internal.progress.ThreadSafeMockingProgress::::22::::781::::827::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.set(new org.mockito.internal.progress.MockingProgressImpl())::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.GlobalConfiguration::::32::::1176::::1215::::org.mockito.internal.configuration.GlobalConfiguration.globalConfiguration.set(createConfig())::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.GlobalConfiguration::::39::::1463::::1578::::if (config != null) {    return config;}else {    return defaultConfiguration;}::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	false
+org.mockito.internal.configuration.GlobalConfiguration::::38::::1381::::1453::::org.mockito.configuration.IMockitoConfiguration config = new org.mockito.internal.configuration.ClassPathLoader().loadConfiguration()::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	false
+org.mockito.internal.configuration.GlobalConfiguration::::37::::1293::::1371::::org.mockito.configuration.IMockitoConfiguration defaultConfiguration = new org.mockito.configuration.DefaultMockitoConfiguration()::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	false
+org.mockito.internal.util.MockCreationValidator::::37::::1142::::1148::::return ::::INSERT::::STATEMENT::::if ((classToMock == null) || (spiedInstance == null)) {    return ;}	false
+org.mockito.internal.util.MockCreationValidator::::36::::1078::::1158::::if ((classToMock == null) || (spiedInstance == null)) {    return ;}::::INSERT::::STATEMENT::::if ((classToMock == null) || (spiedInstance == null)) {    return ;}	false
+org.mockito.internal.util.MockCreationValidator::::24::::725::::784::::if (extraInterfaces == null) {    return ;}::::INSERT::::STATEMENT::::if (extraInterfaces == null) {    return ;}	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::601::::value::::DELETE::::PARAMETER::::set(target)	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::601::::value::::DELETE::::PARAMETER::::set(target)	false
+org.mockito.internal.progress.ThreadSafeMockingProgress::::21::::736::::756::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.get()::::DELETE::::INFIX	false
+org.mockito.internal.util.MockCreationValidator::::25::::768::::774::::return ::::INSERT::::STATEMENT::::if (extraInterfaces == null) {    return ;}	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::595::::599::::value::::this.target	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::601::::target::::DELETE::::PARAMETER::::set( value)	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::601::::target::::DELETE::::PARAMETER::::set( value)	false
+org.mockito.internal.util.MockUtil::::39::::1355::::1393::::settings.initiateMockName(classToMock)::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	false
+org.mockito.internal.util.MockUtil::::41::::1404::::1461::::org.mockito.internal.MockHandler<T> mockHandler = new org.mockito.internal.MockHandler<T>(settings)::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	false
+org.mockito.internal.util.MockUtil::::37::::1266::::1344::::creationValidator.validateMockedType(classToMock, settings.getSpiedInstance())::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	false
+org.mockito.internal.util.MockUtil::::36::::1171::::1256::::creationValidator.validateExtraInterfaces(classToMock, settings.getExtraInterfaces())::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	false
+org.mockito.internal.util.MockUtil::::35::::1118::::1134::::creationValidator::::this.creationValidator	false
+org.mockito.internal.configuration.GlobalConfiguration::::31::::1127::::1151::::org.mockito.internal.configuration.GlobalConfiguration.globalConfiguration.get()::::DELETE::::INFIX	false
+org.mockito.internal.util.MockUtil::::36::::1171::::1187::::creationValidator::::this.creationValidator	false
+org.mockito.internal.util.MockUtil::::35::::1118::::1161::::creationValidator.validateType(classToMock)::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	false
+org.mockito.internal.util.MockUtil::::37::::1266::::1282::::creationValidator::::this.creationValidator	false

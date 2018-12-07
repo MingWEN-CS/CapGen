@@ -1,0 +1,8 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+13486	mocks	Object...	param	19	define	org.mockito.internal.util.collections.Sets.newMockSafeHashSet	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_11_buggy/src/org/mockito/internal/util/collections/Sets.java	19	21
+13486	mocks	Object...	param	20	use	org.mockito.internal.util.collections.Sets.newMockSafeHashSet	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_11_buggy/src/org/mockito/internal/util/collections/Sets.java	19	21
+13484	mocks	Iterable<Object>	param	15	define	org.mockito.internal.util.collections.Sets.newMockSafeHashSet	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_11_buggy/src/org/mockito/internal/util/collections/Sets.java	15	17
+13484	mocks	Iterable<Object>	param	16	use	org.mockito.internal.util.collections.Sets.newMockSafeHashSet	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_11_buggy/src/org/mockito/internal/util/collections/Sets.java	15	17
+13490	elements	T...	param	27	define	org.mockito.internal.util.collections.Sets.newSet	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_11_buggy/src/org/mockito/internal/util/collections/Sets.java	27	32
+13490	elements	T...	param	28	use	org.mockito.internal.util.collections.Sets.newSet	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_11_buggy/src/org/mockito/internal/util/collections/Sets.java	27	32
+13490	elements	T...	param	31	use	org.mockito.internal.util.collections.Sets.newSet	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_11_buggy/src/org/mockito/internal/util/collections/Sets.java	27	32

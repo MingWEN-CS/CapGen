@@ -1,0 +1,6 @@
+VerificationModeFactory		org.mockito.internal.verification.VerificationModeFactory	[]
+VerificationModeFactory	org.mockito.internal.verification.api.VerificationMode	atLeastOnce	[]
+VerificationModeFactory	org.mockito.internal.verification.api.VerificationMode	atLeast	[int]
+VerificationModeFactory	org.mockito.internal.verification.Times	times	[int]
+VerificationModeFactory	org.mockito.internal.verification.NoMoreInteractions	noMoreInteractions	[]
+VerificationModeFactory	org.mockito.internal.verification.api.VerificationMode	atMost	[int]

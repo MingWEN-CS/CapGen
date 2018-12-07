@@ -1,0 +1,771 @@
+org.jsoup.helper.HttpConnection::::752::::27989::::27992::::name::::contentType	false
+org.jsoup.helper.HttpConnection::::751::::27940::::27945::::values::::cd	false
+org.jsoup.helper.HttpConnection::::752::::27989::::27992::::name::::value	false
+org.jsoup.helper.HttpConnection::::305::::9093::::9097::::value::::name	false
+org.jsoup.helper.HttpConnection::::307::::9181::::9185::::value::::name	false
+org.jsoup.helper.HttpConnection::::312::::9381::::9385::::value::::name	false
+org.jsoup.helper.HttpConnection::::271::::7697::::7701::::value::::name	false
+org.jsoup.helper.HttpConnection::::273::::7869::::7873::::value::::name	false
+org.jsoup.helper.HttpConnection::::305::::9093::::9097::::value::::contentType	false
+org.jsoup.helper.HttpConnection::::307::::9181::::9185::::value::::contentType	false
+org.jsoup.helper.HttpConnection::::312::::9381::::9385::::value::::contentType	false
+org.jsoup.helper.HttpConnection::::271::::7697::::7701::::value::::contentType	false
+org.jsoup.helper.HttpConnection::::273::::7869::::7873::::value::::contentType	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::contentType	false
+org.jsoup.helper.HttpConnection::::734::::26995::::26998::::name::::contentType	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::value	false
+org.jsoup.helper.HttpConnection::::273::::7863::::7866::::name::::contentType	false
+org.jsoup.helper.HttpConnection::::272::::7763::::7766::::name::::contentType	false
+org.jsoup.helper.HttpConnection::::734::::26995::::26998::::name::::value	false
+org.jsoup.helper.HttpConnection::::270::::7628::::7631::::name::::contentType	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::contentType	false
+org.jsoup.helper.HttpConnection::::291::::8540::::8543::::name::::contentType	false
+org.jsoup.helper.HttpConnection::::290::::8442::::8445::::name::::contentType	false
+org.jsoup.helper.HttpConnection::::266::::7527::::7530::::name::::contentType	false
+org.jsoup.helper.HttpConnection::::265::::7444::::7447::::name::::contentType	false
+org.jsoup.helper.HttpConnection::::304::::9070::::9073::::name::::contentType	false
+org.jsoup.helper.HttpConnection::::302::::8902::::8905::::name::::contentType	false
+org.jsoup.helper.HttpConnection::::273::::7863::::7866::::name::::value	false
+org.jsoup.helper.HttpConnection::::272::::7763::::7766::::name::::value	false
+org.jsoup.helper.HttpConnection::::270::::7628::::7631::::name::::value	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::value	false
+org.jsoup.helper.HttpConnection::::291::::8540::::8543::::name::::value	false
+org.jsoup.helper.HttpConnection::::290::::8442::::8445::::name::::value	false
+org.jsoup.helper.HttpConnection::::266::::7527::::7530::::name::::value	false
+org.jsoup.helper.HttpConnection::::265::::7444::::7447::::name::::value	false
+org.jsoup.helper.HttpConnection::::304::::9070::::9073::::name::::value	false
+org.jsoup.helper.HttpConnection::::302::::8902::::8905::::name::::value	false
+org.jsoup.helper.HttpConnection::::273::::7851::::7875::::headers.put(name, value)::::INSERT::::STATEMENT::::!(req.ignoreContentType())	false
+org.jsoup.helper.HttpConnection::::272::::7750::::7768::::removeHeader(name)::::INSERT::::STATEMENT::::removeHeader(name)	false
+org.jsoup.helper.HttpConnection::::272::::7750::::7768::::removeHeader(name)::::INSERT::::STATEMENT::::!(req.ignoreContentType())	false
+org.jsoup.helper.HttpConnection::::271::::7680::::7736::::org.jsoup.helper.Validate.notNull(value, "Header value must not be null")::::INSERT::::STATEMENT::::!(req.ignoreContentType())	false
+org.jsoup.helper.HttpConnection::::292::::8593::::8658::::if (entry != null)    headers.remove(entry.getKey());::::INSERT::::STATEMENT::::!(req.ignoreContentType())	false
+org.jsoup.helper.HttpConnection::::752::::27995::::28000::::values::::byteData	false
+org.jsoup.helper.HttpConnection::::290::::8424::::8480::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::INSERT::::STATEMENT::::!(req.ignoreContentType())	false
+org.jsoup.helper.HttpConnection::::270::::7610::::7666::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::INSERT::::STATEMENT::::!(req.ignoreContentType())	false
+org.jsoup.helper.HttpConnection::::241::::6841::::6847::::cookies::::headers	false
+org.jsoup.helper.HttpConnection::::302::::8885::::8939::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::INSERT::::STATEMENT::::!(req.ignoreContentType())	false
+org.jsoup.helper.HttpConnection::::265::::7427::::7481::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::INSERT::::STATEMENT::::!(req.ignoreContentType())	false
+org.jsoup.helper.HttpConnection::::304::::9043::::9075::::java.lang.String value = headers.get(name)::::INSERT::::STATEMENT::::!(req.ignoreContentType())	false
+org.jsoup.helper.HttpConnection::::305::::9089::::9163::::if (value == null)    value = headers.get(name.toLowerCase());::::INSERT::::STATEMENT::::!(req.ignoreContentType())	false
+org.jsoup.helper.HttpConnection::::316::::9480::::9510::::java.lang.String lc = name.toLowerCase()::::INSERT::::STATEMENT::::!(req.ignoreContentType())	false
+org.jsoup.helper.HttpConnection::::273::::7851::::7875::::headers.put(name, value)::::INSERT::::STATEMENT::::removeHeader(name)	false
+org.jsoup.helper.HttpConnection::::291::::8494::::8545::::java.util.Map.Entry<java.lang.String, java.lang.String> entry = scanHeaders(name)::::INSERT::::STATEMENT::::!(req.ignoreContentType())	false
+org.jsoup.helper.HttpConnection::::273::::7851::::7875::::headers.put(name, value)::::INSERT::::STATEMENT::::req.postDataCharset(charset)	false
+org.jsoup.helper.HttpConnection::::273::::7851::::7875::::headers.put(name, value)::::INSERT::::STATEMENT::::req.ignoreHttpErrors(ignoreHttpErrors)	false
+org.jsoup.helper.HttpConnection::::273::::7851::::7875::::headers.put(name, value)::::INSERT::::STATEMENT::::req.ignoreContentType(ignoreContentType)	false
+org.jsoup.helper.HttpConnection::::273::::7851::::7875::::headers.put(name, value)::::INSERT::::STATEMENT::::req.followRedirects(followRedirects)	false
+org.jsoup.helper.HttpConnection::::271::::7680::::7736::::org.jsoup.helper.Validate.notNull(value, "Header value must not be null")::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::312::::9374::::9386::::return value::::INSERT::::STATEMENT::::!(req.ignoreContentType())	false
+org.jsoup.helper.HttpConnection::::752::::27989::::27992::::name::::org.jsoup.helper.HttpConnection.Response.LOCATION	false
+org.jsoup.helper.HttpConnection::::304::::9058::::9064::::headers::::cookies	false
+org.jsoup.helper.HttpConnection::::317::::9563::::9569::::headers::::cookies	false
+org.jsoup.helper.HttpConnection::::273::::7851::::7857::::headers::::cookies	false
+org.jsoup.helper.HttpConnection::::307::::9177::::9360::::if (value == null) {    java.util.Map.Entry<java.lang.String, java.lang.String> entry = scanHeaders(name);    if (entry != null)        value = entry.getValue();}::::INSERT::::STATEMENT::::!(req.ignoreContentType())	false
+org.jsoup.helper.HttpConnection::::292::::8593::::8658::::if (entry != null)    headers.remove(entry.getKey());::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::305::::9093::::9097::::value::::org.jsoup.helper.HttpConnection.Response.LOCATION	false
+org.jsoup.helper.HttpConnection::::307::::9181::::9185::::value::::org.jsoup.helper.HttpConnection.Response.LOCATION	false
+org.jsoup.helper.HttpConnection::::312::::9381::::9385::::value::::org.jsoup.helper.HttpConnection.Response.LOCATION	false
+org.jsoup.helper.HttpConnection::::751::::27939::::27955::::!(values.isEmpty())::::INSERT::::STATEMENT::::!(req.ignoreContentType())	false
+org.jsoup.helper.HttpConnection::::266::::7495::::7532::::return getHeaderCaseInsensitive(name)::::INSERT::::STATEMENT::::req.postDataCharset(charset)	false
+org.jsoup.helper.HttpConnection::::266::::7495::::7532::::return getHeaderCaseInsensitive(name)::::INSERT::::STATEMENT::::req.ignoreHttpErrors(ignoreHttpErrors)	false
+org.jsoup.helper.HttpConnection::::266::::7495::::7532::::return getHeaderCaseInsensitive(name)::::INSERT::::STATEMENT::::req.ignoreContentType(ignoreContentType)	false
+org.jsoup.helper.HttpConnection::::266::::7495::::7532::::return getHeaderCaseInsensitive(name)::::INSERT::::STATEMENT::::req.followRedirects(followRedirects)	false
+org.jsoup.helper.HttpConnection::::266::::7495::::7532::::return getHeaderCaseInsensitive(name)::::INSERT::::STATEMENT::::removeHeader(name)	false
+org.jsoup.helper.HttpConnection::::266::::7495::::7532::::return getHeaderCaseInsensitive(name)::::INSERT::::STATEMENT::::!(req.ignoreContentType())	false
+org.jsoup.helper.HttpConnection::::271::::7697::::7701::::value::::org.jsoup.helper.HttpConnection.Response.LOCATION	false
+org.jsoup.helper.HttpConnection::::317::::9524::::9692::::for (java.util.Map.Entry<java.lang.String, java.lang.String> entry : headers.entrySet()) {    if (entry.getKey().toLowerCase().equals(lc))        return entry;}::::INSERT::::STATEMENT::::!(req.ignoreContentType())	false
+org.jsoup.helper.HttpConnection::::273::::7851::::7857::::headers::::byteData	false
+org.jsoup.helper.HttpConnection::::273::::7869::::7873::::value::::org.jsoup.helper.HttpConnection.Response.LOCATION	false
+org.jsoup.helper.HttpConnection::::752::::27982::::28009::::header(name, values.get(0))::::INSERT::::STATEMENT::::!(req.ignoreContentType())	false
+org.jsoup.helper.HttpConnection::::271::::7680::::7736::::org.jsoup.helper.Validate.notNull(value, "Header value must not be null")::::INSERT::::STATEMENT::::removeHeader(name)	false
+org.jsoup.helper.HttpConnection::::751::::27935::::28009::::if (!(values.isEmpty()))    header(name, values.get(0));::::INSERT::::STATEMENT::::!(req.ignoreContentType())	false
+org.jsoup.helper.HttpConnection::::273::::7851::::7875::::headers.put(name, value)::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::751::::27940::::27945::::values::::new org.jsoup.parser.TokenQueue(value)	false
+org.jsoup.helper.HttpConnection::::290::::8424::::8480::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::304::::9058::::9064::::headers::::byteData	false
+org.jsoup.helper.HttpConnection::::266::::7495::::7532::::return getHeaderCaseInsensitive(name)::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::316::::9480::::9510::::java.lang.String lc = name.toLowerCase()::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::304::::9058::::9064::::headers::::req.cookies()	false
+org.jsoup.helper.Validate::::101::::2864::::2883::::(string.length()) == 0::::string == null	false
+org.jsoup.helper.HttpConnection::::291::::8494::::8545::::java.util.Map.Entry<java.lang.String, java.lang.String> entry = scanHeaders(name)::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::270::::7610::::7666::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::265::::7427::::7481::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Request must not be null"	false
+org.jsoup.helper.HttpConnection::::317::::9563::::9569::::headers::::req.cookies()	false
+org.jsoup.helper.HttpConnection::::304::::9043::::9075::::java.lang.String value = headers.get(name)::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::302::::8885::::8939::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::751::::27935::::28009::::if (!(values.isEmpty()))    header(name, values.get(0));::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::305::::9089::::9163::::if (value == null)    value = headers.get(name.toLowerCase());::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::317::::9524::::9692::::for (java.util.Map.Entry<java.lang.String, java.lang.String> entry : headers.entrySet()) {    if (entry.getKey().toLowerCase().equals(lc))        return entry;}::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Request must not be null"	false
+org.jsoup.helper.HttpConnection::::752::::27989::::27992::::name::::charset	false
+org.jsoup.helper.HttpConnection::::273::::7851::::7857::::headers::::req.cookies()	false
+org.jsoup.helper.HttpConnection::::307::::9177::::9360::::if (value == null) {    java.util.Map.Entry<java.lang.String, java.lang.String> entry = scanHeaders(name);    if (entry != null)        value = entry.getValue();}::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::271::::7680::::7736::::org.jsoup.helper.Validate.notNull(value, "Header value must not be null")::::INSERT::::STATEMENT::::req.postDataCharset(charset)	false
+org.jsoup.helper.HttpConnection::::271::::7680::::7736::::org.jsoup.helper.Validate.notNull(value, "Header value must not be null")::::INSERT::::STATEMENT::::req.ignoreHttpErrors(ignoreHttpErrors)	false
+org.jsoup.helper.HttpConnection::::271::::7680::::7736::::org.jsoup.helper.Validate.notNull(value, "Header value must not be null")::::INSERT::::STATEMENT::::req.ignoreContentType(ignoreContentType)	false
+org.jsoup.helper.HttpConnection::::271::::7680::::7736::::org.jsoup.helper.Validate.notNull(value, "Header value must not be null")::::INSERT::::STATEMENT::::req.followRedirects(followRedirects)	false
+org.jsoup.helper.HttpConnection::::305::::9093::::9097::::value::::charset	false
+org.jsoup.helper.HttpConnection::::307::::9181::::9185::::value::::charset	false
+org.jsoup.helper.HttpConnection::::312::::9381::::9385::::value::::charset	false
+org.jsoup.helper.HttpConnection::::271::::7697::::7701::::value::::charset	false
+org.jsoup.helper.HttpConnection::::273::::7869::::7873::::value::::charset	false
+org.jsoup.helper.HttpConnection::::752::::27982::::28009::::header(name, values.get(0))::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::272::::7750::::7768::::removeHeader(name)::::INSERT::::STATEMENT::::execute()	false
+org.jsoup.helper.HttpConnection::::734::::26995::::26998::::name::::org.jsoup.helper.HttpConnection.Response.LOCATION	false
+org.jsoup.helper.HttpConnection::::751::::27939::::27955::::!(values.isEmpty())::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::312::::9374::::9386::::return value::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::302::::8902::::8905::::name::::org.jsoup.helper.HttpConnection.Response.LOCATION	false
+org.jsoup.helper.HttpConnection::::304::::9070::::9073::::name::::org.jsoup.helper.HttpConnection.Response.LOCATION	false
+org.jsoup.helper.HttpConnection::::265::::7444::::7447::::name::::org.jsoup.helper.HttpConnection.Response.LOCATION	false
+org.jsoup.helper.HttpConnection::::266::::7527::::7530::::name::::org.jsoup.helper.HttpConnection.Response.LOCATION	false
+org.jsoup.helper.HttpConnection::::290::::8442::::8445::::name::::org.jsoup.helper.HttpConnection.Response.LOCATION	false
+org.jsoup.helper.HttpConnection::::291::::8540::::8543::::name::::org.jsoup.helper.HttpConnection.Response.LOCATION	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::org.jsoup.helper.HttpConnection.Response.LOCATION	false
+org.jsoup.helper.HttpConnection::::270::::7628::::7631::::name::::org.jsoup.helper.HttpConnection.Response.LOCATION	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::org.jsoup.helper.HttpConnection.Response.LOCATION	false
+org.jsoup.helper.HttpConnection::::272::::7763::::7766::::name::::org.jsoup.helper.HttpConnection.Response.LOCATION	false
+org.jsoup.helper.HttpConnection::::321::::9706::::9717::::return null::::INSERT::::STATEMENT::::!(req.ignoreContentType())	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27167::::name.equalsIgnoreCase("Set-Cookie")::::INSERT::::STATEMENT::::!(req.ignoreContentType())	false
+org.jsoup.helper.HttpConnection::::240::::6782::::6788::::headers::::cookies	false
+org.jsoup.helper.HttpConnection::::752::::27982::::28009::::header(name, values.get(0))::::INSERT::::STATEMENT::::if (value == null)    continue;	false
+org.jsoup.helper.HttpConnection::::273::::7863::::7866::::name::::org.jsoup.helper.HttpConnection.Response.LOCATION	false
+org.jsoup.helper.HttpConnection::::273::::7851::::7875::::headers.put(name, value)::::INSERT::::STATEMENT::::execute()	false
+org.jsoup.helper.HttpConnection::::266::::7495::::7532::::return getHeaderCaseInsensitive(name)::::INSERT::::STATEMENT::::execute()	false
+org.jsoup.helper.HttpConnection::::751::::27939::::27955::::!(values.isEmpty())::::INSERT::::STATEMENT::::if (value == null)    continue;	false
+org.jsoup.helper.HttpConnection::::752::::27982::::28009::::header(name, values.get(0))::::INSERT::::STATEMENT::::if (name == null)    continue;	false
+org.jsoup.helper.HttpConnection::::751::::27939::::27955::::!(values.isEmpty())::::INSERT::::STATEMENT::::if (name == null)    continue;	false
+org.jsoup.helper.HttpConnection::::272::::7750::::7768::::removeHeader(name)::::INSERT::::STATEMENT::::req.postDataCharset(charset)	false
+org.jsoup.helper.HttpConnection::::272::::7750::::7768::::removeHeader(name)::::INSERT::::STATEMENT::::req.ignoreHttpErrors(ignoreHttpErrors)	false
+org.jsoup.helper.HttpConnection::::272::::7750::::7768::::removeHeader(name)::::INSERT::::STATEMENT::::req.ignoreContentType(ignoreContentType)	false
+org.jsoup.helper.HttpConnection::::272::::7750::::7768::::removeHeader(name)::::INSERT::::STATEMENT::::req.followRedirects(followRedirects)	false
+org.jsoup.helper.HttpConnection::::751::::27935::::28009::::if (!(values.isEmpty()))    header(name, values.get(0));::::INSERT::::STATEMENT::::if (value == null)    continue;	false
+org.jsoup.helper.HttpConnection::::316::::9480::::9510::::java.lang.String lc = name.toLowerCase()::::INSERT::::STATEMENT::::removeHeader(name)	false
+org.jsoup.helper.HttpConnection::::271::::7680::::7736::::org.jsoup.helper.Validate.notNull(value, "Header value must not be null")::::INSERT::::STATEMENT::::execute()	false
+org.jsoup.helper.HttpConnection::::734::::26995::::26998::::name::::charset	false
+org.jsoup.helper.HttpConnection::::752::::27982::::28009::::header(name, values.get(0))::::INSERT::::STATEMENT::::processResponseHeaders(resHeaders)	false
+org.jsoup.helper.HttpConnection::::751::::27939::::27955::::!(values.isEmpty())::::INSERT::::STATEMENT::::processResponseHeaders(resHeaders)	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::charset	false
+org.jsoup.helper.HttpConnection::::273::::7851::::7875::::headers.put(name, value)::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.initUnSecureTSL()	false
+org.jsoup.helper.HttpConnection::::302::::8902::::8905::::name::::charset	false
+org.jsoup.helper.HttpConnection::::304::::9070::::9073::::name::::charset	false
+org.jsoup.helper.HttpConnection::::265::::7444::::7447::::name::::charset	false
+org.jsoup.helper.HttpConnection::::266::::7527::::7530::::name::::charset	false
+org.jsoup.helper.HttpConnection::::290::::8442::::8445::::name::::charset	false
+org.jsoup.helper.HttpConnection::::291::::8540::::8543::::name::::charset	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::charset	false
+org.jsoup.helper.HttpConnection::::270::::7628::::7631::::name::::charset	false
+org.jsoup.helper.HttpConnection::::272::::7763::::7766::::name::::charset	false
+org.jsoup.helper.HttpConnection::::273::::7863::::7866::::name::::charset	false
+org.jsoup.helper.HttpConnection::::272::::7750::::7768::::removeHeader(name)::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.initUnSecureTSL()	false
+org.jsoup.helper.HttpConnection::::266::::7495::::7532::::return getHeaderCaseInsensitive(name)::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.initUnSecureTSL()	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"--"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"--"	false
+org.jsoup.helper.HttpConnection::::321::::9706::::9717::::return null::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::272::::7750::::7768::::removeHeader(name)::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::273::::7851::::7875::::headers.put(name, value)::::DELETE::::STATEMENT	false
+org.jsoup.helper.HttpConnection::::272::::7750::::7768::::removeHeader(name)::::DELETE::::STATEMENT	false
+org.jsoup.helper.HttpConnection::::271::::7680::::7736::::org.jsoup.helper.Validate.notNull(value, "Header value must not be null")::::DELETE::::STATEMENT	false
+org.jsoup.helper.HttpConnection::::273::::7869::::7873::::value::::key	false
+org.jsoup.helper.HttpConnection::::316::::9480::::9510::::java.lang.String lc = name.toLowerCase()::::INSERT::::STATEMENT::::req.postDataCharset(charset)	false
+org.jsoup.helper.HttpConnection::::316::::9480::::9510::::java.lang.String lc = name.toLowerCase()::::INSERT::::STATEMENT::::req.ignoreHttpErrors(ignoreHttpErrors)	false
+org.jsoup.helper.HttpConnection::::316::::9480::::9510::::java.lang.String lc = name.toLowerCase()::::INSERT::::STATEMENT::::req.ignoreContentType(ignoreContentType)	false
+org.jsoup.helper.HttpConnection::::316::::9480::::9510::::java.lang.String lc = name.toLowerCase()::::INSERT::::STATEMENT::::req.followRedirects(followRedirects)	false
+org.jsoup.helper.HttpConnection::::751::::27935::::28009::::if (!(values.isEmpty()))    header(name, values.get(0));::::INSERT::::STATEMENT::::if (name == null)    continue;	false
+org.jsoup.helper.HttpConnection::::271::::7697::::7701::::value::::key	false
+org.jsoup.helper.HttpConnection::::292::::8593::::8658::::if (entry != null)    headers.remove(entry.getKey());::::INSERT::::STATEMENT::::removeHeader(name)	false
+org.jsoup.helper.HttpConnection::::752::::27982::::28009::::header(name, values.get(0))::::DELETE::::STATEMENT	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27167::::name.equalsIgnoreCase("Set-Cookie")::::INSERT::::STATEMENT::::if (name == null)    continue;	false
+org.jsoup.helper.HttpConnection::::752::::27989::::27992::::name::::key	false
+org.jsoup.helper.HttpConnection::::312::::9381::::9385::::value::::key	false
+org.jsoup.helper.HttpConnection::::307::::9181::::9185::::value::::key	false
+org.jsoup.helper.HttpConnection::::305::::9093::::9097::::value::::key	false
+org.jsoup.helper.HttpConnection::::304::::9058::::9064::::headers::::req.headers()	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"\r\n"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"\r\n"	false
+org.jsoup.helper.HttpConnection::::317::::9563::::9569::::headers::::req.headers()	false
+org.jsoup.helper.HttpConnection::::292::::8593::::8658::::if (entry != null)    headers.remove(entry.getKey());::::INSERT::::STATEMENT::::req.postDataCharset(charset)	false
+org.jsoup.helper.HttpConnection::::292::::8593::::8658::::if (entry != null)    headers.remove(entry.getKey());::::INSERT::::STATEMENT::::req.ignoreHttpErrors(ignoreHttpErrors)	false
+org.jsoup.helper.HttpConnection::::292::::8593::::8658::::if (entry != null)    headers.remove(entry.getKey());::::INSERT::::STATEMENT::::req.ignoreContentType(ignoreContentType)	false
+org.jsoup.helper.HttpConnection::::292::::8593::::8658::::if (entry != null)    headers.remove(entry.getKey());::::INSERT::::STATEMENT::::req.followRedirects(followRedirects)	false
+org.jsoup.helper.HttpConnection::::271::::7680::::7736::::org.jsoup.helper.Validate.notNull(value, "Header value must not be null")::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.initUnSecureTSL()	false
+org.jsoup.helper.HttpConnection::::302::::8885::::8939::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::DELETE::::STATEMENT	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"text/"	false
+org.jsoup.helper.HttpConnection::::316::::9480::::9510::::java.lang.String lc = name.toLowerCase()::::INSERT::::STATEMENT::::execute()	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"text/"	false
+org.jsoup.helper.HttpConnection::::751::::27935::::28009::::if (!(values.isEmpty()))    header(name, values.get(0));::::INSERT::::STATEMENT::::processResponseHeaders(resHeaders)	false
+org.jsoup.helper.HttpConnection::::273::::7851::::7857::::headers::::req.headers()	false
+org.jsoup.helper.HttpConnection::::752::::27995::::28000::::values::::new org.jsoup.helper.HttpConnection()	false
+org.jsoup.helper.HttpConnection::::312::::9374::::9386::::return value::::INSERT::::STATEMENT::::removeHeader(name)	false
+org.jsoup.helper.HttpConnection::::290::::8424::::8480::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::INSERT::::STATEMENT::::removeHeader(name)	false
+org.jsoup.helper.HttpConnection::::270::::7610::::7666::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::INSERT::::STATEMENT::::removeHeader(name)	false
+org.jsoup.helper.HttpConnection::::732::::26859::::28041::::for (java.util.Map.Entry<java.lang.String, java.util.List<java.lang.String>> entry : resHeaders.entrySet()) {    java.lang.String name = entry.getKey();    if (name == null)        continue;    java.util.List<java.lang.String> values = entry.getValue();    if (name.equalsIgnoreCase("Set-Cookie")) {        for (java.lang.String value : values) {            if (value == null)                continue;            org.jsoup.parser.TokenQueue cd = new org.jsoup.parser.TokenQueue(value);            java.lang.String cookieName = cd.chompTo("=").trim();            java.lang.String cookieVal = cd.consumeTo(";").trim();            if ((cookieName.length()) > 0)                cookie(cookieName, cookieVal);        }    }else {        if (!(values.isEmpty()))            header(name, values.get(0));    }}::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::732::::26859::::28041::::for (java.util.Map.Entry<java.lang.String, java.util.List<java.lang.String>> entry : resHeaders.entrySet()) {    java.lang.String name = entry.getKey();    if (name == null)        continue;    java.util.List<java.lang.String> values = entry.getValue();    if (name.equalsIgnoreCase("Set-Cookie")) {        for (java.lang.String value : values) {            if (value == null)                continue;            org.jsoup.parser.TokenQueue cd = new org.jsoup.parser.TokenQueue(value);            java.lang.String cookieName = cd.chompTo("=").trim();            java.lang.String cookieVal = cd.consumeTo(";").trim();            if ((cookieName.length()) > 0)                cookie(cookieName, cookieVal);        }    }else {        if (!(values.isEmpty()))            header(name, values.get(0));    }}::::INSERT::::STATEMENT::::!(req.ignoreContentType())	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::key	false
+org.jsoup.helper.HttpConnection::::312::::9374::::9386::::return value::::INSERT::::STATEMENT::::req.postDataCharset(charset)	false
+org.jsoup.helper.HttpConnection::::312::::9374::::9386::::return value::::INSERT::::STATEMENT::::req.ignoreHttpErrors(ignoreHttpErrors)	false
+org.jsoup.helper.HttpConnection::::312::::9374::::9386::::return value::::INSERT::::STATEMENT::::req.ignoreContentType(ignoreContentType)	false
+org.jsoup.helper.HttpConnection::::312::::9374::::9386::::return value::::INSERT::::STATEMENT::::req.followRedirects(followRedirects)	false
+org.jsoup.helper.HttpConnection::::291::::8494::::8545::::java.util.Map.Entry<java.lang.String, java.lang.String> entry = scanHeaders(name)::::INSERT::::STATEMENT::::removeHeader(name)	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27167::::name.equalsIgnoreCase("Set-Cookie")::::INSERT::::STATEMENT::::if (value == null)    continue;	false
+org.jsoup.helper.HttpConnection::::292::::8593::::8658::::if (entry != null)    headers.remove(entry.getKey());::::INSERT::::STATEMENT::::execute()	false
+org.jsoup.helper.HttpConnection::::734::::26995::::26998::::name::::key	false
+org.jsoup.helper.HttpConnection::::290::::8424::::8480::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::INSERT::::STATEMENT::::req.postDataCharset(charset)	false
+org.jsoup.helper.HttpConnection::::290::::8424::::8480::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::INSERT::::STATEMENT::::req.ignoreHttpErrors(ignoreHttpErrors)	false
+org.jsoup.helper.HttpConnection::::290::::8424::::8480::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::INSERT::::STATEMENT::::req.ignoreContentType(ignoreContentType)	false
+org.jsoup.helper.HttpConnection::::290::::8424::::8480::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::INSERT::::STATEMENT::::req.followRedirects(followRedirects)	false
+org.jsoup.helper.HttpConnection::::273::::7863::::7866::::name::::key	false
+org.jsoup.helper.HttpConnection::::317::::9524::::9692::::for (java.util.Map.Entry<java.lang.String, java.lang.String> entry : headers.entrySet()) {    if (entry.getKey().toLowerCase().equals(lc))        return entry;}::::INSERT::::STATEMENT::::removeHeader(name)	false
+org.jsoup.helper.HttpConnection::::272::::7763::::7766::::name::::key	false
+org.jsoup.helper.HttpConnection::::270::::7628::::7631::::name::::key	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::key	false
+org.jsoup.helper.HttpConnection::::304::::9043::::9075::::java.lang.String value = headers.get(name)::::INSERT::::STATEMENT::::removeHeader(name)	false
+org.jsoup.helper.HttpConnection::::751::::27939::::27955::::!(values.isEmpty())::::INSERT::::STATEMENT::::removeHeader(name)	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27167::::name.equalsIgnoreCase("Set-Cookie")::::INSERT::::STATEMENT::::processResponseHeaders(resHeaders)	false
+org.jsoup.helper.HttpConnection::::291::::8540::::8543::::name::::key	false
+org.jsoup.helper.HttpConnection::::270::::7610::::7666::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::INSERT::::STATEMENT::::req.postDataCharset(charset)	false
+org.jsoup.helper.HttpConnection::::270::::7610::::7666::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::INSERT::::STATEMENT::::req.ignoreHttpErrors(ignoreHttpErrors)	false
+org.jsoup.helper.HttpConnection::::270::::7610::::7666::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::INSERT::::STATEMENT::::req.ignoreContentType(ignoreContentType)	false
+org.jsoup.helper.HttpConnection::::270::::7610::::7666::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::INSERT::::STATEMENT::::req.followRedirects(followRedirects)	false
+org.jsoup.helper.HttpConnection::::290::::8442::::8445::::name::::key	false
+org.jsoup.helper.HttpConnection::::266::::7527::::7530::::name::::key	false
+org.jsoup.helper.HttpConnection::::265::::7444::::7447::::name::::key	false
+org.jsoup.helper.HttpConnection::::304::::9070::::9073::::name::::key	false
+org.jsoup.helper.HttpConnection::::302::::8902::::8905::::name::::key	false
+org.jsoup.helper.HttpConnection::::752::::27982::::28009::::header(name, values.get(0))::::INSERT::::STATEMENT::::removeHeader(name)	false
+org.jsoup.helper.HttpConnection::::317::::9524::::9692::::for (java.util.Map.Entry<java.lang.String, java.lang.String> entry : headers.entrySet()) {    if (entry.getKey().toLowerCase().equals(lc))        return entry;}::::INSERT::::STATEMENT::::req.postDataCharset(charset)	false
+org.jsoup.helper.HttpConnection::::317::::9524::::9692::::for (java.util.Map.Entry<java.lang.String, java.lang.String> entry : headers.entrySet()) {    if (entry.getKey().toLowerCase().equals(lc))        return entry;}::::INSERT::::STATEMENT::::req.ignoreHttpErrors(ignoreHttpErrors)	false
+org.jsoup.helper.HttpConnection::::317::::9524::::9692::::for (java.util.Map.Entry<java.lang.String, java.lang.String> entry : headers.entrySet()) {    if (entry.getKey().toLowerCase().equals(lc))        return entry;}::::INSERT::::STATEMENT::::req.ignoreContentType(ignoreContentType)	false
+org.jsoup.helper.HttpConnection::::317::::9524::::9692::::for (java.util.Map.Entry<java.lang.String, java.lang.String> entry : headers.entrySet()) {    if (entry.getKey().toLowerCase().equals(lc))        return entry;}::::INSERT::::STATEMENT::::req.followRedirects(followRedirects)	false
+org.jsoup.helper.HttpConnection::::316::::9480::::9510::::java.lang.String lc = name.toLowerCase()::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.initUnSecureTSL()	false
+org.jsoup.helper.HttpConnection::::291::::8494::::8545::::java.util.Map.Entry<java.lang.String, java.lang.String> entry = scanHeaders(name)::::INSERT::::STATEMENT::::req.postDataCharset(charset)	false
+org.jsoup.helper.HttpConnection::::291::::8494::::8545::::java.util.Map.Entry<java.lang.String, java.lang.String> entry = scanHeaders(name)::::INSERT::::STATEMENT::::req.ignoreHttpErrors(ignoreHttpErrors)	false
+org.jsoup.helper.HttpConnection::::291::::8494::::8545::::java.util.Map.Entry<java.lang.String, java.lang.String> entry = scanHeaders(name)::::INSERT::::STATEMENT::::req.ignoreContentType(ignoreContentType)	false
+org.jsoup.helper.HttpConnection::::291::::8494::::8545::::java.util.Map.Entry<java.lang.String, java.lang.String> entry = scanHeaders(name)::::INSERT::::STATEMENT::::req.followRedirects(followRedirects)	false
+org.jsoup.helper.HttpConnection::::302::::8885::::8939::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::INSERT::::STATEMENT::::removeHeader(name)	false
+org.jsoup.helper.HttpConnection::::265::::7427::::7481::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::INSERT::::STATEMENT::::removeHeader(name)	false
+org.jsoup.helper.HttpConnection::::312::::9374::::9386::::return value::::INSERT::::STATEMENT::::execute()	false
+org.jsoup.helper.HttpConnection::::290::::8424::::8480::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::INSERT::::STATEMENT::::execute()	false
+org.jsoup.helper.HttpConnection::::270::::7610::::7666::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::INSERT::::STATEMENT::::execute()	false
+org.jsoup.helper.HttpConnection::::304::::9043::::9075::::java.lang.String value = headers.get(name)::::INSERT::::STATEMENT::::req.postDataCharset(charset)	false
+org.jsoup.helper.HttpConnection::::304::::9043::::9075::::java.lang.String value = headers.get(name)::::INSERT::::STATEMENT::::req.ignoreHttpErrors(ignoreHttpErrors)	false
+org.jsoup.helper.HttpConnection::::304::::9043::::9075::::java.lang.String value = headers.get(name)::::INSERT::::STATEMENT::::req.ignoreContentType(ignoreContentType)	false
+org.jsoup.helper.HttpConnection::::304::::9043::::9075::::java.lang.String value = headers.get(name)::::INSERT::::STATEMENT::::req.followRedirects(followRedirects)	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::req.postDataCharset()	false
+org.jsoup.helper.HttpConnection::::305::::9089::::9163::::if (value == null)    value = headers.get(name.toLowerCase());::::INSERT::::STATEMENT::::removeHeader(name)	false
+org.jsoup.helper.HttpConnection::::302::::8885::::8939::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::INSERT::::STATEMENT::::req.postDataCharset(charset)	false
+org.jsoup.helper.HttpConnection::::302::::8885::::8939::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::INSERT::::STATEMENT::::req.ignoreHttpErrors(ignoreHttpErrors)	false
+org.jsoup.helper.HttpConnection::::302::::8885::::8939::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::INSERT::::STATEMENT::::req.ignoreContentType(ignoreContentType)	false
+org.jsoup.helper.HttpConnection::::302::::8885::::8939::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::INSERT::::STATEMENT::::req.followRedirects(followRedirects)	false
+org.jsoup.helper.HttpConnection::::265::::7427::::7481::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::INSERT::::STATEMENT::::req.postDataCharset(charset)	false
+org.jsoup.helper.HttpConnection::::265::::7427::::7481::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::INSERT::::STATEMENT::::req.ignoreHttpErrors(ignoreHttpErrors)	false
+org.jsoup.helper.HttpConnection::::265::::7427::::7481::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::INSERT::::STATEMENT::::req.ignoreContentType(ignoreContentType)	false
+org.jsoup.helper.HttpConnection::::265::::7427::::7481::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::INSERT::::STATEMENT::::req.followRedirects(followRedirects)	false
+org.jsoup.helper.HttpConnection::::291::::8494::::8545::::java.util.Map.Entry<java.lang.String, java.lang.String> entry = scanHeaders(name)::::INSERT::::STATEMENT::::execute()	false
+org.jsoup.helper.HttpConnection::::290::::8424::::8480::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::DELETE::::STATEMENT	false
+org.jsoup.helper.HttpConnection::::292::::8593::::8658::::if (entry != null)    headers.remove(entry.getKey());::::INSERT::::STATEMENT::::if (value == null)    continue;	false
+org.jsoup.helper.HttpConnection::::316::::9480::::9510::::java.lang.String lc = name.toLowerCase()::::INSERT::::STATEMENT::::if (value == null)    continue;	false
+org.jsoup.helper.HttpConnection::::316::::9480::::9510::::java.lang.String lc = name.toLowerCase()::::INSERT::::STATEMENT::::if (name == null)    continue;	false
+org.jsoup.helper.HttpConnection::::751::::27939::::27955::::!(values.isEmpty())::::INSERT::::STATEMENT::::req.postDataCharset(charset)	false
+org.jsoup.helper.HttpConnection::::751::::27939::::27955::::!(values.isEmpty())::::INSERT::::STATEMENT::::req.ignoreHttpErrors(ignoreHttpErrors)	false
+org.jsoup.helper.HttpConnection::::751::::27939::::27955::::!(values.isEmpty())::::INSERT::::STATEMENT::::req.ignoreContentType(ignoreContentType)	false
+org.jsoup.helper.HttpConnection::::751::::27939::::27955::::!(values.isEmpty())::::INSERT::::STATEMENT::::req.followRedirects(followRedirects)	false
+org.jsoup.helper.HttpConnection::::751::::27939::::27955::::!(values.isEmpty())::::INSERT::::STATEMENT::::execute()	false
+org.jsoup.helper.HttpConnection::::305::::9089::::9163::::if (value == null)    value = headers.get(name.toLowerCase());::::INSERT::::STATEMENT::::req.postDataCharset(charset)	false
+org.jsoup.helper.HttpConnection::::305::::9089::::9163::::if (value == null)    value = headers.get(name.toLowerCase());::::INSERT::::STATEMENT::::req.ignoreHttpErrors(ignoreHttpErrors)	false
+org.jsoup.helper.HttpConnection::::305::::9089::::9163::::if (value == null)    value = headers.get(name.toLowerCase());::::INSERT::::STATEMENT::::req.ignoreContentType(ignoreContentType)	false
+org.jsoup.helper.HttpConnection::::305::::9089::::9163::::if (value == null)    value = headers.get(name.toLowerCase());::::INSERT::::STATEMENT::::req.followRedirects(followRedirects)	false
+org.jsoup.helper.HttpConnection::::291::::8494::::8545::::java.util.Map.Entry<java.lang.String, java.lang.String> entry = scanHeaders(name)::::INSERT::::STATEMENT::::if (value == null)    continue;	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"\""	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::req.postDataCharset()	false
+org.jsoup.helper.HttpConnection::::734::::26995::::27006::::name == null::::hasHeader(name)	false
+org.jsoup.helper.HttpConnection::::752::::27982::::28009::::header(name, values.get(0))::::INSERT::::STATEMENT::::req.postDataCharset(charset)	false
+org.jsoup.helper.HttpConnection::::752::::27982::::28009::::header(name, values.get(0))::::INSERT::::STATEMENT::::req.ignoreHttpErrors(ignoreHttpErrors)	false
+org.jsoup.helper.HttpConnection::::752::::27982::::28009::::header(name, values.get(0))::::INSERT::::STATEMENT::::req.ignoreContentType(ignoreContentType)	false
+org.jsoup.helper.HttpConnection::::752::::27982::::28009::::header(name, values.get(0))::::INSERT::::STATEMENT::::req.followRedirects(followRedirects)	false
+org.jsoup.helper.HttpConnection::::752::::27982::::28009::::header(name, values.get(0))::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.initUnSecureTSL()	false
+org.jsoup.helper.HttpConnection::::752::::27982::::28009::::header(name, values.get(0))::::INSERT::::STATEMENT::::execute()	false
+org.jsoup.helper.HttpConnection::::292::::8593::::8658::::if (entry != null)    headers.remove(entry.getKey());::::INSERT::::STATEMENT::::if (name == null)    continue;	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"\""	false
+org.jsoup.helper.HttpConnection::::272::::7750::::7768::::removeHeader(name)::::INSERT::::STATEMENT::::if (value == null)    continue;	false
+org.jsoup.helper.HttpConnection::::272::::7750::::7768::::removeHeader(name)::::INSERT::::STATEMENT::::if (name == null)    continue;	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"://"	false
+org.jsoup.helper.HttpConnection::::317::::9524::::9692::::for (java.util.Map.Entry<java.lang.String, java.lang.String> entry : headers.entrySet()) {    if (entry.getKey().toLowerCase().equals(lc))        return entry;}::::INSERT::::STATEMENT::::execute()	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"://"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"?"	false
+org.jsoup.helper.HttpConnection::::292::::8593::::8658::::if (entry != null)    headers.remove(entry.getKey());::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.initUnSecureTSL()	false
+org.jsoup.helper.HttpConnection::::751::::27935::::28009::::if (!(values.isEmpty()))    header(name, values.get(0));::::INSERT::::STATEMENT::::removeHeader(name)	false
+org.jsoup.helper.HttpConnection::::304::::9043::::9075::::java.lang.String value = headers.get(name)::::INSERT::::STATEMENT::::execute()	false
+org.jsoup.helper.HttpConnection::::734::::26995::::27006::::name == null::::(getHeaderCaseInsensitive(name)) != null	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"?"	false
+org.jsoup.helper.HttpConnection::::751::::27939::::27955::::!(values.isEmpty())::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.initUnSecureTSL()	false
+org.jsoup.helper.HttpConnection::::304::::9043::::9075::::java.lang.String value = headers.get(name)::::INSERT::::STATEMENT::::if (value == null)    continue;	false
+org.jsoup.helper.HttpConnection::::307::::9177::::9360::::if (value == null) {    java.util.Map.Entry<java.lang.String, java.lang.String> entry = scanHeaders(name);    if (entry != null)        value = entry.getValue();}::::INSERT::::STATEMENT::::removeHeader(name)	false
+org.jsoup.helper.HttpConnection::::271::::7680::::7736::::org.jsoup.helper.Validate.notNull(value, "Header value must not be null")::::INSERT::::STATEMENT::::if (value == null)    continue;	false
+org.jsoup.helper.HttpConnection::::271::::7680::::7736::::org.jsoup.helper.Validate.notNull(value, "Header value must not be null")::::INSERT::::STATEMENT::::if (name == null)    continue;	false
+org.jsoup.helper.HttpConnection::::302::::8885::::8939::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::INSERT::::STATEMENT::::execute()	false
+org.jsoup.helper.HttpConnection::::265::::7427::::7481::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::INSERT::::STATEMENT::::execute()	false
+org.jsoup.helper.HttpConnection::::304::::9058::::9064::::headers::::this	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::cookieName	false
+org.jsoup.helper.Validate::::101::::2864::::2869::::string::::msg	false
+org.jsoup.helper.Validate::::101::::2846::::2851::::string::::msg	false
+org.jsoup.helper.HttpConnection::::317::::9524::::9692::::for (java.util.Map.Entry<java.lang.String, java.lang.String> entry : headers.entrySet()) {    if (entry.getKey().toLowerCase().equals(lc))        return entry;}::::INSERT::::STATEMENT::::if (value == null)    continue;	false
+org.jsoup.helper.HttpConnection::::273::::7851::::7875::::headers.put(name, value)::::INSERT::::STATEMENT::::if (value == null)    continue;	false
+org.jsoup.helper.HttpConnection::::273::::7851::::7875::::headers.put(name, value)::::INSERT::::STATEMENT::::if (name == null)    continue;	false
+org.jsoup.helper.HttpConnection::::291::::8494::::8545::::java.util.Map.Entry<java.lang.String, java.lang.String> entry = scanHeaders(name)::::INSERT::::STATEMENT::::if (name == null)    continue;	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Content-Disposition: form-data; name=\""	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Content-Disposition: form-data; name=\""	false
+org.jsoup.helper.HttpConnection::::307::::9177::::9360::::if (value == null) {    java.util.Map.Entry<java.lang.String, java.lang.String> entry = scanHeaders(name);    if (entry != null)        value = entry.getValue();}::::INSERT::::STATEMENT::::req.postDataCharset(charset)	false
+org.jsoup.helper.HttpConnection::::307::::9177::::9360::::if (value == null) {    java.util.Map.Entry<java.lang.String, java.lang.String> entry = scanHeaders(name);    if (entry != null)        value = entry.getValue();}::::INSERT::::STATEMENT::::req.ignoreHttpErrors(ignoreHttpErrors)	false
+org.jsoup.helper.HttpConnection::::307::::9177::::9360::::if (value == null) {    java.util.Map.Entry<java.lang.String, java.lang.String> entry = scanHeaders(name);    if (entry != null)        value = entry.getValue();}::::INSERT::::STATEMENT::::req.ignoreContentType(ignoreContentType)	false
+org.jsoup.helper.HttpConnection::::307::::9177::::9360::::if (value == null) {    java.util.Map.Entry<java.lang.String, java.lang.String> entry = scanHeaders(name);    if (entry != null)        value = entry.getValue();}::::INSERT::::STATEMENT::::req.followRedirects(followRedirects)	false
+org.jsoup.helper.HttpConnection::::305::::9089::::9163::::if (value == null)    value = headers.get(name.toLowerCase());::::INSERT::::STATEMENT::::execute()	false
+org.jsoup.helper.HttpConnection::::305::::9089::::9163::::if (value == null)    value = headers.get(name.toLowerCase());::::INSERT::::STATEMENT::::if (value == null)    continue;	false
+org.jsoup.helper.HttpConnection::::312::::9374::::9386::::return value::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.initUnSecureTSL()	false
+org.jsoup.helper.HttpConnection::::304::::9043::::9075::::java.lang.String value = headers.get(name)::::INSERT::::STATEMENT::::if (name == null)    continue;	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"https"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"http"	false
+org.jsoup.helper.HttpConnection::::321::::9706::::9717::::return null::::INSERT::::STATEMENT::::req.postDataCharset(charset)	false
+org.jsoup.helper.HttpConnection::::321::::9706::::9717::::return null::::INSERT::::STATEMENT::::req.ignoreHttpErrors(ignoreHttpErrors)	false
+org.jsoup.helper.HttpConnection::::321::::9706::::9717::::return null::::INSERT::::STATEMENT::::req.ignoreContentType(ignoreContentType)	false
+org.jsoup.helper.HttpConnection::::321::::9706::::9717::::return null::::INSERT::::STATEMENT::::req.followRedirects(followRedirects)	false
+org.jsoup.helper.HttpConnection::::321::::9706::::9717::::return null::::INSERT::::STATEMENT::::removeHeader(name)	false
+org.jsoup.helper.HttpConnection::::302::::8885::::8939::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::INSERT::::STATEMENT::::if (value == null)    continue;	false
+org.jsoup.helper.HttpConnection::::265::::7427::::7481::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::INSERT::::STATEMENT::::if (value == null)    continue;	false
+org.jsoup.helper.HttpConnection::::290::::8424::::8480::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::INSERT::::STATEMENT::::if (value == null)    continue;	false
+org.jsoup.helper.HttpConnection::::270::::7610::::7666::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::INSERT::::STATEMENT::::if (value == null)    continue;	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"https"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"http"	false
+org.jsoup.helper.HttpConnection::::291::::8494::::8545::::java.util.Map.Entry<java.lang.String, java.lang.String> entry = scanHeaders(name)::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.initUnSecureTSL()	false
+org.jsoup.helper.HttpConnection::::266::::7495::::7532::::return getHeaderCaseInsensitive(name)::::INSERT::::STATEMENT::::if (value == null)    continue;	false
+org.jsoup.helper.HttpConnection::::266::::7495::::7532::::return getHeaderCaseInsensitive(name)::::INSERT::::STATEMENT::::if (name == null)    continue;	false
+org.jsoup.helper.HttpConnection::::751::::27935::::28009::::if (!(values.isEmpty()))    header(name, values.get(0));::::INSERT::::STATEMENT::::req.postDataCharset(charset)	false
+org.jsoup.helper.HttpConnection::::751::::27935::::28009::::if (!(values.isEmpty()))    header(name, values.get(0));::::INSERT::::STATEMENT::::req.ignoreHttpErrors(ignoreHttpErrors)	false
+org.jsoup.helper.HttpConnection::::751::::27935::::28009::::if (!(values.isEmpty()))    header(name, values.get(0));::::INSERT::::STATEMENT::::req.ignoreContentType(ignoreContentType)	false
+org.jsoup.helper.HttpConnection::::751::::27935::::28009::::if (!(values.isEmpty()))    header(name, values.get(0));::::INSERT::::STATEMENT::::req.followRedirects(followRedirects)	false
+org.jsoup.helper.HttpConnection::::751::::27935::::28009::::if (!(values.isEmpty()))    header(name, values.get(0));::::INSERT::::STATEMENT::::execute()	false
+org.jsoup.helper.HttpConnection::::312::::9374::::9386::::return value::::INSERT::::STATEMENT::::if (value == null)    continue;	false
+org.jsoup.helper.HttpConnection::::312::::9374::::9386::::return value::::INSERT::::STATEMENT::::if (name == null)    continue;	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"gzip"	false
+org.jsoup.helper.HttpConnection::::290::::8424::::8480::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.initUnSecureTSL()	false
+org.jsoup.helper.HttpConnection::::270::::7610::::7666::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.initUnSecureTSL()	false
+org.jsoup.helper.HttpConnection::::307::::9177::::9360::::if (value == null) {    java.util.Map.Entry<java.lang.String, java.lang.String> entry = scanHeaders(name);    if (entry != null)        value = entry.getValue();}::::INSERT::::STATEMENT::::if (value == null)    continue;	false
+org.jsoup.helper.HttpConnection::::752::::27989::::27992::::name::::org.jsoup.helper.HttpConnection.CONTENT_ENCODING	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27167::::name.equalsIgnoreCase("Set-Cookie")::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::305::::9089::::9163::::if (value == null)    value = headers.get(name.toLowerCase());::::INSERT::::STATEMENT::::if (name == null)    continue;	false
+org.jsoup.helper.HttpConnection::::305::::9093::::9097::::value::::org.jsoup.helper.HttpConnection.CONTENT_ENCODING	false
+org.jsoup.helper.HttpConnection::::307::::9181::::9185::::value::::org.jsoup.helper.HttpConnection.CONTENT_ENCODING	false
+org.jsoup.helper.HttpConnection::::312::::9381::::9385::::value::::org.jsoup.helper.HttpConnection.CONTENT_ENCODING	false
+org.jsoup.helper.HttpConnection::::271::::7697::::7701::::value::::org.jsoup.helper.HttpConnection.CONTENT_ENCODING	false
+org.jsoup.helper.HttpConnection::::273::::7869::::7873::::value::::org.jsoup.helper.HttpConnection.CONTENT_ENCODING	false
+org.jsoup.helper.HttpConnection::::304::::9043::::9075::::java.lang.String value = headers.get(name)::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.initUnSecureTSL()	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"gzip"	false
+org.jsoup.helper.HttpConnection::::302::::8885::::8939::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::INSERT::::STATEMENT::::if (name == null)    continue;	false
+org.jsoup.helper.HttpConnection::::265::::7427::::7481::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::INSERT::::STATEMENT::::if (name == null)    continue;	false
+org.jsoup.helper.HttpConnection::::751::::27935::::28009::::if (!(values.isEmpty()))    header(name, values.get(0));::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.initUnSecureTSL()	false
+org.jsoup.helper.HttpConnection::::752::::27989::::27992::::name::::statusMessage	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"="	false
+org.jsoup.helper.HttpConnection::::305::::9093::::9097::::value::::statusMessage	false
+org.jsoup.helper.HttpConnection::::307::::9181::::9185::::value::::statusMessage	false
+org.jsoup.helper.HttpConnection::::312::::9381::::9385::::value::::statusMessage	false
+org.jsoup.helper.HttpConnection::::271::::7697::::7701::::value::::statusMessage	false
+org.jsoup.helper.HttpConnection::::317::::9524::::9692::::for (java.util.Map.Entry<java.lang.String, java.lang.String> entry : headers.entrySet()) {    if (entry.getKey().toLowerCase().equals(lc))        return entry;}::::INSERT::::STATEMENT::::if (name == null)    continue;	false
+org.jsoup.helper.HttpConnection::::290::::8424::::8480::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::INSERT::::STATEMENT::::if (name == null)    continue;	false
+org.jsoup.helper.HttpConnection::::270::::7610::::7666::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::INSERT::::STATEMENT::::if (name == null)    continue;	false
+org.jsoup.helper.HttpConnection::::273::::7869::::7873::::value::::statusMessage	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Header name must not be null"	false
+org.jsoup.helper.HttpConnection::::307::::9177::::9360::::if (value == null) {    java.util.Map.Entry<java.lang.String, java.lang.String> entry = scanHeaders(name);    if (entry != null)        value = entry.getValue();}::::INSERT::::STATEMENT::::execute()	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Header name must not be null"	false
+org.jsoup.helper.HttpConnection::::317::::9524::::9692::::for (java.util.Map.Entry<java.lang.String, java.lang.String> entry : headers.entrySet()) {    if (entry.getKey().toLowerCase().equals(lc))        return entry;}::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.initUnSecureTSL()	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Header name must not be empty"	false
+org.jsoup.helper.HttpConnection::::305::::9089::::9163::::if (value == null)    value = headers.get(name.toLowerCase());::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.initUnSecureTSL()	false
+org.jsoup.helper.HttpConnection::::265::::7427::::7481::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.initUnSecureTSL()	false
+org.jsoup.helper.HttpConnection::::752::::27989::::27992::::name::::cookieName	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Header name must not be empty"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::org.jsoup.helper.HttpConnection.Response.setOutputContentType(req)	false
+org.jsoup.helper.HttpConnection::::307::::9177::::9360::::if (value == null) {    java.util.Map.Entry<java.lang.String, java.lang.String> entry = scanHeaders(name);    if (entry != null)        value = entry.getValue();}::::INSERT::::STATEMENT::::if (name == null)    continue;	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"\"\r\nContent-Type: application/octet-stream\r\n\r\n"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"; filename=\""	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Cookie name must not be empty"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Set-Cookie"	false
+org.jsoup.helper.HttpConnection::::302::::8885::::8939::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.initUnSecureTSL()	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"="	false
+org.jsoup.helper.HttpConnection::::321::::9706::::9717::::return null::::INSERT::::STATEMENT::::execute()	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::org.jsoup.helper.HttpConnection.CONTENT_ENCODING	false
+org.jsoup.helper.HttpConnection::::270::::7610::::7666::::org.jsoup.helper.Validate.notEmpty(name, "Header name must not be empty")::::DELETE::::STATEMENT	false
+org.jsoup.helper.HttpConnection::::734::::26995::::26998::::name::::org.jsoup.helper.HttpConnection.CONTENT_ENCODING	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Set-Cookie"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"http:/"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Cookie name must not be empty"	false
+org.jsoup.helper.HttpConnection::::321::::9706::::9717::::return null::::INSERT::::STATEMENT::::if (value == null)    continue;	false
+org.jsoup.helper.HttpConnection::::304::::9058::::9064::::headers::::new org.jsoup.helper.HttpConnection()	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"\"\r\nContent-Type: application/octet-stream\r\n\r\n"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"; filename=\""	false
+org.jsoup.helper.HttpConnection::::734::::26995::::26998::::name::::statusMessage	false
+org.jsoup.helper.HttpConnection::::273::::7863::::7866::::name::::org.jsoup.helper.HttpConnection.CONTENT_ENCODING	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"http:/"	false
+org.jsoup.helper.HttpConnection::::272::::7763::::7766::::name::::org.jsoup.helper.HttpConnection.CONTENT_ENCODING	false
+org.jsoup.helper.HttpConnection::::270::::7628::::7631::::name::::org.jsoup.helper.HttpConnection.CONTENT_ENCODING	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::org.jsoup.helper.HttpConnection.CONTENT_ENCODING	false
+org.jsoup.helper.HttpConnection::::291::::8540::::8543::::name::::org.jsoup.helper.HttpConnection.CONTENT_ENCODING	false
+org.jsoup.helper.HttpConnection::::290::::8442::::8445::::name::::org.jsoup.helper.HttpConnection.CONTENT_ENCODING	false
+org.jsoup.helper.HttpConnection::::266::::7527::::7530::::name::::org.jsoup.helper.HttpConnection.CONTENT_ENCODING	false
+org.jsoup.helper.HttpConnection::::265::::7444::::7447::::name::::org.jsoup.helper.HttpConnection.CONTENT_ENCODING	false
+org.jsoup.helper.HttpConnection::::304::::9070::::9073::::name::::org.jsoup.helper.HttpConnection.CONTENT_ENCODING	false
+org.jsoup.helper.HttpConnection::::302::::8902::::8905::::name::::org.jsoup.helper.HttpConnection.CONTENT_ENCODING	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27167::::name.equalsIgnoreCase("Set-Cookie")::::INSERT::::STATEMENT::::removeHeader(name)	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27167::::name.equalsIgnoreCase("Set-Cookie")::::INSERT::::STATEMENT::::execute()	false
+org.jsoup.helper.HttpConnection::::307::::9177::::9360::::if (value == null) {    java.util.Map.Entry<java.lang.String, java.lang.String> entry = scanHeaders(name);    if (entry != null)        value = entry.getValue();}::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.initUnSecureTSL()	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::";"	false
+org.jsoup.helper.HttpConnection::::302::::8902::::8905::::name::::statusMessage	false
+org.jsoup.helper.HttpConnection::::304::::9070::::9073::::name::::statusMessage	false
+org.jsoup.helper.HttpConnection::::265::::7444::::7447::::name::::statusMessage	false
+org.jsoup.helper.HttpConnection::::266::::7527::::7530::::name::::statusMessage	false
+org.jsoup.helper.HttpConnection::::290::::8442::::8445::::name::::statusMessage	false
+org.jsoup.helper.HttpConnection::::291::::8540::::8543::::name::::statusMessage	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::statusMessage	false
+org.jsoup.helper.HttpConnection::::270::::7628::::7631::::name::::statusMessage	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::statusMessage	false
+org.jsoup.helper.HttpConnection::::272::::7763::::7766::::name::::statusMessage	false
+org.jsoup.helper.HttpConnection::::732::::26859::::28041::::for (java.util.Map.Entry<java.lang.String, java.util.List<java.lang.String>> entry : resHeaders.entrySet()) {    java.lang.String name = entry.getKey();    if (name == null)        continue;    java.util.List<java.lang.String> values = entry.getValue();    if (name.equalsIgnoreCase("Set-Cookie")) {        for (java.lang.String value : values) {            if (value == null)                continue;            org.jsoup.parser.TokenQueue cd = new org.jsoup.parser.TokenQueue(value);            java.lang.String cookieName = cd.chompTo("=").trim();            java.lang.String cookieVal = cd.consumeTo(";").trim();            if ((cookieName.length()) > 0)                cookie(cookieName, cookieVal);        }    }else {        if (!(values.isEmpty()))            header(name, values.get(0));    }}::::INSERT::::STATEMENT::::processResponseHeaders(resHeaders)	false
+org.jsoup.helper.HttpConnection::::321::::9706::::9717::::return null::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.initUnSecureTSL()	false
+org.jsoup.helper.HttpConnection::::273::::7863::::7866::::name::::statusMessage	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Data key value pairs must not be null"	false
+org.jsoup.helper.HttpConnection::::321::::9706::::9717::::return null::::INSERT::::STATEMENT::::if (name == null)    continue;	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Data key value pairs must not be null"	false
+org.jsoup.helper.HttpConnection::::734::::26995::::26998::::name::::cookieName	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Must supply an even number of key value pairs"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Must supply an even number of key value pairs"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::";"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"\r\n\r\n"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::org.jsoup.helper.HttpConnection.Response.setOutputContentType(req)	false
+org.jsoup.helper.HttpConnection::::752::::27989::::27992::::name::::org.jsoup.helper.HttpConnection.CONTENT_TYPE	false
+org.jsoup.helper.Validate::::25::::620::::688::::if (obj == null)    throw new java.lang.IllegalArgumentException(msg);::::INSERT::::STATEMENT::::if (obj == null)    throw new java.lang.IllegalArgumentException(msg);	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27167::::name.equalsIgnoreCase("Set-Cookie")::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.initUnSecureTSL()	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Data value must not be null"	false
+org.jsoup.helper.HttpConnection::::273::::7869::::7873::::value::::org.jsoup.helper.HttpConnection.CONTENT_TYPE	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Request must be executed (with .execute(), .get(), or .post() before getting response body"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Request must be executed (with .execute(), .get(), or .post() before getting response body"	false
+org.jsoup.helper.HttpConnection::::732::::26859::::28041::::for (java.util.Map.Entry<java.lang.String, java.util.List<java.lang.String>> entry : resHeaders.entrySet()) {    java.lang.String name = entry.getKey();    if (name == null)        continue;    java.util.List<java.lang.String> values = entry.getValue();    if (name.equalsIgnoreCase("Set-Cookie")) {        for (java.lang.String value : values) {            if (value == null)                continue;            org.jsoup.parser.TokenQueue cd = new org.jsoup.parser.TokenQueue(value);            java.lang.String cookieName = cd.chompTo("=").trim();            java.lang.String cookieVal = cd.consumeTo(";").trim();            if ((cookieName.length()) > 0)                cookie(cookieName, cookieVal);        }    }else {        if (!(values.isEmpty()))            header(name, values.get(0));    }}::::INSERT::::STATEMENT::::if (value == null)    continue;	false
+org.jsoup.helper.HttpConnection::::271::::7697::::7701::::value::::org.jsoup.helper.HttpConnection.CONTENT_TYPE	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Data key must not be empty"	false
+org.jsoup.helper.Validate::::101::::2864::::2869::::string::::"Array must not contain any null objects"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Data value must not be null"	false
+org.jsoup.helper.HttpConnection::::265::::7427::::7481::::org.jsoup.helper.Validate.notNull(name, "Header name must not be null")::::DELETE::::STATEMENT	false
+org.jsoup.helper.HttpConnection::::312::::9381::::9385::::value::::org.jsoup.helper.HttpConnection.CONTENT_TYPE	false
+org.jsoup.helper.HttpConnection::::307::::9181::::9185::::value::::org.jsoup.helper.HttpConnection.CONTENT_TYPE	false
+org.jsoup.helper.HttpConnection::::305::::9093::::9097::::value::::org.jsoup.helper.HttpConnection.CONTENT_TYPE	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Data key must not be empty"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::org.jsoup.helper.HttpConnection.CONTENT_TYPE	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"\r\n\r\n"	false
+org.jsoup.helper.HttpConnection::::732::::26859::::28041::::for (java.util.Map.Entry<java.lang.String, java.util.List<java.lang.String>> entry : resHeaders.entrySet()) {    java.lang.String name = entry.getKey();    if (name == null)        continue;    java.util.List<java.lang.String> values = entry.getValue();    if (name.equalsIgnoreCase("Set-Cookie")) {        for (java.lang.String value : values) {            if (value == null)                continue;            org.jsoup.parser.TokenQueue cd = new org.jsoup.parser.TokenQueue(value);            java.lang.String cookieName = cd.chompTo("=").trim();            java.lang.String cookieVal = cd.consumeTo(";").trim();            if ((cookieName.length()) > 0)                cookie(cookieName, cookieVal);        }    }else {        if (!(values.isEmpty()))            header(name, values.get(0));    }}::::INSERT::::STATEMENT::::removeHeader(name)	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::cookieVal	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"HTTP error fetching URL"	false
+org.jsoup.helper.HttpConnection::::307::::9181::::9185::::value::::getHeaderCaseInsensitive(name)	false
+org.jsoup.helper.HttpConnection::::305::::9093::::9097::::value::::getHeaderCaseInsensitive(name)	false
+org.jsoup.helper.HttpConnection::::273::::7869::::7873::::value::::getHeaderCaseInsensitive(name)	false
+org.jsoup.helper.HttpConnection::::271::::7697::::7701::::value::::getHeaderCaseInsensitive(name)	false
+org.jsoup.helper.HttpConnection::::312::::9381::::9385::::value::::getHeaderCaseInsensitive(name)	false
+org.jsoup.helper.HttpConnection::::734::::26995::::26998::::name::::org.jsoup.helper.HttpConnection.CONTENT_TYPE	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Data map must not be null"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Data map must not be null"	false
+org.jsoup.helper.HttpConnection::::273::::7863::::7866::::name::::org.jsoup.helper.HttpConnection.CONTENT_TYPE	false
+org.jsoup.helper.HttpConnection::::732::::26859::::28041::::for (java.util.Map.Entry<java.lang.String, java.util.List<java.lang.String>> entry : resHeaders.entrySet()) {    java.lang.String name = entry.getKey();    if (name == null)        continue;    java.util.List<java.lang.String> values = entry.getValue();    if (name.equalsIgnoreCase("Set-Cookie")) {        for (java.lang.String value : values) {            if (value == null)                continue;            org.jsoup.parser.TokenQueue cd = new org.jsoup.parser.TokenQueue(value);            java.lang.String cookieName = cd.chompTo("=").trim();            java.lang.String cookieVal = cd.consumeTo(";").trim();            if ((cookieName.length()) > 0)                cookie(cookieName, cookieVal);        }    }else {        if (!(values.isEmpty()))            header(name, values.get(0));    }}::::INSERT::::STATEMENT::::if (name == null)    continue;	false
+org.jsoup.helper.HttpConnection::::272::::7763::::7766::::name::::org.jsoup.helper.HttpConnection.CONTENT_TYPE	false
+org.jsoup.helper.HttpConnection::::270::::7628::::7631::::name::::org.jsoup.helper.HttpConnection.CONTENT_TYPE	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"HTTP error fetching URL"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::org.jsoup.helper.HttpConnection.CONTENT_TYPE	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Cookie map must not be null"	false
+org.jsoup.helper.HttpConnection::::291::::8540::::8543::::name::::org.jsoup.helper.HttpConnection.CONTENT_TYPE	false
+org.jsoup.helper.HttpConnection::::290::::8442::::8445::::name::::org.jsoup.helper.HttpConnection.CONTENT_TYPE	false
+org.jsoup.helper.HttpConnection::::266::::7527::::7530::::name::::org.jsoup.helper.HttpConnection.CONTENT_TYPE	false
+org.jsoup.helper.HttpConnection::::265::::7444::::7447::::name::::org.jsoup.helper.HttpConnection.CONTENT_TYPE	false
+org.jsoup.helper.HttpConnection::::304::::9070::::9073::::name::::org.jsoup.helper.HttpConnection.CONTENT_TYPE	false
+org.jsoup.helper.HttpConnection::::302::::8902::::8905::::name::::org.jsoup.helper.HttpConnection.CONTENT_TYPE	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Cookie map must not be null"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml"	false
+org.jsoup.helper.HttpConnection::::732::::26859::::28041::::for (java.util.Map.Entry<java.lang.String, java.util.List<java.lang.String>> entry : resHeaders.entrySet()) {    java.lang.String name = entry.getKey();    if (name == null)        continue;    java.util.List<java.lang.String> values = entry.getValue();    if (name.equalsIgnoreCase("Set-Cookie")) {        for (java.lang.String value : values) {            if (value == null)                continue;            org.jsoup.parser.TokenQueue cd = new org.jsoup.parser.TokenQueue(value);            java.lang.String cookieName = cd.chompTo("=").trim();            java.lang.String cookieVal = cd.consumeTo(";").trim();            if ((cookieName.length()) > 0)                cookie(cookieName, cookieVal);        }    }else {        if (!(values.isEmpty()))            header(name, values.get(0));    }}::::INSERT::::STATEMENT::::execute()	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::getHeaderCaseInsensitive(name)	false
+org.jsoup.helper.Validate::::101::::2864::::2869::::string::::"String must not be empty"	false
+org.jsoup.helper.Validate::::101::::2864::::2869::::string::::"Object must not be null"	false
+org.jsoup.helper.Validate::::101::::2864::::2869::::string::::"Must be true"	false
+org.jsoup.helper.Validate::::101::::2864::::2869::::string::::"Must be false"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"SSL"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Charset must not be null"	false
+org.jsoup.helper.HttpConnection::::294::::8696::::8711::::return ((T) (this))::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::274::::7889::::7904::::return ((T) (this))::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.serialiseRequestUrl(req)	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Charset must not be null"	false
+org.jsoup.helper.HttpConnection::::732::::26859::::28041::::for (java.util.Map.Entry<java.lang.String, java.util.List<java.lang.String>> entry : resHeaders.entrySet()) {    java.lang.String name = entry.getKey();    if (name == null)        continue;    java.util.List<java.lang.String> values = entry.getValue();    if (name.equalsIgnoreCase("Set-Cookie")) {        for (java.lang.String value : values) {            if (value == null)                continue;            org.jsoup.parser.TokenQueue cd = new org.jsoup.parser.TokenQueue(value);            java.lang.String cookieName = cd.chompTo("=").trim();            java.lang.String cookieVal = cd.consumeTo(";").trim();            if ((cookieName.length()) > 0)                cookie(cookieName, cookieVal);        }    }else {        if (!(values.isEmpty()))            header(name, values.get(0));    }}::::INSERT::::STATEMENT::::req.postDataCharset(charset)	false
+org.jsoup.helper.HttpConnection::::732::::26859::::28041::::for (java.util.Map.Entry<java.lang.String, java.util.List<java.lang.String>> entry : resHeaders.entrySet()) {    java.lang.String name = entry.getKey();    if (name == null)        continue;    java.util.List<java.lang.String> values = entry.getValue();    if (name.equalsIgnoreCase("Set-Cookie")) {        for (java.lang.String value : values) {            if (value == null)                continue;            org.jsoup.parser.TokenQueue cd = new org.jsoup.parser.TokenQueue(value);            java.lang.String cookieName = cd.chompTo("=").trim();            java.lang.String cookieVal = cd.consumeTo(";").trim();            if ((cookieName.length()) > 0)                cookie(cookieName, cookieVal);        }    }else {        if (!(values.isEmpty()))            header(name, values.get(0));    }}::::INSERT::::STATEMENT::::req.ignoreHttpErrors(ignoreHttpErrors)	false
+org.jsoup.helper.HttpConnection::::732::::26859::::28041::::for (java.util.Map.Entry<java.lang.String, java.util.List<java.lang.String>> entry : resHeaders.entrySet()) {    java.lang.String name = entry.getKey();    if (name == null)        continue;    java.util.List<java.lang.String> values = entry.getValue();    if (name.equalsIgnoreCase("Set-Cookie")) {        for (java.lang.String value : values) {            if (value == null)                continue;            org.jsoup.parser.TokenQueue cd = new org.jsoup.parser.TokenQueue(value);            java.lang.String cookieName = cd.chompTo("=").trim();            java.lang.String cookieVal = cd.consumeTo(";").trim();            if ((cookieName.length()) > 0)                cookie(cookieName, cookieVal);        }    }else {        if (!(values.isEmpty()))            header(name, values.get(0));    }}::::INSERT::::STATEMENT::::req.ignoreContentType(ignoreContentType)	false
+org.jsoup.helper.HttpConnection::::732::::26859::::28041::::for (java.util.Map.Entry<java.lang.String, java.util.List<java.lang.String>> entry : resHeaders.entrySet()) {    java.lang.String name = entry.getKey();    if (name == null)        continue;    java.util.List<java.lang.String> values = entry.getValue();    if (name.equalsIgnoreCase("Set-Cookie")) {        for (java.lang.String value : values) {            if (value == null)                continue;            org.jsoup.parser.TokenQueue cd = new org.jsoup.parser.TokenQueue(value);            java.lang.String cookieName = cd.chompTo("=").trim();            java.lang.String cookieVal = cd.consumeTo(";").trim();            if ((cookieName.length()) > 0)                cookie(cookieName, cookieVal);        }    }else {        if (!(values.isEmpty()))            header(name, values.get(0));    }}::::INSERT::::STATEMENT::::req.followRedirects(followRedirects)	false
+org.jsoup.helper.HttpConnection::::273::::7869::::7873::::value::::org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA	false
+org.jsoup.helper.HttpConnection::::752::::27989::::27992::::name::::org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA	false
+org.jsoup.helper.HttpConnection::::752::::27989::::27992::::name::::(org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA) + "; boundary="	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml"	false
+org.jsoup.helper.HttpConnection::::273::::7869::::7873::::value::::(org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA) + "; boundary="	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"; boundary="	false
+org.jsoup.helper.HttpConnection::::271::::7697::::7701::::value::::org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::getHeaderCaseInsensitive(name)	false
+org.jsoup.helper.HttpConnection::::271::::7697::::7701::::value::::(org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA) + "; boundary="	false
+org.jsoup.helper.HttpConnection::::312::::9381::::9385::::value::::org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA	false
+org.jsoup.helper.HttpConnection::::307::::9181::::9185::::value::::org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27167::::name.equalsIgnoreCase("Set-Cookie")::::INSERT::::STATEMENT::::req.postDataCharset(charset)	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27167::::name.equalsIgnoreCase("Set-Cookie")::::INSERT::::STATEMENT::::req.ignoreHttpErrors(ignoreHttpErrors)	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27167::::name.equalsIgnoreCase("Set-Cookie")::::INSERT::::STATEMENT::::req.ignoreContentType(ignoreContentType)	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27167::::name.equalsIgnoreCase("Set-Cookie")::::INSERT::::STATEMENT::::req.followRedirects(followRedirects)	false
+org.jsoup.helper.HttpConnection::::312::::9381::::9385::::value::::(org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA) + "; boundary="	false
+org.jsoup.helper.HttpConnection::::305::::9093::::9097::::value::::org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"SSL"	false
+org.jsoup.helper.HttpConnection::::307::::9181::::9185::::value::::(org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA) + "; boundary="	false
+org.jsoup.helper.HttpConnection::::305::::9093::::9097::::value::::(org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA) + "; boundary="	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Request must be executed (with .execute(), .get(), or .post() before parsing response"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::(org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA) + "; boundary="	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Request must be executed (with .execute(), .get(), or .post() before parsing response"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Data collection must not be null"	false
+org.jsoup.helper.Validate::::101::::2864::::2878::::string.length()::::DELETE::::INFIX	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Data collection must not be null"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::org.jsoup.helper.HttpConnection.Response.getRequestCookieString(req)	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Cookie"	false
+org.jsoup.helper.HttpConnection::::732::::26859::::28041::::for (java.util.Map.Entry<java.lang.String, java.util.List<java.lang.String>> entry : resHeaders.entrySet()) {    java.lang.String name = entry.getKey();    if (name == null)        continue;    java.util.List<java.lang.String> values = entry.getValue();    if (name.equalsIgnoreCase("Set-Cookie")) {        for (java.lang.String value : values) {            if (value == null)                continue;            org.jsoup.parser.TokenQueue cd = new org.jsoup.parser.TokenQueue(value);            java.lang.String cookieName = cd.chompTo("=").trim();            java.lang.String cookieVal = cd.consumeTo(";").trim();            if ((cookieName.length()) > 0)                cookie(cookieName, cookieVal);        }    }else {        if (!(values.isEmpty()))            header(name, values.get(0));    }}::::INSERT::::STATEMENT::::org.jsoup.helper.HttpConnection.Response.initUnSecureTSL()	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Must supply a valid URL"	false
+org.jsoup.helper.HttpConnection::::273::::7863::::7866::::name::::org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA	false
+org.jsoup.helper.HttpConnection::::305::::9093::::9097::::value::::this.postDataCharset	false
+org.jsoup.helper.HttpConnection::::307::::9181::::9185::::value::::this.postDataCharset	false
+org.jsoup.helper.HttpConnection::::312::::9381::::9385::::value::::this.postDataCharset	false
+org.jsoup.helper.HttpConnection::::271::::7697::::7701::::value::::this.postDataCharset	false
+org.jsoup.helper.HttpConnection::::273::::7869::::7873::::value::::this.postDataCharset	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Must supply a valid URL"	false
+org.jsoup.helper.HttpConnection::::734::::26995::::26998::::name::::org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA	false
+org.jsoup.helper.HttpConnection::::273::::7863::::7866::::name::::(org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA) + "; boundary="	false
+org.jsoup.helper.HttpConnection::::273::::7869::::7873::::value::::header(name)	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Header value must not be null"	false
+org.jsoup.helper.HttpConnection::::734::::26995::::26998::::name::::(org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA) + "; boundary="	false
+org.jsoup.helper.HttpConnection::::271::::7697::::7701::::value::::header(name)	false
+org.jsoup.helper.HttpConnection::::272::::7763::::7766::::name::::org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Header value must not be null"	false
+org.jsoup.helper.HttpConnection::::752::::27989::::27992::::name::::cookieVal	false
+org.jsoup.helper.HttpConnection::::312::::9381::::9385::::value::::header(name)	false
+org.jsoup.helper.HttpConnection::::307::::9181::::9185::::value::::header(name)	false
+org.jsoup.helper.HttpConnection::::305::::9093::::9097::::value::::header(name)	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"; "	false
+org.jsoup.helper.HttpConnection::::270::::7628::::7631::::name::::org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA	false
+org.jsoup.helper.HttpConnection::::272::::7763::::7766::::name::::(org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA) + "; boundary="	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"; boundary="	false
+org.jsoup.helper.HttpConnection::::270::::7628::::7631::::name::::(org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA) + "; boundary="	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Too many redirects occurred trying to load URL %s"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Accept-Encoding"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::org.jsoup.helper.HttpConnection.FORM_URL_ENCODED	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"; charset="	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Accept-Encoding"	false
+org.jsoup.helper.HttpConnection::::291::::8540::::8543::::name::::org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::(org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA) + "; boundary="	false
+org.jsoup.helper.HttpConnection::::290::::8442::::8445::::name::::org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA	false
+org.jsoup.helper.HttpConnection::::273::::7869::::7873::::value::::org.jsoup.helper.HttpConnection.FORM_URL_ENCODED	false
+org.jsoup.helper.HttpConnection::::266::::7527::::7530::::name::::org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA	false
+org.jsoup.helper.HttpConnection::::265::::7444::::7447::::name::::org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA	false
+org.jsoup.helper.HttpConnection::::291::::8540::::8543::::name::::(org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA) + "; boundary="	false
+org.jsoup.helper.HttpConnection::::304::::9070::::9073::::name::::org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA	false
+org.jsoup.helper.HttpConnection::::290::::8442::::8445::::name::::(org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA) + "; boundary="	false
+org.jsoup.helper.HttpConnection::::302::::8902::::8905::::name::::org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA	false
+org.jsoup.helper.HttpConnection::::266::::7527::::7530::::name::::(org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA) + "; boundary="	false
+org.jsoup.helper.HttpConnection::::265::::7444::::7447::::name::::(org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA) + "; boundary="	false
+org.jsoup.helper.HttpConnection::::304::::9070::::9073::::name::::(org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA) + "; boundary="	false
+org.jsoup.helper.HttpConnection::::302::::8902::::8905::::name::::(org.jsoup.helper.HttpConnection.MULTIPART_FORM_DATA) + "; boundary="	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::header(name)	false
+org.jsoup.helper.Validate::::25::::620::::688::::if (obj == null)    throw new java.lang.IllegalArgumentException(msg);::::INSERT::::STATEMENT::::if (obj == null)    throw new java.lang.IllegalArgumentException("Object must not be null");	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Cookie value must not be null"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::org.jsoup.helper.HttpConnection.Response.getRequestCookieString(req)	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Cookie"	false
+org.jsoup.helper.HttpConnection::::752::::27989::::27992::::name::::org.jsoup.helper.HttpConnection.FORM_URL_ENCODED	false
+org.jsoup.helper.HttpConnection::::273::::7869::::7873::::value::::(org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset="	false
+org.jsoup.helper.HttpConnection::::271::::7697::::7701::::value::::org.jsoup.helper.HttpConnection.FORM_URL_ENCODED	false
+org.jsoup.helper.HttpConnection::::752::::27989::::27992::::name::::(org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset="	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::(org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset="	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Cookie value must not be null"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"maxSize must be 0 (unlimited) or larger"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"User agent must not be null"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Timeout milliseconds must be 0 (infinite) or greater"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Referrer must not be null"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"%22"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"%20"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::" "	false
+org.jsoup.helper.HttpConnection::::271::::7697::::7701::::value::::(org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset="	false
+org.jsoup.helper.HttpConnection::::305::::9093::::9097::::value::::this.key	false
+org.jsoup.helper.HttpConnection::::307::::9181::::9185::::value::::this.key	false
+org.jsoup.helper.HttpConnection::::312::::9381::::9385::::value::::this.key	false
+org.jsoup.helper.HttpConnection::::271::::7697::::7701::::value::::this.key	false
+org.jsoup.helper.HttpConnection::::273::::7869::::7873::::value::::this.key	false
+org.jsoup.helper.HttpConnection::::312::::9381::::9385::::value::::org.jsoup.helper.HttpConnection.FORM_URL_ENCODED	false
+org.jsoup.helper.HttpConnection::::752::::27989::::27992::::name::::this.postDataCharset	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Key val must not be null"	false
+org.jsoup.helper.HttpConnection::::312::::9381::::9385::::value::::(org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset="	false
+org.jsoup.helper.HttpConnection::::307::::9181::::9185::::value::::org.jsoup.helper.HttpConnection.FORM_URL_ENCODED	false
+org.jsoup.helper.HttpConnection::::305::::9093::::9097::::value::::org.jsoup.helper.HttpConnection.FORM_URL_ENCODED	false
+org.jsoup.helper.HttpConnection::::734::::26995::::26998::::name::::cookieVal	false
+org.jsoup.helper.HttpConnection::::307::::9181::::9185::::value::::(org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset="	false
+org.jsoup.helper.HttpConnection::::305::::9093::::9097::::value::::(org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset="	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"maxSize must be 0 (unlimited) or larger"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"User agent must not be null"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Timeout milliseconds must be 0 (infinite) or greater"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Referrer must not be null"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::((org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset=") + (req.postDataCharset())	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"URL must not be null"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Method must not be null"	false
+org.jsoup.helper.HttpConnection::::273::::7863::::7866::::name::::org.jsoup.helper.HttpConnection.FORM_URL_ENCODED	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::header(name)	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Key val must not be null"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"%22"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"%20"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::" "	false
+org.jsoup.helper.HttpConnection::::273::::7863::::7866::::name::::(org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset="	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"URL must not be null"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Method must not be null"	false
+org.jsoup.helper.HttpConnection::::734::::26995::::26998::::name::::org.jsoup.helper.HttpConnection.FORM_URL_ENCODED	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"User-Agent"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Referer"	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Data input stream must not be null"	false
+org.jsoup.helper.HttpConnection::::272::::7763::::7766::::name::::org.jsoup.helper.HttpConnection.FORM_URL_ENCODED	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Too many redirects occurred trying to load URL %s"	false
+org.jsoup.helper.HttpConnection::::734::::26995::::26998::::name::::(org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset="	false
+org.jsoup.helper.HttpConnection::::272::::7763::::7766::::name::::(org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset="	false
+org.jsoup.helper.HttpConnection::::270::::7628::::7631::::name::::org.jsoup.helper.HttpConnection.FORM_URL_ENCODED	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::org.jsoup.helper.HttpConnection.FORM_URL_ENCODED	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"User-Agent"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Referer"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Data input stream must not be null"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"; charset="	false
+org.jsoup.helper.HttpConnection::::752::::27989::::27992::::name::::this.value	false
+org.jsoup.helper.HttpConnection::::752::::27989::::27992::::name::::this.key	false
+org.jsoup.helper.HttpConnection::::270::::7628::::7631::::name::::(org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset="	false
+org.jsoup.helper.HttpConnection::::291::::8540::::8543::::name::::org.jsoup.helper.HttpConnection.FORM_URL_ENCODED	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::(org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset="	false
+org.jsoup.helper.HttpConnection::::734::::26995::::26998::::name::::this.postDataCharset	false
+org.jsoup.helper.HttpConnection::::290::::8442::::8445::::name::::org.jsoup.helper.HttpConnection.FORM_URL_ENCODED	false
+org.jsoup.helper.HttpConnection::::266::::7527::::7530::::name::::org.jsoup.helper.HttpConnection.FORM_URL_ENCODED	false
+org.jsoup.helper.HttpConnection::::265::::7444::::7447::::name::::org.jsoup.helper.HttpConnection.FORM_URL_ENCODED	false
+org.jsoup.helper.HttpConnection::::291::::8540::::8543::::name::::(org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset="	false
+org.jsoup.helper.HttpConnection::::304::::9070::::9073::::name::::org.jsoup.helper.HttpConnection.FORM_URL_ENCODED	false
+org.jsoup.helper.HttpConnection::::290::::8442::::8445::::name::::(org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset="	false
+org.jsoup.helper.HttpConnection::::302::::8902::::8905::::name::::org.jsoup.helper.HttpConnection.FORM_URL_ENCODED	false
+org.jsoup.helper.HttpConnection::::266::::7527::::7530::::name::::(org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset="	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::((org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset=") + (req.postDataCharset())	false
+org.jsoup.helper.HttpConnection::::265::::7444::::7447::::name::::(org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset="	false
+org.jsoup.helper.HttpConnection::::752::::27989::::27992::::name::::((org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset=") + (req.postDataCharset())	false
+org.jsoup.helper.HttpConnection::::304::::9070::::9073::::name::::(org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset="	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::this.postDataCharset	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::(key) + "="	false
+org.jsoup.helper.HttpConnection::::302::::8902::::8905::::name::::(org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset="	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"; "	false
+org.jsoup.helper.HttpConnection::::273::::7869::::7873::::value::::((org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset=") + (req.postDataCharset())	false
+org.jsoup.helper.HttpConnection::::273::::7869::::7873::::value::::(key) + "="	false
+org.jsoup.helper.HttpConnection::::302::::8902::::8905::::name::::this.postDataCharset	false
+org.jsoup.helper.HttpConnection::::304::::9070::::9073::::name::::this.postDataCharset	false
+org.jsoup.helper.HttpConnection::::265::::7444::::7447::::name::::this.postDataCharset	false
+org.jsoup.helper.HttpConnection::::266::::7527::::7530::::name::::this.postDataCharset	false
+org.jsoup.helper.HttpConnection::::290::::8442::::8445::::name::::this.postDataCharset	false
+org.jsoup.helper.HttpConnection::::291::::8540::::8543::::name::::this.postDataCharset	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::this.postDataCharset	false
+org.jsoup.helper.HttpConnection::::270::::7628::::7631::::name::::this.postDataCharset	false
+org.jsoup.helper.HttpConnection::::272::::7763::::7766::::name::::this.postDataCharset	false
+org.jsoup.helper.HttpConnection::::271::::7697::::7701::::value::::((org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset=") + (req.postDataCharset())	false
+org.jsoup.helper.HttpConnection::::273::::7863::::7866::::name::::this.postDataCharset	false
+org.jsoup.helper.HttpConnection::::752::::27989::::27992::::name::::(key) + "="	false
+org.jsoup.helper.HttpConnection::::312::::9381::::9385::::value::::((org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset=") + (req.postDataCharset())	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::lc	false
+org.jsoup.helper.HttpConnection::::271::::7697::::7701::::value::::(key) + "="	false
+org.jsoup.helper.HttpConnection::::307::::9181::::9185::::value::::((org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset=") + (req.postDataCharset())	false
+org.jsoup.helper.HttpConnection::::305::::9093::::9097::::value::::((org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset=") + (req.postDataCharset())	false
+org.jsoup.helper.HttpConnection::::752::::27989::::27992::::name::::(key) + "=") + (value	false
+org.jsoup.helper.HttpConnection::::273::::7869::::7873::::value::::(key) + "=") + (value	false
+org.jsoup.helper.HttpConnection::::312::::9381::::9385::::value::::(key) + "="	false
+org.jsoup.helper.HttpConnection::::271::::7697::::7701::::value::::(key) + "=") + (value	false
+org.jsoup.helper.HttpConnection::::307::::9181::::9185::::value::::(key) + "="	false
+org.jsoup.helper.HttpConnection::::305::::9093::::9097::::value::::(key) + "="	false
+org.jsoup.helper.HttpConnection::::312::::9381::::9385::::value::::(key) + "=") + (value	false
+org.jsoup.helper.HttpConnection::::307::::9181::::9185::::value::::(key) + "=") + (value	false
+org.jsoup.helper.HttpConnection::::305::::9093::::9097::::value::::(key) + "=") + (value	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::this.value	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::this.key	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::(key) + "=") + (value	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Can't create unsecure trust manager"	false
+org.jsoup.helper.HttpConnection::::734::::26995::::26998::::name::::this.value	false
+org.jsoup.helper.HttpConnection::::734::::26995::::26998::::name::::this.key	false
+org.jsoup.helper.HttpConnection::::273::::7863::::7866::::name::::(key) + "="	false
+org.jsoup.helper.HttpConnection::::273::::7863::::7866::::name::::((org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset=") + (req.postDataCharset())	false
+org.jsoup.helper.HttpConnection::::734::::26995::::26998::::name::::((org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset=") + (req.postDataCharset())	false
+org.jsoup.helper.HttpConnection::::273::::7863::::7866::::name::::this.value	false
+org.jsoup.helper.HttpConnection::::273::::7863::::7866::::name::::this.key	false
+org.jsoup.helper.HttpConnection::::272::::7763::::7766::::name::::this.value	false
+org.jsoup.helper.HttpConnection::::272::::7763::::7766::::name::::this.key	false
+org.jsoup.helper.HttpConnection::::270::::7628::::7631::::name::::this.value	false
+org.jsoup.helper.HttpConnection::::270::::7628::::7631::::name::::this.key	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::this.value	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::this.key	false
+org.jsoup.helper.HttpConnection::::291::::8540::::8543::::name::::this.value	false
+org.jsoup.helper.HttpConnection::::291::::8540::::8543::::name::::this.key	false
+org.jsoup.helper.HttpConnection::::290::::8442::::8445::::name::::this.value	false
+org.jsoup.helper.HttpConnection::::290::::8442::::8445::::name::::this.key	false
+org.jsoup.helper.HttpConnection::::266::::7527::::7530::::name::::this.value	false
+org.jsoup.helper.HttpConnection::::266::::7527::::7530::::name::::this.key	false
+org.jsoup.helper.HttpConnection::::265::::7444::::7447::::name::::this.value	false
+org.jsoup.helper.HttpConnection::::265::::7444::::7447::::name::::this.key	false
+org.jsoup.helper.HttpConnection::::304::::9070::::9073::::name::::this.key	false
+org.jsoup.helper.HttpConnection::::302::::8902::::8905::::name::::this.key	false
+org.jsoup.helper.HttpConnection::::272::::7763::::7766::::name::::((org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset=") + (req.postDataCharset())	false
+org.jsoup.helper.HttpConnection::::734::::26995::::26998::::name::::(key) + "="	false
+org.jsoup.helper.HttpConnection::::272::::7763::::7766::::name::::(key) + "="	false
+org.jsoup.helper.HttpConnection::::270::::7628::::7631::::name::::((org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset=") + (req.postDataCharset())	false
+org.jsoup.helper.HttpConnection::::302::::8902::::8905::::name::::this.value	false
+org.jsoup.helper.HttpConnection::::304::::9070::::9073::::name::::this.value	false
+org.jsoup.helper.HttpConnection::::291::::8540::::8543::::name::::((org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset=") + (req.postDataCharset())	false
+org.jsoup.helper.HttpConnection::::290::::8442::::8445::::name::::((org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset=") + (req.postDataCharset())	false
+org.jsoup.helper.HttpConnection::::266::::7527::::7530::::name::::((org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset=") + (req.postDataCharset())	false
+org.jsoup.helper.HttpConnection::::265::::7444::::7447::::name::::((org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset=") + (req.postDataCharset())	false
+org.jsoup.helper.HttpConnection::::273::::7863::::7866::::name::::(key) + "=") + (value	false
+org.jsoup.helper.HttpConnection::::304::::9070::::9073::::name::::((org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset=") + (req.postDataCharset())	false
+org.jsoup.helper.HttpConnection::::302::::8902::::8905::::name::::((org.jsoup.helper.HttpConnection.FORM_URL_ENCODED) + "; charset=") + (req.postDataCharset())	false
+org.jsoup.helper.HttpConnection::::270::::7628::::7631::::name::::(key) + "="	false
+org.jsoup.helper.HttpConnection::::734::::26995::::26998::::name::::(key) + "=") + (value	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::(key) + "="	false
+org.jsoup.helper.HttpConnection::::272::::7763::::7766::::name::::(key) + "=") + (value	false
+org.jsoup.helper.HttpConnection::::291::::8540::::8543::::name::::(key) + "="	false
+org.jsoup.helper.HttpConnection::::290::::8442::::8445::::name::::(key) + "="	false
+org.jsoup.helper.HttpConnection::::266::::7527::::7530::::name::::(key) + "="	false
+org.jsoup.helper.HttpConnection::::265::::7444::::7447::::name::::(key) + "="	false
+org.jsoup.helper.HttpConnection::::270::::7628::::7631::::name::::(key) + "=") + (value	false
+org.jsoup.helper.HttpConnection::::304::::9070::::9073::::name::::(key) + "="	false
+org.jsoup.helper.HttpConnection::::302::::8902::::8905::::name::::(key) + "="	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::(key) + "=") + (value	false
+org.jsoup.helper.HttpConnection::::752::::27989::::27992::::name::::postDataCharset	false
+org.jsoup.helper.HttpConnection::::291::::8540::::8543::::name::::(key) + "=") + (value	false
+org.jsoup.helper.HttpConnection::::290::::8442::::8445::::name::::(key) + "=") + (value	false
+org.jsoup.helper.HttpConnection::::266::::7527::::7530::::name::::(key) + "=") + (value	false
+org.jsoup.helper.HttpConnection::::265::::7444::::7447::::name::::(key) + "=") + (value	false
+org.jsoup.helper.HttpConnection::::304::::9070::::9073::::name::::(key) + "=") + (value	false
+org.jsoup.helper.HttpConnection::::273::::7869::::7873::::value::::postDataCharset	false
+org.jsoup.helper.HttpConnection::::302::::8902::::8905::::name::::(key) + "=") + (value	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Malformed URL: "	false
+org.jsoup.helper.HttpConnection::::271::::7697::::7701::::value::::postDataCharset	false
+org.jsoup.helper.HttpConnection::::312::::9381::::9385::::value::::postDataCharset	false
+org.jsoup.helper.HttpConnection::::307::::9181::::9185::::value::::postDataCharset	false
+org.jsoup.helper.HttpConnection::::305::::9093::::9097::::value::::postDataCharset	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::postDataCharset	false
+org.jsoup.helper.HttpConnection::::738::::27133::::27136::::name::::"Only http & https protocols supported"	false
+org.jsoup.helper.HttpConnection::::273::::7863::::7866::::name::::postDataCharset	false
+org.jsoup.helper.HttpConnection::::734::::26995::::26998::::name::::postDataCharset	false
+org.jsoup.helper.HttpConnection::::272::::7763::::7766::::name::::postDataCharset	false
+org.jsoup.helper.HttpConnection::::270::::7628::::7631::::name::::postDataCharset	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::postDataCharset	false
+org.jsoup.helper.HttpConnection::::291::::8540::::8543::::name::::postDataCharset	false
+org.jsoup.helper.HttpConnection::::290::::8442::::8445::::name::::postDataCharset	false
+org.jsoup.helper.HttpConnection::::266::::7527::::7530::::name::::postDataCharset	false
+org.jsoup.helper.HttpConnection::::265::::7444::::7447::::name::::postDataCharset	false
+org.jsoup.helper.HttpConnection::::304::::9070::::9073::::name::::postDataCharset	false
+org.jsoup.helper.HttpConnection::::302::::8902::::8905::::name::::postDataCharset	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Can't create unsecure trust manager"	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Malformed URL: "	false
+org.jsoup.helper.HttpConnection::::316::::9492::::9495::::name::::"Only http & https protocols supported"	false

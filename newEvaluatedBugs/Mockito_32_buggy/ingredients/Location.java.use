@@ -1,0 +1,14 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+21507	filter	StackTraceFilter	param	20	define	org.mockito.internal.debugging.Location.Location	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_32_buggy/src/org/mockito/internal/debugging/Location.java	20	28
+21507	filter	StackTraceFilter	param	22	use	org.mockito.internal.debugging.Location.Location	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_32_buggy/src/org/mockito/internal/debugging/Location.java	20	28
+21509	stackTrace	StackTraceElement[]	variable	21	define	org.mockito.internal.debugging.Location.Location	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_32_buggy/src/org/mockito/internal/debugging/Location.java	20	28
+21508	filtered	StackTraceElement[]	variable	22	define	org.mockito.internal.debugging.Location.Location	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_32_buggy/src/org/mockito/internal/debugging/Location.java	20	28
+21509	stackTrace	StackTraceElement[]	variable	21	set	org.mockito.internal.debugging.Location.Location	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_32_buggy/src/org/mockito/internal/debugging/Location.java	20	28
+21508	filtered	StackTraceElement[]	variable	22	set	org.mockito.internal.debugging.Location.Location	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_32_buggy/src/org/mockito/internal/debugging/Location.java	20	28
+21512	Location.where	String	variable	24	set	org.mockito.internal.debugging.Location.Location	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_32_buggy/src/org/mockito/internal/debugging/Location.java	20	28
+21512	Location.where	String	variable	26	set	org.mockito.internal.debugging.Location.Location	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_32_buggy/src/org/mockito/internal/debugging/Location.java	20	28
+21509	stackTrace	StackTraceElement[]	variable	22	use	org.mockito.internal.debugging.Location.Location	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_32_buggy/src/org/mockito/internal/debugging/Location.java	20	28
+21508	filtered	StackTraceElement[]	variable	23	use	org.mockito.internal.debugging.Location.Location	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_32_buggy/src/org/mockito/internal/debugging/Location.java	20	28
+21519	length		variable	23	use	org.mockito.internal.debugging.Location.Location	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_32_buggy/src/org/mockito/internal/debugging/Location.java	20	28
+21508	filtered	StackTraceElement[]	variable	26	use	org.mockito.internal.debugging.Location.Location	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_32_buggy/src/org/mockito/internal/debugging/Location.java	20	28
+21512	Location.where	String	variable	32	use	org.mockito.internal.debugging.Location.toString	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_32_buggy/src/org/mockito/internal/debugging/Location.java	31	33

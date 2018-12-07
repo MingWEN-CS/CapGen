@@ -1,0 +1,24 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+11959	cls	Class<?>	param	510	define	java.lang.Class.isAssignableFrom	/home1/mwenaa/software/jdk1.8.0_91/src.zip{java/lang/Class.java}	510	510
+11462	method	Method	param	35	define	org.mockito.internal.util.ObjectMethodsGuru.isCompareToMethod	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/ObjectMethodsGuru.java	35	38
+11462	method	Method	param	36	use	org.mockito.internal.util.ObjectMethodsGuru.isCompareToMethod	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/ObjectMethodsGuru.java	35	38
+11462	method	Method	param	36	use	org.mockito.internal.util.ObjectMethodsGuru.isCompareToMethod	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/ObjectMethodsGuru.java	35	38
+11462	method	Method	param	37	use	org.mockito.internal.util.ObjectMethodsGuru.isCompareToMethod	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/ObjectMethodsGuru.java	35	38
+11462	method	Method	param	37	use	org.mockito.internal.util.ObjectMethodsGuru.isCompareToMethod	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/ObjectMethodsGuru.java	35	38
+11462	method	Method	param	37	use	org.mockito.internal.util.ObjectMethodsGuru.isCompareToMethod	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/ObjectMethodsGuru.java	35	38
+11487	length		variable	37	use	org.mockito.internal.util.ObjectMethodsGuru.isCompareToMethod	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/ObjectMethodsGuru.java	35	38
+11464	method	Method	param	27	define	org.mockito.internal.util.ObjectMethodsGuru.isEqualsMethod	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/ObjectMethodsGuru.java	27	29
+11464	method	Method	param	28	use	org.mockito.internal.util.ObjectMethodsGuru.isEqualsMethod	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/ObjectMethodsGuru.java	27	29
+11464	method	Method	param	28	use	org.mockito.internal.util.ObjectMethodsGuru.isEqualsMethod	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/ObjectMethodsGuru.java	27	29
+11464	method	Method	param	28	use	org.mockito.internal.util.ObjectMethodsGuru.isEqualsMethod	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/ObjectMethodsGuru.java	27	29
+11487	length		variable	28	use	org.mockito.internal.util.ObjectMethodsGuru.isEqualsMethod	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/ObjectMethodsGuru.java	27	29
+11466	method	Method	param	31	define	org.mockito.internal.util.ObjectMethodsGuru.isHashCodeMethod	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/ObjectMethodsGuru.java	31	33
+11466	method	Method	param	32	use	org.mockito.internal.util.ObjectMethodsGuru.isHashCodeMethod	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/ObjectMethodsGuru.java	31	33
+11466	method	Method	param	32	use	org.mockito.internal.util.ObjectMethodsGuru.isHashCodeMethod	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/ObjectMethodsGuru.java	31	33
+11487	length		variable	32	use	org.mockito.internal.util.ObjectMethodsGuru.isHashCodeMethod	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/ObjectMethodsGuru.java	31	33
+11474	method	MockitoMethod	param	22	define	org.mockito.internal.util.ObjectMethodsGuru.isToString	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/ObjectMethodsGuru.java	22	25
+11474	method	MockitoMethod	param	23	use	org.mockito.internal.util.ObjectMethodsGuru.isToString	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/ObjectMethodsGuru.java	22	25
+11474	method	MockitoMethod	param	23	use	org.mockito.internal.util.ObjectMethodsGuru.isToString	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/ObjectMethodsGuru.java	22	25
+11474	method	MockitoMethod	param	24	use	org.mockito.internal.util.ObjectMethodsGuru.isToString	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/ObjectMethodsGuru.java	22	25
+11469	method	Method	param	18	define	org.mockito.internal.util.ObjectMethodsGuru.isToString	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/ObjectMethodsGuru.java	18	20
+11469	method	Method	param	19	use	org.mockito.internal.util.ObjectMethodsGuru.isToString	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/ObjectMethodsGuru.java	18	20

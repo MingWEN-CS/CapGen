@@ -1,0 +1,1325 @@
+1	org.jsoup.nodes.Node::::76::::2353::::2358::::absUrl::::hasAttr	0.03286335345030996
+2	org.jsoup.nodes.Node::::76::::2353::::2358::::absUrl::::attr	0.02629068276024797
+3	org.jsoup.nodes.Attribute::::50::::1232::::1236::::value::::key	0.02438880411290764
+4	org.jsoup.nodes.Attribute::::25::::691::::700::::this.value::::key	0.02432654562238149
+5	org.jsoup.nodes.Attribute::::24::::646::::653::::this.key::::value	0.02432654562238149
+6	org.jsoup.nodes.Attribute::::23::::630::::634::::value::::key	0.021548503695938928
+7	org.jsoup.nodes.Node::::162::::5217::::5223::::hasAttr::::attr	0.021545789730026802
+8	org.jsoup.nodes.Attribute::::25::::704::::708::::value::::key	0.02142694939312414
+9	org.jsoup.nodes.TextNode::::27::::816::::822::::baseUri::::text	0.021158175577832398
+10	org.jsoup.nodes.TextNode::::27::::801::::812::::this.baseUri::::this.text	0.021158175577832398
+11	org.jsoup.nodes.TextNode::::27::::801::::812::::this.baseUri::::text	0.021158175577832398
+12	org.jsoup.nodes.Node::::178::::5975::::5977::::abs::::base	0.01976625542417212
+13	org.jsoup.nodes.Node::::421::::13665::::13672::::siblings::::childNodes	0.018693546258481894
+14	org.jsoup.nodes.Attributes::::58::::1742::::1750::::attribute::::attr	0.018303237289227337
+15	org.jsoup.nodes.Node::::73::::2198::::2204::::hasAttr::::attr	0.01800658271080935
+16	org.jsoup.nodes.Attribute::::24::::646::::653::::this.key::::this.value	0.017992463932025558
+17	org.jsoup.nodes.Attributes::::58::::1762::::1770::::attribute::::attr	0.017733896958802058
+18	org.jsoup.nodes.Node::::375::::12227::::12231::::child::::this	0.01772904168007564
+19	org.jsoup.nodes.Node::::420::::13619::::13626::::siblings::::childNodes	0.017693710353998287
+20	org.jsoup.nodes.Element::::213::::6924::::6929::::select::::getElementsMatchingText	0.01764352905875292
+21	org.jsoup.nodes.Element::::213::::6924::::6929::::select::::getElementsMatchingOwnText	0.01764352905875292
+22	org.jsoup.nodes.Attributes::::55::::1608::::1616::::attribute::::attr	0.017419876416195128
+23	org.jsoup.nodes.Attribute::::33::::837::::839::::key::::value	0.01706797959350399
+24	org.jsoup.nodes.Attribute::::24::::657::::659::::key::::value	0.016981800117162466
+25	org.jsoup.nodes.Attribute::::22::::599::::601::::key::::value	0.01689274843219182
+26	org.jsoup.nodes.Node::::392::::12739::::12743::::child::::this	0.016753944387671478
+27	org.jsoup.nodes.Node::::373::::12172::::12176::::child::::parentNode	0.01655558256887391
+28	org.jsoup.nodes.Node::::374::::12207::::12211::::child::::parentNode	0.016444741784785284
+29	org.jsoup.nodes.Attributes::::78::::2264::::2281::::(attributes) != null::::(attributes) == null	0.016315583505807692
+30	org.jsoup.nodes.Node::::375::::12227::::12231::::child::::parentNode	0.01627584154236452
+31	org.jsoup.nodes.Node::::390::::12656::::12660::::child::::parentNode	0.015987076611774183
+32	org.jsoup.nodes.Node::::418::::13558::::13569::::siblingIndex::::parent	0.01583805676044344
+33	org.jsoup.nodes.Node::::171::::5612::::5617::::relUrl::::attributeKey	0.015695163116767448
+34	org.jsoup.nodes.Node::::418::::13558::::13569::::siblingIndex::::baseUri	0.015436461622781785
+35	org.jsoup.nodes.Node::::392::::12739::::12743::::child::::parentNode	0.015380670257534472
+36	org.jsoup.nodes.Node::::168::::5412::::5418::::baseUri::::attributeKey	0.014084308759499686
+37	org.jsoup.nodes.Node::::175::::5825::::5830::::relUrl::::attributeKey	0.014011892781705133
+38	org.jsoup.nodes.Node::::177::::5943::::5948::::relUrl::::attributeKey	0.013614664911350438
+39	org.jsoup.nodes.Node::::392::::12739::::12751::::setParentNode::::removeChild	0.013122397243531394
+40	org.jsoup.nodes.Node::::421::::13665::::13672::::siblings::::attributes	0.0127455997216922
+41	org.jsoup.nodes.Node::::420::::13619::::13626::::siblings::::attributes	0.012571846830472466
+42	org.jsoup.nodes.Attributes::::78::::2264::::2326::::(attributes) != null) && (attributes.containsKey(key.toLowerCase())::::(attributes) == null	0.012455983106584368
+43	org.jsoup.nodes.Node::::178::::5975::::5977::::abs::::new java.net.URL(base, relUrl)	0.01181678313401594
+44	org.jsoup.nodes.Node::::191::::6285::::6294::::childNodes::::attributes	0.011255060626091955
+45	org.jsoup.nodes.Node::::171::::5612::::5617::::relUrl::::baseUri	0.0109420780045957
+46	org.jsoup.nodes.Node::::168::::5397::::5400::::base::::abs	0.010927773178714217
+47	org.jsoup.nodes.Attribute::::25::::691::::700::::this.value::::this.key	0.010329425525811217
+48	org.jsoup.nodes.TextNode::::28::::833::::841::::this.text::::baseUri	0.010314610594193294
+49	org.jsoup.nodes.Node::::344::::11213::::11235::::(this.parentNode) != null::::(parentNode) == null	0.010310454977060382
+50	org.jsoup.nodes.Node::::421::::13665::::13672::::siblings::::parentNode.childNodes	0.010097347335073933
+51	org.jsoup.nodes.Node::::375::::12249::::12258::::childNodes::::attributes	0.009972932999953485
+52	org.jsoup.nodes.Node::::420::::13619::::13626::::siblings::::parentNode.childNodes	0.00997281856316267
+53	org.jsoup.nodes.TextNode::::27::::816::::822::::baseUri::::this.text	0.009956788507215245
+54	org.jsoup.nodes.Node::::107::::3321::::3359::::return attributes.hasKey(attributeKey)::::INSERT::::STATEMENT::::attributes.remove(attributeKey)	0.00964964528910817
+55	org.jsoup.nodes.Node::::175::::5825::::5830::::relUrl::::baseUri	0.009590077809497829
+56	org.jsoup.nodes.Node::::175::::5825::::5830::::relUrl::::baseUri()	0.009455006291054197
+57	org.jsoup.nodes.Node::::177::::5943::::5948::::relUrl::::baseUri	0.00892972816377341
+58	org.jsoup.nodes.Node::::375::::12227::::12231::::child::::parent()	0.008926281845890543
+59	org.jsoup.nodes.Node::::392::::12739::::12764::::child.setParentNode(this)::::INSERT::::STATEMENT::::child.setParentNode(this)	0.008912294794565073
+60	org.jsoup.nodes.Element::::225::::7274::::7292::::addChildren(child)::::INSERT::::STATEMENT::::tagName()	0.008912294794565073
+61	org.jsoup.nodes.Node::::375::::12227::::12231::::child::::(org.jsoup.nodes.Element) (parent())	0.008811842335045792
+62	org.jsoup.nodes.Node::::392::::12739::::12751::::setParentNode::::reparentChild	0.008748264829020929
+63	org.jsoup.nodes.Node::::392::::12739::::12751::::setParentNode::::doClone	0.008748264829020929
+64	org.jsoup.nodes.Node::::161::::5184::::5187::::attr::::hasAttr	0.008385219520522357
+65	org.jsoup.nodes.Node::::392::::12739::::12743::::child::::parent()	0.008170981074315188
+66	org.jsoup.nodes.Node::::107::::3321::::3359::::return attributes.hasKey(attributeKey)::::INSERT::::STATEMENT::::outerHtml(accum)	0.008041371074256808
+67	org.jsoup.nodes.Node::::392::::12739::::12743::::child::::(org.jsoup.nodes.Element) (parent())	0.007930658101541211
+68	org.jsoup.nodes.Node::::392::::12739::::12764::::child.setParentNode(this)::::INSERT::::STATEMENT::::child.parentNode.removeChild(child)	0.007426912328804228
+69	org.jsoup.nodes.Element::::223::::7232::::7255::::org.jsoup.helper.Validate.notNull(child)::::INSERT::::STATEMENT::::tagName()	0.006815284254667408
+70	org.jsoup.nodes.Element::::213::::6924::::6929::::select::::append	0.0067213444033344455
+71	org.jsoup.nodes.Node::::168::::5412::::5418::::baseUri::::relUrl	0.006479137245227598
+72	org.jsoup.nodes.Node::::171::::5612::::5617::::relUrl::::attr(attributeKey)	0.006450067034287991
+73	org.jsoup.nodes.Node::::177::::5937::::5940::::base::::abs	0.006262415506687846
+74	org.jsoup.nodes.Node::::373::::12158::::12170::::reparentChild::::removeChild	0.006129839542826085
+75	org.jsoup.nodes.Node::::390::::12656::::12679::::(child.parentNode) != null::::(parentNode) == null	0.006123785380314651
+76	org.jsoup.nodes.Node::::392::::12739::::12743::::child::::((parent()) instanceof org.jsoup.nodes.Element) ? ((org.jsoup.nodes.Element) (parent())) : null	0.006008074319349403
+77	org.jsoup.nodes.Node::::392::::12739::::12764::::child.setParentNode(this)::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	0.005941529863043382
+78	org.jsoup.nodes.Node::::168::::5404::::5419::::new java.net.URL(baseUri)::::INSERT::::PARAMETER::::new URL(base,baseUri)	0.0058705198669940575
+79	org.jsoup.nodes.TextNode::::28::::833::::841::::this.text::::this.baseUri	0.005818498283903909
+80	org.jsoup.nodes.Node::::175::::5825::::5830::::relUrl::::attr(attributeKey)	0.005758312102070602
+81	org.jsoup.nodes.Node::::191::::6278::::6306::::return childNodes.get(index)::::INSERT::::STATEMENT::::outerHtml(accum)	0.005726387915815805
+82	org.jsoup.nodes.Node::::375::::12227::::12231::::child::::((parent()) instanceof org.jsoup.nodes.Element) ? ((org.jsoup.nodes.Element) (parent())) : null	0.005721975542237527
+83	org.jsoup.nodes.Node::::177::::5943::::5948::::relUrl::::attr(attributeKey)	0.00559506777178785
+84	org.jsoup.nodes.Node::::36::::1001::::1007::::baseUri::::baseUri()	0.005406847220227838
+85	org.jsoup.nodes.Node::::390::::12656::::12679::::(child.parentNode) != null::::(this.parentNode) != null	0.005248958897412558
+86	org.jsoup.nodes.Node::::420::::13619::::13643::::siblings.size()) > (index + 1::::index > 0	0.004962115857754335
+87	org.jsoup.nodes.Node::::373::::12158::::12170::::reparentChild::::doClone	0.004903871634260868
+88	org.jsoup.nodes.Element::::108::::2927::::2949::::java.lang.String id = attr("id")::::INSERT::::STATEMENT::::tagName()	0.0045783988140175435
+89	org.jsoup.nodes.Element::::213::::6917::::6952::::return org.jsoup.select.Selector.select(query, this)::::INSERT::::STATEMENT::::tagName()	0.004564913073931312
+90	org.jsoup.nodes.Node::::75::::2287::::2298::::attributeKey::::baseUri()	0.004469350068055528
+91	org.jsoup.nodes.Element::::225::::7274::::7292::::addChildren(child)::::INSERT::::STATEMENT::::empty()	0.0044561473972825364
+92	org.jsoup.nodes.Node::::178::::5975::::5977::::abs::::new java.net.URL(relUrl)	0.004431293675255977
+93	org.jsoup.nodes.Node::::344::::11213::::11235::::(this.parentNode) != null::::(parentNode) != null	0.004374132414510465
+94	org.jsoup.nodes.TextNode::::27::::801::::812::::this.baseUri::::org.jsoup.helper.StringUtil.normaliseWhitespace(text)	0.00435609497190667
+95	org.jsoup.nodes.Node::::107::::3321::::3359::::return attributes.hasKey(attributeKey)::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	0.004288731239603631
+96	org.jsoup.nodes.Node::::107::::3321::::3359::::return attributes.hasKey(attributeKey)::::INSERT::::STATEMENT::::parentNode.removeChild(this)	0.004288731239603631
+97	org.jsoup.nodes.Node::::171::::5604::::5618::::new java.net.URL(relUrl)::::INSERT::::PARAMETER::::new URL(abs,relUrl)	0.004264833807712489
+98	org.jsoup.nodes.Element::::109::::2959::::2986::::return id == null ? "" : id::::INSERT::::STATEMENT::::tagName()	0.004251370327302004
+99	org.jsoup.nodes.Node::::168::::5404::::5419::::new java.net.URL(baseUri)::::INSERT::::PARAMETER::::new URL(abs,baseUri)	0.004083839907474127
+100	org.jsoup.nodes.Attributes::::36::::1085::::1087::::key::::""	0.004027182275488612
+101	org.jsoup.nodes.Node::::171::::5604::::5618::::new java.net.URL(relUrl)::::INSERT::::PARAMETER::::new URL(base,relUrl)	0.004013961230788224
+102	org.jsoup.nodes.Node::::392::::12739::::12764::::child.setParentNode(this)::::INSERT::::STATEMENT::::reparentChild(child)	0.003961019908695587
+103	org.jsoup.nodes.Node::::392::::12739::::12764::::child.setParentNode(this)::::INSERT::::STATEMENT::::parentNode.removeChild(this)	0.003961019908695587
+104	org.jsoup.nodes.Node::::392::::12739::::12764::::child.setParentNode(this)::::INSERT::::STATEMENT::::outerHtml(accum)	0.003961019908695587
+105	org.jsoup.nodes.Node::::161::::5168::::5202::::java.lang.String relUrl = attr(attributeKey)::::INSERT::::STATEMENT::::outerHtml(accum)	0.0038693510602902706
+106	org.jsoup.nodes.Node::::168::::5412::::5418::::baseUri::::attr(attributeKey)	0.003751079457763346
+107	org.jsoup.nodes.Element::::67::::1856::::1876::::return tag.getName()::::INSERT::::STATEMENT::::tagName()	0.003730221288754901
+108	org.jsoup.nodes.Node::::417::::13511::::13531::::parentNode.childNodes::::siblings	0.003713871977593159
+109	org.jsoup.nodes.Element::::58::::1671::::1691::::return tag.getName()::::INSERT::::STATEMENT::::tagName()	0.003713456164402114
+110	org.jsoup.nodes.Attributes::::55::::1591::::1618::::org.jsoup.helper.Validate.notNull(attribute)::::INSERT::::STATEMENT::::put(attr)	0.0036841450363397374
+111	org.jsoup.nodes.Node::::159::::5126::::5157::::org.jsoup.helper.Validate.notEmpty(attributeKey)::::INSERT::::STATEMENT::::outerHtml(accum)	0.0036348449354241933
+112	org.jsoup.nodes.Node::::175::::5825::::5830::::relUrl::::"?"	0.0036019071584968377
+113	org.jsoup.nodes.Node::::76::::2360::::2371::::attributeKey::::baseUri()	0.0034812072739533865
+114	org.jsoup.nodes.Attributes::::78::::2309::::2311::::key::::""	0.0034108675849673217
+115	org.jsoup.nodes.Node::::200::::6599::::6646::::return java.util.Collections.unmodifiableList(childNodes)::::INSERT::::STATEMENT::::outerHtml(accum)	0.0034037214585570692
+116	org.jsoup.nodes.Attributes::::36::::1053::::1103::::org.jsoup.nodes.Attribute attr = attributes.get(key.toLowerCase())::::INSERT::::STATEMENT::::put(attr)	0.0033643960832265207
+117	org.jsoup.nodes.Node::::168::::5397::::5400::::base::::new java.net.URL(base, relUrl)	0.0033615708508740023
+118	org.jsoup.nodes.Element::::213::::6924::::6929::::select::::text	0.0033606722016672227
+119	org.jsoup.nodes.Attributes::::58::::1727::::1772::::attributes.put(attribute.getKey(), attribute)::::INSERT::::STATEMENT::::put(attr)	0.0033157305327057634
+120	org.jsoup.nodes.Attributes::::37::::1113::::1155::::return attr != null ? attr.getValue() : ""::::INSERT::::STATEMENT::::put(attr)	0.003166490431272019
+121	org.jsoup.nodes.TextNode::::27::::816::::822::::baseUri::::org.jsoup.helper.StringUtil.normaliseWhitespace(text)	0.003081863109376147
+122	org.jsoup.nodes.Element::::67::::1856::::1876::::return tag.getName()::::INSERT::::STATEMENT::::empty()	0.002984177031003921
+123	org.jsoup.nodes.Element::::58::::1671::::1691::::return tag.getName()::::INSERT::::STATEMENT::::empty()	0.002970764931521691
+124	org.jsoup.nodes.Node::::159::::5126::::5157::::org.jsoup.helper.Validate.notEmpty(attributeKey)::::DELETE::::STATEMENT	0.0029352599334970288
+125	org.jsoup.nodes.Node::::75::::2287::::2331::::attributeKey.toLowerCase().startsWith("abs:")::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	0.0028823243749566316
+126	org.jsoup.nodes.Attributes::::78::::2257::::2327::::return ((attributes) != null) && (attributes.containsKey(key.toLowerCase()))::::INSERT::::STATEMENT::::put(attr)	0.002819896175518405
+127	org.jsoup.nodes.Node::::75::::2287::::2298::::attributeKey::::baseUri	0.002678767846831374
+128	org.jsoup.nodes.Node::::75::::2287::::2331::::attributeKey.toLowerCase().startsWith("abs:")::::INSERT::::STATEMENT::::outerHtml(accum)	0.002675943475754318
+129	org.jsoup.nodes.Node::::75::::2287::::2331::::attributeKey.toLowerCase().startsWith("abs:")::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	0.0026606071153445834
+130	org.jsoup.nodes.Node::::75::::2287::::2331::::attributeKey.toLowerCase().startsWith("abs:")::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	0.0026606071153445834
+131	org.jsoup.nodes.Node::::49::::1335::::1352::::attributes = null::::this.attributes = attributes	0.0026095083212659964
+132	org.jsoup.nodes.Node::::76::::2346::::2400::::return absUrl(attributeKey.substring("abs:".length()))::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	0.002576121762132631
+133	org.jsoup.nodes.Node::::417::::13489::::13532::::java.util.List<org.jsoup.nodes.Node> siblings = parentNode.childNodes::::INSERT::::STATEMENT::::outerHtml(accum)	0.00255974851747107
+134	org.jsoup.nodes.Node::::390::::12652::::12729::::if ((child.parentNode) != null)    child.parentNode.removeChild(child);::::INSERT::::STATEMENT::::reparentChild(child)	0.002520649032806283
+135	org.jsoup.nodes.TextNode::::27::::816::::822::::baseUri::::org.jsoup.nodes.TextNode.TEXT_KEY	0.0025188304259324283
+136	org.jsoup.nodes.Node::::392::::12739::::12743::::child::::this.parentNode	0.0024795227349695952
+137	org.jsoup.nodes.Element::::109::::2966::::2985::::id == null ? "" : id::::id	0.002461031377162673
+138	org.jsoup.nodes.Node::::212::::6909::::6926::::return parentNode::::INSERT::::STATEMENT::::outerHtml(accum)	0.0024528617566225474
+139	org.jsoup.nodes.Node::::159::::5144::::5155::::attributeKey::::baseUri	0.002449786363681209
+140	org.jsoup.nodes.Node::::390::::12652::::12729::::if ((child.parentNode) != null)    child.parentNode.removeChild(child);::::INSERT::::STATEMENT::::child.parentNode.removeChild(child)	0.00234060267332012
+141	org.jsoup.nodes.Node::::421::::13678::::13684::::index + 1::::index - 1	0.0023158377546449163
+142	org.jsoup.nodes.Node::::191::::6278::::6306::::return childNodes.get(index)::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	0.0022905551663263217
+143	org.jsoup.nodes.Node::::191::::6278::::6306::::return childNodes.get(index)::::INSERT::::STATEMENT::::parentNode.removeChild(this)	0.0022905551663263217
+144	org.jsoup.nodes.Element::::108::::2927::::2949::::java.lang.String id = attr("id")::::INSERT::::STATEMENT::::empty()	0.0022891994070087717
+145	org.jsoup.nodes.Element::::213::::6917::::6952::::return org.jsoup.select.Selector.select(query, this)::::INSERT::::STATEMENT::::empty()	0.002282456536965656
+146	org.jsoup.nodes.Node::::74::::2233::::2268::::return attributes.get(attributeKey)::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	0.0022703497584931637
+147	org.jsoup.nodes.Node::::447::::14414::::14433::::return siblingIndex::::INSERT::::STATEMENT::::outerHtml(accum)	0.002269147639038046
+148	org.jsoup.nodes.Node::::200::::6599::::6646::::return java.util.Collections.unmodifiableList(childNodes)::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	0.002269147639038046
+149	org.jsoup.nodes.Node::::200::::6599::::6646::::return java.util.Collections.unmodifiableList(childNodes)::::INSERT::::STATEMENT::::parentNode.removeChild(this)	0.002269147639038046
+150	org.jsoup.nodes.Node::::75::::2283::::2424::::if (attributeKey.toLowerCase().startsWith("abs:"))    return absUrl(attributeKey.substring("abs:".length()));else    return "";::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	0.00225293344444501
+151	org.jsoup.nodes.Node::::75::::2283::::2424::::if (attributeKey.toLowerCase().startsWith("abs:"))    return absUrl(attributeKey.substring("abs:".length()));else    return "";::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	0.00225293344444501
+152	org.jsoup.nodes.Node::::175::::5825::::5830::::relUrl::::"abs:"	0.0022393435952496785
+153	org.jsoup.nodes.Node::::76::::2346::::2400::::return absUrl(attributeKey.substring("abs:".length()))::::INSERT::::STATEMENT::::outerHtml(accum)	0.0022208323964976132
+154	org.jsoup.nodes.Node::::373::::12158::::12170::::reparentChild::::setParentNode	0.002179498504115941
+155	org.jsoup.nodes.Node::::419::::13582::::13605::::org.jsoup.helper.Validate.notNull(index)::::INSERT::::STATEMENT::::outerHtml(accum)	0.0021659410532447517
+156	org.jsoup.nodes.Node::::418::::13542::::13572::::java.lang.Integer index = siblingIndex()::::INSERT::::STATEMENT::::outerHtml(accum)	0.0021659410532447517
+157	org.jsoup.nodes.Node::::178::::5975::::5977::::abs::::new java.net.URL(baseUri)	0.002148506024366535
+158	org.jsoup.nodes.Node::::107::::3321::::3359::::return attributes.hasKey(attributeKey)::::INSERT::::STATEMENT::::reindexChildren()	0.0021443656198018154
+159	org.jsoup.nodes.Attributes::::58::::1727::::1772::::attributes.put(attribute.getKey(), attribute)::::DELETE::::STATEMENT	0.00212505102034762
+160	org.jsoup.nodes.Attributes::::55::::1591::::1618::::org.jsoup.helper.Validate.notNull(attribute)::::DELETE::::STATEMENT	0.00212505102034762
+161	org.jsoup.nodes.Node::::162::::5225::::5236::::attributeKey::::baseUri	0.002107630912262048
+162	org.jsoup.nodes.Node::::161::::5189::::5200::::attributeKey::::baseUri	0.0021067820135687513
+163	org.jsoup.nodes.Element::::223::::7232::::7255::::org.jsoup.helper.Validate.notNull(child)::::INSERT::::STATEMENT::::empty()	0.002097010539897664
+164	org.jsoup.nodes.Node::::76::::2360::::2371::::attributeKey::::baseUri	0.002068914425281121
+165	org.jsoup.nodes.Node::::177::::5937::::5940::::base::::new java.net.URL(base, relUrl)	0.0020627888915610306
+166	org.jsoup.nodes.Node::::76::::2346::::2400::::return absUrl(attributeKey.substring("abs:".length()))::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	0.002060897409706105
+167	org.jsoup.nodes.Node::::76::::2346::::2400::::return absUrl(attributeKey.substring("abs:".length()))::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	0.002060897409706105
+168	org.jsoup.nodes.Attributes::::31::::964::::986::::org.jsoup.helper.Validate.notEmpty(key)::::INSERT::::STATEMENT::::put(attr)	0.00203854531906743
+169	org.jsoup.nodes.Node::::105::::3280::::3310::::org.jsoup.helper.Validate.notNull(attributeKey)::::INSERT::::STATEMENT::::outerHtml(accum)	0.00201575617626413
+170	org.jsoup.nodes.Node::::392::::12739::::12764::::child.setParentNode(this)::::INSERT::::STATEMENT::::reindexChildren()	0.0019805099543477936
+171	org.jsoup.nodes.Attributes::::33::::1001::::1018::::(attributes) == null::::(attributes) != null	0.0019680053212513217
+172	org.jsoup.nodes.Node::::74::::2233::::2268::::return attributes.get(attributeKey)::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	0.0019572313580659704
+173	org.jsoup.nodes.Node::::74::::2233::::2268::::return attributes.get(attributeKey)::::INSERT::::STATEMENT::::attributes.remove(attributeKey)	0.0019572313580659704
+174	org.jsoup.nodes.Node::::48::::1289::::1325::::childNodes = java.util.Collections.emptyList()::::childNodes = new java.util.ArrayList<org.jsoup.nodes.Node>(4)	0.0019571312409494973
+175	org.jsoup.nodes.Node::::375::::12227::::12231::::child::::this.parentNode	0.0019363891835000645
+176	org.jsoup.nodes.Node::::75::::2283::::2424::::if (attributeKey.toLowerCase().startsWith("abs:"))    return absUrl(attributeKey.substring("abs:".length()));else    return "";::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	0.0019310858095242943
+177	org.jsoup.nodes.Node::::390::::12656::::12660::::child::::this.parentNode	0.0019196305044925897
+178	org.jsoup.nodes.Attributes::::57::::1665::::1717::::attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2)::::INSERT::::STATEMENT::::if ((attributes) == null)    attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2);	0.0019134952072179271
+179	org.jsoup.nodes.Node::::191::::6300::::6304::::index::::siblingIndex	0.0018790180856103741
+180	org.jsoup.nodes.Node::::71::::2170::::2181::::attributeKey::::baseUri	0.0018785112858278035
+181	org.jsoup.nodes.TextNode::::27::::801::::812::::this.baseUri::::org.jsoup.nodes.TextNode.TEXT_KEY	0.0018668978451028587
+182	org.jsoup.nodes.Node::::74::::2255::::2266::::attributeKey::::baseUri	0.0018373102602960041
+183	org.jsoup.nodes.Node::::73::::2206::::2217::::attributeKey::::baseUri	0.001835944035015942
+184	org.jsoup.nodes.Node::::420::::13637::::13643::::index + 1::::index - 1	0.0018287536410193082
+185	org.jsoup.nodes.Node::::74::::2233::::2268::::return attributes.get(attributeKey)::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	0.001816279806794531
+186	org.jsoup.nodes.Node::::74::::2233::::2268::::return attributes.get(attributeKey)::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	0.001816279806794531
+187	org.jsoup.nodes.Node::::159::::5144::::5155::::attributeKey::::relUrl	0.0018076460285035064
+188	org.jsoup.nodes.Node::::390::::12652::::12729::::if ((child.parentNode) != null)    child.parentNode.removeChild(child);::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	0.001800463594861631
+189	org.jsoup.nodes.Node::::107::::3346::::3357::::attributeKey::::baseUri	0.0017853871721615834
+190	org.jsoup.nodes.Node::::105::::3297::::3308::::attributeKey::::baseUri	0.0017828174659688602
+191	org.jsoup.nodes.Node::::372::::12117::::12279::::for (org.jsoup.nodes.Node child : children) {    reparentChild(child);    childNodes.add(child);    child.setSiblingIndex(((childNodes.size()) - 1));}::::INSERT::::STATEMENT::::reparentChild(child)	0.001778274782953125
+192	org.jsoup.nodes.Node::::75::::2287::::2331::::attributeKey.toLowerCase().startsWith("abs:")::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	0.001773738076896389
+193	org.jsoup.nodes.Attributes::::56::::1632::::1649::::(attributes) == null::::(attributes) != null	0.0017649594138365214
+194	org.jsoup.nodes.Node::::73::::2198::::2204::::hasAttr::::absUrl	0.0017506399857731309
+195	org.jsoup.nodes.Node::::390::::12656::::12679::::(child.parentNode) != null::::(parentNode) != null	0.0017496529658041862
+196	org.jsoup.nodes.Node::::77::::2415::::2424::::return ""::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	0.0017368209377183847
+197	org.jsoup.nodes.Node::::162::::5216::::5237::::!(hasAttr(attributeKey))::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	0.0017299931958219541
+198	org.jsoup.nodes.Node::::374::::12207::::12211::::child::::this.parentNode	0.0017216308801298321
+199	org.jsoup.nodes.Node::::392::::12739::::12764::::child.setParentNode(this)::::DELETE::::STATEMENT	0.0017135663733844745
+200	org.jsoup.nodes.Element::::225::::7274::::7292::::addChildren(child)::::DELETE::::STATEMENT	0.0017135663733844745
+201	org.jsoup.nodes.Node::::420::::13615::::13724::::if ((siblings.size()) > (index + 1))    return siblings.get((index + 1));else    return null;::::INSERT::::STATEMENT::::outerHtml(accum)	0.0017098320175295042
+202	org.jsoup.nodes.Node::::421::::13665::::13672::::siblings::::childNodes()	0.0016994132962256268
+203	org.jsoup.nodes.Node::::161::::5189::::5200::::attributeKey::::relUrl	0.001688878981843602
+204	org.jsoup.nodes.Node::::375::::12227::::12231::::child::::child.parentNode	0.0016784461590563411
+205	org.jsoup.nodes.TextNode::::28::::833::::841::::this.text::::org.jsoup.nodes.TextNode.TEXT_KEY	0.001652982467018156
+206	org.jsoup.nodes.Attributes::::87::::2485::::2493::::return 0::::INSERT::::STATEMENT::::if ((attributes) == null)    return new org.jsoup.nodes.Attributes();	0.0016500384869896241
+207	org.jsoup.nodes.Attributes::::87::::2485::::2493::::return 0::::INSERT::::STATEMENT::::if ((attributes) == null)    return ;	0.0016500384869896241
+208	org.jsoup.nodes.Attributes::::87::::2485::::2493::::return 0::::INSERT::::STATEMENT::::if ((attributes) == null)    return 0;	0.0016500384869896241
+209	org.jsoup.nodes.Attributes::::87::::2485::::2493::::return 0::::INSERT::::STATEMENT::::if ((attributes) == null)    return "";	0.0016500384869896241
+210	org.jsoup.nodes.Document::::210::::6777::::6783::::charset::::this.charset	0.0016342541604360352
+211	org.jsoup.nodes.Node::::74::::2233::::2268::::return attributes.get(attributeKey)::::INSERT::::STATEMENT::::outerHtml(accum)	0.001631026131721642
+212	org.jsoup.nodes.Node::::390::::12656::::12660::::child::::child.parentNode	0.0016243027345706528
+213	org.jsoup.nodes.Node::::390::::12652::::12729::::if ((child.parentNode) != null)    child.parentNode.removeChild(child);::::INSERT::::STATEMENT::::child.setParentNode(this)	0.001620417235375468
+214	org.jsoup.nodes.Node::::77::::2415::::2424::::return ""::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	0.001592085859575186
+215	org.jsoup.nodes.Node::::373::::12172::::12176::::child::::this.parentNode	0.0015806957435431169
+216	org.jsoup.nodes.Node::::162::::5217::::5223::::hasAttr::::absUrl	0.0015537829132230869
+217	org.jsoup.nodes.Node::::162::::5216::::5237::::!(hasAttr(attributeKey))::::INSERT::::STATEMENT::::outerHtml(accum)	0.0015535404289199627
+218	org.jsoup.nodes.Node::::162::::5225::::5236::::attributeKey::::relUrl	0.001550690908685851
+219	org.jsoup.nodes.Node::::374::::12207::::12211::::child::::child.parentNode	0.001520102181786875
+220	org.jsoup.nodes.Element::::142::::4197::::4224::::return ((org.jsoup.nodes.Element) (parentNode))::::INSERT::::STATEMENT::::tagName()	0.0015127650926920306
+221	org.jsoup.nodes.Node::::392::::12739::::12743::::child::::child.parentNode	0.0015106015431507072
+222	org.jsoup.nodes.Node::::420::::13619::::13626::::siblings::::childNodes()	0.0014899966613893295
+223	org.jsoup.nodes.Node::::346::::11293::::11321::::this.parentNode = parentNode::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	0.0014853824657608454
+224	org.jsoup.nodes.Node::::76::::2346::::2400::::return absUrl(attributeKey.substring("abs:".length()))::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	0.0014805549309984088
+225	org.jsoup.nodes.Node::::76::::2346::::2400::::return absUrl(attributeKey.substring("abs:".length()))::::INSERT::::STATEMENT::::attributes.remove(attributeKey)	0.0014805549309984088
+226	org.jsoup.nodes.Attributes::::86::::2453::::2470::::(attributes) == null::::(attributes) != null	0.0014796600756234316
+227	org.jsoup.nodes.Node::::75::::2287::::2298::::attributeKey::::attr(attributeKey)	0.0014592889828726613
+228	org.jsoup.nodes.Node::::36::::986::::1015::::this.baseUri = baseUri.trim()::::this.baseUri = baseUri	0.0014468861897252664
+229	org.jsoup.nodes.Node::::390::::12652::::12729::::if ((child.parentNode) != null)    child.parentNode.removeChild(child);::::INSERT::::STATEMENT::::outerHtml(accum)	0.0014403708758893047
+230	org.jsoup.nodes.Node::::75::::2283::::2424::::if (attributeKey.toLowerCase().startsWith("abs:"))    return absUrl(attributeKey.substring("abs:".length()));else    return "";::::INSERT::::STATEMENT::::outerHtml(accum)	0.0014386792880399558
+231	org.jsoup.nodes.Node::::73::::2194::::2424::::if (hasAttr(attributeKey))    return attributes.get(attributeKey);else    if (attributeKey.toLowerCase().startsWith("abs:"))        return absUrl(attributeKey.substring("abs:".length()));    else        return "";::::INSERT::::STATEMENT::::outerHtml(accum)	0.0014180611391474392
+232	org.jsoup.nodes.Node::::105::::3280::::3310::::org.jsoup.helper.Validate.notNull(attributeKey)::::INSERT::::STATEMENT::::attributes.remove(attributeKey)	0.0014173285614357163
+233	org.jsoup.nodes.Node::::373::::12172::::12176::::child::::child.parentNode	0.001416188946703788
+234	org.jsoup.nodes.Node::::421::::13658::::13686::::return siblings.get((index + 1))::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	0.0013686100755034938
+235	org.jsoup.nodes.Node::::77::::2415::::2424::::return ""::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	0.0013646450224930166
+236	org.jsoup.nodes.Node::::75::::2287::::2331::::attributeKey.toLowerCase().startsWith("abs:")::::INSERT::::STATEMENT::::attributes.remove(attributeKey)	0.001337971737877159
+237	org.jsoup.nodes.Attributes::::36::::1085::::1087::::key::::org.jsoup.nodes.Attributes.dataKey(key)	0.0013070679315182335
+238	org.jsoup.nodes.Node::::414::::13419::::13436::::(parentNode) == null::::(parentNode) != null	0.0013056332301255508
+239	org.jsoup.nodes.Node::::76::::2346::::2400::::return absUrl(attributeKey.substring("abs:".length()))::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	0.0012880608810663156
+240	org.jsoup.nodes.Node::::76::::2360::::2371::::attributeKey::::attr(attributeKey)	0.0012765168616446722
+241	org.jsoup.nodes.Node::::421::::13658::::13686::::return siblings.get((index + 1))::::INSERT::::STATEMENT::::outerHtml(accum)	0.0012290170209089666
+242	org.jsoup.nodes.Node::::161::::5168::::5202::::java.lang.String relUrl = attr(attributeKey)::::INSERT::::STATEMENT::::reindexChildren()	0.0012194318493036003
+243	org.jsoup.nodes.Node::::415::::13451::::13462::::return null::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	0.001218208312698755
+244	org.jsoup.nodes.Node::::421::::13658::::13686::::return siblings.get((index + 1))::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	0.0011975338160655571
+245	org.jsoup.nodes.Node::::344::::11209::::11283::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	0.001163376476679823
+246	org.jsoup.nodes.Node::::175::::5825::::5846::::relUrl.startsWith("?")::::INSERT::::STATEMENT::::outerHtml(accum)	0.0011557988672981502
+247	org.jsoup.nodes.Node::::75::::2287::::2331::::attributeKey.toLowerCase().startsWith("abs:")::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	0.0011468329181804219
+248	org.jsoup.nodes.Node::::159::::5126::::5157::::org.jsoup.helper.Validate.notEmpty(attributeKey)::::INSERT::::STATEMENT::::reindexChildren()	0.0011455268887397459
+249	org.jsoup.nodes.Node::::191::::6278::::6306::::return childNodes.get(index)::::INSERT::::STATEMENT::::reindexChildren()	0.0011452775831631609
+250	org.jsoup.nodes.Node::::37::::1025::::1053::::this.attributes = attributes::::attributes = null	0.0011442212214664096
+251	org.jsoup.nodes.Node::::162::::5216::::5237::::!(hasAttr(attributeKey))::::INSERT::::STATEMENT::::attributes.remove(attributeKey)	0.0011392629812079726
+252	org.jsoup.nodes.Attributes::::78::::2309::::2311::::key::::org.jsoup.nodes.Attributes.dataKey(key)	0.001136955861655774
+253	org.jsoup.nodes.Node::::200::::6599::::6646::::return java.util.Collections.unmodifiableList(childNodes)::::INSERT::::STATEMENT::::reindexChildren()	0.001134573819519023
+254	org.jsoup.nodes.Node::::414::::13415::::13462::::if ((parentNode) == null)    return null;::::INSERT::::STATEMENT::::outerHtml(accum)	0.0011226711223676197
+255	org.jsoup.nodes.Node::::390::::12652::::12729::::if ((child.parentNode) != null)    child.parentNode.removeChild(child);::::INSERT::::STATEMENT::::parentNode.removeChild(this)	0.0010802781569169786
+256	org.jsoup.nodes.Node::::73::::2194::::2424::::if (hasAttr(attributeKey))    return attributes.get(attributeKey);else    if (attributeKey.toLowerCase().startsWith("abs:"))        return absUrl(attributeKey.substring("abs:".length()));    else        return "";::::INSERT::::STATEMENT::::attributes.remove(attributeKey)	0.0010635458543605794
+257	org.jsoup.nodes.Element::::109::::2959::::2986::::return id == null ? "" : id::::INSERT::::STATEMENT::::empty()	0.001062842581825501
+258	org.jsoup.nodes.Node::::423::::13713::::13724::::return null::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	0.0010525199080503361
+259	org.jsoup.nodes.Node::::372::::12117::::12279::::for (org.jsoup.nodes.Node child : children) {    reparentChild(child);    childNodes.add(child);    child.setSiblingIndex(((childNodes.size()) - 1));}::::INSERT::::STATEMENT::::outerHtml(accum)	0.0010460439899724265
+260	org.jsoup.nodes.Node::::171::::5612::::5617::::relUrl::::this.baseUri	0.0010366179162248558
+261	org.jsoup.nodes.Node::::161::::5168::::5202::::java.lang.String relUrl = attr(attributeKey)::::INSERT::::STATEMENT::::attributes.remove(attributeKey)	0.0010318269494107388
+262	org.jsoup.nodes.Node::::421::::13658::::13686::::return siblings.get((index + 1))::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	0.0010264575566276202
+263	org.jsoup.nodes.Attributes::::78::::2309::::2311::::key::::org.jsoup.nodes.Attributes.dataPrefix	0.0010232602754901966
+264	org.jsoup.nodes.Node::::162::::5216::::5237::::!(hasAttr(attributeKey))::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	0.0010091626975628064
+265	org.jsoup.nodes.Node::::162::::5216::::5237::::!(hasAttr(attributeKey))::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	0.0010091626975628064
+266	org.jsoup.nodes.Node::::36::::1001::::1007::::baseUri::::this.baseUri	9.98898645390631E-4
+267	org.jsoup.nodes.Node::::107::::3321::::3359::::return attributes.hasKey(attributeKey)::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	9.898286456066785E-4
+268	org.jsoup.nodes.Attributes::::78::::2257::::2327::::return ((attributes) != null) && (attributes.containsKey(key.toLowerCase()))::::INSERT::::STATEMENT::::if ((attributes) == null)    return ;	9.762376759785499E-4
+269	org.jsoup.nodes.Attributes::::78::::2257::::2327::::return ((attributes) != null) && (attributes.containsKey(key.toLowerCase()))::::INSERT::::STATEMENT::::if ((attributes) == null)    return "";	9.762376759785499E-4
+270	org.jsoup.nodes.Node::::415::::13451::::13462::::return null::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	9.745666501590042E-4
+271	org.jsoup.nodes.Node::::159::::5126::::5157::::org.jsoup.helper.Validate.notEmpty(attributeKey)::::INSERT::::STATEMENT::::attributes.remove(attributeKey)	9.69291982779785E-4
+272	org.jsoup.nodes.Node::::175::::5825::::5830::::relUrl::::accum.toString()	9.644580352027716E-4
+273	org.jsoup.nodes.Node::::71::::2153::::2183::::org.jsoup.helper.Validate.notNull(attributeKey)::::DELETE::::STATEMENT	9.536549131261075E-4
+274	org.jsoup.nodes.Attributes::::31::::964::::986::::org.jsoup.helper.Validate.notEmpty(key)::::DELETE::::STATEMENT	9.518809597657716E-4
+275	org.jsoup.nodes.Node::::36::::1001::::1007::::baseUri::::"?"	9.495703172231925E-4
+276	org.jsoup.nodes.Attributes::::33::::997::::1042::::if ((attributes) == null)    return "";::::INSERT::::STATEMENT::::if ((attributes) == null)    return "";	9.465836005448821E-4
+277	org.jsoup.nodes.Node::::175::::5825::::5830::::relUrl::::"#text"	9.383916018189129E-4
+278	org.jsoup.nodes.Node::::36::::1001::::1007::::baseUri::::"abs:"	9.279891736499381E-4
+279	org.jsoup.nodes.Node::::74::::2233::::2268::::return attributes.get(attributeKey)::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	9.081399033972654E-4
+280	org.jsoup.nodes.Attribute::::25::::691::::700::::this.value::::(key) + "=\""	8.888545515870162E-4
+281	org.jsoup.nodes.Attributes::::36::::1053::::1103::::org.jsoup.nodes.Attribute attr = attributes.get(key.toLowerCase())::::INSERT::::STATEMENT::::if ((attributes) == null)    return ;	8.87422125510827E-4
+282	org.jsoup.nodes.Attributes::::33::::997::::1042::::if ((attributes) == null)    return "";::::INSERT::::STATEMENT::::if ((attributes) == null)    return ;	8.860022501100096E-4
+283	org.jsoup.nodes.Node::::175::::5825::::5830::::relUrl::::this.baseUri	8.767800320025196E-4
+284	org.jsoup.nodes.Attributes::::31::::982::::984::::key::::org.jsoup.nodes.Attributes.dataPrefix	8.719138658653573E-4
+285	org.jsoup.nodes.Node::::418::::13558::::13569::::siblingIndex::::toString	8.673504452455898E-4
+286	org.jsoup.nodes.Node::::162::::5216::::5237::::!(hasAttr(attributeKey))::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	8.649965979109768E-4
+287	org.jsoup.nodes.Node::::175::::5825::::5830::::relUrl::::""	8.530832743808299E-4
+288	org.jsoup.nodes.Node::::73::::2198::::2218::::hasAttr(attributeKey)::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	8.527909235458423E-4
+289	org.jsoup.nodes.Attributes::::58::::1727::::1772::::attributes.put(attribute.getKey(), attribute)::::INSERT::::STATEMENT::::if ((attributes) == null)    attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2);	8.502916335404964E-4
+290	org.jsoup.nodes.Attributes::::56::::1628::::1717::::if ((attributes) == null)    attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2);::::INSERT::::STATEMENT::::if ((attributes) == null)    attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2);	8.502916335404964E-4
+291	org.jsoup.nodes.Node::::423::::13713::::13724::::return null::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	8.420159264402689E-4
+292	org.jsoup.nodes.Node::::372::::12117::::12279::::for (org.jsoup.nodes.Node child : children) {    reparentChild(child);    childNodes.add(child);    child.setSiblingIndex(((childNodes.size()) - 1));}::::INSERT::::STATEMENT::::child.parentNode.removeChild(child)	8.368351919779411E-4
+293	org.jsoup.nodes.Attributes::::37::::1113::::1155::::return attr != null ? attr.getValue() : ""::::INSERT::::STATEMENT::::if ((attributes) == null)    return ;	8.352208240101901E-4
+294	org.jsoup.nodes.Node::::75::::2283::::2424::::if (attributeKey.toLowerCase().startsWith("abs:"))    return absUrl(attributeKey.substring("abs:".length()));else    return "";::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	8.344197942388925E-4
+295	org.jsoup.nodes.Node::::162::::5216::::5237::::!(hasAttr(attributeKey))::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	8.285548954239801E-4
+296	org.jsoup.nodes.Node::::344::::11209::::11283::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);::::INSERT::::STATEMENT::::reindexChildren()	8.102086176877338E-4
+297	org.jsoup.nodes.Node::::344::::11209::::11283::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);::::INSERT::::STATEMENT::::parentNode.removeChild(this)	8.102086176877338E-4
+298	org.jsoup.nodes.Attributes::::36::::1085::::1087::::key::::org.jsoup.nodes.Attributes.dataPrefix	7.948386070043311E-4
+299	org.jsoup.nodes.Node::::418::::13558::::13569::::siblingIndex::::reindexChildren	7.936850649644575E-4
+300	org.jsoup.nodes.Attributes::::37::::1113::::1155::::return attr != null ? attr.getValue() : ""::::INSERT::::STATEMENT::::if ((attributes) == null)    return "";	7.79539435742844E-4
+301	org.jsoup.nodes.Node::::421::::13665::::13672::::siblings::::new org.jsoup.nodes.Attributes()	7.647359833015319E-4
+302	org.jsoup.nodes.Node::::162::::5212::::6094::::if (!(hasAttr(attributeKey))) {    return "";}else {    java.net.URL base;    try {        try {            base = new java.net.URL(baseUri);        } catch (java.net.MalformedURLException e) {            java.net.URL abs = new java.net.URL(relUrl);            return abs.toExternalForm();        }        if (relUrl.startsWith("?"))            relUrl = (base.getPath()) + relUrl;        java.net.URL abs = new java.net.URL(base, relUrl);        return abs.toExternalForm();    } catch (java.net.MalformedURLException e) {        return "";    }}::::INSERT::::STATEMENT::::outerHtml(accum)	7.607814981120405E-4
+303	org.jsoup.nodes.Node::::414::::13419::::13436::::(parentNode) == null::::(this.parentNode) != null	7.603393516613502E-4
+304	org.jsoup.nodes.Node::::105::::3280::::3310::::org.jsoup.helper.Validate.notNull(attributeKey)::::INSERT::::STATEMENT::::reindexChildren()	7.559085660990486E-4
+305	org.jsoup.nodes.Node::::212::::6909::::6926::::return parentNode::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	7.548192988477729E-4
+306	org.jsoup.nodes.Node::::212::::6909::::6926::::return parentNode::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	7.548192988477729E-4
+307	org.jsoup.nodes.Node::::212::::6909::::6926::::return parentNode::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	7.548192988477729E-4
+308	org.jsoup.nodes.Node::::177::::5943::::5948::::relUrl::::this.baseUri	7.4600903623838E-4
+309	org.jsoup.nodes.Node::::346::::11293::::11321::::this.parentNode = parentNode::::INSERT::::STATEMENT::::parentNode.removeChild(this)	7.426912328804227E-4
+310	org.jsoup.nodes.Node::::346::::11293::::11321::::this.parentNode = parentNode::::INSERT::::STATEMENT::::outerHtml(accum)	7.426912328804227E-4
+311	org.jsoup.nodes.Node::::107::::3321::::3359::::return attributes.hasKey(attributeKey)::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	7.423714842050089E-4
+312	org.jsoup.nodes.Node::::107::::3321::::3359::::return attributes.hasKey(attributeKey)::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	7.423714842050089E-4
+313	org.jsoup.nodes.Attributes::::33::::997::::1042::::if ((attributes) == null)    return "";::::INSERT::::STATEMENT::::put(attr)	7.382446262622765E-4
+314	org.jsoup.nodes.Node::::175::::5825::::5846::::relUrl.startsWith("?")::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	7.373871349611388E-4
+315	org.jsoup.nodes.Attributes::::78::::2257::::2327::::return ((attributes) != null) && (attributes.containsKey(key.toLowerCase()))::::INSERT::::STATEMENT::::if ((attributes) == null)    return 0;	7.321782569839124E-4
+316	org.jsoup.nodes.Node::::415::::13451::::13462::::return null::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	7.309249876192532E-4
+317	org.jsoup.nodes.Attributes::::86::::2449::::2493::::if ((attributes) == null)    return 0;::::INSERT::::STATEMENT::::if ((attributes) == null)    return 0;	7.27644601894817E-4
+318	org.jsoup.nodes.Node::::390::::12652::::12729::::if ((child.parentNode) != null)    child.parentNode.removeChild(child);::::INSERT::::STATEMENT::::reindexChildren()	7.201854379446524E-4
+319	org.jsoup.nodes.Node::::75::::2283::::2424::::if (attributeKey.toLowerCase().startsWith("abs:"))    return absUrl(attributeKey.substring("abs:".length()));else    return "";::::INSERT::::STATEMENT::::attributes.remove(attributeKey)	7.193396440199779E-4
+320	org.jsoup.nodes.Node::::75::::2287::::2331::::attributeKey.toLowerCase().startsWith("abs:")::::INSERT::::STATEMENT::::reindexChildren()	7.167705738627638E-4
+321	org.jsoup.nodes.Attributes::::36::::1053::::1103::::org.jsoup.nodes.Attribute attr = attributes.get(key.toLowerCase())::::INSERT::::STATEMENT::::if ((attributes) == null)    return "";	7.099377004086616E-4
+322	org.jsoup.nodes.Node::::191::::6278::::6306::::return childNodes.get(index)::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	7.048726818584558E-4
+323	org.jsoup.nodes.Node::::414::::13415::::13462::::if ((parentNode) == null)    return null;::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	7.015556155360322E-4
+324	org.jsoup.nodes.Node::::447::::14414::::14433::::return siblingIndex::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	6.982849421726896E-4
+325	org.jsoup.nodes.Node::::447::::14414::::14433::::return siblingIndex::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	6.982849421726896E-4
+326	org.jsoup.nodes.Node::::447::::14414::::14433::::return siblingIndex::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	6.982849421726896E-4
+327	org.jsoup.nodes.Node::::200::::6599::::6646::::return java.util.Collections.unmodifiableList(childNodes)::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	6.982849421726896E-4
+328	org.jsoup.nodes.Node::::417::::13489::::13532::::java.util.List<org.jsoup.nodes.Node> siblings = parentNode.childNodes::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	6.981132320375646E-4
+329	org.jsoup.nodes.Node::::105::::3280::::3310::::org.jsoup.helper.Validate.notNull(attributeKey)::::INSERT::::STATEMENT::::parentNode.removeChild(this)	6.929161855907947E-4
+330	org.jsoup.nodes.Node::::392::::12739::::12764::::child.setParentNode(this)::::INSERT::::STATEMENT::::if ((child.parentNode) != null)    child.parentNode.removeChild(child);	6.856452559745154E-4
+331	org.jsoup.nodes.Node::::390::::12652::::12729::::if ((child.parentNode) != null)    child.parentNode.removeChild(child);::::INSERT::::STATEMENT::::if ((child.parentNode) != null)    child.parentNode.removeChild(child);	6.856452559745154E-4
+332	org.jsoup.nodes.Node::::344::::11209::::11283::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	6.856452559745154E-4
+333	org.jsoup.nodes.Node::::344::::11209::::11283::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);::::INSERT::::STATEMENT::::outerHtml(accum)	6.751738480731116E-4
+334	org.jsoup.nodes.Node::::162::::5216::::5237::::!(hasAttr(attributeKey))::::INSERT::::STATEMENT::::reindexChildren()	6.732008525319839E-4
+335	org.jsoup.nodes.TextNode::::28::::845::::848::::text::::baseUri	6.646999263537718E-4
+336	org.jsoup.nodes.Node::::74::::2233::::2268::::return attributes.get(attributeKey)::::INSERT::::STATEMENT::::parentNode.removeChild(this)	6.524104526886569E-4
+337	org.jsoup.nodes.Attributes::::78::::2257::::2327::::return ((attributes) != null) && (attributes.containsKey(key.toLowerCase()))::::INSERT::::STATEMENT::::if ((attributes) == null)    return new org.jsoup.nodes.Attributes();	6.508251173190332E-4
+338	org.jsoup.nodes.Node::::76::::2360::::2371::::attributeKey::::"abs:"	6.468835447523675E-4
+339	org.jsoup.nodes.Node::::75::::2287::::2298::::attributeKey::::"abs:"	6.328322582451439E-4
+340	org.jsoup.nodes.Node::::423::::13713::::13724::::return null::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	6.315119448302018E-4
+341	org.jsoup.nodes.Node::::418::::13558::::13569::::siblingIndex::::hashCode	6.202149759153395E-4
+342	org.jsoup.nodes.Node::::75::::2283::::2424::::if (attributeKey.toLowerCase().startsWith("abs:"))    return absUrl(attributeKey.substring("abs:".length()));else    return "";::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	6.165768377314096E-4
+343	org.jsoup.nodes.Node::::421::::13658::::13686::::return siblings.get((index + 1))::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	6.145085104544833E-4
+344	org.jsoup.nodes.Node::::420::::13619::::13626::::siblings::::new org.jsoup.nodes.Attributes()	6.095440887501802E-4
+345	org.jsoup.nodes.TextNode::::28::::845::::848::::text::::org.jsoup.nodes.TextNode.TEXT_KEY	5.870077271695646E-4
+346	org.jsoup.nodes.Attributes::::31::::964::::986::::org.jsoup.helper.Validate.notEmpty(key)::::INSERT::::STATEMENT::::if ((attributes) == null)    return ;	5.825129849506967E-4
+347	org.jsoup.nodes.Node::::421::::13658::::13686::::return siblings.get((index + 1))::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	5.702541981264556E-4
+348	org.jsoup.nodes.Node::::105::::3280::::3310::::org.jsoup.helper.Validate.notNull(attributeKey)::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	5.669314245742865E-4
+349	org.jsoup.nodes.Node::::161::::5168::::5202::::java.lang.String relUrl = attr(attributeKey)::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	5.628146996785847E-4
+350	org.jsoup.nodes.Node::::76::::2346::::2400::::return absUrl(attributeKey.substring("abs:".length()))::::INSERT::::STATEMENT::::reindexChildren()	5.552080991244033E-4
+351	org.jsoup.nodes.Node::::76::::2346::::2400::::return absUrl(attributeKey.substring("abs:".length()))::::INSERT::::STATEMENT::::parentNode.removeChild(this)	5.552080991244033E-4
+352	org.jsoup.nodes.Attributes::::87::::2485::::2493::::return 0::::INSERT::::STATEMENT::::if ((attributes) == null)    attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2);	5.500128289965413E-4
+353	org.jsoup.nodes.Node::::175::::5825::::5846::::relUrl.startsWith("?")::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	5.484697698058057E-4
+354	org.jsoup.nodes.Attributes::::86::::2449::::2493::::if ((attributes) == null)    return 0;::::INSERT::::STATEMENT::::if ((attributes) == null)    return ;	5.457334514211128E-4
+355	org.jsoup.nodes.Attributes::::78::::2257::::2327::::return ((attributes) != null) && (attributes.containsKey(key.toLowerCase()))::::INSERT::::STATEMENT::::if ((attributes) == null)    attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2);	5.423542644325277E-4
+356	org.jsoup.nodes.Node::::419::::13582::::13605::::org.jsoup.helper.Validate.notNull(index)::::INSERT::::STATEMENT::::reindexChildren()	5.41485263311188E-4
+357	org.jsoup.nodes.Node::::418::::13542::::13572::::java.lang.Integer index = siblingIndex()::::INSERT::::STATEMENT::::reindexChildren()	5.41485263311188E-4
+358	org.jsoup.nodes.Node::::374::::12192::::12201::::childNodes::::parentNode.childNodes	5.393106442890743E-4
+359	org.jsoup.nodes.Node::::375::::12249::::12258::::childNodes::::parentNode.childNodes	5.367647246464824E-4
+360	org.jsoup.nodes.Node::::73::::2198::::2218::::hasAttr(attributeKey)::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	5.332393820792393E-4
+361	org.jsoup.nodes.Attributes::::55::::1591::::1618::::org.jsoup.helper.Validate.notNull(attribute)::::INSERT::::STATEMENT::::if ((attributes) == null)    return ;	5.290703497585311E-4
+362	org.jsoup.nodes.Node::::159::::5126::::5157::::org.jsoup.helper.Validate.notEmpty(attributeKey)::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	5.287047178798827E-4
+363	org.jsoup.nodes.Node::::191::::6278::::6306::::return childNodes.get(index)::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	5.286545113938419E-4
+364	org.jsoup.nodes.Node::::191::::6278::::6306::::return childNodes.get(index)::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	5.286545113938419E-4
+365	org.jsoup.nodes.Node::::200::::6599::::6646::::return java.util.Collections.unmodifiableList(childNodes)::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	5.237137066295171E-4
+366	org.jsoup.nodes.Node::::200::::6599::::6646::::return java.util.Collections.unmodifiableList(childNodes)::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	5.237137066295171E-4
+367	org.jsoup.nodes.Node::::419::::13582::::13605::::org.jsoup.helper.Validate.notNull(index)::::DELETE::::STATEMENT	5.205566917844365E-4
+368	org.jsoup.nodes.Node::::420::::13615::::13724::::if ((siblings.size()) > (index + 1))    return siblings.get((index + 1));else    return null;::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	5.1813091440288E-4
+369	org.jsoup.nodes.Node::::73::::2194::::2424::::if (hasAttr(attributeKey))    return attributes.get(attributeKey);else    if (attributeKey.toLowerCase().startsWith("abs:"))        return absUrl(attributeKey.substring("abs:".length()));    else        return "";::::INSERT::::STATEMENT::::reindexChildren()	5.156585960536143E-4
+370	org.jsoup.nodes.Node::::73::::2194::::2424::::if (hasAttr(attributeKey))    return attributes.get(attributeKey);else    if (attributeKey.toLowerCase().startsWith("abs:"))        return absUrl(attributeKey.substring("abs:".length()));    else        return "";::::INSERT::::STATEMENT::::parentNode.removeChild(this)	5.156585960536143E-4
+371	org.jsoup.nodes.Node::::75::::2283::::2424::::if (attributeKey.toLowerCase().startsWith("abs:"))    return absUrl(attributeKey.substring("abs:".length()));else    return "";::::INSERT::::STATEMENT::::reindexChildren()	5.138140314428413E-4
+372	org.jsoup.nodes.Attributes::::86::::2449::::2493::::if ((attributes) == null)    return 0;::::INSERT::::STATEMENT::::if ((attributes) == null)    return new org.jsoup.nodes.Attributes();	5.136314836904591E-4
+373	org.jsoup.nodes.Attributes::::58::::1727::::1772::::attributes.put(attribute.getKey(), attribute)::::INSERT::::STATEMENT::::if ((attributes) == null)    return ;	5.101749801242979E-4
+374	org.jsoup.nodes.Attributes::::58::::1727::::1772::::attributes.put(attribute.getKey(), attribute)::::INSERT::::STATEMENT::::if ((attributes) == null)    return "";	5.101749801242979E-4
+375	org.jsoup.nodes.Node::::71::::2153::::2183::::org.jsoup.helper.Validate.notNull(attributeKey)::::INSERT::::STATEMENT::::reindexChildren()	5.087158242585228E-4
+376	org.jsoup.nodes.Node::::372::::12117::::12279::::for (org.jsoup.nodes.Node child : children) {    reparentChild(child);    childNodes.add(child);    child.setSiblingIndex(((childNodes.size()) - 1));}::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	5.021011151867647E-4
+377	org.jsoup.nodes.Attributes::::33::::997::::1042::::if ((attributes) == null)    return "";::::INSERT::::STATEMENT::::if ((attributes) == null)    return new org.jsoup.nodes.Attributes();	4.922234722833387E-4
+378	org.jsoup.nodes.Node::::73::::2194::::2424::::if (hasAttr(attributeKey))    return attributes.get(attributeKey);else    if (attributeKey.toLowerCase().startsWith("abs:"))        return absUrl(attributeKey.substring("abs:".length()));    else        return "";::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	4.8342993380026347E-4
+379	org.jsoup.nodes.Attribute::::33::::837::::839::::key::::this.value	4.812293212049007E-4
+380	org.jsoup.nodes.Node::::417::::13489::::13532::::java.util.List<org.jsoup.nodes.Node> siblings = parentNode.childNodes::::INSERT::::STATEMENT::::reindexChildren()	4.799528470258258E-4
+381	org.jsoup.nodes.Attribute::::24::::657::::659::::key::::this.value	4.786473096996358E-4
+382	org.jsoup.nodes.Node::::75::::2287::::2331::::attributeKey.toLowerCase().startsWith("abs:")::::INSERT::::STATEMENT::::parentNode.removeChild(this)	4.778470492418425E-4
+383	org.jsoup.nodes.Attribute::::22::::599::::601::::key::::this.value	4.756459380950696E-4
+384	org.jsoup.nodes.Attributes::::33::::997::::1042::::if ((attributes) == null)    return "";::::INSERT::::STATEMENT::::if ((attributes) == null)    attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2);	4.732918002724411E-4
+385	org.jsoup.nodes.Attributes::::55::::1591::::1618::::org.jsoup.helper.Validate.notNull(attribute)::::INSERT::::STATEMENT::::if ((attributes) == null)    attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2);	4.723842408558314E-4
+386	org.jsoup.nodes.Node::::161::::5184::::5187::::attr::::absUrl	4.61794698231666E-4
+387	org.jsoup.nodes.Node::::392::::12739::::12764::::child.setParentNode(this)::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	4.570968373163436E-4
+388	org.jsoup.nodes.Node::::392::::12739::::12764::::child.setParentNode(this)::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	4.570968373163436E-4
+389	org.jsoup.nodes.Node::::392::::12739::::12764::::child.setParentNode(this)::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	4.570968373163436E-4
+390	org.jsoup.nodes.Attributes::::86::::2449::::2493::::if ((attributes) == null)    return 0;::::INSERT::::STATEMENT::::if ((attributes) == null)    return "";	4.5477787618426063E-4
+391	org.jsoup.nodes.Node::::417::::13489::::13532::::java.util.List<org.jsoup.nodes.Node> siblings = parentNode.childNodes::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	4.4644448261383865E-4
+392	org.jsoup.nodes.Attributes::::37::::1113::::1155::::return attr != null ? attr.getValue() : ""::::INSERT::::STATEMENT::::if ((attributes) == null)    return new org.jsoup.nodes.Attributes();	4.4545110613876805E-4
+393	org.jsoup.nodes.Attributes::::78::::2286::::2326::::attributes.containsKey(key.toLowerCase())::::DELETE::::INFIX	4.392291042959313E-4
+394	org.jsoup.nodes.Node::::175::::5825::::5846::::relUrl.startsWith("?")::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	4.387758158446445E-4
+395	org.jsoup.nodes.Node::::75::::2287::::2298::::attributeKey::::"?"	4.387636990499664E-4
+396	org.jsoup.nodes.Attributes::::31::::964::::986::::org.jsoup.helper.Validate.notEmpty(key)::::INSERT::::STATEMENT::::if ((attributes) == null)    return "";	4.3688473871302257E-4
+397	org.jsoup.nodes.Node::::175::::5825::::5830::::relUrl::::"\n"	4.3602034023909077E-4
+398	org.jsoup.nodes.Node::::191::::6285::::6294::::childNodes::::parentNode.childNodes	4.34646650194608E-4
+399	org.jsoup.nodes.Node::::418::::13558::::13569::::siblingIndex::::remove	4.2773446614850996E-4
+400	org.jsoup.nodes.Attributes::::58::::1727::::1772::::attributes.put(attribute.getKey(), attribute)::::INSERT::::STATEMENT::::if ((attributes) == null)    return new org.jsoup.nodes.Attributes();	4.251458167702482E-4
+401	org.jsoup.nodes.Attribute::::50::::1232::::1236::::value::::this.key	4.220976828125241E-4
+402	org.jsoup.nodes.Node::::344::::11209::::11283::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	4.207368616207254E-4
+403	org.jsoup.nodes.Node::::175::::5825::::5846::::relUrl.startsWith("?")::::INSERT::::STATEMENT::::reindexChildren()	4.2029049719932726E-4
+404	org.jsoup.nodes.Node::::372::::12117::::12279::::for (org.jsoup.nodes.Node child : children) {    reparentChild(child);    childNodes.add(child);    child.setSiblingIndex(((childNodes.size()) - 1));}::::INSERT::::STATEMENT::::reindexChildren()	4.184175959889706E-4
+405	org.jsoup.nodes.Node::::420::::13615::::13724::::if ((siblings.size()) > (index + 1))    return siblings.get((index + 1));else    return null;::::INSERT::::STATEMENT::::reindexChildren()	4.1450473152230394E-4
+406	org.jsoup.nodes.Attributes::::36::::1053::::1103::::org.jsoup.nodes.Attribute attr = attributes.get(key.toLowerCase())::::INSERT::::STATEMENT::::if ((attributes) == null)    return new org.jsoup.nodes.Attributes();	4.1413032523838594E-4
+407	org.jsoup.nodes.Node::::417::::13489::::13532::::java.util.List<org.jsoup.nodes.Node> siblings = parentNode.childNodes::::INSERT::::STATEMENT::::parentNode.removeChild(this)	4.0723271868857935E-4
+408	org.jsoup.nodes.Node::::73::::2198::::2218::::hasAttr(attributeKey)::::INSERT::::STATEMENT::::outerHtml(accum)	4.0561494832274986E-4
+409	org.jsoup.nodes.Element::::223::::7232::::7255::::org.jsoup.helper.Validate.notNull(child)::::DELETE::::STATEMENT	4.031920878551705E-4
+410	org.jsoup.nodes.Node::::390::::12652::::12729::::if ((child.parentNode) != null)    child.parentNode.removeChild(child);::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	3.947654504095695E-4
+411	org.jsoup.nodes.Node::::390::::12652::::12729::::if ((child.parentNode) != null)    child.parentNode.removeChild(child);::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	3.947654504095695E-4
+412	org.jsoup.nodes.Node::::420::::13615::::13724::::if ((siblings.size()) > (index + 1))    return siblings.get((index + 1));else    return null;::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	3.946250337390181E-4
+413	org.jsoup.nodes.Node::::419::::13582::::13605::::org.jsoup.helper.Validate.notNull(index)::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	3.938074642263185E-4
+414	org.jsoup.nodes.Node::::418::::13542::::13572::::java.lang.Integer index = siblingIndex()::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	3.938074642263185E-4
+415	org.jsoup.nodes.Node::::105::::3280::::3310::::org.jsoup.helper.Validate.notNull(attributeKey)::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	3.913276040770589E-4
+416	org.jsoup.nodes.Attributes::::37::::1113::::1155::::return attr != null ? attr.getValue() : ""::::INSERT::::STATEMENT::::if ((attributes) == null)    return 0;	3.8976971787142207E-4
+417	org.jsoup.nodes.Node::::175::::5825::::5846::::relUrl.startsWith("?")::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	3.83928838864064E-4
+418	org.jsoup.nodes.Node::::73::::2198::::2218::::hasAttr(attributeKey)::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	3.8228558641710173E-4
+419	org.jsoup.nodes.Node::::71::::2153::::2183::::org.jsoup.helper.Validate.notNull(attributeKey)::::INSERT::::STATEMENT::::outerHtml(accum)	3.815368681938921E-4
+420	org.jsoup.nodes.Attributes::::55::::1591::::1618::::org.jsoup.helper.Validate.notNull(attribute)::::INSERT::::STATEMENT::::if ((attributes) == null)    return "";	3.7790739268466514E-4
+421	org.jsoup.nodes.Attributes::::36::::1053::::1103::::org.jsoup.nodes.Attribute attr = attributes.get(key.toLowerCase())::::INSERT::::STATEMENT::::if ((attributes) == null)    attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2);	3.697592189628446E-4
+422	org.jsoup.nodes.Node::::417::::13489::::13532::::java.util.List<org.jsoup.nodes.Node> siblings = parentNode.childNodes::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	3.6923979765054327E-4
+423	org.jsoup.nodes.Node::::161::::5168::::5202::::java.lang.String relUrl = attr(attributeKey)::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	3.6803937937877516E-4
+424	org.jsoup.nodes.Node::::162::::5216::::5237::::!(hasAttr(attributeKey))::::INSERT::::STATEMENT::::parentNode.removeChild(this)	3.6249276674799134E-4
+425	org.jsoup.nodes.Node::::419::::13582::::13605::::org.jsoup.helper.Validate.notNull(index)::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	3.5977211053129853E-4
+426	org.jsoup.nodes.Node::::418::::13542::::13572::::java.lang.Integer index = siblingIndex()::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	3.5977211053129853E-4
+427	org.jsoup.nodes.Attribute::::23::::630::::634::::value::::this.key	3.565946238098641E-4
+428	org.jsoup.nodes.Node::::73::::2198::::2218::::hasAttr(attributeKey)::::INSERT::::STATEMENT::::reindexChildren()	3.549130797824061E-4
+429	org.jsoup.nodes.Node::::73::::2194::::2424::::if (hasAttr(attributeKey))    return attributes.get(attributeKey);else    if (attributeKey.toLowerCase().startsWith("abs:"))        return absUrl(attributeKey.substring("abs:".length()));    else        return "";::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	3.545587835948092E-4
+430	org.jsoup.nodes.Node::::390::::12652::::12729::::if ((child.parentNode) != null)    child.parentNode.removeChild(child);::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	3.5321119247172E-4
+431	org.jsoup.nodes.Node::::344::::11209::::11283::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	3.5321119247172E-4
+432	org.jsoup.nodes.Attributes::::37::::1113::::1155::::return attr != null ? attr.getValue() : ""::::INSERT::::STATEMENT::::if ((attributes) == null)    attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2);	3.480086766709126E-4
+433	org.jsoup.nodes.Attribute::::25::::704::::708::::value::::this.key	3.4749899068580305E-4
+434	org.jsoup.nodes.Node::::420::::13615::::13724::::if ((siblings.size()) > (index + 1))    return siblings.get((index + 1));else    return null;::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	3.467916963161068E-4
+435	org.jsoup.nodes.Attribute::::24::::657::::659::::key::::"=\""	3.460988239366597E-4
+436	org.jsoup.nodes.Node::::159::::5126::::5157::::org.jsoup.helper.Validate.notEmpty(attributeKey)::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	3.457339624467282E-4
+437	org.jsoup.nodes.Node::::414::::13415::::13462::::if ((parentNode) == null)    return null;::::INSERT::::STATEMENT::::reindexChildren()	3.4303839850121704E-4
+438	org.jsoup.nodes.Node::::76::::2360::::2371::::attributeKey::::"?"	3.3832704964252867E-4
+439	org.jsoup.nodes.Attributes::::56::::1628::::1717::::if ((attributes) == null)    attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2);::::INSERT::::STATEMENT::::if ((attributes) == null)    return ;	3.3503338821568474E-4
+440	org.jsoup.nodes.Node::::372::::12117::::12279::::for (org.jsoup.nodes.Node child : children) {    reparentChild(child);    childNodes.add(child);    child.setSiblingIndex(((childNodes.size()) - 1));}::::INSERT::::STATEMENT::::parentNode.removeChild(this)	3.3473407679117644E-4
+441	org.jsoup.nodes.Node::::372::::12117::::12279::::for (org.jsoup.nodes.Node child : children) {    reparentChild(child);    childNodes.add(child);    child.setSiblingIndex(((childNodes.size()) - 1));}::::INSERT::::STATEMENT::::child.setParentNode(this)	3.3473407679117644E-4
+442	org.jsoup.nodes.Node::::73::::2194::::2424::::if (hasAttr(attributeKey))    return attributes.get(attributeKey);else    if (attributeKey.toLowerCase().startsWith("abs:"))        return absUrl(attributeKey.substring("abs:".length()));    else        return "";::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	3.347233271699247E-4
+443	org.jsoup.nodes.Node::::105::::3280::::3310::::org.jsoup.helper.Validate.notNull(attributeKey)::::DELETE::::STATEMENT	3.3306738123336664E-4
+444	org.jsoup.nodes.Node::::390::::12652::::12729::::if ((child.parentNode) != null)    child.parentNode.removeChild(child);::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	3.3243406350279536E-4
+445	org.jsoup.nodes.Attributes::::33::::997::::1042::::if ((attributes) == null)    return "";::::INSERT::::STATEMENT::::if ((attributes) == null)    return 0;	3.307783804126282E-4
+446	org.jsoup.nodes.Node::::107::::3321::::3359::::return attributes.hasKey(attributeKey)::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	3.299428818688928E-4
+447	org.jsoup.nodes.Node::::161::::5168::::5202::::java.lang.String relUrl = attr(attributeKey)::::INSERT::::STATEMENT::::parentNode.removeChild(this)	3.283085748125078E-4
+448	org.jsoup.nodes.Node::::418::::13542::::13572::::java.lang.Integer index = siblingIndex()::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	3.2663520561394214E-4
+449	org.jsoup.nodes.Node::::74::::2233::::2268::::return attributes.get(attributeKey)::::INSERT::::STATEMENT::::reindexChildren()	3.2620522634432846E-4
+450	org.jsoup.nodes.Attribute::::24::::657::::659::::key::::"\""	3.1664360487822056E-4
+451	org.jsoup.nodes.Node::::420::::13619::::13633::::siblings.size()::::DELETE::::INFIX	3.15644081567328E-4
+452	org.jsoup.nodes.Node::::175::::5825::::5846::::relUrl.startsWith("?")::::INSERT::::STATEMENT::::attributes.remove(attributeKey)	3.1521787289949543E-4
+453	org.jsoup.nodes.Node::::75::::2287::::2298::::attributeKey::::""	3.108649689625268E-4
+454	org.jsoup.nodes.Attributes::::36::::1053::::1103::::org.jsoup.nodes.Attribute attr = attributes.get(key.toLowerCase())::::INSERT::::STATEMENT::::if ((attributes) == null)    return 0;	3.1059774392878947E-4
+455	org.jsoup.nodes.Node::::159::::5126::::5157::::org.jsoup.helper.Validate.notEmpty(attributeKey)::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	3.0844892728090463E-4
+456	org.jsoup.nodes.Node::::159::::5126::::5157::::org.jsoup.helper.Validate.notEmpty(attributeKey)::::INSERT::::STATEMENT::::parentNode.removeChild(this)	3.0841108542993155E-4
+457	org.jsoup.nodes.Node::::161::::5168::::5202::::java.lang.String relUrl = attr(attributeKey)::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	3.048953682108481E-4
+458	org.jsoup.nodes.Node::::414::::13415::::13462::::if ((parentNode) == null)    return null;::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	3.0349427882123023E-4
+459	org.jsoup.nodes.Attributes::::86::::2449::::2493::::if ((attributes) == null)    return 0;::::INSERT::::STATEMENT::::if ((attributes) == null)    attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2);	2.996183654861011E-4
+460	org.jsoup.nodes.Node::::419::::13582::::13605::::org.jsoup.helper.Validate.notNull(index)::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	2.98232144256208E-4
+461	org.jsoup.nodes.Node::::74::::2240::::2249::::attributes::::this.attributes	2.974688354218631E-4
+462	org.jsoup.nodes.Node::::418::::13558::::13569::::siblingIndex::::childNodes	2.9466152112452915E-4
+463	org.jsoup.nodes.Node::::344::::11209::::11283::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	2.9087980556494593E-4
+464	org.jsoup.nodes.Node::::71::::2153::::2183::::org.jsoup.helper.Validate.notNull(attributeKey)::::INSERT::::STATEMENT::::attributes.remove(attributeKey)	2.8615265114541907E-4
+465	org.jsoup.nodes.Node::::417::::13489::::13532::::java.util.List<org.jsoup.nodes.Node> siblings = parentNode.childNodes::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	2.8532166182087436E-4
+466	org.jsoup.nodes.Attributes::::58::::1727::::1772::::attributes.put(attribute.getKey(), attribute)::::INSERT::::STATEMENT::::if ((attributes) == null)    return 0;	2.8343054451349884E-4
+467	org.jsoup.nodes.Node::::162::::5212::::6094::::if (!(hasAttr(attributeKey))) {    return "";}else {    java.net.URL base;    try {        try {            base = new java.net.URL(baseUri);        } catch (java.net.MalformedURLException e) {            java.net.URL abs = new java.net.URL(relUrl);            return abs.toExternalForm();        }        if (relUrl.startsWith("?"))            relUrl = (base.getPath()) + relUrl;        java.net.URL abs = new java.net.URL(base, relUrl);        return abs.toExternalForm();    } catch (java.net.MalformedURLException e) {        return "";    }}::::INSERT::::STATEMENT::::attributes.remove(attributeKey)	2.7895321597441486E-4
+468	org.jsoup.nodes.Attribute::::24::::657::::659::::key::::this.key	2.7722559113825063E-4
+469	org.jsoup.nodes.Node::::48::::1289::::1298::::childNodes::::parentNode.childNodes	2.769098833637253E-4
+470	org.jsoup.nodes.Node::::420::::13615::::13724::::if ((siblings.size()) > (index + 1))    return siblings.get((index + 1));else    return null;::::INSERT::::STATEMENT::::parentNode.removeChild(this)	2.76336487681536E-4
+471	org.jsoup.nodes.Node::::420::::13615::::13724::::if ((siblings.size()) > (index + 1))    return siblings.get((index + 1));else    return null;::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	2.7504169018173995E-4
+472	org.jsoup.nodes.Node::::105::::3280::::3310::::org.jsoup.helper.Validate.notNull(attributeKey)::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	2.725966282270535E-4
+473	org.jsoup.nodes.Node::::73::::2194::::2424::::if (hasAttr(attributeKey))    return attributes.get(attributeKey);else    if (attributeKey.toLowerCase().startsWith("abs:"))        return absUrl(attributeKey.substring("abs:".length()));    else        return "";::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	2.677786617359398E-4
+474	org.jsoup.nodes.Node::::414::::13415::::13462::::if ((parentNode) == null)    return null;::::INSERT::::STATEMENT::::parentNode.removeChild(this)	2.6442543217802155E-4
+475	org.jsoup.nodes.Node::::75::::2283::::2424::::if (attributeKey.toLowerCase().startsWith("abs:"))    return absUrl(attributeKey.substring("abs:".length()));else    return "";::::INSERT::::STATEMENT::::parentNode.removeChild(this)	2.5690701572142065E-4
+476	org.jsoup.nodes.Node::::107::::3328::::3337::::attributes::::this.attributes	2.5616220854676156E-4
+477	org.jsoup.nodes.Node::::421::::13665::::13672::::siblings::::this.attributes	2.54911994433844E-4
+478	org.jsoup.nodes.Node::::420::::13619::::13626::::siblings::::this.attributes	2.5397670364590846E-4
+479	org.jsoup.nodes.TextNode::::28::::833::::849::::this.text = text::::text = org.jsoup.helper.StringUtil.normaliseWhitespace(text)	2.5163115955064965E-4
+480	org.jsoup.nodes.Node::::35::::941::::950::::childNodes::::parentNode.childNodes	2.4938061966115583E-4
+481	org.jsoup.nodes.Node::::200::::6635::::6644::::childNodes::::parentNode.childNodes	2.4362014529549572E-4
+482	org.jsoup.nodes.Node::::105::::3280::::3310::::org.jsoup.helper.Validate.notNull(attributeKey)::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	2.4230811397960307E-4
+483	org.jsoup.nodes.Node::::36::::1001::::1007::::baseUri::::accum.toString()	2.3508031392294944E-4
+484	org.jsoup.nodes.Node::::392::::12739::::12764::::child.setParentNode(this)::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	2.285484186581718E-4
+485	org.jsoup.nodes.Attributes::::31::::964::::986::::org.jsoup.helper.Validate.notEmpty(key)::::INSERT::::STATEMENT::::if ((attributes) == null)    attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2);	2.2684399894714629E-4
+486	org.jsoup.nodes.Node::::76::::2360::::2371::::attributeKey::::""	2.259223390705043E-4
+487	org.jsoup.nodes.Node::::162::::5212::::6094::::if (!(hasAttr(attributeKey))) {    return "";}else {    java.net.URL base;    try {        try {            base = new java.net.URL(baseUri);        } catch (java.net.MalformedURLException e) {            java.net.URL abs = new java.net.URL(relUrl);            return abs.toExternalForm();        }        if (relUrl.startsWith("?"))            relUrl = (base.getPath()) + relUrl;        java.net.URL abs = new java.net.URL(base, relUrl);        return abs.toExternalForm();    } catch (java.net.MalformedURLException e) {        return "";    }}::::INSERT::::STATEMENT::::reindexChildren()	2.1978132167681168E-4
+488	org.jsoup.nodes.Attributes::::31::::964::::986::::org.jsoup.helper.Validate.notEmpty(key)::::INSERT::::STATEMENT::::if ((attributes) == null)    return new org.jsoup.nodes.Attributes();	2.1844236935651128E-4
+489	org.jsoup.nodes.Node::::419::::13582::::13605::::org.jsoup.helper.Validate.notNull(index)::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	2.1302296018300574E-4
+490	org.jsoup.nodes.Node::::418::::13542::::13572::::java.lang.Integer index = siblingIndex()::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	2.1302296018300574E-4
+491	org.jsoup.nodes.Attributes::::57::::1665::::1717::::attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2)::::INSERT::::STATEMENT::::if ((attributes) == null)    return new org.jsoup.nodes.Attributes();	2.1261057857976966E-4
+492	org.jsoup.nodes.Node::::161::::5168::::5202::::java.lang.String relUrl = attr(attributeKey)::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	2.110814087613564E-4
+493	org.jsoup.nodes.Node::::414::::13415::::13462::::if ((parentNode) == null)    return null;::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	2.0367904911009765E-4
+494	org.jsoup.nodes.Node::::162::::5212::::6094::::if (!(hasAttr(attributeKey))) {    return "";}else {    java.net.URL base;    try {        try {            base = new java.net.URL(baseUri);        } catch (java.net.MalformedURLException e) {            java.net.URL abs = new java.net.URL(relUrl);            return abs.toExternalForm();        }        if (relUrl.startsWith("?"))            relUrl = (base.getPath()) + relUrl;        java.net.URL abs = new java.net.URL(base, relUrl);        return abs.toExternalForm();    } catch (java.net.MalformedURLException e) {        return "";    }}::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	2.0287506616321077E-4
+495	org.jsoup.nodes.Attributes::::31::::964::::986::::org.jsoup.helper.Validate.notEmpty(key)::::INSERT::::STATEMENT::::if ((attributes) == null)    return 0;	2.016391101752412E-4
+496	org.jsoup.nodes.Attributes::::36::::1085::::1087::::key::::" "	2.001815750973871E-4
+497	org.jsoup.nodes.Node::::159::::5126::::5157::::org.jsoup.helper.Validate.notEmpty(attributeKey)::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	1.9828859610915295E-4
+498	org.jsoup.nodes.Attributes::::56::::1628::::1717::::if ((attributes) == null)    attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2);::::INSERT::::STATEMENT::::if ((attributes) == null)    return new org.jsoup.nodes.Attributes();	1.9408830765598289E-4
+499	org.jsoup.nodes.Node::::71::::2153::::2183::::org.jsoup.helper.Validate.notNull(attributeKey)::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	1.9076843409694604E-4
+500	org.jsoup.nodes.Node::::73::::2198::::2218::::hasAttr(attributeKey)::::INSERT::::STATEMENT::::attributes.remove(attributeKey)	1.90132007026289E-4
+501	org.jsoup.nodes.Attributes::::78::::2309::::2311::::key::::" "	1.8949264360929564E-4
+502	org.jsoup.nodes.Node::::71::::2153::::2183::::org.jsoup.helper.Validate.notNull(attributeKey)::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	1.87122767396259E-4
+503	org.jsoup.nodes.Node::::421::::13658::::13686::::return siblings.get((index + 1))::::INSERT::::STATEMENT::::reindexChildren()	1.8435255313634498E-4
+504	org.jsoup.nodes.Node::::421::::13658::::13686::::return siblings.get((index + 1))::::INSERT::::STATEMENT::::parentNode.removeChild(this)	1.8435255313634498E-4
+505	org.jsoup.nodes.Node::::77::::2415::::2424::::return ""::::INSERT::::STATEMENT::::outerHtml(accum)	1.7824820193721464E-4
+506	org.jsoup.nodes.Node::::191::::6278::::6306::::return childNodes.get(index)::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	1.7621817046461395E-4
+507	org.jsoup.nodes.Node::::200::::6599::::6646::::return java.util.Collections.unmodifiableList(childNodes)::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	1.745712355431724E-4
+508	org.jsoup.nodes.Attributes::::56::::1628::::1717::::if ((attributes) == null)    attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2);::::INSERT::::STATEMENT::::if ((attributes) == null)    return "";	1.73293131835699E-4
+509	org.jsoup.nodes.Node::::73::::2198::::2218::::hasAttr(attributeKey)::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	1.7251862361387154E-4
+510	org.jsoup.nodes.Node::::419::::13582::::13605::::org.jsoup.helper.Validate.notNull(index)::::INSERT::::STATEMENT::::parentNode.removeChild(this)	1.7229076559901433E-4
+511	org.jsoup.nodes.Node::::418::::13542::::13572::::java.lang.Integer index = siblingIndex()::::INSERT::::STATEMENT::::parentNode.removeChild(this)	1.7229076559901433E-4
+512	org.jsoup.nodes.Node::::451::::14509::::14541::::this.siblingIndex = siblingIndex::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	1.7141131399362884E-4
+513	org.jsoup.nodes.Node::::346::::11293::::11321::::this.parentNode = parentNode::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	1.7141131399362884E-4
+514	org.jsoup.nodes.Node::::372::::12117::::12279::::for (org.jsoup.nodes.Node child : children) {    reparentChild(child);    childNodes.add(child);    child.setSiblingIndex(((childNodes.size()) - 1));}::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	1.6899707013456365E-4
+515	org.jsoup.nodes.Node::::414::::13415::::13462::::if ((parentNode) == null)    return null;::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	1.6844757187292462E-4
+516	org.jsoup.nodes.Node::::36::::1001::::1007::::baseUri::::"\n"	1.6725386269272142E-4
+517	org.jsoup.nodes.Node::::77::::2415::::2424::::return ""::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	1.654115178779414E-4
+518	org.jsoup.nodes.Node::::162::::5212::::6094::::if (!(hasAttr(attributeKey))) {    return "";}else {    java.net.URL base;    try {        try {            base = new java.net.URL(baseUri);        } catch (java.net.MalformedURLException e) {            java.net.URL abs = new java.net.URL(relUrl);            return abs.toExternalForm();        }        if (relUrl.startsWith("?"))            relUrl = (base.getPath()) + relUrl;        java.net.URL abs = new java.net.URL(base, relUrl);        return abs.toExternalForm();    } catch (java.net.MalformedURLException e) {        return "";    }}::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	1.6485621653260972E-4
+519	org.jsoup.nodes.Node::::415::::13451::::13462::::return null::::INSERT::::STATEMENT::::outerHtml(accum)	1.640933504126911E-4
+520	org.jsoup.nodes.TextNode::::28::::845::::848::::text::::this.baseUri	1.6113937608576282E-4
+521	org.jsoup.nodes.Node::::372::::12117::::12279::::for (org.jsoup.nodes.Node child : children) {    reparentChild(child);    childNodes.add(child);    child.setSiblingIndex(((childNodes.size()) - 1));}::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	1.6094959060434632E-4
+522	org.jsoup.nodes.Node::::36::::1001::::1007::::baseUri::::""	1.587755562889429E-4
+523	org.jsoup.nodes.Node::::417::::13489::::13532::::java.util.List<org.jsoup.nodes.Node> siblings = parentNode.childNodes::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	1.5664718688204865E-4
+524	org.jsoup.nodes.Node::::372::::12117::::12279::::for (org.jsoup.nodes.Node child : children) {    reparentChild(child);    childNodes.add(child);    child.setSiblingIndex(((childNodes.size()) - 1));}::::INSERT::::STATEMENT::::if ((child.parentNode) != null)    child.parentNode.removeChild(child);	1.5451160698017248E-4
+525	org.jsoup.nodes.Attributes::::56::::1628::::1717::::if ((attributes) == null)    attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2);::::INSERT::::STATEMENT::::put(attr)	1.544594968651753E-4
+526	org.jsoup.nodes.Attributes::::57::::1665::::1717::::attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2)::::INSERT::::STATEMENT::::if ((attributes) == null)    return ;	1.5355208452983365E-4
+527	org.jsoup.nodes.Attributes::::55::::1591::::1618::::org.jsoup.helper.Validate.notNull(attribute)::::INSERT::::STATEMENT::::if ((attributes) == null)    return 0;	1.5116295707386603E-4
+528	org.jsoup.nodes.Node::::162::::5212::::6094::::if (!(hasAttr(attributeKey))) {    return "";}else {    java.net.URL base;    try {        try {            base = new java.net.URL(baseUri);        } catch (java.net.MalformedURLException e) {            java.net.URL abs = new java.net.URL(relUrl);            return abs.toExternalForm();        }        if (relUrl.startsWith("?"))            relUrl = (base.getPath()) + relUrl;        java.net.URL abs = new java.net.URL(base, relUrl);        return abs.toExternalForm();    } catch (java.net.MalformedURLException e) {        return "";    }}::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	1.4924852739342772E-4
+529	org.jsoup.nodes.Node::::36::::1001::::1007::::baseUri::::"#text"	1.449019639918508E-4
+530	org.jsoup.nodes.Node::::423::::13713::::13724::::return null::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	1.43525442006864E-4
+531	org.jsoup.nodes.Node::::191::::6285::::6294::::childNodes::::this.attributes	1.4215886679297328E-4
+532	org.jsoup.nodes.Attributes::::86::::2449::::2493::::if ((attributes) == null)    return 0;::::INSERT::::STATEMENT::::put(attr)	1.3909146039597423E-4
+533	org.jsoup.nodes.Node::::161::::5168::::5202::::java.lang.String relUrl = attr(attributeKey)::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	1.3891682456943966E-4
+534	org.jsoup.nodes.Node::::168::::5397::::5420::::base = new java.net.URL(baseUri)::::this.baseUri = baseUri	1.3560133706813223E-4
+535	org.jsoup.nodes.Node::::71::::2153::::2183::::org.jsoup.helper.Validate.notNull(attributeKey)::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	1.320866593385358E-4
+536	org.jsoup.nodes.Attributes::::36::::1070::::1079::::attributes::::this	1.3172722055826162E-4
+537	org.jsoup.nodes.Node::::175::::5825::::5846::::relUrl.startsWith("?")::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	1.3134078037478974E-4
+538	org.jsoup.nodes.Node::::159::::5126::::5157::::org.jsoup.helper.Validate.notEmpty(attributeKey)::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	1.304976230803827E-4
+539	org.jsoup.nodes.Node::::71::::2153::::2183::::org.jsoup.helper.Validate.notNull(attributeKey)::::INSERT::::STATEMENT::::parentNode.removeChild(this)	1.271789560646307E-4
+540	org.jsoup.nodes.Node::::372::::12117::::12279::::for (org.jsoup.nodes.Node child : children) {    reparentChild(child);    childNodes.add(child);    child.setSiblingIndex(((childNodes.size()) - 1));}::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	1.223216888593032E-4
+541	org.jsoup.nodes.Node::::162::::5212::::6094::::if (!(hasAttr(attributeKey))) {    return "";}else {    java.net.URL base;    try {        try {            base = new java.net.URL(baseUri);        } catch (java.net.MalformedURLException e) {            java.net.URL abs = new java.net.URL(relUrl);            return abs.toExternalForm();        }        if (relUrl.startsWith("?"))            relUrl = (base.getPath()) + relUrl;        java.net.URL abs = new java.net.URL(base, relUrl);        return abs.toExternalForm();    } catch (java.net.MalformedURLException e) {        return "";    }}::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	1.183583093054634E-4
+542	org.jsoup.nodes.Node::::162::::5212::::6094::::if (!(hasAttr(attributeKey))) {    return "";}else {    java.net.URL base;    try {        try {            base = new java.net.URL(baseUri);        } catch (java.net.MalformedURLException e) {            java.net.URL abs = new java.net.URL(relUrl);            return abs.toExternalForm();        }        if (relUrl.startsWith("?"))            relUrl = (base.getPath()) + relUrl;        java.net.URL abs = new java.net.URL(base, relUrl);        return abs.toExternalForm();    } catch (java.net.MalformedURLException e) {        return "";    }}::::INSERT::::STATEMENT::::parentNode.removeChild(this)	1.183437885952063E-4
+543	org.jsoup.nodes.Node::::75::::2287::::2298::::attributeKey::::"#text"	1.1812868820576017E-4
+544	org.jsoup.nodes.Node::::105::::3280::::3310::::org.jsoup.helper.Validate.notNull(attributeKey)::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	1.1812520556505648E-4
+545	org.jsoup.nodes.Attributes::::57::::1665::::1717::::attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2)::::INSERT::::STATEMENT::::if ((attributes) == null)    return "";	1.1811698809987204E-4
+546	org.jsoup.nodes.Node::::346::::11293::::11321::::this.parentNode = parentNode::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	1.142742093290859E-4
+547	org.jsoup.nodes.Node::::346::::11293::::11321::::this.parentNode = parentNode::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	1.142742093290859E-4
+548	org.jsoup.nodes.Node::::415::::13451::::13462::::return null::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	1.1420702931550829E-4
+549	org.jsoup.nodes.Node::::420::::13615::::13724::::if ((siblings.size()) > (index + 1))    return siblings.get((index + 1));else    return null;::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	1.1161112065345966E-4
+550	org.jsoup.nodes.Node::::175::::5825::::5846::::relUrl.startsWith("?")::::INSERT::::STATEMENT::::parentNode.removeChild(this)	1.0507262429983181E-4
+551	org.jsoup.nodes.Node::::419::::13582::::13605::::org.jsoup.helper.Validate.notNull(index)::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	1.0414455831169168E-4
+552	org.jsoup.nodes.Node::::418::::13542::::13572::::java.lang.Integer index = siblingIndex()::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	1.0414455831169168E-4
+553	org.jsoup.nodes.Node::::423::::13713::::13724::::return null::::INSERT::::STATEMENT::::outerHtml(accum)	1.0310911153859519E-4
+554	org.jsoup.nodes.Node::::74::::2240::::2249::::attributes::::new org.jsoup.nodes.Attributes()	1.0140983025745331E-4
+555	org.jsoup.nodes.Attribute::::50::::1232::::1236::::value::::(key) + "=\""	1.0130344387500579E-4
+556	org.jsoup.nodes.Node::::75::::2287::::2298::::attributeKey::::this.baseUri	1.01253161319223E-4
+557	org.jsoup.nodes.Node::::71::::2153::::2183::::org.jsoup.helper.Validate.notNull(attributeKey)::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	9.784196988039686E-5
+558	org.jsoup.nodes.Node::::159::::5144::::5155::::attributeKey::::this.baseUri	9.758014897308225E-5
+559	org.jsoup.nodes.Node::::73::::2194::::2424::::if (hasAttr(attributeKey))    return attributes.get(attributeKey);else    if (attributeKey.toLowerCase().startsWith("abs:"))        return absUrl(attributeKey.substring("abs:".length()));    else        return "";::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	9.66978500713116E-5
+560	org.jsoup.nodes.Node::::372::::12117::::12279::::for (org.jsoup.nodes.Node child : children) {    reparentChild(child);    childNodes.add(child);    child.setSiblingIndex(((childNodes.size()) - 1));}::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	9.65697543626078E-5
+561	org.jsoup.nodes.Attributes::::57::::1665::::1717::::attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2)::::INSERT::::STATEMENT::::if ((attributes) == null)    return 0;	9.449359047989763E-5
+562	org.jsoup.nodes.Attributes::::55::::1591::::1618::::org.jsoup.helper.Validate.notNull(attribute)::::INSERT::::STATEMENT::::if ((attributes) == null)    return new org.jsoup.nodes.Attributes();	9.447684817116626E-5
+563	org.jsoup.nodes.Node::::76::::2360::::2371::::attributeKey::::"#text"	8.958989307968274E-5
+564	org.jsoup.nodes.Node::::77::::2415::::2424::::return ""::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	8.912410096860732E-5
+565	org.jsoup.nodes.Attributes::::36::::1070::::1079::::attributes::::new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(attributes.size())	8.703347260513589E-5
+566	org.jsoup.nodes.Node::::418::::13558::::13569::::siblingIndex::::nodeName	8.5546893229702E-5
+567	org.jsoup.nodes.Node::::73::::2198::::2218::::hasAttr(attributeKey)::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	8.450311423390623E-5
+568	org.jsoup.nodes.Attributes::::58::::1727::::1736::::attributes::::this	8.20019534074097E-5
+569	org.jsoup.nodes.Attribute::::23::::630::::634::::value::::(key) + "=\""	8.15073425851118E-5
+570	org.jsoup.nodes.Node::::161::::5189::::5200::::attributeKey::::this.baseUri	8.057865640069038E-5
+571	org.jsoup.nodes.Node::::162::::5225::::5236::::attributeKey::::this.baseUri	8.057439771159358E-5
+572	org.jsoup.nodes.Attributes::::78::::2286::::2295::::attributes::::new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(attributes.size())	7.881095666878484E-5
+573	org.jsoup.nodes.Node::::76::::2360::::2371::::attributeKey::::this.baseUri	7.846071381512588E-5
+574	org.jsoup.nodes.Attribute::::25::::704::::708::::value::::(key) + "=\""	7.758117001357462E-5
+575	org.jsoup.nodes.Attributes::::58::::1727::::1736::::attributes::::new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(attributes.size())	7.696573404671085E-5
+576	org.jsoup.nodes.Node::::375::::12249::::12258::::childNodes::::this.attributes	7.668067494949747E-5
+577	org.jsoup.nodes.Element::::67::::1863::::1865::::tag::::this.tag	7.634154945837541E-5
+578	org.jsoup.nodes.Node::::73::::2198::::2218::::hasAttr(attributeKey)::::INSERT::::STATEMENT::::parentNode.removeChild(this)	7.60528028105156E-5
+579	org.jsoup.nodes.Attributes::::78::::2309::::2311::::key::::(org.jsoup.nodes.Attributes.dataPrefix) + key	7.579705744371826E-5
+580	org.jsoup.nodes.Node::::75::::2287::::2298::::attributeKey::::accum.toString()	7.549577817661364E-5
+581	org.jsoup.nodes.Node::::191::::6285::::6294::::childNodes::::new org.jsoup.nodes.Attributes()	7.189643837805546E-5
+582	org.jsoup.nodes.Attribute::::24::::657::::659::::key::::""	6.930639778456266E-5
+583	org.jsoup.nodes.Node::::74::::2255::::2266::::attributeKey::::this.baseUri	6.907778420300447E-5
+584	org.jsoup.nodes.Node::::73::::2206::::2217::::attributeKey::::this.baseUri	6.83353859187075E-5
+585	org.jsoup.nodes.Node::::71::::2170::::2181::::attributeKey::::this.baseUri	6.812183783771156E-5
+586	org.jsoup.nodes.Node::::105::::3297::::3308::::attributeKey::::this.baseUri	6.787376139475355E-5
+587	org.jsoup.nodes.Node::::107::::3346::::3357::::attributeKey::::this.baseUri	6.786086989211448E-5
+588	org.jsoup.nodes.Element::::58::::1678::::1680::::tag::::this.tag	6.751361984324161E-5
+589	org.jsoup.nodes.Attributes::::31::::982::::984::::key::::(org.jsoup.nodes.Attributes.dataPrefix) + key	6.458621228632275E-5
+590	org.jsoup.nodes.Node::::75::::2287::::2298::::attributeKey::::"\n"	6.39493650437198E-5
+591	org.jsoup.nodes.Node::::414::::13415::::13462::::if ((parentNode) == null)    return null;::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	6.350287899248567E-5
+592	org.jsoup.nodes.Attribute::::24::::657::::659::::key::::(key) + "=\""	6.23757580061064E-5
+593	org.jsoup.nodes.Node::::162::::5212::::6094::::if (!(hasAttr(attributeKey))) {    return "";}else {    java.net.URL base;    try {        try {            base = new java.net.URL(baseUri);        } catch (java.net.MalformedURLException e) {            java.net.URL abs = new java.net.URL(relUrl);            return abs.toExternalForm();        }        if (relUrl.startsWith("?"))            relUrl = (base.getPath()) + relUrl;        java.net.URL abs = new java.net.URL(base, relUrl);        return abs.toExternalForm();    } catch (java.net.MalformedURLException e) {        return "";    }}::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	6.0804955604729816E-5
+594	org.jsoup.nodes.Attributes::::36::::1085::::1087::::key::::(org.jsoup.nodes.Attributes.dataPrefix) + key	5.887693385217268E-5
+595	org.jsoup.nodes.Node::::76::::2360::::2371::::attributeKey::::accum.toString()	5.842819113892353E-5
+596	org.jsoup.nodes.Node::::107::::3328::::3337::::attributes::::new org.jsoup.nodes.Attributes()	5.8083291472812214E-5
+597	org.jsoup.nodes.Node::::191::::6285::::6294::::childNodes::::childNodes()	5.719034870981684E-5
+598	org.jsoup.nodes.Attributes::::56::::1628::::1717::::if ((attributes) == null)    attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2);::::INSERT::::STATEMENT::::if ((attributes) == null)    return 0;	5.660908973299501E-5
+599	org.jsoup.nodes.Node::::375::::12249::::12258::::childNodes::::childNodes()	5.417656382301453E-5
+600	org.jsoup.nodes.Node::::374::::12192::::12201::::childNodes::::childNodes()	5.343400392725853E-5
+601	org.jsoup.nodes.Attributes::::78::::2286::::2295::::attributes::::new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2)	4.992130979606313E-5
+602	org.jsoup.nodes.Node::::76::::2360::::2371::::attributeKey::::"\n"	4.89683887640502E-5
+603	org.jsoup.nodes.Node::::418::::13558::::13569::::siblingIndex::::ownerDocument	4.752605179427889E-5
+604	org.jsoup.nodes.Node::::71::::2153::::2183::::org.jsoup.helper.Validate.notNull(attributeKey)::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	3.179864021112898E-5
+605	org.jsoup.nodes.Node::::191::::6300::::6304::::index::::this.siblingIndex	2.8907970547851908E-5
+606	org.jsoup.nodes.Attributes::::58::::1727::::1736::::attributes::::new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2)	2.698798466572978E-5
+607	org.jsoup.nodes.Node::::392::::12739::::12743::::child::::(org.jsoup.nodes.Document) (this)	2.6702552530441792E-5
+608	org.jsoup.nodes.Attributes::::36::::1070::::1079::::attributes::::new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2)	2.6482762137550733E-5
+609	org.jsoup.nodes.Node::::375::::12249::::12258::::childNodes::::new org.jsoup.nodes.Attributes()	2.222628259405724E-5
+610	org.jsoup.nodes.Node::::418::::13558::::13569::::siblingIndex::::getOutputSettings	2.13867233074255E-5
+611	org.jsoup.nodes.Node::::423::::13713::::13724::::return null::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	2.0621822307719043E-5
+612	org.jsoup.nodes.Node::::375::::12249::::12265::::childNodes.size()::::DELETE::::INFIX	1.7070354306193316E-5
+613	org.jsoup.nodes.Node::::415::::13451::::13462::::return null::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	1.640933504126911E-5
+614	org.jsoup.nodes.Node::::375::::12227::::12231::::child::::(org.jsoup.nodes.Document) (this)	1.2715501204972281E-5
+615	org.jsoup.nodes.Attributes::::36::::1070::::1079::::attributes::::new org.jsoup.nodes.Attributes()	1.0462325782736093E-6
+616	org.jsoup.nodes.Attributes::::58::::1727::::1736::::attributes::::new org.jsoup.nodes.Attributes()	9.226661424181118E-7
+617	org.jsoup.nodes.TextNode::::28::::845::::848::::text::::this.text	0.0
+618	org.jsoup.nodes.TextNode::::28::::845::::848::::text::::org.jsoup.nodes.TextNode.normaliseWhitespace(getWholeText())	0.0
+619	org.jsoup.nodes.TextNode::::28::::845::::848::::text::::org.jsoup.helper.StringUtil.normaliseWhitespace(text)	0.0
+620	org.jsoup.nodes.TextNode::::28::::845::::848::::text::::getWholeText()	0.0
+621	org.jsoup.nodes.TextNode::::28::::845::::848::::text::::"text"	0.0
+622	org.jsoup.nodes.TextNode::::28::::845::::848::::text::::"^\\s+"	0.0
+623	org.jsoup.nodes.TextNode::::28::::845::::848::::text::::"Split offset must not be greater than current text length"	0.0
+624	org.jsoup.nodes.TextNode::::28::::845::::848::::text::::"Split offset must be not be negative"	0.0
+625	org.jsoup.nodes.TextNode::::28::::845::::848::::text::::"#text"	0.0
+626	org.jsoup.nodes.TextNode::::28::::845::::848::::text::::""	0.0
+627	org.jsoup.nodes.TextNode::::28::::833::::849::::this.text = text::::this.baseUri = baseUri	0.0
+628	org.jsoup.nodes.TextNode::::28::::833::::841::::this.text::::text	0.0
+629	org.jsoup.nodes.TextNode::::28::::833::::841::::this.text::::org.jsoup.nodes.TextNode.normaliseWhitespace(getWholeText())	0.0
+630	org.jsoup.nodes.TextNode::::28::::833::::841::::this.text::::org.jsoup.helper.StringUtil.normaliseWhitespace(text)	0.0
+631	org.jsoup.nodes.TextNode::::28::::833::::841::::this.text::::getWholeText()	0.0
+632	org.jsoup.nodes.TextNode::::28::::833::::841::::this.text::::"text"	0.0
+633	org.jsoup.nodes.TextNode::::28::::833::::841::::this.text::::"^\\s+"	0.0
+634	org.jsoup.nodes.TextNode::::28::::833::::841::::this.text::::"Split offset must not be greater than current text length"	0.0
+635	org.jsoup.nodes.TextNode::::28::::833::::841::::this.text::::"Split offset must be not be negative"	0.0
+636	org.jsoup.nodes.TextNode::::28::::833::::841::::this.text::::"#text"	0.0
+637	org.jsoup.nodes.TextNode::::28::::833::::841::::this.text::::""	0.0
+638	org.jsoup.nodes.TextNode::::27::::816::::822::::baseUri::::this.baseUri	0.0
+639	org.jsoup.nodes.TextNode::::27::::816::::822::::baseUri::::org.jsoup.nodes.TextNode.normaliseWhitespace(getWholeText())	0.0
+640	org.jsoup.nodes.TextNode::::27::::816::::822::::baseUri::::getWholeText()	0.0
+641	org.jsoup.nodes.TextNode::::27::::816::::822::::baseUri::::"text"	0.0
+642	org.jsoup.nodes.TextNode::::27::::816::::822::::baseUri::::"^\\s+"	0.0
+643	org.jsoup.nodes.TextNode::::27::::816::::822::::baseUri::::"Split offset must not be greater than current text length"	0.0
+644	org.jsoup.nodes.TextNode::::27::::816::::822::::baseUri::::"Split offset must be not be negative"	0.0
+645	org.jsoup.nodes.TextNode::::27::::816::::822::::baseUri::::"#text"	0.0
+646	org.jsoup.nodes.TextNode::::27::::816::::822::::baseUri::::""	0.0
+647	org.jsoup.nodes.TextNode::::27::::801::::823::::this.baseUri = baseUri::::this.text = text	0.0
+648	org.jsoup.nodes.TextNode::::27::::801::::823::::this.baseUri = baseUri::::text = org.jsoup.helper.StringUtil.normaliseWhitespace(text)	0.0
+649	org.jsoup.nodes.TextNode::::27::::801::::812::::this.baseUri::::org.jsoup.nodes.TextNode.normaliseWhitespace(getWholeText())	0.0
+650	org.jsoup.nodes.TextNode::::27::::801::::812::::this.baseUri::::getWholeText()	0.0
+651	org.jsoup.nodes.TextNode::::27::::801::::812::::this.baseUri::::baseUri	0.0
+652	org.jsoup.nodes.TextNode::::27::::801::::812::::this.baseUri::::"text"	0.0
+653	org.jsoup.nodes.TextNode::::27::::801::::812::::this.baseUri::::"^\\s+"	0.0
+654	org.jsoup.nodes.TextNode::::27::::801::::812::::this.baseUri::::"Split offset must not be greater than current text length"	0.0
+655	org.jsoup.nodes.TextNode::::27::::801::::812::::this.baseUri::::"Split offset must be not be negative"	0.0
+656	org.jsoup.nodes.TextNode::::27::::801::::812::::this.baseUri::::"#text"	0.0
+657	org.jsoup.nodes.TextNode::::27::::801::::812::::this.baseUri::::""	0.0
+658	org.jsoup.nodes.Node::::77::::2415::::2424::::return ""::::INSERT::::STATEMENT::::reindexChildren()	0.0
+659	org.jsoup.nodes.Node::::77::::2415::::2424::::return ""::::INSERT::::STATEMENT::::parentNode.removeChild(this)	0.0
+660	org.jsoup.nodes.Node::::77::::2415::::2424::::return ""::::INSERT::::STATEMENT::::attributes.remove(attributeKey)	0.0
+661	org.jsoup.nodes.Node::::76::::2360::::2371::::attributeKey::::outerHtml()	0.0
+662	org.jsoup.nodes.Node::::75::::2287::::2298::::attributeKey::::outerHtml()	0.0
+663	org.jsoup.nodes.Node::::74::::2255::::2266::::attributeKey::::outerHtml()	0.0
+664	org.jsoup.nodes.Node::::74::::2255::::2266::::attributeKey::::baseUri()	0.0
+665	org.jsoup.nodes.Node::::74::::2255::::2266::::attributeKey::::attr(attributeKey)	0.0
+666	org.jsoup.nodes.Node::::74::::2255::::2266::::attributeKey::::accum.toString()	0.0
+667	org.jsoup.nodes.Node::::74::::2255::::2266::::attributeKey::::"abs:"	0.0
+668	org.jsoup.nodes.Node::::74::::2255::::2266::::attributeKey::::"\n"	0.0
+669	org.jsoup.nodes.Node::::74::::2255::::2266::::attributeKey::::"?"	0.0
+670	org.jsoup.nodes.Node::::74::::2255::::2266::::attributeKey::::"#text"	0.0
+671	org.jsoup.nodes.Node::::74::::2255::::2266::::attributeKey::::""	0.0
+672	org.jsoup.nodes.Node::::73::::2206::::2217::::attributeKey::::outerHtml()	0.0
+673	org.jsoup.nodes.Node::::73::::2206::::2217::::attributeKey::::baseUri()	0.0
+674	org.jsoup.nodes.Node::::73::::2206::::2217::::attributeKey::::attr(attributeKey)	0.0
+675	org.jsoup.nodes.Node::::73::::2206::::2217::::attributeKey::::accum.toString()	0.0
+676	org.jsoup.nodes.Node::::73::::2206::::2217::::attributeKey::::"abs:"	0.0
+677	org.jsoup.nodes.Node::::73::::2206::::2217::::attributeKey::::"\n"	0.0
+678	org.jsoup.nodes.Node::::73::::2206::::2217::::attributeKey::::"?"	0.0
+679	org.jsoup.nodes.Node::::73::::2206::::2217::::attributeKey::::"#text"	0.0
+680	org.jsoup.nodes.Node::::73::::2206::::2217::::attributeKey::::""	0.0
+681	org.jsoup.nodes.Node::::71::::2170::::2181::::attributeKey::::outerHtml()	0.0
+682	org.jsoup.nodes.Node::::71::::2170::::2181::::attributeKey::::baseUri()	0.0
+683	org.jsoup.nodes.Node::::71::::2170::::2181::::attributeKey::::attr(attributeKey)	0.0
+684	org.jsoup.nodes.Node::::71::::2170::::2181::::attributeKey::::accum.toString()	0.0
+685	org.jsoup.nodes.Node::::71::::2170::::2181::::attributeKey::::"abs:"	0.0
+686	org.jsoup.nodes.Node::::71::::2170::::2181::::attributeKey::::"\n"	0.0
+687	org.jsoup.nodes.Node::::71::::2170::::2181::::attributeKey::::"?"	0.0
+688	org.jsoup.nodes.Node::::71::::2170::::2181::::attributeKey::::"#text"	0.0
+689	org.jsoup.nodes.Node::::71::::2170::::2181::::attributeKey::::""	0.0
+690	org.jsoup.nodes.Node::::49::::1335::::1352::::attributes = null::::this.siblingIndex = siblingIndex	0.0
+691	org.jsoup.nodes.Node::::49::::1335::::1352::::attributes = null::::this.parentNode = parentNode	0.0
+692	org.jsoup.nodes.Node::::49::::1335::::1352::::attributes = null::::this.out = out	0.0
+693	org.jsoup.nodes.Node::::49::::1335::::1352::::attributes = null::::this.baseUri = baseUri	0.0
+694	org.jsoup.nodes.Node::::49::::1335::::1352::::attributes = null::::this.accum = accum	0.0
+695	org.jsoup.nodes.Node::::49::::1335::::1352::::attributes = null::::childNodes = new java.util.ArrayList<org.jsoup.nodes.Node>(4)	0.0
+696	org.jsoup.nodes.Node::::49::::1335::::1344::::attributes::::this.attributes	0.0
+697	org.jsoup.nodes.Node::::49::::1335::::1344::::attributes::::new org.jsoup.nodes.Attributes()	0.0
+698	org.jsoup.nodes.Node::::48::::1289::::1325::::childNodes = java.util.Collections.emptyList()::::this.siblingIndex = siblingIndex	0.0
+699	org.jsoup.nodes.Node::::48::::1289::::1325::::childNodes = java.util.Collections.emptyList()::::this.parentNode = parentNode	0.0
+700	org.jsoup.nodes.Node::::48::::1289::::1325::::childNodes = java.util.Collections.emptyList()::::this.out = out	0.0
+701	org.jsoup.nodes.Node::::48::::1289::::1325::::childNodes = java.util.Collections.emptyList()::::this.baseUri = baseUri	0.0
+702	org.jsoup.nodes.Node::::48::::1289::::1325::::childNodes = java.util.Collections.emptyList()::::this.attributes = attributes	0.0
+703	org.jsoup.nodes.Node::::48::::1289::::1325::::childNodes = java.util.Collections.emptyList()::::this.accum = accum	0.0
+704	org.jsoup.nodes.Node::::48::::1289::::1325::::childNodes = java.util.Collections.emptyList()::::attributes = null	0.0
+705	org.jsoup.nodes.Node::::48::::1289::::1298::::childNodes::::childNodes()	0.0
+706	org.jsoup.nodes.Node::::451::::14529::::14540::::siblingIndex::::this.siblingIndex	0.0
+707	org.jsoup.nodes.Node::::451::::14529::::14540::::siblingIndex::::siblingIndex()	0.0
+708	org.jsoup.nodes.Node::::451::::14529::::14540::::siblingIndex::::parentNode.hashCode()	0.0
+709	org.jsoup.nodes.Node::::451::::14529::::14540::::siblingIndex::::attributes.hashCode()	0.0
+710	org.jsoup.nodes.Node::::451::::14529::::14540::::siblingIndex::::4	0.0
+711	org.jsoup.nodes.Node::::451::::14529::::14540::::siblingIndex::::32 * 1024	0.0
+712	org.jsoup.nodes.Node::::451::::14529::::14540::::siblingIndex::::32	0.0
+713	org.jsoup.nodes.Node::::451::::14529::::14540::::siblingIndex::::31	0.0
+714	org.jsoup.nodes.Node::::451::::14529::::14540::::siblingIndex::::1024	0.0
+715	org.jsoup.nodes.Node::::451::::14529::::14540::::siblingIndex::::1	0.0
+716	org.jsoup.nodes.Node::::451::::14529::::14540::::siblingIndex::::0	0.0
+717	org.jsoup.nodes.Node::::451::::14529::::14540::::siblingIndex::::(siblingIndex()) + 1	0.0
+718	org.jsoup.nodes.Node::::451::::14529::::14540::::siblingIndex::::(attributes) != null ? attributes.hashCode() : 0	0.0
+719	org.jsoup.nodes.Node::::451::::14529::::14540::::siblingIndex::::((parentNode) != null) ? parentNode.hashCode() : 0	0.0
+720	org.jsoup.nodes.Node::::451::::14509::::14541::::this.siblingIndex = siblingIndex::::this.parentNode = parentNode	0.0
+721	org.jsoup.nodes.Node::::451::::14509::::14541::::this.siblingIndex = siblingIndex::::this.out = out	0.0
+722	org.jsoup.nodes.Node::::451::::14509::::14541::::this.siblingIndex = siblingIndex::::this.baseUri = baseUri	0.0
+723	org.jsoup.nodes.Node::::451::::14509::::14541::::this.siblingIndex = siblingIndex::::this.attributes = attributes	0.0
+724	org.jsoup.nodes.Node::::451::::14509::::14541::::this.siblingIndex = siblingIndex::::this.accum = accum	0.0
+725	org.jsoup.nodes.Node::::451::::14509::::14541::::this.siblingIndex = siblingIndex::::childNodes = new java.util.ArrayList<org.jsoup.nodes.Node>(4)	0.0
+726	org.jsoup.nodes.Node::::451::::14509::::14541::::this.siblingIndex = siblingIndex::::attributes = null	0.0
+727	org.jsoup.nodes.Node::::451::::14509::::14541::::this.siblingIndex = siblingIndex::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	0.0
+728	org.jsoup.nodes.Node::::451::::14509::::14541::::this.siblingIndex = siblingIndex::::INSERT::::STATEMENT::::reindexChildren()	0.0
+729	org.jsoup.nodes.Node::::451::::14509::::14541::::this.siblingIndex = siblingIndex::::INSERT::::STATEMENT::::parentNode.removeChild(this)	0.0
+730	org.jsoup.nodes.Node::::451::::14509::::14541::::this.siblingIndex = siblingIndex::::INSERT::::STATEMENT::::outerHtml(accum)	0.0
+731	org.jsoup.nodes.Node::::451::::14509::::14541::::this.siblingIndex = siblingIndex::::INSERT::::STATEMENT::::if ((this) instanceof org.jsoup.nodes.Document)    return ((org.jsoup.nodes.Document) (this));else    if ((parentNode) == null)        return null;    else        return parentNode.ownerDocument();	0.0
+732	org.jsoup.nodes.Node::::451::::14509::::14541::::this.siblingIndex = siblingIndex::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	0.0
+733	org.jsoup.nodes.Node::::451::::14509::::14541::::this.siblingIndex = siblingIndex::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;	0.0
+734	org.jsoup.nodes.Node::::451::::14509::::14525::::this.siblingIndex::::siblingIndex()	0.0
+735	org.jsoup.nodes.Node::::451::::14509::::14525::::this.siblingIndex::::siblingIndex	0.0
+736	org.jsoup.nodes.Node::::451::::14509::::14525::::this.siblingIndex::::parentNode.hashCode()	0.0
+737	org.jsoup.nodes.Node::::451::::14509::::14525::::this.siblingIndex::::attributes.hashCode()	0.0
+738	org.jsoup.nodes.Node::::451::::14509::::14525::::this.siblingIndex::::4	0.0
+739	org.jsoup.nodes.Node::::451::::14509::::14525::::this.siblingIndex::::32 * 1024	0.0
+740	org.jsoup.nodes.Node::::451::::14509::::14525::::this.siblingIndex::::32	0.0
+741	org.jsoup.nodes.Node::::451::::14509::::14525::::this.siblingIndex::::31	0.0
+742	org.jsoup.nodes.Node::::451::::14509::::14525::::this.siblingIndex::::1024	0.0
+743	org.jsoup.nodes.Node::::451::::14509::::14525::::this.siblingIndex::::1	0.0
+744	org.jsoup.nodes.Node::::451::::14509::::14525::::this.siblingIndex::::0	0.0
+745	org.jsoup.nodes.Node::::451::::14509::::14525::::this.siblingIndex::::(siblingIndex()) + 1	0.0
+746	org.jsoup.nodes.Node::::451::::14509::::14525::::this.siblingIndex::::(attributes) != null ? attributes.hashCode() : 0	0.0
+747	org.jsoup.nodes.Node::::451::::14509::::14525::::this.siblingIndex::::((parentNode) != null) ? parentNode.hashCode() : 0	0.0
+748	org.jsoup.nodes.Node::::447::::14421::::14432::::siblingIndex::::this.siblingIndex	0.0
+749	org.jsoup.nodes.Node::::447::::14421::::14432::::siblingIndex::::siblingIndex()	0.0
+750	org.jsoup.nodes.Node::::447::::14421::::14432::::siblingIndex::::parentNode.hashCode()	0.0
+751	org.jsoup.nodes.Node::::447::::14421::::14432::::siblingIndex::::attributes.hashCode()	0.0
+752	org.jsoup.nodes.Node::::447::::14421::::14432::::siblingIndex::::4	0.0
+753	org.jsoup.nodes.Node::::447::::14421::::14432::::siblingIndex::::32 * 1024	0.0
+754	org.jsoup.nodes.Node::::447::::14421::::14432::::siblingIndex::::32	0.0
+755	org.jsoup.nodes.Node::::447::::14421::::14432::::siblingIndex::::31	0.0
+756	org.jsoup.nodes.Node::::447::::14421::::14432::::siblingIndex::::1024	0.0
+757	org.jsoup.nodes.Node::::447::::14421::::14432::::siblingIndex::::1	0.0
+758	org.jsoup.nodes.Node::::447::::14421::::14432::::siblingIndex::::0	0.0
+759	org.jsoup.nodes.Node::::447::::14421::::14432::::siblingIndex::::(siblingIndex()) + 1	0.0
+760	org.jsoup.nodes.Node::::447::::14421::::14432::::siblingIndex::::(attributes) != null ? attributes.hashCode() : 0	0.0
+761	org.jsoup.nodes.Node::::447::::14421::::14432::::siblingIndex::::((parentNode) != null) ? parentNode.hashCode() : 0	0.0
+762	org.jsoup.nodes.Node::::447::::14414::::14433::::return siblingIndex::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	0.0
+763	org.jsoup.nodes.Node::::447::::14414::::14433::::return siblingIndex::::INSERT::::STATEMENT::::reindexChildren()	0.0
+764	org.jsoup.nodes.Node::::447::::14414::::14433::::return siblingIndex::::INSERT::::STATEMENT::::parentNode.removeChild(this)	0.0
+765	org.jsoup.nodes.Node::::447::::14414::::14433::::return siblingIndex::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	0.0
+766	org.jsoup.nodes.Node::::423::::13713::::13724::::return null::::INSERT::::STATEMENT::::reindexChildren()	0.0
+767	org.jsoup.nodes.Node::::423::::13713::::13724::::return null::::INSERT::::STATEMENT::::parentNode.removeChild(this)	0.0
+768	org.jsoup.nodes.Node::::421::::13678::::13684::::index + 1::::this.siblingIndex	0.0
+769	org.jsoup.nodes.Node::::421::::13678::::13684::::index + 1::::siblingIndex()	0.0
+770	org.jsoup.nodes.Node::::421::::13678::::13684::::index + 1::::siblingIndex	0.0
+771	org.jsoup.nodes.Node::::421::::13678::::13684::::index + 1::::parentNode.hashCode()	0.0
+772	org.jsoup.nodes.Node::::421::::13678::::13684::::index + 1::::attributes.hashCode()	0.0
+773	org.jsoup.nodes.Node::::421::::13678::::13684::::index + 1::::4	0.0
+774	org.jsoup.nodes.Node::::421::::13678::::13684::::index + 1::::32 * 1024	0.0
+775	org.jsoup.nodes.Node::::421::::13678::::13684::::index + 1::::32	0.0
+776	org.jsoup.nodes.Node::::421::::13678::::13684::::index + 1::::31	0.0
+777	org.jsoup.nodes.Node::::421::::13678::::13684::::index + 1::::1024	0.0
+778	org.jsoup.nodes.Node::::421::::13678::::13684::::index + 1::::1	0.0
+779	org.jsoup.nodes.Node::::421::::13678::::13684::::index + 1::::0	0.0
+780	org.jsoup.nodes.Node::::421::::13678::::13684::::index + 1::::(siblingIndex()) + 1	0.0
+781	org.jsoup.nodes.Node::::421::::13678::::13684::::index + 1::::(attributes) != null ? attributes.hashCode() : 0	0.0
+782	org.jsoup.nodes.Node::::421::::13678::::13684::::index + 1::::((parentNode) != null) ? parentNode.hashCode() : 0	0.0
+783	org.jsoup.nodes.Node::::420::::13637::::13643::::index + 1::::this.siblingIndex	0.0
+784	org.jsoup.nodes.Node::::420::::13637::::13643::::index + 1::::siblingIndex()	0.0
+785	org.jsoup.nodes.Node::::420::::13637::::13643::::index + 1::::siblingIndex	0.0
+786	org.jsoup.nodes.Node::::420::::13637::::13643::::index + 1::::parentNode.hashCode()	0.0
+787	org.jsoup.nodes.Node::::420::::13637::::13643::::index + 1::::attributes.hashCode()	0.0
+788	org.jsoup.nodes.Node::::420::::13637::::13643::::index + 1::::4	0.0
+789	org.jsoup.nodes.Node::::420::::13637::::13643::::index + 1::::32 * 1024	0.0
+790	org.jsoup.nodes.Node::::420::::13637::::13643::::index + 1::::32	0.0
+791	org.jsoup.nodes.Node::::420::::13637::::13643::::index + 1::::31	0.0
+792	org.jsoup.nodes.Node::::420::::13637::::13643::::index + 1::::1024	0.0
+793	org.jsoup.nodes.Node::::420::::13637::::13643::::index + 1::::1	0.0
+794	org.jsoup.nodes.Node::::420::::13637::::13643::::index + 1::::0	0.0
+795	org.jsoup.nodes.Node::::420::::13637::::13643::::index + 1::::(siblingIndex()) + 1	0.0
+796	org.jsoup.nodes.Node::::420::::13637::::13643::::index + 1::::(attributes) != null ? attributes.hashCode() : 0	0.0
+797	org.jsoup.nodes.Node::::420::::13637::::13643::::index + 1::::((parentNode) != null) ? parentNode.hashCode() : 0	0.0
+798	org.jsoup.nodes.Node::::420::::13619::::13643::::siblings.size()) > (index + 1::::true	0.0
+799	org.jsoup.nodes.Node::::420::::13619::::13643::::siblings.size()) > (index + 1::::false	0.0
+800	org.jsoup.nodes.Node::::420::::13619::::13643::::siblings.size()) > (index + 1::::(this.parentNode) != null	0.0
+801	org.jsoup.nodes.Node::::420::::13619::::13643::::siblings.size()) > (index + 1::::(this) instanceof org.jsoup.nodes.Document	0.0
+802	org.jsoup.nodes.Node::::420::::13619::::13643::::siblings.size()) > (index + 1::::(parentNode) == null	0.0
+803	org.jsoup.nodes.Node::::420::::13619::::13643::::siblings.size()) > (index + 1::::(parentNode) != null	0.0
+804	org.jsoup.nodes.Node::::420::::13619::::13643::::siblings.size()) > (index + 1::::(parent()) instanceof org.jsoup.nodes.Element	0.0
+805	org.jsoup.nodes.Node::::420::::13619::::13643::::siblings.size()) > (index + 1::::(ownerDocument()) != null	0.0
+806	org.jsoup.nodes.Node::::420::::13619::::13643::::siblings.size()) > (index + 1::::(attributes) != null	0.0
+807	org.jsoup.nodes.Node::::418::::13558::::13569::::siblingIndex::::outerHtml	0.0
+808	org.jsoup.nodes.Node::::417::::13511::::13531::::parentNode.childNodes::::childNodes()	0.0
+809	org.jsoup.nodes.Node::::417::::13511::::13531::::parentNode.childNodes::::childNodes	0.0
+810	org.jsoup.nodes.Node::::417::::13511::::13520::::parentNode::::this.parentNode	0.0
+811	org.jsoup.nodes.Node::::417::::13511::::13520::::parentNode::::this	0.0
+812	org.jsoup.nodes.Node::::417::::13511::::13520::::parentNode::::parent()	0.0
+813	org.jsoup.nodes.Node::::417::::13511::::13520::::parentNode::::doClone(null)	0.0
+814	org.jsoup.nodes.Node::::417::::13511::::13520::::parentNode::::(org.jsoup.nodes.Element) (parent())	0.0
+815	org.jsoup.nodes.Node::::417::::13511::::13520::::parentNode::::(org.jsoup.nodes.Document) (this)	0.0
+816	org.jsoup.nodes.Node::::415::::13451::::13462::::return null::::INSERT::::STATEMENT::::reindexChildren()	0.0
+817	org.jsoup.nodes.Node::::415::::13451::::13462::::return null::::INSERT::::STATEMENT::::parentNode.removeChild(this)	0.0
+818	org.jsoup.nodes.Node::::414::::13419::::13436::::(parentNode) == null::::true	0.0
+819	org.jsoup.nodes.Node::::414::::13419::::13436::::(parentNode) == null::::index > 0	0.0
+820	org.jsoup.nodes.Node::::414::::13419::::13436::::(parentNode) == null::::false	0.0
+821	org.jsoup.nodes.Node::::414::::13419::::13436::::(parentNode) == null::::(this) instanceof org.jsoup.nodes.Document	0.0
+822	org.jsoup.nodes.Node::::414::::13419::::13436::::(parentNode) == null::::(parent()) instanceof org.jsoup.nodes.Element	0.0
+823	org.jsoup.nodes.Node::::414::::13419::::13436::::(parentNode) == null::::(ownerDocument()) != null	0.0
+824	org.jsoup.nodes.Node::::414::::13419::::13436::::(parentNode) == null::::(attributes) != null	0.0
+825	org.jsoup.nodes.Node::::414::::13419::::13428::::parentNode::::this	0.0
+826	org.jsoup.nodes.Node::::414::::13419::::13428::::parentNode::::parent()	0.0
+827	org.jsoup.nodes.Node::::414::::13419::::13428::::parentNode::::doClone(null)	0.0
+828	org.jsoup.nodes.Node::::414::::13419::::13428::::parentNode::::(org.jsoup.nodes.Element) (parent())	0.0
+829	org.jsoup.nodes.Node::::414::::13419::::13428::::parentNode::::(org.jsoup.nodes.Document) (this)	0.0
+830	org.jsoup.nodes.Node::::392::::12739::::12743::::child::::doClone(null)	0.0
+831	org.jsoup.nodes.Node::::390::::12656::::12679::::(child.parentNode) != null::::true	0.0
+832	org.jsoup.nodes.Node::::390::::12656::::12679::::(child.parentNode) != null::::false	0.0
+833	org.jsoup.nodes.Node::::390::::12656::::12679::::(child.parentNode) != null::::(this) instanceof org.jsoup.nodes.Document	0.0
+834	org.jsoup.nodes.Node::::390::::12656::::12679::::(child.parentNode) != null::::(parent()) instanceof org.jsoup.nodes.Element	0.0
+835	org.jsoup.nodes.Node::::390::::12656::::12679::::(child.parentNode) != null::::(ownerDocument()) != null	0.0
+836	org.jsoup.nodes.Node::::390::::12656::::12679::::(child.parentNode) != null::::(attributes) != null	0.0
+837	org.jsoup.nodes.Node::::390::::12656::::12671::::child.parentNode::::this	0.0
+838	org.jsoup.nodes.Node::::390::::12656::::12671::::child.parentNode::::parent()	0.0
+839	org.jsoup.nodes.Node::::390::::12656::::12671::::child.parentNode::::doClone(null)	0.0
+840	org.jsoup.nodes.Node::::390::::12656::::12671::::child.parentNode::::(org.jsoup.nodes.Element) (parent())	0.0
+841	org.jsoup.nodes.Node::::390::::12656::::12671::::child.parentNode::::(org.jsoup.nodes.Document) (this)	0.0
+842	org.jsoup.nodes.Node::::390::::12656::::12660::::child::::this	0.0
+843	org.jsoup.nodes.Node::::390::::12656::::12660::::child::::parent()	0.0
+844	org.jsoup.nodes.Node::::390::::12656::::12660::::child::::doClone(null)	0.0
+845	org.jsoup.nodes.Node::::390::::12656::::12660::::child::::(org.jsoup.nodes.Element) (parent())	0.0
+846	org.jsoup.nodes.Node::::390::::12656::::12660::::child::::(org.jsoup.nodes.Document) (this)	0.0
+847	org.jsoup.nodes.Node::::37::::1043::::1052::::attributes::::this.attributes	0.0
+848	org.jsoup.nodes.Node::::37::::1043::::1052::::attributes::::new org.jsoup.nodes.Attributes()	0.0
+849	org.jsoup.nodes.Node::::37::::1025::::1053::::this.attributes = attributes::::this.siblingIndex = siblingIndex	0.0
+850	org.jsoup.nodes.Node::::37::::1025::::1053::::this.attributes = attributes::::this.parentNode = parentNode	0.0
+851	org.jsoup.nodes.Node::::37::::1025::::1053::::this.attributes = attributes::::this.out = out	0.0
+852	org.jsoup.nodes.Node::::37::::1025::::1053::::this.attributes = attributes::::this.baseUri = baseUri	0.0
+853	org.jsoup.nodes.Node::::37::::1025::::1053::::this.attributes = attributes::::this.accum = accum	0.0
+854	org.jsoup.nodes.Node::::37::::1025::::1053::::this.attributes = attributes::::childNodes = new java.util.ArrayList<org.jsoup.nodes.Node>(4)	0.0
+855	org.jsoup.nodes.Node::::37::::1025::::1039::::this.attributes::::new org.jsoup.nodes.Attributes()	0.0
+856	org.jsoup.nodes.Node::::37::::1025::::1039::::this.attributes::::attributes	0.0
+857	org.jsoup.nodes.Node::::375::::12249::::12267::::(childNodes.size()) - 1::::this.siblingIndex	0.0
+858	org.jsoup.nodes.Node::::375::::12249::::12267::::(childNodes.size()) - 1::::siblingIndex()	0.0
+859	org.jsoup.nodes.Node::::375::::12249::::12267::::(childNodes.size()) - 1::::siblingIndex	0.0
+860	org.jsoup.nodes.Node::::375::::12249::::12267::::(childNodes.size()) - 1::::parentNode.hashCode()	0.0
+861	org.jsoup.nodes.Node::::375::::12249::::12267::::(childNodes.size()) - 1::::attributes.hashCode()	0.0
+862	org.jsoup.nodes.Node::::375::::12249::::12267::::(childNodes.size()) - 1::::4	0.0
+863	org.jsoup.nodes.Node::::375::::12249::::12267::::(childNodes.size()) - 1::::32 * 1024	0.0
+864	org.jsoup.nodes.Node::::375::::12249::::12267::::(childNodes.size()) - 1::::32	0.0
+865	org.jsoup.nodes.Node::::375::::12249::::12267::::(childNodes.size()) - 1::::31	0.0
+866	org.jsoup.nodes.Node::::375::::12249::::12267::::(childNodes.size()) - 1::::1024	0.0
+867	org.jsoup.nodes.Node::::375::::12249::::12267::::(childNodes.size()) - 1::::1	0.0
+868	org.jsoup.nodes.Node::::375::::12249::::12267::::(childNodes.size()) - 1::::0	0.0
+869	org.jsoup.nodes.Node::::375::::12249::::12267::::(childNodes.size()) - 1::::(siblingIndex()) + 1	0.0
+870	org.jsoup.nodes.Node::::375::::12249::::12267::::(childNodes.size()) - 1::::(attributes) != null ? attributes.hashCode() : 0	0.0
+871	org.jsoup.nodes.Node::::375::::12249::::12267::::(childNodes.size()) - 1::::((parentNode) != null) ? parentNode.hashCode() : 0	0.0
+872	org.jsoup.nodes.Node::::375::::12227::::12231::::child::::doClone(null)	0.0
+873	org.jsoup.nodes.Node::::374::::12207::::12211::::child::::this	0.0
+874	org.jsoup.nodes.Node::::374::::12207::::12211::::child::::parent()	0.0
+875	org.jsoup.nodes.Node::::374::::12207::::12211::::child::::doClone(null)	0.0
+876	org.jsoup.nodes.Node::::374::::12207::::12211::::child::::(org.jsoup.nodes.Element) (parent())	0.0
+877	org.jsoup.nodes.Node::::374::::12207::::12211::::child::::(org.jsoup.nodes.Document) (this)	0.0
+878	org.jsoup.nodes.Node::::373::::12172::::12176::::child::::this	0.0
+879	org.jsoup.nodes.Node::::373::::12172::::12176::::child::::parent()	0.0
+880	org.jsoup.nodes.Node::::373::::12172::::12176::::child::::doClone(null)	0.0
+881	org.jsoup.nodes.Node::::373::::12172::::12176::::child::::(org.jsoup.nodes.Element) (parent())	0.0
+882	org.jsoup.nodes.Node::::373::::12172::::12176::::child::::(org.jsoup.nodes.Document) (this)	0.0
+883	org.jsoup.nodes.Node::::36::::986::::997::::this.baseUri::::outerHtml()	0.0
+884	org.jsoup.nodes.Node::::36::::986::::997::::this.baseUri::::baseUri()	0.0
+885	org.jsoup.nodes.Node::::36::::986::::997::::this.baseUri::::baseUri	0.0
+886	org.jsoup.nodes.Node::::36::::986::::997::::this.baseUri::::accum.toString()	0.0
+887	org.jsoup.nodes.Node::::36::::986::::997::::this.baseUri::::"abs:"	0.0
+888	org.jsoup.nodes.Node::::36::::986::::997::::this.baseUri::::"\n"	0.0
+889	org.jsoup.nodes.Node::::36::::986::::997::::this.baseUri::::"?"	0.0
+890	org.jsoup.nodes.Node::::36::::986::::997::::this.baseUri::::"#text"	0.0
+891	org.jsoup.nodes.Node::::36::::986::::997::::this.baseUri::::""	0.0
+892	org.jsoup.nodes.Node::::36::::986::::1015::::this.baseUri = baseUri.trim()::::this.siblingIndex = siblingIndex	0.0
+893	org.jsoup.nodes.Node::::36::::986::::1015::::this.baseUri = baseUri.trim()::::this.parentNode = parentNode	0.0
+894	org.jsoup.nodes.Node::::36::::986::::1015::::this.baseUri = baseUri.trim()::::this.out = out	0.0
+895	org.jsoup.nodes.Node::::36::::986::::1015::::this.baseUri = baseUri.trim()::::this.attributes = attributes	0.0
+896	org.jsoup.nodes.Node::::36::::986::::1015::::this.baseUri = baseUri.trim()::::this.accum = accum	0.0
+897	org.jsoup.nodes.Node::::36::::986::::1015::::this.baseUri = baseUri.trim()::::childNodes = new java.util.ArrayList<org.jsoup.nodes.Node>(4)	0.0
+898	org.jsoup.nodes.Node::::36::::986::::1015::::this.baseUri = baseUri.trim()::::attributes = null	0.0
+899	org.jsoup.nodes.Node::::36::::1001::::1007::::baseUri::::outerHtml()	0.0
+900	org.jsoup.nodes.Node::::35::::941::::976::::childNodes = new java.util.ArrayList<org.jsoup.nodes.Node>(4)::::this.siblingIndex = siblingIndex	0.0
+901	org.jsoup.nodes.Node::::35::::941::::976::::childNodes = new java.util.ArrayList<org.jsoup.nodes.Node>(4)::::this.parentNode = parentNode	0.0
+902	org.jsoup.nodes.Node::::35::::941::::976::::childNodes = new java.util.ArrayList<org.jsoup.nodes.Node>(4)::::this.out = out	0.0
+903	org.jsoup.nodes.Node::::35::::941::::976::::childNodes = new java.util.ArrayList<org.jsoup.nodes.Node>(4)::::this.baseUri = baseUri	0.0
+904	org.jsoup.nodes.Node::::35::::941::::976::::childNodes = new java.util.ArrayList<org.jsoup.nodes.Node>(4)::::this.attributes = attributes	0.0
+905	org.jsoup.nodes.Node::::35::::941::::976::::childNodes = new java.util.ArrayList<org.jsoup.nodes.Node>(4)::::this.accum = accum	0.0
+906	org.jsoup.nodes.Node::::35::::941::::976::::childNodes = new java.util.ArrayList<org.jsoup.nodes.Node>(4)::::attributes = null	0.0
+907	org.jsoup.nodes.Node::::35::::941::::950::::childNodes::::childNodes()	0.0
+908	org.jsoup.nodes.Node::::346::::11311::::11320::::parentNode::::this.parentNode	0.0
+909	org.jsoup.nodes.Node::::346::::11311::::11320::::parentNode::::this	0.0
+910	org.jsoup.nodes.Node::::346::::11311::::11320::::parentNode::::parent()	0.0
+911	org.jsoup.nodes.Node::::346::::11311::::11320::::parentNode::::doClone(null)	0.0
+912	org.jsoup.nodes.Node::::346::::11311::::11320::::parentNode::::(org.jsoup.nodes.Element) (parent())	0.0
+913	org.jsoup.nodes.Node::::346::::11311::::11320::::parentNode::::(org.jsoup.nodes.Document) (this)	0.0
+914	org.jsoup.nodes.Node::::346::::11293::::11321::::this.parentNode = parentNode::::this.siblingIndex = siblingIndex	0.0
+915	org.jsoup.nodes.Node::::346::::11293::::11321::::this.parentNode = parentNode::::this.out = out	0.0
+916	org.jsoup.nodes.Node::::346::::11293::::11321::::this.parentNode = parentNode::::this.baseUri = baseUri	0.0
+917	org.jsoup.nodes.Node::::346::::11293::::11321::::this.parentNode = parentNode::::this.attributes = attributes	0.0
+918	org.jsoup.nodes.Node::::346::::11293::::11321::::this.parentNode = parentNode::::this.accum = accum	0.0
+919	org.jsoup.nodes.Node::::346::::11293::::11321::::this.parentNode = parentNode::::childNodes = new java.util.ArrayList<org.jsoup.nodes.Node>(4)	0.0
+920	org.jsoup.nodes.Node::::346::::11293::::11321::::this.parentNode = parentNode::::attributes = null	0.0
+921	org.jsoup.nodes.Node::::346::::11293::::11321::::this.parentNode = parentNode::::INSERT::::STATEMENT::::reindexChildren()	0.0
+922	org.jsoup.nodes.Node::::346::::11293::::11321::::this.parentNode = parentNode::::INSERT::::STATEMENT::::if ((parentNode) == null)    return null;else    return parentNode.ownerDocument();	0.0
+923	org.jsoup.nodes.Node::::346::::11293::::11307::::this.parentNode::::this	0.0
+924	org.jsoup.nodes.Node::::346::::11293::::11307::::this.parentNode::::parentNode	0.0
+925	org.jsoup.nodes.Node::::346::::11293::::11307::::this.parentNode::::parent()	0.0
+926	org.jsoup.nodes.Node::::346::::11293::::11307::::this.parentNode::::doClone(null)	0.0
+927	org.jsoup.nodes.Node::::346::::11293::::11307::::this.parentNode::::(org.jsoup.nodes.Element) (parent())	0.0
+928	org.jsoup.nodes.Node::::346::::11293::::11307::::this.parentNode::::(org.jsoup.nodes.Document) (this)	0.0
+929	org.jsoup.nodes.Node::::344::::11213::::11235::::(this.parentNode) != null::::true	0.0
+930	org.jsoup.nodes.Node::::344::::11213::::11235::::(this.parentNode) != null::::false	0.0
+931	org.jsoup.nodes.Node::::344::::11213::::11235::::(this.parentNode) != null::::(this) instanceof org.jsoup.nodes.Document	0.0
+932	org.jsoup.nodes.Node::::344::::11213::::11235::::(this.parentNode) != null::::(parent()) instanceof org.jsoup.nodes.Element	0.0
+933	org.jsoup.nodes.Node::::344::::11213::::11235::::(this.parentNode) != null::::(ownerDocument()) != null	0.0
+934	org.jsoup.nodes.Node::::344::::11213::::11235::::(this.parentNode) != null::::(attributes) != null	0.0
+935	org.jsoup.nodes.Node::::344::::11213::::11227::::this.parentNode::::this	0.0
+936	org.jsoup.nodes.Node::::344::::11213::::11227::::this.parentNode::::parent()	0.0
+937	org.jsoup.nodes.Node::::344::::11213::::11227::::this.parentNode::::doClone(null)	0.0
+938	org.jsoup.nodes.Node::::344::::11213::::11227::::this.parentNode::::(org.jsoup.nodes.Element) (parent())	0.0
+939	org.jsoup.nodes.Node::::344::::11213::::11227::::this.parentNode::::(org.jsoup.nodes.Document) (this)	0.0
+940	org.jsoup.nodes.Node::::33::::911::::920::::attributes::::this.attributes	0.0
+941	org.jsoup.nodes.Node::::33::::911::::920::::attributes::::new org.jsoup.nodes.Attributes()	0.0
+942	org.jsoup.nodes.Node::::32::::876::::882::::baseUri::::this.baseUri	0.0
+943	org.jsoup.nodes.Node::::32::::876::::882::::baseUri::::outerHtml()	0.0
+944	org.jsoup.nodes.Node::::32::::876::::882::::baseUri::::baseUri()	0.0
+945	org.jsoup.nodes.Node::::32::::876::::882::::baseUri::::accum.toString()	0.0
+946	org.jsoup.nodes.Node::::32::::876::::882::::baseUri::::"abs:"	0.0
+947	org.jsoup.nodes.Node::::32::::876::::882::::baseUri::::"\n"	0.0
+948	org.jsoup.nodes.Node::::32::::876::::882::::baseUri::::"?"	0.0
+949	org.jsoup.nodes.Node::::32::::876::::882::::baseUri::::"#text"	0.0
+950	org.jsoup.nodes.Node::::32::::876::::882::::baseUri::::""	0.0
+951	org.jsoup.nodes.Node::::212::::6916::::6925::::parentNode::::this.parentNode	0.0
+952	org.jsoup.nodes.Node::::212::::6916::::6925::::parentNode::::this	0.0
+953	org.jsoup.nodes.Node::::212::::6916::::6925::::parentNode::::parent()	0.0
+954	org.jsoup.nodes.Node::::212::::6916::::6925::::parentNode::::doClone(null)	0.0
+955	org.jsoup.nodes.Node::::212::::6916::::6925::::parentNode::::(org.jsoup.nodes.Element) (parent())	0.0
+956	org.jsoup.nodes.Node::::212::::6916::::6925::::parentNode::::(org.jsoup.nodes.Document) (this)	0.0
+957	org.jsoup.nodes.Node::::212::::6909::::6926::::return parentNode::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	0.0
+958	org.jsoup.nodes.Node::::212::::6909::::6926::::return parentNode::::INSERT::::STATEMENT::::reindexChildren()	0.0
+959	org.jsoup.nodes.Node::::212::::6909::::6926::::return parentNode::::INSERT::::STATEMENT::::parentNode.removeChild(this)	0.0
+960	org.jsoup.nodes.Node::::212::::6909::::6926::::return parentNode::::INSERT::::STATEMENT::::if ((this.parentNode) != null)    this.parentNode.removeChild(this);	0.0
+961	org.jsoup.nodes.Node::::200::::6635::::6644::::childNodes::::childNodes()	0.0
+962	org.jsoup.nodes.Node::::191::::6300::::6304::::index::::siblingIndex()	0.0
+963	org.jsoup.nodes.Node::::191::::6300::::6304::::index::::parentNode.hashCode()	0.0
+964	org.jsoup.nodes.Node::::191::::6300::::6304::::index::::attributes.hashCode()	0.0
+965	org.jsoup.nodes.Node::::191::::6300::::6304::::index::::4	0.0
+966	org.jsoup.nodes.Node::::191::::6300::::6304::::index::::32 * 1024	0.0
+967	org.jsoup.nodes.Node::::191::::6300::::6304::::index::::32	0.0
+968	org.jsoup.nodes.Node::::191::::6300::::6304::::index::::31	0.0
+969	org.jsoup.nodes.Node::::191::::6300::::6304::::index::::1024	0.0
+970	org.jsoup.nodes.Node::::191::::6300::::6304::::index::::1	0.0
+971	org.jsoup.nodes.Node::::191::::6300::::6304::::index::::0	0.0
+972	org.jsoup.nodes.Node::::191::::6300::::6304::::index::::(siblingIndex()) + 1	0.0
+973	org.jsoup.nodes.Node::::191::::6300::::6304::::index::::(attributes) != null ? attributes.hashCode() : 0	0.0
+974	org.jsoup.nodes.Node::::191::::6300::::6304::::index::::((parentNode) != null) ? parentNode.hashCode() : 0	0.0
+975	org.jsoup.nodes.Node::::178::::5968::::5995::::return abs.toExternalForm()::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	0.0
+976	org.jsoup.nodes.Node::::178::::5968::::5995::::return abs.toExternalForm()::::INSERT::::STATEMENT::::reindexChildren()	0.0
+977	org.jsoup.nodes.Node::::178::::5968::::5995::::return abs.toExternalForm()::::INSERT::::STATEMENT::::parentNode.removeChild(this)	0.0
+978	org.jsoup.nodes.Node::::178::::5968::::5995::::return abs.toExternalForm()::::INSERT::::STATEMENT::::outerHtml(accum)	0.0
+979	org.jsoup.nodes.Node::::178::::5968::::5995::::return abs.toExternalForm()::::INSERT::::STATEMENT::::attributes.remove(attributeKey)	0.0
+980	org.jsoup.nodes.Node::::177::::5943::::5948::::relUrl::::outerHtml()	0.0
+981	org.jsoup.nodes.Node::::177::::5943::::5948::::relUrl::::baseUri()	0.0
+982	org.jsoup.nodes.Node::::177::::5943::::5948::::relUrl::::accum.toString()	0.0
+983	org.jsoup.nodes.Node::::177::::5943::::5948::::relUrl::::"abs:"	0.0
+984	org.jsoup.nodes.Node::::177::::5943::::5948::::relUrl::::"\n"	0.0
+985	org.jsoup.nodes.Node::::177::::5943::::5948::::relUrl::::"?"	0.0
+986	org.jsoup.nodes.Node::::177::::5943::::5948::::relUrl::::"#text"	0.0
+987	org.jsoup.nodes.Node::::177::::5943::::5948::::relUrl::::""	0.0
+988	org.jsoup.nodes.Node::::177::::5937::::5940::::base::::new java.net.URL(relUrl)	0.0
+989	org.jsoup.nodes.Node::::177::::5937::::5940::::base::::new java.net.URL(baseUri)	0.0
+990	org.jsoup.nodes.Node::::177::::5919::::5950::::java.net.URL abs = new java.net.URL(base, relUrl)::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	0.0
+991	org.jsoup.nodes.Node::::177::::5919::::5950::::java.net.URL abs = new java.net.URL(base, relUrl)::::INSERT::::STATEMENT::::reindexChildren()	0.0
+992	org.jsoup.nodes.Node::::177::::5919::::5950::::java.net.URL abs = new java.net.URL(base, relUrl)::::INSERT::::STATEMENT::::parentNode.removeChild(this)	0.0
+993	org.jsoup.nodes.Node::::177::::5919::::5950::::java.net.URL abs = new java.net.URL(base, relUrl)::::INSERT::::STATEMENT::::outerHtml(accum)	0.0
+994	org.jsoup.nodes.Node::::177::::5919::::5950::::java.net.URL abs = new java.net.URL(base, relUrl)::::INSERT::::STATEMENT::::attributes.remove(attributeKey)	0.0
+995	org.jsoup.nodes.Node::::175::::5825::::5830::::relUrl::::outerHtml()	0.0
+996	org.jsoup.nodes.Node::::175::::5821::::5901::::if (relUrl.startsWith("?"))    relUrl = (base.getPath()) + relUrl;::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	0.0
+997	org.jsoup.nodes.Node::::175::::5821::::5901::::if (relUrl.startsWith("?"))    relUrl = (base.getPath()) + relUrl;::::INSERT::::STATEMENT::::reindexChildren()	0.0
+998	org.jsoup.nodes.Node::::175::::5821::::5901::::if (relUrl.startsWith("?"))    relUrl = (base.getPath()) + relUrl;::::INSERT::::STATEMENT::::parentNode.removeChild(this)	0.0
+999	org.jsoup.nodes.Node::::175::::5821::::5901::::if (relUrl.startsWith("?"))    relUrl = (base.getPath()) + relUrl;::::INSERT::::STATEMENT::::outerHtml(accum)	0.0
+1000	org.jsoup.nodes.Node::::175::::5821::::5901::::if (relUrl.startsWith("?"))    relUrl = (base.getPath()) + relUrl;::::INSERT::::STATEMENT::::attributes.remove(attributeKey)	0.0
+1001	org.jsoup.nodes.Node::::171::::5612::::5617::::relUrl::::outerHtml()	0.0
+1002	org.jsoup.nodes.Node::::171::::5612::::5617::::relUrl::::baseUri()	0.0
+1003	org.jsoup.nodes.Node::::171::::5612::::5617::::relUrl::::accum.toString()	0.0
+1004	org.jsoup.nodes.Node::::171::::5612::::5617::::relUrl::::"abs:"	0.0
+1005	org.jsoup.nodes.Node::::171::::5612::::5617::::relUrl::::"\n"	0.0
+1006	org.jsoup.nodes.Node::::171::::5612::::5617::::relUrl::::"?"	0.0
+1007	org.jsoup.nodes.Node::::171::::5612::::5617::::relUrl::::"#text"	0.0
+1008	org.jsoup.nodes.Node::::171::::5612::::5617::::relUrl::::""	0.0
+1009	org.jsoup.nodes.Node::::168::::5412::::5418::::baseUri::::this.baseUri	0.0
+1010	org.jsoup.nodes.Node::::168::::5412::::5418::::baseUri::::outerHtml()	0.0
+1011	org.jsoup.nodes.Node::::168::::5412::::5418::::baseUri::::baseUri()	0.0
+1012	org.jsoup.nodes.Node::::168::::5412::::5418::::baseUri::::accum.toString()	0.0
+1013	org.jsoup.nodes.Node::::168::::5412::::5418::::baseUri::::"abs:"	0.0
+1014	org.jsoup.nodes.Node::::168::::5412::::5418::::baseUri::::"\n"	0.0
+1015	org.jsoup.nodes.Node::::168::::5412::::5418::::baseUri::::"?"	0.0
+1016	org.jsoup.nodes.Node::::168::::5412::::5418::::baseUri::::"#text"	0.0
+1017	org.jsoup.nodes.Node::::168::::5412::::5418::::baseUri::::""	0.0
+1018	org.jsoup.nodes.Node::::168::::5397::::5420::::base = new java.net.URL(baseUri)::::this.siblingIndex = siblingIndex	0.0
+1019	org.jsoup.nodes.Node::::168::::5397::::5420::::base = new java.net.URL(baseUri)::::this.parentNode = parentNode	0.0
+1020	org.jsoup.nodes.Node::::168::::5397::::5420::::base = new java.net.URL(baseUri)::::this.out = out	0.0
+1021	org.jsoup.nodes.Node::::168::::5397::::5420::::base = new java.net.URL(baseUri)::::this.attributes = attributes	0.0
+1022	org.jsoup.nodes.Node::::168::::5397::::5420::::base = new java.net.URL(baseUri)::::this.accum = accum	0.0
+1023	org.jsoup.nodes.Node::::168::::5397::::5420::::base = new java.net.URL(baseUri)::::childNodes = new java.util.ArrayList<org.jsoup.nodes.Node>(4)	0.0
+1024	org.jsoup.nodes.Node::::168::::5397::::5420::::base = new java.net.URL(baseUri)::::attributes = null	0.0
+1025	org.jsoup.nodes.Node::::168::::5397::::5420::::base = new java.net.URL(baseUri)::::INSERT::::STATEMENT::::this.parentNode.removeChild(this)	0.0
+1026	org.jsoup.nodes.Node::::168::::5397::::5420::::base = new java.net.URL(baseUri)::::INSERT::::STATEMENT::::reindexChildren()	0.0
+1027	org.jsoup.nodes.Node::::168::::5397::::5420::::base = new java.net.URL(baseUri)::::INSERT::::STATEMENT::::parentNode.removeChild(this)	0.0
+1028	org.jsoup.nodes.Node::::168::::5397::::5420::::base = new java.net.URL(baseUri)::::INSERT::::STATEMENT::::outerHtml(accum)	0.0
+1029	org.jsoup.nodes.Node::::168::::5397::::5420::::base = new java.net.URL(baseUri)::::INSERT::::STATEMENT::::attributes.remove(attributeKey)	0.0
+1030	org.jsoup.nodes.Node::::168::::5397::::5400::::base::::new java.net.URL(relUrl)	0.0
+1031	org.jsoup.nodes.Node::::168::::5397::::5400::::base::::new java.net.URL(baseUri)	0.0
+1032	org.jsoup.nodes.Node::::162::::5225::::5236::::attributeKey::::outerHtml()	0.0
+1033	org.jsoup.nodes.Node::::162::::5225::::5236::::attributeKey::::baseUri()	0.0
+1034	org.jsoup.nodes.Node::::162::::5225::::5236::::attributeKey::::attr(attributeKey)	0.0
+1035	org.jsoup.nodes.Node::::162::::5225::::5236::::attributeKey::::accum.toString()	0.0
+1036	org.jsoup.nodes.Node::::162::::5225::::5236::::attributeKey::::"abs:"	0.0
+1037	org.jsoup.nodes.Node::::162::::5225::::5236::::attributeKey::::"\n"	0.0
+1038	org.jsoup.nodes.Node::::162::::5225::::5236::::attributeKey::::"?"	0.0
+1039	org.jsoup.nodes.Node::::162::::5225::::5236::::attributeKey::::"#text"	0.0
+1040	org.jsoup.nodes.Node::::162::::5225::::5236::::attributeKey::::""	0.0
+1041	org.jsoup.nodes.Node::::161::::5189::::5200::::attributeKey::::outerHtml()	0.0
+1042	org.jsoup.nodes.Node::::161::::5189::::5200::::attributeKey::::baseUri()	0.0
+1043	org.jsoup.nodes.Node::::161::::5189::::5200::::attributeKey::::attr(attributeKey)	0.0
+1044	org.jsoup.nodes.Node::::161::::5189::::5200::::attributeKey::::accum.toString()	0.0
+1045	org.jsoup.nodes.Node::::161::::5189::::5200::::attributeKey::::"abs:"	0.0
+1046	org.jsoup.nodes.Node::::161::::5189::::5200::::attributeKey::::"\n"	0.0
+1047	org.jsoup.nodes.Node::::161::::5189::::5200::::attributeKey::::"?"	0.0
+1048	org.jsoup.nodes.Node::::161::::5189::::5200::::attributeKey::::"#text"	0.0
+1049	org.jsoup.nodes.Node::::161::::5189::::5200::::attributeKey::::""	0.0
+1050	org.jsoup.nodes.Node::::159::::5144::::5155::::attributeKey::::outerHtml()	0.0
+1051	org.jsoup.nodes.Node::::159::::5144::::5155::::attributeKey::::baseUri()	0.0
+1052	org.jsoup.nodes.Node::::159::::5144::::5155::::attributeKey::::attr(attributeKey)	0.0
+1053	org.jsoup.nodes.Node::::159::::5144::::5155::::attributeKey::::accum.toString()	0.0
+1054	org.jsoup.nodes.Node::::159::::5144::::5155::::attributeKey::::"abs:"	0.0
+1055	org.jsoup.nodes.Node::::159::::5144::::5155::::attributeKey::::"\n"	0.0
+1056	org.jsoup.nodes.Node::::159::::5144::::5155::::attributeKey::::"?"	0.0
+1057	org.jsoup.nodes.Node::::159::::5144::::5155::::attributeKey::::"#text"	0.0
+1058	org.jsoup.nodes.Node::::159::::5144::::5155::::attributeKey::::""	0.0
+1059	org.jsoup.nodes.Node::::107::::3346::::3357::::attributeKey::::outerHtml()	0.0
+1060	org.jsoup.nodes.Node::::107::::3346::::3357::::attributeKey::::baseUri()	0.0
+1061	org.jsoup.nodes.Node::::107::::3346::::3357::::attributeKey::::attr(attributeKey)	0.0
+1062	org.jsoup.nodes.Node::::107::::3346::::3357::::attributeKey::::accum.toString()	0.0
+1063	org.jsoup.nodes.Node::::107::::3346::::3357::::attributeKey::::"abs:"	0.0
+1064	org.jsoup.nodes.Node::::107::::3346::::3357::::attributeKey::::"\n"	0.0
+1065	org.jsoup.nodes.Node::::107::::3346::::3357::::attributeKey::::"?"	0.0
+1066	org.jsoup.nodes.Node::::107::::3346::::3357::::attributeKey::::"#text"	0.0
+1067	org.jsoup.nodes.Node::::107::::3346::::3357::::attributeKey::::""	0.0
+1068	org.jsoup.nodes.Node::::105::::3297::::3308::::attributeKey::::outerHtml()	0.0
+1069	org.jsoup.nodes.Node::::105::::3297::::3308::::attributeKey::::baseUri()	0.0
+1070	org.jsoup.nodes.Node::::105::::3297::::3308::::attributeKey::::attr(attributeKey)	0.0
+1071	org.jsoup.nodes.Node::::105::::3297::::3308::::attributeKey::::accum.toString()	0.0
+1072	org.jsoup.nodes.Node::::105::::3297::::3308::::attributeKey::::"abs:"	0.0
+1073	org.jsoup.nodes.Node::::105::::3297::::3308::::attributeKey::::"\n"	0.0
+1074	org.jsoup.nodes.Node::::105::::3297::::3308::::attributeKey::::"?"	0.0
+1075	org.jsoup.nodes.Node::::105::::3297::::3308::::attributeKey::::"#text"	0.0
+1076	org.jsoup.nodes.Node::::105::::3297::::3308::::attributeKey::::""	0.0
+1077	org.jsoup.nodes.Element::::67::::1856::::1876::::return tag.getName()::::INSERT::::STATEMENT::::if ((parent()) == null)    return 0;	0.0
+1078	org.jsoup.nodes.Element::::58::::1671::::1691::::return tag.getName()::::INSERT::::STATEMENT::::if ((parent()) == null)    return 0;	0.0
+1079	org.jsoup.nodes.Element::::53::::1583::::1589::::baseUri::::text()	0.0
+1080	org.jsoup.nodes.Element::::53::::1583::::1589::::baseUri::::tagName()	0.0
+1081	org.jsoup.nodes.Element::::53::::1583::::1589::::baseUri::::className()	0.0
+1082	org.jsoup.nodes.Element::::53::::1583::::1589::::baseUri::::"value"	0.0
+1083	org.jsoup.nodes.Element::::53::::1583::::1589::::baseUri::::"textarea"	0.0
+1084	org.jsoup.nodes.Element::::53::::1583::::1589::::baseUri::::"id"	0.0
+1085	org.jsoup.nodes.Element::::53::::1583::::1589::::baseUri::::"class"	0.0
+1086	org.jsoup.nodes.Element::::53::::1583::::1589::::baseUri::::"br"	0.0
+1087	org.jsoup.nodes.Element::::53::::1583::::1589::::baseUri::::"\\s+"	0.0
+1088	org.jsoup.nodes.Element::::53::::1583::::1589::::baseUri::::"Tag name must not be empty."	0.0
+1089	org.jsoup.nodes.Element::::53::::1583::::1589::::baseUri::::"Pattern syntax error: "	0.0
+1090	org.jsoup.nodes.Element::::53::::1583::::1589::::baseUri::::">"	0.0
+1091	org.jsoup.nodes.Element::::53::::1583::::1589::::baseUri::::"</"	0.0
+1092	org.jsoup.nodes.Element::::53::::1583::::1589::::baseUri::::"<"	0.0
+1093	org.jsoup.nodes.Element::::53::::1583::::1589::::baseUri::::"#root"	0.0
+1094	org.jsoup.nodes.Element::::53::::1583::::1589::::baseUri::::""	0.0
+1095	org.jsoup.nodes.Element::::53::::1583::::1589::::baseUri::::" />"	0.0
+1096	org.jsoup.nodes.Element::::53::::1583::::1589::::baseUri::::" "	0.0
+1097	org.jsoup.nodes.Element::::53::::1578::::1580::::tag::::this.tag	0.0
+1098	org.jsoup.nodes.Element::::41::::1221::::1223::::tag::::this.tag	0.0
+1099	org.jsoup.nodes.Element::::41::::1210::::1217::::this.tag::::tag	0.0
+1100	org.jsoup.nodes.Element::::40::::1192::::1194::::tag::::this.tag	0.0
+1101	org.jsoup.nodes.Element::::38::::1145::::1154::::attributes::::new org.jsoup.nodes.Attributes()	0.0
+1102	org.jsoup.nodes.Element::::38::::1136::::1142::::baseUri::::text()	0.0
+1103	org.jsoup.nodes.Element::::38::::1136::::1142::::baseUri::::tagName()	0.0
+1104	org.jsoup.nodes.Element::::38::::1136::::1142::::baseUri::::className()	0.0
+1105	org.jsoup.nodes.Element::::38::::1136::::1142::::baseUri::::"value"	0.0
+1106	org.jsoup.nodes.Element::::38::::1136::::1142::::baseUri::::"textarea"	0.0
+1107	org.jsoup.nodes.Element::::38::::1136::::1142::::baseUri::::"id"	0.0
+1108	org.jsoup.nodes.Element::::38::::1136::::1142::::baseUri::::"class"	0.0
+1109	org.jsoup.nodes.Element::::38::::1136::::1142::::baseUri::::"br"	0.0
+1110	org.jsoup.nodes.Element::::38::::1136::::1142::::baseUri::::"\\s+"	0.0
+1111	org.jsoup.nodes.Element::::38::::1136::::1142::::baseUri::::"Tag name must not be empty."	0.0
+1112	org.jsoup.nodes.Element::::38::::1136::::1142::::baseUri::::"Pattern syntax error: "	0.0
+1113	org.jsoup.nodes.Element::::38::::1136::::1142::::baseUri::::">"	0.0
+1114	org.jsoup.nodes.Element::::38::::1136::::1142::::baseUri::::"</"	0.0
+1115	org.jsoup.nodes.Element::::38::::1136::::1142::::baseUri::::"<"	0.0
+1116	org.jsoup.nodes.Element::::38::::1136::::1142::::baseUri::::"#root"	0.0
+1117	org.jsoup.nodes.Element::::38::::1136::::1142::::baseUri::::""	0.0
+1118	org.jsoup.nodes.Element::::38::::1136::::1142::::baseUri::::" />"	0.0
+1119	org.jsoup.nodes.Element::::38::::1136::::1142::::baseUri::::" "	0.0
+1120	org.jsoup.nodes.Element::::226::::7302::::7313::::return this::::INSERT::::STATEMENT::::tagName()	0.0
+1121	org.jsoup.nodes.Element::::226::::7302::::7313::::return this::::INSERT::::STATEMENT::::if ((parent()) == null)    return 0;	0.0
+1122	org.jsoup.nodes.Element::::226::::7302::::7313::::return this::::INSERT::::STATEMENT::::empty()	0.0
+1123	org.jsoup.nodes.Element::::225::::7274::::7292::::addChildren(child)::::INSERT::::STATEMENT::::if ((parent()) == null)    return 0;	0.0
+1124	org.jsoup.nodes.Element::::223::::7232::::7255::::org.jsoup.helper.Validate.notNull(child)::::INSERT::::STATEMENT::::if ((parent()) == null)    return 0;	0.0
+1125	org.jsoup.nodes.Element::::213::::6940::::6944::::query::::text()	0.0
+1126	org.jsoup.nodes.Element::::213::::6940::::6944::::query::::tagName()	0.0
+1127	org.jsoup.nodes.Element::::213::::6940::::6944::::query::::className()	0.0
+1128	org.jsoup.nodes.Element::::213::::6940::::6944::::query::::"value"	0.0
+1129	org.jsoup.nodes.Element::::213::::6940::::6944::::query::::"textarea"	0.0
+1130	org.jsoup.nodes.Element::::213::::6940::::6944::::query::::"id"	0.0
+1131	org.jsoup.nodes.Element::::213::::6940::::6944::::query::::"class"	0.0
+1132	org.jsoup.nodes.Element::::213::::6940::::6944::::query::::"br"	0.0
+1133	org.jsoup.nodes.Element::::213::::6940::::6944::::query::::"\\s+"	0.0
+1134	org.jsoup.nodes.Element::::213::::6940::::6944::::query::::"Tag name must not be empty."	0.0
+1135	org.jsoup.nodes.Element::::213::::6940::::6944::::query::::"Pattern syntax error: "	0.0
+1136	org.jsoup.nodes.Element::::213::::6940::::6944::::query::::">"	0.0
+1137	org.jsoup.nodes.Element::::213::::6940::::6944::::query::::"</"	0.0
+1138	org.jsoup.nodes.Element::::213::::6940::::6944::::query::::"<"	0.0
+1139	org.jsoup.nodes.Element::::213::::6940::::6944::::query::::"#root"	0.0
+1140	org.jsoup.nodes.Element::::213::::6940::::6944::::query::::""	0.0
+1141	org.jsoup.nodes.Element::::213::::6940::::6944::::query::::" />"	0.0
+1142	org.jsoup.nodes.Element::::213::::6940::::6944::::query::::" "	0.0
+1143	org.jsoup.nodes.Element::::213::::6917::::6952::::return org.jsoup.select.Selector.select(query, this)::::INSERT::::STATEMENT::::if ((parent()) == null)    return 0;	0.0
+1144	org.jsoup.nodes.Element::::142::::4197::::4224::::return ((org.jsoup.nodes.Element) (parentNode))::::INSERT::::STATEMENT::::if ((parent()) == null)    return 0;	0.0
+1145	org.jsoup.nodes.Element::::142::::4197::::4224::::return ((org.jsoup.nodes.Element) (parentNode))::::INSERT::::STATEMENT::::empty()	0.0
+1146	org.jsoup.nodes.Element::::109::::2984::::2985::::id::::text()	0.0
+1147	org.jsoup.nodes.Element::::109::::2984::::2985::::id::::tagName()	0.0
+1148	org.jsoup.nodes.Element::::109::::2984::::2985::::id::::id == null ? "" : id	0.0
+1149	org.jsoup.nodes.Element::::109::::2984::::2985::::id::::className()	0.0
+1150	org.jsoup.nodes.Element::::109::::2984::::2985::::id::::"value"	0.0
+1151	org.jsoup.nodes.Element::::109::::2984::::2985::::id::::"textarea"	0.0
+1152	org.jsoup.nodes.Element::::109::::2984::::2985::::id::::"id"	0.0
+1153	org.jsoup.nodes.Element::::109::::2984::::2985::::id::::"class"	0.0
+1154	org.jsoup.nodes.Element::::109::::2984::::2985::::id::::"br"	0.0
+1155	org.jsoup.nodes.Element::::109::::2984::::2985::::id::::"\\s+"	0.0
+1156	org.jsoup.nodes.Element::::109::::2984::::2985::::id::::"Tag name must not be empty."	0.0
+1157	org.jsoup.nodes.Element::::109::::2984::::2985::::id::::"Pattern syntax error: "	0.0
+1158	org.jsoup.nodes.Element::::109::::2984::::2985::::id::::">"	0.0
+1159	org.jsoup.nodes.Element::::109::::2984::::2985::::id::::"</"	0.0
+1160	org.jsoup.nodes.Element::::109::::2984::::2985::::id::::"<"	0.0
+1161	org.jsoup.nodes.Element::::109::::2984::::2985::::id::::"#root"	0.0
+1162	org.jsoup.nodes.Element::::109::::2984::::2985::::id::::""	0.0
+1163	org.jsoup.nodes.Element::::109::::2984::::2985::::id::::" />"	0.0
+1164	org.jsoup.nodes.Element::::109::::2984::::2985::::id::::" "	0.0
+1165	org.jsoup.nodes.Element::::109::::2966::::2985::::id == null ? "" : id::::text()	0.0
+1166	org.jsoup.nodes.Element::::109::::2966::::2985::::id == null ? "" : id::::tagName()	0.0
+1167	org.jsoup.nodes.Element::::109::::2966::::2985::::id == null ? "" : id::::className()	0.0
+1168	org.jsoup.nodes.Element::::109::::2966::::2985::::id == null ? "" : id::::"value"	0.0
+1169	org.jsoup.nodes.Element::::109::::2966::::2985::::id == null ? "" : id::::"textarea"	0.0
+1170	org.jsoup.nodes.Element::::109::::2966::::2985::::id == null ? "" : id::::"id"	0.0
+1171	org.jsoup.nodes.Element::::109::::2966::::2985::::id == null ? "" : id::::"class"	0.0
+1172	org.jsoup.nodes.Element::::109::::2966::::2985::::id == null ? "" : id::::"br"	0.0
+1173	org.jsoup.nodes.Element::::109::::2966::::2985::::id == null ? "" : id::::"\\s+"	0.0
+1174	org.jsoup.nodes.Element::::109::::2966::::2985::::id == null ? "" : id::::"Tag name must not be empty."	0.0
+1175	org.jsoup.nodes.Element::::109::::2966::::2985::::id == null ? "" : id::::"Pattern syntax error: "	0.0
+1176	org.jsoup.nodes.Element::::109::::2966::::2985::::id == null ? "" : id::::">"	0.0
+1177	org.jsoup.nodes.Element::::109::::2966::::2985::::id == null ? "" : id::::"</"	0.0
+1178	org.jsoup.nodes.Element::::109::::2966::::2985::::id == null ? "" : id::::"<"	0.0
+1179	org.jsoup.nodes.Element::::109::::2966::::2985::::id == null ? "" : id::::"#root"	0.0
+1180	org.jsoup.nodes.Element::::109::::2966::::2985::::id == null ? "" : id::::""	0.0
+1181	org.jsoup.nodes.Element::::109::::2966::::2985::::id == null ? "" : id::::" />"	0.0
+1182	org.jsoup.nodes.Element::::109::::2966::::2985::::id == null ? "" : id::::" "	0.0
+1183	org.jsoup.nodes.Element::::109::::2966::::2975::::id == null::::true	0.0
+1184	org.jsoup.nodes.Element::::109::::2966::::2975::::id == null::::tag.preserveWhitespace()	0.0
+1185	org.jsoup.nodes.Element::::109::::2966::::2975::::id == null::::tag.isBlock()	0.0
+1186	org.jsoup.nodes.Element::::109::::2966::::2975::::id == null::::preserveWhitespace()	0.0
+1187	org.jsoup.nodes.Element::::109::::2966::::2975::::id == null::::false	0.0
+1188	org.jsoup.nodes.Element::::109::::2966::::2975::::id == null::::(tag) != null	0.0
+1189	org.jsoup.nodes.Element::::109::::2966::::2975::::id == null::::(parent()) == null	0.0
+1190	org.jsoup.nodes.Element::::109::::2966::::2975::::id == null::::(parent()) != null	0.0
+1191	org.jsoup.nodes.Element::::109::::2966::::2975::::id == null::::(classNames) == null	0.0
+1192	org.jsoup.nodes.Element::::109::::2966::::2975::::id == null::::!(preserveWhitespace())	0.0
+1193	org.jsoup.nodes.Element::::109::::2966::::2967::::id::::text()	0.0
+1194	org.jsoup.nodes.Element::::109::::2966::::2967::::id::::tagName()	0.0
+1195	org.jsoup.nodes.Element::::109::::2966::::2967::::id::::id == null ? "" : id	0.0
+1196	org.jsoup.nodes.Element::::109::::2966::::2967::::id::::className()	0.0
+1197	org.jsoup.nodes.Element::::109::::2966::::2967::::id::::"value"	0.0
+1198	org.jsoup.nodes.Element::::109::::2966::::2967::::id::::"textarea"	0.0
+1199	org.jsoup.nodes.Element::::109::::2966::::2967::::id::::"id"	0.0
+1200	org.jsoup.nodes.Element::::109::::2966::::2967::::id::::"class"	0.0
+1201	org.jsoup.nodes.Element::::109::::2966::::2967::::id::::"br"	0.0
+1202	org.jsoup.nodes.Element::::109::::2966::::2967::::id::::"\\s+"	0.0
+1203	org.jsoup.nodes.Element::::109::::2966::::2967::::id::::"Tag name must not be empty."	0.0
+1204	org.jsoup.nodes.Element::::109::::2966::::2967::::id::::"Pattern syntax error: "	0.0
+1205	org.jsoup.nodes.Element::::109::::2966::::2967::::id::::">"	0.0
+1206	org.jsoup.nodes.Element::::109::::2966::::2967::::id::::"</"	0.0
+1207	org.jsoup.nodes.Element::::109::::2966::::2967::::id::::"<"	0.0
+1208	org.jsoup.nodes.Element::::109::::2966::::2967::::id::::"#root"	0.0
+1209	org.jsoup.nodes.Element::::109::::2966::::2967::::id::::""	0.0
+1210	org.jsoup.nodes.Element::::109::::2966::::2967::::id::::" />"	0.0
+1211	org.jsoup.nodes.Element::::109::::2966::::2967::::id::::" "	0.0
+1212	org.jsoup.nodes.Element::::109::::2959::::2986::::return id == null ? "" : id::::INSERT::::STATEMENT::::if ((parent()) == null)    return 0;	0.0
+1213	org.jsoup.nodes.Element::::108::::2927::::2949::::java.lang.String id = attr("id")::::INSERT::::STATEMENT::::if ((parent()) == null)    return 0;	0.0
+1214	org.jsoup.nodes.Document::::27::::706::::712::::baseUri::::"title"	0.0
+1215	org.jsoup.nodes.Document::::27::::706::::712::::baseUri::::"html"	0.0
+1216	org.jsoup.nodes.Document::::27::::706::::712::::baseUri::::"head"	0.0
+1217	org.jsoup.nodes.Document::::27::::706::::712::::baseUri::::"body"	0.0
+1218	org.jsoup.nodes.Document::::27::::706::::712::::baseUri::::"UTF-8"	0.0
+1219	org.jsoup.nodes.Document::::27::::706::::712::::baseUri::::"#root"	0.0
+1220	org.jsoup.nodes.Document::::27::::706::::712::::baseUri::::"#document"	0.0
+1221	org.jsoup.nodes.Document::::27::::706::::712::::baseUri::::""	0.0
+1222	org.jsoup.nodes.Document::::27::::706::::712::::baseUri::::" "	0.0
+1223	org.jsoup.nodes.Document::::211::::6837::::6840::::true::::prettyPrint	0.0
+1224	org.jsoup.nodes.Document::::211::::6837::::6840::::true::::indentAmount >= 0	0.0
+1225	org.jsoup.nodes.Document::::208::::6643::::6666::::org.jsoup.nodes.Entities.EscapeMode.base::::this.escapeMode	0.0
+1226	org.jsoup.nodes.Document::::208::::6643::::6666::::org.jsoup.nodes.Entities.EscapeMode.base::::escapeMode	0.0
+1227	org.jsoup.nodes.Document::::18::::463::::481::::org.jsoup.nodes.Document.QuirksMode.noQuirks::::this.quirksMode	0.0
+1228	org.jsoup.nodes.Document::::18::::463::::481::::org.jsoup.nodes.Document.QuirksMode.noQuirks::::quirksMode	0.0
+1229	org.jsoup.nodes.Document::::18::::463::::481::::org.jsoup.nodes.Document.QuirksMode.noQuirks::::new org.jsoup.nodes.Document.QuirksMode()	0.0
+1230	org.jsoup.nodes.Attributes::::87::::2485::::2493::::return 0::::INSERT::::STATEMENT::::put(attr)	0.0
+1231	org.jsoup.nodes.Attributes::::86::::2453::::2470::::(attributes) == null::::true	0.0
+1232	org.jsoup.nodes.Attributes::::86::::2453::::2470::::(attributes) == null::::false	0.0
+1233	org.jsoup.nodes.Attributes::::86::::2453::::2470::::(attributes) == null::::attrIter.hasNext()	0.0
+1234	org.jsoup.nodes.Attributes::::86::::2453::::2470::::(attributes) == null::::attr != null	0.0
+1235	org.jsoup.nodes.Attributes::::86::::2453::::2462::::attributes::::new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(attributes.size())	0.0
+1236	org.jsoup.nodes.Attributes::::86::::2453::::2462::::attributes::::new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2)	0.0
+1237	org.jsoup.nodes.Attributes::::78::::2309::::2311::::key::::html()	0.0
+1238	org.jsoup.nodes.Attributes::::78::::2309::::2311::::key::::"data-"	0.0
+1239	org.jsoup.nodes.Attributes::::78::::2264::::2326::::(attributes) != null) && (attributes.containsKey(key.toLowerCase())::::true	0.0
+1240	org.jsoup.nodes.Attributes::::78::::2264::::2326::::(attributes) != null) && (attributes.containsKey(key.toLowerCase())::::false	0.0
+1241	org.jsoup.nodes.Attributes::::78::::2264::::2326::::(attributes) != null) && (attributes.containsKey(key.toLowerCase())::::attrIter.hasNext()	0.0
+1242	org.jsoup.nodes.Attributes::::78::::2264::::2326::::(attributes) != null) && (attributes.containsKey(key.toLowerCase())::::attr != null	0.0
+1243	org.jsoup.nodes.Attributes::::78::::2264::::2326::::(attributes) != null) && (attributes.containsKey(key.toLowerCase())::::(attributes) != null	0.0
+1244	org.jsoup.nodes.Attributes::::78::::2264::::2281::::(attributes) != null::::true	0.0
+1245	org.jsoup.nodes.Attributes::::78::::2264::::2281::::(attributes) != null::::false	0.0
+1246	org.jsoup.nodes.Attributes::::78::::2264::::2281::::(attributes) != null::::attrIter.hasNext()	0.0
+1247	org.jsoup.nodes.Attributes::::78::::2264::::2281::::(attributes) != null::::attr != null	0.0
+1248	org.jsoup.nodes.Attributes::::78::::2264::::2273::::attributes::::new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(attributes.size())	0.0
+1249	org.jsoup.nodes.Attributes::::78::::2264::::2273::::attributes::::new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2)	0.0
+1250	org.jsoup.nodes.Attributes::::58::::1727::::1736::::attributes::::new org.jsoup.nodes.Attributes.Dataset()	0.0
+1251	org.jsoup.nodes.Attributes::::57::::1665::::1717::::attributes = new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2)::::INSERT::::STATEMENT::::put(attr)	0.0
+1252	org.jsoup.nodes.Attributes::::57::::1665::::1674::::attributes::::new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(attributes.size())	0.0
+1253	org.jsoup.nodes.Attributes::::57::::1665::::1674::::attributes::::new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2)	0.0
+1254	org.jsoup.nodes.Attributes::::56::::1632::::1649::::(attributes) == null::::true	0.0
+1255	org.jsoup.nodes.Attributes::::56::::1632::::1649::::(attributes) == null::::false	0.0
+1256	org.jsoup.nodes.Attributes::::56::::1632::::1649::::(attributes) == null::::attrIter.hasNext()	0.0
+1257	org.jsoup.nodes.Attributes::::56::::1632::::1649::::(attributes) == null::::attr != null	0.0
+1258	org.jsoup.nodes.Attributes::::56::::1632::::1641::::attributes::::new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(attributes.size())	0.0
+1259	org.jsoup.nodes.Attributes::::56::::1632::::1641::::attributes::::new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2)	0.0
+1260	org.jsoup.nodes.Attributes::::37::::1120::::1154::::attr != null ? attr.getValue() : ""::::org.jsoup.nodes.Attributes.dataPrefix	0.0
+1261	org.jsoup.nodes.Attributes::::37::::1120::::1154::::attr != null ? attr.getValue() : ""::::org.jsoup.nodes.Attributes.dataKey(key)	0.0
+1262	org.jsoup.nodes.Attributes::::37::::1120::::1154::::attr != null ? attr.getValue() : ""::::key	0.0
+1263	org.jsoup.nodes.Attributes::::37::::1120::::1154::::attr != null ? attr.getValue() : ""::::html()	0.0
+1264	org.jsoup.nodes.Attributes::::37::::1120::::1154::::attr != null ? attr.getValue() : ""::::(org.jsoup.nodes.Attributes.dataPrefix) + key	0.0
+1265	org.jsoup.nodes.Attributes::::37::::1120::::1154::::attr != null ? attr.getValue() : ""::::"data-"	0.0
+1266	org.jsoup.nodes.Attributes::::37::::1120::::1154::::attr != null ? attr.getValue() : ""::::""	0.0
+1267	org.jsoup.nodes.Attributes::::37::::1120::::1154::::attr != null ? attr.getValue() : ""::::" "	0.0
+1268	org.jsoup.nodes.Attributes::::37::::1120::::1131::::attr != null::::true	0.0
+1269	org.jsoup.nodes.Attributes::::37::::1120::::1131::::attr != null::::false	0.0
+1270	org.jsoup.nodes.Attributes::::37::::1120::::1131::::attr != null::::attrIter.hasNext()	0.0
+1271	org.jsoup.nodes.Attributes::::37::::1120::::1131::::attr != null::::(attributes) == null	0.0
+1272	org.jsoup.nodes.Attributes::::37::::1120::::1131::::attr != null::::(attributes) != null	0.0
+1273	org.jsoup.nodes.Attributes::::36::::1085::::1087::::key::::html()	0.0
+1274	org.jsoup.nodes.Attributes::::36::::1085::::1087::::key::::"data-"	0.0
+1275	org.jsoup.nodes.Attributes::::33::::1001::::1018::::(attributes) == null::::true	0.0
+1276	org.jsoup.nodes.Attributes::::33::::1001::::1018::::(attributes) == null::::false	0.0
+1277	org.jsoup.nodes.Attributes::::33::::1001::::1018::::(attributes) == null::::attrIter.hasNext()	0.0
+1278	org.jsoup.nodes.Attributes::::33::::1001::::1018::::(attributes) == null::::attr != null	0.0
+1279	org.jsoup.nodes.Attributes::::33::::1001::::1010::::attributes::::new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(attributes.size())	0.0
+1280	org.jsoup.nodes.Attributes::::33::::1001::::1010::::attributes::::new java.util.LinkedHashMap<java.lang.String, org.jsoup.nodes.Attribute>(2)	0.0
+1281	org.jsoup.nodes.Attributes::::31::::982::::984::::key::::org.jsoup.nodes.Attributes.dataKey(key)	0.0
+1282	org.jsoup.nodes.Attributes::::31::::982::::984::::key::::html()	0.0
+1283	org.jsoup.nodes.Attributes::::31::::982::::984::::key::::"data-"	0.0
+1284	org.jsoup.nodes.Attributes::::31::::982::::984::::key::::""	0.0
+1285	org.jsoup.nodes.Attributes::::31::::982::::984::::key::::" "	0.0
+1286	org.jsoup.nodes.Attribute::::50::::1232::::1236::::value::::this.value	0.0
+1287	org.jsoup.nodes.Attribute::::50::::1232::::1236::::value::::html()	0.0
+1288	org.jsoup.nodes.Attribute::::50::::1232::::1236::::value::::"\""	0.0
+1289	org.jsoup.nodes.Attribute::::50::::1232::::1236::::value::::"=\""	0.0
+1290	org.jsoup.nodes.Attribute::::50::::1232::::1236::::value::::""	0.0
+1291	org.jsoup.nodes.Attribute::::33::::837::::839::::key::::this.key	0.0
+1292	org.jsoup.nodes.Attribute::::33::::837::::839::::key::::html()	0.0
+1293	org.jsoup.nodes.Attribute::::33::::837::::839::::key::::(key) + "=\""	0.0
+1294	org.jsoup.nodes.Attribute::::33::::837::::839::::key::::"\""	0.0
+1295	org.jsoup.nodes.Attribute::::33::::837::::839::::key::::"=\""	0.0
+1296	org.jsoup.nodes.Attribute::::33::::837::::839::::key::::""	0.0
+1297	org.jsoup.nodes.Attribute::::25::::704::::708::::value::::this.value	0.0
+1298	org.jsoup.nodes.Attribute::::25::::704::::708::::value::::html()	0.0
+1299	org.jsoup.nodes.Attribute::::25::::704::::708::::value::::"\""	0.0
+1300	org.jsoup.nodes.Attribute::::25::::704::::708::::value::::"=\""	0.0
+1301	org.jsoup.nodes.Attribute::::25::::704::::708::::value::::""	0.0
+1302	org.jsoup.nodes.Attribute::::25::::691::::700::::this.value::::value	0.0
+1303	org.jsoup.nodes.Attribute::::25::::691::::700::::this.value::::html()	0.0
+1304	org.jsoup.nodes.Attribute::::25::::691::::700::::this.value::::"\""	0.0
+1305	org.jsoup.nodes.Attribute::::25::::691::::700::::this.value::::"=\""	0.0
+1306	org.jsoup.nodes.Attribute::::25::::691::::700::::this.value::::""	0.0
+1307	org.jsoup.nodes.Attribute::::24::::657::::659::::key::::html()	0.0
+1308	org.jsoup.nodes.Attribute::::24::::646::::681::::this.key = key.trim().toLowerCase()::::this.value = value	0.0
+1309	org.jsoup.nodes.Attribute::::24::::646::::653::::this.key::::key	0.0
+1310	org.jsoup.nodes.Attribute::::24::::646::::653::::this.key::::html()	0.0
+1311	org.jsoup.nodes.Attribute::::24::::646::::653::::this.key::::(key) + "=\""	0.0
+1312	org.jsoup.nodes.Attribute::::24::::646::::653::::this.key::::"\""	0.0
+1313	org.jsoup.nodes.Attribute::::24::::646::::653::::this.key::::"=\""	0.0
+1314	org.jsoup.nodes.Attribute::::24::::646::::653::::this.key::::""	0.0
+1315	org.jsoup.nodes.Attribute::::23::::630::::634::::value::::this.value	0.0
+1316	org.jsoup.nodes.Attribute::::23::::630::::634::::value::::html()	0.0
+1317	org.jsoup.nodes.Attribute::::23::::630::::634::::value::::"\""	0.0
+1318	org.jsoup.nodes.Attribute::::23::::630::::634::::value::::"=\""	0.0
+1319	org.jsoup.nodes.Attribute::::23::::630::::634::::value::::""	0.0
+1320	org.jsoup.nodes.Attribute::::22::::599::::601::::key::::this.key	0.0
+1321	org.jsoup.nodes.Attribute::::22::::599::::601::::key::::html()	0.0
+1322	org.jsoup.nodes.Attribute::::22::::599::::601::::key::::(key) + "=\""	0.0
+1323	org.jsoup.nodes.Attribute::::22::::599::::601::::key::::"\""	0.0
+1324	org.jsoup.nodes.Attribute::::22::::599::::601::::key::::"=\""	0.0
+1325	org.jsoup.nodes.Attribute::::22::::599::::601::::key::::""	0.0

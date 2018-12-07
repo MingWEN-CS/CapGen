@@ -1,0 +1,5 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+3533	array	T[]	param	10	define	org.mockito.internal.util.collections.ArrayUtils.isEmpty	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_3_buggy/src/org/mockito/internal/util/collections/ArrayUtils.java	10	12
+3533	array	T[]	param	11	use	org.mockito.internal.util.collections.ArrayUtils.isEmpty	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_3_buggy/src/org/mockito/internal/util/collections/ArrayUtils.java	10	12
+3533	array	T[]	param	11	use	org.mockito.internal.util.collections.ArrayUtils.isEmpty	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_3_buggy/src/org/mockito/internal/util/collections/ArrayUtils.java	10	12
+3539	length		variable	11	use	org.mockito.internal.util.collections.ArrayUtils.isEmpty	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_3_buggy/src/org/mockito/internal/util/collections/ArrayUtils.java	10	12

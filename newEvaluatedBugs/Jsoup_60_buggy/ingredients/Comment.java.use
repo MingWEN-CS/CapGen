@@ -1,0 +1,18 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+18394	data	String	param	15	define	org.jsoup.nodes.Comment.Comment	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/Comment.java	15	18
+18393	baseUri	String	param	15	define	org.jsoup.nodes.Comment.Comment	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/Comment.java	15	18
+18393	baseUri	String	param	16	use	org.jsoup.nodes.Comment.Comment	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/Comment.java	15	18
+18394	data	String	param	17	use	org.jsoup.nodes.Comment.Comment	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/Comment.java	15	18
+18410	Comment.COMMENT_KEY	String	variable	17	use	org.jsoup.nodes.Comment.Comment	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/Comment.java	15	18
+18410	Comment.COMMENT_KEY	String	variable	29	use	org.jsoup.nodes.Comment.getData	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/Comment.java	28	30
+18401	accum	StringBuilder	param	32	define	org.jsoup.nodes.Comment.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/Comment.java	32	39
+18402	depth	int	param	32	define	org.jsoup.nodes.Comment.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/Comment.java	32	39
+18403	out	Document.OutputSettings	param	32	define	org.jsoup.nodes.Comment.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/Comment.java	32	39
+18403	out	Document.OutputSettings	param	33	use	org.jsoup.nodes.Comment.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/Comment.java	32	39
+18401	accum	StringBuilder	param	34	use	org.jsoup.nodes.Comment.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/Comment.java	32	39
+18402	depth	int	param	34	use	org.jsoup.nodes.Comment.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/Comment.java	32	39
+18403	out	Document.OutputSettings	param	34	use	org.jsoup.nodes.Comment.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/Comment.java	32	39
+18401	accum	StringBuilder	param	35	use	org.jsoup.nodes.Comment.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/Comment.java	32	39
+18405	accum	StringBuilder	param	41	define	org.jsoup.nodes.Comment.outerHtmlTail	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/Comment.java	41	41
+18406	depth	int	param	41	define	org.jsoup.nodes.Comment.outerHtmlTail	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/Comment.java	41	41
+18407	out	Document.OutputSettings	param	41	define	org.jsoup.nodes.Comment.outerHtmlTail	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/Comment.java	41	41

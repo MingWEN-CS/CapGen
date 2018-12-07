@@ -1,0 +1,21 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+12285	encodedData	String	param	48	define	org.jsoup.nodes.DataNode.createFromEncoded	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/DataNode.java	48	51
+12283	baseUri	String	param	48	define	org.jsoup.nodes.DataNode.createFromEncoded	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/DataNode.java	48	51
+12285	encodedData	String	param	49	use	org.jsoup.nodes.DataNode.createFromEncoded	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/DataNode.java	48	51
+12283	baseUri	String	param	50	use	org.jsoup.nodes.DataNode.createFromEncoded	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/DataNode.java	48	51
+12284	data	String	variable	49	define	org.jsoup.nodes.DataNode.createFromEncoded	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/DataNode.java	48	51
+12284	data	String	variable	49	set	org.jsoup.nodes.DataNode.createFromEncoded	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/DataNode.java	48	51
+12284	data	String	variable	50	use	org.jsoup.nodes.DataNode.createFromEncoded	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/DataNode.java	48	51
+12280	data	String	param	15	define	org.jsoup.nodes.DataNode.DataNode	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/DataNode.java	15	18
+12279	baseUri	String	param	15	define	org.jsoup.nodes.DataNode.DataNode	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/DataNode.java	15	18
+12279	baseUri	String	param	16	use	org.jsoup.nodes.DataNode.DataNode	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/DataNode.java	15	18
+12280	data	String	param	17	use	org.jsoup.nodes.DataNode.DataNode	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/DataNode.java	15	18
+12299	DataNode.DATA_KEY	String	variable	17	use	org.jsoup.nodes.DataNode.DataNode	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/DataNode.java	15	18
+12299	DataNode.DATA_KEY	String	variable	29	use	org.jsoup.nodes.DataNode.getWholeData	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/DataNode.java	28	30
+12290	accum	StringBuilder	param	32	define	org.jsoup.nodes.DataNode.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/DataNode.java	32	34
+12291	depth	int	param	32	define	org.jsoup.nodes.DataNode.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/DataNode.java	32	34
+12292	out	Document.OutputSettings	param	32	define	org.jsoup.nodes.DataNode.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/DataNode.java	32	34
+12290	accum	StringBuilder	param	33	use	org.jsoup.nodes.DataNode.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/DataNode.java	32	34
+12294	accum	StringBuilder	param	36	define	org.jsoup.nodes.DataNode.outerHtmlTail	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/DataNode.java	36	36
+12295	depth	int	param	36	define	org.jsoup.nodes.DataNode.outerHtmlTail	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/DataNode.java	36	36
+12296	out	Document.OutputSettings	param	36	define	org.jsoup.nodes.DataNode.outerHtmlTail	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/DataNode.java	36	36

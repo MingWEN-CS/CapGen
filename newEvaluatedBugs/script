@@ -1,0 +1,12 @@
+#!/bin/bash
+for i in `seq 1 38`;
+do 
+	filename="Mockito_"$i"_buggy"
+	eval "mkdir "$filename
+#	cd $filename
+	eval "cp -r ../newBugs/"$filename"/faultSpace ./"$filename
+	eval "cp -r ../newBugs/"$filename"/mutated ./"$filename
+	eval "cp -r ../newBugs/"$filename"/ingredients ./"$filename
+#	cd ..
+
+done

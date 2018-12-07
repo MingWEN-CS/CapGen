@@ -1,0 +1,10 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+9866	invocation	InvocationOnMock	param	21	define	org.mockito.internal.stubbing.answers.Returns.answer	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_34_buggy/src/org/mockito/internal/stubbing/answers/Returns.java	21	23
+9872	Returns.value	Object	variable	22	use	org.mockito.internal.stubbing.answers.Returns.answer	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_34_buggy/src/org/mockito/internal/stubbing/answers/Returns.java	21	23
+9872	Returns.value	Object	variable	30	use	org.mockito.internal.stubbing.answers.Returns.getReturnType	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_34_buggy/src/org/mockito/internal/stubbing/answers/Returns.java	29	31
+9872	Returns.value	Object	variable	26	use	org.mockito.internal.stubbing.answers.Returns.printReturnType	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_34_buggy/src/org/mockito/internal/stubbing/answers/Returns.java	25	27
+9864	value	Object	param	17	define	org.mockito.internal.stubbing.answers.Returns.Returns	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_34_buggy/src/org/mockito/internal/stubbing/answers/Returns.java	17	19
+9864	value	Object	param	18	use	org.mockito.internal.stubbing.answers.Returns.Returns	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_34_buggy/src/org/mockito/internal/stubbing/answers/Returns.java	17	19
+9872	Returns.value	Object	variable	18	set	org.mockito.internal.stubbing.answers.Returns.Returns	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_34_buggy/src/org/mockito/internal/stubbing/answers/Returns.java	17	19
+9872	Returns.value	Object	variable	34	use	org.mockito.internal.stubbing.answers.Returns.returnsNull	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_34_buggy/src/org/mockito/internal/stubbing/answers/Returns.java	33	35
+9872	Returns.value	Object	variable	39	use	org.mockito.internal.stubbing.answers.Returns.toString	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_34_buggy/src/org/mockito/internal/stubbing/answers/Returns.java	38	40

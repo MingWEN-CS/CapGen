@@ -1,0 +1,10 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+15782	type	Class<?>	param	12	define	org.mockito.internal.util.Primitives.isPrimitiveWrapper	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/Primitives.java	12	14
+15782	type	Class<?>	param	13	use	org.mockito.internal.util.Primitives.isPrimitiveWrapper	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/Primitives.java	12	14
+15788	Primitives.wrapperReturnValues	Map<Class,Object>	variable	13	use	org.mockito.internal.util.Primitives.isPrimitiveWrapper	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/Primitives.java	12	14
+15784	clazz	Class<?>	param	20	define	org.mockito.internal.util.Primitives.primitiveTypeOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/Primitives.java	20	22
+15784	clazz	Class<?>	param	21	use	org.mockito.internal.util.Primitives.primitiveTypeOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/Primitives.java	20	22
+15787	Primitives.primitiveTypes	Map<Class,Class>	variable	21	use	org.mockito.internal.util.Primitives.primitiveTypeOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/Primitives.java	20	22
+15786	type	Class<?>	param	16	define	org.mockito.internal.util.Primitives.primitiveWrapperOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/Primitives.java	16	18
+15786	type	Class<?>	param	17	use	org.mockito.internal.util.Primitives.primitiveWrapperOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/Primitives.java	16	18
+15788	Primitives.wrapperReturnValues	Map<Class,Object>	variable	17	use	org.mockito.internal.util.Primitives.primitiveWrapperOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/Primitives.java	16	18

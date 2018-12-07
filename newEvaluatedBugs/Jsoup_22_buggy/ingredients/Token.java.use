@@ -1,0 +1,112 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+26281	Token.type	TokenType	variable	239	set	org.jsoup.parser.Token.Character.Character	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	237	240
+26259	TokenType.Character		variable	239	use	org.jsoup.parser.Token.Character.Character	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	237	240
+26184	data	String	param	248	define	org.jsoup.parser.Token.Character.data	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	248	251
+26184	data	String	param	249	use	org.jsoup.parser.Token.Character.data	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	248	251
+26188	Character.data	String	variable	249	set	org.jsoup.parser.Token.Character.data	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	248	251
+26188	Character.data	String	variable	254	use	org.jsoup.parser.Token.Character.getData	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	253	255
+26188	Character.data	String	variable	244	set	org.jsoup.parser.Token.Character.reset	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	243	246
+26281	Token.type	TokenType	variable	221	set	org.jsoup.parser.Token.Comment.Comment	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	220	222
+26260	TokenType.Comment		variable	221	use	org.jsoup.parser.Token.Comment.Comment	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	220	222
+26195	Comment.data	StringBuilder	variable	225	use	org.jsoup.parser.Token.Comment.getData	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	224	226
+26194	Comment.bogus	boolean	variable	216	set	org.jsoup.parser.Token.Comment.reset	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	214	218
+26195	Comment.data	StringBuilder	variable	215	use	org.jsoup.parser.Token.Comment.reset	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	214	218
+26281	Token.type	TokenType	variable	39	set	org.jsoup.parser.Token.Doctype.Doctype	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	38	40
+26261	TokenType.Doctype		variable	39	use	org.jsoup.parser.Token.Doctype.Doctype	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	38	40
+26204	Doctype.name	StringBuilder	variable	52	use	org.jsoup.parser.Token.Doctype.getName	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	51	53
+26205	Doctype.publicIdentifier	StringBuilder	variable	56	use	org.jsoup.parser.Token.Doctype.getPublicIdentifier	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	55	57
+26206	Doctype.systemIdentifier	StringBuilder	variable	60	use	org.jsoup.parser.Token.Doctype.getSystemIdentifier	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	59	61
+26203	Doctype.forceQuirks	boolean	variable	64	use	org.jsoup.parser.Token.Doctype.isForceQuirks	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	63	65
+26203	Doctype.forceQuirks	boolean	variable	47	set	org.jsoup.parser.Token.Doctype.reset	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	43	49
+26204	Doctype.name	StringBuilder	variable	44	use	org.jsoup.parser.Token.Doctype.reset	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	43	49
+26205	Doctype.publicIdentifier	StringBuilder	variable	45	use	org.jsoup.parser.Token.Doctype.reset	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	43	49
+26206	Doctype.systemIdentifier	StringBuilder	variable	46	use	org.jsoup.parser.Token.Doctype.reset	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	43	49
+26281	Token.type	TokenType	variable	200	set	org.jsoup.parser.Token.EndTag.EndTag	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	198	201
+26263	TokenType.EndTag		variable	200	use	org.jsoup.parser.Token.EndTag.EndTag	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	198	201
+26281	Token.type	TokenType	variable	265	set	org.jsoup.parser.Token.EOF.EOF	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	264	266
+26262	TokenType.EOF		variable	265	use	org.jsoup.parser.Token.EOF.EOF	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	264	266
+26217	name	String	param	182	define	org.jsoup.parser.Token.StartTag.nameAttr	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	182	186
+26216	attributes	Attributes	param	182	define	org.jsoup.parser.Token.StartTag.nameAttr	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	182	186
+26217	name	String	param	183	use	org.jsoup.parser.Token.StartTag.nameAttr	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	182	186
+26216	attributes	Attributes	param	184	use	org.jsoup.parser.Token.StartTag.nameAttr	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	182	186
+26254	Tag.tagName	String	variable	183	set	org.jsoup.parser.Token.StartTag.nameAttr	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	182	186
+26249	Tag.attributes	Attributes	variable	184	set	org.jsoup.parser.Token.StartTag.nameAttr	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	182	186
+26249	Tag.attributes	Attributes	variable	177	set	org.jsoup.parser.Token.StartTag.reset	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	175	179
+26249	Tag.attributes	Attributes	variable	170	set	org.jsoup.parser.Token.StartTag.StartTag	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	168	172
+26281	Token.type	TokenType	variable	171	set	org.jsoup.parser.Token.StartTag.StartTag	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	168	172
+26264	TokenType.StartTag		variable	171	use	org.jsoup.parser.Token.StartTag.StartTag	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	168	172
+26249	Tag.attributes	Attributes	variable	190	use	org.jsoup.parser.Token.StartTag.toString	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	189	194
+26249	Tag.attributes	Attributes	variable	190	use	org.jsoup.parser.Token.StartTag.toString	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	189	194
+26249	Tag.attributes	Attributes	variable	191	use	org.jsoup.parser.Token.StartTag.toString	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	189	194
+26224	append	String	param	139	define	org.jsoup.parser.Token.Tag.appendAttributeName	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	139	141
+26224	append	String	param	140	use	org.jsoup.parser.Token.Tag.appendAttributeName	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	139	141
+26224	append	String	param	140	use	org.jsoup.parser.Token.Tag.appendAttributeName	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	139	141
+26251	Tag.pendingAttributeName	String	variable	140	set	org.jsoup.parser.Token.Tag.appendAttributeName	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	139	141
+26251	Tag.pendingAttributeName	String	variable	140	use	org.jsoup.parser.Token.Tag.appendAttributeName	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	139	141
+26251	Tag.pendingAttributeName	String	variable	140	use	org.jsoup.parser.Token.Tag.appendAttributeName	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	139	141
+26226	append	char	param	143	define	org.jsoup.parser.Token.Tag.appendAttributeName	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	143	145
+26226	append	char	param	144	use	org.jsoup.parser.Token.Tag.appendAttributeName	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	143	145
+26230	append	char	param	152	define	org.jsoup.parser.Token.Tag.appendAttributeValue	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	152	155
+26230	append	char	param	154	use	org.jsoup.parser.Token.Tag.appendAttributeValue	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	152	155
+26252	Tag.pendingAttributeValue	StringBuilder	variable	154	use	org.jsoup.parser.Token.Tag.appendAttributeValue	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	152	155
+26228	append	String	param	147	define	org.jsoup.parser.Token.Tag.appendAttributeValue	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	147	150
+26228	append	String	param	149	use	org.jsoup.parser.Token.Tag.appendAttributeValue	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	147	150
+26252	Tag.pendingAttributeValue	StringBuilder	variable	149	use	org.jsoup.parser.Token.Tag.appendAttributeValue	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	147	150
+26232	append	char[]	param	157	define	org.jsoup.parser.Token.Tag.appendAttributeValue	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	157	160
+26232	append	char[]	param	159	use	org.jsoup.parser.Token.Tag.appendAttributeValue	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	157	160
+26252	Tag.pendingAttributeValue	StringBuilder	variable	159	use	org.jsoup.parser.Token.Tag.appendAttributeValue	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	157	160
+26234	append	String	param	131	define	org.jsoup.parser.Token.Tag.appendTagName	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	131	133
+26234	append	String	param	132	use	org.jsoup.parser.Token.Tag.appendTagName	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	131	133
+26234	append	String	param	132	use	org.jsoup.parser.Token.Tag.appendTagName	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	131	133
+26254	Tag.tagName	String	variable	132	set	org.jsoup.parser.Token.Tag.appendTagName	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	131	133
+26254	Tag.tagName	String	variable	132	use	org.jsoup.parser.Token.Tag.appendTagName	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	131	133
+26254	Tag.tagName	String	variable	132	use	org.jsoup.parser.Token.Tag.appendTagName	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	131	133
+26236	append	char	param	135	define	org.jsoup.parser.Token.Tag.appendTagName	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	135	137
+26236	append	char	param	136	use	org.jsoup.parser.Token.Tag.appendTagName	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	135	137
+26250	Tag.hasPendingAttributeValue	boolean	variable	163	set	org.jsoup.parser.Token.Tag.ensureAttributeValue	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	162	164
+26251	Tag.pendingAttributeName	String	variable	105	use	org.jsoup.parser.Token.Tag.finaliseTag	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	103	107
+26249	Tag.attributes	Attributes	variable	127	use	org.jsoup.parser.Token.Tag.getAttributes	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	126	128
+26253	Tag.selfClosing	boolean	variable	122	use	org.jsoup.parser.Token.Tag.isSelfClosing	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	121	123
+26244	name	String	param	116	define	org.jsoup.parser.Token.Tag.name	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	116	119
+26244	name	String	param	117	use	org.jsoup.parser.Token.Tag.name	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	116	119
+26254	Tag.tagName	String	variable	117	set	org.jsoup.parser.Token.Tag.name	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	116	119
+26254	Tag.tagName	String	variable	112	use	org.jsoup.parser.Token.Tag.name	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	111	114
+26254	Tag.tagName	String	variable	112	use	org.jsoup.parser.Token.Tag.name	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	111	114
+26254	Tag.tagName	String	variable	113	use	org.jsoup.parser.Token.Tag.name	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	111	114
+26247	attribute	Attribute	variable	92	define	org.jsoup.parser.Token.Tag.newAttribute	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	87	100
+26249	Tag.attributes	Attributes	variable	89	set	org.jsoup.parser.Token.Tag.newAttribute	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	87	100
+26247	attribute	Attribute	variable	94	set	org.jsoup.parser.Token.Tag.newAttribute	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	87	100
+26247	attribute	Attribute	variable	96	set	org.jsoup.parser.Token.Tag.newAttribute	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	87	100
+26251	Tag.pendingAttributeName	String	variable	99	set	org.jsoup.parser.Token.Tag.newAttribute	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	87	100
+26249	Tag.attributes	Attributes	variable	88	use	org.jsoup.parser.Token.Tag.newAttribute	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	87	100
+26251	Tag.pendingAttributeName	String	variable	91	use	org.jsoup.parser.Token.Tag.newAttribute	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	87	100
+26250	Tag.hasPendingAttributeValue	boolean	variable	93	use	org.jsoup.parser.Token.Tag.newAttribute	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	87	100
+26251	Tag.pendingAttributeName	String	variable	94	use	org.jsoup.parser.Token.Tag.newAttribute	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	87	100
+26251	Tag.pendingAttributeName	String	variable	96	use	org.jsoup.parser.Token.Tag.newAttribute	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	87	100
+26252	Tag.pendingAttributeValue	StringBuilder	variable	96	use	org.jsoup.parser.Token.Tag.newAttribute	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	87	100
+26249	Tag.attributes	Attributes	variable	97	use	org.jsoup.parser.Token.Tag.newAttribute	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	87	100
+26247	attribute	Attribute	variable	97	use	org.jsoup.parser.Token.Tag.newAttribute	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	87	100
+26252	Tag.pendingAttributeValue	StringBuilder	variable	100	use	org.jsoup.parser.Token.Tag.newAttribute	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	87	100
+26254	Tag.tagName	String	variable	78	set	org.jsoup.parser.Token.Tag.reset	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	77	85
+26251	Tag.pendingAttributeName	String	variable	79	set	org.jsoup.parser.Token.Tag.reset	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	77	85
+26250	Tag.hasPendingAttributeValue	boolean	variable	81	set	org.jsoup.parser.Token.Tag.reset	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	77	85
+26253	Tag.selfClosing	boolean	variable	82	set	org.jsoup.parser.Token.Tag.reset	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	77	85
+26249	Tag.attributes	Attributes	variable	83	set	org.jsoup.parser.Token.Tag.reset	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	77	85
+26252	Tag.pendingAttributeValue	StringBuilder	variable	80	use	org.jsoup.parser.Token.Tag.reset	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	77	85
+26281	Token.type	TokenType	variable	307	use	org.jsoup.parser.Token.isCharacter	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	306	308
+26259	TokenType.Character		variable	307	use	org.jsoup.parser.Token.isCharacter	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	306	308
+26281	Token.type	TokenType	variable	299	use	org.jsoup.parser.Token.isComment	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	298	300
+26260	TokenType.Comment		variable	299	use	org.jsoup.parser.Token.isComment	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	298	300
+26281	Token.type	TokenType	variable	275	use	org.jsoup.parser.Token.isDoctype	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	274	276
+26261	TokenType.Doctype		variable	275	use	org.jsoup.parser.Token.isDoctype	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	274	276
+26281	Token.type	TokenType	variable	291	use	org.jsoup.parser.Token.isEndTag	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	290	292
+26263	TokenType.EndTag		variable	291	use	org.jsoup.parser.Token.isEndTag	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	290	292
+26281	Token.type	TokenType	variable	315	use	org.jsoup.parser.Token.isEOF	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	314	316
+26262	TokenType.EOF		variable	315	use	org.jsoup.parser.Token.isEOF	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	314	316
+26281	Token.type	TokenType	variable	283	use	org.jsoup.parser.Token.isStartTag	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	282	284
+26264	TokenType.StartTag		variable	283	use	org.jsoup.parser.Token.isStartTag	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	282	284
+26279	sb	StringBuilder	param	26	define	org.jsoup.parser.Token.reset	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	26	30
+26279	sb	StringBuilder	param	27	use	org.jsoup.parser.Token.reset	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	26	30
+26279	sb	StringBuilder	param	28	use	org.jsoup.parser.Token.reset	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	26	30
+26279	sb	StringBuilder	param	28	use	org.jsoup.parser.Token.reset	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	26	30
+26257	s		param	318	define	org.jsoup.parser.Token.TokenType.valueOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_22_buggy/src/main/java/org/jsoup/parser/Token.java	318	318

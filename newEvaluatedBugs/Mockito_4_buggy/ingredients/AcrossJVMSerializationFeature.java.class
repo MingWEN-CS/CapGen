@@ -1,0 +1,16 @@
+java.lang.reflect.Field:java.lang.reflect.AccessibleObject
+java.lang.reflect.Field:java.lang.reflect.Member
+java.lang.reflect.Method:java.lang.reflect.Executable
+java.util.concurrent.locks.ReentrantLock$Sync:java.util.concurrent.locks.AbstractQueuedSynchronizer
+java.util.concurrent.locks.ReentrantLock$NonfairSync:java.util.concurrent.locks.ReentrantLock$Sync
+java.util.concurrent.locks.ReentrantLock$FairSync:java.util.concurrent.locks.ReentrantLock$Sync
+java.util.concurrent.locks.ReentrantLock:java.io.Serializable
+java.util.concurrent.locks.ReentrantLock:java.util.concurrent.locks.Lock
+org.mockito.exceptions.base.MockitoSerializationIssue:java.io.ObjectStreamException
+org.mockito.internal.creation.cglib.AcrossJVMSerializationFeature$AcrossJVMMockSerializationProxy:java.io.Serializable
+org.mockito.internal.creation.cglib.AcrossJVMSerializationFeature$MockitoMockObjectInputStream:java.io.ObjectInputStream
+org.mockito.internal.creation.cglib.AcrossJVMSerializationFeature$MockitoMockObjectOutputStream:java.io.ObjectOutputStream
+org.mockito.internal.creation.cglib.AcrossJVMSerializationFeature:java.io.Serializable
+org.mockito.internal.creation.settings.CreationSettings:java.io.Serializable
+org.mockito.internal.creation.settings.CreationSettings:org.mockito.mock.MockCreationSettings
+org.mockito.mock.SerializableMode:java.lang.Enum

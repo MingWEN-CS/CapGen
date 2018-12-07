@@ -1,0 +1,19 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+24238	ParseError.errorMsg	String	variable	25	use	org.jsoup.parser.ParseError.getErrorMessage	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_2_buggy/src/main/java/org/jsoup/parser/ParseError.java	24	26
+24239	ParseError.pos	int	variable	33	use	org.jsoup.parser.ParseError.getPosition	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_2_buggy/src/main/java/org/jsoup/parser/ParseError.java	32	34
+24234	pos	int	param	15	define	org.jsoup.parser.ParseError.ParseError	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_2_buggy/src/main/java/org/jsoup/parser/ParseError.java	15	18
+24233	errorFormat	String	param	15	define	org.jsoup.parser.ParseError.ParseError	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_2_buggy/src/main/java/org/jsoup/parser/ParseError.java	15	18
+24232	args	Object...	param	15	define	org.jsoup.parser.ParseError.ParseError	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_2_buggy/src/main/java/org/jsoup/parser/ParseError.java	15	18
+24233	errorFormat	String	param	16	use	org.jsoup.parser.ParseError.ParseError	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_2_buggy/src/main/java/org/jsoup/parser/ParseError.java	15	18
+24232	args	Object...	param	16	use	org.jsoup.parser.ParseError.ParseError	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_2_buggy/src/main/java/org/jsoup/parser/ParseError.java	15	18
+24234	pos	int	param	17	use	org.jsoup.parser.ParseError.ParseError	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_2_buggy/src/main/java/org/jsoup/parser/ParseError.java	15	18
+24238	ParseError.errorMsg	String	variable	16	set	org.jsoup.parser.ParseError.ParseError	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_2_buggy/src/main/java/org/jsoup/parser/ParseError.java	15	18
+24239	ParseError.pos	int	variable	17	set	org.jsoup.parser.ParseError.ParseError	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_2_buggy/src/main/java/org/jsoup/parser/ParseError.java	15	18
+24230	pos	int	param	10	define	org.jsoup.parser.ParseError.ParseError	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_2_buggy/src/main/java/org/jsoup/parser/ParseError.java	10	13
+24229	errorMsg	String	param	10	define	org.jsoup.parser.ParseError.ParseError	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_2_buggy/src/main/java/org/jsoup/parser/ParseError.java	10	13
+24230	pos	int	param	11	use	org.jsoup.parser.ParseError.ParseError	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_2_buggy/src/main/java/org/jsoup/parser/ParseError.java	10	13
+24229	errorMsg	String	param	12	use	org.jsoup.parser.ParseError.ParseError	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_2_buggy/src/main/java/org/jsoup/parser/ParseError.java	10	13
+24239	ParseError.pos	int	variable	11	set	org.jsoup.parser.ParseError.ParseError	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_2_buggy/src/main/java/org/jsoup/parser/ParseError.java	10	13
+24238	ParseError.errorMsg	String	variable	12	set	org.jsoup.parser.ParseError.ParseError	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_2_buggy/src/main/java/org/jsoup/parser/ParseError.java	10	13
+24239	ParseError.pos	int	variable	38	use	org.jsoup.parser.ParseError.toString	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_2_buggy/src/main/java/org/jsoup/parser/ParseError.java	37	39
+24238	ParseError.errorMsg	String	variable	38	use	org.jsoup.parser.ParseError.toString	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_2_buggy/src/main/java/org/jsoup/parser/ParseError.java	37	39

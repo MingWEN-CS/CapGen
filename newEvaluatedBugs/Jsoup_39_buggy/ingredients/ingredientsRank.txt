@@ -1,0 +1,23 @@
+1	org.jsoup.helper.DataUtil::::128::::5727::::5737::::contentType::::org.jsoup.helper.DataUtil.defaultCharset	0.05481609266405538
+2	org.jsoup.helper.DataUtil::::129::::5804::::5814::::contentType::::org.jsoup.helper.DataUtil.defaultCharset	0.053445690347453986
+3	org.jsoup.helper.DataUtil::::130::::5830::::5837::::m.find()::::INSERT::::STATEMENT::::if (contentType == null)    return null;	0.005994674640879186
+4	org.jsoup.helper.DataUtil::::131::::5854::::5906::::return m.group(1).trim().toUpperCase(java.util.Locale.ENGLISH)::::INSERT::::STATEMENT::::if (contentType == null)    return null;	0.005313839016845815
+5	org.jsoup.helper.DataUtil::::128::::5748::::5759::::return null::::INSERT::::STATEMENT::::if (contentType == null)    return null;	0.004853987563464927
+6	org.jsoup.helper.DataUtil::::128::::5723::::5759::::if (contentType == null)    return null;::::INSERT::::STATEMENT::::if (contentType == null)    return null;	0.0028040292437847363
+7	org.jsoup.helper.DataUtil::::129::::5769::::5816::::java.util.regex.Matcher m = org.jsoup.helper.DataUtil.charsetPattern.matcher(contentType)::::INSERT::::STATEMENT::::if (contentType == null)    return null;	0.0022699284354447866
+8	org.jsoup.helper.DataUtil::::130::::5826::::5916::::if (m.find()) {    return m.group(1).trim().toUpperCase(java.util.Locale.ENGLISH);}::::INSERT::::STATEMENT::::if (contentType == null)    return null;	0.0018693528291898241
+9	org.jsoup.helper.DataUtil::::129::::5804::::5814::::contentType::::"meta[http-equiv=content-type], meta[charset]"	0.0
+10	org.jsoup.helper.DataUtil::::129::::5804::::5814::::contentType::::"http-equiv"	0.0
+11	org.jsoup.helper.DataUtil::::129::::5804::::5814::::contentType::::"content"	0.0
+12	org.jsoup.helper.DataUtil::::129::::5804::::5814::::contentType::::"charset"	0.0
+13	org.jsoup.helper.DataUtil::::129::::5804::::5814::::contentType::::"UTF-8"	0.0
+14	org.jsoup.helper.DataUtil::::129::::5804::::5814::::contentType::::"Must set charset arg to character set of file to parse. Set to null to attempt to detect from HTML"	0.0
+15	org.jsoup.helper.DataUtil::::129::::5804::::5814::::contentType::::"(?i)\\bcharset=\\s*\"?([^\\s;\"]*)"	0.0
+16	org.jsoup.helper.DataUtil::::128::::5727::::5745::::contentType == null::::true	0.0
+17	org.jsoup.helper.DataUtil::::128::::5727::::5737::::contentType::::"meta[http-equiv=content-type], meta[charset]"	0.0
+18	org.jsoup.helper.DataUtil::::128::::5727::::5737::::contentType::::"http-equiv"	0.0
+19	org.jsoup.helper.DataUtil::::128::::5727::::5737::::contentType::::"content"	0.0
+20	org.jsoup.helper.DataUtil::::128::::5727::::5737::::contentType::::"charset"	0.0
+21	org.jsoup.helper.DataUtil::::128::::5727::::5737::::contentType::::"UTF-8"	0.0
+22	org.jsoup.helper.DataUtil::::128::::5727::::5737::::contentType::::"Must set charset arg to character set of file to parse. Set to null to attempt to detect from HTML"	0.0
+23	org.jsoup.helper.DataUtil::::128::::5727::::5737::::contentType::::"(?i)\\bcharset=\\s*\"?([^\\s;\"]*)"	0.0

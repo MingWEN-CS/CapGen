@@ -1,0 +1,8 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+1448	invocation	InvocationOnMock	param	89	define	org.mockito.Answers.answer	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_19_buggy/src/org/mockito/Answers.java	89	91
+1448	invocation	InvocationOnMock	param	90	use	org.mockito.Answers.answer	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_19_buggy/src/org/mockito/Answers.java	89	91
+1458	Answers.implementation	Answer<Object>	variable	90	use	org.mockito.Answers.answer	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_19_buggy/src/org/mockito/Answers.java	89	91
+1445	implementation	Answer<Object>	param	76	define	org.mockito.Answers.Answers	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_19_buggy/src/org/mockito/Answers.java	76	78
+1445	implementation	Answer<Object>	param	77	use	org.mockito.Answers.Answers	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_19_buggy/src/org/mockito/Answers.java	76	78
+1458	Answers.implementation	Answer<Object>	variable	77	set	org.mockito.Answers.Answers	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_19_buggy/src/org/mockito/Answers.java	76	78
+1451	s		param	26	define	org.mockito.Answers.valueOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_19_buggy/src/org/mockito/Answers.java	26	26

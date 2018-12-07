@@ -1,0 +1,109 @@
+1	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2167::::2199::::argumentPosition != (org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT)::::argumentPosition != (org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT)) && (argumentPosition < 0	0.256
+2	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::68::::2332::::2347::::argumentPosition::::org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT	0.0984375
+3	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::68::::2325::::2348::::return argumentPosition::::INSERT::::STATEMENT::::returningLastArg()	0.0815
+4	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2204::::2223::::argumentPosition < 0::::argumentPosition != (org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT)	0.08
+5	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2167::::2199::::argumentPosition != (org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT)::::argumentPosition < 0	0.08
+6	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2204::::2219::::argumentPosition::::org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT	0.07941176470588236
+7	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2187::::2199::::org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT::::wantedArgumentPosition	0.07714285714285714
+8	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2204::::2223::::argumentPosition < 0::::argumentPosition != (org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT)) && (argumentPosition < 0	0.07
+9	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2163::::2315::::if ((argumentPosition != (org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT)) && (argumentPosition < 0)) {    new org.mockito.exceptions.Reporter().invalidArgumentRangeAtIdentityAnswerCreationTime();}::::INSERT::::STATEMENT::::returningLastArg()	0.0489
+10	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2204::::2219::::argumentPosition::::wantedArgumentPosition	0.04863970588235294
+11	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2167::::2182::::argumentPosition::::wantedArgumentPosition	0.04725
+12	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::68::::2332::::2347::::argumentPosition::::wantedArgumentPosition	0.044296875
+13	org.mockito.internal.configuration.plugins.Plugins::::27::::880::::891::::getMockMaker::::getStackTraceCleanerProvider	0.036
+14	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::37::::1296::::1317::::wantedArgumentPosition::::org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT	0.014399999999999998
+15	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2167::::2223::::argumentPosition != (org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT)) && (argumentPosition < 0::::wantedArgumentPosition) == (org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT	0.011428571428571429
+16	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2167::::2199::::argumentPosition != (org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT)::::wantedArgumentPosition) == (org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT	0.007619047619047619
+17	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::37::::1242::::1268::::this.wantedArgumentPosition::::org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT	0.0045
+18	org.mockito.internal.configuration.plugins.PluginLoader::::52::::1926::::1966::::"mockito-extensions/" + (service.getName())::::"Failed to load " + service	0.003946666666666667
+19	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2187::::2199::::org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT::::this.wantedArgumentPosition	0.0034285714285714284
+20	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2187::::2199::::org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT::::checkWithinAllowedRange(wantedArgumentPosition)	0.0034285714285714284
+21	org.mockito.internal.configuration.plugins.PluginLoader::::52::::1926::::1966::::"mockito-extensions/" + (service.getName())::::("Failed to load " + service) + " implementation declared in "	0.002986666666666667
+22	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2204::::2219::::argumentPosition::::this.wantedArgumentPosition	0.002977941176470588
+23	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2204::::2219::::argumentPosition::::checkWithinAllowedRange(wantedArgumentPosition)	0.002977941176470588
+24	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2167::::2182::::argumentPosition::::this.wantedArgumentPosition	0.0026999999999999997
+25	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2167::::2182::::argumentPosition::::checkWithinAllowedRange(wantedArgumentPosition)	0.0026999999999999997
+26	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::68::::2332::::2347::::argumentPosition::::this.wantedArgumentPosition	0.002109375
+27	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::68::::2332::::2347::::argumentPosition::::checkWithinAllowedRange(wantedArgumentPosition)	0.002109375
+28	org.mockito.internal.configuration.plugins.PluginLoader::::52::::1926::::1966::::"mockito-extensions/" + (service.getName())::::(("Failed to load " + service) + " implementation declared in ") + resources	0.0014933333333333335
+29	org.mockito.internal.configuration.plugins.PluginLoader::::25::::750::::807::::if (plugin != null) {    return plugin;}::::INSERT::::STATEMENT::::if (plugin != null) {    return plugin;}	0.0012540000000000001
+30	org.mockito.internal.configuration.plugins.PluginLoader::::24::::709::::740::::T plugin = loadImpl(pluginType)::::INSERT::::STATEMENT::::if (plugin != null) {    return plugin;}	8.957142857142858E-4
+31	org.mockito.internal.configuration.plugins.PluginFinder::::39::::1309::::1320::::return null::::INSERT::::STATEMENT::::if (pluginClassName == null) {    continue;}	6.638823529411766E-4
+32	org.mockito.internal.configuration.plugins.PluginLoader::::52::::1950::::1966::::service.getName()::::DELETE::::INFIX	5.642E-4
+33	org.mockito.internal.configuration.plugins.PluginFinder::::19::::474::::1299::::for (java.net.URL resource : resources) {    java.io.InputStream s = null;    try {        s = resource.openStream();        java.lang.String pluginClassName = new org.mockito.internal.configuration.plugins.PluginFileReader().readPluginClass(s);        if (pluginClassName == null) {            continue;        }        if (!(pluginSwitch.isEnabled(pluginClassName))) {            continue;        }        return pluginClassName;    } catch (java.lang.Exception e) {        throw new org.mockito.exceptions.base.MockitoException(("Problems reading plugin implementation from: " + resource), e);    } finally {        org.mockito.internal.util.io.IOUtil.closeQuietly(s);    }}::::INSERT::::STATEMENT::::if (pluginClassName == null) {    continue;}	1.5327731092436978E-4
+34	org.mockito.internal.util.Primitives::::81::::3418::::3422::::short::::byte	0.0
+35	org.mockito.internal.util.Primitives::::80::::3346::::3349::::byte::::short	0.0
+36	org.mockito.internal.util.Primitives::::72::::2866::::2870::::short::::byte	0.0
+37	org.mockito.internal.util.Primitives::::71::::2794::::2797::::byte::::short	0.0
+38	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::68::::2332::::2347::::argumentPosition::::1	0.0
+39	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::68::::2332::::2347::::argumentPosition::::0	0.0
+40	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::68::::2332::::2347::::argumentPosition::::-1	0.0
+41	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::68::::2325::::2348::::return argumentPosition::::INSERT::::STATEMENT::::-589315085166295101L	0.0
+42	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2204::::2223::::argumentPosition < 0::::wantedArgumentPosition) == (org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT	0.0
+43	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2204::::2223::::argumentPosition < 0::::true	0.0
+44	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2204::::2223::::argumentPosition < 0::::returningLastArg()	0.0
+45	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2204::::2223::::argumentPosition < 0::::false	0.0
+46	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2204::::2219::::argumentPosition::::1	0.0
+47	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2204::::2219::::argumentPosition::::0	0.0
+48	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2204::::2219::::argumentPosition::::-1	0.0
+49	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2187::::2199::::org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT::::1	0.0
+50	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2187::::2199::::org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT::::0	0.0
+51	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2187::::2199::::org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT::::-1	0.0
+52	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2167::::2223::::argumentPosition != (org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT)) && (argumentPosition < 0::::true	0.0
+53	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2167::::2223::::argumentPosition != (org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT)) && (argumentPosition < 0::::returningLastArg()	0.0
+54	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2167::::2223::::argumentPosition != (org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT)) && (argumentPosition < 0::::false	0.0
+55	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2167::::2223::::argumentPosition != (org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT)) && (argumentPosition < 0::::argumentPosition < 0	0.0
+56	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2167::::2223::::argumentPosition != (org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT)) && (argumentPosition < 0::::argumentPosition != (org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT)	0.0
+57	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2167::::2199::::argumentPosition != (org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT)::::true	0.0
+58	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2167::::2199::::argumentPosition != (org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT)::::returningLastArg()	0.0
+59	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2167::::2199::::argumentPosition != (org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT)::::false	0.0
+60	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2167::::2182::::argumentPosition::::1	0.0
+61	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2167::::2182::::argumentPosition::::0	0.0
+62	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2167::::2182::::argumentPosition::::-1	0.0
+63	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::65::::2163::::2315::::if ((argumentPosition != (org.mockito.internal.stubbing.answers.ReturnsArgumentAt.LAST_ARGUMENT)) && (argumentPosition < 0)) {    new org.mockito.exceptions.Reporter().invalidArgumentRangeAtIdentityAnswerCreationTime();}::::INSERT::::STATEMENT::::-589315085166295101L	0.0
+64	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::37::::1296::::1317::::wantedArgumentPosition::::this.wantedArgumentPosition	0.0
+65	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::37::::1296::::1317::::wantedArgumentPosition::::checkWithinAllowedRange(wantedArgumentPosition)	0.0
+66	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::37::::1296::::1317::::wantedArgumentPosition::::1	0.0
+67	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::37::::1296::::1317::::wantedArgumentPosition::::0	0.0
+68	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::37::::1296::::1317::::wantedArgumentPosition::::-1	0.0
+69	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::37::::1242::::1268::::this.wantedArgumentPosition::::wantedArgumentPosition	0.0
+70	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::37::::1242::::1268::::this.wantedArgumentPosition::::checkWithinAllowedRange(wantedArgumentPosition)	0.0
+71	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::37::::1242::::1268::::this.wantedArgumentPosition::::1	0.0
+72	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::37::::1242::::1268::::this.wantedArgumentPosition::::0	0.0
+73	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::37::::1242::::1268::::this.wantedArgumentPosition::::-1	0.0
+74	org.mockito.internal.stubbing.answers.ReturnsArgumentAt::::36::::1204::::1206::::int::::long	0.0
+75	org.mockito.internal.configuration.plugins.Plugins::::27::::880::::887::::org.mockito.internal.configuration.plugins.Plugins.registry::::new org.mockito.internal.configuration.plugins.PluginRegistry()	0.0
+76	org.mockito.internal.configuration.plugins.PluginLoader::::59::::2236::::2259::::foundPluginClass != null::::loader == null	0.0
+77	org.mockito.internal.configuration.plugins.PluginLoader::::59::::2236::::2251::::foundPluginClass::::(("Failed to load " + service) + " implementation declared in ") + resources	0.0
+78	org.mockito.internal.configuration.plugins.PluginLoader::::59::::2236::::2251::::foundPluginClass::::("Failed to load " + service) + " implementation declared in "	0.0
+79	org.mockito.internal.configuration.plugins.PluginLoader::::59::::2236::::2251::::foundPluginClass::::"mockito-extensions/"	0.0
+80	org.mockito.internal.configuration.plugins.PluginLoader::::59::::2236::::2251::::foundPluginClass::::"Mockito is unable to load the default implementation of class that is a part of Mockito distribution. "	0.0
+81	org.mockito.internal.configuration.plugins.PluginLoader::::59::::2236::::2251::::foundPluginClass::::"Internal problem occurred, please report it. " + ("Mockito is unable to load the default implementation of class that is a part of Mockito distribution. " + "Failed to load ")	0.0
+82	org.mockito.internal.configuration.plugins.PluginLoader::::59::::2236::::2251::::foundPluginClass::::"Internal problem occurred, please report it. "	0.0
+83	org.mockito.internal.configuration.plugins.PluginLoader::::59::::2236::::2251::::foundPluginClass::::"Failed to load " + service	0.0
+84	org.mockito.internal.configuration.plugins.PluginLoader::::59::::2236::::2251::::foundPluginClass::::"Failed to load "	0.0
+85	org.mockito.internal.configuration.plugins.PluginLoader::::59::::2236::::2251::::foundPluginClass::::" implementation declared in "	0.0
+86	org.mockito.internal.configuration.plugins.PluginLoader::::58::::2156::::2167::::pluginSwitch::::this.pluginSwitch	0.0
+87	org.mockito.internal.configuration.plugins.PluginLoader::::52::::1926::::1966::::"mockito-extensions/" + (service.getName())::::foundPluginClass	0.0
+88	org.mockito.internal.configuration.plugins.PluginLoader::::52::::1926::::1966::::"mockito-extensions/" + (service.getName())::::"mockito-extensions/"	0.0
+89	org.mockito.internal.configuration.plugins.PluginLoader::::52::::1926::::1966::::"mockito-extensions/" + (service.getName())::::"Mockito is unable to load the default implementation of class that is a part of Mockito distribution. "	0.0
+90	org.mockito.internal.configuration.plugins.PluginLoader::::52::::1926::::1966::::"mockito-extensions/" + (service.getName())::::"Internal problem occurred, please report it. " + ("Mockito is unable to load the default implementation of class that is a part of Mockito distribution. " + "Failed to load ")	0.0
+91	org.mockito.internal.configuration.plugins.PluginLoader::::52::::1926::::1966::::"mockito-extensions/" + (service.getName())::::"Internal problem occurred, please report it. "	0.0
+92	org.mockito.internal.configuration.plugins.PluginLoader::::52::::1926::::1966::::"mockito-extensions/" + (service.getName())::::"Failed to load "	0.0
+93	org.mockito.internal.configuration.plugins.PluginLoader::::52::::1926::::1966::::"mockito-extensions/" + (service.getName())::::" implementation declared in "	0.0
+94	org.mockito.internal.configuration.plugins.PluginLoader::::52::::1894::::1968::::resources = loader.getResources(("mockito-extensions/" + (service.getName())))::::this.pluginSwitch = pluginSwitch	0.0
+95	org.mockito.internal.configuration.plugins.PluginLoader::::47::::1747::::1760::::loader == null::::foundPluginClass != null	0.0
+96	org.mockito.internal.configuration.plugins.PluginLoader::::33::::1119::::1140::::defaultPluginClassName::::("Internal problem occurred, please report it. " + ("Mockito is unable to load the default implementation of class that is a part of Mockito distribution. " + "Failed to load ")) + pluginType	0.0
+97	org.mockito.internal.configuration.plugins.PluginLoader::::33::::1119::::1140::::defaultPluginClassName::::"mockito-extensions/"	0.0
+98	org.mockito.internal.configuration.plugins.PluginLoader::::33::::1119::::1140::::defaultPluginClassName::::"Mockito is unable to load the default implementation of class that is a part of Mockito distribution. "	0.0
+99	org.mockito.internal.configuration.plugins.PluginLoader::::33::::1119::::1140::::defaultPluginClassName::::"Internal problem occurred, please report it. " + ("Mockito is unable to load the default implementation of class that is a part of Mockito distribution. " + "Failed to load ")	0.0
+100	org.mockito.internal.configuration.plugins.PluginLoader::::33::::1119::::1140::::defaultPluginClassName::::"Internal problem occurred, please report it. "	0.0
+101	org.mockito.internal.configuration.plugins.PluginLoader::::33::::1119::::1140::::defaultPluginClassName::::"Failed to load "	0.0
+102	org.mockito.internal.configuration.plugins.PluginLoader::::33::::1119::::1140::::defaultPluginClassName::::" implementation declared in "	0.0
+103	org.mockito.internal.configuration.plugins.PluginLoader::::25::::754::::759::::plugin::::loadImpl(pluginType)	0.0
+104	org.mockito.internal.configuration.plugins.PluginLoader::::17::::503::::514::::pluginSwitch::::this.pluginSwitch	0.0
+105	org.mockito.internal.configuration.plugins.PluginLoader::::17::::483::::499::::this.pluginSwitch::::pluginSwitch	0.0
+106	org.mockito.internal.configuration.plugins.PluginFinder::::15::::391::::402::::pluginSwitch::::this.pluginSwitch	0.0
+107	org.mockito.internal.configuration.plugins.PluginFinder::::15::::371::::387::::this.pluginSwitch::::pluginSwitch	0.0
+108	org.mockito.Answers::::77::::2701::::2714::::implementation::::this.implementation	0.0
+109	org.mockito.Answers::::77::::2679::::2697::::this.implementation::::implementation	0.0

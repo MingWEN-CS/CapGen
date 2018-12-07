@@ -1,0 +1,159 @@
+1	org.mockito.internal.configuration.injection.scanner.MockScanner::::61::::1817::::1827::::fieldReader::::new org.mockito.internal.util.reflection.FieldReader(instance, field)	0.005782502676093679
+2	org.mockito.internal.configuration.injection.MockInjection::::86::::2893::::2915::::postInjectionStrategies::::injectionStrategies	0.00572366700674004
+3	org.mockito.internal.configuration.InjectingAnnotationEngine::::73::::2742::::2760::::spyAnnotationEngine::::delegate	0.00572366700674004
+4	org.mockito.internal.configuration.InjectingAnnotationEngine::::56::::2043::::2060::::processInjectMocks::::processIndependentAnnotations	0.00572366700674004
+5	org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1129::::1136::::strategy::::nextStrategy	0.005225956832240906
+6	org.mockito.internal.progress.MockingProgressImpl::::105::::3386::::3410::::getArgumentMatcherStorage::::validateMostStuff	0.0050838871344603695
+7	org.mockito.internal.configuration.injection.scanner.MockScanner::::62::::1861::::1872::::mockInstance::::instance	0.004836936200757607
+8	org.mockito.internal.configuration.InjectingAnnotationEngine::::75::::2827::::2838::::classContext::::clazz	0.004647307460029197
+9	org.mockito.internal.configuration.InjectingAnnotationEngine::::75::::2812::::2823::::classContext::::clazz	0.0046459044030219155
+10	org.mockito.internal.configuration.InjectingAnnotationEngine::::69::::2547::::2558::::classContext::::clazz	0.004478899911505237
+11	org.mockito.internal.configuration.InjectingAnnotationEngine::::63::::2348::::2359::::classContext::::clazz	0.004466504432045353
+12	org.mockito.internal.configuration.InjectingAnnotationEngine::::63::::2333::::2344::::classContext::::clazz	0.004456953816723802
+13	org.mockito.internal.configuration.InjectingAnnotationEngine::::73::::2770::::2781::::classContext::::clazz	0.004443200930660768
+14	org.mockito.internal.configuration.InjectingAnnotationEngine::::71::::2662::::2673::::classContext::::clazz	0.0044216900063057665
+15	org.mockito.internal.configuration.InjectingAnnotationEngine::::61::::2250::::2261::::classContext::::clazz	0.004327793114279969
+16	org.mockito.internal.configuration.InjectingAnnotationEngine::::55::::1965::::1993::::processIndependentAnnotations::::processInjectMocks	0.00381577800449336
+17	org.mockito.internal.progress.MockingProgressImpl::::105::::3386::::3410::::getArgumentMatcherStorage::::validateState	0.0038129153508452774
+18	org.mockito.internal.configuration.InjectingAnnotationEngine::::68::::2525::::2529::::clazz::::classContext	0.003404733997022883
+19	org.mockito.internal.configuration.InjectingAnnotationEngine::::60::::2228::::2232::::clazz::::classContext	0.0033988206672735735
+20	org.mockito.internal.configuration.InjectingAnnotationEngine::::71::::2645::::2652::::delegate::::spyAnnotationEngine	0.0028345779461950676
+21	org.mockito.internal.progress.MockingProgressImpl::::105::::3386::::3421::::getArgumentMatcherStorage().reset()::::INSERT::::STATEMENT::::validateState()	0.0026855163057496675
+22	org.mockito.internal.progress.MockingProgressImpl::::105::::3386::::3421::::getArgumentMatcherStorage().reset()::::INSERT::::STATEMENT::::validateMostStuff()	0.0026855163057496675
+23	org.mockito.internal.progress.MockingProgressImpl::::105::::3386::::3421::::getArgumentMatcherStorage().reset()::::INSERT::::STATEMENT::::resetOngoingStubbing()	0.0026855163057496675
+24	org.mockito.internal.configuration.InjectingAnnotationEngine::::56::::2043::::2100::::processInjectMocks(testInstance.getClass(), testInstance)::::INSERT::::STATEMENT::::injectMocks(testInstance)	0.0025915492280517405
+25	org.mockito.MockitoAnnotations::::121::::5016::::5047::::boolean alreadyAssigned = false::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.throwIfAlreadyAssigned(field, alreadyAssigned)	0.0019637945622096855
+26	org.mockito.internal.util.MockUtil::::70::::2531::::2545::::getMockSettings::::getMockName	0.0018072434900306225
+27	org.mockito.internal.configuration.DefaultAnnotationEngine::::62::::2537::::2579::::java.lang.reflect.Field[] fields = clazz.getDeclaredFields()::::INSERT::::STATEMENT::::throwIfAlreadyAssigned(field, alreadyAssigned)	0.0017857734176490987
+28	org.mockito.internal.configuration.InjectingAnnotationEngine::::55::::1965::::2033::::processIndependentAnnotations(testInstance.getClass(), testInstance)::::INSERT::::STATEMENT::::injectMocks(testInstance)	0.001727699485367827
+29	org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1119::::nextStrategy::::strategy	0.0014190909934066215
+30	org.mockito.internal.progress.MockingProgressImpl::::105::::3386::::3410::::getArgumentMatcherStorage::::resetOngoingStubbing	0.0012709717836150924
+31	org.mockito.internal.configuration.injection.scanner.MockScanner::::61::::1804::::1842::::preparedMock(fieldReader.read(), field)::::INSERT::::PARAMETER::::preparedMock(mockInstance,fieldReader.read(), field)	0.00104408677949089
+32	org.mockito.internal.configuration.injection.scanner.MockScanner::::61::::1804::::1842::::preparedMock(fieldReader.read(), field)::::INSERT::::PARAMETER::::preparedMock(instance,fieldReader.read(), field)	0.00104408677949089
+33	org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1138::::nextStrategy.thenTry(strategy)::::INSERT::::STATEMENT::::nextStrategy.thenTry(strategy)	9.669817426386924E-4
+34	org.mockito.internal.configuration.injection.MockInjection::::86::::2893::::2915::::postInjectionStrategies::::new org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler()	8.920000529984478E-4
+35	org.mockito.internal.util.reflection.FieldReader::::29::::687::::691::::field::::this.field	7.890827862945186E-4
+36	org.mockito.internal.progress.ThreadSafeMockingProgress::::60::::1755::::1777::::org.mockito.internal.progress.ThreadSafeMockingProgress.threadSafely().reset()::::DELETE::::STATEMENT	5.163440553508869E-4
+37	org.mockito.internal.progress.MockingProgressImpl::::105::::3386::::3421::::getArgumentMatcherStorage().reset()::::DELETE::::STATEMENT	5.163440553508869E-4
+38	org.mockito.internal.progress.ThreadSafeMockingProgress::::64::::1835::::1872::::org.mockito.internal.progress.ThreadSafeMockingProgress.threadSafely().resetOngoingStubbing()::::DELETE::::STATEMENT	5.141160231435703E-4
+39	org.mockito.internal.util.reflection.AccessibilityChanger::::30::::879::::915::::accessibleObject.setAccessible(true)::::DELETE::::STATEMENT	5.113711235346502E-4
+40	org.mockito.internal.configuration.injection.scanner.MockScanner::::47::::1313::::1333::::mocks.addAll(scan())::::DELETE::::STATEMENT	4.98277011086758E-4
+41	org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::40::::1047::::1081::::mockDependentFields.addAll(scan())::::DELETE::::STATEMENT	4.98277011086758E-4
+42	org.mockito.internal.configuration.injection.MockInjection::::86::::2893::::2958::::postInjectionStrategies.thenTry(new org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler())::::DELETE::::STATEMENT	4.98277011086758E-4
+43	org.mockito.internal.configuration.InjectingAnnotationEngine::::56::::2043::::2100::::processInjectMocks(testInstance.getClass(), testInstance)::::DELETE::::STATEMENT	4.98277011086758E-4
+44	org.mockito.internal.configuration.InjectingAnnotationEngine::::55::::1965::::2033::::processIndependentAnnotations(testInstance.getClass(), testInstance)::::DELETE::::STATEMENT	4.98277011086758E-4
+45	org.mockito.internal.configuration.InjectingAnnotationEngine::::100::::3689::::3784::::new org.mockito.internal.configuration.DefaultInjectionEngine().injectMocksOnFields(mockDependentFields, mocks, testClassInstance)::::DELETE::::STATEMENT	4.98277011086758E-4
+46	org.mockito.internal.configuration.DefaultInjectionEngine::::20::::587::::834::::org.mockito.internal.configuration.injection.MockInjection.onFields(needingInjection, testClassInstance).withMocks(mocks).tryConstructorInjection().tryPropertyOrFieldInjection().handleSpyAnnotation().apply()::::DELETE::::STATEMENT	4.98277011086758E-4
+47	org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::50::::1326::::1330::::clazz::::this.clazz	4.538884623420673E-4
+48	org.mockito.internal.configuration.injection.scanner.MockScanner::::57::::1634::::1638::::clazz::::this.clazz	4.15511216460257E-4
+49	org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1129::::1136::::strategy::::nextStrategy.thenTry(strategy)	3.981681395993071E-4
+50	org.mockito.internal.progress.ArgumentMatcherStorageImpl::::123::::4416::::4436::::matcherStack.clear()::::INSERT::::STATEMENT::::assertStateFor("Not(?)", org.mockito.internal.progress.ArgumentMatcherStorageImpl.ONE_SUB_MATCHER)	3.3922311230522115E-4
+51	org.mockito.internal.configuration.injection.scanner.MockScanner::::59::::1751::::1758::::instance::::mockInstance	2.950256467394734E-4
+52	org.mockito.internal.progress.ArgumentMatcherStorageImpl::::123::::4416::::4436::::matcherStack.clear()::::INSERT::::STATEMENT::::assertStateFor("Or(?)", org.mockito.internal.progress.ArgumentMatcherStorageImpl.TWO_SUB_MATCHERS)	2.826859269210176E-4
+53	org.mockito.internal.progress.ArgumentMatcherStorageImpl::::123::::4416::::4436::::matcherStack.clear()::::INSERT::::STATEMENT::::assertStateFor("And(?)", org.mockito.internal.progress.ArgumentMatcherStorageImpl.TWO_SUB_MATCHERS)	2.826859269210176E-4
+54	org.mockito.internal.configuration.InjectingAnnotationEngine::::61::::2243::::2386::::while (classContext != (java.lang.Object.class)) {    injectMocks(testInstance);    classContext = classContext.getSuperclass();} ::::INSERT::::STATEMENT::::injectMocks(testInstance)	2.369416437075877E-4
+55	org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1138::::nextStrategy.thenTry(strategy)::::DELETE::::STATEMENT	2.2926466176997608E-4
+56	org.mockito.internal.configuration.InjectingAnnotationEngine::::68::::2501::::2530::::java.lang.Class<?> classContext = clazz::::INSERT::::STATEMENT::::injectMocks(testInstance)	2.2087067284531879E-4
+57	org.mockito.MockitoAnnotations::::121::::5016::::5047::::boolean alreadyAssigned = false::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.processAnnotationDeprecatedWay(annotationEngine, testClass, field)	2.1423213405923847E-4
+58	org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1138::::nextStrategy.thenTry(strategy)::::INSERT::::STATEMENT::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}	1.7946875881133772E-4
+59	org.mockito.internal.util.MockUtil::::74::::2666::::2707::::return (org.mockito.internal.util.MockUtil.mockMaker.getHandler(mock)) != null::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	1.7349327741965272E-4
+60	org.mockito.MockitoAnnotations::::122::::5057::::5665::::for (java.lang.annotation.Annotation annotation : field.getAnnotations()) {    java.lang.Object mock = annotationEngine.createMockFor(annotation, field);    if (mock != null) {        org.mockito.MockitoAnnotations.throwIfAlreadyAssigned(field, alreadyAssigned);        alreadyAssigned = true;        try {            new org.mockito.internal.util.reflection.FieldSetter(testClass, field).set(mock);        } catch (java.lang.Exception e) {            throw new org.mockito.exceptions.base.MockitoException(((("Problems setting field " + (field.getName())) + " annotated with ") + annotation), e);        }    }}::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.throwIfAlreadyAssigned(field, alreadyAssigned)	1.712534651893295E-4
+61	org.mockito.internal.configuration.SpyAnnotationEngine::::50::::1667::::1711::::!(field.isAnnotationPresent(org.mockito.internal.configuration.InjectMocks.class))::::DELETE::::INFIX	1.354575834203362E-4
+62	org.mockito.internal.configuration.DefaultAnnotationEngine::::63::::2589::::3370::::for (java.lang.reflect.Field field : fields) {    boolean alreadyAssigned = false;    for (java.lang.annotation.Annotation annotation : field.getAnnotations()) {        java.lang.Object mock = createMockFor(annotation, field);        if (mock != null) {            throwIfAlreadyAssigned(field, alreadyAssigned);            alreadyAssigned = true;            try {                new org.mockito.internal.util.reflection.FieldSetter(testInstance, field).set(mock);            } catch (java.lang.Exception e) {                throw new org.mockito.exceptions.base.MockitoException(((("Problems setting field " + (field.getName())) + " annotated with ") + annotation), e);            }        }    }}::::INSERT::::STATEMENT::::throwIfAlreadyAssigned(field, alreadyAssigned)	1.2597174831671017E-4
+63	org.mockito.MockitoAnnotations::::121::::5016::::5047::::boolean alreadyAssigned = false::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	1.2589971273062095E-4
+64	org.mockito.internal.configuration.InjectingAnnotationEngine::::69::::2540::::2865::::while (classContext != (java.lang.Object.class)) {    delegate.process(classContext, testInstance);    spyAnnotationEngine.process(classContext, testInstance);    classContext = classContext.getSuperclass();} ::::INSERT::::STATEMENT::::injectMocks(testInstance)	1.251956148817266E-4
+65	org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::40::::1047::::1065::::mockDependentFields::::scan()	1.2465336493807709E-4
+66	org.mockito.internal.configuration.InjectingAnnotationEngine::::60::::2204::::2233::::java.lang.Class<?> classContext = clazz::::INSERT::::STATEMENT::::injectMocks(testInstance)	1.1779769218417003E-4
+67	org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1119::::nextStrategy::::nextStrategy.thenTry(strategy)	1.135272794725297E-4
+68	org.mockito.internal.util.MockUtil::::70::::2531::::2570::::getMockSettings(mock).getDefaultAnswer()::::DELETE::::INFIX	1.1329408634169747E-4
+69	org.mockito.internal.configuration.injection.scanner.MockScanner::::86::::2622::::2646::::mockUtil.isMock(instance)::::DELETE::::INFIX	1.1056370712549998E-4
+70	org.mockito.internal.progress.MockingProgressImpl::::105::::3386::::3421::::getArgumentMatcherStorage().reset()::::INSERT::::STATEMENT::::if ((verificationMode) == null) {    return null;}	1.0330176219049334E-4
+71	org.mockito.internal.configuration.injection.scanner.MockScanner::::47::::1313::::1317::::mocks::::scan()	9.812000582982926E-5
+72	org.mockito.internal.configuration.injection.scanner.MockScanner::::80::::2380::::2409::::field.getAnnotation(org.mockito.Spy.class)::::DELETE::::INFIX	9.398113608627316E-5
+73	org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::52::::1414::::1451::::field.getAnnotation(org.mockito.InjectMocks.class)::::DELETE::::INFIX	9.387700183148276E-5
+74	org.mockito.internal.configuration.SpyAnnotationEngine::::50::::1627::::1662::::field.isAnnotationPresent(org.mockito.internal.configuration.Spy.class)::::DELETE::::INFIX	9.377321296411497E-5
+75	org.mockito.internal.util.MockUtil::::74::::2673::::2698::::org.mockito.internal.util.MockUtil.mockMaker.getHandler(mock)::::DELETE::::INFIX	9.366976757910818E-5
+76	org.mockito.internal.progress.MockingProgressImpl::::49::::1707::::1730::::iOngoingStubbing = null::::this.iOngoingStubbing = iOngoingStubbing	9.065529845339117E-5
+77	org.mockito.internal.progress.MockingProgressImpl::::103::::3318::::3343::::stubbingInProgress = null::::stubbingInProgress = new org.mockito.internal.debugging.LocationImpl()	5.7373715373648605E-5
+78	org.mockito.internal.progress.MockingProgressImpl::::49::::1707::::1730::::iOngoingStubbing = null::::INSERT::::STATEMENT::::if ((verificationMode) == null) {    return null;}	5.689776990017644E-5
+79	org.mockito.internal.configuration.injection.scanner.MockScanner::::62::::1861::::1872::::mockInstance::::this.instance	5.657235322523516E-5
+80	org.mockito.internal.configuration.injection.scanner.MockScanner::::61::::1804::::1842::::preparedMock(fieldReader.read(), field)::::INSERT::::PARAMETER::::preparedMock(this.instance,fieldReader.read(), field)	2.7966610164934555E-5
+81	org.mockito.internal.progress.MockingProgressImpl::::103::::3318::::3343::::stubbingInProgress = null::::INSERT::::STATEMENT::::if ((verificationMode) == null) {    return null;}	2.4306296985998433E-5
+82	org.mockito.internal.progress.MockingProgressImpl::::104::::3353::::3376::::verificationMode = null::::INSERT::::STATEMENT::::if ((verificationMode) == null) {    return null;}	1.8364757722754372E-5
+83	org.mockito.MockitoAnnotations::::122::::5057::::5665::::for (java.lang.annotation.Annotation annotation : field.getAnnotations()) {    java.lang.Object mock = annotationEngine.createMockFor(annotation, field);    if (mock != null) {        org.mockito.MockitoAnnotations.throwIfAlreadyAssigned(field, alreadyAssigned);        alreadyAssigned = true;        try {            new org.mockito.internal.util.reflection.FieldSetter(testClass, field).set(mock);        } catch (java.lang.Exception e) {            throw new org.mockito.exceptions.base.MockitoException(((("Problems setting field " + (field.getName())) + " annotated with ") + annotation), e);        }    }}::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.processAnnotationDeprecatedWay(annotationEngine, testClass, field)	1.3885416096432122E-5
+84	org.mockito.MockitoAnnotations::::122::::5057::::5665::::for (java.lang.annotation.Annotation annotation : field.getAnnotations()) {    java.lang.Object mock = annotationEngine.createMockFor(annotation, field);    if (mock != null) {        org.mockito.MockitoAnnotations.throwIfAlreadyAssigned(field, alreadyAssigned);        alreadyAssigned = true;        try {            new org.mockito.internal.util.reflection.FieldSetter(testClass, field).set(mock);        } catch (java.lang.Exception e) {            throw new org.mockito.exceptions.base.MockitoException(((("Problems setting field " + (field.getName())) + " annotated with ") + annotation), e);        }    }}::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	1.2907899840563667E-5
+85	org.mockito.internal.util.MockUtil::::70::::2508::::2526::::isMockitoMock(mock)::::DELETE::::INFIX	9.173610230096958E-6
+86	org.mockito.internal.progress.ArgumentMatcherStorageImpl::::123::::4416::::4436::::matcherStack.clear()::::DELETE::::STATEMENT	5.435200582640919E-6
+87	org.mockito.internal.util.reflection.FieldReader::::29::::697::::702::::target::::this.target	0.0
+88	org.mockito.internal.util.reflection.FieldReader::::29::::697::::702::::target::::read()	0.0
+89	org.mockito.internal.util.reflection.FieldReader::::20::::540::::544::::field::::this.field	0.0
+90	org.mockito.internal.util.reflection.FieldReader::::20::::519::::525::::changer::::new org.mockito.internal.util.reflection.AccessibilityChanger()	0.0
+91	org.mockito.internal.util.reflection.FieldReader::::19::::504::::508::::field::::this.field	0.0
+92	org.mockito.internal.util.reflection.FieldReader::::19::::491::::509::::this.field = field::::this.target = target	0.0
+93	org.mockito.internal.util.reflection.FieldReader::::19::::491::::500::::this.field::::field	0.0
+94	org.mockito.internal.util.reflection.FieldReader::::18::::475::::480::::target::::this.target	0.0
+95	org.mockito.internal.util.reflection.FieldReader::::18::::475::::480::::target::::read()	0.0
+96	org.mockito.internal.util.reflection.FieldReader::::18::::461::::481::::this.target = target::::this.field = field	0.0
+97	org.mockito.internal.util.reflection.FieldReader::::18::::461::::471::::this.target::::target	0.0
+98	org.mockito.internal.util.reflection.FieldReader::::18::::461::::471::::this.target::::read()	0.0
+99	org.mockito.internal.util.reflection.AccessibilityChanger::::30::::910::::913::::true::::(wasAccessible) != null	0.0
+100	org.mockito.internal.util.Primitives::::81::::3418::::3422::::short::::byte	0.0
+101	org.mockito.internal.util.Primitives::::80::::3346::::3349::::byte::::short	0.0
+102	org.mockito.internal.util.Primitives::::72::::2866::::2870::::short::::byte	0.0
+103	org.mockito.internal.util.Primitives::::71::::2794::::2797::::byte::::short	0.0
+104	org.mockito.internal.progress.MockingProgressImpl::::49::::1707::::1730::::iOngoingStubbing = null::::verificationMode = null	0.0
+105	org.mockito.internal.progress.MockingProgressImpl::::49::::1707::::1730::::iOngoingStubbing = null::::this.listener = listener	0.0
+106	org.mockito.internal.progress.MockingProgressImpl::::49::::1707::::1730::::iOngoingStubbing = null::::stubbingInProgress = null	0.0
+107	org.mockito.internal.progress.MockingProgressImpl::::49::::1707::::1730::::iOngoingStubbing = null::::stubbingInProgress = new org.mockito.internal.debugging.LocationImpl()	0.0
+108	org.mockito.internal.progress.MockingProgressImpl::::49::::1707::::1730::::iOngoingStubbing = null::::INSERT::::STATEMENT::::validateState()	0.0
+109	org.mockito.internal.progress.MockingProgressImpl::::49::::1707::::1730::::iOngoingStubbing = null::::INSERT::::STATEMENT::::validateMostStuff()	0.0
+110	org.mockito.internal.progress.MockingProgressImpl::::49::::1707::::1730::::iOngoingStubbing = null::::INSERT::::STATEMENT::::resetOngoingStubbing()	0.0
+111	org.mockito.internal.progress.MockingProgressImpl::::49::::1707::::1722::::iOngoingStubbing::::this.iOngoingStubbing	0.0
+112	org.mockito.internal.progress.MockingProgressImpl::::104::::3353::::3376::::verificationMode = null::::this.listener = listener	0.0
+113	org.mockito.internal.progress.MockingProgressImpl::::104::::3353::::3376::::verificationMode = null::::this.iOngoingStubbing = iOngoingStubbing	0.0
+114	org.mockito.internal.progress.MockingProgressImpl::::104::::3353::::3376::::verificationMode = null::::stubbingInProgress = null	0.0
+115	org.mockito.internal.progress.MockingProgressImpl::::104::::3353::::3376::::verificationMode = null::::stubbingInProgress = new org.mockito.internal.debugging.LocationImpl()	0.0
+116	org.mockito.internal.progress.MockingProgressImpl::::104::::3353::::3376::::verificationMode = null::::iOngoingStubbing = null	0.0
+117	org.mockito.internal.progress.MockingProgressImpl::::104::::3353::::3376::::verificationMode = null::::INSERT::::STATEMENT::::validateState()	0.0
+118	org.mockito.internal.progress.MockingProgressImpl::::104::::3353::::3376::::verificationMode = null::::INSERT::::STATEMENT::::validateMostStuff()	0.0
+119	org.mockito.internal.progress.MockingProgressImpl::::104::::3353::::3376::::verificationMode = null::::INSERT::::STATEMENT::::resetOngoingStubbing()	0.0
+120	org.mockito.internal.progress.MockingProgressImpl::::103::::3318::::3343::::stubbingInProgress = null::::verificationMode = null	0.0
+121	org.mockito.internal.progress.MockingProgressImpl::::103::::3318::::3343::::stubbingInProgress = null::::this.listener = listener	0.0
+122	org.mockito.internal.progress.MockingProgressImpl::::103::::3318::::3343::::stubbingInProgress = null::::this.iOngoingStubbing = iOngoingStubbing	0.0
+123	org.mockito.internal.progress.MockingProgressImpl::::103::::3318::::3343::::stubbingInProgress = null::::iOngoingStubbing = null	0.0
+124	org.mockito.internal.progress.MockingProgressImpl::::103::::3318::::3343::::stubbingInProgress = null::::INSERT::::STATEMENT::::validateState()	0.0
+125	org.mockito.internal.progress.MockingProgressImpl::::103::::3318::::3343::::stubbingInProgress = null::::INSERT::::STATEMENT::::validateMostStuff()	0.0
+126	org.mockito.internal.progress.MockingProgressImpl::::103::::3318::::3343::::stubbingInProgress = null::::INSERT::::STATEMENT::::resetOngoingStubbing()	0.0
+127	org.mockito.internal.progress.ArgumentMatcherStorageImpl::::123::::4416::::4427::::matcherStack::::new java.util.Stack<org.mockito.internal.matchers.LocalizedMatcher>()	0.0
+128	org.mockito.internal.configuration.injection.scanner.MockScanner::::86::::2638::::2645::::instance::::this.instance	0.0
+129	org.mockito.internal.configuration.injection.scanner.MockScanner::::86::::2622::::2629::::mockUtil::::new org.mockito.internal.util.MockUtil()	0.0
+130	org.mockito.internal.configuration.injection.scanner.MockScanner::::72::::2148::::2155::::instance::::this.instance	0.0
+131	org.mockito.internal.configuration.injection.scanner.MockScanner::::66::::1965::::1969::::mocks::::scan()	0.0
+132	org.mockito.internal.configuration.injection.scanner.MockScanner::::62::::1861::::1880::::mockInstance != null::::isMockOrSpy(instance)	0.0
+133	org.mockito.internal.configuration.injection.scanner.MockScanner::::62::::1861::::1880::::mockInstance != null::::isAnnotatedByMockOrSpy(field)	0.0
+134	org.mockito.internal.configuration.injection.scanner.MockScanner::::59::::1751::::1758::::instance::::this.instance	0.0
+135	org.mockito.internal.configuration.injection.scanner.MockScanner::::34::::987::::991::::clazz::::this.clazz	0.0
+136	org.mockito.internal.configuration.injection.scanner.MockScanner::::34::::974::::992::::this.clazz = clazz::::this.instance = instance	0.0
+137	org.mockito.internal.configuration.injection.scanner.MockScanner::::34::::974::::983::::this.clazz::::clazz	0.0
+138	org.mockito.internal.configuration.injection.scanner.MockScanner::::33::::956::::963::::instance::::this.instance	0.0
+139	org.mockito.internal.configuration.injection.scanner.MockScanner::::33::::940::::964::::this.instance = instance::::this.clazz = clazz	0.0
+140	org.mockito.internal.configuration.injection.scanner.MockScanner::::33::::940::::952::::this.instance::::instance	0.0
+141	org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::58::::1645::::1663::::mockDependentFields::::scan()	0.0
+142	org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::30::::806::::810::::clazz::::this.clazz	0.0
+143	org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::30::::793::::802::::this.clazz::::clazz	0.0
+144	org.mockito.internal.configuration.injection.MockInjection::::48::::1442::::1451::::ofInstance::::this.fieldOwner	0.0
+145	org.mockito.internal.configuration.injection.MockInjection::::48::::1442::::1451::::ofInstance::::fieldOwner	0.0
+146	org.mockito.internal.configuration.injection.MockInjection::::48::::1434::::1439::::fields::::this.fields	0.0
+147	org.mockito.internal.configuration.InjectingAnnotationEngine::::73::::2742::::2760::::spyAnnotationEngine::::new org.mockito.internal.configuration.SpyAnnotationEngine()	0.0
+148	org.mockito.internal.configuration.InjectingAnnotationEngine::::73::::2742::::2760::::spyAnnotationEngine::::new org.mockito.internal.configuration.DefaultAnnotationEngine()	0.0
+149	org.mockito.internal.configuration.InjectingAnnotationEngine::::71::::2645::::2652::::delegate::::new org.mockito.internal.configuration.SpyAnnotationEngine()	0.0
+150	org.mockito.internal.configuration.InjectingAnnotationEngine::::71::::2645::::2652::::delegate::::new org.mockito.internal.configuration.DefaultAnnotationEngine()	0.0
+151	org.mockito.internal.configuration.GlobalConfiguration::::55::::1863::::1882::::org.mockito.internal.configuration.GlobalConfiguration.GLOBAL_CONFIGURATION::::new java.lang.ThreadLocal<org.mockito.configuration.IMockitoConfiguration>()	0.0
+152	org.mockito.internal.configuration.GlobalConfiguration::::55::::1856::::1911::::return org.mockito.internal.configuration.GlobalConfiguration.GLOBAL_CONFIGURATION.get().getAnnotationEngine()::::INSERT::::STATEMENT::::-2860353062105505938L	0.0
+153	org.mockito.internal.configuration.GlobalConfiguration::::26::::983::::1002::::org.mockito.internal.configuration.GlobalConfiguration.GLOBAL_CONFIGURATION::::new java.lang.ThreadLocal<org.mockito.configuration.IMockitoConfiguration>()	0.0
+154	org.mockito.internal.configuration.GlobalConfiguration::::26::::976::::1009::::return org.mockito.internal.configuration.GlobalConfiguration.GLOBAL_CONFIGURATION.get()::::INSERT::::STATEMENT::::-2860353062105505938L	0.0
+155	org.mockito.internal.configuration.DefaultAnnotationEngine::::64::::2656::::2660::::false::::mock != null	0.0
+156	org.mockito.internal.configuration.DefaultAnnotationEngine::::64::::2656::::2660::::false::::alreadyAssigned	0.0
+157	org.mockito.MockitoAnnotations::::121::::5042::::5046::::false::::testClass == null	0.0
+158	org.mockito.MockitoAnnotations::::121::::5042::::5046::::false::::mock != null	0.0
+159	org.mockito.MockitoAnnotations::::121::::5042::::5046::::false::::alreadyAssigned	0.0

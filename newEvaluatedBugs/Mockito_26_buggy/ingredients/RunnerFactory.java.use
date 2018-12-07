@@ -1,0 +1,17 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+1593	klass	Class<?>	param	25	define	org.mockito.internal.runners.RunnerFactory.create	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/runners/RunnerFactory.java	25	52
+1591	e	InvocationTargetException	param	32	define	org.mockito.internal.runners.RunnerFactory.create	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/runners/RunnerFactory.java	25	52
+1592	t	Throwable	param	42	define	org.mockito.internal.runners.RunnerFactory.create	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/runners/RunnerFactory.java	25	52
+1593	klass	Class<?>	param	28	use	org.mockito.internal.runners.RunnerFactory.create	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/runners/RunnerFactory.java	25	52
+1593	klass	Class<?>	param	30	use	org.mockito.internal.runners.RunnerFactory.create	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/runners/RunnerFactory.java	25	52
+1593	klass	Class<?>	param	33	use	org.mockito.internal.runners.RunnerFactory.create	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/runners/RunnerFactory.java	25	52
+1593	klass	Class<?>	param	37	use	org.mockito.internal.runners.RunnerFactory.create	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/runners/RunnerFactory.java	25	52
+1591	e	InvocationTargetException	param	39	use	org.mockito.internal.runners.RunnerFactory.create	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/runners/RunnerFactory.java	25	52
+1591	e	InvocationTargetException	param	41	use	org.mockito.internal.runners.RunnerFactory.create	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/runners/RunnerFactory.java	25	52
+1592	t	Throwable	param	50	use	org.mockito.internal.runners.RunnerFactory.create	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/runners/RunnerFactory.java	25	52
+1594	RunnerFactory.runnerProvider	RunnerProvider	variable	27	use	org.mockito.internal.runners.RunnerFactory.create	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/runners/RunnerFactory.java	25	52
+1594	RunnerFactory.runnerProvider	RunnerProvider	variable	28	use	org.mockito.internal.runners.RunnerFactory.create	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/runners/RunnerFactory.java	25	52
+1594	RunnerFactory.runnerProvider	RunnerProvider	variable	30	use	org.mockito.internal.runners.RunnerFactory.create	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/runners/RunnerFactory.java	25	52
+1585	runnerProvider	RunnerProvider	param	17	define	org.mockito.internal.runners.RunnerFactory.RunnerFactory	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/runners/RunnerFactory.java	17	19
+1585	runnerProvider	RunnerProvider	param	18	use	org.mockito.internal.runners.RunnerFactory.RunnerFactory	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/runners/RunnerFactory.java	17	19
+1594	RunnerFactory.runnerProvider	RunnerProvider	variable	18	set	org.mockito.internal.runners.RunnerFactory.RunnerFactory	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/runners/RunnerFactory.java	17	19

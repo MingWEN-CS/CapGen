@@ -1,0 +1,18 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+290	XmlDeclaration.DECL_KEY	String	variable	32	use	org.jsoup.nodes.XmlDeclaration.getWholeDeclaration	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/XmlDeclaration.java	31	33
+281	accum	StringBuilder	param	35	define	org.jsoup.nodes.XmlDeclaration.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/XmlDeclaration.java	35	41
+282	depth	int	param	35	define	org.jsoup.nodes.XmlDeclaration.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/XmlDeclaration.java	35	41
+283	out	Document.OutputSettings	param	35	define	org.jsoup.nodes.XmlDeclaration.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/XmlDeclaration.java	35	41
+281	accum	StringBuilder	param	36	use	org.jsoup.nodes.XmlDeclaration.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/XmlDeclaration.java	35	41
+291	XmlDeclaration.isProcessingInstruction	boolean	variable	38	use	org.jsoup.nodes.XmlDeclaration.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/XmlDeclaration.java	35	41
+285	accum	StringBuilder	param	43	define	org.jsoup.nodes.XmlDeclaration.outerHtmlTail	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/XmlDeclaration.java	43	43
+286	depth	int	param	43	define	org.jsoup.nodes.XmlDeclaration.outerHtmlTail	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/XmlDeclaration.java	43	43
+287	out	Document.OutputSettings	param	43	define	org.jsoup.nodes.XmlDeclaration.outerHtmlTail	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/XmlDeclaration.java	43	43
+275	data	String	param	17	define	org.jsoup.nodes.XmlDeclaration.XmlDeclaration	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/XmlDeclaration.java	17	21
+274	baseUri	String	param	17	define	org.jsoup.nodes.XmlDeclaration.XmlDeclaration	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/XmlDeclaration.java	17	21
+276	isProcessingInstruction	boolean	param	17	define	org.jsoup.nodes.XmlDeclaration.XmlDeclaration	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/XmlDeclaration.java	17	21
+274	baseUri	String	param	18	use	org.jsoup.nodes.XmlDeclaration.XmlDeclaration	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/XmlDeclaration.java	17	21
+275	data	String	param	19	use	org.jsoup.nodes.XmlDeclaration.XmlDeclaration	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/XmlDeclaration.java	17	21
+276	isProcessingInstruction	boolean	param	20	use	org.jsoup.nodes.XmlDeclaration.XmlDeclaration	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/XmlDeclaration.java	17	21
+291	XmlDeclaration.isProcessingInstruction	boolean	variable	20	set	org.jsoup.nodes.XmlDeclaration.XmlDeclaration	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/XmlDeclaration.java	17	21
+290	XmlDeclaration.DECL_KEY	String	variable	19	use	org.jsoup.nodes.XmlDeclaration.XmlDeclaration	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_60_buggy/src/main/java/org/jsoup/nodes/XmlDeclaration.java	17	21

@@ -1,0 +1,73 @@
+org.mockito.internal.exceptions.util.ScenarioPrinter::::14::::377::::399::::(invocations.size()) == 1::::int	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::785::::(args.length) - 1::::args.length	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::751::::(args.length) - 1::::args.length	false
+org.mockito.internal.handler.MockHandlerFactory::::18::::631::::648::::nullResultGuardian::::handler	false
+org.mockito.internal.handler.MockHandlerFactory::::17::::552::::558::::handler::::nullResultGuardian	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::18::::525::::539::::createInfoField::::namingPolicyField	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::17::::456::::470::::createInfoField::::namingPolicyField	false
+org.mockito.internal.configuration.plugins.Plugins::::17::::473::::500::::getStackTraceCleanerProvider::::getMockMaker	false
+org.mockito.internal.handler.MockHandlerFactory::::20::::678::::685::::notifier::::nullResultGuardian	false
+org.mockito.internal.handler.MockHandlerFactory::::20::::678::::685::::notifier::::handler	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::20::::665::::681::::namingPolicyField::::createInfoField	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::21::::720::::736::::namingPolicyField::::createInfoField	false
+org.mockito.internal.handler.MockHandlerFactory::::17::::552::::558::::handler::::notifier	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::22::::781::::797::::namingPolicyField::::createInfoField	false
+org.mockito.internal.handler.MockHandlerFactory::::18::::631::::648::::nullResultGuardian::::notifier	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::684::::807::::(!isVarArgs) || (new org.mockito.internal.util.collections.ArrayUtils().isEmpty(args))) || (((args[((args.length) - 1)]) != null) && (!(args[((args.length) - 1)].getClass().isArray()))::::int	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::684::::727::::(!isVarArgs) || (new org.mockito.internal.util.collections.ArrayUtils().isEmpty(args))::::int	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::18::::525::::539::::createInfoField::::reflectOnCreateInfo(methodProxy)	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::17::::456::::470::::createInfoField::::reflectOnCreateInfo(methodProxy)	false
+org.mockito.internal.invocation.MatchersBinder::::23::::724::::808::::java.util.List<org.mockito.internal.matchers.LocalizedMatcher> lastMatchers = argumentMatcherStorage.pullLocalizedMatchers()::::INSERT::::STATEMENT::::validateMatchers(invocation, lastMatchers)	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::781::::args.length::::nonVarArgsCount	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::747::::args.length::::nonVarArgsCount	false
+org.mockito.internal.util.Checks::::21::::537::::576::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)::::INSERT::::STATEMENT::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::732::::807::::((args[((args.length) - 1)]) != null) && (!(args[((args.length) - 1)].getClass().isArray()))::::(args[nonVarArgsCount]) == null	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::732::::760::::(args[((args.length) - 1)]) != null::::(args[nonVarArgsCount]) == null	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::21::::720::::736::::namingPolicyField::::reflectOnCreateInfo(methodProxy)	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::20::::665::::681::::namingPolicyField::::reflectOnCreateInfo(methodProxy)	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::22::::781::::797::::namingPolicyField::::reflectOnCreateInfo(methodProxy)	false
+org.mockito.internal.util.Checks::::22::::586::::687::::for (java.lang.Object item : iterable) {    org.mockito.internal.util.Checks.checkNotNull(item, ("item in " + checkedIterable));}::::INSERT::::STATEMENT::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
+org.mockito.internal.util.collections.ListUtil::::17::::481::::488::::filtered::::new java.util.LinkedList<T>()	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::781::::args.length::::varArgs.length	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::781::::args.length::::varArgsCount	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::747::::args.length::::varArgs.length	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::747::::args.length::::varArgsCount	false
+org.mockito.internal.util.MockNameImpl::::21::::626::::649::::this.defaultName = true::::INSERT::::STATEMENT::::if (mockName == null) {    this.mockName = org.mockito.internal.util.MockNameImpl.toInstanceName(classToMock);    this.defaultName = true;}else {    this.mockName = mockName;}	false
+org.mockito.internal.util.MockNameImpl::::20::::569::::612::::this.mockName = org.mockito.internal.util.MockNameImpl.toInstanceName(classToMock)::::INSERT::::STATEMENT::::if (mockName == null) {    this.mockName = org.mockito.internal.util.MockNameImpl.toInstanceName(classToMock);    this.defaultName = true;}else {    this.mockName = mockName;}	false
+org.mockito.internal.util.MockNameImpl::::20::::569::::612::::this.mockName = org.mockito.internal.util.MockNameImpl.toInstanceName(classToMock)::::this.mockName = mockName	false
+org.mockito.internal.creation.cglib.CglibMockMaker::::23::::817::::891::::new org.mockito.internal.creation.cglib.AcrossJVMSerializationFeature().enableSerializationAcrossJVM(settings)::::DELETE::::STATEMENT	false
+org.mockito.internal.util.Checks::::22::::605::::612::::iterable::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
+org.mockito.internal.util.Checks::::21::::550::::557::::iterable::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
+org.mockito.internal.configuration.DefaultInjectionEngine::::20::::587::::834::::org.mockito.internal.configuration.injection.MockInjection.onFields(needingInjection, testClassInstance).withMocks(mocks).tryConstructorInjection().tryPropertyOrFieldInjection().handleSpyAnnotation().apply()::::DELETE::::STATEMENT	false
+org.mockito.internal.util.Checks::::21::::537::::576::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)::::DELETE::::STATEMENT	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::774::::args::::varArgs	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::774::::args::::newArgs	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::766::::769::::args::::varArgs	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::766::::769::::args::::newArgs	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::740::::args::::varArgs	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::740::::args::::newArgs	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::732::::735::::args::::varArgs	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::732::::735::::args::::newArgs	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::723::::726::::args::::varArgs	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::723::::726::::args::::newArgs	false
+org.mockito.internal.exceptions.util.ScenarioPrinter::::14::::377::::394::::invocations.size()::::DELETE::::INFIX	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::785::::(args.length) - 1::::varArgs.length	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::22::::781::::844::::namingPolicyField.set(createInfo, MockitoNamingPolicy.INSTANCE)::::DELETE::::STATEMENT	false
+org.mockito.internal.progress.ThreadSafeMockingProgress::::22::::746::::792::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.set(new org.mockito.internal.progress.MockingProgressImpl())::::DELETE::::STATEMENT	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::751::::(args.length) - 1::::varArgs.length	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::771::::781::::args.length::::nonVarArgsCount + varArgsCount	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::737::::747::::args.length::::nonVarArgsCount + varArgsCount	false
+org.mockito.internal.util.Checks::::14::::291::::401::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}::::INSERT::::STATEMENT::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::765::::807::::!(args[((args.length) - 1)].getClass().isArray())::::DELETE::::INFIX	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::684::::693::::!isVarArgs::::DELETE::::INFIX	false
+org.mockito.internal.util.Checks::::17::::411::::423::::return value::::INSERT::::STATEMENT::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}	false
+org.mockito.internal.util.collections.ListUtil::::17::::481::::496::::filtered.add(t)::::DELETE::::STATEMENT	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::21::::720::::752::::namingPolicyField.get(createInfo)::::DELETE::::INFIX	false
+org.mockito.internal.progress.ThreadSafeMockingProgress::::21::::701::::721::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.get()::::DELETE::::INFIX	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::698::::727::::new org.mockito.internal.util.collections.ArrayUtils().isEmpty(args)::::DELETE::::INFIX	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::732::::807::::((args[((args.length) - 1)]) != null) && (!(args[((args.length) - 1)].getClass().isArray()))::::args == null	false
+org.mockito.internal.invocation.ArgumentsProcessor::::22::::732::::760::::(args[((args.length) - 1)]) != null::::args == null	false
+org.mockito.internal.util.ObjectMethodsGuru::::22::::640::::661::::method.getReturnType()::::DELETE::::INFIX	false
+org.mockito.internal.configuration.plugins.PluginFinder::::19::::474::::1299::::for (java.net.URL resource : resources) {    java.io.InputStream s = null;    try {        s = resource.openStream();        java.lang.String pluginClassName = new org.mockito.internal.configuration.plugins.PluginFileReader().readPluginClass(s);        if (pluginClassName == null) {            continue;        }        if (!(pluginSwitch.isEnabled(pluginClassName))) {            continue;        }        return pluginClassName;    } catch (java.lang.Exception e) {        throw new org.mockito.exceptions.base.MockitoException(("Problems reading plugin implementation from: " + resource), e);    } finally {        org.mockito.internal.util.io.IOUtil.closeQuietly(s);    }}::::INSERT::::STATEMENT::::if (pluginClassName == null) {    continue;}	false
+org.mockito.internal.creation.cglib.CglibMockMaker::::23::::817::::891::::new org.mockito.internal.creation.cglib.AcrossJVMSerializationFeature().enableSerializationAcrossJVM(settings)::::INSERT::::STATEMENT::::if (!(handler instanceof org.mockito.internal.InternalMockHandler)) {    throw new org.mockito.exceptions.base.MockitoException(("At the moment you cannot provide own implementations of MockHandler." + "\nPlease see the javadocs for the MockMaker interface."));}	false
+org.mockito.internal.creation.cglib.CglibMockMaker::::22::::757::::807::::org.mockito.internal.InternalMockHandler mockitoHandler = cast(handler)::::INSERT::::STATEMENT::::if (!(handler instanceof org.mockito.internal.InternalMockHandler)) {    throw new org.mockito.exceptions.base.MockitoException(("At the moment you cannot provide own implementations of MockHandler." + "\nPlease see the javadocs for the MockMaker interface."));}	false

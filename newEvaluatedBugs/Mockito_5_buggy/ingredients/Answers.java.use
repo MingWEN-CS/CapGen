@@ -1,0 +1,6 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+10071	implementation	Answer<Object>	param	32	define	org.mockito.internal.stubbing.defaultanswers.Answers.Answers	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_5_buggy/src/org/mockito/internal/stubbing/defaultanswers/Answers.java	32	34
+10071	implementation	Answer<Object>	param	33	use	org.mockito.internal.stubbing.defaultanswers.Answers.Answers	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_5_buggy/src/org/mockito/internal/stubbing/defaultanswers/Answers.java	32	34
+10081	Answers.implementation	Answer<Object>	variable	33	set	org.mockito.internal.stubbing.defaultanswers.Answers.Answers	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_5_buggy/src/org/mockito/internal/stubbing/defaultanswers/Answers.java	32	34
+10081	Answers.implementation	Answer<Object>	variable	37	use	org.mockito.internal.stubbing.defaultanswers.Answers.get	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_5_buggy/src/org/mockito/internal/stubbing/defaultanswers/Answers.java	36	38
+10074	s		param	21	define	org.mockito.internal.stubbing.defaultanswers.Answers.valueOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_5_buggy/src/org/mockito/internal/stubbing/defaultanswers/Answers.java	21	21

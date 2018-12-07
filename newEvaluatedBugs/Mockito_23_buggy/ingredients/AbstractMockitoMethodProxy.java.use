@@ -1,0 +1,5 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+16640	target	Object	param	9	define	org.mockito.internal.creation.AbstractMockitoMethodProxy.invokeSuper	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_23_buggy/src/org/mockito/internal/creation/AbstractMockitoMethodProxy.java	9	11
+16639	arguments	Object[]	param	9	define	org.mockito.internal.creation.AbstractMockitoMethodProxy.invokeSuper	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_23_buggy/src/org/mockito/internal/creation/AbstractMockitoMethodProxy.java	9	11
+16640	target	Object	param	10	use	org.mockito.internal.creation.AbstractMockitoMethodProxy.invokeSuper	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_23_buggy/src/org/mockito/internal/creation/AbstractMockitoMethodProxy.java	9	11
+16639	arguments	Object[]	param	10	use	org.mockito.internal.creation.AbstractMockitoMethodProxy.invokeSuper	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_23_buggy/src/org/mockito/internal/creation/AbstractMockitoMethodProxy.java	9	11

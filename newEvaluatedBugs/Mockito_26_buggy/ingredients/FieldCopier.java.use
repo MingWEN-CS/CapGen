@@ -1,0 +1,11 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+18308	from	T	param	11	define	org.mockito.internal.util.reflection.FieldCopier.copyValue	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/util/reflection/FieldCopier.java	11	14
+18309	to	T	param	11	define	org.mockito.internal.util.reflection.FieldCopier.copyValue	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/util/reflection/FieldCopier.java	11	14
+18307	field	Field	param	11	define	org.mockito.internal.util.reflection.FieldCopier.copyValue	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/util/reflection/FieldCopier.java	11	14
+18307	field	Field	param	12	use	org.mockito.internal.util.reflection.FieldCopier.copyValue	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/util/reflection/FieldCopier.java	11	14
+18308	from	T	param	12	use	org.mockito.internal.util.reflection.FieldCopier.copyValue	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/util/reflection/FieldCopier.java	11	14
+18307	field	Field	param	13	use	org.mockito.internal.util.reflection.FieldCopier.copyValue	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/util/reflection/FieldCopier.java	11	14
+18309	to	T	param	13	use	org.mockito.internal.util.reflection.FieldCopier.copyValue	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/util/reflection/FieldCopier.java	11	14
+18310	value	Object	variable	12	define	org.mockito.internal.util.reflection.FieldCopier.copyValue	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/util/reflection/FieldCopier.java	11	14
+18310	value	Object	variable	12	set	org.mockito.internal.util.reflection.FieldCopier.copyValue	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/util/reflection/FieldCopier.java	11	14
+18310	value	Object	variable	13	use	org.mockito.internal.util.reflection.FieldCopier.copyValue	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/internal/util/reflection/FieldCopier.java	11	14

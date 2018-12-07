@@ -1,0 +1,27 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+21629	elements	Elements	param	33	define	org.jsoup.select.Collector.Accumulator.Accumulator	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	33	36
+21630	eval	Evaluator	param	33	define	org.jsoup.select.Collector.Accumulator.Accumulator	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	33	36
+21629	elements	Elements	param	34	use	org.jsoup.select.Collector.Accumulator.Accumulator	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	33	36
+21630	eval	Evaluator	param	35	use	org.jsoup.select.Collector.Accumulator.Accumulator	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	33	36
+21640	Accumulator.elements	Elements	variable	34	set	org.jsoup.select.Collector.Accumulator.Accumulator	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	33	36
+21641	Accumulator.eval	Evaluator	variable	35	set	org.jsoup.select.Collector.Accumulator.Accumulator	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	33	36
+21636	node	Node	param	38	define	org.jsoup.select.Collector.Accumulator.head	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	38	44
+21634	depth	int	param	38	define	org.jsoup.select.Collector.Accumulator.head	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	38	44
+21636	node	Node	param	39	use	org.jsoup.select.Collector.Accumulator.head	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	38	44
+21636	node	Node	param	40	use	org.jsoup.select.Collector.Accumulator.head	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	38	44
+21635	el	Element	variable	40	define	org.jsoup.select.Collector.Accumulator.head	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	38	44
+21635	el	Element	variable	40	set	org.jsoup.select.Collector.Accumulator.head	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	38	44
+21641	Accumulator.eval	Evaluator	variable	41	use	org.jsoup.select.Collector.Accumulator.head	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	38	44
+21635	el	Element	variable	41	use	org.jsoup.select.Collector.Accumulator.head	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	38	44
+21640	Accumulator.elements	Elements	variable	42	use	org.jsoup.select.Collector.Accumulator.head	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	38	44
+21635	el	Element	variable	42	use	org.jsoup.select.Collector.Accumulator.head	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	38	44
+21639	node	Node	param	46	define	org.jsoup.select.Collector.Accumulator.tail	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	46	47
+21638	depth	int	param	46	define	org.jsoup.select.Collector.Accumulator.tail	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	46	47
+21646	eval	Evaluator	param	23	define	org.jsoup.select.Collector.collect	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	23	27
+21647	root	Element	param	23	define	org.jsoup.select.Collector.collect	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	23	27
+21646	eval	Evaluator	param	25	use	org.jsoup.select.Collector.collect	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	23	27
+21647	root	Element	param	25	use	org.jsoup.select.Collector.collect	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	23	27
+21645	elements	Elements	variable	24	define	org.jsoup.select.Collector.collect	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	23	27
+21645	elements	Elements	variable	24	set	org.jsoup.select.Collector.collect	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	23	27
+21645	elements	Elements	variable	25	use	org.jsoup.select.Collector.collect	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	23	27
+21645	elements	Elements	variable	26	use	org.jsoup.select.Collector.collect	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_55_buggy/src/main/java/org/jsoup/select/Collector.java	23	27

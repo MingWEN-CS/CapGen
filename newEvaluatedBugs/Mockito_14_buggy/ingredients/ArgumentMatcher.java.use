@@ -1,0 +1,7 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+4132	description	Description	param	85	define	org.mockito.ArgumentMatcher.describeTo	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_14_buggy/src/org/mockito/ArgumentMatcher.java	85	88
+4132	description	Description	param	87	use	org.mockito.ArgumentMatcher.describeTo	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_14_buggy/src/org/mockito/ArgumentMatcher.java	85	88
+4131	className	String	variable	86	define	org.mockito.ArgumentMatcher.describeTo	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_14_buggy/src/org/mockito/ArgumentMatcher.java	85	88
+4131	className	String	variable	86	set	org.mockito.ArgumentMatcher.describeTo	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_14_buggy/src/org/mockito/ArgumentMatcher.java	85	88
+4131	className	String	variable	87	use	org.mockito.ArgumentMatcher.describeTo	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_14_buggy/src/org/mockito/ArgumentMatcher.java	85	88
+4134	argument	Object	param	71	define	org.mockito.ArgumentMatcher.matches	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_14_buggy/src/org/mockito/ArgumentMatcher.java	71	71

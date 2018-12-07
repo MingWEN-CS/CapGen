@@ -1,0 +1,436 @@
+1	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3049::::(methodNameEquals && isUnverified) && mockIsTheSame::::(methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs	0.04270712374248564
+2	org.mockito.internal.matchers.Equals::::23::::620::::625::::actual::::wanted	0.04129483209670111
+3	org.mockito.internal.matchers.Equals::::23::::620::::625::::actual::::this.wanted	0.04129483209670111
+4	org.mockito.internal.matchers.Equals::::32::::836::::841::::object::::this.wanted	0.029537661760293796
+5	org.mockito.internal.matchers.Equals::::35::::915::::920::::object::::this.wanted	0.02903244439731068
+6	org.mockito.internal.matchers.Equals::::32::::836::::841::::object::::wanted	0.028356155289882043
+7	org.mockito.internal.matchers.Equals::::35::::915::::920::::object::::wanted	0.027504421007978532
+8	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3032::::methodNameEquals && isUnverified::::(methodNameEquals && isUnverified) && mockIsTheSame	0.02521801021892347
+9	org.mockito.internal.matchers.Equals::::42::::1041::::1064::::(wanted) instanceof java.lang.String::::(this.wanted) == null	0.02214230644549432
+10	org.mockito.internal.matchers.Equals::::23::::606::::611::::wanted::::this.wanted	0.021925148521297805
+11	org.mockito.internal.invocation.InvocationMatcher::::92::::3037::::3049::::mockIsTheSame::::methodNameEquals && isUnverified	0.021514114968019086
+12	org.mockito.internal.invocation.InvocationMatcher::::86::::2628::::2644::::currentMethodName::::wantedMethodName	0.021514114968019086
+13	org.mockito.internal.invocation.InvocationMatcher::::86::::2604::::2619::::wantedMethodName::::getInvocation()	0.021514114968019086
+14	org.mockito.internal.invocation.InvocationMatcher::::86::::2604::::2619::::wantedMethodName::::currentMethodName	0.021514114968019086
+15	org.mockito.internal.invocation.InvocationMatcher::::86::::2604::::2619::::wantedMethodName::::candidate	0.021514114968019086
+16	org.mockito.internal.invocation.InvocationMatcher::::83::::2463::::2471::::getMethod::::getInvocation	0.021514114968019086
+17	org.mockito.internal.invocation.InvocationMatcher::::37::::1161::::1169::::getMethod::::toString	0.021514114968019086
+18	org.mockito.internal.invocation.InvocationMatcher::::37::::1161::::1169::::getMethod::::getLocation	0.021514114968019086
+19	org.mockito.internal.matchers.Equals::::44::::1113::::1139::::(wanted) instanceof java.lang.Character::::(wanted) instanceof java.lang.String	0.021380899352993952
+20	org.mockito.internal.invocation.InvocationMatcher::::92::::3055::::3075::::overloadedButSameArgs::::methodNameEquals && isUnverified	0.021354751153441168
+21	org.mockito.internal.invocation.InvocationMatcher::::92::::3055::::3075::::overloadedButSameArgs::::(methodNameEquals && isUnverified) && mockIsTheSame	0.021354751153441168
+22	org.mockito.internal.invocation.InvocationMatcher::::92::::3037::::3049::::mockIsTheSame::::overloadedButSameArgs	0.02127769612221668
+23	org.mockito.internal.invocation.InvocationMatcher::::92::::3037::::3049::::mockIsTheSame::::(methodNameEquals && isUnverified) && mockIsTheSame	0.02127769612221668
+24	org.mockito.internal.invocation.InvocationMatcher::::92::::3037::::3049::::mockIsTheSame::::!overloadedButSameArgs	0.02127769612221668
+25	org.mockito.internal.invocation.InvocationMatcher::::92::::3055::::3075::::overloadedButSameArgs::::(methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs	0.021195387338863246
+26	org.mockito.internal.invocation.InvocationMatcher::::92::::3021::::3032::::isUnverified::::mockIsTheSame	0.021065904239518686
+27	org.mockito.internal.invocation.InvocationMatcher::::92::::3021::::3032::::isUnverified::::methodNameEquals && isUnverified	0.021065904239518686
+28	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3016::::methodNameEquals::::mockIsTheSame	0.021065904239518686
+29	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3016::::methodNameEquals::::methodNameEquals && isUnverified	0.021065904239518686
+30	org.mockito.internal.invocation.InvocationMatcher::::92::::3037::::3049::::mockIsTheSame::::(methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs	0.02104127727641427
+31	org.mockito.internal.stubbing.answers.AnswersValidator::::21::::670::::675::::(org.mockito.internal.stubbing.answers.Returns) (answer)::::answer	0.020924574973887472
+32	org.mockito.internal.invocation.InvocationMatcher::::90::::2908::::2919::::methodEquals::::overloadedButSameArgs	0.02065355036929832
+33	org.mockito.internal.invocation.InvocationMatcher::::92::::3021::::3032::::isUnverified::::overloadedButSameArgs	0.020617693511018293
+34	org.mockito.internal.invocation.InvocationMatcher::::92::::3021::::3032::::isUnverified::::(methodNameEquals && isUnverified) && mockIsTheSame	0.020617693511018293
+35	org.mockito.internal.invocation.InvocationMatcher::::92::::3021::::3032::::isUnverified::::!overloadedButSameArgs	0.020617693511018293
+36	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3016::::methodNameEquals::::overloadedButSameArgs	0.020617693511018293
+37	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3016::::methodNameEquals::::(methodNameEquals && isUnverified) && mockIsTheSame	0.020617693511018293
+38	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3016::::methodNameEquals::::!overloadedButSameArgs	0.020617693511018293
+39	org.mockito.internal.invocation.InvocationMatcher::::92::::3021::::3032::::isUnverified::::(methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs	0.020169482782517893
+40	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3016::::methodNameEquals::::(methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs	0.020169482782517893
+41	org.mockito.internal.invocation.InvocationsFinder::::70::::2477::::2488::::firstSimilar::::invocation	0.019914610228357624
+42	org.mockito.internal.invocation.InvocationMatcher::::90::::2908::::2919::::methodEquals::::mockIsTheSame	0.01979298577057756
+43	org.mockito.internal.invocation.InvocationMatcher::::90::::2908::::2919::::methodEquals::::methodNameEquals && isUnverified	0.01979298577057756
+44	org.mockito.internal.invocation.InvocationMatcher::::90::::2908::::2919::::methodEquals::::methodNameEquals	0.01979298577057756
+45	org.mockito.internal.invocation.InvocationMatcher::::90::::2908::::2919::::methodEquals::::isUnverified	0.01979298577057756
+46	org.mockito.internal.invocation.InvocationMatcher::::90::::2908::::2919::::methodEquals::::(methodNameEquals && isUnverified) && mockIsTheSame	0.01979298577057756
+47	org.mockito.internal.invocation.InvocationMatcher::::90::::2908::::2919::::methodEquals::::!overloadedButSameArgs	0.01979298577057756
+48	org.mockito.internal.invocation.InvocationsFinder::::69::::2437::::2448::::firstSimilar::::invocation	0.01967639718734856
+49	org.mockito.internal.invocation.InvocationMatcher::::90::::2908::::2919::::methodEquals::::(methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs	0.018932421171856794
+50	org.mockito.internal.matchers.Equals::::23::::606::::611::::wanted::::this	0.01887155308957314
+51	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3032::::methodNameEquals && isUnverified::::(methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs	0.018703357579034907
+52	org.mockito.internal.stubbing.answers.AnswersValidator::::24::::722::::750::::answer instanceof org.mockito.internal.stubbing.answers.DoesNothing::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException	0.018599622199011085
+53	org.mockito.internal.stubbing.answers.AnswersValidator::::24::::722::::750::::answer instanceof org.mockito.internal.stubbing.answers.DoesNothing::::answer instanceof org.mockito.internal.stubbing.answers.Returns	0.018599622199011085
+54	org.mockito.internal.stubbing.answers.AnswersValidator::::20::::599::::623::::answer instanceof org.mockito.internal.stubbing.answers.Returns::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException	0.018599622199011085
+55	org.mockito.internal.invocation.InvocationMatcher::::92::::3055::::3075::::overloadedButSameArgs::::mockIsTheSame	0.017848747232726943
+56	org.mockito.internal.matchers.Equals::::42::::1041::::1064::::(wanted) instanceof java.lang.String::::(wanted) instanceof java.lang.Character	0.017567449741879786
+57	org.mockito.internal.stubbing.MockitoStubber::::46::::1563::::1578::::answersValidator::::new org.mockito.internal.stubbing.answers.AnswersValidator()	0.01651940129517432
+58	org.mockito.internal.invocation.InvocationMatcher::::86::::2604::::2619::::wantedMethodName::::getMethod()	0.016135586226014315
+59	org.mockito.internal.matchers.Equals::::44::::1113::::1139::::(wanted) instanceof java.lang.Character::::(this.wanted) == null	0.016035674514745465
+60	org.mockito.internal.matchers.Equals::::27::::721::::728::::describe::::equals	0.01482253571971107
+61	org.mockito.internal.stubbing.answers.AnswersValidator::::16::::462::::494::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException::::answer instanceof org.mockito.internal.stubbing.answers.Returns	0.013526997962917153
+62	org.mockito.internal.matchers.Equals::::20::::523::::541::::(this.wanted) == null::::(this.wanted) != null	0.013352520208498744
+63	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::21::::727::::742::::arguments.length::::i	0.012933311996952917
+64	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::26::::871::::880::::int i = 0::::INSERT::::STATEMENT::::toStringEquals(m, arguments[i])	0.012495160123364095
+65	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::26::::871::::880::::int i = 0::::INSERT::::STATEMENT::::!(safelyMatches(m, arguments[i]))	0.012495160123364095
+66	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::21::::708::::742::::matchers.size()) != (arguments.length::::toStringEquals(m, arguments[i])	0.012398645883849027
+67	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::21::::708::::742::::matchers.size()) != (arguments.length::::!(safelyMatches(m, arguments[i]))	0.012398645883849027
+68	org.mockito.internal.stubbing.answers.AnswersValidator::::20::::599::::623::::answer instanceof org.mockito.internal.stubbing.answers.Returns::::answer instanceof org.mockito.internal.stubbing.answers.DoesNothing	0.011624763874381928
+69	org.mockito.internal.stubbing.StubbedInvocationMatcher::::21::::735::::746::::this.answers::::answers	0.011364208822025093
+70	org.mockito.internal.invocation.InvocationMatcher::::92::::3055::::3075::::overloadedButSameArgs::::methodEquals	0.011019424739717093
+71	org.mockito.internal.invocation.InvocationMatcher::::92::::3055::::3075::::overloadedButSameArgs::::!methodEquals	0.010937799371274745
+72	org.mockito.internal.invocation.InvocationMatcher::::92::::3037::::3049::::mockIsTheSame::::methodEquals	0.010898332160159762
+73	org.mockito.internal.invocation.InvocationMatcher::::92::::3037::::3049::::mockIsTheSame::::!methodEquals	0.010898332160159762
+74	org.mockito.internal.invocation.InvocationMatcher::::92::::3055::::3075::::overloadedButSameArgs::::methodNameEquals	0.010836739391298502
+75	org.mockito.internal.invocation.InvocationMatcher::::92::::3055::::3075::::overloadedButSameArgs::::isUnverified	0.010836739391298502
+76	org.mockito.internal.invocation.InvocationMatcher::::92::::3021::::3032::::isUnverified::::methodEquals	0.010560282042228883
+77	org.mockito.internal.invocation.InvocationMatcher::::92::::3021::::3032::::isUnverified::::!methodEquals	0.010560282042228883
+78	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3016::::methodNameEquals::::!methodEquals	0.010560282042228883
+79	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3016::::methodNameEquals::::methodEquals	0.010330710693484775
+80	org.mockito.internal.stubbing.MockitoStubber::::35::::1163::::1187::::addAnswer(answer, false)::::INSERT::::STATEMENT::::addAnswer(answer, true)	0.009474182557621271
+81	org.mockito.internal.stubbing.MockitoStubber::::35::::1163::::1187::::addAnswer(answer, false)::::INSERT::::STATEMENT::::addAnswer(answer, false)	0.009474182557621271
+82	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::25::::809::::861::::java.util.List<java.lang.Integer> suspicious = new java.util.LinkedList<java.lang.Integer>()::::INSERT::::STATEMENT::::toStringEquals(m, arguments[i])	0.009404959232639641
+83	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::25::::809::::861::::java.util.List<java.lang.Integer> suspicious = new java.util.LinkedList<java.lang.Integer>()::::INSERT::::STATEMENT::::!(safelyMatches(m, arguments[i]))	0.009404959232639641
+84	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::21::::708::::742::::matchers.size()) != (arguments.length::::(m instanceof org.mockito.internal.matchers.ContainsExtraTypeInformation) && (!(safelyMatches(m, arguments[i])))	0.009364240443854399
+85	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::21::::708::::742::::matchers.size()) != (arguments.length::::((m instanceof org.mockito.internal.matchers.ContainsExtraTypeInformation) && (!(safelyMatches(m, arguments[i])))) && (toStringEquals(m, arguments[i]))	0.009364240443854399
+86	org.mockito.internal.invocation.InvocationMatcher::::86::::2604::::2619::::wantedMethodName::::invocation	0.00932278315280827
+87	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::21::::704::::790::::if ((matchers.size()) != (arguments.length)) {    return new java.lang.Integer[0];}::::INSERT::::STATEMENT::::toStringEquals(m, arguments[i])	0.009298293898323907
+88	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::21::::704::::790::::if ((matchers.size()) != (arguments.length)) {    return new java.lang.Integer[0];}::::INSERT::::STATEMENT::::!(safelyMatches(m, arguments[i]))	0.009298293898323907
+89	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::21::::708::::742::::matchers.size()) != (arguments.length::::safelyMatches(m, arguments[i])	0.00867905211869432
+90	org.mockito.internal.stubbing.answers.AnswersValidator::::16::::462::::494::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException::::answer instanceof org.mockito.internal.stubbing.answers.DoesNothing	0.00845437372682322
+91	org.mockito.internal.matchers.Equals::::44::::1113::::1139::::(wanted) instanceof java.lang.Character::::(this.wanted) != null	0.007636035483212125
+92	org.mockito.internal.progress.MockingProgressImpl::::82::::2759::::2802::::getArgumentMatcherStorage().validateState()::::INSERT::::STATEMENT::::validateState()	0.007608188456552187
+93	org.mockito.internal.invocation.InvocationMatcher::::37::::1161::::1169::::getMethod::::getInvocation	0.007171371656006361
+94	org.mockito.internal.progress.MockingProgressImpl::::82::::2759::::2783::::getArgumentMatcherStorage::::validateState	0.007001400420140048
+95	org.mockito.internal.matchers.Equals::::23::::606::::611::::equals::::describe	0.0068824720161168515
+96	org.mockito.internal.stubbing.MockitoStubber::::61::::2087::::2087::::s::::invocationForStubbing	0.006538929679339835
+97	org.mockito.internal.matchers.Equals::::42::::1041::::1064::::(wanted) instanceof java.lang.String::::(this.wanted) != null	0.00640479938506034
+98	org.mockito.internal.progress.MockingProgressImpl::::70::::2346::::2369::::(verificationMode) != null::::(verificationMode) == null	0.006049209963001002
+99	org.mockito.internal.progress.MockingProgressImpl::::82::::2759::::2802::::getArgumentMatcherStorage().validateState()::::INSERT::::STATEMENT::::resetOngoingStubbing()	0.00570614134241414
+100	org.mockito.internal.invocation.InvocationMatcher::::88::::2748::::2795::::getInvocation().getMock()) == (candidate.getMock()::::int	0.005587433916331914
+101	org.mockito.internal.invocation.InvocationsFinder::::72::::2555::::2564::::invocation::::firstSimilar	0.0054692486688204854
+102	org.mockito.internal.matchers.Equals::::32::::836::::849::::object == null::::object != null	0.005434929763894059
+103	org.mockito.internal.invocation.InvocationsFinder::::70::::2492::::2501::::invocation::::firstSimilar	0.0052899973786076195
+104	org.mockito.internal.invocation.InvocationsFinder::::66::::2366::::2375::::invocation::::firstSimilar	0.0052063197055891314
+105	org.mockito.internal.stubbing.OngoingStubbingImpl::::24::::844::::864::::registeredInvocations::::this.registeredInvocations	0.004945808630191585
+106	org.mockito.internal.stubbing.StubbedInvocationMatcher::::20::::700::::709::::invocation::::this	0.00494052464661232
+107	org.mockito.internal.stubbing.StubbedInvocationMatcher::::20::::672::::681::::invocation::::this	0.004857490618938164
+108	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3075::::(methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs::::!overloadedButSameArgs	0.004780914437337575
+109	org.mockito.internal.invocation.InvocationMatcher::::90::::2907::::2969::::!methodEquals) && (safelyArgumentsMatch(candidate.getArguments())::::int	0.0047512193166087706
+110	org.mockito.internal.matchers.Equals::::20::::523::::541::::(this.wanted) == null::::(wanted) != null	0.004599911267999568
+111	org.mockito.internal.invocation.InvocationsFinder::::73::::2593::::2602::::invocation::::firstSimilar	0.004581218545439764
+112	org.mockito.internal.matchers.Equals::::20::::523::::541::::(this.wanted) == null::::(wanted) instanceof java.lang.String	0.004216585328999604
+113	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3075::::(methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs::::overloadedButSameArgs	0.0041866764846741475
+114	org.mockito.internal.progress.MockingProgressImpl::::68::::2293::::2323::::org.mockito.internal.configuration.GlobalConfiguration.validate()::::INSERT::::STATEMENT::::validateState()	0.0038040942282760934
+115	org.mockito.internal.progress.MockingProgressImpl::::68::::2293::::2323::::org.mockito.internal.configuration.GlobalConfiguration.validate()::::INSERT::::STATEMENT::::resetOngoingStubbing()	0.0038040942282760934
+116	org.mockito.MockitoAnnotations::::85::::3198::::3235::::java.lang.Class<?> clazz = testClass.getClass()::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.scan(testClass, clazz)	0.003776122947185828
+117	org.mockito.internal.invocation.InvocationMatcher::::84::::2521::::2529::::candidate::::invocation	0.003632253176418807
+118	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3075::::(methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs::::mockIsTheSame	0.00359243853201072
+119	org.mockito.internal.matchers.Equals::::27::::698::::738::::description.appendText(describe(wanted))::::DELETE::::STATEMENT	0.003548556225009163
+120	org.mockito.internal.invocation.InvocationMatcher::::90::::2945::::2953::::candidate::::invocation	0.0034782401899515177
+121	org.mockito.internal.invocation.InvocationMatcher::::90::::2924::::2943::::safelyArgumentsMatch::::argumentsMatch	0.0034576256198602102
+122	org.mockito.internal.invocation.InvocationMatcher::::87::::2686::::2694::::candidate::::invocation	0.0034217687615801786
+123	org.mockito.internal.stubbing.MockitoStubber::::44::::1440::::1454::::mockingProgress::::this.mockingProgress	0.0034162571385938727
+124	org.mockito.internal.invocation.InvocationMatcher::::88::::2777::::2785::::candidate::::invocation	0.0033924608050836607
+125	org.mockito.internal.invocation.InvocationMatcher::::88::::2748::::2760::::getInvocation::::getMethod	0.003317260185012999
+126	org.mockito.internal.invocation.InvocationMatcher::::89::::2849::::2857::::candidate::::invocation	0.0029315936879498535
+127	org.mockito.internal.matchers.Equals::::20::::523::::541::::(this.wanted) == null::::(wanted) instanceof java.lang.Character	0.00287494454249973
+128	org.mockito.internal.invocation.InvocationMatcher::::86::::2604::::2619::::wantedMethodName::::this.invocation	0.0028685486624025446
+129	org.mockito.internal.invocation.Invocation::::187::::6227::::6232::::method::::this.method	0.0027467706531496064
+130	org.mockito.internal.matchers.Equals::::32::::836::::849::::object == null::::((wanted) != null) && (object != null)	0.0027174648819470295
+131	org.mockito.internal.matchers.Equals::::44::::1113::::1139::::(wanted) instanceof java.lang.Character::::(wanted) != null	0.0025453451610707085
+132	org.mockito.internal.matchers.Equals::::43::::1081::::1092::::return "\""::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.String) {    return "\"";}else    if ((wanted) instanceof java.lang.Character) {        return "'";    }else {        return "";    }	0.002494319170635546
+133	org.mockito.internal.matchers.Equals::::43::::1081::::1092::::return "\""::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.Character) {    return "'";}else {    return "";}	0.002494319170635546
+134	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3075::::(methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs::::methodNameEquals	0.0024039626266838653
+135	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3075::::(methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs::::isUnverified	0.0024039626266838653
+136	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::27::::890::::1251::::for (org.hamcrest.Matcher m : matchers) {    if ((((m instanceof org.mockito.internal.matchers.ContainsExtraTypeInformation) && (!(safelyMatches(m, arguments[i])))) && (toStringEquals(m, arguments[i]))) && (!(((org.mockito.internal.matchers.ContainsExtraTypeInformation) (m)).typeMatches(arguments[i])))) {        suspicious.add(i);    }    i++;}::::INSERT::::STATEMENT::::toStringEquals(m, arguments[i])	0.002378396985275435
+137	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::27::::890::::1251::::for (org.hamcrest.Matcher m : matchers) {    if ((((m instanceof org.mockito.internal.matchers.ContainsExtraTypeInformation) && (!(safelyMatches(m, arguments[i])))) && (toStringEquals(m, arguments[i]))) && (!(((org.mockito.internal.matchers.ContainsExtraTypeInformation) (m)).typeMatches(arguments[i])))) {        suspicious.add(i);    }    i++;}::::INSERT::::STATEMENT::::!(safelyMatches(m, arguments[i]))	0.002378396985275435
+138	org.mockito.internal.matchers.Equals::::42::::1041::::1064::::(wanted) instanceof java.lang.String::::(wanted) != null	0.002195931217734973
+139	org.mockito.internal.progress.ThreadSafeMockingProgress::::43::::1337::::1367::::org.mockito.internal.progress.ThreadSafeMockingProgress.threadSafely().validateState()::::DELETE::::STATEMENT	0.002194238891671891
+140	org.mockito.internal.progress.MockingProgressImpl::::82::::2759::::2802::::getArgumentMatcherStorage().validateState()::::DELETE::::STATEMENT	0.002194238891671891
+141	org.mockito.internal.progress.MockingProgressImpl::::68::::2293::::2323::::org.mockito.internal.configuration.GlobalConfiguration.validate()::::DELETE::::STATEMENT	0.002194238891671891
+142	org.mockito.internal.progress.MockingProgressImpl::::82::::2759::::2783::::getArgumentMatcherStorage::::resetOngoingStubbing	0.002100420126042014
+143	org.mockito.internal.invocation.InvocationMatcher::::37::::1161::::1170::::invocation::::getInvocation()	0.002077224893463912
+144	org.mockito.internal.invocation.InvocationMatcher::::84::::2521::::2529::::candidate::::getInvocation()	0.0020082169004238593
+145	org.mockito.internal.configuration.GlobalConfiguration::::37::::1404::::1409::::config::::defaultConfiguration	0.0020049464839491955
+146	org.mockito.internal.configuration.GlobalConfiguration::::38::::1434::::1447::::return config::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	0.0019757951985635218
+147	org.mockito.internal.verification.checkers.MissingInvocationChecker::::35::::1240::::1250::::invocations::::actualInvocations	0.0018962023474273942
+148	org.mockito.internal.stubbing.BaseStubbing::::15::::600::::637::::return thenAnswer(new org.mockito.internal.stubbing.answers.Returns(value))::::INSERT::::STATEMENT::::thenThrow(((java.lang.Throwable) (null)))	0.0018948365115242544
+149	org.mockito.internal.matchers.Equals::::47::::1197::::1206::::return ""::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.String) {    return "\"";}else    if ((wanted) instanceof java.lang.Character) {        return "'";    }else {        return "";    }	0.001885528061692154
+150	org.mockito.internal.matchers.Equals::::47::::1197::::1206::::return ""::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.Character) {    return "'";}else {    return "";}	0.001885528061692154
+151	org.mockito.internal.matchers.Equals::::44::::1109::::1216::::if ((wanted) instanceof java.lang.Character) {    return "'";}else {    return "";}::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.String) {    return "\"";}else    if ((wanted) instanceof java.lang.Character) {        return "'";    }else {        return "";    }	0.001885528061692154
+152	org.mockito.internal.matchers.Equals::::44::::1109::::1216::::if ((wanted) instanceof java.lang.Character) {    return "'";}else {    return "";}::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.Character) {    return "'";}else {    return "";}	0.001885528061692154
+153	org.mockito.internal.invocation.InvocationsFinder::::73::::2586::::2603::::return invocation::::INSERT::::STATEMENT::::if (firstSimilar == null) {    firstSimilar = invocation;}	0.001885528061692154
+154	org.mockito.internal.verification.RegisteredInvocations::::25::::673::::713::::invocations.remove(((invocations.size()) - 1))::::DELETE::::STATEMENT	0.0018216004991156482
+155	org.mockito.internal.stubbing.MockitoStubber::::46::::1563::::1608::::answersValidator.validate(answer, invocation)::::DELETE::::STATEMENT	0.0018216004991156482
+156	org.mockito.internal.stubbing.MockitoStubber::::44::::1440::::1485::::mockingProgress.stubbingCompleted(invocation)::::DELETE::::STATEMENT	0.0018216004991156482
+157	org.mockito.internal.stubbing.MockitoStubber::::35::::1163::::1187::::addAnswer(answer, false)::::DELETE::::STATEMENT	0.0018216004991156482
+158	org.mockito.internal.progress.ThreadSafeMockingProgress::::47::::1443::::1487::::org.mockito.internal.progress.ThreadSafeMockingProgress.threadSafely().stubbingCompleted(invocation)::::DELETE::::STATEMENT	0.0018216004991156482
+159	org.mockito.internal.progress.ThreadSafeMockingProgress::::39::::1254::::1286::::org.mockito.internal.progress.ThreadSafeMockingProgress.threadSafely().stubbingStarted()::::DELETE::::STATEMENT	0.0018216004991156482
+160	org.mockito.internal.invocation.InvocationMatcher::::88::::2777::::2785::::candidate::::getInvocation()	0.0018074320516381316
+161	org.mockito.internal.invocation.InvocationsFinder::::70::::2477::::2502::::firstSimilar = invocation::::INSERT::::STATEMENT::::if (firstSimilar == null) {    firstSimilar = invocation;}	0.001791971791972688
+162	org.mockito.internal.invocation.InvocationMatcher::::90::::2945::::2953::::candidate::::getInvocation()	0.001764732136604353
+163	org.mockito.internal.invocation.InvocationsFinder::::72::::2534::::2565::::wanted.hasSameMethod(invocation)::::INSERT::::STATEMENT::::if (firstSimilar == null) {    firstSimilar = invocation;}	0.0017322393989069318
+164	org.mockito.internal.invocation.InvocationMatcher::::87::::2686::::2694::::candidate::::getInvocation()	0.0016754543898705341
+165	org.mockito.internal.stubbing.answers.Returns::::27::::655::::659::::value::::this.value	0.0016739659979109979
+166	org.mockito.internal.configuration.GlobalConfiguration::::38::::1441::::1446::::config::::defaultConfiguration	0.0016336600980326778
+167	org.mockito.internal.invocation.InvocationsFinder::::66::::2341::::2376::::!(wanted.hasSimilarMethod(invocation))::::INSERT::::STATEMENT::::if (firstSimilar == null) {    firstSimilar = invocation;}	0.001577663208559808
+168	org.mockito.internal.matchers.Equals::::20::::523::::533::::this.wanted::::actual	0.0015000875320753306
+169	org.mockito.internal.stubbing.OngoingStubbingImpl::::25::::888::::901::::mockitoStubber::::this.mockitoStubber	0.0014507705315228647
+170	org.mockito.internal.matchers.Equals::::42::::1037::::1216::::if ((wanted) instanceof java.lang.String) {    return "\"";}else    if ((wanted) instanceof java.lang.Character) {        return "'";    }else {        return "";    }::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.String) {    return "\"";}else    if ((wanted) instanceof java.lang.Character) {        return "'";    }else {        return "";    }	0.001419875400817323
+171	org.mockito.internal.matchers.Equals::::20::::519::::589::::if ((this.wanted) == null) {    return actual == null;}::::INSERT::::STATEMENT::::if ((this.wanted) == null) {    return actual == null;}	0.0014020146218923682
+172	org.mockito.MockitoAnnotations::::86::::3245::::3364::::while (clazz != (java.lang.Object.class)) {    org.mockito.MockitoAnnotations.scan(testClass, clazz);    clazz = clazz.getSuperclass();} ::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.scan(testClass, clazz)	0.0013955236978730236
+173	org.mockito.internal.stubbing.MockitoStubber::::46::::1563::::1608::::answersValidator.validate(answer, invocation)::::INSERT::::STATEMENT::::addAnswer(answer, true)	0.0013297098326485993
+174	org.mockito.internal.stubbing.MockitoStubber::::46::::1563::::1608::::answersValidator.validate(answer, invocation)::::INSERT::::STATEMENT::::addAnswer(answer, false)	0.0013297098326485993
+175	org.mockito.internal.invocation.InvocationMatcher::::37::::1161::::1170::::invocation::::this.invocation	0.0013281050588686725
+176	org.mockito.internal.matchers.Equals::::20::::523::::541::::(this.wanted) == null::::wanted.equals(actual)	0.00127775312999988
+177	org.mockito.internal.matchers.Equals::::23::::599::::627::::return wanted.equals(actual)::::INSERT::::STATEMENT::::if ((this.wanted) == null) {    return actual == null;}	0.0012586320699473695
+178	org.mockito.internal.invocation.InvocationMatcher::::37::::1161::::1170::::invocation::::this	0.0011968772005196825
+179	org.mockito.internal.stubbing.MockitoStubber::::48::::1627::::1814::::if (isConsecutive) {    stubbed.getFirst().addAnswer(answer);}else {    stubbed.addFirst(new org.mockito.internal.stubbing.StubbedInvocationMatcher(invocationForStubbing, answer));}::::INSERT::::STATEMENT::::addAnswer(answer, false)	0.0011483857645601542
+180	org.mockito.internal.stubbing.MockitoStubber::::45::::1495::::1553::::org.mockito.internal.stubbing.answers.AnswersValidator answersValidator = new org.mockito.internal.stubbing.answers.AnswersValidator()::::INSERT::::STATEMENT::::addAnswer(answer, false)	0.001052686950846808
+181	org.mockito.internal.progress.ThreadSafeMockingProgress::::17::::605::::651::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.set(new org.mockito.internal.progress.MockingProgressImpl())::::DELETE::::STATEMENT	0.0010096019405841951
+182	org.mockito.internal.configuration.GlobalConfiguration::::29::::1072::::1111::::org.mockito.internal.configuration.GlobalConfiguration.globalConfiguration.set(createConfig())::::DELETE::::STATEMENT	0.0010096019405841951
+183	org.mockito.internal.stubbing.MockitoStubber::::43::::1369::::1430::::org.mockito.internal.invocation.Invocation invocation = invocationForStubbing.getInvocation()::::INSERT::::STATEMENT::::addAnswer(answer, false)	0.0010025590008064837
+184	org.mockito.MockitoAnnotations::::93::::3446::::3529::::org.mockito.configuration.AnnotationEngine annotationEngine = new org.mockito.internal.configuration.GlobalConfiguration().getAnnotationEngine()::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.scan(testClass, clazz)	9.610343313539605E-4
+185	org.mockito.internal.stubbing.MockitoStubber::::48::::1627::::1814::::if (isConsecutive) {    stubbed.getFirst().addAnswer(answer);}else {    stubbed.addFirst(new org.mockito.internal.stubbing.StubbedInvocationMatcher(invocationForStubbing, answer));}::::INSERT::::STATEMENT::::addAnswer(answer, true)	9.569881371334618E-4
+186	org.mockito.internal.invocation.InvocationMatcher::::86::::2604::::2619::::wantedMethodName::::invocation.toString(matchers, new org.mockito.internal.reporting.PrintSettings())	8.964214570007953E-4
+187	org.mockito.internal.progress.MockingProgressImpl::::103::::3402::::3431::::return argumentMatcherStorage::::INSERT::::STATEMENT::::if ((verificationMode) == null) {    return null;}	8.779756126855621E-4
+188	org.mockito.internal.configuration.GlobalConfiguration::::37::::1400::::1515::::if (config != null) {    return config;}else {    return defaultConfiguration;}::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	8.779756126855621E-4
+189	org.mockito.internal.configuration.GlobalConfiguration::::36::::1318::::1390::::org.mockito.configuration.IMockitoConfiguration config = new org.mockito.internal.configuration.ClassPathLoader().loadConfiguration()::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	8.779756126855621E-4
+190	org.mockito.internal.configuration.GlobalConfiguration::::35::::1230::::1308::::org.mockito.configuration.IMockitoConfiguration defaultConfiguration = new org.mockito.configuration.DefaultMockitoConfiguration()::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	8.779756126855621E-4
+191	org.mockito.MockitoAnnotations::::81::::2986::::3179::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	8.779756126855621E-4
+192	org.mockito.MockitoAnnotations::::94::::3539::::3581::::java.lang.reflect.Field[] fields = clazz.getDeclaredFields()::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.scan(testClass, clazz)	8.542527389812983E-4
+193	org.mockito.internal.stubbing.answers.AnswersValidator::::21::::640::::689::::validateReturnValue(((org.mockito.internal.stubbing.answers.Returns) (answer)), invocation)::::DELETE::::STATEMENT	8.381454753429371E-4
+194	org.mockito.internal.stubbing.MockitoStubber::::51::::1727::::1804::::stubbed.addFirst(new org.mockito.internal.stubbing.StubbedInvocationMatcher(invocationForStubbing, answer))::::DELETE::::STATEMENT	8.381454753429371E-4
+195	org.mockito.internal.invocation.InvocationMatcher::::93::::3092::::3103::::return true::::INSERT::::STATEMENT::::if (((methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs)) {    return true;}	8.213204046541487E-4
+196	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::26::::871::::880::::int i = 0::::INSERT::::STATEMENT::::i++	8.061393627976836E-4
+197	org.mockito.internal.stubbing.MockitoStubber::::43::::1369::::1430::::org.mockito.internal.invocation.Invocation invocation = invocationForStubbing.getInvocation()::::INSERT::::STATEMENT::::addAnswer(answer, true)	8.02047200645187E-4
+198	org.mockito.internal.stubbing.MockitoStubber::::45::::1495::::1553::::org.mockito.internal.stubbing.answers.AnswersValidator answersValidator = new org.mockito.internal.stubbing.answers.AnswersValidator()::::INSERT::::STATEMENT::::addAnswer(answer, true)	7.895152131351059E-4
+199	org.mockito.internal.progress.MockingProgressImpl::::76::::2566::::2742::::if ((stubbingInProgress) != null) {    org.mockito.internal.debugging.Location temp = stubbingInProgress;    stubbingInProgress = null;    reporter.unfinishedStubbing(temp);}::::INSERT::::STATEMENT::::validateState()	7.608188456552187E-4
+200	org.mockito.MockitoAnnotations::::81::::2986::::3179::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.scan(testClass, clazz)	7.608188456552187E-4
+201	org.mockito.internal.invocation.InvocationMatcher::::92::::2997::::3113::::if (((methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs)) {    return true;}::::INSERT::::STATEMENT::::if (((methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs)) {    return true;}	7.494083380526649E-4
+202	org.mockito.internal.invocation.InvocationMatcher::::90::::2869::::2970::::final boolean overloadedButSameArgs = (!methodEquals) && (safelyArgumentsMatch(candidate.getArguments()))::::INSERT::::STATEMENT::::if (((methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs)) {    return true;}	7.494083380526649E-4
+203	org.mockito.internal.invocation.InvocationMatcher::::89::::2806::::2859::::final boolean methodEquals = hasSameMethod(candidate)::::INSERT::::STATEMENT::::if (((methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs)) {    return true;}	7.494083380526649E-4
+204	org.mockito.internal.invocation.InvocationMatcher::::88::::2718::::2796::::final boolean mockIsTheSame = (getInvocation().getMock()) == (candidate.getMock())::::INSERT::::STATEMENT::::if (((methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs)) {    return true;}	7.494083380526649E-4
+205	org.mockito.internal.invocation.InvocationMatcher::::87::::2656::::2708::::final boolean isUnverified = !(candidate.isVerified())::::INSERT::::STATEMENT::::if (((methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs)) {    return true;}	7.494083380526649E-4
+206	org.mockito.internal.invocation.InvocationMatcher::::86::::2571::::2646::::final boolean methodNameEquals = wantedMethodName.equals(currentMethodName)::::INSERT::::STATEMENT::::if (((methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs)) {    return true;}	7.494083380526649E-4
+207	org.mockito.internal.invocation.InvocationMatcher::::84::::2494::::2552::::java.lang.String currentMethodName = candidate.getMethod().getName()::::INSERT::::STATEMENT::::if (((methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs)) {    return true;}	7.494083380526649E-4
+208	org.mockito.internal.invocation.InvocationMatcher::::83::::2437::::2484::::java.lang.String wantedMethodName = getMethod().getName()::::INSERT::::STATEMENT::::if (((methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs)) {    return true;}	7.494083380526649E-4
+209	org.mockito.MockitoAnnotations::::85::::3198::::3235::::java.lang.Class<?> clazz = testClass.getClass()::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	7.230387398586982E-4
+210	org.mockito.internal.invocation.InvocationMatcher::::83::::2463::::2471::::getMethod::::toString	7.171371656006361E-4
+211	org.mockito.internal.stubbing.MockitoStubber::::51::::1727::::1804::::stubbed.addFirst(new org.mockito.internal.stubbing.StubbedInvocationMatcher(invocationForStubbing, answer))::::INSERT::::STATEMENT::::addAnswer(answer, true)	7.07018138839909E-4
+212	org.mockito.internal.stubbing.MockitoStubber::::51::::1727::::1804::::stubbed.addFirst(new org.mockito.internal.stubbing.StubbedInvocationMatcher(invocationForStubbing, answer))::::INSERT::::STATEMENT::::addAnswer(answer, false)	7.07018138839909E-4
+213	org.mockito.internal.stubbing.MockitoStubber::::48::::1631::::1643::::isConsecutive::::INSERT::::STATEMENT::::addAnswer(answer, true)	7.070181388399088E-4
+214	org.mockito.internal.stubbing.MockitoStubber::::48::::1631::::1643::::isConsecutive::::INSERT::::STATEMENT::::addAnswer(answer, false)	7.070181388399088E-4
+215	org.mockito.internal.matchers.Equals::::20::::519::::589::::if ((this.wanted) == null) {    return actual == null;}::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.String) {    return "\"";}else    if ((wanted) instanceof java.lang.Character) {        return "'";    }else {        return "";    }	6.571943540120476E-4
+216	org.mockito.internal.verification.checkers.MissingInvocationChecker::::35::::1211::::1216::::finder::::this.finder	6.519357600976632E-4
+217	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::21::::708::::722::::matchers.size()::::DELETE::::INFIX	6.471817852488547E-4
+218	org.mockito.internal.stubbing.MockitoStubber::::44::::1440::::1485::::mockingProgress.stubbingCompleted(invocation)::::INSERT::::STATEMENT::::addAnswer(answer, false)	6.316121705080848E-4
+219	org.mockito.internal.progress.MockingProgressImpl::::76::::2570::::2587::::stubbingInProgress::::location	5.93991551747938E-4
+220	org.mockito.internal.progress.MockingProgressImpl::::70::::2342::::2547::::if ((verificationMode) != null) {    org.mockito.internal.debugging.Location location = verificationMode.getLocation();    verificationMode = null;    reporter.unfinishedVerificationException(location);}::::INSERT::::STATEMENT::::validateState()	5.742029023812971E-4
+221	org.mockito.internal.matchers.Equals::::23::::599::::627::::return wanted.equals(actual)::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.String) {    return "\"";}else    if ((wanted) instanceof java.lang.Character) {        return "'";    }else {        return "";    }	5.394137442631584E-4
+222	org.mockito.internal.matchers.Equals::::23::::599::::627::::return wanted.equals(actual)::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.Character) {    return "'";}else {    return "";}	5.394137442631584E-4
+223	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::25::::809::::861::::java.util.List<java.lang.Integer> suspicious = new java.util.LinkedList<java.lang.Integer>()::::INSERT::::STATEMENT::::i++	5.374262418651224E-4
+224	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::21::::727::::742::::arguments.length::::i++	5.161854012087639E-4
+225	org.mockito.internal.invocation.InvocationMatcher::::92::::3054::::3075::::!overloadedButSameArgs::::DELETE::::INFIX	4.8705565830376536E-4
+226	org.mockito.internal.invocation.InvocationMatcher::::90::::2907::::2919::::!methodEquals::::DELETE::::INFIX	4.8705565830376536E-4
+227	org.mockito.internal.stubbing.answers.AnswersValidator::::44::::1457::::1509::::!(invocation.isValidReturnType(answer.getReturnType()))::::DELETE::::INFIX	4.7370912788106354E-4
+228	org.mockito.internal.stubbing.answers.AnswersValidator::::44::::1432::::1452::::!(answer.returnsNull())::::DELETE::::INFIX	4.7370912788106354E-4
+229	org.mockito.internal.matchers.Equals::::42::::1037::::1216::::if ((wanted) instanceof java.lang.String) {    return "\"";}else    if ((wanted) instanceof java.lang.Character) {        return "'";    }else {        return "";    }::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.Character) {    return "'";}else {    return "";}	4.7329180027244096E-4
+230	org.mockito.internal.stubbing.OngoingStubbingImpl::::25::::888::::920::::mockitoStubber.addAnswer(answer)::::DELETE::::STATEMENT	4.5540012477891204E-4
+231	org.mockito.internal.stubbing.OngoingStubbingImpl::::24::::844::::878::::registeredInvocations.removeLast()::::DELETE::::STATEMENT	4.5540012477891204E-4
+232	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::21::::704::::790::::if ((matchers.size()) != (arguments.length)) {    return new java.lang.Integer[0];}::::INSERT::::STATEMENT::::i++	4.535753121133613E-4
+233	org.mockito.internal.progress.MockingProgressImpl::::76::::2570::::2587::::stubbingInProgress::::temp	4.4549366381095356E-4
+234	org.mockito.internal.matchers.Equals::::23::::606::::611::::wanted::::actual	4.444286862425231E-4
+235	org.mockito.internal.matchers.Equals::::20::::519::::589::::if ((this.wanted) == null) {    return actual == null;}::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.Character) {    return "'";}else {    return "";}	4.3812956934136506E-4
+236	org.mockito.internal.stubbing.MockitoStubber::::44::::1440::::1485::::mockingProgress.stubbingCompleted(invocation)::::INSERT::::STATEMENT::::addAnswer(answer, true)	4.210747803387232E-4
+237	org.mockito.internal.progress.ThreadSafeMockingProgress::::16::::560::::580::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.get()::::DELETE::::INFIX	3.9501901170430157E-4
+238	org.mockito.MockitoAnnotations::::86::::3245::::3364::::while (clazz != (java.lang.Object.class)) {    org.mockito.MockitoAnnotations.scan(testClass, clazz);    clazz = clazz.getSuperclass();} ::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	3.817285272545922E-4
+239	org.mockito.MockitoAnnotations::::93::::3446::::3529::::org.mockito.configuration.AnnotationEngine annotationEngine = new org.mockito.internal.configuration.GlobalConfiguration().getAnnotationEngine()::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	3.812262528766257E-4
+240	org.mockito.internal.progress.MockingProgressImpl::::76::::2566::::2742::::if ((stubbingInProgress) != null) {    org.mockito.internal.debugging.Location temp = stubbingInProgress;    stubbingInProgress = null;    reporter.unfinishedStubbing(temp);}::::INSERT::::STATEMENT::::resetOngoingStubbing()	3.8040942282760936E-4
+241	org.mockito.MockitoAnnotations::::94::::3539::::3581::::java.lang.reflect.Field[] fields = clazz.getDeclaredFields()::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	3.6145896569043023E-4
+242	org.mockito.internal.invocation.InvocationMatcher::::86::::2604::::2619::::wantedMethodName::::invocation.getMethod()	3.5856858280031807E-4
+243	org.mockito.internal.invocation.InvocationMatcher::::83::::2463::::2471::::getMethod::::getLocation	3.5856858280031807E-4
+244	org.mockito.internal.invocation.InvocationMatcher::::90::::2924::::2969::::safelyArgumentsMatch(candidate.getArguments())::::DELETE::::INFIX	3.3717399069323244E-4
+245	org.mockito.internal.invocation.InvocationMatcher::::88::::2777::::2795::::candidate.getMock()::::DELETE::::INFIX	3.3717399069323244E-4
+246	org.mockito.internal.invocation.InvocationMatcher::::88::::2748::::2772::::getInvocation().getMock()::::DELETE::::INFIX	3.3717399069323244E-4
+247	org.mockito.internal.verification.RegisteredInvocations::::25::::692::::709::::invocations.size()::::DELETE::::INFIX	3.279345888963142E-4
+248	org.mockito.internal.stubbing.answers.AnswersValidator::::40::::1258::::1286::::invocation.returnsPrimitive()::::DELETE::::INFIX	3.279345888963142E-4
+249	org.mockito.internal.stubbing.StubbedInvocationMatcher::::27::::944::::957::::answers.size()::::DELETE::::INFIX	3.279345888963142E-4
+250	org.mockito.internal.stubbing.MockitoStubber::::43::::1393::::1413::::invocationForStubbing::::new org.mockito.internal.stubbing.StubbedInvocationMatcher(invocationForStubbing, answer)	2.906190968595482E-4
+251	org.mockito.internal.progress.MockingProgressImpl::::70::::2342::::2547::::if ((verificationMode) != null) {    org.mockito.internal.debugging.Location location = verificationMode.getLocation();    verificationMode = null;    reporter.unfinishedVerificationException(location);}::::INSERT::::STATEMENT::::resetOngoingStubbing()	2.8710145119064854E-4
+252	org.mockito.internal.stubbing.StubbedInvocationMatcher::::27::::1002::::1008::::answers::::this.answers	2.715402859206771E-4
+253	org.mockito.internal.stubbing.StubbedInvocationMatcher::::27::::966::::972::::answers::::this.answers	2.640965773403273E-4
+254	org.mockito.internal.stubbing.StubbedInvocationMatcher::::27::::944::::950::::answers::::this.answers	2.5109489968664966E-4
+255	org.mockito.internal.progress.MockingProgressImpl::::76::::2566::::2742::::if ((stubbingInProgress) != null) {    org.mockito.internal.debugging.Location temp = stubbingInProgress;    stubbingInProgress = null;    reporter.unfinishedStubbing(temp);}::::INSERT::::STATEMENT::::if ((verificationMode) == null) {    return null;}	2.4875975692757594E-4
+256	org.mockito.internal.invocation.Invocation::::187::::6220::::6273::::return method.getReturnType().isAssignableFrom(clazz)::::INSERT::::STATEMENT::::this.markVerified()	2.271681375616182E-4
+257	org.mockito.internal.progress.MockingProgressImpl::::70::::2342::::2547::::if ((verificationMode) != null) {    org.mockito.internal.debugging.Location location = verificationMode.getLocation();    verificationMode = null;    reporter.unfinishedVerificationException(location);}::::INSERT::::STATEMENT::::if ((verificationMode) == null) {    return null;}	2.1121111437247015E-4
+258	org.mockito.internal.invocation.InvocationsFinder::::72::::2534::::2539::::wanted::::this.wanted	2.0781838963667538E-4
+259	org.mockito.internal.progress.MockingProgressImpl::::68::::2293::::2323::::org.mockito.internal.configuration.GlobalConfiguration.validate()::::INSERT::::STATEMENT::::if ((verificationMode) == null) {    return null;}	2.0120274457377464E-4
+260	org.mockito.internal.invocation.Invocation::::187::::6227::::6232::::method::::this.getMethod()	1.8604973635865562E-4
+261	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::27::::890::::1251::::for (org.hamcrest.Matcher m : matchers) {    if ((((m instanceof org.mockito.internal.matchers.ContainsExtraTypeInformation) && (!(safelyMatches(m, arguments[i])))) && (toStringEquals(m, arguments[i]))) && (!(((org.mockito.internal.matchers.ContainsExtraTypeInformation) (m)).typeMatches(arguments[i])))) {        suspicious.add(i);    }    i++;}::::INSERT::::STATEMENT::::i++	1.8295361425195656E-4
+262	org.mockito.internal.invocation.InvocationMatcher::::84::::2521::::2529::::candidate::::this	1.7928429140015903E-4
+263	org.mockito.internal.stubbing.MockitoStubber::::43::::1393::::1413::::invocationForStubbing::::this.invocationForStubbing	1.7437145811572893E-4
+264	org.mockito.internal.invocation.InvocationsFinder::::66::::2342::::2347::::wanted::::this.wanted	1.6135586226014313E-4
+265	org.mockito.internal.progress.MockingProgressImpl::::82::::2759::::2802::::getArgumentMatcherStorage().validateState()::::INSERT::::STATEMENT::::if ((verificationMode) == null) {    return null;}	1.4632926878092701E-4
+266	org.mockito.internal.matchers.Equals::::38::::978::::989::::return text::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.String) {    return "\"";}else    if ((wanted) instanceof java.lang.Character) {        return "'";    }else {        return "";    }	1.3522622864926885E-4
+267	org.mockito.internal.matchers.Equals::::38::::978::::989::::return text::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.Character) {    return "'";}else {    return "";}	1.3522622864926885E-4
+268	org.mockito.internal.matchers.Equals::::31::::799::::822::::java.lang.String text = quoting()::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.String) {    return "\"";}else    if ((wanted) instanceof java.lang.Character) {        return "'";    }else {        return "";    }	1.1832295006811025E-4
+269	org.mockito.internal.matchers.Equals::::31::::799::::822::::java.lang.String text = quoting()::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.Character) {    return "'";}else {    return "";}	1.1832295006811025E-4
+270	org.mockito.internal.matchers.Equals::::32::::832::::942::::if (object == null) {    text += "null";}else {    text += object.toString();}::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.String) {    return "\"";}else    if ((wanted) instanceof java.lang.Character) {        return "'";    }else {        return "";    }	1.1268852387439072E-4
+271	org.mockito.internal.matchers.Equals::::32::::832::::942::::if (object == null) {    text += "null";}else {    text += object.toString();}::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.Character) {    return "'";}else {    return "";}	1.1268852387439072E-4
+272	org.mockito.internal.invocation.InvocationMatcher::::88::::2777::::2785::::candidate::::this.invocation	1.0633860321745419E-4
+273	org.mockito.internal.invocation.InvocationMatcher::::87::::2686::::2694::::candidate::::this.invocation	1.0586310539818914E-4
+274	org.mockito.internal.invocation.InvocationMatcher::::90::::2945::::2953::::candidate::::this.invocation	1.0494690228301993E-4
+275	org.mockito.internal.invocation.InvocationMatcher::::84::::2521::::2529::::candidate::::this.invocation	1.0244816651437659E-4
+276	org.mockito.internal.stubbing.answers.AnswersValidator::::40::::1234::::1253::::answer.returnsNull()::::DELETE::::INFIX	9.669866082840034E-5
+277	org.mockito.internal.invocation.InvocationMatcher::::88::::2748::::2760::::getInvocation::::toString	9.615246913081155E-5
+278	org.mockito.internal.invocation.InvocationMatcher::::89::::2849::::2857::::candidate::::this.invocation	8.931378619202063E-5
+279	org.mockito.MockitoAnnotations::::95::::3591::::4322::::for (java.lang.reflect.Field field : fields) {    for (java.lang.annotation.Annotation annotation : field.getAnnotations()) {        java.lang.Object mock = annotationEngine.createMockFor(annotation, field);        if (mock != null) {            boolean wasAccessible = field.isAccessible();            field.setAccessible(true);            try {                field.set(testClass, mock);            } catch (java.lang.IllegalAccessException e) {                throw new org.mockito.exceptions.base.MockitoException(("Problems initiating mocks annotated with " + annotation), e);            } finally {                field.setAccessible(wasAccessible);            }        }    }}::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.scan(testClass, clazz)	8.638510843631106E-5
+280	org.mockito.internal.configuration.GlobalConfiguration::::28::::1023::::1047::::org.mockito.internal.configuration.GlobalConfiguration.globalConfiguration.get()::::DELETE::::INFIX	6.23714229006792E-5
+281	org.mockito.internal.invocation.InvocationMatcher::::88::::2748::::2760::::getInvocation::::getLocation	4.807623456540577E-5
+282	org.mockito.MockitoAnnotations::::95::::3591::::4322::::for (java.lang.reflect.Field field : fields) {    for (java.lang.annotation.Annotation annotation : field.getAnnotations()) {        java.lang.Object mock = annotationEngine.createMockFor(annotation, field);        if (mock != null) {            boolean wasAccessible = field.isAccessible();            field.setAccessible(true);            try {                field.set(testClass, mock);            } catch (java.lang.IllegalAccessException e) {                throw new org.mockito.exceptions.base.MockitoException(("Problems initiating mocks annotated with " + annotation), e);            } finally {                field.setAccessible(wasAccessible);            }        }    }}::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	4.485930983798496E-5
+283	org.mockito.internal.verification.checkers.MissingInvocationChecker::::35::::1211::::1216::::finder::::new org.mockito.internal.invocation.InvocationsFinder()	0.0
+284	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::21::::727::::742::::arguments.length::::0	0.0
+285	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::21::::708::::742::::matchers.size()) != (arguments.length::::m instanceof org.mockito.internal.matchers.ContainsExtraTypeInformation	0.0
+286	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool::::21::::708::::742::::matchers.size()) != (arguments.length::::false	0.0
+287	org.mockito.internal.stubbing.answers.Returns::::19::::494::::498::::value::::this.value	0.0
+288	org.mockito.internal.stubbing.answers.Returns::::15::::392::::396::::value::::this.value	0.0
+289	org.mockito.internal.stubbing.answers.Returns::::15::::379::::388::::this.value::::value	0.0
+290	org.mockito.internal.stubbing.StubbedInvocationMatcher::::26::::914::::920::::answers::::this.answers	0.0
+291	org.mockito.internal.stubbing.OngoingStubbingImpl::::26::::964::::977::::mockitoStubber::::this.mockitoStubber	0.0
+292	org.mockito.internal.stubbing.MockitoStubber::::61::::2087::::2087::::s::::this.invocationForStubbing	0.0
+293	org.mockito.internal.stubbing.MockitoStubber::::51::::1773::::1793::::invocationForStubbing::::this.invocationForStubbing	0.0
+294	org.mockito.internal.stubbing.MockitoStubber::::51::::1727::::1733::::stubbed::::new java.util.LinkedList<org.mockito.internal.stubbing.StubbedInvocationMatcher>()	0.0
+295	org.mockito.internal.stubbing.MockitoStubber::::48::::1631::::1643::::isConsecutive::::true	0.0
+296	org.mockito.internal.stubbing.MockitoStubber::::48::::1631::::1643::::isConsecutive::::hasAnswersForStubbing()	0.0
+297	org.mockito.internal.stubbing.MockitoStubber::::48::::1631::::1643::::isConsecutive::::false	0.0
+298	org.mockito.internal.stubbing.ConsecutiveStubbing::::15::::503::::516::::mockitoStubber::::this.mockitoStubber	0.0
+299	org.mockito.internal.stubbing.ConsecutiveStubbing::::15::::481::::499::::this.mockitoStubber::::mockitoStubber	0.0
+300	org.mockito.internal.progress.ThreadSafeMockingProgress::::19::::678::::692::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress::::new java.lang.ThreadLocal<org.mockito.internal.progress.MockingProgress>()	0.0
+301	org.mockito.internal.progress.ThreadSafeMockingProgress::::17::::605::::619::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress::::new java.lang.ThreadLocal<org.mockito.internal.progress.MockingProgress>()	0.0
+302	org.mockito.internal.progress.ThreadSafeMockingProgress::::16::::560::::574::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress::::new java.lang.ThreadLocal<org.mockito.internal.progress.MockingProgress>()	0.0
+303	org.mockito.internal.progress.MockingProgressImpl::::76::::2570::::2595::::(stubbingInProgress) != null::::(verificationMode) == null	0.0
+304	org.mockito.internal.progress.MockingProgressImpl::::76::::2570::::2595::::(stubbingInProgress) != null::::(verificationMode) != null	0.0
+305	org.mockito.internal.progress.MockingProgressImpl::::76::::2570::::2595::::(stubbingInProgress) != null::::((("iOngoingStubbing: " + (iOngoingStubbing)) + ", verificationMode: ") + (verificationMode)) + ", stubbingInProgress: ") + (stubbingInProgress	0.0
+306	org.mockito.internal.progress.MockingProgressImpl::::76::::2570::::2595::::(stubbingInProgress) != null::::((("iOngoingStubbing: " + (iOngoingStubbing)) + ", verificationMode: ") + (verificationMode)) + ", stubbingInProgress: "	0.0
+307	org.mockito.internal.progress.MockingProgressImpl::::76::::2570::::2595::::(stubbingInProgress) != null::::(("iOngoingStubbing: " + (iOngoingStubbing)) + ", verificationMode: ") + (verificationMode)	0.0
+308	org.mockito.internal.progress.MockingProgressImpl::::76::::2570::::2595::::(stubbingInProgress) != null::::("iOngoingStubbing: " + (iOngoingStubbing)) + ", verificationMode: "	0.0
+309	org.mockito.internal.progress.MockingProgressImpl::::76::::2570::::2595::::(stubbingInProgress) != null::::"iOngoingStubbing: " + (iOngoingStubbing)	0.0
+310	org.mockito.internal.progress.MockingProgressImpl::::76::::2570::::2587::::stubbingInProgress::::new org.mockito.internal.debugging.Location()	0.0
+311	org.mockito.internal.progress.MockingProgressImpl::::70::::2346::::2369::::(verificationMode) != null::::(stubbingInProgress) != null	0.0
+312	org.mockito.internal.progress.MockingProgressImpl::::70::::2346::::2369::::(verificationMode) != null::::((("iOngoingStubbing: " + (iOngoingStubbing)) + ", verificationMode: ") + (verificationMode)) + ", stubbingInProgress: ") + (stubbingInProgress	0.0
+313	org.mockito.internal.progress.MockingProgressImpl::::70::::2346::::2369::::(verificationMode) != null::::((("iOngoingStubbing: " + (iOngoingStubbing)) + ", verificationMode: ") + (verificationMode)) + ", stubbingInProgress: "	0.0
+314	org.mockito.internal.progress.MockingProgressImpl::::70::::2346::::2369::::(verificationMode) != null::::(("iOngoingStubbing: " + (iOngoingStubbing)) + ", verificationMode: ") + (verificationMode)	0.0
+315	org.mockito.internal.progress.MockingProgressImpl::::70::::2346::::2369::::(verificationMode) != null::::("iOngoingStubbing: " + (iOngoingStubbing)) + ", verificationMode: "	0.0
+316	org.mockito.internal.progress.MockingProgressImpl::::70::::2346::::2369::::(verificationMode) != null::::"iOngoingStubbing: " + (iOngoingStubbing)	0.0
+317	org.mockito.internal.progress.MockingProgressImpl::::103::::3409::::3430::::argumentMatcherStorage::::getArgumentMatcherStorage()	0.0
+318	org.mockito.internal.progress.MockingProgressImpl::::103::::3402::::3431::::return argumentMatcherStorage::::INSERT::::STATEMENT::::validateState()	0.0
+319	org.mockito.internal.progress.MockingProgressImpl::::103::::3402::::3431::::return argumentMatcherStorage::::INSERT::::STATEMENT::::resetOngoingStubbing()	0.0
+320	org.mockito.internal.progress.ArgumentMatcherStorageImpl::::100::::3562::::3573::::matcherStack::::new java.util.Stack<org.mockito.internal.matchers.LocalizedMatcher>()	0.0
+321	org.mockito.internal.matchers.Equals::::44::::1113::::1139::::(wanted) instanceof java.lang.Character::::false	0.0
+322	org.mockito.internal.matchers.Equals::::42::::1041::::1064::::(wanted) instanceof java.lang.String::::false	0.0
+323	org.mockito.internal.matchers.Equals::::38::::985::::988::::text::::quoting()	0.0
+324	org.mockito.internal.matchers.Equals::::38::::985::::988::::text::::describe(wanted)	0.0
+325	org.mockito.internal.matchers.Equals::::38::::985::::988::::text::::"null"	0.0
+326	org.mockito.internal.matchers.Equals::::38::::985::::988::::text::::"hashCode() is not supported"	0.0
+327	org.mockito.internal.matchers.Equals::::38::::985::::988::::text::::"\""	0.0
+328	org.mockito.internal.matchers.Equals::::38::::985::::988::::text::::") "	0.0
+329	org.mockito.internal.matchers.Equals::::38::::985::::988::::text::::"("	0.0
+330	org.mockito.internal.matchers.Equals::::38::::985::::988::::text::::"'"	0.0
+331	org.mockito.internal.matchers.Equals::::38::::985::::988::::text::::""	0.0
+332	org.mockito.internal.matchers.Equals::::37::::952::::968::::text += quoting()::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.String) {    return "\"";}else    if ((wanted) instanceof java.lang.Character) {        return "'";    }else {        return "";    }	0.0
+333	org.mockito.internal.matchers.Equals::::37::::952::::968::::text += quoting()::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.Character) {    return "'";}else {    return "";}	0.0
+334	org.mockito.internal.matchers.Equals::::37::::952::::955::::text::::quoting()	0.0
+335	org.mockito.internal.matchers.Equals::::37::::952::::955::::text::::describe(wanted)	0.0
+336	org.mockito.internal.matchers.Equals::::37::::952::::955::::text::::"null"	0.0
+337	org.mockito.internal.matchers.Equals::::37::::952::::955::::text::::"hashCode() is not supported"	0.0
+338	org.mockito.internal.matchers.Equals::::37::::952::::955::::text::::"\""	0.0
+339	org.mockito.internal.matchers.Equals::::37::::952::::955::::text::::") "	0.0
+340	org.mockito.internal.matchers.Equals::::37::::952::::955::::text::::"("	0.0
+341	org.mockito.internal.matchers.Equals::::37::::952::::955::::text::::"'"	0.0
+342	org.mockito.internal.matchers.Equals::::37::::952::::955::::text::::""	0.0
+343	org.mockito.internal.matchers.Equals::::35::::909::::932::::text += object.toString()::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.String) {    return "\"";}else    if ((wanted) instanceof java.lang.Character) {        return "'";    }else {        return "";    }	0.0
+344	org.mockito.internal.matchers.Equals::::35::::909::::932::::text += object.toString()::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.Character) {    return "'";}else {    return "";}	0.0
+345	org.mockito.internal.matchers.Equals::::35::::909::::912::::text::::quoting()	0.0
+346	org.mockito.internal.matchers.Equals::::35::::909::::912::::text::::describe(wanted)	0.0
+347	org.mockito.internal.matchers.Equals::::35::::909::::912::::text::::"null"	0.0
+348	org.mockito.internal.matchers.Equals::::35::::909::::912::::text::::"hashCode() is not supported"	0.0
+349	org.mockito.internal.matchers.Equals::::35::::909::::912::::text::::"\""	0.0
+350	org.mockito.internal.matchers.Equals::::35::::909::::912::::text::::") "	0.0
+351	org.mockito.internal.matchers.Equals::::35::::909::::912::::text::::"("	0.0
+352	org.mockito.internal.matchers.Equals::::35::::909::::912::::text::::"'"	0.0
+353	org.mockito.internal.matchers.Equals::::35::::909::::912::::text::::""	0.0
+354	org.mockito.internal.matchers.Equals::::32::::836::::849::::object == null::::false	0.0
+355	org.mockito.internal.matchers.Equals::::32::::836::::849::::object == null::::(wanted) instanceof java.lang.String	0.0
+356	org.mockito.internal.matchers.Equals::::32::::836::::849::::object == null::::(wanted) instanceof java.lang.Character	0.0
+357	org.mockito.internal.matchers.Equals::::32::::836::::849::::object == null::::(wanted) != null	0.0
+358	org.mockito.internal.matchers.Equals::::32::::836::::849::::object == null::::(this.wanted) == null	0.0
+359	org.mockito.internal.matchers.Equals::::32::::836::::849::::object == null::::(this.wanted) != null	0.0
+360	org.mockito.internal.matchers.Equals::::27::::730::::735::::wanted::::this.wanted	0.0
+361	org.mockito.internal.matchers.Equals::::27::::698::::738::::description.appendText(describe(wanted))::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.String) {    return "\"";}else    if ((wanted) instanceof java.lang.Character) {        return "'";    }else {        return "";    }	0.0
+362	org.mockito.internal.matchers.Equals::::27::::698::::738::::description.appendText(describe(wanted))::::INSERT::::STATEMENT::::if ((wanted) instanceof java.lang.Character) {    return "'";}else {    return "";}	0.0
+363	org.mockito.internal.matchers.Equals::::20::::523::::541::::(this.wanted) == null::::false	0.0
+364	org.mockito.internal.matchers.Equals::::20::::523::::541::::(this.wanted) == null::::actual == null	0.0
+365	org.mockito.internal.matchers.Equals::::16::::452::::457::::wanted::::this.wanted	0.0
+366	org.mockito.internal.matchers.Equals::::16::::438::::448::::this.wanted::::wanted	0.0
+367	org.mockito.internal.invocation.InvocationsFinder::::73::::2593::::2602::::invocation::::findFirstUnverified(invocations, null)	0.0
+368	org.mockito.internal.invocation.InvocationsFinder::::72::::2555::::2564::::invocation::::findFirstUnverified(invocations, null)	0.0
+369	org.mockito.internal.invocation.InvocationsFinder::::70::::2492::::2501::::invocation::::findFirstUnverified(invocations, null)	0.0
+370	org.mockito.internal.invocation.InvocationsFinder::::70::::2477::::2502::::firstSimilar = invocation::::this.wanted = wanted	0.0
+371	org.mockito.internal.invocation.InvocationsFinder::::70::::2477::::2488::::firstSimilar::::findFirstUnverified(invocations, null)	0.0
+372	org.mockito.internal.invocation.InvocationsFinder::::69::::2437::::2456::::firstSimilar == null::::int	0.0
+373	org.mockito.internal.invocation.InvocationsFinder::::69::::2437::::2448::::firstSimilar::::findFirstUnverified(invocations, null)	0.0
+374	org.mockito.internal.invocation.InvocationsFinder::::66::::2366::::2375::::invocation::::findFirstUnverified(invocations, null)	0.0
+375	org.mockito.internal.invocation.InvocationMatcher::::93::::3099::::3102::::true::::overloadedButSameArgs	0.0
+376	org.mockito.internal.invocation.InvocationMatcher::::93::::3099::::3102::::true::::mockIsTheSame	0.0
+377	org.mockito.internal.invocation.InvocationMatcher::::93::::3099::::3102::::true::::methodNameEquals && isUnverified	0.0
+378	org.mockito.internal.invocation.InvocationMatcher::::93::::3099::::3102::::true::::methodNameEquals	0.0
+379	org.mockito.internal.invocation.InvocationMatcher::::93::::3099::::3102::::true::::methodEquals	0.0
+380	org.mockito.internal.invocation.InvocationMatcher::::93::::3099::::3102::::true::::isUnverified	0.0
+381	org.mockito.internal.invocation.InvocationMatcher::::93::::3099::::3102::::true::::hasSameMethod(candidate)	0.0
+382	org.mockito.internal.invocation.InvocationMatcher::::93::::3099::::3102::::true::::(methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs	0.0
+383	org.mockito.internal.invocation.InvocationMatcher::::93::::3099::::3102::::true::::(methodNameEquals && isUnverified) && mockIsTheSame	0.0
+384	org.mockito.internal.invocation.InvocationMatcher::::93::::3099::::3102::::true::::!overloadedButSameArgs	0.0
+385	org.mockito.internal.invocation.InvocationMatcher::::93::::3099::::3102::::true::::!methodEquals	0.0
+386	org.mockito.internal.invocation.InvocationMatcher::::92::::3055::::3075::::overloadedButSameArgs::::true	0.0
+387	org.mockito.internal.invocation.InvocationMatcher::::92::::3055::::3075::::overloadedButSameArgs::::hasSameMethod(candidate)	0.0
+388	org.mockito.internal.invocation.InvocationMatcher::::92::::3055::::3075::::overloadedButSameArgs::::false	0.0
+389	org.mockito.internal.invocation.InvocationMatcher::::92::::3055::::3075::::overloadedButSameArgs::::!overloadedButSameArgs	0.0
+390	org.mockito.internal.invocation.InvocationMatcher::::92::::3037::::3049::::mockIsTheSame::::true	0.0
+391	org.mockito.internal.invocation.InvocationMatcher::::92::::3037::::3049::::mockIsTheSame::::hasSameMethod(candidate)	0.0
+392	org.mockito.internal.invocation.InvocationMatcher::::92::::3037::::3049::::mockIsTheSame::::false	0.0
+393	org.mockito.internal.invocation.InvocationMatcher::::92::::3021::::3032::::isUnverified::::true	0.0
+394	org.mockito.internal.invocation.InvocationMatcher::::92::::3021::::3032::::isUnverified::::hasSameMethod(candidate)	0.0
+395	org.mockito.internal.invocation.InvocationMatcher::::92::::3021::::3032::::isUnverified::::false	0.0
+396	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3075::::(methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs::::true	0.0
+397	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3075::::(methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs::::methodNameEquals && isUnverified	0.0
+398	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3075::::(methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs::::methodEquals	0.0
+399	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3075::::(methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs::::hasSameMethod(candidate)	0.0
+400	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3075::::(methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs::::false	0.0
+401	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3075::::(methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs::::(methodNameEquals && isUnverified) && mockIsTheSame	0.0
+402	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3075::::(methodNameEquals && isUnverified) && mockIsTheSame) && (!overloadedButSameArgs::::!methodEquals	0.0
+403	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3049::::(methodNameEquals && isUnverified) && mockIsTheSame::::true	0.0
+404	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3049::::(methodNameEquals && isUnverified) && mockIsTheSame::::methodNameEquals && isUnverified	0.0
+405	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3049::::(methodNameEquals && isUnverified) && mockIsTheSame::::methodEquals	0.0
+406	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3049::::(methodNameEquals && isUnverified) && mockIsTheSame::::hasSameMethod(candidate)	0.0
+407	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3049::::(methodNameEquals && isUnverified) && mockIsTheSame::::false	0.0
+408	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3049::::(methodNameEquals && isUnverified) && mockIsTheSame::::!overloadedButSameArgs	0.0
+409	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3049::::(methodNameEquals && isUnverified) && mockIsTheSame::::!methodEquals	0.0
+410	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3032::::methodNameEquals && isUnverified::::true	0.0
+411	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3032::::methodNameEquals && isUnverified::::overloadedButSameArgs	0.0
+412	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3032::::methodNameEquals && isUnverified::::methodEquals	0.0
+413	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3032::::methodNameEquals && isUnverified::::hasSameMethod(candidate)	0.0
+414	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3032::::methodNameEquals && isUnverified::::false	0.0
+415	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3032::::methodNameEquals && isUnverified::::!overloadedButSameArgs	0.0
+416	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3032::::methodNameEquals && isUnverified::::!methodEquals	0.0
+417	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3016::::methodNameEquals::::true	0.0
+418	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3016::::methodNameEquals::::hasSameMethod(candidate)	0.0
+419	org.mockito.internal.invocation.InvocationMatcher::::92::::3001::::3016::::methodNameEquals::::false	0.0
+420	org.mockito.internal.invocation.InvocationMatcher::::90::::2908::::2919::::methodEquals::::true	0.0
+421	org.mockito.internal.invocation.InvocationMatcher::::90::::2908::::2919::::methodEquals::::hasSameMethod(candidate)	0.0
+422	org.mockito.internal.invocation.InvocationMatcher::::90::::2908::::2919::::methodEquals::::false	0.0
+423	org.mockito.internal.invocation.InvocationMatcher::::90::::2908::::2919::::methodEquals::::!methodEquals	0.0
+424	org.mockito.internal.invocation.InvocationMatcher::::89::::2849::::2857::::candidate::::getInvocation()	0.0
+425	org.mockito.internal.invocation.InvocationMatcher::::86::::2628::::2644::::currentMethodName::::invocation.toString(matchers, new org.mockito.internal.reporting.PrintSettings())	0.0
+426	org.mockito.internal.invocation.InvocationMatcher::::86::::2628::::2644::::currentMethodName::::"unchecked"	0.0
+427	org.mockito.internal.invocation.InvocationMatcher::::86::::2604::::2619::::wantedMethodName::::"unchecked"	0.0
+428	org.mockito.internal.configuration.GlobalConfiguration::::53::::1788::::1806::::org.mockito.internal.configuration.GlobalConfiguration.globalConfiguration::::new java.lang.ThreadLocal<org.mockito.configuration.IMockitoConfiguration>()	0.0
+429	org.mockito.internal.configuration.GlobalConfiguration::::38::::1441::::1446::::config::::createConfig()	0.0
+430	org.mockito.internal.configuration.GlobalConfiguration::::37::::1404::::1409::::config::::createConfig()	0.0
+431	org.mockito.internal.configuration.GlobalConfiguration::::29::::1072::::1090::::org.mockito.internal.configuration.GlobalConfiguration.globalConfiguration::::new java.lang.ThreadLocal<org.mockito.configuration.IMockitoConfiguration>()	0.0
+432	org.mockito.internal.configuration.GlobalConfiguration::::28::::1023::::1041::::org.mockito.internal.configuration.GlobalConfiguration.globalConfiguration::::new java.lang.ThreadLocal<org.mockito.configuration.IMockitoConfiguration>()	0.0
+433	org.mockito.internal.configuration.GlobalConfiguration::::23::::859::::877::::org.mockito.internal.configuration.GlobalConfiguration.globalConfiguration::::new java.lang.ThreadLocal<org.mockito.configuration.IMockitoConfiguration>()	0.0
+434	org.mockito.MockitoAnnotations::::86::::3252::::3272::::clazz != (java.lang.Object.class)::::true	0.0
+435	org.mockito.MockitoAnnotations::::86::::3252::::3272::::clazz != (java.lang.Object.class)::::testClass == null	0.0
+436	org.mockito.MockitoAnnotations::::81::::2990::::3006::::testClass == null::::true	0.0

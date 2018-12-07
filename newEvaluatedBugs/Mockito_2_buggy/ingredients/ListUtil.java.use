@@ -1,0 +1,13 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+22835	object	T	param	24	define	org.mockito.internal.util.collections.ListUtil.Filter.isOut	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/collections/ListUtil.java	24	24
+22839	collection	Collection<T>	param	13	define	org.mockito.internal.util.collections.ListUtil.filter	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/collections/ListUtil.java	13	21
+22840	filter	Filter<T>	param	13	define	org.mockito.internal.util.collections.ListUtil.filter	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/collections/ListUtil.java	13	21
+22839	collection	Collection<T>	param	15	use	org.mockito.internal.util.collections.ListUtil.filter	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/collections/ListUtil.java	13	21
+22840	filter	Filter<T>	param	16	use	org.mockito.internal.util.collections.ListUtil.filter	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/collections/ListUtil.java	13	21
+22841	filtered	LinkedList<T>	variable	14	define	org.mockito.internal.util.collections.ListUtil.filter	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/collections/ListUtil.java	13	21
+22838	t	T	variable	15	define	org.mockito.internal.util.collections.ListUtil.filter	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/collections/ListUtil.java	13	21
+22841	filtered	LinkedList<T>	variable	14	set	org.mockito.internal.util.collections.ListUtil.filter	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/collections/ListUtil.java	13	21
+22838	t	T	variable	16	use	org.mockito.internal.util.collections.ListUtil.filter	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/collections/ListUtil.java	13	21
+22841	filtered	LinkedList<T>	variable	17	use	org.mockito.internal.util.collections.ListUtil.filter	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/collections/ListUtil.java	13	21
+22838	t	T	variable	17	use	org.mockito.internal.util.collections.ListUtil.filter	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/collections/ListUtil.java	13	21
+22841	filtered	LinkedList<T>	variable	20	use	org.mockito.internal.util.collections.ListUtil.filter	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/collections/ListUtil.java	13	21

@@ -1,0 +1,15 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+13710	iterable	T	param	20	define	org.mockito.internal.util.Checks.checkItemsNotNull	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/Checks.java	20	26
+13709	checkedIterable	String	param	20	define	org.mockito.internal.util.Checks.checkItemsNotNull	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/Checks.java	20	26
+13710	iterable	T	param	21	use	org.mockito.internal.util.Checks.checkItemsNotNull	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/Checks.java	20	26
+13709	checkedIterable	String	param	21	use	org.mockito.internal.util.Checks.checkItemsNotNull	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/Checks.java	20	26
+13710	iterable	T	param	22	use	org.mockito.internal.util.Checks.checkItemsNotNull	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/Checks.java	20	26
+13709	checkedIterable	String	param	23	use	org.mockito.internal.util.Checks.checkItemsNotNull	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/Checks.java	20	26
+13710	iterable	T	param	25	use	org.mockito.internal.util.Checks.checkItemsNotNull	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/Checks.java	20	26
+13708	item	Object	variable	22	define	org.mockito.internal.util.Checks.checkItemsNotNull	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/Checks.java	20	26
+13708	item	Object	variable	23	use	org.mockito.internal.util.Checks.checkItemsNotNull	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/Checks.java	20	26
+13714	value	T	param	13	define	org.mockito.internal.util.Checks.checkNotNull	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/Checks.java	13	18
+13713	checkedValue	String	param	13	define	org.mockito.internal.util.Checks.checkNotNull	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/Checks.java	13	18
+13714	value	T	param	14	use	org.mockito.internal.util.Checks.checkNotNull	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/Checks.java	13	18
+13713	checkedValue	String	param	15	use	org.mockito.internal.util.Checks.checkNotNull	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/Checks.java	13	18
+13714	value	T	param	17	use	org.mockito.internal.util.Checks.checkNotNull	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/Checks.java	13	18

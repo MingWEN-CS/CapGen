@@ -1,0 +1,25 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+7996	InOrderImpl.mocksToBeVerifiedInOrder	List<Object>	variable	33	use	org.mockito.internal.InOrderImpl.getMocksToBeVerifiedInOrder	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	32	34
+7972	mocksToBeVerifiedInOrder	List<Object>	param	36	define	org.mockito.internal.InOrderImpl.InOrderImpl	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	36	38
+7972	mocksToBeVerifiedInOrder	List<Object>	param	37	use	org.mockito.internal.InOrderImpl.InOrderImpl	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	36	38
+7996	InOrderImpl.mocksToBeVerifiedInOrder	List<Object>	variable	37	use	org.mockito.internal.InOrderImpl.InOrderImpl	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	36	38
+7976	i	Invocation	param	53	define	org.mockito.internal.InOrderImpl.isVerified	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	53	55
+7976	i	Invocation	param	54	use	org.mockito.internal.InOrderImpl.isVerified	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	53	55
+7994	InOrderImpl.inOrderContext	InOrderContext	variable	54	use	org.mockito.internal.InOrderImpl.isVerified	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	53	55
+7979	i	Invocation	param	57	define	org.mockito.internal.InOrderImpl.markVerified	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	57	59
+7979	i	Invocation	param	58	use	org.mockito.internal.InOrderImpl.markVerified	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	57	59
+7994	InOrderImpl.inOrderContext	InOrderContext	variable	58	use	org.mockito.internal.InOrderImpl.markVerified	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	57	59
+7990	mock	T	param	44	define	org.mockito.internal.InOrderImpl.verify	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	44	51
+7991	mode	VerificationMode	param	44	define	org.mockito.internal.InOrderImpl.verify	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	44	51
+7990	mock	T	param	45	use	org.mockito.internal.InOrderImpl.verify	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	44	51
+7991	mode	VerificationMode	param	47	use	org.mockito.internal.InOrderImpl.verify	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	44	51
+7991	mode	VerificationMode	param	48	use	org.mockito.internal.InOrderImpl.verify	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	44	51
+7990	mock	T	param	50	use	org.mockito.internal.InOrderImpl.verify	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	44	51
+7991	mode	VerificationMode	param	50	use	org.mockito.internal.InOrderImpl.verify	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	44	51
+7996	InOrderImpl.mocksToBeVerifiedInOrder	List<Object>	variable	45	use	org.mockito.internal.InOrderImpl.verify	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	44	51
+7997	InOrderImpl.reporter	Reporter	variable	46	use	org.mockito.internal.InOrderImpl.verify	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	44	51
+7995	InOrderImpl.mockitoCore	MockitoCore	variable	50	use	org.mockito.internal.InOrderImpl.verify	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	44	51
+7983	mock	T	param	40	define	org.mockito.internal.InOrderImpl.verify	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	40	42
+7983	mock	T	param	41	use	org.mockito.internal.InOrderImpl.verify	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	40	42
+7995	InOrderImpl.mockitoCore	MockitoCore	variable	62	use	org.mockito.internal.InOrderImpl.verifyNoMoreInteractions	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	61	63
+7996	InOrderImpl.mocksToBeVerifiedInOrder	List<Object>	variable	62	use	org.mockito.internal.InOrderImpl.verifyNoMoreInteractions	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/InOrderImpl.java	61	63

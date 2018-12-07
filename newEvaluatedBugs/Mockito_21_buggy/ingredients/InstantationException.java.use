@@ -1,0 +1,5 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+21629	message	String	param	5	define	org.mockito.internal.creation.instance.InstantationException.InstantationException	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_21_buggy/src/org/mockito/internal/creation/instance/InstantationException.java	5	7
+21628	cause	Throwable	param	5	define	org.mockito.internal.creation.instance.InstantationException.InstantationException	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_21_buggy/src/org/mockito/internal/creation/instance/InstantationException.java	5	7
+21629	message	String	param	6	use	org.mockito.internal.creation.instance.InstantationException.InstantationException	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_21_buggy/src/org/mockito/internal/creation/instance/InstantationException.java	5	7
+21628	cause	Throwable	param	6	use	org.mockito.internal.creation.instance.InstantationException.InstantationException	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_21_buggy/src/org/mockito/internal/creation/instance/InstantationException.java	5	7

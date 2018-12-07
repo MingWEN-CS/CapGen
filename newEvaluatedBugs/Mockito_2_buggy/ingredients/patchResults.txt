@@ -1,0 +1,70 @@
+org.mockito.verification.After::::24::::946::::958::::pollingPeriod::::delayMillis	false
+org.mockito.internal.verification.Times::::30::::1220::::1235::::this.wantedCount::::wantedNumberOfInvocations	false
+org.mockito.internal.configuration.plugins.Plugins::::27::::880::::891::::getMockMaker::::getStackTraceCleanerProvider	false
+org.mockito.internal.verification.VerificationOverTimeImpl::::37::::1942::::1960::::pollingPeriodMillis::::durationMillis	false
+org.mockito.verification.Timeout::::32::::1183::::1201::::pollingPeriodMillis::::millis	false
+org.mockito.internal.verification.VerificationOverTimeImpl::::37::::1963::::1976::::durationMillis::::pollingPeriodMillis	false
+org.mockito.internal.util.Timer::::10::::202::::215::::durationMillis::::startTime	false
+org.mockito.internal.verification.VerificationOverTimeImpl::::37::::2016::::2029::::durationMillis::::pollingPeriodMillis	false
+org.mockito.verification.After::::24::::961::::971::::delayMillis::::pollingPeriod	false
+org.mockito.verification.Timeout::::32::::1204::::1209::::millis::::pollingPeriodMillis	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::46::::1219::::1226::::strategy::::nextStrategy	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1184::::1191::::strategy::::nextStrategy	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1129::::1136::::strategy::::nextStrategy	false
+org.mockito.internal.verification.Times::::30::::1239::::1263::::wantedNumberOfInvocations::::this.wantedCount	false
+org.mockito.internal.util.Timer::::10::::180::::198::::this.durationMillis::::startTime	false
+org.mockito.internal.verification.Times::::27::::1091::::1115::::wantedNumberOfInvocations::::this.wantedCount	false
+org.mockito.internal.verification.Times::::30::::1239::::1263::::wantedNumberOfInvocations::::wantedCount	false
+org.mockito.internal.verification.VerificationOverTimeImpl::::37::::1942::::1960::::pollingPeriodMillis::::this.durationMillis	false
+org.mockito.internal.util.Checks::::21::::537::::576::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)::::INSERT::::STATEMENT::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
+org.mockito.internal.verification.VerificationOverTimeImpl::::37::::1963::::1976::::durationMillis::::this.pollingPeriodMillis	false
+org.mockito.internal.verification.Times::::27::::1091::::1115::::wantedNumberOfInvocations::::wantedCount	false
+org.mockito.internal.util.Checks::::25::::697::::712::::return iterable::::INSERT::::STATEMENT::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
+org.mockito.internal.verification.VerificationOverTimeImpl::::37::::2016::::2029::::durationMillis::::this.pollingPeriodMillis	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1119::::nextStrategy::::strategy	false
+org.mockito.internal.util.Checks::::22::::586::::687::::for (java.lang.Object item : iterable) {    org.mockito.internal.util.Checks.checkNotNull(item, ("item in " + checkedIterable));}::::INSERT::::STATEMENT::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1169::::1180::::nextStrategy::::strategy	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::41::::1072::::1083::::nextStrategy::::strategy	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::46::::1212::::1227::::return strategy::::INSERT::::STATEMENT::::nextStrategy.thenTry(strategy)	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1138::::nextStrategy.thenTry(strategy)::::INSERT::::STATEMENT::::nextStrategy.thenTry(strategy)	false
+org.mockito.internal.util.Checks::::22::::605::::612::::iterable::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
+org.mockito.internal.util.Checks::::21::::550::::557::::iterable::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::46::::1219::::1226::::strategy::::nextStrategy.thenTry(strategy)	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1184::::1191::::strategy::::nextStrategy.thenTry(strategy)	false
+org.mockito.internal.configuration.plugins.PluginLoader::::25::::750::::807::::if (plugin != null) {    return plugin;}::::INSERT::::STATEMENT::::if (plugin != null) {    return plugin;}	false
+org.mockito.internal.progress.ThreadSafeMockingProgress::::48::::1478::::1508::::org.mockito.internal.progress.ThreadSafeMockingProgress.threadSafely().validateState()::::DELETE::::STATEMENT	false
+org.mockito.internal.util.Checks::::21::::537::::576::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.injection.scanner.MockScanner::::47::::1313::::1333::::mocks.addAll(scan())::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::40::::1047::::1081::::mockDependentFields.addAll(scan())::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.DefaultInjectionEngine::::20::::587::::834::::org.mockito.internal.configuration.injection.MockInjection.onFields(needingInjection, testClassInstance).withMocks(mocks).tryConstructorInjection().tryPropertyOrFieldInjection().handleSpyAnnotation().apply()::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1129::::1136::::strategy::::nextStrategy.thenTry(strategy)	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1169::::1192::::nextStrategy = strategy::::INSERT::::STATEMENT::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}	false
+org.mockito.internal.configuration.GlobalConfiguration::::40::::1516::::1529::::return config::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	false
+org.mockito.internal.configuration.GlobalConfiguration::::39::::1486::::1491::::config::::defaultConfiguration	false
+org.mockito.internal.configuration.plugins.PluginLoader::::24::::709::::740::::T plugin = loadImpl(pluginType)::::INSERT::::STATEMENT::::if (plugin != null) {    return plugin;}	false
+org.mockito.internal.configuration.GlobalConfiguration::::40::::1523::::1528::::config::::defaultConfiguration	false
+org.mockito.internal.util.Checks::::25::::704::::711::::iterable::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
+org.mockito.internal.configuration.plugins.PluginFinder::::39::::1309::::1320::::return null::::INSERT::::STATEMENT::::if (pluginClassName == null) {    continue;}	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1138::::nextStrategy.thenTry(strategy)::::INSERT::::STATEMENT::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::41::::1069::::1202::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}::::INSERT::::STATEMENT::::nextStrategy.thenTry(strategy)	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1169::::1192::::nextStrategy = strategy::::INSERT::::STATEMENT::::nextStrategy.thenTry(strategy)	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1138::::nextStrategy.thenTry(strategy)::::DELETE::::STATEMENT	false
+org.mockito.internal.progress.ThreadSafeMockingProgress::::22::::746::::792::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.set(new org.mockito.internal.progress.MockingProgressImpl())::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.GlobalConfiguration::::32::::1194::::1234::::org.mockito.internal.configuration.GlobalConfiguration.GLOBAL_CONFIGURATION.set(createConfig())::::DELETE::::STATEMENT	false
+org.mockito.internal.util.Checks::::14::::291::::401::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}::::INSERT::::STATEMENT::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::46::::1212::::1227::::return strategy::::INSERT::::STATEMENT::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::41::::1069::::1202::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}::::INSERT::::STATEMENT::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}	false
+org.mockito.internal.configuration.GlobalConfiguration::::39::::1482::::1597::::if (config != null) {    return config;}else {    return defaultConfiguration;}::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	false
+org.mockito.internal.configuration.GlobalConfiguration::::38::::1400::::1472::::org.mockito.configuration.IMockitoConfiguration config = new org.mockito.internal.configuration.ClassPathLoader().loadConfiguration()::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	false
+org.mockito.internal.configuration.GlobalConfiguration::::37::::1312::::1390::::org.mockito.configuration.IMockitoConfiguration defaultConfiguration = new org.mockito.configuration.DefaultMockitoConfiguration()::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	false
+org.mockito.internal.util.Checks::::17::::411::::423::::return value::::INSERT::::STATEMENT::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1169::::1180::::nextStrategy::::nextStrategy.thenTry(strategy)	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1119::::nextStrategy::::nextStrategy.thenTry(strategy)	false
+org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::40::::1047::::1065::::mockDependentFields::::scan()	false
+org.mockito.internal.configuration.injection.scanner.MockScanner::::47::::1313::::1317::::mocks::::scan()	false
+org.mockito.internal.progress.ThreadSafeMockingProgress::::21::::701::::721::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.get()::::DELETE::::INFIX	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::41::::1072::::1083::::nextStrategy::::nextStrategy.thenTry(strategy)	false
+org.mockito.internal.configuration.plugins.PluginFinder::::19::::474::::1299::::for (java.net.URL resource : resources) {    java.io.InputStream s = null;    try {        s = resource.openStream();        java.lang.String pluginClassName = new org.mockito.internal.configuration.plugins.PluginFileReader().readPluginClass(s);        if (pluginClassName == null) {            continue;        }        if (!(pluginSwitch.isEnabled(pluginClassName))) {            continue;        }        return pluginClassName;    } catch (java.lang.Exception e) {        throw new org.mockito.exceptions.base.MockitoException(("Problems reading plugin implementation from: " + resource), e);    } finally {        org.mockito.internal.util.io.IOUtil.closeQuietly(s);    }}::::INSERT::::STATEMENT::::if (pluginClassName == null) {    continue;}	false
+org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::38::::1203::::1216::::backingHashSet::::new java.util.HashSet<org.mockito.internal.util.collections.HashCodeAndEqualsMockWrapper>()	false
+org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::38::::1203::::1216::::backingHashSet::::new org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet()	false
+org.mockito.internal.configuration.GlobalConfiguration::::31::::1144::::1169::::org.mockito.internal.configuration.GlobalConfiguration.GLOBAL_CONFIGURATION.get()::::DELETE::::INFIX	false

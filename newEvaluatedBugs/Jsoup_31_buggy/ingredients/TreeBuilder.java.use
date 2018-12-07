@@ -1,0 +1,37 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+12171	TreeBuilder.stack	DescendableLinkedList<Element>	variable	58	use	org.jsoup.parser.TreeBuilder.currentElement	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	57	59
+12151	input	String	param	23	define	org.jsoup.parser.TreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	23	32
+12149	baseUri	String	param	23	define	org.jsoup.parser.TreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	23	32
+12150	errors	ParseErrorList	param	23	define	org.jsoup.parser.TreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	23	32
+12151	input	String	param	24	use	org.jsoup.parser.TreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	23	32
+12149	baseUri	String	param	25	use	org.jsoup.parser.TreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	23	32
+12149	baseUri	String	param	27	use	org.jsoup.parser.TreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	23	32
+12151	input	String	param	28	use	org.jsoup.parser.TreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	23	32
+12150	errors	ParseErrorList	param	29	use	org.jsoup.parser.TreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	23	32
+12150	errors	ParseErrorList	param	30	use	org.jsoup.parser.TreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	23	32
+12149	baseUri	String	param	32	use	org.jsoup.parser.TreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	23	32
+12168	TreeBuilder.doc	Document	variable	27	set	org.jsoup.parser.TreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	23	32
+12170	TreeBuilder.reader	CharacterReader	variable	28	set	org.jsoup.parser.TreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	23	32
+12169	TreeBuilder.errors	ParseErrorList	variable	29	set	org.jsoup.parser.TreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	23	32
+12172	TreeBuilder.tokeniser	Tokeniser	variable	30	set	org.jsoup.parser.TreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	23	32
+12171	TreeBuilder.stack	DescendableLinkedList<Element>	variable	31	set	org.jsoup.parser.TreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	23	32
+12166	TreeBuilder.baseUri	String	variable	32	set	org.jsoup.parser.TreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	23	32
+12170	TreeBuilder.reader	CharacterReader	variable	30	use	org.jsoup.parser.TreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	23	32
+12155	input	String	param	35	define	org.jsoup.parser.TreeBuilder.parse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	35	37
+12154	baseUri	String	param	35	define	org.jsoup.parser.TreeBuilder.parse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	35	37
+12155	input	String	param	36	use	org.jsoup.parser.TreeBuilder.parse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	35	37
+12154	baseUri	String	param	36	use	org.jsoup.parser.TreeBuilder.parse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	35	37
+12159	input	String	param	39	define	org.jsoup.parser.TreeBuilder.parse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	39	43
+12157	baseUri	String	param	39	define	org.jsoup.parser.TreeBuilder.parse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	39	43
+12158	errors	ParseErrorList	param	39	define	org.jsoup.parser.TreeBuilder.parse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	39	43
+12159	input	String	param	40	use	org.jsoup.parser.TreeBuilder.parse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	39	43
+12157	baseUri	String	param	40	use	org.jsoup.parser.TreeBuilder.parse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	39	43
+12158	errors	ParseErrorList	param	40	use	org.jsoup.parser.TreeBuilder.parse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	39	43
+12168	TreeBuilder.doc	Document	variable	42	use	org.jsoup.parser.TreeBuilder.parse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	39	43
+12161	token	Token	param	55	define	org.jsoup.parser.TreeBuilder.process	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	55	55
+12164	token	Token	variable	47	define	org.jsoup.parser.TreeBuilder.runParser	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	45	52
+12164	token	Token	variable	47	set	org.jsoup.parser.TreeBuilder.runParser	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	45	52
+12172	TreeBuilder.tokeniser	Tokeniser	variable	47	use	org.jsoup.parser.TreeBuilder.runParser	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	45	52
+12164	token	Token	variable	48	use	org.jsoup.parser.TreeBuilder.runParser	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	45	52
+12164	token	Token	variable	50	use	org.jsoup.parser.TreeBuilder.runParser	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	45	52
+12165	type		variable	50	use	org.jsoup.parser.TreeBuilder.runParser	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_31_buggy/src/main/java/org/jsoup/parser/TreeBuilder.java	45	52

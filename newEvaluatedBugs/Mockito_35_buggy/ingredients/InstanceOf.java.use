@@ -1,0 +1,12 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+11948	cls	Class<?>	param	510	define	java.lang.Class.isAssignableFrom	/home1/mwenaa/software/jdk1.8.0_91/src.zip{java/lang/Class.java}	510	510
+5150	description	Description	param	24	define	org.mockito.internal.matchers.InstanceOf.describeTo	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_35_buggy/src/org/mockito/internal/matchers/InstanceOf.java	24	26
+5150	description	Description	param	25	use	org.mockito.internal.matchers.InstanceOf.describeTo	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_35_buggy/src/org/mockito/internal/matchers/InstanceOf.java	24	26
+5153	InstanceOf.clazz	Class<?>	variable	25	use	org.mockito.internal.matchers.InstanceOf.describeTo	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_35_buggy/src/org/mockito/internal/matchers/InstanceOf.java	24	26
+5147	clazz	Class<?>	param	16	define	org.mockito.internal.matchers.InstanceOf.InstanceOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_35_buggy/src/org/mockito/internal/matchers/InstanceOf.java	16	18
+5147	clazz	Class<?>	param	17	use	org.mockito.internal.matchers.InstanceOf.InstanceOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_35_buggy/src/org/mockito/internal/matchers/InstanceOf.java	16	18
+5153	InstanceOf.clazz	Class<?>	variable	17	set	org.mockito.internal.matchers.InstanceOf.InstanceOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_35_buggy/src/org/mockito/internal/matchers/InstanceOf.java	16	18
+5152	actual	Object	param	20	define	org.mockito.internal.matchers.InstanceOf.matches	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_35_buggy/src/org/mockito/internal/matchers/InstanceOf.java	20	22
+5152	actual	Object	param	21	use	org.mockito.internal.matchers.InstanceOf.matches	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_35_buggy/src/org/mockito/internal/matchers/InstanceOf.java	20	22
+5152	actual	Object	param	21	use	org.mockito.internal.matchers.InstanceOf.matches	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_35_buggy/src/org/mockito/internal/matchers/InstanceOf.java	20	22
+5153	InstanceOf.clazz	Class<?>	variable	21	use	org.mockito.internal.matchers.InstanceOf.matches	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_35_buggy/src/org/mockito/internal/matchers/InstanceOf.java	20	22

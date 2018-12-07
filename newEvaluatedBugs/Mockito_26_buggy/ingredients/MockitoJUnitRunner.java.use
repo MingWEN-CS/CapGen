@@ -1,0 +1,11 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+9750	filter	Filter	param	70	define	org.mockito.runners.MockitoJUnitRunner.filter	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/runners/MockitoJUnitRunner.java	70	72
+9750	filter	Filter	param	72	use	org.mockito.runners.MockitoJUnitRunner.filter	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/runners/MockitoJUnitRunner.java	70	72
+9756	MockitoJUnitRunner.runner	RunnerImpl	variable	72	use	org.mockito.runners.MockitoJUnitRunner.filter	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/runners/MockitoJUnitRunner.java	70	72
+9756	MockitoJUnitRunner.runner	RunnerImpl	variable	67	use	org.mockito.runners.MockitoJUnitRunner.getDescription	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/runners/MockitoJUnitRunner.java	66	68
+9747	klass	Class<?>	param	56	define	org.mockito.runners.MockitoJUnitRunner.MockitoJUnitRunner	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/runners/MockitoJUnitRunner.java	56	58
+9747	klass	Class<?>	param	57	use	org.mockito.runners.MockitoJUnitRunner.MockitoJUnitRunner	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/runners/MockitoJUnitRunner.java	56	58
+9756	MockitoJUnitRunner.runner	RunnerImpl	variable	57	set	org.mockito.runners.MockitoJUnitRunner.MockitoJUnitRunner	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/runners/MockitoJUnitRunner.java	56	58
+9755	notifier	RunNotifier	param	61	define	org.mockito.runners.MockitoJUnitRunner.run	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/runners/MockitoJUnitRunner.java	61	63
+9755	notifier	RunNotifier	param	62	use	org.mockito.runners.MockitoJUnitRunner.run	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/runners/MockitoJUnitRunner.java	61	63
+9756	MockitoJUnitRunner.runner	RunnerImpl	variable	62	use	org.mockito.runners.MockitoJUnitRunner.run	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_26_buggy/src/org/mockito/runners/MockitoJUnitRunner.java	61	63

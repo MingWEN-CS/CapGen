@@ -1,0 +1,3 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+3587	defaultCleaner	StackTraceCleaner	param	11	define	org.mockito.internal.exceptions.stacktrace.DefaultStackTraceCleanerProvider.getStackTraceCleaner	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_24_buggy/src/org/mockito/internal/exceptions/stacktrace/DefaultStackTraceCleanerProvider.java	11	13
+3587	defaultCleaner	StackTraceCleaner	param	12	use	org.mockito.internal.exceptions.stacktrace.DefaultStackTraceCleanerProvider.getStackTraceCleaner	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_24_buggy/src/org/mockito/internal/exceptions/stacktrace/DefaultStackTraceCleanerProvider.java	11	13

@@ -1,0 +1,19 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+26071	name	String	param	18	define	org.jsoup.nodes.DocumentType.DocumentType	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_50_buggy/src/main/java/org/jsoup/nodes/DocumentType.java	18	23
+26072	publicId	String	param	18	define	org.jsoup.nodes.DocumentType.DocumentType	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_50_buggy/src/main/java/org/jsoup/nodes/DocumentType.java	18	23
+26073	systemId	String	param	18	define	org.jsoup.nodes.DocumentType.DocumentType	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_50_buggy/src/main/java/org/jsoup/nodes/DocumentType.java	18	23
+26070	baseUri	String	param	18	define	org.jsoup.nodes.DocumentType.DocumentType	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_50_buggy/src/main/java/org/jsoup/nodes/DocumentType.java	18	23
+26070	baseUri	String	param	19	use	org.jsoup.nodes.DocumentType.DocumentType	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_50_buggy/src/main/java/org/jsoup/nodes/DocumentType.java	18	23
+26071	name	String	param	21	use	org.jsoup.nodes.DocumentType.DocumentType	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_50_buggy/src/main/java/org/jsoup/nodes/DocumentType.java	18	23
+26072	publicId	String	param	22	use	org.jsoup.nodes.DocumentType.DocumentType	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_50_buggy/src/main/java/org/jsoup/nodes/DocumentType.java	18	23
+26073	systemId	String	param	23	use	org.jsoup.nodes.DocumentType.DocumentType	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_50_buggy/src/main/java/org/jsoup/nodes/DocumentType.java	18	23
+26078	accum	StringBuilder	param	32	define	org.jsoup.nodes.DocumentType.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_50_buggy/src/main/java/org/jsoup/nodes/DocumentType.java	32	39
+26079	depth	int	param	32	define	org.jsoup.nodes.DocumentType.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_50_buggy/src/main/java/org/jsoup/nodes/DocumentType.java	32	39
+26080	out	Document.OutputSettings	param	32	define	org.jsoup.nodes.DocumentType.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_50_buggy/src/main/java/org/jsoup/nodes/DocumentType.java	32	39
+26078	accum	StringBuilder	param	33	use	org.jsoup.nodes.DocumentType.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_50_buggy/src/main/java/org/jsoup/nodes/DocumentType.java	32	39
+26078	accum	StringBuilder	param	35	use	org.jsoup.nodes.DocumentType.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_50_buggy/src/main/java/org/jsoup/nodes/DocumentType.java	32	39
+26078	accum	StringBuilder	param	37	use	org.jsoup.nodes.DocumentType.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_50_buggy/src/main/java/org/jsoup/nodes/DocumentType.java	32	39
+26078	accum	StringBuilder	param	38	use	org.jsoup.nodes.DocumentType.outerHtmlHead	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_50_buggy/src/main/java/org/jsoup/nodes/DocumentType.java	32	39
+26082	accum	StringBuilder	param	42	define	org.jsoup.nodes.DocumentType.outerHtmlTail	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_50_buggy/src/main/java/org/jsoup/nodes/DocumentType.java	42	43
+26083	depth	int	param	42	define	org.jsoup.nodes.DocumentType.outerHtmlTail	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_50_buggy/src/main/java/org/jsoup/nodes/DocumentType.java	42	43
+26084	out	Document.OutputSettings	param	42	define	org.jsoup.nodes.DocumentType.outerHtmlTail	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_50_buggy/src/main/java/org/jsoup/nodes/DocumentType.java	42	43

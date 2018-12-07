@@ -1,0 +1,12 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+13211	ArgumentCaptor.clazz	Class<T>	variable	67	set	org.mockito.ArgumentCaptor.ArgumentCaptor	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_12_buggy/src/org/mockito/ArgumentCaptor.java	66	68
+13199	clazz	Class<T>	param	70	define	org.mockito.ArgumentCaptor.ArgumentCaptor	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_12_buggy/src/org/mockito/ArgumentCaptor.java	70	72
+13199	clazz	Class<T>	param	71	use	org.mockito.ArgumentCaptor.ArgumentCaptor	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_12_buggy/src/org/mockito/ArgumentCaptor.java	70	72
+13211	ArgumentCaptor.clazz	Class<T>	variable	71	set	org.mockito.ArgumentCaptor.ArgumentCaptor	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_12_buggy/src/org/mockito/ArgumentCaptor.java	70	72
+13210	ArgumentCaptor.capturingMatcher	CapturingMatcher<T>	variable	85	use	org.mockito.ArgumentCaptor.capture	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_12_buggy/src/org/mockito/ArgumentCaptor.java	84	87
+13212	ArgumentCaptor.handyReturnValues	HandyReturnValues	variable	86	use	org.mockito.ArgumentCaptor.capture	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_12_buggy/src/org/mockito/ArgumentCaptor.java	84	87
+13211	ArgumentCaptor.clazz	Class<T>	variable	86	use	org.mockito.ArgumentCaptor.capture	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_12_buggy/src/org/mockito/ArgumentCaptor.java	84	87
+13205	clazz	Class<T>	param	122	define	org.mockito.ArgumentCaptor.forClass	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_12_buggy/src/org/mockito/ArgumentCaptor.java	122	124
+13205	clazz	Class<T>	param	123	use	org.mockito.ArgumentCaptor.forClass	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_12_buggy/src/org/mockito/ArgumentCaptor.java	122	124
+13210	ArgumentCaptor.capturingMatcher	CapturingMatcher<T>	variable	119	use	org.mockito.ArgumentCaptor.getAllValues	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_12_buggy/src/org/mockito/ArgumentCaptor.java	118	120
+13210	ArgumentCaptor.capturingMatcher	CapturingMatcher<T>	variable	99	use	org.mockito.ArgumentCaptor.getValue	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_12_buggy/src/org/mockito/ArgumentCaptor.java	98	100

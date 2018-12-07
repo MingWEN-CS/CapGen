@@ -1,0 +1,74 @@
+org.mockito.internal.creation.cglib.CGLIBHacker::::22::::775::::789::::createInfoField::::namingPolicyField	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::21::::706::::720::::createInfoField::::namingPolicyField	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::26::::1031::::1047::::namingPolicyField::::createInfoField	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::24::::915::::931::::namingPolicyField::::createInfoField	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::25::::970::::986::::namingPolicyField::::createInfoField	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::22::::775::::789::::createInfoField::::reflectOnCreateInfo(methodProxy)	false
+org.mockito.internal.invocation.MatchersBinder::::21::::702::::744::::validateMatchers(invocation, lastMatchers)::::INSERT::::STATEMENT::::validateMatchers(invocation, lastMatchers)	false
+org.mockito.internal.util.reflection.BeanPropertySetter::::27::::952::::961::::this.field::::propertyField	false
+org.mockito.internal.invocation.MatchersBinder::::24::::855::::884::::return invocationWithMatchers::::INSERT::::STATEMENT::::validateMatchers(invocation, lastMatchers)	false
+org.mockito.internal.invocation.MatchersBinder::::20::::626::::692::::java.util.List<org.hamcrest.Matcher> lastMatchers = argumentMatcherStorage.pullMatchers()::::INSERT::::STATEMENT::::validateMatchers(invocation, lastMatchers)	false
+org.mockito.internal.configuration.injection.FinalMockCandidateFilter::::27::::1169::::1181::::fieldInstance::::matchingMock	false
+org.mockito.internal.configuration.injection.FinalMockCandidateFilter::::26::::1082::::1094::::fieldInstance::::matchingMock	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::595::::599::::value::::target	false
+org.mockito.internal.invocation.MatchersBinder::::23::::755::::845::::org.mockito.internal.invocation.InvocationMatcher invocationWithMatchers = new org.mockito.internal.invocation.InvocationMatcher(invocation, lastMatchers)::::INSERT::::STATEMENT::::validateMatchers(invocation, lastMatchers)	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::21::::706::::720::::createInfoField::::reflectOnCreateInfo(methodProxy)	false
+org.mockito.internal.util.reflection.FieldSetter::::27::::790::::796::::changer::::new org.mockito.internal.util.reflection.AccessibilityChanger()	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::26::::1031::::1047::::namingPolicyField::::reflectOnCreateInfo(methodProxy)	false
+org.mockito.internal.configuration.injection.TypeBasedCandidateFilter::::24::::771::::783::::fieldInstance::::mock	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::24::::915::::931::::namingPolicyField::::reflectOnCreateInfo(methodProxy)	false
+org.mockito.internal.util.reflection.FieldSetter::::21::::522::::528::::changer::::new org.mockito.internal.util.reflection.AccessibilityChanger()	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::25::::970::::986::::namingPolicyField::::reflectOnCreateInfo(methodProxy)	false
+org.mockito.internal.configuration.injection.NameBasedCandidateFilter::::28::::1024::::1036::::fieldInstance::::mock	false
+org.mockito.internal.configuration.injection.FinalMockCandidateFilter::::27::::1195::::1206::::matchingMock::::fieldInstance	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::587::::592::::target::::value	false
+org.mockito.internal.util.reflection.BeanPropertySetter::::27::::965::::977::::propertyField::::this.field	false
+org.mockito.internal.configuration.injection.FinalMockCandidateFilter::::26::::1108::::1119::::matchingMock::::fieldInstance	false
+org.mockito.internal.configuration.injection.TypeBasedCandidateFilter::::20::::679::::682::::mock::::fieldInstance	false
+org.mockito.internal.verification.RegisteredInvocations::::21::::661::::688::::invocations.add(invocation)::::DELETE::::STATEMENT	false
+org.mockito.internal.invocation.MatchersBinder::::21::::702::::744::::validateMatchers(invocation, lastMatchers)::::DELETE::::STATEMENT	false
+org.mockito.internal.util.reflection.FieldSetter::::27::::790::::824::::changer.safelyDisableAccess(field)::::INSERT::::STATEMENT::::field.set(target, value)	false
+org.mockito.internal.configuration.injection.TypeBasedCandidateFilter::::19::::623::::626::::mock::::fieldInstance	false
+org.mockito.internal.configuration.injection.TypeBasedCandidateFilter::::24::::726::::729::::next::::this.next	false
+org.mockito.internal.runners.JUnit45AndHigherRunnerImpl::::27::::1089::::1125::::org.mockito.MockitoAnnotations.initMocks(target)::::DELETE::::STATEMENT	false
+org.mockito.internal.util.ObjectMethodsGuru::::27::::929::::973::::(method.getParameterTypes()[0]) == (java.lang.Object.class)::::isToString(new org.mockito.internal.creation.DelegatingMethod(method))	false
+org.mockito.internal.util.ObjectMethodsGuru::::27::::850::::973::::(method.getName().equals("equals")) && ((method.getParameterTypes().length) == 1)) && ((method.getParameterTypes()[0]) == (java.lang.Object.class)::::isToString(new org.mockito.internal.creation.DelegatingMethod(method))	false
+org.mockito.internal.util.reflection.FieldSetter::::21::::522::::549::::changer.enableAccess(field)::::INSERT::::STATEMENT::::field.set(target, value)	false
+org.mockito.internal.util.reflection.FieldSetter::::20::::455::::512::::org.mockito.internal.util.reflection.AccessibilityChanger changer = new org.mockito.internal.util.reflection.AccessibilityChanger()::::INSERT::::STATEMENT::::field.set(target, value)	false
+org.mockito.internal.configuration.injection.TypeBasedCandidateFilter::::24::::726::::729::::next::::this	false
+org.mockito.internal.util.reflection.FieldReader::::25::::618::::622::::field::::this.field	false
+org.mockito.internal.util.ObjectMethodsGuru::::27::::850::::924::::(method.getName().equals("equals")) && ((method.getParameterTypes().length) == 1)::::isToString(new org.mockito.internal.creation.DelegatingMethod(method))	false
+org.mockito.internal.runners.RunnerFactory::::27::::749::::762::::runnerProvider::::this.runnerProvider	false
+org.mockito.internal.util.reflection.BeanPropertySetter::::27::::965::::977::::propertyField::::field	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::26::::1031::::1094::::namingPolicyField.set(createInfo, MockitoNamingPolicy.INSTANCE)::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.injection.NameBasedCandidateFilter::::28::::989::::992::::next::::this.next	false
+org.mockito.internal.util.MockName::::21::::623::::647::::this.mockName = mockName::::this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock)	false
+org.mockito.internal.util.reflection.FieldSetter::::27::::790::::824::::changer.safelyDisableAccess(field)::::DELETE::::STATEMENT	false
+org.mockito.internal.util.reflection.FieldSetter::::21::::522::::549::::changer.enableAccess(field)::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.injection.NameBasedCandidateFilter::::28::::989::::992::::next::::this	false
+org.mockito.internal.util.MockName::::21::::623::::647::::this.mockName = mockName::::INSERT::::STATEMENT::::if (mockName == null) {    this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock);    this.surrogate = true;}else {    this.mockName = mockName;}	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::581::::field::::this	false
+org.mockito.internal.util.ObjectMethodsGuru::::22::::640::::661::::method.getReturnType()::::DELETE::::INFIX	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::581::::field::::this.field	false
+org.mockito.internal.configuration.injection.FinalMockCandidateFilter::::27::::1153::::1208::::new org.mockito.internal.util.reflection.FieldSetter(fieldInstance, field).set(matchingMock)::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.injection.TypeBasedCandidateFilter::::20::::659::::684::::mockTypeMatches.add(mock)::::DELETE::::STATEMENT	false
+org.mockito.internal.progress.ThreadSafeMockingProgress::::22::::781::::827::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.set(new org.mockito.internal.progress.MockingProgressImpl())::::DELETE::::STATEMENT	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::25::::970::::1002::::namingPolicyField.get(createInfo)::::DELETE::::INFIX	false
+org.mockito.internal.util.MockCreationValidator::::24::::725::::784::::if (extraInterfaces == null) {    return ;}::::INSERT::::STATEMENT::::if (extraInterfaces == null) {    return ;}	false
+org.mockito.internal.util.MockCreationValidator::::25::::768::::774::::return ::::INSERT::::STATEMENT::::if (extraInterfaces == null) {    return ;}	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::601::::value::::DELETE::::PARAMETER::::set(target)	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::601::::value::::DELETE::::PARAMETER::::set(target)	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::601::::value::::DELETE::::PARAMETER::::set(target)	false
+org.mockito.internal.util.reflection.FieldReader::::25::::618::::634::::field.get(target)::::DELETE::::INFIX	false
+org.mockito.internal.util.ObjectMethodsGuru::::27::::850::::882::::method.getName().equals("equals")::::DELETE::::INFIX	false
+org.mockito.internal.configuration.injection.NameBasedCandidateFilter::::20::::660::::671::::mocks.size()::::DELETE::::INFIX	false
+org.mockito.internal.configuration.injection.FinalMockCandidateFilter::::20::::829::::840::::mocks.size()::::DELETE::::INFIX	false
+org.mockito.internal.progress.ThreadSafeMockingProgress::::21::::736::::756::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.get()::::DELETE::::INFIX	false
+org.mockito.internal.util.ObjectMethodsGuru::::27::::887::::924::::(method.getParameterTypes().length) == 1::::isToString(new org.mockito.internal.creation.DelegatingMethod(method))	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::595::::599::::value::::this.target	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::601::::target::::DELETE::::PARAMETER::::set( value)	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::601::::target::::DELETE::::PARAMETER::::set( value)	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::601::::target::::DELETE::::PARAMETER::::set( value)	false
+org.mockito.internal.util.ObjectMethodsGuru::::27::::929::::934::::method::::new org.mockito.internal.creation.DelegatingMethod(method)	false
+org.mockito.internal.util.ObjectMethodsGuru::::27::::850::::855::::method::::new org.mockito.internal.creation.DelegatingMethod(method)	false
+org.mockito.internal.util.ObjectMethodsGuru::::27::::887::::892::::method::::new org.mockito.internal.creation.DelegatingMethod(method)	false

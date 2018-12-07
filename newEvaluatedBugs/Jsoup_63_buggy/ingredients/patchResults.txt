@@ -1,0 +1,54 @@
+org.jsoup.parser.Tag::::329::::12193::::12207::::org.jsoup.parser.Tag.defaultAncestor::::tag	false
+org.jsoup.parser.Tag::::372::::13274::::13277::::name::::tagName	false
+org.jsoup.parser.Tag::::329::::12193::::12215::::org.jsoup.parser.Tag.defaultAncestor.tagName::::tag.tagName	false
+org.jsoup.parser.Tag::::329::::12177::::12179::::tag::::this	false
+org.jsoup.parser.Tag::::372::::13274::::13277::::name::::this.tagName	false
+org.jsoup.parser.Tag::::329::::12177::::12217::::tag.setAncestor(org.jsoup.parser.Tag.defaultAncestor.tagName)::::INSERT::::STATEMENT::::tag.setAncestor(org.jsoup.parser.Tag.defaultAncestor.tagName)	false
+org.jsoup.parser.Tag::::45::::1727::::1752::::org.apache.commons.lang.Validate.notNull(tagName)::::INSERT::::STATEMENT::::tag.setAncestor(org.jsoup.parser.Tag.defaultAncestor.tagName)	false
+org.jsoup.parser.Tag::::372::::13274::::13277::::name::::org.jsoup.parser.Tag.defaultAncestor.tagName	false
+org.jsoup.parser.Tag::::329::::12193::::12207::::org.jsoup.parser.Tag.defaultAncestor::::tag.setAncestor(org.jsoup.parser.Tag.defaultAncestor.tagName)	false
+org.jsoup.parser.Tag::::30::::1223::::1229::::tagName::::this.tagName	false
+org.jsoup.parser.Tag::::45::::1727::::1752::::org.apache.commons.lang.Validate.notNull(tagName)::::DELETE::::STATEMENT	false
+org.jsoup.parser.Tag::::30::::1223::::1229::::tagName::::"dt"	false
+org.jsoup.parser.Tag::::30::::1223::::1229::::tagName::::"dd"	false
+org.jsoup.parser.Tag::::329::::12177::::12217::::tag.setAncestor(org.jsoup.parser.Tag.defaultAncestor.tagName)::::DELETE::::STATEMENT	false
+org.jsoup.parser.Tag::::30::::1223::::1229::::tagName::::"head"	false
+org.jsoup.parser.Tag::::45::::1727::::1752::::org.apache.commons.lang.Validate.notNull(tagName)::::INSERT::::STATEMENT::::if (tag == null) {    tag = new org.jsoup.parser.Tag(tagName);    tag.setAncestor(org.jsoup.parser.Tag.defaultAncestor.tagName);    tag.isBlock = false;    tag.canContainBlock = true;}	false
+org.jsoup.parser.Tag::::45::::1744::::1750::::tagName::::tag.tagName	false
+org.jsoup.parser.Tag::::45::::1727::::1752::::org.apache.commons.lang.Validate.notNull(tagName)::::INSERT::::STATEMENT::::if ((tagName) != null ? !(tagName.equals(tag.tagName)) : (tag.tagName) != null)    return false;	false
+org.jsoup.parser.Tag::::45::::1727::::1752::::org.apache.commons.lang.Validate.notNull(tagName)::::INSERT::::STATEMENT::::if ((optionalClosing) != (tag.optionalClosing))    return false;	false
+org.jsoup.parser.Tag::::45::::1727::::1752::::org.apache.commons.lang.Validate.notNull(tagName)::::INSERT::::STATEMENT::::if ((isBlock) != (tag.isBlock))    return false;	false
+org.jsoup.parser.Tag::::45::::1727::::1752::::org.apache.commons.lang.Validate.notNull(tagName)::::INSERT::::STATEMENT::::if ((empty) != (tag.empty))    return false;	false
+org.jsoup.parser.Tag::::45::::1727::::1752::::org.apache.commons.lang.Validate.notNull(tagName)::::INSERT::::STATEMENT::::if ((canContainInline) != (tag.canContainInline))    return false;	false
+org.jsoup.parser.Tag::::45::::1727::::1752::::org.apache.commons.lang.Validate.notNull(tagName)::::INSERT::::STATEMENT::::if ((canContainBlock) != (tag.canContainBlock))    return false;	false
+org.jsoup.parser.Tag::::318::::11879::::11912::::return org.jsoup.parser.Tag.register(new org.jsoup.parser.Tag(tagName))::::INSERT::::STATEMENT::::if ((this.empty) || (this.isData()))    return false;	false
+org.jsoup.parser.Tag::::30::::1208::::1219::::this.tagName::::org.jsoup.parser.Tag.defaultAncestor.tagName	false
+org.jsoup.parser.Tag::::30::::1223::::1229::::tagName::::org.jsoup.parser.Tag.defaultAncestor.tagName	false
+org.jsoup.parser.Tag::::329::::12177::::12217::::tag.setAncestor(org.jsoup.parser.Tag.defaultAncestor.tagName)::::INSERT::::STATEMENT::::if (tag == null) {    tag = new org.jsoup.parser.Tag(tagName);    tag.setAncestor(org.jsoup.parser.Tag.defaultAncestor.tagName);    tag.isBlock = false;    tag.canContainBlock = true;}	false
+org.jsoup.parser.Tag::::371::::13201::::13294::::for (java.lang.String name : tagNames) {    ancestors.add(org.jsoup.parser.Tag.valueOf(name));}::::INSERT::::STATEMENT::::if ((this.empty) || (this.isData()))    return false;	false
+org.jsoup.parser.Tag::::329::::12177::::12179::::tag::::new org.jsoup.parser.Tag(tagName)	false
+org.jsoup.parser.Tag::::370::::13140::::13187::::ancestors = new java.util.ArrayList<org.jsoup.parser.Tag>(tagNames.length)::::INSERT::::STATEMENT::::if ((this.empty) || (this.isData()))    return false;	false
+org.jsoup.parser.Tag::::45::::1727::::1752::::org.apache.commons.lang.Validate.notNull(tagName)::::INSERT::::STATEMENT::::if (this.equals(tag))    return true;	false
+org.jsoup.parser.Tag::::45::::1727::::1752::::org.apache.commons.lang.Validate.notNull(tagName)::::INSERT::::STATEMENT::::if ((this.empty) || (this.isData()))    return false;	false
+org.jsoup.parser.Tag::::30::::1223::::1229::::tagName::::"title"	false
+org.jsoup.parser.Tag::::30::::1223::::1229::::tagName::::"style"	false
+org.jsoup.parser.Tag::::30::::1223::::1229::::tagName::::"script"	false
+org.jsoup.parser.Tag::::30::::1223::::1229::::tagName::::"noscript"	false
+org.jsoup.parser.Tag::::30::::1223::::1229::::tagName::::"meta"	false
+org.jsoup.parser.Tag::::30::::1223::::1229::::tagName::::"link"	false
+org.jsoup.parser.Tag::::30::::1223::::1229::::tagName::::"base"	false
+org.jsoup.parser.Tag::::30::::1223::::1229::::tagName::::"object"	false
+org.jsoup.parser.Tag::::329::::12177::::12179::::tag::::org.jsoup.parser.Tag.defaultAncestor	false
+org.jsoup.parser.Tag::::318::::11903::::11909::::tagName::::org.jsoup.parser.Tag.defaultAncestor.tagName	false
+org.jsoup.parser.Tag::::329::::12177::::12217::::tag.setAncestor(org.jsoup.parser.Tag.defaultAncestor.tagName)::::INSERT::::STATEMENT::::if ((optionalClosing) != (tag.optionalClosing))    return false;	false
+org.jsoup.parser.Tag::::329::::12177::::12217::::tag.setAncestor(org.jsoup.parser.Tag.defaultAncestor.tagName)::::INSERT::::STATEMENT::::if ((isBlock) != (tag.isBlock))    return false;	false
+org.jsoup.parser.Tag::::329::::12177::::12217::::tag.setAncestor(org.jsoup.parser.Tag.defaultAncestor.tagName)::::INSERT::::STATEMENT::::if ((empty) != (tag.empty))    return false;	false
+org.jsoup.parser.Tag::::329::::12177::::12217::::tag.setAncestor(org.jsoup.parser.Tag.defaultAncestor.tagName)::::INSERT::::STATEMENT::::if ((canContainInline) != (tag.canContainInline))    return false;	false
+org.jsoup.parser.Tag::::329::::12177::::12217::::tag.setAncestor(org.jsoup.parser.Tag.defaultAncestor.tagName)::::INSERT::::STATEMENT::::if ((canContainBlock) != (tag.canContainBlock))    return false;	false
+org.jsoup.parser.Tag::::329::::12177::::12217::::tag.setAncestor(org.jsoup.parser.Tag.defaultAncestor.tagName)::::INSERT::::STATEMENT::::if ((tagName) != null ? !(tagName.equals(tag.tagName)) : (tag.tagName) != null)    return false;	false
+org.jsoup.parser.Tag::::45::::1744::::1750::::tagName::::org.jsoup.parser.Tag.defaultAncestor.tagName	false
+org.jsoup.parser.Tag::::329::::12177::::12217::::tag.setAncestor(org.jsoup.parser.Tag.defaultAncestor.tagName)::::INSERT::::STATEMENT::::if ((this.empty) || (this.isData()))    return false;	false
+org.jsoup.parser.Tag::::329::::12177::::12179::::tag::::tag.setAncestor(org.jsoup.parser.Tag.defaultAncestor.tagName)	false
+org.jsoup.parser.Tag::::367::::13038::::13304::::if (tagNames == null) {    ancestors = java.util.Collections.emptyList();}else {    ancestors = new java.util.ArrayList<org.jsoup.parser.Tag>(tagNames.length);    for (java.lang.String name : tagNames) {        ancestors.add(org.jsoup.parser.Tag.valueOf(name));    }}::::INSERT::::STATEMENT::::if ((this.empty) || (this.isData()))    return false;	false
+org.jsoup.parser.Tag::::329::::12177::::12217::::tag.setAncestor(org.jsoup.parser.Tag.defaultAncestor.tagName)::::INSERT::::STATEMENT::::if (this.equals(tag))    return true;	false
+org.jsoup.parser.Tag::::329::::12177::::12179::::tag::::org.jsoup.parser.Tag.register(new org.jsoup.parser.Tag(tagName))	false

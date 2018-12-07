@@ -1,0 +1,13 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+1432	type	Class<?>	param	14	define	org.mockito.internal.util.Primitives.isPrimitiveWrapper	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/Primitives.java	14	16
+1432	type	Class<?>	param	15	use	org.mockito.internal.util.Primitives.isPrimitiveWrapper	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/Primitives.java	14	16
+1444	Primitives.wrapperReturnValues	Map<Class,Object>	variable	15	use	org.mockito.internal.util.Primitives.isPrimitiveWrapper	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/Primitives.java	14	16
+1435	clazz	Class<T>	param	22	define	org.mockito.internal.util.Primitives.primitiveTypeOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/Primitives.java	22	24
+1435	clazz	Class<T>	param	23	use	org.mockito.internal.util.Primitives.primitiveTypeOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/Primitives.java	22	24
+1442	Primitives.primitiveTypes	Map<Class,Class>	variable	23	use	org.mockito.internal.util.Primitives.primitiveTypeOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/Primitives.java	22	24
+1438	primitiveType	Class<T>	param	26	define	org.mockito.internal.util.Primitives.primitiveValueOrNullFor	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/Primitives.java	26	28
+1438	primitiveType	Class<T>	param	27	use	org.mockito.internal.util.Primitives.primitiveValueOrNullFor	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/Primitives.java	26	28
+1443	Primitives.primitiveValues	Map<Class,Object>	variable	27	use	org.mockito.internal.util.Primitives.primitiveValueOrNullFor	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/Primitives.java	26	28
+1441	type	Class<T>	param	18	define	org.mockito.internal.util.Primitives.primitiveWrapperOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/Primitives.java	18	20
+1441	type	Class<T>	param	19	use	org.mockito.internal.util.Primitives.primitiveWrapperOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/Primitives.java	18	20
+1444	Primitives.wrapperReturnValues	Map<Class,Object>	variable	19	use	org.mockito.internal.util.Primitives.primitiveWrapperOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/util/Primitives.java	18	20

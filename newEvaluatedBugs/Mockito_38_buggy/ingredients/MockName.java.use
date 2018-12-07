@@ -1,0 +1,17 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+13436	MockName.surrogate	boolean	variable	29	use	org.mockito.internal.util.MockName.isSurrogate	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/MockName.java	28	30
+13429	mockName	String	param	13	define	org.mockito.internal.util.MockName.MockName	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/MockName.java	13	20
+13428	classToMock	Class	param	13	define	org.mockito.internal.util.MockName.MockName	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/MockName.java	13	20
+13429	mockName	String	param	14	use	org.mockito.internal.util.MockName.MockName	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/MockName.java	13	20
+13428	classToMock	Class	param	15	use	org.mockito.internal.util.MockName.MockName	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/MockName.java	13	20
+13429	mockName	String	param	18	use	org.mockito.internal.util.MockName.MockName	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/MockName.java	13	20
+13435	MockName.mockName	String	variable	15	set	org.mockito.internal.util.MockName.MockName	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/MockName.java	13	20
+13436	MockName.surrogate	boolean	variable	16	set	org.mockito.internal.util.MockName.MockName	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/MockName.java	13	20
+13435	MockName.mockName	String	variable	18	set	org.mockito.internal.util.MockName.MockName	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/MockName.java	13	20
+13433	clazz	Class<?>	param	22	define	org.mockito.internal.util.MockName.toInstanceName	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/MockName.java	22	25
+13433	clazz	Class<?>	param	23	use	org.mockito.internal.util.MockName.toInstanceName	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/MockName.java	22	25
+13432	className	String	variable	23	define	org.mockito.internal.util.MockName.toInstanceName	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/MockName.java	22	25
+13432	className	String	variable	23	set	org.mockito.internal.util.MockName.toInstanceName	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/MockName.java	22	25
+13432	className	String	variable	25	use	org.mockito.internal.util.MockName.toInstanceName	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/MockName.java	22	25
+13432	className	String	variable	25	use	org.mockito.internal.util.MockName.toInstanceName	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/MockName.java	22	25
+13435	MockName.mockName	String	variable	34	use	org.mockito.internal.util.MockName.toString	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/util/MockName.java	33	35

@@ -1,0 +1,10 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+2787	delegate	Object	param	174	define	org.mockito.AdditionalAnswers.delegatesTo	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_5_buggy/src/org/mockito/AdditionalAnswers.java	174	176
+2787	delegate	Object	param	175	use	org.mockito.AdditionalAnswers.delegatesTo	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_5_buggy/src/org/mockito/AdditionalAnswers.java	174	176
+2790	position	int	param	107	define	org.mockito.AdditionalAnswers.returnsArgAt	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_5_buggy/src/org/mockito/AdditionalAnswers.java	107	109
+2790	position	int	param	108	use	org.mockito.AdditionalAnswers.returnsArgAt	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_5_buggy/src/org/mockito/AdditionalAnswers.java	107	109
+2793	elements	Collection<?>	param	195	define	org.mockito.AdditionalAnswers.returnsElementsOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_5_buggy/src/org/mockito/AdditionalAnswers.java	195	197
+2793	elements	Collection<?>	param	196	use	org.mockito.AdditionalAnswers.returnsElementsOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_5_buggy/src/org/mockito/AdditionalAnswers.java	195	197
+2800	AdditionalAnswers.RETURNS_FIRST_ARGUMENT	ReturnsArgumentAt	variable	47	use	org.mockito.AdditionalAnswers.returnsFirstArg	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_5_buggy/src/org/mockito/AdditionalAnswers.java	46	48
+2801	AdditionalAnswers.RETURNS_LAST_ARGUMENT	ReturnsArgumentAt	variable	87	use	org.mockito.AdditionalAnswers.returnsLastArg	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_5_buggy/src/org/mockito/AdditionalAnswers.java	86	88
+2802	AdditionalAnswers.RETURNS_SECOND_ARGUMENT	ReturnsArgumentAt	variable	67	use	org.mockito.AdditionalAnswers.returnsSecondArg	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_5_buggy/src/org/mockito/AdditionalAnswers.java	66	68

@@ -1,0 +1,5 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+15953	StubInfo.stubbedAt	PrintableInvocation	variable	16	use	org.mockito.internal.invocation.StubInfo.stubbedAt	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_34_buggy/src/org/mockito/internal/invocation/StubInfo.java	15	17
+15949	stubbedAt	PrintableInvocation	param	11	define	org.mockito.internal.invocation.StubInfo.StubInfo	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_34_buggy/src/org/mockito/internal/invocation/StubInfo.java	11	13
+15949	stubbedAt	PrintableInvocation	param	12	use	org.mockito.internal.invocation.StubInfo.StubInfo	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_34_buggy/src/org/mockito/internal/invocation/StubInfo.java	11	13
+15953	StubInfo.stubbedAt	PrintableInvocation	variable	12	set	org.mockito.internal.invocation.StubInfo.StubInfo	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_34_buggy/src/org/mockito/internal/invocation/StubInfo.java	11	13

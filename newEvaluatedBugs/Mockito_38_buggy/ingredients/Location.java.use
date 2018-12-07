@@ -1,0 +1,9 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+1740	stackTrace	StackTraceElement[]	variable	14	define	org.mockito.internal.debugging.Location.Location	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/debugging/Location.java	13	17
+1739	filter	StackTraceFilter	variable	15	define	org.mockito.internal.debugging.Location.Location	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/debugging/Location.java	13	17
+1740	stackTrace	StackTraceElement[]	variable	14	set	org.mockito.internal.debugging.Location.Location	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/debugging/Location.java	13	17
+1739	filter	StackTraceFilter	variable	15	set	org.mockito.internal.debugging.Location.Location	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/debugging/Location.java	13	17
+1742	Location.firstTraceElement	StackTraceElement	variable	16	set	org.mockito.internal.debugging.Location.Location	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/debugging/Location.java	13	17
+1739	filter	StackTraceFilter	variable	16	use	org.mockito.internal.debugging.Location.Location	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/debugging/Location.java	13	17
+1740	stackTrace	StackTraceElement[]	variable	16	use	org.mockito.internal.debugging.Location.Location	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/debugging/Location.java	13	17
+1742	Location.firstTraceElement	StackTraceElement	variable	21	use	org.mockito.internal.debugging.Location.toString	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/internal/debugging/Location.java	20	22

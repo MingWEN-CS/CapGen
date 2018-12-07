@@ -1,0 +1,14 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+19979	linesToBreak	Object...	param	9	define	org.mockito.internal.util.StringJoiner.join	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_30_buggy/src/org/mockito/internal/util/StringJoiner.java	9	16
+19979	linesToBreak	Object...	param	11	use	org.mockito.internal.util.StringJoiner.join	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_30_buggy/src/org/mockito/internal/util/StringJoiner.java	9	16
+19980	out	StringBuilder	variable	10	define	org.mockito.internal.util.StringJoiner.join	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_30_buggy/src/org/mockito/internal/util/StringJoiner.java	9	16
+19978	lastBreak	int	variable	14	define	org.mockito.internal.util.StringJoiner.join	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_30_buggy/src/org/mockito/internal/util/StringJoiner.java	9	16
+19977	line	Object	variable	11	define	org.mockito.internal.util.StringJoiner.join	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_30_buggy/src/org/mockito/internal/util/StringJoiner.java	9	16
+19980	out	StringBuilder	variable	10	set	org.mockito.internal.util.StringJoiner.join	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_30_buggy/src/org/mockito/internal/util/StringJoiner.java	9	16
+19978	lastBreak	int	variable	14	set	org.mockito.internal.util.StringJoiner.join	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_30_buggy/src/org/mockito/internal/util/StringJoiner.java	9	16
+19980	out	StringBuilder	variable	12	use	org.mockito.internal.util.StringJoiner.join	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_30_buggy/src/org/mockito/internal/util/StringJoiner.java	9	16
+19977	line	Object	variable	12	use	org.mockito.internal.util.StringJoiner.join	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_30_buggy/src/org/mockito/internal/util/StringJoiner.java	9	16
+19980	out	StringBuilder	variable	14	use	org.mockito.internal.util.StringJoiner.join	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_30_buggy/src/org/mockito/internal/util/StringJoiner.java	9	16
+19980	out	StringBuilder	variable	15	use	org.mockito.internal.util.StringJoiner.join	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_30_buggy/src/org/mockito/internal/util/StringJoiner.java	9	16
+19978	lastBreak	int	variable	15	use	org.mockito.internal.util.StringJoiner.join	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_30_buggy/src/org/mockito/internal/util/StringJoiner.java	9	16
+19978	lastBreak	int	variable	15	use	org.mockito.internal.util.StringJoiner.join	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_30_buggy/src/org/mockito/internal/util/StringJoiner.java	9	16

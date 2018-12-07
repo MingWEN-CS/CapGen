@@ -1,0 +1,13 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+2446	delayMillis	long	param	19	define	org.mockito.verification.After.After	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/After.java	19	21
+2447	verificationMode	VerificationMode	param	19	define	org.mockito.verification.After.After	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/After.java	19	21
+2446	delayMillis	long	param	20	use	org.mockito.verification.After.After	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/After.java	19	21
+2447	verificationMode	VerificationMode	param	20	use	org.mockito.verification.After.After	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/After.java	19	21
+2450	pollingPeriod	long	param	23	define	org.mockito.verification.After.After	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/After.java	23	25
+2449	delayMillis	long	param	23	define	org.mockito.verification.After.After	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/After.java	23	25
+2451	verificationMode	VerificationMode	param	23	define	org.mockito.verification.After.After	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/After.java	23	25
+2450	pollingPeriod	long	param	24	use	org.mockito.verification.After.After	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/After.java	23	25
+2449	delayMillis	long	param	24	use	org.mockito.verification.After.After	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/After.java	23	25
+2451	verificationMode	VerificationMode	param	24	use	org.mockito.verification.After.After	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/After.java	23	25
+2455	verificationMode	VerificationMode	param	28	define	org.mockito.verification.After.copySelfWithNewVerificationMode	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/After.java	28	30
+2455	verificationMode	VerificationMode	param	29	use	org.mockito.verification.After.copySelfWithNewVerificationMode	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/verification/After.java	28	30

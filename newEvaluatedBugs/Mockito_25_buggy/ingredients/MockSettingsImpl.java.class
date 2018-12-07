@@ -1,0 +1,12 @@
+java.util.HashSet:java.util.AbstractSet
+java.util.HashSet:java.io.Serializable
+java.util.HashSet:java.lang.Cloneable
+java.util.HashSet:java.util.Set
+org.mockito.internal.creation.settings.CreationSettings:java.io.Serializable
+org.mockito.internal.creation.settings.CreationSettings:org.mockito.mock.MockCreationSettings
+org.mockito.internal.creation.MockSettingsImpl:org.mockito.internal.creation.settings.CreationSettings
+org.mockito.internal.creation.MockSettingsImpl:org.mockito.MockSettings
+org.mockito.internal.creation.MockSettingsImpl:org.mockito.mock.MockCreationSettings
+org.mockito.internal.debugging.VerboseMockInvocationLogger:org.mockito.listeners.InvocationListener
+org.mockito.internal.util.MockNameImpl:java.io.Serializable
+org.mockito.internal.util.MockNameImpl:org.mockito.mock.MockName

@@ -1,0 +1,12 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+16759	primitiveOrWrapperType	Class<T>	param	52	define	org.mockito.internal.util.Primitives.defaultValueForPrimitiveOrWrapper	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_23_buggy/src/org/mockito/internal/util/Primitives.java	52	54
+16759	primitiveOrWrapperType	Class<T>	param	53	use	org.mockito.internal.util.Primitives.defaultValueForPrimitiveOrWrapper	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_23_buggy/src/org/mockito/internal/util/Primitives.java	52	54
+16765	Primitives.primitiveOrWrapperDefaultValues	Map<Class,Object>	variable	53	use	org.mockito.internal.util.Primitives.defaultValueForPrimitiveOrWrapper	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_23_buggy/src/org/mockito/internal/util/Primitives.java	52	54
+16761	type	Class<?>	param	41	define	org.mockito.internal.util.Primitives.isPrimitiveOrWrapper	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_23_buggy/src/org/mockito/internal/util/Primitives.java	41	43
+16761	type	Class<?>	param	42	use	org.mockito.internal.util.Primitives.isPrimitiveOrWrapper	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_23_buggy/src/org/mockito/internal/util/Primitives.java	41	43
+16765	Primitives.primitiveOrWrapperDefaultValues	Map<Class,Object>	variable	42	use	org.mockito.internal.util.Primitives.isPrimitiveOrWrapper	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_23_buggy/src/org/mockito/internal/util/Primitives.java	41	43
+16764	clazz	Class<T>	param	28	define	org.mockito.internal.util.Primitives.primitiveTypeOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_23_buggy/src/org/mockito/internal/util/Primitives.java	28	33
+16764	clazz	Class<T>	param	29	use	org.mockito.internal.util.Primitives.primitiveTypeOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_23_buggy/src/org/mockito/internal/util/Primitives.java	28	33
+16764	clazz	Class<T>	param	30	use	org.mockito.internal.util.Primitives.primitiveTypeOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_23_buggy/src/org/mockito/internal/util/Primitives.java	28	33
+16764	clazz	Class<T>	param	32	use	org.mockito.internal.util.Primitives.primitiveTypeOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_23_buggy/src/org/mockito/internal/util/Primitives.java	28	33
+16766	Primitives.primitiveTypes	Map<Class,Class>	variable	32	use	org.mockito.internal.util.Primitives.primitiveTypeOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_23_buggy/src/org/mockito/internal/util/Primitives.java	28	33

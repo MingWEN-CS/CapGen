@@ -1,0 +1,277 @@
+1	org.jsoup.helper.DataUtil::::81::::3343::::3356::::org.jsoup.helper.DataUtil.defaultCharset::::foundCharset	0.03674234614174768
+2	org.jsoup.helper.DataUtil::::81::::3343::::3356::::org.jsoup.helper.DataUtil.defaultCharset::::docData	0.03635454032827317
+3	org.jsoup.helper.DataUtil::::82::::3433::::3439::::baseUri::::charsetName	0.0352810028292918
+4	org.jsoup.helper.DataUtil::::82::::3424::::3430::::docData::::foundCharset	0.034666457347855166
+5	org.jsoup.helper.DataUtil::::81::::3317::::3323::::docData::::foundCharset	0.03463277105302151
+6	org.jsoup.helper.DataUtil::::82::::3433::::3439::::baseUri::::docData	0.0336834451452595
+7	org.jsoup.helper.DataUtil::::82::::3433::::3439::::baseUri::::foundCharset	0.03240717570722812
+8	org.jsoup.helper.DataUtil::::81::::3343::::3356::::org.jsoup.helper.DataUtil.defaultCharset::::charsetName	0.03183705353828755
+9	org.jsoup.helper.DataUtil::::81::::3343::::3356::::org.jsoup.helper.DataUtil.defaultCharset::::baseUri	0.02817634703388515
+10	org.jsoup.helper.DataUtil::::79::::3113::::3123::::charsetName::::docData	0.02461299271370761
+11	org.jsoup.helper.DataUtil::::82::::3433::::3439::::baseUri::::org.jsoup.helper.DataUtil.defaultCharset	0.024068487221157727
+12	org.jsoup.helper.DataUtil::::79::::3113::::3123::::charsetName::::foundCharset	0.023836665854566536
+13	org.jsoup.helper.DataUtil::::79::::3113::::3123::::charsetName::::baseUri	0.012068880290575266
+14	org.jsoup.helper.DataUtil::::81::::3317::::3323::::docData::::charsetName	0.011429225582364384
+15	org.jsoup.helper.DataUtil::::82::::3424::::3430::::docData::::charsetName	0.011153211171736111
+16	org.jsoup.helper.DataUtil::::83::::3470::::3472::::doc::::meta	0.010831551964145241
+17	org.jsoup.helper.DataUtil::::79::::3113::::3123::::charsetName::::org.jsoup.helper.DataUtil.defaultCharset	0.009390552626538547
+18	org.jsoup.helper.StringUtil::::149::::4867::::4872::::needle::::hay	0.0058094750193111245
+19	org.jsoup.helper.StringUtil::::149::::4856::::4858::::hay::::needle	0.0058094750193111245
+20	org.jsoup.helper.DataUtil::::81::::3317::::3323::::docData::::baseUri	0.005381982022569265
+21	org.jsoup.helper.StringUtil::::103::::3198::::3206::::c == '\r'::::c == '\t'	0.005196558419693047
+22	org.jsoup.helper.StringUtil::::103::::3198::::3206::::c == '\r'::::c == '\n'	0.005196558419693047
+23	org.jsoup.helper.StringUtil::::103::::3198::::3206::::c == '\r'::::c == '\f'	0.005196558419693047
+24	org.jsoup.helper.StringUtil::::103::::3198::::3206::::c == '\r'::::c == ' '	0.005196558419693047
+25	org.jsoup.helper.StringUtil::::103::::3198::::3206::::c == '\r'::::(c == ' ') || (c == '\t')	0.005196558419693047
+26	org.jsoup.helper.StringUtil::::103::::3198::::3206::::c == '\r'::::((c == ' ') || (c == '\t')) || (c == '\n')	0.005196558419693047
+27	org.jsoup.helper.StringUtil::::103::::3198::::3206::::c == '\r'::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')	0.005196558419693047
+28	org.jsoup.helper.StringUtil::::103::::3185::::3193::::c == '\f'::::c == '\t'	0.005196558419693047
+29	org.jsoup.helper.StringUtil::::103::::3185::::3193::::c == '\f'::::c == '\n'	0.005196558419693047
+30	org.jsoup.helper.StringUtil::::103::::3185::::3193::::c == '\f'::::c == ' '	0.005196558419693047
+31	org.jsoup.helper.StringUtil::::103::::3185::::3193::::c == '\f'::::(c == ' ') || (c == '\t')	0.005196558419693047
+32	org.jsoup.helper.StringUtil::::103::::3185::::3193::::c == '\f'::::((c == ' ') || (c == '\t')) || (c == '\n')	0.005196558419693047
+33	org.jsoup.helper.StringUtil::::103::::3172::::3180::::c == '\n'::::c == '\t'	0.005196558419693047
+34	org.jsoup.helper.StringUtil::::103::::3172::::3180::::c == '\n'::::c == ' '	0.005196558419693047
+35	org.jsoup.helper.StringUtil::::103::::3172::::3180::::c == '\n'::::(c == ' ') || (c == '\t')	0.005196558419693047
+36	org.jsoup.helper.StringUtil::::103::::3159::::3167::::c == '\t'::::c == ' '	0.005196558419693047
+37	org.jsoup.helper.StringUtil::::103::::3147::::3193::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')::::c == '\r'	0.005196558419693047
+38	org.jsoup.helper.StringUtil::::103::::3147::::3180::::((c == ' ') || (c == '\t')) || (c == '\n')::::c == '\f'	0.005196558419693047
+39	org.jsoup.helper.StringUtil::::103::::3147::::3167::::(c == ' ') || (c == '\t')::::c == '\n'	0.005196558419693047
+40	org.jsoup.helper.StringUtil::::103::::3147::::3154::::c == ' '::::c == '\t'	0.005196558419693047
+41	org.jsoup.helper.DataUtil::::82::::3424::::3430::::docData::::baseUri	0.005165475873488369
+42	org.jsoup.helper.Validate::::91::::2510::::2529::::(string.length()) == 0::::string == null	0.004966166841953607
+43	org.jsoup.helper.DataUtil::::81::::3317::::3323::::docData::::org.jsoup.helper.DataUtil.defaultCharset	0.0049498048195539286
+44	org.jsoup.helper.DataUtil::::82::::3424::::3430::::docData::::org.jsoup.helper.DataUtil.defaultCharset	0.0046889870786278095
+45	org.jsoup.helper.StringUtil::::103::::3198::::3206::::c == '\r'::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'	0.004676902577723742
+46	org.jsoup.helper.StringUtil::::103::::3185::::3193::::c == '\f'::::c == '\r'	0.004619163039727153
+47	org.jsoup.helper.StringUtil::::103::::3185::::3193::::c == '\f'::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')	0.004619163039727153
+48	org.jsoup.helper.StringUtil::::103::::3147::::3193::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'	0.004619163039727153
+49	org.jsoup.helper.StringUtil::::103::::3172::::3180::::c == '\n'::::c == '\f'	0.004546988617231416
+50	org.jsoup.helper.StringUtil::::103::::3172::::3180::::c == '\n'::::((c == ' ') || (c == '\t')) || (c == '\n')	0.004546988617231416
+51	org.jsoup.helper.StringUtil::::103::::3147::::3180::::((c == ' ') || (c == '\t')) || (c == '\n')::::c == '\r'	0.004546988617231416
+52	org.jsoup.helper.StringUtil::::103::::3147::::3180::::((c == ' ') || (c == '\t')) || (c == '\n')::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')	0.004546988617231416
+53	org.jsoup.helper.StringUtil::::103::::3159::::3167::::c == '\t'::::c == '\n'	0.0044541929311654686
+54	org.jsoup.helper.StringUtil::::103::::3159::::3167::::c == '\t'::::(c == ' ') || (c == '\t')	0.0044541929311654686
+55	org.jsoup.helper.StringUtil::::103::::3147::::3167::::(c == ' ') || (c == '\t')::::c == '\f'	0.0044541929311654686
+56	org.jsoup.helper.StringUtil::::103::::3147::::3167::::(c == ' ') || (c == '\t')::::((c == ' ') || (c == '\t')) || (c == '\n')	0.0044541929311654686
+57	org.jsoup.helper.StringUtil::::103::::3147::::3154::::c == ' '::::c == '\n'	0.004330465349744206
+58	org.jsoup.helper.StringUtil::::103::::3147::::3154::::c == ' '::::(c == ' ') || (c == '\t')	0.004330465349744206
+59	org.jsoup.helper.StringUtil::::103::::3185::::3193::::c == '\f'::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'	0.0040417676597612594
+60	org.jsoup.helper.StringUtil::::103::::3172::::3180::::c == '\n'::::c == '\r'	0.003897418814769785
+61	org.jsoup.helper.StringUtil::::103::::3172::::3180::::c == '\n'::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')	0.003897418814769785
+62	org.jsoup.helper.StringUtil::::103::::3147::::3180::::((c == ' ') || (c == '\t')) || (c == '\n')::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'	0.003897418814769785
+63	org.jsoup.helper.StringUtil::::103::::3159::::3167::::c == '\t'::::c == '\f'	0.0037118274426378908
+64	org.jsoup.helper.StringUtil::::103::::3159::::3167::::c == '\t'::::((c == ' ') || (c == '\t')) || (c == '\n')	0.0037118274426378908
+65	org.jsoup.helper.StringUtil::::103::::3147::::3167::::(c == ' ') || (c == '\t')::::c == '\r'	0.0037118274426378908
+66	org.jsoup.helper.StringUtil::::103::::3147::::3167::::(c == ' ') || (c == '\t')::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')	0.0037118274426378908
+67	org.jsoup.helper.StringUtil::::148::::4828::::4835::::haystack::::org.jsoup.helper.StringUtil.padding	0.0035112211655177125
+68	org.jsoup.helper.StringUtil::::103::::3147::::3154::::c == ' '::::c == '\f'	0.0034643722797953647
+69	org.jsoup.helper.StringUtil::::103::::3147::::3154::::c == ' '::::((c == ' ') || (c == '\t')) || (c == '\n')	0.0034643722797953647
+70	org.jsoup.helper.StringUtil::::103::::3172::::3180::::c == '\n'::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'	0.0032478490123081546
+71	org.jsoup.helper.StringUtil::::103::::3159::::3167::::c == '\t'::::c == '\r'	0.0029694619541103125
+72	org.jsoup.helper.StringUtil::::103::::3159::::3167::::c == '\t'::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')	0.0029694619541103125
+73	org.jsoup.helper.StringUtil::::103::::3147::::3167::::(c == ' ') || (c == '\t')::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'	0.0029694619541103125
+74	org.jsoup.helper.StringUtil::::103::::3147::::3154::::c == ' '::::c == '\r'	0.0025982792098465236
+75	org.jsoup.helper.StringUtil::::103::::3147::::3154::::c == ' '::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')	0.0025982792098465236
+76	org.jsoup.helper.StringUtil::::103::::3159::::3167::::c == '\t'::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'	0.0022270964655827343
+77	org.jsoup.helper.StringUtil::::103::::3147::::3154::::c == ' '::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'	0.0017321861398976823
+78	org.jsoup.helper.DescendableLinkedList::::72::::1837::::1859::::return iter.previous()::::INSERT::::STATEMENT::::iter.remove()	9.070685984745916E-4
+79	org.jsoup.helper.DescendableLinkedList::::64::::1667::::1692::::return iter.hasPrevious()::::INSERT::::STATEMENT::::iter.remove()	9.055555555555555E-4
+80	org.jsoup.helper.Validate::::53::::1344::::1416::::if (val)    throw new java.lang.IllegalArgumentException("Must be false");::::INSERT::::STATEMENT::::if (val)    throw new java.lang.IllegalArgumentException("Must be false");	1.992736811523288E-4
+81	org.jsoup.helper.Validate::::63::::1637::::1697::::if (val)    throw new java.lang.IllegalArgumentException(msg);::::INSERT::::STATEMENT::::if (val)    throw new java.lang.IllegalArgumentException(msg);	1.9867255253942385E-4
+82	org.jsoup.helper.Validate::::63::::1637::::1697::::if (val)    throw new java.lang.IllegalArgumentException(msg);::::INSERT::::STATEMENT::::if (!val)    throw new java.lang.IllegalArgumentException(msg);	1.9867255253942385E-4
+83	org.jsoup.helper.Validate::::25::::620::::688::::if (obj == null)    throw new java.lang.IllegalArgumentException(msg);::::INSERT::::STATEMENT::::if (obj == null)    throw new java.lang.IllegalArgumentException(msg);	1.948935049222256E-4
+84	org.jsoup.helper.Validate::::15::::306::::396::::if (obj == null)    throw new java.lang.IllegalArgumentException("Object must not be null");::::INSERT::::STATEMENT::::if (obj == null)    throw new java.lang.IllegalArgumentException("Object must not be null");	1.8545751046796782E-4
+85	org.jsoup.helper.StringUtil::::149::::4856::::4858::::hay::::"width must be > 0"	1.7604469755488255E-4
+86	org.jsoup.helper.StringUtil::::149::::4856::::4858::::hay::::""	1.7604469755488255E-4
+87	org.jsoup.helper.Validate::::63::::1637::::1697::::if (val)    throw new java.lang.IllegalArgumentException(msg);::::INSERT::::STATEMENT::::if (val)    throw new java.lang.IllegalArgumentException("Must be false");	1.7029075931950614E-4
+88	org.jsoup.helper.Validate::::63::::1637::::1697::::if (val)    throw new java.lang.IllegalArgumentException(msg);::::INSERT::::STATEMENT::::if (!val)    throw new java.lang.IllegalArgumentException("Must be true");	1.7029075931950614E-4
+89	org.jsoup.helper.Validate::::53::::1344::::1416::::if (val)    throw new java.lang.IllegalArgumentException("Must be false");::::INSERT::::STATEMENT::::if (!val)    throw new java.lang.IllegalArgumentException("Must be true");	1.328491207682192E-4
+90	org.jsoup.helper.Validate::::25::::620::::688::::if (obj == null)    throw new java.lang.IllegalArgumentException(msg);::::INSERT::::STATEMENT::::if (obj == null)    throw new java.lang.IllegalArgumentException("Object must not be null");	7.016166177200122E-5
+91	org.jsoup.helper.Validate::::91::::2510::::2515::::string::::"Array must not contain any null objects"	6.61611043089214E-5
+92	org.jsoup.helper.DescendableLinkedList::::40::::893::::898::::size()::::DELETE::::INFIX	5.449070928117379E-5
+93	org.jsoup.helper.Validate::::63::::1641::::1643::::val::::INSERT::::STATEMENT::::if (!val)    throw new java.lang.IllegalArgumentException("Must be true");	4.877372277218391E-5
+94	org.jsoup.helper.DataUtil::::82::::3400::::3441::::doc = parser.parseInput(docData, baseUri)::::doc = null	4.1103100476661695E-5
+95	org.jsoup.helper.Validate::::63::::1641::::1643::::val::::INSERT::::STATEMENT::::if (val)    throw new java.lang.IllegalArgumentException("Must be false");	4.064476897681992E-5
+96	org.jsoup.helper.Validate::::63::::1641::::1643::::val::::INSERT::::STATEMENT::::if (val)    throw new java.lang.IllegalArgumentException(msg);	3.6580292079137927E-5
+97	org.jsoup.helper.DescendableLinkedList::::32::::697::::702::::size()::::DELETE::::INFIX	3.5029741680754586E-5
+98	org.jsoup.helper.Validate::::63::::1641::::1643::::val::::INSERT::::STATEMENT::::if (!val)    throw new java.lang.IllegalArgumentException(msg);	3.251581518145594E-5
+99	org.jsoup.helper.Validate::::91::::2510::::2515::::string::::"String must not be empty"	2.9404935248409514E-5
+100	org.jsoup.helper.Validate::::91::::2510::::2515::::string::::"Object must not be null"	2.9404935248409514E-5
+101	org.jsoup.helper.Validate::::91::::2510::::2515::::string::::"Must be true"	2.9404935248409514E-5
+102	org.jsoup.helper.Validate::::91::::2510::::2515::::string::::"Must be false"	2.9404935248409514E-5
+103	org.jsoup.helper.DataUtil::::83::::3470::::3472::::doc::::org.jsoup.helper.DataUtil.parseByteData(byteData, charsetName, baseUri, parser)	2.472293010076116E-5
+104	org.jsoup.helper.Validate::::91::::2510::::2524::::string.length()::::DELETE::::INFIX	2.1889932283048632E-5
+105	org.jsoup.helper.Validate::::53::::1348::::1350::::val::::INSERT::::STATEMENT::::if (!val)    throw new java.lang.IllegalArgumentException("Must be true");	1.9219081620364723E-5
+106	org.jsoup.helper.Validate::::53::::1348::::1350::::val::::INSERT::::STATEMENT::::if (val)    throw new java.lang.IllegalArgumentException("Must be false");	1.2812721080243149E-5
+107	org.jsoup.helper.Validate::::91::::2492::::2529::::string == null) || ((string.length()) == 0::::string == null	0.0
+108	org.jsoup.helper.Validate::::91::::2492::::2497::::string::::"String must not be empty"	0.0
+109	org.jsoup.helper.Validate::::91::::2492::::2497::::string::::"Object must not be null"	0.0
+110	org.jsoup.helper.Validate::::91::::2492::::2497::::string::::"Must be true"	0.0
+111	org.jsoup.helper.Validate::::91::::2492::::2497::::string::::"Must be false"	0.0
+112	org.jsoup.helper.Validate::::91::::2492::::2497::::string::::"Array must not contain any null objects"	0.0
+113	org.jsoup.helper.Validate::::63::::1641::::1643::::val::::!val	0.0
+114	org.jsoup.helper.Validate::::53::::1348::::1350::::val::::!val	0.0
+115	org.jsoup.helper.StringUtil::::149::::4867::::4872::::needle::::"width must be > 0"	0.0
+116	org.jsoup.helper.StringUtil::::149::::4867::::4872::::needle::::""	0.0
+117	org.jsoup.helper.StringUtil::::149::::4867::::4872::::needle::::" "	0.0
+118	org.jsoup.helper.StringUtil::::149::::4867::::4872::::needle::::"  "	0.0
+119	org.jsoup.helper.StringUtil::::149::::4867::::4872::::needle::::"   "	0.0
+120	org.jsoup.helper.StringUtil::::149::::4867::::4872::::needle::::"    "	0.0
+121	org.jsoup.helper.StringUtil::::149::::4867::::4872::::needle::::"     "	0.0
+122	org.jsoup.helper.StringUtil::::149::::4867::::4872::::needle::::"      "	0.0
+123	org.jsoup.helper.StringUtil::::149::::4867::::4872::::needle::::"       "	0.0
+124	org.jsoup.helper.StringUtil::::149::::4867::::4872::::needle::::"        "	0.0
+125	org.jsoup.helper.StringUtil::::149::::4867::::4872::::needle::::"         "	0.0
+126	org.jsoup.helper.StringUtil::::149::::4867::::4872::::needle::::"          "	0.0
+127	org.jsoup.helper.StringUtil::::149::::4856::::4858::::hay::::" "	0.0
+128	org.jsoup.helper.StringUtil::::149::::4856::::4858::::hay::::"  "	0.0
+129	org.jsoup.helper.StringUtil::::149::::4856::::4858::::hay::::"   "	0.0
+130	org.jsoup.helper.StringUtil::::149::::4856::::4858::::hay::::"    "	0.0
+131	org.jsoup.helper.StringUtil::::149::::4856::::4858::::hay::::"     "	0.0
+132	org.jsoup.helper.StringUtil::::149::::4856::::4858::::hay::::"      "	0.0
+133	org.jsoup.helper.StringUtil::::149::::4856::::4858::::hay::::"       "	0.0
+134	org.jsoup.helper.StringUtil::::149::::4856::::4858::::hay::::"        "	0.0
+135	org.jsoup.helper.StringUtil::::149::::4856::::4858::::hay::::"         "	0.0
+136	org.jsoup.helper.StringUtil::::149::::4856::::4858::::hay::::"          "	0.0
+137	org.jsoup.helper.StringUtil::::148::::4828::::4835::::haystack::::new java.lang.String[]{ "", " ", "  ", "   ", "    ", "     ", "      ", "       ", "        ", "         ", "          " }	0.0
+138	org.jsoup.helper.StringUtil::::103::::3198::::3206::::c == '\r'::::true	0.0
+139	org.jsoup.helper.StringUtil::::103::::3198::::3206::::c == '\r'::::org.jsoup.helper.StringUtil.isWhitespace(c)	0.0
+140	org.jsoup.helper.StringUtil::::103::::3198::::3206::::c == '\r'::::false	0.0
+141	org.jsoup.helper.StringUtil::::103::::3198::::3198::::c::::64	0.0
+142	org.jsoup.helper.StringUtil::::103::::3198::::3198::::c::::0	0.0
+143	org.jsoup.helper.StringUtil::::103::::3185::::3193::::c == '\f'::::true	0.0
+144	org.jsoup.helper.StringUtil::::103::::3185::::3193::::c == '\f'::::org.jsoup.helper.StringUtil.isWhitespace(c)	0.0
+145	org.jsoup.helper.StringUtil::::103::::3185::::3193::::c == '\f'::::false	0.0
+146	org.jsoup.helper.StringUtil::::103::::3185::::3185::::c::::64	0.0
+147	org.jsoup.helper.StringUtil::::103::::3185::::3185::::c::::0	0.0
+148	org.jsoup.helper.StringUtil::::103::::3172::::3180::::c == '\n'::::true	0.0
+149	org.jsoup.helper.StringUtil::::103::::3172::::3180::::c == '\n'::::org.jsoup.helper.StringUtil.isWhitespace(c)	0.0
+150	org.jsoup.helper.StringUtil::::103::::3172::::3180::::c == '\n'::::false	0.0
+151	org.jsoup.helper.StringUtil::::103::::3172::::3172::::c::::64	0.0
+152	org.jsoup.helper.StringUtil::::103::::3172::::3172::::c::::0	0.0
+153	org.jsoup.helper.StringUtil::::103::::3159::::3167::::c == '\t'::::true	0.0
+154	org.jsoup.helper.StringUtil::::103::::3159::::3167::::c == '\t'::::org.jsoup.helper.StringUtil.isWhitespace(c)	0.0
+155	org.jsoup.helper.StringUtil::::103::::3159::::3167::::c == '\t'::::false	0.0
+156	org.jsoup.helper.StringUtil::::103::::3159::::3159::::c::::64	0.0
+157	org.jsoup.helper.StringUtil::::103::::3159::::3159::::c::::0	0.0
+158	org.jsoup.helper.StringUtil::::103::::3147::::3206::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'::::true	0.0
+159	org.jsoup.helper.StringUtil::::103::::3147::::3206::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'::::org.jsoup.helper.StringUtil.isWhitespace(c)	0.0
+160	org.jsoup.helper.StringUtil::::103::::3147::::3206::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'::::false	0.0
+161	org.jsoup.helper.StringUtil::::103::::3147::::3206::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'::::c == '\t'	0.0
+162	org.jsoup.helper.StringUtil::::103::::3147::::3206::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'::::c == '\r'	0.0
+163	org.jsoup.helper.StringUtil::::103::::3147::::3206::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'::::c == '\n'	0.0
+164	org.jsoup.helper.StringUtil::::103::::3147::::3206::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'::::c == '\f'	0.0
+165	org.jsoup.helper.StringUtil::::103::::3147::::3206::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'::::c == ' '	0.0
+166	org.jsoup.helper.StringUtil::::103::::3147::::3206::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'::::(c == ' ') || (c == '\t')	0.0
+167	org.jsoup.helper.StringUtil::::103::::3147::::3206::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'::::((c == ' ') || (c == '\t')) || (c == '\n')	0.0
+168	org.jsoup.helper.StringUtil::::103::::3147::::3206::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')	0.0
+169	org.jsoup.helper.StringUtil::::103::::3147::::3193::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')::::true	0.0
+170	org.jsoup.helper.StringUtil::::103::::3147::::3193::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')::::org.jsoup.helper.StringUtil.isWhitespace(c)	0.0
+171	org.jsoup.helper.StringUtil::::103::::3147::::3193::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')::::false	0.0
+172	org.jsoup.helper.StringUtil::::103::::3147::::3193::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')::::c == '\t'	0.0
+173	org.jsoup.helper.StringUtil::::103::::3147::::3193::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')::::c == '\n'	0.0
+174	org.jsoup.helper.StringUtil::::103::::3147::::3193::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')::::c == '\f'	0.0
+175	org.jsoup.helper.StringUtil::::103::::3147::::3193::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')::::c == ' '	0.0
+176	org.jsoup.helper.StringUtil::::103::::3147::::3193::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')::::(c == ' ') || (c == '\t')	0.0
+177	org.jsoup.helper.StringUtil::::103::::3147::::3193::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')::::((c == ' ') || (c == '\t')) || (c == '\n')	0.0
+178	org.jsoup.helper.StringUtil::::103::::3147::::3180::::((c == ' ') || (c == '\t')) || (c == '\n')::::true	0.0
+179	org.jsoup.helper.StringUtil::::103::::3147::::3180::::((c == ' ') || (c == '\t')) || (c == '\n')::::org.jsoup.helper.StringUtil.isWhitespace(c)	0.0
+180	org.jsoup.helper.StringUtil::::103::::3147::::3180::::((c == ' ') || (c == '\t')) || (c == '\n')::::false	0.0
+181	org.jsoup.helper.StringUtil::::103::::3147::::3180::::((c == ' ') || (c == '\t')) || (c == '\n')::::c == '\t'	0.0
+182	org.jsoup.helper.StringUtil::::103::::3147::::3180::::((c == ' ') || (c == '\t')) || (c == '\n')::::c == '\n'	0.0
+183	org.jsoup.helper.StringUtil::::103::::3147::::3180::::((c == ' ') || (c == '\t')) || (c == '\n')::::c == ' '	0.0
+184	org.jsoup.helper.StringUtil::::103::::3147::::3180::::((c == ' ') || (c == '\t')) || (c == '\n')::::(c == ' ') || (c == '\t')	0.0
+185	org.jsoup.helper.StringUtil::::103::::3147::::3167::::(c == ' ') || (c == '\t')::::true	0.0
+186	org.jsoup.helper.StringUtil::::103::::3147::::3167::::(c == ' ') || (c == '\t')::::org.jsoup.helper.StringUtil.isWhitespace(c)	0.0
+187	org.jsoup.helper.StringUtil::::103::::3147::::3167::::(c == ' ') || (c == '\t')::::false	0.0
+188	org.jsoup.helper.StringUtil::::103::::3147::::3167::::(c == ' ') || (c == '\t')::::c == '\t'	0.0
+189	org.jsoup.helper.StringUtil::::103::::3147::::3167::::(c == ' ') || (c == '\t')::::c == ' '	0.0
+190	org.jsoup.helper.StringUtil::::103::::3147::::3154::::c == ' '::::true	0.0
+191	org.jsoup.helper.StringUtil::::103::::3147::::3154::::c == ' '::::org.jsoup.helper.StringUtil.isWhitespace(c)	0.0
+192	org.jsoup.helper.StringUtil::::103::::3147::::3154::::c == ' '::::false	0.0
+193	org.jsoup.helper.StringUtil::::103::::3147::::3147::::c::::64	0.0
+194	org.jsoup.helper.StringUtil::::103::::3147::::3147::::c::::0	0.0
+195	org.jsoup.helper.DescendableLinkedList::::56::::1481::::1485::::index::::0	0.0
+196	org.jsoup.helper.DescendableLinkedList::::56::::1443::::1446::::iter::::(java.util.ListIterator<E>) (listIterator(index))	0.0
+197	org.jsoup.helper.DescendableLinkedList::::48::::1185::::1225::::return new DescendingIterator<E>(size())::::INSERT::::STATEMENT::::iter.remove()	0.0
+198	org.jsoup.helper.DescendableLinkedList::::40::::886::::926::::return (size()) == 0 ? null : removeLast()::::INSERT::::STATEMENT::::iter.remove()	0.0
+199	org.jsoup.helper.DescendableLinkedList::::32::::690::::727::::return (size()) == 0 ? null : getLast()::::INSERT::::STATEMENT::::iter.remove()	0.0
+200	org.jsoup.helper.DataUtil::::84::::3554::::3565::::meta != null::::true	0.0
+201	org.jsoup.helper.DataUtil::::84::::3554::::3565::::meta != null::::foundCharset == null	0.0
+202	org.jsoup.helper.DataUtil::::84::::3554::::3565::::meta != null::::foundCharset != null	0.0
+203	org.jsoup.helper.DataUtil::::84::::3554::::3565::::meta != null::::doc == null	0.0
+204	org.jsoup.helper.DataUtil::::84::::3554::::3565::::meta != null::::charsetName == null	0.0
+205	org.jsoup.helper.DataUtil::::82::::3433::::3439::::baseUri::::"meta[http-equiv=content-type], meta[charset]"	0.0
+206	org.jsoup.helper.DataUtil::::82::::3433::::3439::::baseUri::::"maxSize must be 0 (unlimited) or larger"	0.0
+207	org.jsoup.helper.DataUtil::::82::::3433::::3439::::baseUri::::"http-equiv"	0.0
+208	org.jsoup.helper.DataUtil::::82::::3433::::3439::::baseUri::::"content"	0.0
+209	org.jsoup.helper.DataUtil::::82::::3433::::3439::::baseUri::::"charset="	0.0
+210	org.jsoup.helper.DataUtil::::82::::3433::::3439::::baseUri::::"charset"	0.0
+211	org.jsoup.helper.DataUtil::::82::::3433::::3439::::baseUri::::"[\"\']"	0.0
+212	org.jsoup.helper.DataUtil::::82::::3433::::3439::::baseUri::::"UTF-8"	0.0
+213	org.jsoup.helper.DataUtil::::82::::3433::::3439::::baseUri::::"Must set charset arg to character set of file to parse. Set to null to attempt to detect from HTML"	0.0
+214	org.jsoup.helper.DataUtil::::82::::3433::::3439::::baseUri::::"(?i)\\bcharset=\\s*(?:\"|\')?([^\\s,;\"\']*)"	0.0
+215	org.jsoup.helper.DataUtil::::82::::3433::::3439::::baseUri::::""	0.0
+216	org.jsoup.helper.DataUtil::::82::::3424::::3430::::docData::::"meta[http-equiv=content-type], meta[charset]"	0.0
+217	org.jsoup.helper.DataUtil::::82::::3424::::3430::::docData::::"maxSize must be 0 (unlimited) or larger"	0.0
+218	org.jsoup.helper.DataUtil::::82::::3424::::3430::::docData::::"http-equiv"	0.0
+219	org.jsoup.helper.DataUtil::::82::::3424::::3430::::docData::::"content"	0.0
+220	org.jsoup.helper.DataUtil::::82::::3424::::3430::::docData::::"charset="	0.0
+221	org.jsoup.helper.DataUtil::::82::::3424::::3430::::docData::::"charset"	0.0
+222	org.jsoup.helper.DataUtil::::82::::3424::::3430::::docData::::"[\"\']"	0.0
+223	org.jsoup.helper.DataUtil::::82::::3424::::3430::::docData::::"UTF-8"	0.0
+224	org.jsoup.helper.DataUtil::::82::::3424::::3430::::docData::::"Must set charset arg to character set of file to parse. Set to null to attempt to detect from HTML"	0.0
+225	org.jsoup.helper.DataUtil::::82::::3424::::3430::::docData::::"(?i)\\bcharset=\\s*(?:\"|\')?([^\\s,;\"\']*)"	0.0
+226	org.jsoup.helper.DataUtil::::82::::3424::::3430::::docData::::""	0.0
+227	org.jsoup.helper.DataUtil::::82::::3400::::3441::::doc = parser.parseInput(docData, baseUri)::::foundCharset = null	0.0
+228	org.jsoup.helper.DataUtil::::82::::3400::::3441::::doc = parser.parseInput(docData, baseUri)::::charsetName = foundCharset	0.0
+229	org.jsoup.helper.DataUtil::::82::::3400::::3402::::doc::::org.jsoup.helper.DataUtil.parseByteData(byteData, charsetName, baseUri, parser)	0.0
+230	org.jsoup.helper.DataUtil::::81::::3343::::3356::::org.jsoup.helper.DataUtil.defaultCharset::::"meta[http-equiv=content-type], meta[charset]"	0.0
+231	org.jsoup.helper.DataUtil::::81::::3343::::3356::::org.jsoup.helper.DataUtil.defaultCharset::::"maxSize must be 0 (unlimited) or larger"	0.0
+232	org.jsoup.helper.DataUtil::::81::::3343::::3356::::org.jsoup.helper.DataUtil.defaultCharset::::"http-equiv"	0.0
+233	org.jsoup.helper.DataUtil::::81::::3343::::3356::::org.jsoup.helper.DataUtil.defaultCharset::::"content"	0.0
+234	org.jsoup.helper.DataUtil::::81::::3343::::3356::::org.jsoup.helper.DataUtil.defaultCharset::::"charset="	0.0
+235	org.jsoup.helper.DataUtil::::81::::3343::::3356::::org.jsoup.helper.DataUtil.defaultCharset::::"charset"	0.0
+236	org.jsoup.helper.DataUtil::::81::::3343::::3356::::org.jsoup.helper.DataUtil.defaultCharset::::"[\"\']"	0.0
+237	org.jsoup.helper.DataUtil::::81::::3343::::3356::::org.jsoup.helper.DataUtil.defaultCharset::::"UTF-8"	0.0
+238	org.jsoup.helper.DataUtil::::81::::3343::::3356::::org.jsoup.helper.DataUtil.defaultCharset::::"Must set charset arg to character set of file to parse. Set to null to attempt to detect from HTML"	0.0
+239	org.jsoup.helper.DataUtil::::81::::3343::::3356::::org.jsoup.helper.DataUtil.defaultCharset::::"(?i)\\bcharset=\\s*(?:\"|\')?([^\\s,;\"\']*)"	0.0
+240	org.jsoup.helper.DataUtil::::81::::3343::::3356::::org.jsoup.helper.DataUtil.defaultCharset::::""	0.0
+241	org.jsoup.helper.DataUtil::::81::::3317::::3386::::docData = java.nio.charset.Charset.forName(org.jsoup.helper.DataUtil.defaultCharset).decode(byteData).toString()::::foundCharset = null	0.0
+242	org.jsoup.helper.DataUtil::::81::::3317::::3386::::docData = java.nio.charset.Charset.forName(org.jsoup.helper.DataUtil.defaultCharset).decode(byteData).toString()::::doc = null	0.0
+243	org.jsoup.helper.DataUtil::::81::::3317::::3386::::docData = java.nio.charset.Charset.forName(org.jsoup.helper.DataUtil.defaultCharset).decode(byteData).toString()::::charsetName = foundCharset	0.0
+244	org.jsoup.helper.DataUtil::::81::::3317::::3323::::docData::::"meta[http-equiv=content-type], meta[charset]"	0.0
+245	org.jsoup.helper.DataUtil::::81::::3317::::3323::::docData::::"maxSize must be 0 (unlimited) or larger"	0.0
+246	org.jsoup.helper.DataUtil::::81::::3317::::3323::::docData::::"http-equiv"	0.0
+247	org.jsoup.helper.DataUtil::::81::::3317::::3323::::docData::::"content"	0.0
+248	org.jsoup.helper.DataUtil::::81::::3317::::3323::::docData::::"charset="	0.0
+249	org.jsoup.helper.DataUtil::::81::::3317::::3323::::docData::::"charset"	0.0
+250	org.jsoup.helper.DataUtil::::81::::3317::::3323::::docData::::"[\"\']"	0.0
+251	org.jsoup.helper.DataUtil::::81::::3317::::3323::::docData::::"UTF-8"	0.0
+252	org.jsoup.helper.DataUtil::::81::::3317::::3323::::docData::::"Must set charset arg to character set of file to parse. Set to null to attempt to detect from HTML"	0.0
+253	org.jsoup.helper.DataUtil::::81::::3317::::3323::::docData::::"(?i)\\bcharset=\\s*(?:\"|\')?([^\\s,;\"\']*)"	0.0
+254	org.jsoup.helper.DataUtil::::81::::3317::::3323::::docData::::""	0.0
+255	org.jsoup.helper.DataUtil::::79::::3113::::3131::::charsetName == null::::true	0.0
+256	org.jsoup.helper.DataUtil::::79::::3113::::3131::::charsetName == null::::meta != null	0.0
+257	org.jsoup.helper.DataUtil::::79::::3113::::3131::::charsetName == null::::foundCharset == null	0.0
+258	org.jsoup.helper.DataUtil::::79::::3113::::3131::::charsetName == null::::foundCharset != null	0.0
+259	org.jsoup.helper.DataUtil::::79::::3113::::3131::::charsetName == null::::doc == null	0.0
+260	org.jsoup.helper.DataUtil::::79::::3113::::3123::::charsetName::::"meta[http-equiv=content-type], meta[charset]"	0.0
+261	org.jsoup.helper.DataUtil::::79::::3113::::3123::::charsetName::::"maxSize must be 0 (unlimited) or larger"	0.0
+262	org.jsoup.helper.DataUtil::::79::::3113::::3123::::charsetName::::"http-equiv"	0.0
+263	org.jsoup.helper.DataUtil::::79::::3113::::3123::::charsetName::::"content"	0.0
+264	org.jsoup.helper.DataUtil::::79::::3113::::3123::::charsetName::::"charset="	0.0
+265	org.jsoup.helper.DataUtil::::79::::3113::::3123::::charsetName::::"charset"	0.0
+266	org.jsoup.helper.DataUtil::::79::::3113::::3123::::charsetName::::"[\"\']"	0.0
+267	org.jsoup.helper.DataUtil::::79::::3113::::3123::::charsetName::::"UTF-8"	0.0
+268	org.jsoup.helper.DataUtil::::79::::3113::::3123::::charsetName::::"Must set charset arg to character set of file to parse. Set to null to attempt to detect from HTML"	0.0
+269	org.jsoup.helper.DataUtil::::79::::3113::::3123::::charsetName::::"(?i)\\bcharset=\\s*(?:\"|\')?([^\\s,;\"\']*)"	0.0
+270	org.jsoup.helper.DataUtil::::79::::3113::::3123::::charsetName::::""	0.0
+271	org.jsoup.helper.DataUtil::::120::::5511::::5513::::doc::::org.jsoup.helper.DataUtil.parseByteData(byteData, charsetName, baseUri, parser)	0.0
+272	org.jsoup.helper.DataUtil::::114::::5245::::5255::::doc == null::::true	0.0
+273	org.jsoup.helper.DataUtil::::114::::5245::::5255::::doc == null::::meta != null	0.0
+274	org.jsoup.helper.DataUtil::::114::::5245::::5255::::doc == null::::foundCharset == null	0.0
+275	org.jsoup.helper.DataUtil::::114::::5245::::5255::::doc == null::::foundCharset != null	0.0
+276	org.jsoup.helper.DataUtil::::114::::5245::::5255::::doc == null::::charsetName == null	0.0
+277	org.jsoup.helper.DataUtil::::114::::5245::::5247::::doc::::org.jsoup.helper.DataUtil.parseByteData(byteData, charsetName, baseUri, parser)	0.0

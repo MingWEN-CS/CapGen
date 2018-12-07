@@ -1,0 +1,372 @@
+1	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::839::::885::::(fromMockObject || fromOrgMockito) && (!isRunner)::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner	0.024415840241879472
+2	org.mockito.internal.invocation.SerializableMethod::::30::::975::::983::::isVarArgs::::getReturnType	0.015105264449340404
+3	org.mockito.internal.invocation.SerializableMethod::::30::::975::::983::::isVarArgs::::getParameterTypes	0.015105264449340404
+4	org.mockito.internal.invocation.SerializableMethod::::30::::975::::983::::isVarArgs::::getName	0.015105264449340404
+5	org.mockito.internal.invocation.SerializableMethod::::30::::975::::983::::isVarArgs::::getExceptionTypes	0.015105264449340404
+6	org.mockito.internal.invocation.SerializableMethod::::29::::927::::943::::getExceptionTypes::::getParameterTypes	0.015105264449340404
+7	org.mockito.internal.invocation.SerializableMethod::::29::::910::::923::::exceptionTypes::::parameterTypes	0.015105264449340404
+8	org.mockito.internal.invocation.SerializableMethod::::28::::878::::890::::getReturnType::::getParameterTypes	0.015105264449340404
+9	org.mockito.internal.invocation.SerializableMethod::::28::::878::::890::::getReturnType::::getName	0.015105264449340404
+10	org.mockito.internal.invocation.SerializableMethod::::28::::865::::874::::returnType::::declaringClass	0.015105264449340404
+11	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::839::::872::::fromMockObject || fromOrgMockito::::(fromMockObject || fromOrgMockito) && (!isRunner)	0.01438539724262634
+12	org.mockito.internal.invocation.SerializableMethod::::26::::786::::792::::getName::::getParameterTypes	0.012587720374450337
+13	org.mockito.internal.invocation.SerializableMethod::::29::::927::::943::::getExceptionTypes::::getReturnType	0.012451636910942766
+14	org.mockito.internal.exceptions.base.StackTraceFilter::::39::::1589::::1595::::lastBad::::i	0.012391711034787256
+15	org.mockito.internal.exceptions.base.StackTraceFilter::::39::::1589::::1595::::lastBad::::firstBad	0.012318818616935567
+16	org.mockito.internal.exceptions.base.StackTraceFilter::::41::::1652::::1659::::firstBad::::i	0.012309099627888674
+17	org.mockito.internal.exceptions.base.StackTraceFilter::::40::::1618::::1625::::firstBad::::i	0.012297834436038869
+18	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::891::::906::::isInternalRunner::::fromMockObject || fromOrgMockito	0.012209827906550135
+19	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::891::::906::::isInternalRunner::::(fromMockObject || fromOrgMockito) && (!isRunner)	0.012209827906550135
+20	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::891::::906::::isInternalRunner::::!isRunner	0.012209827906550135
+21	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::878::::885::::isRunner::::isInternalRunner	0.012141692706178762
+22	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::878::::885::::isRunner::::fromMockObject || fromOrgMockito	0.012141692706178762
+23	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::891::::906::::isInternalRunner::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner	0.012057205057718259
+24	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::858::::871::::fromOrgMockito::::isRunner	0.011950369063535946
+25	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::858::::871::::fromOrgMockito::::fromMockObject || fromOrgMockito	0.011950369063535946
+26	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::858::::871::::fromOrgMockito::::!isRunner	0.011950369063535946
+27	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::840::::853::::fromMockObject::::isRunner	0.011950369063535946
+28	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::840::::853::::fromMockObject::::fromMockObject || fromOrgMockito	0.011950369063535946
+29	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::840::::853::::fromMockObject::::!isRunner	0.011950369063535946
+30	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::878::::885::::isRunner::::(fromMockObject || fromOrgMockito) && (!isRunner)	0.011920934656975513
+31	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::878::::885::::isRunner::::!isInternalRunner	0.011920934656975513
+32	org.mockito.internal.exceptions.base.StackTraceFilter::::46::::1759::::1766::::firstBad::::i	0.01181950524452492
+33	org.mockito.internal.exceptions.base.StackTraceFilter::::49::::1867::::1869::::top::::unfilteredStackTrace	0.011750328675199177
+34	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::878::::885::::isRunner::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner	0.011700176607772261
+35	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::858::::871::::fromOrgMockito::::isInternalRunner	0.011538287371689878
+36	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::858::::871::::fromOrgMockito::::(fromMockObject || fromOrgMockito) && (!isRunner)	0.011538287371689878
+37	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::858::::871::::fromOrgMockito::::!isInternalRunner	0.011538287371689878
+38	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::840::::853::::fromMockObject::::isInternalRunner	0.011538287371689878
+39	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::840::::853::::fromMockObject::::(fromMockObject || fromOrgMockito) && (!isRunner)	0.011538287371689878
+40	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::840::::853::::fromMockObject::::!isInternalRunner	0.011538287371689878
+41	org.mockito.internal.debugging.Location::::32::::959::::991::::"-> at " + (filtered[0].toString())::::filtered[0].toString()	0.011399527998065545
+42	org.mockito.internal.invocation.SerializableMethod::::28::::878::::890::::getReturnType::::getExceptionTypes	0.011328948337005302
+43	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::858::::871::::fromOrgMockito::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner	0.011126205679843812
+44	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::840::::853::::fromMockObject::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner	0.011126205679843812
+45	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::839::::872::::fromMockObject || fromOrgMockito::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner	0.01058925074804439
+46	org.mockito.internal.exceptions.base.StackTraceFilter::::49::::1867::::1869::::top::::filtered	0.010575295807679259
+47	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::891::::906::::isInternalRunner::::isRunner	0.010378353720567614
+48	org.mockito.exceptions.base.MockitoException::::30::::813::::818::::filter::::new org.mockito.internal.exceptions.base.ConditionalStackTraceFilter()	0.01025229189260113
+49	org.mockito.internal.invocation.SerializableMethod::::26::::786::::792::::getName::::getReturnType	0.010070176299560269
+50	org.mockito.internal.invocation.SerializableMethod::::29::::927::::943::::getExceptionTypes::::getName	0.009798009372545127
+51	org.mockito.internal.exceptions.base.StackTraceFilter::::40::::1618::::1631::::firstBad == (-1)::::firstBad != (-1)	0.00960870264635986
+52	org.mockito.internal.util.StringJoiner::::15::::487::::497::::lastBreak + 1::::lastBreak	0.009544799780350298
+53	org.mockito.internal.invocation.SerializableMethod::::27::::829::::845::::getParameterTypes::::getName	0.009494737653871111
+54	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::878::::885::::isRunner::::fromOrgMockito	0.00927183806653651
+55	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::878::::885::::isRunner::::fromMockObject	0.00927183806653651
+56	org.mockito.internal.exceptions.base.StackTraceFilter::::39::::1589::::1595::::lastBad::::i++	0.00909973183937716
+57	org.mockito.internal.invocation.SerializableMethod::::27::::829::::845::::getParameterTypes::::getExceptionTypes	0.009063158669604242
+58	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::891::::906::::isInternalRunner::::fromOrgMockito	0.008241633836921341
+59	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::891::::906::::isInternalRunner::::fromMockObject	0.008241633836921341
+60	org.mockito.internal.creation.DelegatingMethod::::37::::857::::869::::getReturnType::::isVarArgs	0.007878385971583354
+61	org.mockito.internal.creation.DelegatingMethod::::37::::857::::869::::getReturnType::::getParameterTypes	0.007878385971583354
+62	org.mockito.internal.creation.DelegatingMethod::::37::::857::::869::::getReturnType::::getName	0.007878385971583354
+63	org.mockito.internal.creation.DelegatingMethod::::37::::857::::869::::getReturnType::::getExceptionTypes	0.007878385971583354
+64	org.mockito.internal.invocation.SerializableMethod::::27::::829::::845::::getParameterTypes::::getReturnType	0.007595790123096889
+65	org.mockito.internal.invocation.SerializableMethod::::28::::878::::890::::getReturnType::::isVarArgs	0.007552632224670202
+66	org.mockito.internal.invocation.SerializableMethod::::26::::786::::792::::getName::::getExceptionTypes	0.007552632224670202
+67	org.mockito.internal.invocation.SerializableMethod::::29::::927::::943::::getExceptionTypes::::isVarArgs	0.006532006248363417
+68	org.mockito.internal.exceptions.base.StackTraceFilter::::46::::1748::::1754::::keepTop::::keepTop && (firstBad != (-1))	0.006052500270143196
+69	org.mockito.internal.configuration.InjectingAnnotationEngine::::37::::1239::::1257::::spyAnnotationEngine::::delegate	0.005764613536983137
+70	org.mockito.internal.exceptions.base.StackTraceFilter::::46::::1759::::1772::::firstBad != (-1)::::keepTop && (firstBad != (-1))	0.005285741475812388
+71	org.mockito.internal.util.Primitives::::14::::344::::362::::org.mockito.internal.util.Primitives.wrapperReturnValues::::org.mockito.internal.util.Primitives.primitiveValues	0.005265608496470287
+72	org.mockito.internal.util.Primitives::::38::::1364::::1382::::org.mockito.internal.util.Primitives.wrapperReturnValues::::org.mockito.internal.util.Primitives.primitiveValues	0.005138354108433096
+73	org.mockito.internal.util.Primitives::::39::::1428::::1446::::org.mockito.internal.util.Primitives.wrapperReturnValues::::org.mockito.internal.util.Primitives.primitiveValues	0.005135584106218308
+74	org.mockito.internal.util.Primitives::::36::::1231::::1249::::org.mockito.internal.util.Primitives.wrapperReturnValues::::org.mockito.internal.util.Primitives.primitiveValues	0.005134159533650703
+75	org.mockito.internal.util.Primitives::::37::::1296::::1314::::org.mockito.internal.util.Primitives.wrapperReturnValues::::org.mockito.internal.util.Primitives.primitiveValues	0.005133291690592275
+76	org.mockito.internal.util.Primitives::::34::::1093::::1111::::org.mockito.internal.util.Primitives.wrapperReturnValues::::org.mockito.internal.util.Primitives.primitiveValues	0.005132707565456797
+77	org.mockito.internal.util.Primitives::::35::::1156::::1174::::org.mockito.internal.util.Primitives.wrapperReturnValues::::org.mockito.internal.util.Primitives.primitiveValues	0.005132287574656906
+78	org.mockito.internal.util.Primitives::::41::::1546::::1564::::org.mockito.internal.util.Primitives.wrapperReturnValues::::org.mockito.internal.util.Primitives.primitiveValues	0.005131971059851192
+79	org.mockito.internal.util.Primitives::::40::::1486::::1504::::org.mockito.internal.util.Primitives.wrapperReturnValues::::org.mockito.internal.util.Primitives.primitiveValues	0.005131723974099635
+80	org.mockito.internal.creation.jmock.SearchingClassLoader::::32::::996::::996::::c::::first	0.004974694286468651
+81	org.mockito.internal.exceptions.base.StackTraceFilter::::41::::1652::::1659::::firstBad::::lastBad	0.004905237789259499
+82	org.mockito.internal.exceptions.base.StackTraceFilter::::40::::1618::::1625::::firstBad::::lastBad	0.004887766623456504
+83	org.mockito.internal.exceptions.base.StackTraceFilter::::49::::1867::::1869::::top::::bottom	0.0048729304211855414
+84	org.mockito.internal.exceptions.base.StackTraceFilter::::40::::1618::::1631::::firstBad == (-1)::::keepTop && (firstBad != (-1))	0.00480435132317993
+85	org.mockito.internal.exceptions.base.StackTraceFilter::::46::::1759::::1766::::firstBad::::lastBad	0.004212679687517473
+86	org.mockito.internal.invocation.SerializableMethod::::26::::786::::792::::getName::::isVarArgs	0.004150545636980921
+87	org.mockito.internal.invocation.SerializableMethod::::25::::720::::733::::declaringClass::::returnType	0.004146543182171875
+88	org.mockito.internal.exceptions.base.StackTraceFilter::::35::::1437::::1437::::i::::firstBad	0.003908125126407069
+89	org.mockito.internal.exceptions.base.StackTraceFilter::::35::::1470::::1470::::i::::firstBad	0.0038713271246496347
+90	org.mockito.internal.exceptions.base.StackTraceFilter::::36::::1530::::1530::::i::::firstBad	0.0038610889503414283
+91	org.mockito.internal.exceptions.base.StackTraceFilter::::39::::1599::::1599::::i::::firstBad	0.003850170886088486
+92	org.mockito.internal.exceptions.base.StackTraceFilter::::40::::1618::::1625::::firstBad::::i++	0.003841632789499914
+93	org.mockito.internal.exceptions.base.StackTraceFilter::::41::::1663::::1663::::i::::firstBad	0.003836420473004393
+94	org.mockito.internal.exceptions.base.StackTraceFilter::::41::::1652::::1659::::firstBad::::i++	0.00381793316433086
+95	org.mockito.internal.invocation.SerializableMethod::::27::::829::::845::::getParameterTypes::::isVarArgs	0.0037978950615484446
+96	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::839::::885::::(fromMockObject || fromOrgMockito) && (!isRunner)::::!isRunner	0.0036629483719650404
+97	org.mockito.internal.exceptions.base.StackTraceFilter::::46::::1759::::1772::::firstBad != (-1)::::firstBad == (-1)	0.0035238276505415917
+98	org.mockito.internal.configuration.InjectingAnnotationEngine::::35::::1158::::1165::::delegate::::spyAnnotationEngine	0.0034694433324435545
+99	org.mockito.internal.exceptions.base.StackTraceFilter::::46::::1759::::1766::::firstBad::::i++	0.0028248648306362606
+100	org.mockito.internal.exceptions.base.StackTraceFilter::::46::::1748::::1772::::keepTop && (firstBad != (-1))::::keepTop	0.0027924671947688086
+101	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::839::::906::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner::::isRunner	0.0027472112789737805
+102	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::839::::906::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner::::isInternalRunner	0.0027472112789737805
+103	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::839::::906::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner::::fromOrgMockito	0.0027472112789737805
+104	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::839::::906::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner::::fromMockObject	0.0027472112789737805
+105	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::839::::906::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner::::!isRunner	0.0027472112789737805
+106	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::839::::906::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner::::!isInternalRunner	0.0027472112789737805
+107	org.mockito.internal.exceptions.base.StackTraceFilter::::36::::1505::::1524::::unfilteredStackTrace::::filtered	0.0024049665918246146
+108	org.mockito.internal.exceptions.base.StackTraceFilter::::35::::1441::::1460::::unfilteredStackTrace::::filtered	0.002353964982720852
+109	org.mockito.internal.debugging.Location::::28::::787::::802::::stackTraceFilter::::this.stackTraceFilter	0.0020435829033164502
+110	org.mockito.internal.util.StringJoiner::::12::::350::::352::::out::::new java.lang.StringBuilder("\n")	0.001940584292691702
+111	org.mockito.internal.invocation.SerializableMethod::::30::::963::::993::::isVarArgs = method.isVarArgs()::::returnType = method.getReturnType()	0.00186298261541865
+112	org.mockito.internal.invocation.SerializableMethod::::30::::963::::993::::isVarArgs = method.isVarArgs()::::parameterTypes = method.getParameterTypes()	0.00186298261541865
+113	org.mockito.internal.invocation.SerializableMethod::::30::::963::::993::::isVarArgs = method.isVarArgs()::::methodName = method.getName()	0.00186298261541865
+114	org.mockito.internal.invocation.SerializableMethod::::30::::963::::993::::isVarArgs = method.isVarArgs()::::exceptionTypes = method.getExceptionTypes()	0.00186298261541865
+115	org.mockito.internal.invocation.SerializableMethod::::29::::910::::953::::exceptionTypes = method.getExceptionTypes()::::returnType = method.getReturnType()	0.00186298261541865
+116	org.mockito.internal.invocation.SerializableMethod::::29::::910::::953::::exceptionTypes = method.getExceptionTypes()::::parameterTypes = method.getParameterTypes()	0.00186298261541865
+117	org.mockito.internal.invocation.SerializableMethod::::29::::910::::953::::exceptionTypes = method.getExceptionTypes()::::methodName = method.getName()	0.00186298261541865
+118	org.mockito.internal.invocation.SerializableMethod::::28::::865::::900::::returnType = method.getReturnType()::::parameterTypes = method.getParameterTypes()	0.00186298261541865
+119	org.mockito.internal.invocation.SerializableMethod::::28::::865::::900::::returnType = method.getReturnType()::::methodName = method.getName()	0.00186298261541865
+120	org.mockito.internal.invocation.SerializableMethod::::27::::812::::855::::parameterTypes = method.getParameterTypes()::::methodName = method.getName()	0.00186298261541865
+121	org.mockito.internal.debugging.Location::::28::::811::::826::::stackTraceHolder::::new java.lang.Throwable()	0.0018006394812438652
+122	org.mockito.internal.exceptions.base.StackTraceFilter::::46::::1748::::1772::::keepTop && (firstBad != (-1))::::firstBad == (-1)	0.0016547953746778124
+123	org.mockito.internal.exceptions.base.StackTraceFilter::::41::::1652::::1659::::firstBad::::lastBad + 1	0.0016025128901075176
+124	org.mockito.internal.invocation.SerializableMethod::::25::::720::::763::::declaringClass = method.getDeclaringClass()::::methodName = method.getName()	0.0015968422417874143
+125	org.mockito.internal.exceptions.base.StackTraceFilter::::40::::1618::::1625::::firstBad::::lastBad + 1	0.0015944968404179845
+126	org.mockito.internal.invocation.SerializableMethod::::26::::773::::802::::methodName = method.getName()::::parameterTypes = method.getParameterTypes()	0.001552485512848875
+127	org.mockito.internal.exceptions.base.StackTraceFilter::::36::::1505::::1524::::unfilteredStackTrace::::top	0.0015461699961416108
+128	org.mockito.internal.exceptions.base.StackTraceFilter::::35::::1441::::1460::::unfilteredStackTrace::::top	0.0015399770914996229
+129	org.mockito.internal.exceptions.base.StackTraceFilter::::41::::1663::::1663::::i::::lastBad	0.0015370992995572123
+130	org.mockito.internal.invocation.SerializableMethod::::27::::812::::825::::parameterTypes::::exceptionTypes	0.0015345030551710886
+131	org.mockito.internal.exceptions.base.StackTraceFilter::::39::::1599::::1599::::i::::lastBad	0.0015324377894870764
+132	org.mockito.internal.exceptions.base.StackTraceFilter::::41::::1652::::1664::::firstBad = i::::lastBad = i	0.0015283110276237619
+133	org.mockito.internal.exceptions.base.StackTraceFilter::::36::::1530::::1530::::i::::lastBad	0.0015220359195334554
+134	org.mockito.internal.exceptions.base.StackTraceFilter::::35::::1470::::1470::::i::::lastBad	0.001511911780742088
+135	org.mockito.internal.exceptions.base.StackTraceFilter::::35::::1437::::1437::::i::::lastBad	0.0014994369369170984
+136	org.mockito.internal.invocation.SerializableMethod::::27::::812::::855::::parameterTypes = method.getParameterTypes()::::returnType = method.getReturnType()	0.00149038609233492
+137	org.mockito.internal.creation.jmock.SearchingClassLoader::::30::::898::::902::::first::::c	0.0014338824708056699
+138	org.mockito.internal.util.StringJoiner::::14::::426::::428::::out::::new java.lang.StringBuilder("\n")	0.001419377553543471
+139	org.mockito.internal.invocation.SerializableMethod::::28::::865::::900::::returnType = method.getReturnType()::::exceptionTypes = method.getExceptionTypes()	0.0013972369615639876
+140	org.mockito.exceptions.base.MockitoException::::30::::813::::832::::filter.filter(this)::::DELETE::::STATEMENT	0.0013387784496421643
+141	org.mockito.internal.invocation.SerializableMethod::::25::::720::::763::::declaringClass = method.getDeclaringClass()::::parameterTypes = method.getParameterTypes()	0.0013307018681561786
+142	org.mockito.internal.util.StringJoiner::::15::::464::::466::::out::::new java.lang.StringBuilder("\n")	0.001301563606411404
+143	org.mockito.internal.exceptions.base.StackTraceFilter::::46::::1759::::1766::::firstBad::::lastBad + 1	0.0012878060257312364
+144	org.mockito.internal.invocation.SerializableMethod::::29::::910::::953::::exceptionTypes = method.getExceptionTypes()::::isVarArgs = method.isVarArgs()	0.0012419884102791
+145	org.mockito.internal.invocation.SerializableMethod::::26::::773::::802::::methodName = method.getName()::::returnType = method.getReturnType()	0.0012419884102791
+146	org.mockito.exceptions.base.MockitoException::::27::::676::::714::::unfilteredStackTrace = getStackTrace()::::INSERT::::STATEMENT::::filterStackTrace()	0.001160502485065267
+147	org.mockito.internal.invocation.SerializableMethod::::27::::812::::855::::parameterTypes = method.getParameterTypes()::::exceptionTypes = method.getExceptionTypes()	0.00111778956925119
+148	org.mockito.internal.invocation.SerializableMethod::::25::::720::::763::::declaringClass = method.getDeclaringClass()::::returnType = method.getReturnType()	0.0010645614945249428
+149	org.mockito.internal.exceptions.base.StackTraceFilter::::41::::1652::::1664::::firstBad = i::::INSERT::::STATEMENT::::if (firstBad == (-1)) {    firstBad = i;}	9.713724594491566E-4
+150	org.mockito.internal.exceptions.base.StackTraceFilter::::49::::1867::::1908::::top = new java.util.LinkedList<java.lang.StackTraceElement>()::::INSERT::::STATEMENT::::if (firstBad == (-1)) {    firstBad = i;}	9.3820533664814E-4
+151	org.mockito.internal.invocation.SerializableMethod::::28::::865::::900::::returnType = method.getReturnType()::::isVarArgs = method.isVarArgs()	9.31491307709325E-4
+152	org.mockito.internal.invocation.SerializableMethod::::26::::773::::802::::methodName = method.getName()::::exceptionTypes = method.getExceptionTypes()	9.31491307709325E-4
+153	org.mockito.internal.exceptions.base.StackTraceFilter::::36::::1493::::1532::::!(this.isBad(unfilteredStackTrace.get(i)))::::INSERT::::STATEMENT::::if (firstBad == (-1)) {    firstBad = i;}	9.112233291858816E-4
+154	org.mockito.internal.invocation.SerializableMethod::::25::::720::::763::::declaringClass = method.getDeclaringClass()::::exceptionTypes = method.getExceptionTypes()	7.984211208937072E-4
+155	org.mockito.exceptions.base.MockitoException::::30::::813::::832::::filter.filter(this)::::INSERT::::STATEMENT::::filterStackTrace()	7.736683233768446E-4
+156	org.mockito.internal.invocation.SerializableMethod::::27::::812::::855::::parameterTypes = method.getParameterTypes()::::isVarArgs = method.isVarArgs()	7.4519304616746E-4
+157	org.mockito.internal.exceptions.base.StackTraceFilter::::36::::1505::::1524::::unfilteredStackTrace::::bottom	6.9334893667558E-4
+158	org.mockito.internal.exceptions.base.StackTraceFilter::::35::::1441::::1460::::unfilteredStackTrace::::bottom	6.765578368475415E-4
+159	org.mockito.internal.invocation.SerializableMethod::::26::::773::::802::::methodName = method.getName()::::isVarArgs = method.isVarArgs()	6.2099420513955E-4
+160	org.mockito.internal.creation.jmock.SearchingClassLoader::::44::::1534::::1599::::org.mockito.internal.creation.jmock.SearchingClassLoader.addIfNewElement(loaders, java.lang.Thread.currentThread().getContextClassLoader())::::DELETE::::STATEMENT	5.684106419611942E-4
+161	org.mockito.internal.creation.jmock.SearchingClassLoader::::40::::1317::::1386::::org.mockito.internal.creation.jmock.SearchingClassLoader.addIfNewElement(loaders, org.mockito.internal.creation.jmock.SearchingClassLoader.class.getClassLoader())::::DELETE::::STATEMENT	5.684106419611942E-4
+162	org.mockito.internal.creation.jmock.SearchingClassLoader::::30::::873::::921::::org.mockito.internal.creation.jmock.SearchingClassLoader.addIfNewElement(loaders, first.getClassLoader())::::DELETE::::STATEMENT	5.684106419611942E-4
+163	org.mockito.internal.invocation.SerializableMethod::::25::::720::::763::::declaringClass = method.getDeclaringClass()::::isVarArgs = method.isVarArgs()	5.322807472624714E-4
+164	org.mockito.internal.util.ObjectMethodsGuru::::35::::1206::::1306::::(java.lang.Comparable.class.isAssignableFrom(method.getDeclaringClass())) && (method.getName().equals("compareTo"))::::isToString(new org.mockito.internal.creation.DelegatingMethod(method))	5.148318307451004E-4
+165	org.mockito.internal.exceptions.base.StackTraceFilter::::41::::1663::::1663::::i::::lastBad + 1	5.031957434920604E-4
+166	org.mockito.internal.configuration.InjectingAnnotationEngine::::37::::1239::::1286::::spyAnnotationEngine.process(context, testClass)::::DELETE::::STATEMENT	5.018416340251431E-4
+167	org.mockito.internal.configuration.InjectingAnnotationEngine::::35::::1158::::1194::::delegate.process(context, testClass)::::DELETE::::STATEMENT	5.018416340251431E-4
+168	org.mockito.internal.progress.ThreadSafeMockingProgress::::48::::1513::::1543::::org.mockito.internal.progress.ThreadSafeMockingProgress.threadSafely().validateState()::::DELETE::::STATEMENT	5.008153719408147E-4
+169	org.mockito.internal.exceptions.base.StackTraceFilter::::39::::1599::::1599::::i::::lastBad + 1	4.996591860543004E-4
+170	org.mockito.internal.exceptions.base.StackTraceFilter::::36::::1530::::1530::::i::::lastBad + 1	4.933330076530808E-4
+171	org.mockito.internal.exceptions.base.StackTraceFilter::::35::::1470::::1470::::i::::lastBad + 1	4.8720649899173314E-4
+172	org.mockito.internal.exceptions.base.StackTraceFilter::::35::::1437::::1437::::i::::lastBad + 1	4.777421835552383E-4
+173	org.mockito.internal.configuration.GlobalConfiguration::::39::::1467::::1472::::config::::defaultConfiguration	4.569115422178861E-4
+174	org.mockito.internal.configuration.GlobalConfiguration::::40::::1497::::1510::::return config::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	4.5026819344532126E-4
+175	org.mockito.internal.debugging.Location::::29::::861::::942::::if ((filtered.length) == 0) {    return "-> at <<unknown line>>";}::::INSERT::::STATEMENT::::if ((filtered.length) == 0) {    return "-> at <<unknown line>>";}	4.455894971832259E-4
+176	org.mockito.internal.debugging.Location::::32::::952::::992::::return "-> at " + (filtered[0].toString())::::INSERT::::STATEMENT::::if ((filtered.length) == 0) {    return "-> at <<unknown line>>";}	3.94163826550759E-4
+177	org.mockito.internal.debugging.Location::::28::::756::::851::::java.lang.StackTraceElement[] filtered = stackTraceFilter.filter(stackTraceHolder.getStackTrace(), false)::::INSERT::::STATEMENT::::if ((filtered.length) == 0) {    return "-> at <<unknown line>>";}	3.874691279854138E-4
+178	org.mockito.exceptions.base.MockitoException::::29::::733::::803::::org.mockito.internal.exceptions.base.ConditionalStackTraceFilter filter = new org.mockito.internal.exceptions.base.ConditionalStackTraceFilter()::::INSERT::::STATEMENT::::filterStackTrace()	3.868341616884223E-4
+179	org.mockito.internal.exceptions.base.StackTraceFilter::::39::::1589::::1600::::lastBad = i::::firstBad = i	3.7911591382915023E-4
+180	org.mockito.internal.configuration.GlobalConfiguration::::40::::1504::::1509::::config::::defaultConfiguration	3.722982936590183E-4
+181	org.mockito.internal.configuration.InjectingAnnotationEngine::::37::::1239::::1286::::spyAnnotationEngine.process(context, testClass)::::INSERT::::STATEMENT::::injectMocks(testClass)	3.340913800989339E-4
+182	org.mockito.internal.exceptions.base.StackTraceFilter::::33::::1368::::1384::::int lastBad = -1::::INSERT::::STATEMENT::::if (firstBad == (-1)) {    firstBad = i;}	2.9742460688898163E-4
+183	org.mockito.internal.exceptions.base.StackTraceFilter::::34::::1394::::1411::::int firstBad = -1::::INSERT::::STATEMENT::::if (firstBad == (-1)) {    firstBad = i;}	2.8090101761737155E-4
+184	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::890::::906::::!isInternalRunner::::DELETE::::INFIX	2.798721490454539E-4
+185	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::877::::885::::!isRunner::::DELETE::::INFIX	2.798721490454539E-4
+186	org.mockito.internal.exceptions.base.StackTraceFilter::::31::::1281::::1349::::java.util.List<java.lang.StackTraceElement> unfilteredStackTrace = java.util.Arrays.asList(target)::::INSERT::::STATEMENT::::if (firstBad == (-1)) {    firstBad = i;}	2.7939887313813426E-4
+187	org.mockito.internal.creation.DelegatingMethod::::37::::857::::862::::method::::this.method	2.451053413381488E-4
+188	org.mockito.internal.progress.ThreadSafeMockingProgress::::22::::781::::827::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.set(new org.mockito.internal.progress.MockingProgressImpl())::::DELETE::::STATEMENT	2.3008034548127333E-4
+189	org.mockito.internal.configuration.GlobalConfiguration::::32::::1176::::1215::::org.mockito.internal.configuration.GlobalConfiguration.globalConfiguration.set(createConfig())::::DELETE::::STATEMENT	2.3008034548127333E-4
+190	org.mockito.internal.configuration.InjectingAnnotationEngine::::35::::1158::::1194::::delegate.process(context, testClass)::::INSERT::::STATEMENT::::injectMocks(testClass)	2.2372190631625031E-4
+191	org.mockito.internal.debugging.Location::::32::::970::::991::::filtered[0].toString()::::DELETE::::INFIX	2.0098792801589313E-4
+192	org.mockito.internal.configuration.GlobalConfiguration::::39::::1463::::1578::::if (config != null) {    return config;}else {    return defaultConfiguration;}::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	2.00083740106461E-4
+193	org.mockito.internal.configuration.GlobalConfiguration::::38::::1381::::1453::::org.mockito.configuration.IMockitoConfiguration config = new org.mockito.internal.configuration.ClassPathLoader().loadConfiguration()::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	2.00083740106461E-4
+194	org.mockito.internal.configuration.GlobalConfiguration::::37::::1293::::1371::::org.mockito.configuration.IMockitoConfiguration defaultConfiguration = new org.mockito.configuration.DefaultMockitoConfiguration()::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	2.00083740106461E-4
+195	org.mockito.internal.configuration.InjectingAnnotationEngine::::40::::1334::::1378::::java.lang.reflect.Field[] fields = context.getDeclaredFields()::::INSERT::::STATEMENT::::injectMocks(testClass)	1.9886391672555587E-4
+196	org.mockito.internal.creation.DelegatingMethod::::37::::857::::862::::method::::this	1.7507524381296343E-4
+197	org.mockito.internal.util.ObjectMethodsGuru::::35::::1206::::1427::::((java.lang.Comparable.class.isAssignableFrom(method.getDeclaringClass())) && (method.getName().equals("compareTo"))) && ((method.getParameterTypes().length) == 1)) && ((method.getParameterTypes()[0]) == (method.getDeclaringClass())::::isToString(new org.mockito.internal.creation.DelegatingMethod(method))	1.7478858451222545E-4
+198	org.mockito.internal.creation.jmock.ClassImposterizer::::44::::1739::::1776::::!(java.lang.reflect.Modifier.isFinal(type.getModifiers()))::::DELETE::::INFIX	1.4801066512952512E-4
+199	org.mockito.internal.creation.jmock.ClassImposterizer::::44::::1716::::1734::::!(type.isPrimitive())::::DELETE::::INFIX	1.4801066512952512E-4
+200	org.mockito.internal.invocation.SerializableMethod::::29::::927::::932::::method::::this	1.455722764392216E-4
+201	org.mockito.internal.invocation.SerializableMethod::::30::::975::::980::::method::::this	1.3509548381670185E-4
+202	org.mockito.internal.util.ObjectMethodsGuru::::35::::1271::::1306::::method.getName().equals("compareTo")::::DELETE::::INFIX	1.3313122116542678E-4
+203	org.mockito.internal.util.ObjectMethodsGuru::::35::::1206::::1266::::java.lang.Comparable.class.isAssignableFrom(method.getDeclaringClass())::::DELETE::::INFIX	1.3313122116542678E-4
+204	org.mockito.internal.configuration.InjectingAnnotationEngine::::41::::1388::::1656::::for (java.lang.reflect.Field field : fields) {    if (field.isAnnotationPresent(org.mockito.internal.configuration.InjectMocks.class)) {        assertNoAnnotations(field, org.mockito.internal.configuration.Mock.class, org.mockito.MockitoAnnotations.Mock.class, org.mockito.internal.configuration.Captor.class);        injectMocks(testClass);    }}::::INSERT::::STATEMENT::::injectMocks(testClass)	1.3257594448370393E-4
+205	org.mockito.internal.invocation.SerializableMethod::::28::::878::::883::::method::::this	1.3209336195410846E-4
+206	org.mockito.internal.util.ObjectMethodsGuru::::22::::640::::661::::method.getReturnType()::::DELETE::::INFIX	1.2692279045483558E-4
+207	org.mockito.internal.invocation.SerializableMethod::::26::::786::::791::::method::::this	1.2680962747594414E-4
+208	org.mockito.internal.util.ObjectMethodsGuru::::35::::1206::::1364::::((java.lang.Comparable.class.isAssignableFrom(method.getDeclaringClass())) && (method.getName().equals("compareTo"))) && ((method.getParameterTypes().length) == 1)::::isToString(new org.mockito.internal.creation.DelegatingMethod(method))	1.2584778084880231E-4
+209	org.mockito.internal.invocation.SerializableMethod::::27::::829::::834::::method::::this	1.0337741370321532E-4
+210	org.mockito.internal.exceptions.base.StackTraceFilter::::46::::1744::::1918::::if (keepTop && (firstBad != (-1))) {    top = unfilteredStackTrace.subList(0, firstBad);}else {    top = new java.util.LinkedList<java.lang.StackTraceElement>();}::::INSERT::::STATEMENT::::if (firstBad == (-1)) {    firstBad = i;}	1.001429652824854E-4
+211	org.mockito.internal.progress.ThreadSafeMockingProgress::::21::::736::::756::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.get()::::DELETE::::INFIX	9.002172740675064E-5
+212	org.mockito.internal.exceptions.base.StackTraceFilter::::35::::1421::::1688::::for (int i = 0; i < (unfilteredStackTrace.size()); i++) {    if (!(this.isBad(unfilteredStackTrace.get(i)))) {        continue;    }    lastBad = i;    if (firstBad == (-1)) {        firstBad = i;    }}::::INSERT::::STATEMENT::::if (firstBad == (-1)) {    firstBad = i;}	8.046001492332524E-5
+213	org.mockito.internal.exceptions.base.StackTraceFilter::::40::::1630::::1631::::-1::::DELETE::::INFIX	7.794295966599768E-5
+214	org.mockito.internal.exceptions.base.StackTraceFilter::::35::::1441::::1467::::unfilteredStackTrace.size()::::DELETE::::INFIX	6.727310386277751E-5
+215	org.mockito.internal.exceptions.base.StackTraceFilter::::46::::1771::::1772::::-1::::DELETE::::INFIX	2.3640669423475115E-5
+216	org.mockito.internal.configuration.GlobalConfiguration::::31::::1127::::1151::::org.mockito.internal.configuration.GlobalConfiguration.globalConfiguration.get()::::DELETE::::INFIX	1.4213956958960627E-5
+217	org.mockito.internal.util.ObjectMethodsGuru::::35::::1271::::1276::::method::::new org.mockito.internal.creation.DelegatingMethod(method)	1.0401704335462234E-5
+218	org.mockito.internal.util.StringJoiner::::15::::487::::497::::lastBreak + 1::::1	0.0
+219	org.mockito.internal.util.StringJoiner::::15::::487::::495::::lastBreak::::lastBreak + 1	0.0
+220	org.mockito.internal.util.StringJoiner::::15::::487::::495::::lastBreak::::1	0.0
+221	org.mockito.internal.util.StringJoiner::::15::::476::::484::::lastBreak::::lastBreak + 1	0.0
+222	org.mockito.internal.util.StringJoiner::::15::::476::::484::::lastBreak::::1	0.0
+223	org.mockito.internal.util.Primitives::::37::::1344::::1348::::short::::byte	0.0
+224	org.mockito.internal.util.Primitives::::36::::1277::::1280::::byte::::short	0.0
+225	org.mockito.internal.util.ObjectMethodsGuru::::35::::1199::::1428::::return (((java.lang.Comparable.class.isAssignableFrom(method.getDeclaringClass())) && (method.getName().equals("compareTo"))) && ((method.getParameterTypes().length) == 1)) && ((method.getParameterTypes()[0]) == (method.getDeclaringClass()))::::INSERT::::STATEMENT::::-1286718569065470494L	0.0
+226	org.mockito.internal.util.ObjectMethodsGuru::::22::::682::::719::::(method.getParameterTypes().length) == 0::::long	0.0
+227	org.mockito.internal.util.ObjectMethodsGuru::::22::::682::::714::::method.getParameterTypes().length::::long	0.0
+228	org.mockito.internal.util.ObjectMethodsGuru::::22::::640::::774::::((method.getReturnType()) == (java.lang.String.class)) && ((method.getParameterTypes().length) == 0)) && (method.getName().equals("toString")::::long	0.0
+229	org.mockito.internal.util.ObjectMethodsGuru::::22::::640::::719::::((method.getReturnType()) == (java.lang.String.class)) && ((method.getParameterTypes().length) == 0)::::long	0.0
+230	org.mockito.internal.util.ObjectMethodsGuru::::22::::640::::677::::(method.getReturnType()) == (java.lang.String.class)::::long	0.0
+231	org.mockito.internal.util.ObjectMethodsGuru::::22::::633::::775::::return (((method.getReturnType()) == (java.lang.String.class)) && ((method.getParameterTypes().length) == 0)) && (method.getName().equals("toString"))::::INSERT::::STATEMENT::::-1286718569065470494L	0.0
+232	org.mockito.internal.util.ObjectMethodsGuru::::18::::515::::562::::return isToString(new org.mockito.internal.creation.DelegatingMethod(method))::::INSERT::::STATEMENT::::-1286718569065470494L	0.0
+233	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls::::48::::1953::::1962::::invocation::::this.invocation	0.0
+234	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls::::48::::1935::::1949::::this.invocation::::invocation	0.0
+235	org.mockito.internal.progress.ThreadSafeMockingProgress::::24::::854::::868::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress::::new java.lang.ThreadLocal<org.mockito.internal.progress.MockingProgress>()	0.0
+236	org.mockito.internal.progress.ThreadSafeMockingProgress::::22::::781::::795::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress::::new java.lang.ThreadLocal<org.mockito.internal.progress.MockingProgress>()	0.0
+237	org.mockito.internal.progress.ThreadSafeMockingProgress::::21::::736::::764::::(org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.get()) == null::::long	0.0
+238	org.mockito.internal.progress.ThreadSafeMockingProgress::::21::::736::::750::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress::::new java.lang.ThreadLocal<org.mockito.internal.progress.MockingProgress>()	0.0
+239	org.mockito.internal.invocation.SerializableMethod::::30::::963::::971::::isVarArgs::::true	0.0
+240	org.mockito.internal.invocation.SerializableMethod::::30::::963::::971::::isVarArgs::::method.isVarArgs()	0.0
+241	org.mockito.internal.invocation.SerializableMethod::::30::::963::::971::::isVarArgs::::false	0.0
+242	org.mockito.internal.invocation.SerializableMethod::::30::::963::::971::::isVarArgs::::(returnType) == null	0.0
+243	org.mockito.internal.invocation.SerializableMethod::::30::::963::::971::::isVarArgs::::(methodName) == null	0.0
+244	org.mockito.internal.invocation.SerializableMethod::::30::::963::::971::::isVarArgs::::(declaringClass) == null	0.0
+245	org.mockito.internal.invocation.SerializableMethod::::29::::910::::923::::exceptionTypes::::method.getParameterTypes()	0.0
+246	org.mockito.internal.invocation.SerializableMethod::::29::::910::::923::::exceptionTypes::::method.getExceptionTypes()	0.0
+247	org.mockito.internal.invocation.SerializableMethod::::28::::865::::874::::returnType::::method.getReturnType()	0.0
+248	org.mockito.internal.invocation.SerializableMethod::::27::::812::::825::::parameterTypes::::method.getParameterTypes()	0.0
+249	org.mockito.internal.invocation.SerializableMethod::::27::::812::::825::::parameterTypes::::method.getExceptionTypes()	0.0
+250	org.mockito.internal.invocation.SerializableMethod::::26::::773::::782::::methodName::::method.getName()	0.0
+251	org.mockito.internal.invocation.SerializableMethod::::26::::773::::782::::methodName::::"The method %1$s.%2$s is probably private or protected and cannot be mocked.\n" + "Please report this as a defect with an example of how to reproduce it."	0.0
+252	org.mockito.internal.invocation.SerializableMethod::::26::::773::::782::::methodName::::"The method %1$s.%2$s is probably private or protected and cannot be mocked.\n"	0.0
+253	org.mockito.internal.invocation.SerializableMethod::::26::::773::::782::::methodName::::"The method %1$s.%2$s does not exists and you should not get to this point.\n" + "Please report this as a defect with an example of how to reproduce it."	0.0
+254	org.mockito.internal.invocation.SerializableMethod::::26::::773::::782::::methodName::::"The method %1$s.%2$s does not exists and you should not get to this point.\n"	0.0
+255	org.mockito.internal.invocation.SerializableMethod::::26::::773::::782::::methodName::::"Please report this as a defect with an example of how to reproduce it."	0.0
+256	org.mockito.internal.invocation.SerializableMethod::::25::::720::::733::::declaringClass::::method.getReturnType()	0.0
+257	org.mockito.internal.exceptions.base.StackTraceFilter::::49::::1867::::1908::::top = new java.util.LinkedList<java.lang.StackTraceElement>()::::lastBad = i	0.0
+258	org.mockito.internal.exceptions.base.StackTraceFilter::::49::::1867::::1908::::top = new java.util.LinkedList<java.lang.StackTraceElement>()::::firstBad = i	0.0
+259	org.mockito.internal.exceptions.base.StackTraceFilter::::49::::1867::::1908::::top = new java.util.LinkedList<java.lang.StackTraceElement>()::::INSERT::::STATEMENT::::-5499819791513105700L	0.0
+260	org.mockito.internal.exceptions.base.StackTraceFilter::::46::::1759::::1766::::firstBad::::1	0.0
+261	org.mockito.internal.exceptions.base.StackTraceFilter::::46::::1759::::1766::::firstBad::::0	0.0
+262	org.mockito.internal.exceptions.base.StackTraceFilter::::46::::1759::::1766::::firstBad::::-1	0.0
+263	org.mockito.internal.exceptions.base.StackTraceFilter::::46::::1748::::1772::::keepTop && (firstBad != (-1))::::firstBad != (-1)	0.0
+264	org.mockito.internal.exceptions.base.StackTraceFilter::::46::::1748::::1754::::keepTop::::firstBad == (-1)	0.0
+265	org.mockito.internal.exceptions.base.StackTraceFilter::::46::::1748::::1754::::keepTop::::firstBad != (-1)	0.0
+266	org.mockito.internal.exceptions.base.StackTraceFilter::::46::::1744::::1918::::if (keepTop && (firstBad != (-1))) {    top = unfilteredStackTrace.subList(0, firstBad);}else {    top = new java.util.LinkedList<java.lang.StackTraceElement>();}::::INSERT::::STATEMENT::::-5499819791513105700L	0.0
+267	org.mockito.internal.exceptions.base.StackTraceFilter::::41::::1663::::1663::::i::::i++	0.0
+268	org.mockito.internal.exceptions.base.StackTraceFilter::::41::::1663::::1663::::i::::1	0.0
+269	org.mockito.internal.exceptions.base.StackTraceFilter::::41::::1663::::1663::::i::::0	0.0
+270	org.mockito.internal.exceptions.base.StackTraceFilter::::41::::1663::::1663::::i::::-1	0.0
+271	org.mockito.internal.exceptions.base.StackTraceFilter::::41::::1652::::1664::::firstBad = i::::top = new java.util.LinkedList<java.lang.StackTraceElement>()	0.0
+272	org.mockito.internal.exceptions.base.StackTraceFilter::::41::::1652::::1664::::firstBad = i::::INSERT::::STATEMENT::::-5499819791513105700L	0.0
+273	org.mockito.internal.exceptions.base.StackTraceFilter::::41::::1652::::1659::::firstBad::::1	0.0
+274	org.mockito.internal.exceptions.base.StackTraceFilter::::41::::1652::::1659::::firstBad::::0	0.0
+275	org.mockito.internal.exceptions.base.StackTraceFilter::::41::::1652::::1659::::firstBad::::-1	0.0
+276	org.mockito.internal.exceptions.base.StackTraceFilter::::40::::1618::::1631::::firstBad == (-1)::::keepTop	0.0
+277	org.mockito.internal.exceptions.base.StackTraceFilter::::40::::1618::::1625::::firstBad::::1	0.0
+278	org.mockito.internal.exceptions.base.StackTraceFilter::::40::::1618::::1625::::firstBad::::0	0.0
+279	org.mockito.internal.exceptions.base.StackTraceFilter::::40::::1618::::1625::::firstBad::::-1	0.0
+280	org.mockito.internal.exceptions.base.StackTraceFilter::::39::::1599::::1599::::i::::i++	0.0
+281	org.mockito.internal.exceptions.base.StackTraceFilter::::39::::1599::::1599::::i::::1	0.0
+282	org.mockito.internal.exceptions.base.StackTraceFilter::::39::::1599::::1599::::i::::0	0.0
+283	org.mockito.internal.exceptions.base.StackTraceFilter::::39::::1599::::1599::::i::::-1	0.0
+284	org.mockito.internal.exceptions.base.StackTraceFilter::::39::::1589::::1600::::lastBad = i::::top = new java.util.LinkedList<java.lang.StackTraceElement>()	0.0
+285	org.mockito.internal.exceptions.base.StackTraceFilter::::39::::1589::::1595::::lastBad::::lastBad + 1	0.0
+286	org.mockito.internal.exceptions.base.StackTraceFilter::::39::::1589::::1595::::lastBad::::1	0.0
+287	org.mockito.internal.exceptions.base.StackTraceFilter::::39::::1589::::1595::::lastBad::::0	0.0
+288	org.mockito.internal.exceptions.base.StackTraceFilter::::39::::1589::::1595::::lastBad::::-1	0.0
+289	org.mockito.internal.exceptions.base.StackTraceFilter::::37::::1553::::1561::::continue::::INSERT::::STATEMENT::::if (firstBad == (-1)) {    firstBad = i;}	0.0
+290	org.mockito.internal.exceptions.base.StackTraceFilter::::37::::1553::::1561::::continue::::INSERT::::STATEMENT::::-5499819791513105700L	0.0
+291	org.mockito.internal.exceptions.base.StackTraceFilter::::36::::1530::::1530::::i::::i++	0.0
+292	org.mockito.internal.exceptions.base.StackTraceFilter::::36::::1530::::1530::::i::::1	0.0
+293	org.mockito.internal.exceptions.base.StackTraceFilter::::36::::1530::::1530::::i::::0	0.0
+294	org.mockito.internal.exceptions.base.StackTraceFilter::::36::::1530::::1530::::i::::-1	0.0
+295	org.mockito.internal.exceptions.base.StackTraceFilter::::36::::1493::::1532::::!(this.isBad(unfilteredStackTrace.get(i)))::::INSERT::::STATEMENT::::-5499819791513105700L	0.0
+296	org.mockito.internal.exceptions.base.StackTraceFilter::::35::::1470::::1470::::i::::i++	0.0
+297	org.mockito.internal.exceptions.base.StackTraceFilter::::35::::1470::::1470::::i::::1	0.0
+298	org.mockito.internal.exceptions.base.StackTraceFilter::::35::::1470::::1470::::i::::0	0.0
+299	org.mockito.internal.exceptions.base.StackTraceFilter::::35::::1470::::1470::::i::::-1	0.0
+300	org.mockito.internal.exceptions.base.StackTraceFilter::::35::::1437::::1437::::i::::i++	0.0
+301	org.mockito.internal.exceptions.base.StackTraceFilter::::35::::1437::::1437::::i::::1	0.0
+302	org.mockito.internal.exceptions.base.StackTraceFilter::::35::::1437::::1437::::i::::0	0.0
+303	org.mockito.internal.exceptions.base.StackTraceFilter::::35::::1437::::1437::::i::::-1	0.0
+304	org.mockito.internal.exceptions.base.StackTraceFilter::::35::::1426::::1428::::int::::long	0.0
+305	org.mockito.internal.exceptions.base.StackTraceFilter::::35::::1421::::1688::::for (int i = 0; i < (unfilteredStackTrace.size()); i++) {    if (!(this.isBad(unfilteredStackTrace.get(i)))) {        continue;    }    lastBad = i;    if (firstBad == (-1)) {        firstBad = i;    }}::::INSERT::::STATEMENT::::-5499819791513105700L	0.0
+306	org.mockito.internal.exceptions.base.StackTraceFilter::::34::::1394::::1411::::int firstBad = -1::::INSERT::::STATEMENT::::-5499819791513105700L	0.0
+307	org.mockito.internal.exceptions.base.StackTraceFilter::::34::::1394::::1396::::int::::long	0.0
+308	org.mockito.internal.exceptions.base.StackTraceFilter::::33::::1368::::1384::::int lastBad = -1::::INSERT::::STATEMENT::::-5499819791513105700L	0.0
+309	org.mockito.internal.exceptions.base.StackTraceFilter::::33::::1368::::1370::::int::::long	0.0
+310	org.mockito.internal.exceptions.base.StackTraceFilter::::31::::1342::::1347::::target::::new java.lang.StackTraceElement[]{  }	0.0
+311	org.mockito.internal.exceptions.base.StackTraceFilter::::31::::1281::::1349::::java.util.List<java.lang.StackTraceElement> unfilteredStackTrace = java.util.Arrays.asList(target)::::INSERT::::STATEMENT::::-5499819791513105700L	0.0
+312	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::891::::906::::isInternalRunner::::!isInternalRunner	0.0
+313	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::878::::885::::isRunner::::!isRunner	0.0
+314	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::839::::906::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner::::fromMockObject || fromOrgMockito	0.0
+315	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::839::::906::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner::::(fromMockObject || fromOrgMockito) && (!isRunner)	0.0
+316	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::839::::885::::(fromMockObject || fromOrgMockito) && (!isRunner)::::fromMockObject || fromOrgMockito	0.0
+317	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::839::::885::::(fromMockObject || fromOrgMockito) && (!isRunner)::::!isInternalRunner	0.0
+318	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::839::::872::::fromMockObject || fromOrgMockito::::isInternalRunner	0.0
+319	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::839::::872::::fromMockObject || fromOrgMockito::::!isRunner	0.0
+320	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::839::::872::::fromMockObject || fromOrgMockito::::!isInternalRunner	0.0
+321	org.mockito.internal.exceptions.base.StackTraceFilter::::21::::832::::907::::return ((fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner)::::INSERT::::STATEMENT::::-5499819791513105700L	0.0
+322	org.mockito.internal.exceptions.base.StackTraceFilter::::20::::735::::822::::boolean isInternalRunner = e.getClassName().startsWith("org.mockito.internal.runners.")::::INSERT::::STATEMENT::::-5499819791513105700L	0.0
+323	org.mockito.internal.exceptions.base.StackTraceFilter::::19::::655::::725::::boolean isRunner = e.getClassName().startsWith("org.mockito.runners.")::::INSERT::::STATEMENT::::-5499819791513105700L	0.0
+324	org.mockito.internal.exceptions.base.StackTraceFilter::::18::::577::::645::::boolean fromOrgMockito = e.getClassName().startsWith("org.mockito.")::::INSERT::::STATEMENT::::-5499819791513105700L	0.0
+325	org.mockito.internal.exceptions.base.StackTraceFilter::::17::::483::::567::::boolean fromMockObject = e.getClassName().contains("$$EnhancerByMockitoWithCGLIB$$")::::INSERT::::STATEMENT::::-5499819791513105700L	0.0
+326	org.mockito.internal.exceptions.base.ConditionalStackTraceFilter::::20::::690::::696::::return ::::INSERT::::STATEMENT::::-8085849703510292641L	0.0
+327	org.mockito.internal.exceptions.base.ConditionalStackTraceFilter::::19::::649::::654::::config::::new org.mockito.internal.configuration.GlobalConfiguration()	0.0
+328	org.mockito.internal.exceptions.base.ConditionalStackTraceFilter::::19::::648::::673::::!(config.cleansStackTrace())::::INSERT::::STATEMENT::::-8085849703510292641L	0.0
+329	org.mockito.internal.exceptions.base.ConditionalStackTraceFilter::::19::::644::::706::::if (!(config.cleansStackTrace())) {    return ;}::::INSERT::::STATEMENT::::-8085849703510292641L	0.0
+330	org.mockito.internal.debugging.Location::::32::::959::::991::::"-> at " + (filtered[0].toString())::::"-> at <<unknown line>>"	0.0
+331	org.mockito.internal.debugging.Location::::32::::959::::991::::"-> at " + (filtered[0].toString())::::"-> at "	0.0
+332	org.mockito.internal.debugging.Location::::32::::952::::992::::return "-> at " + (filtered[0].toString())::::INSERT::::STATEMENT::::-9054861157390980624L	0.0
+333	org.mockito.internal.debugging.Location::::29::::865::::884::::(filtered.length) == 0::::false	0.0
+334	org.mockito.internal.debugging.Location::::29::::865::::879::::filtered.length::::0	0.0
+335	org.mockito.internal.debugging.Location::::29::::861::::942::::if ((filtered.length) == 0) {    return "-> at <<unknown line>>";}::::INSERT::::STATEMENT::::-9054861157390980624L	0.0
+336	org.mockito.internal.debugging.Location::::28::::845::::849::::false::::(filtered.length) == 0	0.0
+337	org.mockito.internal.debugging.Location::::28::::787::::802::::stackTraceFilter::::new org.mockito.internal.exceptions.base.StackTraceFilter()	0.0
+338	org.mockito.internal.debugging.Location::::28::::756::::851::::java.lang.StackTraceElement[] filtered = stackTraceFilter.filter(stackTraceHolder.getStackTrace(), false)::::INSERT::::STATEMENT::::-9054861157390980624L	0.0
+339	org.mockito.internal.debugging.Location::::23::::659::::693::::stackTraceHolder = new java.lang.Throwable()::::this.stackTraceFilter = stackTraceFilter	0.0
+340	org.mockito.internal.debugging.Location::::23::::659::::674::::stackTraceHolder::::new java.lang.Throwable()	0.0
+341	org.mockito.internal.debugging.Location::::22::::633::::648::::stackTraceFilter::::this.stackTraceFilter	0.0
+342	org.mockito.internal.debugging.Location::::22::::633::::648::::stackTraceFilter::::new org.mockito.internal.exceptions.base.StackTraceFilter()	0.0
+343	org.mockito.internal.debugging.Location::::22::::609::::649::::this.stackTraceFilter = stackTraceFilter::::stackTraceHolder = new java.lang.Throwable()	0.0
+344	org.mockito.internal.debugging.Location::::22::::609::::629::::this.stackTraceFilter::::stackTraceFilter	0.0
+345	org.mockito.internal.debugging.Location::::22::::609::::629::::this.stackTraceFilter::::new org.mockito.internal.exceptions.base.StackTraceFilter()	0.0
+346	org.mockito.internal.creation.jmock.ClassImposterizer::::49::::1933::::1976::::setConstructorsAccessible(mockedType, true)::::INSERT::::STATEMENT::::setConstructorsAccessible(mockedType, true)	0.0
+347	org.mockito.internal.creation.jmock.ClassImposterizer::::49::::1933::::1976::::setConstructorsAccessible(mockedType, true)::::INSERT::::STATEMENT::::setConstructorsAccessible(mockedType, false)	0.0
+348	org.mockito.internal.creation.jmock.ClassImposterizer::::44::::1716::::1776::::!(type.isPrimitive())) && (!(java.lang.reflect.Modifier.isFinal(type.getModifiers()))::::true	0.0
+349	org.mockito.internal.creation.jmock.ClassImposterizer::::44::::1716::::1776::::!(type.isPrimitive())) && (!(java.lang.reflect.Modifier.isFinal(type.getModifiers()))::::false	0.0
+350	org.mockito.internal.creation.jmock.ClassImposterizer::::39::::1601::::1625::::method.isBridge() ? 1 : 0::::1	0.0
+351	org.mockito.internal.creation.jmock.ClassImposterizer::::39::::1601::::1625::::method.isBridge() ? 1 : 0::::0	0.0
+352	org.mockito.internal.creation.DelegatingMethod::::17::::465::::470::::method::::this.method	0.0
+353	org.mockito.internal.creation.DelegatingMethod::::17::::451::::461::::this.method::::method	0.0
+354	org.mockito.internal.creation.DelegatingMethod::::16::::401::::414::::method != null::::method.isVarArgs()	0.0
+355	org.mockito.internal.configuration.InjectingAnnotationEngine::::37::::1239::::1257::::spyAnnotationEngine::::new org.mockito.internal.configuration.SpyAnnotationEngine()	0.0
+356	org.mockito.internal.configuration.InjectingAnnotationEngine::::37::::1239::::1257::::spyAnnotationEngine::::new org.mockito.internal.configuration.DefaultAnnotationEngine()	0.0
+357	org.mockito.internal.configuration.InjectingAnnotationEngine::::35::::1158::::1165::::delegate::::new org.mockito.internal.configuration.SpyAnnotationEngine()	0.0
+358	org.mockito.internal.configuration.InjectingAnnotationEngine::::35::::1158::::1165::::delegate::::new org.mockito.internal.configuration.DefaultAnnotationEngine()	0.0
+359	org.mockito.internal.configuration.GlobalConfiguration::::47::::1631::::1656::::new org.mockito.internal.configuration.GlobalConfiguration()::::INSERT::::STATEMENT::::-2860353062105505938L	0.0
+360	org.mockito.internal.configuration.GlobalConfiguration::::40::::1504::::1509::::config::::createConfig()	0.0
+361	org.mockito.internal.configuration.GlobalConfiguration::::40::::1497::::1510::::return config::::INSERT::::STATEMENT::::-2860353062105505938L	0.0
+362	org.mockito.internal.configuration.GlobalConfiguration::::39::::1467::::1480::::config != null::::long	0.0
+363	org.mockito.internal.configuration.GlobalConfiguration::::39::::1467::::1472::::config::::createConfig()	0.0
+364	org.mockito.internal.configuration.GlobalConfiguration::::39::::1463::::1578::::if (config != null) {    return config;}else {    return defaultConfiguration;}::::INSERT::::STATEMENT::::-2860353062105505938L	0.0
+365	org.mockito.internal.configuration.GlobalConfiguration::::38::::1381::::1453::::org.mockito.configuration.IMockitoConfiguration config = new org.mockito.internal.configuration.ClassPathLoader().loadConfiguration()::::INSERT::::STATEMENT::::-2860353062105505938L	0.0
+366	org.mockito.internal.configuration.GlobalConfiguration::::37::::1293::::1371::::org.mockito.configuration.IMockitoConfiguration defaultConfiguration = new org.mockito.configuration.DefaultMockitoConfiguration()::::INSERT::::STATEMENT::::-2860353062105505938L	0.0
+367	org.mockito.internal.configuration.GlobalConfiguration::::32::::1176::::1215::::org.mockito.internal.configuration.GlobalConfiguration.globalConfiguration.set(createConfig())::::INSERT::::STATEMENT::::-2860353062105505938L	0.0
+368	org.mockito.internal.configuration.GlobalConfiguration::::32::::1176::::1194::::org.mockito.internal.configuration.GlobalConfiguration.globalConfiguration::::new java.lang.ThreadLocal<org.mockito.configuration.IMockitoConfiguration>()	0.0
+369	org.mockito.internal.configuration.GlobalConfiguration::::31::::1127::::1159::::(org.mockito.internal.configuration.GlobalConfiguration.globalConfiguration.get()) == null::::long	0.0
+370	org.mockito.internal.configuration.GlobalConfiguration::::31::::1127::::1145::::org.mockito.internal.configuration.GlobalConfiguration.globalConfiguration::::new java.lang.ThreadLocal<org.mockito.configuration.IMockitoConfiguration>()	0.0
+371	org.mockito.internal.configuration.GlobalConfiguration::::26::::967::::985::::org.mockito.internal.configuration.GlobalConfiguration.globalConfiguration::::new java.lang.ThreadLocal<org.mockito.configuration.IMockitoConfiguration>()	0.0
+372	org.mockito.internal.configuration.GlobalConfiguration::::26::::960::::992::::return org.mockito.internal.configuration.GlobalConfiguration.globalConfiguration.get()::::INSERT::::STATEMENT::::-2860353062105505938L	0.0

@@ -1,0 +1,3 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+11199	invocation	InvocationOnMock	param	23	define	org.mockito.internal.stubbing.defaultanswers.GloballyConfiguredAnswer.answer	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_36_buggy/src/org/mockito/internal/stubbing/defaultanswers/GloballyConfiguredAnswer.java	23	25
+11199	invocation	InvocationOnMock	param	24	use	org.mockito.internal.stubbing.defaultanswers.GloballyConfiguredAnswer.answer	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_36_buggy/src/org/mockito/internal/stubbing/defaultanswers/GloballyConfiguredAnswer.java	23	25

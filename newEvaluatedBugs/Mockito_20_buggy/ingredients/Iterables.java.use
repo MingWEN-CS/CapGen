@@ -1,0 +1,8 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+9713	in	Enumeration<T>	param	15	define	org.mockito.internal.util.collections.Iterables.toIterable	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_20_buggy/src/org/mockito/internal/util/collections/Iterables.java	15	21
+9713	in	Enumeration<T>	param	17	use	org.mockito.internal.util.collections.Iterables.toIterable	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_20_buggy/src/org/mockito/internal/util/collections/Iterables.java	15	21
+9713	in	Enumeration<T>	param	18	use	org.mockito.internal.util.collections.Iterables.toIterable	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_20_buggy/src/org/mockito/internal/util/collections/Iterables.java	15	21
+9714	out	List<T>	variable	16	define	org.mockito.internal.util.collections.Iterables.toIterable	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_20_buggy/src/org/mockito/internal/util/collections/Iterables.java	15	21
+9714	out	List<T>	variable	16	set	org.mockito.internal.util.collections.Iterables.toIterable	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_20_buggy/src/org/mockito/internal/util/collections/Iterables.java	15	21
+9714	out	List<T>	variable	18	use	org.mockito.internal.util.collections.Iterables.toIterable	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_20_buggy/src/org/mockito/internal/util/collections/Iterables.java	15	21
+9714	out	List<T>	variable	20	use	org.mockito.internal.util.collections.Iterables.toIterable	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_20_buggy/src/org/mockito/internal/util/collections/Iterables.java	15	21

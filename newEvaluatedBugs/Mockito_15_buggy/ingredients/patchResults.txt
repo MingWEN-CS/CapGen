@@ -1,0 +1,56 @@
+org.mockito.internal.configuration.injection.FinalMockCandidateFilter::::25::::1037::::1048::::matchingMock::::fieldInstance	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::595::::599::::value::::target	false
+org.mockito.internal.configuration.injection.FinalMockCandidateFilter::::25::::1011::::1023::::fieldInstance::::matchingMock	false
+org.mockito.internal.util.reflection.FieldSetter::::27::::790::::796::::changer::::new org.mockito.internal.util.reflection.AccessibilityChanger()	false
+org.mockito.internal.configuration.injection.TypeBasedCandidateFilter::::24::::771::::783::::fieldInstance::::mock	false
+org.mockito.internal.util.reflection.FieldSetter::::21::::522::::528::::changer::::new org.mockito.internal.util.reflection.AccessibilityChanger()	false
+org.mockito.internal.configuration.injection.NameBasedCandidateFilter::::23::::845::::848::::mock::::fieldInstance	false
+org.mockito.internal.configuration.injection.NameBasedCandidateFilter::::22::::784::::787::::mock::::fieldInstance	false
+org.mockito.internal.configuration.injection.NameBasedCandidateFilter::::26::::948::::960::::fieldInstance::::mock	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::587::::592::::target::::value	false
+org.mockito.internal.configuration.injection.NameBasedCandidateFilter::::28::::1024::::1036::::fieldInstance::::mock	false
+org.mockito.internal.configuration.injection.TypeBasedCandidateFilter::::20::::679::::682::::mock::::fieldInstance	false
+org.mockito.internal.util.reflection.FieldSetter::::27::::790::::824::::changer.safelyDisableAccess(field)::::INSERT::::STATEMENT::::field.set(target, value)	false
+org.mockito.internal.configuration.injection.TypeBasedCandidateFilter::::19::::623::::626::::mock::::fieldInstance	false
+org.mockito.internal.configuration.injection.TypeBasedCandidateFilter::::24::::726::::729::::next::::this.next	false
+org.mockito.internal.runners.JUnit45AndHigherRunnerImpl::::27::::1089::::1125::::org.mockito.MockitoAnnotations.initMocks(target)::::DELETE::::STATEMENT	false
+org.mockito.internal.util.ObjectMethodsGuru::::27::::929::::973::::(method.getParameterTypes()[0]) == (java.lang.Object.class)::::isToString(new org.mockito.internal.creation.DelegatingMethod(method))	false
+org.mockito.internal.util.ObjectMethodsGuru::::27::::850::::973::::(method.getName().equals("equals")) && ((method.getParameterTypes().length) == 1)) && ((method.getParameterTypes()[0]) == (java.lang.Object.class)::::isToString(new org.mockito.internal.creation.DelegatingMethod(method))	false
+org.mockito.internal.configuration.injection.TypeBasedCandidateFilter::::24::::726::::729::::next::::this	false
+org.mockito.internal.util.reflection.FieldSetter::::21::::522::::549::::changer.enableAccess(field)::::INSERT::::STATEMENT::::field.set(target, value)	false
+org.mockito.internal.util.reflection.FieldSetter::::20::::455::::512::::org.mockito.internal.util.reflection.AccessibilityChanger changer = new org.mockito.internal.util.reflection.AccessibilityChanger()::::INSERT::::STATEMENT::::field.set(target, value)	false
+org.mockito.internal.util.reflection.FieldReader::::25::::618::::622::::field::::this.field	false
+org.mockito.internal.configuration.injection.NameBasedCandidateFilter::::26::::903::::906::::next::::this.next	false
+org.mockito.internal.util.ObjectMethodsGuru::::27::::850::::924::::(method.getName().equals("equals")) && ((method.getParameterTypes().length) == 1)::::isToString(new org.mockito.internal.creation.DelegatingMethod(method))	false
+org.mockito.internal.runners.RunnerFactory::::27::::749::::762::::runnerProvider::::this.runnerProvider	false
+org.mockito.internal.configuration.injection.NameBasedCandidateFilter::::26::::903::::906::::next::::this	false
+org.mockito.internal.runners.RunnerFactory::::28::::819::::832::::runnerProvider::::this.runnerProvider	false
+org.mockito.internal.util.MockName::::21::::623::::647::::this.mockName = mockName::::this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock)	false
+org.mockito.internal.util.reflection.FieldSetter::::27::::790::::824::::changer.safelyDisableAccess(field)::::DELETE::::STATEMENT	false
+org.mockito.internal.util.reflection.FieldSetter::::21::::522::::549::::changer.enableAccess(field)::::DELETE::::STATEMENT	false
+org.mockito.internal.util.MockName::::21::::623::::647::::this.mockName = mockName::::INSERT::::STATEMENT::::if (mockName == null) {    this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock);    this.surrogate = true;}else {    this.mockName = mockName;}	false
+org.mockito.internal.configuration.injection.NameBasedCandidateFilter::::28::::989::::992::::next::::this.next	false
+org.mockito.internal.configuration.injection.NameBasedCandidateFilter::::28::::989::::992::::next::::this	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::581::::field::::this	false
+org.mockito.internal.configuration.injection.NameBasedCandidateFilter::::23::::825::::850::::mockNameMatches.add(mock)::::DELETE::::STATEMENT	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::581::::field::::this.field	false
+org.mockito.internal.configuration.injection.TypeBasedCandidateFilter::::20::::659::::684::::mockTypeMatches.add(mock)::::DELETE::::STATEMENT	false
+org.mockito.internal.progress.ThreadSafeMockingProgress::::22::::781::::827::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.set(new org.mockito.internal.progress.MockingProgressImpl())::::DELETE::::STATEMENT	false
+org.mockito.internal.util.MockCreationValidator::::24::::725::::784::::if (extraInterfaces == null) {    return ;}::::INSERT::::STATEMENT::::if (extraInterfaces == null) {    return ;}	false
+org.mockito.internal.util.MockCreationValidator::::25::::768::::774::::return ::::INSERT::::STATEMENT::::if (extraInterfaces == null) {    return ;}	false
+org.mockito.internal.util.reflection.FieldReader::::25::::618::::634::::field.get(target)::::DELETE::::INFIX	false
+org.mockito.internal.util.ObjectMethodsGuru::::27::::850::::882::::method.getName().equals("equals")::::DELETE::::INFIX	false
+org.mockito.internal.configuration.injection.NameBasedCandidateFilter::::20::::660::::671::::mocks.size()::::DELETE::::INFIX	false
+org.mockito.internal.configuration.injection.FinalMockCandidateFilter::::19::::765::::776::::mocks.size()::::DELETE::::INFIX	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::601::::value::::DELETE::::PARAMETER::::set(target)	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::601::::value::::DELETE::::PARAMETER::::set(target)	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::601::::value::::DELETE::::PARAMETER::::set(target)	false
+org.mockito.internal.progress.ThreadSafeMockingProgress::::21::::736::::756::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.get()::::DELETE::::INFIX	false
+org.mockito.internal.util.ObjectMethodsGuru::::27::::887::::924::::(method.getParameterTypes().length) == 1::::isToString(new org.mockito.internal.creation.DelegatingMethod(method))	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::595::::599::::value::::this.target	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::601::::target::::DELETE::::PARAMETER::::set( value)	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::601::::target::::DELETE::::PARAMETER::::set( value)	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::601::::target::::DELETE::::PARAMETER::::set( value)	false
+org.mockito.internal.util.ObjectMethodsGuru::::27::::929::::934::::method::::new org.mockito.internal.creation.DelegatingMethod(method)	false
+org.mockito.internal.util.ObjectMethodsGuru::::27::::850::::855::::method::::new org.mockito.internal.creation.DelegatingMethod(method)	false
+org.mockito.internal.util.ObjectMethodsGuru::::27::::887::::892::::method::::new org.mockito.internal.creation.DelegatingMethod(method)	false

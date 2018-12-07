@@ -1,0 +1,366 @@
+org.jsoup.safety.Cleaner::::63::::2732::::2736::::clean::::dirtyDocument	false
+org.jsoup.safety.Whitelist::::342::::13657::::13716::::!(tagName.equals(":all"))) && (isSafeAttribute(":all", el, attr)::::isSafeAttribute(":all", el, attr)	false
+org.jsoup.safety.Whitelist::::342::::13658::::13664::::tagName::::value	false
+org.jsoup.safety.Whitelist::::342::::13658::::13664::::tagName::::attr	false
+org.jsoup.safety.Cleaner::::87::::3818::::3821::::dest::::sourceEl	false
+org.jsoup.safety.Whitelist::::249::::9873::::9875::::key::::tag	false
+org.jsoup.safety.Whitelist::::243::::9656::::9658::::key::::tag	false
+org.jsoup.safety.Whitelist::::356::::14393::::14396::::prot::::value	false
+org.jsoup.safety.Whitelist::::249::::9873::::9875::::key::::value	false
+org.jsoup.safety.Whitelist::::243::::9656::::9658::::key::::value	false
+org.jsoup.safety.Whitelist::::355::::14319::::14326::::protocol::::el	false
+org.jsoup.safety.Whitelist::::355::::14319::::14326::::protocol::::attr	false
+org.jsoup.safety.Whitelist::::246::::9739::::9741::::tag::::value	false
+org.jsoup.safety.Whitelist::::242::::9624::::9626::::tag::::value	false
+org.jsoup.safety.Whitelist::::355::::14319::::14343::::(protocol.toString()) + ":"::::protocol.toString()	false
+org.jsoup.safety.Whitelist::::327::::12960::::12966::::tagName::::value	false
+org.jsoup.safety.Whitelist::::349::::14034::::14052::::(value.length()) == 0::::(value) == null	false
+org.jsoup.safety.Whitelist::::429::::16316::::16329::::prime * result::::prime * result) + ((value) == null ? 0 : value.hashCode()	false
+org.jsoup.safety.Whitelist::::316::::12669::::12676::::protocol::::key	false
+org.jsoup.safety.Whitelist::::315::::12613::::12620::::protocol::::key	false
+org.jsoup.safety.Cleaner::::92::::4096::::4103::::destText::::sourceText	false
+org.jsoup.safety.Cleaner::::90::::3950::::3960::::(org.jsoup.nodes.TextNode) (sourceChild)::::sourceChild	false
+org.jsoup.safety.Cleaner::::92::::4079::::4082::::dest::::sourceEl	false
+org.jsoup.safety.Whitelist::::298::::12001::::12003::::key::::tag	false
+org.jsoup.safety.Whitelist::::294::::11857::::11859::::key::::tag	false
+org.jsoup.safety.Whitelist::::316::::12669::::12676::::protocol::::value	false
+org.jsoup.safety.Whitelist::::315::::12613::::12620::::protocol::::value	false
+org.jsoup.safety.Cleaner::::84::::3596::::3604::::destChild::::sourceEl	false
+org.jsoup.safety.Cleaner::::81::::3461::::3469::::destChild::::sourceEl	false
+org.jsoup.safety.Cleaner::::112::::4902::::4914::::enforcedAttrs::::destAttrs	false
+org.jsoup.safety.Cleaner::::105::::4605::::4615::::sourceAttrs::::destAttrs	false
+org.jsoup.safety.Whitelist::::316::::12669::::12676::::protocol::::tag	false
+org.jsoup.safety.Whitelist::::315::::12613::::12620::::protocol::::tag	false
+org.jsoup.safety.Cleaner::::81::::3444::::3447::::dest::::sourceEl	false
+org.jsoup.safety.Cleaner::::114::::4950::::4953::::dest::::sourceEl	false
+org.jsoup.safety.Whitelist::::298::::12001::::12003::::key::::value	false
+org.jsoup.safety.Whitelist::::294::::11857::::11859::::key::::value	false
+org.jsoup.safety.Whitelist::::218::::8635::::8637::::key::::tag	false
+org.jsoup.safety.Whitelist::::217::::8579::::8581::::key::::tag	false
+org.jsoup.safety.Whitelist::::365::::14622::::14628::::tagName::::value	false
+org.jsoup.safety.Whitelist::::438::::16664::::16666::::(org.jsoup.safety.Whitelist.TypedValue) (obj)::::obj	false
+org.jsoup.safety.Cleaner::::76::::3195::::3205::::(org.jsoup.nodes.Element) (sourceChild)::::sourceChild	false
+org.jsoup.safety.Cleaner::::84::::3596::::3604::::destChild::::dest	false
+org.jsoup.safety.Whitelist::::355::::14319::::14326::::protocol::::this	false
+org.jsoup.safety.Whitelist::::189::::7430::::7436::::tagName::::value	false
+org.jsoup.safety.Whitelist::::188::::7379::::7385::::tagName::::value	false
+org.jsoup.safety.Whitelist::::297::::11943::::11945::::tag::::value	false
+org.jsoup.safety.Whitelist::::293::::11825::::11827::::tag::::value	false
+org.jsoup.safety.Whitelist::::218::::8635::::8637::::key::::value	false
+org.jsoup.safety.Whitelist::::217::::8579::::8581::::key::::value	false
+org.jsoup.safety.Cleaner::::112::::4902::::4914::::enforcedAttrs::::sourceAttrs	false
+org.jsoup.safety.Cleaner::::81::::3461::::3469::::destChild::::dest	false
+org.jsoup.safety.Whitelist::::212::::8363::::8365::::tag::::value	false
+org.jsoup.safety.Whitelist::::208::::8213::::8215::::tag::::value	false
+org.jsoup.safety.Whitelist::::429::::16316::::16320::::prime::::prime * result	false
+org.jsoup.safety.Cleaner::::92::::4079::::4082::::dest::::sourceChild	false
+org.jsoup.safety.Whitelist::::333::::13246::::13254::::protocols::::this.protocols	false
+org.jsoup.safety.Whitelist::::323::::12834::::12836::::tag::::value	false
+org.jsoup.safety.Whitelist::::436::::16533::::16543::::obj == null::::(this) == obj	false
+org.jsoup.safety.Cleaner::::89::::3866::::3896::::sourceChild instanceof org.jsoup.nodes.TextNode::::sourceChild instanceof org.jsoup.nodes.Element	false
+org.jsoup.safety.Whitelist::::437::::16576::::16603::::getClass()) != (obj.getClass()::::obj == null	false
+org.jsoup.safety.Whitelist::::437::::16576::::16603::::getClass()) != (obj.getClass()::::(this) == obj	false
+org.jsoup.safety.Cleaner::::81::::3461::::3469::::destChild::::source	false
+org.jsoup.safety.Cleaner::::84::::3596::::3604::::destChild::::source	false
+org.jsoup.safety.Cleaner::::91::::4012::::4021::::sourceText::::destText	false
+org.jsoup.safety.Whitelist::::332::::13151::::13159::::protocols::::this.protocols	false
+org.jsoup.safety.Whitelist::::342::::13658::::13664::::tagName::::el	false
+org.jsoup.safety.Whitelist::::435::::16491::::16501::::(this) == obj::::obj == null	false
+org.jsoup.safety.Whitelist::::342::::13658::::13664::::tagName::::this	false
+org.jsoup.safety.Whitelist::::342::::13657::::13716::::!(tagName.equals(":all"))) && (isSafeAttribute(":all", el, attr)::::tagName.equals(":all")	false
+org.jsoup.safety.Whitelist::::342::::13657::::13716::::!(tagName.equals(":all"))) && (isSafeAttribute(":all", el, attr)::::!(tagName.equals(":all"))	false
+org.jsoup.safety.Whitelist::::369::::14871::::14875::::attrs::::new org.jsoup.nodes.Attributes()	false
+org.jsoup.safety.Whitelist::::335::::13359::::13436::::!(attrProts.containsKey(key))) || (testValidProtocol(el, attr, attrProts.get(key))::::!(tagName.equals(":all"))) && (isSafeAttribute(":all", el, attr)	false
+org.jsoup.safety.Whitelist::::342::::13658::::13664::::tagName::::"No attributes supplied."	false
+org.jsoup.safety.Whitelist::::242::::9624::::9626::::tag::::key	false
+org.jsoup.safety.Whitelist::::348::::14006::::14009::::attr::::el	false
+org.jsoup.safety.Cleaner::::105::::4605::::4615::::sourceAttrs::::enforcedAttrs	false
+org.jsoup.safety.Whitelist::::246::::9739::::9741::::tag::::key	false
+org.jsoup.safety.Cleaner::::62::::2643::::2655::::dirtyDocument::::clean	false
+org.jsoup.safety.Cleaner::::63::::2710::::2722::::dirtyDocument::::clean	false
+org.jsoup.safety.Cleaner::::60::::2580::::2592::::dirtyDocument::::clean	false
+org.jsoup.safety.Whitelist::::352::::14216::::14219::::attr::::el	false
+org.jsoup.safety.Cleaner::::83::::3510::::3533::::meta.numAttribsDiscarded::::numDiscarded	false
+org.jsoup.safety.Cleaner::::80::::3415::::3421::::meta.el::::sourceEl	false
+org.jsoup.safety.Whitelist::::335::::13359::::13436::::!(attrProts.containsKey(key))) || (testValidProtocol(el, attr, attrProts.get(key))::::isSafeAttribute(":all", el, attr)	false
+org.jsoup.safety.Whitelist::::250::::9935::::9939::::value::::tag	false
+org.jsoup.safety.Cleaner::::107::::4712::::4720::::destAttrs::::new org.jsoup.nodes.Attributes()	false
+org.jsoup.safety.Cleaner::::80::::3415::::3421::::meta.el::::source	false
+org.jsoup.safety.Cleaner::::80::::3415::::3421::::meta.el::::destChild	false
+org.jsoup.safety.Cleaner::::81::::3444::::3447::::dest::::sourceChild	false
+org.jsoup.safety.Cleaner::::87::::3818::::3821::::dest::::source	false
+org.jsoup.safety.Cleaner::::80::::3415::::3421::::meta.el::::dest	false
+org.jsoup.safety.Whitelist::::328::::13018::::13021::::attr::::el	false
+org.jsoup.safety.Whitelist::::342::::13658::::13664::::tagName::::":all"	false
+org.jsoup.safety.Whitelist::::244::::9688::::9692::::value::::tag	false
+org.jsoup.safety.Whitelist::::355::::14319::::14326::::protocol::::new org.jsoup.nodes.Attributes()	false
+org.jsoup.safety.Cleaner::::112::::4885::::4893::::destAttrs::::new org.jsoup.nodes.Attributes()	false
+org.jsoup.safety.Whitelist::::429::::16316::::16320::::prime::::prime * result) + ((value) == null ? 0 : value.hashCode()	false
+org.jsoup.safety.Whitelist::::342::::13658::::13664::::tagName::::":"	false
+org.jsoup.safety.Whitelist::::256::::10196::::10202::::attrMap::::new org.jsoup.nodes.Attributes()	false
+org.jsoup.safety.Whitelist::::293::::11825::::11827::::tag::::key	false
+org.jsoup.safety.Whitelist::::297::::11943::::11945::::tag::::key	false
+org.jsoup.safety.Whitelist::::208::::8213::::8215::::tag::::key	false
+org.jsoup.safety.Cleaner::::107::::4712::::4720::::destAttrs::::sourceAttrs	false
+org.jsoup.safety.Cleaner::::81::::3444::::3447::::dest::::source	false
+org.jsoup.safety.Whitelist::::212::::8363::::8365::::tag::::key	false
+org.jsoup.safety.Cleaner::::87::::3818::::3821::::dest::::destChild	false
+org.jsoup.safety.Whitelist::::302::::12101::::12114::::this.protocols::::protocols	false
+org.jsoup.safety.Cleaner::::112::::4885::::4893::::destAttrs::::sourceAttrs	false
+org.jsoup.safety.Cleaner::::87::::3808::::3815::::sourceEl::::dest	false
+org.jsoup.safety.Whitelist::::429::::16316::::16372::::prime * result) + ((value) == null ? 0 : value.hashCode()::::value.hashCode()	false
+org.jsoup.safety.Whitelist::::429::::16316::::16372::::prime * result) + ((value) == null ? 0 : value.hashCode()::::result	false
+org.jsoup.safety.Whitelist::::429::::16316::::16372::::prime * result) + ((value) == null ? 0 : value.hashCode()::::(value) == null ? 0 : value.hashCode()	false
+org.jsoup.safety.Whitelist::::306::::12286::::12299::::this.protocols::::protocols	false
+org.jsoup.safety.Cleaner::::86::::3742::::3756::::numDiscarded++::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Cleaner::::99::::4322::::4329::::sourceEl::::dest	false
+org.jsoup.safety.Whitelist::::250::::9935::::9939::::value::::key	false
+org.jsoup.safety.Cleaner::::92::::4079::::4082::::dest::::source	false
+org.jsoup.safety.Whitelist::::430::::16394::::16399::::result::::prime * result	false
+org.jsoup.safety.Cleaner::::101::::4470::::4478::::destAttrs::::sourceAttrs	false
+org.jsoup.safety.Cleaner::::109::::4772::::4786::::numDiscarded++::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Cleaner::::81::::3444::::3447::::dest::::destChild	false
+org.jsoup.safety.Whitelist::::335::::13418::::13426::::attrProts::::new org.jsoup.nodes.Attributes()	false
+org.jsoup.safety.Whitelist::::429::::16324::::16329::::result::::prime * result	false
+org.jsoup.safety.Cleaner::::107::::4712::::4720::::destAttrs::::enforcedAttrs	false
+org.jsoup.safety.Cleaner::::92::::4079::::4082::::dest::::destChild	false
+org.jsoup.safety.Cleaner::::106::::4673::::4680::::sourceEl::::dest	false
+org.jsoup.safety.Whitelist::::333::::13246::::13254::::protocols::::new org.jsoup.nodes.Attributes()	false
+org.jsoup.safety.Cleaner::::78::::3249::::3256::::sourceEl::::dest	false
+org.jsoup.safety.Cleaner::::112::::4885::::4893::::destAttrs::::enforcedAttrs	false
+org.jsoup.safety.Cleaner::::84::::3586::::3593::::sourceEl::::dest	false
+org.jsoup.safety.Whitelist::::244::::9688::::9692::::value::::key	false
+org.jsoup.safety.Whitelist::::429::::16307::::16312::::result::::prime	false
+org.jsoup.safety.Cleaner::::78::::3249::::3256::::sourceEl::::sourceChild	false
+org.jsoup.safety.Cleaner::::79::::3364::::3371::::sourceEl::::dest	false
+org.jsoup.safety.Whitelist::::342::::13658::::13664::::tagName::::new org.jsoup.nodes.Attributes()	false
+org.jsoup.safety.Cleaner::::104::::4546::::4553::::sourceEl::::dest	false
+org.jsoup.safety.Cleaner::::101::::4450::::4457::::sourceEl::::dest	false
+org.jsoup.safety.Whitelist::::430::::16394::::16399::::result::::prime	false
+org.jsoup.safety.Whitelist::::429::::16316::::16372::::prime * result) + ((value) == null ? 0 : value.hashCode()::::prime	false
+org.jsoup.safety.Whitelist::::429::::16307::::16312::::result::::prime * result	false
+org.jsoup.safety.Whitelist::::218::::8597::::8608::::attributeSet::::currentSet	false
+org.jsoup.safety.Whitelist::::224::::8865::::8876::::attributeSet::::currentSet	false
+org.jsoup.safety.Cleaner::::101::::4470::::4478::::destAttrs::::enforcedAttrs	false
+org.jsoup.safety.Whitelist::::244::::9670::::9694::::org.jsoup.helper.Validate.notEmpty(value)::::DELETE::::STATEMENT	false
+org.jsoup.safety.Cleaner::::81::::3461::::3469::::destChild::::meta.el	false
+org.jsoup.safety.Whitelist::::367::::14739::::14756::::enforcedAttributes::::new org.jsoup.nodes.Attributes()	false
+org.jsoup.safety.Whitelist::::430::::16394::::16399::::result::::prime * result) + ((value) == null ? 0 : value.hashCode()	false
+org.jsoup.safety.Cleaner::::84::::3596::::3604::::destChild::::meta.el	false
+org.jsoup.safety.Whitelist::::429::::16324::::16329::::result::::prime * result) + ((value) == null ? 0 : value.hashCode()	false
+org.jsoup.safety.Whitelist::::295::::11871::::11898::::org.jsoup.helper.Validate.notNull(protocols)::::DELETE::::STATEMENT	false
+org.jsoup.safety.Cleaner::::87::::3808::::3815::::sourceEl::::source	false
+org.jsoup.safety.Whitelist::::210::::8259::::8318::::org.jsoup.helper.Validate.isTrue(((keys.length) > 0), "No attributes supplied.")::::DELETE::::STATEMENT	false
+org.jsoup.safety.Whitelist::::209::::8227::::8249::::org.jsoup.helper.Validate.notNull(keys)::::DELETE::::STATEMENT	false
+org.jsoup.safety.Cleaner::::112::::4885::::4916::::destAttrs.addAll(enforcedAttrs)::::DELETE::::STATEMENT	false
+org.jsoup.safety.Cleaner::::60::::2563::::2594::::org.jsoup.helper.Validate.notNull(dirtyDocument)::::DELETE::::STATEMENT	false
+org.jsoup.safety.Whitelist::::185::::7286::::7308::::org.jsoup.helper.Validate.notNull(tags)::::DELETE::::STATEMENT	false
+org.jsoup.safety.Whitelist::::367::::14739::::14756::::enforcedAttributes::::attrs	false
+org.jsoup.safety.Whitelist::::441::::16780::::16805::::!(value.equals(other.value))::::INSERT::::STATEMENT::::if ((value) == null) {    if ((other.value) != null)        return false;}else    if (!(value.equals(other.value)))        return false;	false
+org.jsoup.safety.Whitelist::::441::::16776::::16820::::if (!(value.equals(other.value)))    return false;::::INSERT::::STATEMENT::::if ((value) == null) {    if ((other.value) != null)        return false;}else    if (!(value.equals(other.value)))        return false;	false
+org.jsoup.safety.Whitelist::::441::::16776::::16820::::if (!(value.equals(other.value)))    return false;::::INSERT::::STATEMENT::::if (!(value.equals(other.value)))    return false;	false
+org.jsoup.safety.Whitelist::::356::::14393::::14396::::prot::::this.value	false
+org.jsoup.safety.Whitelist::::429::::16333::::16372::::(value) == null ? 0 : value.hashCode()::::value.hashCode()	false
+org.jsoup.safety.Whitelist::::441::::16780::::16805::::!(value.equals(other.value))::::INSERT::::STATEMENT::::if (obj == null)    return false;	false
+org.jsoup.safety.Whitelist::::441::::16780::::16805::::!(value.equals(other.value))::::INSERT::::STATEMENT::::if ((this) == obj)    return true;	false
+org.jsoup.safety.Whitelist::::441::::16776::::16820::::if (!(value.equals(other.value)))    return false;::::INSERT::::STATEMENT::::if (obj == null)    return false;	false
+org.jsoup.safety.Whitelist::::441::::16776::::16820::::if (!(value.equals(other.value)))    return false;::::INSERT::::STATEMENT::::if ((this) == obj)    return true;	false
+org.jsoup.safety.Whitelist::::306::::12286::::12299::::this.protocols::::new org.jsoup.nodes.Attributes()	false
+org.jsoup.safety.Whitelist::::435::::16504::::16515::::return true::::INSERT::::STATEMENT::::if ((this) == obj)    return true;	false
+org.jsoup.safety.Whitelist::::429::::16307::::16312::::result::::prime * result) + ((value) == null ? 0 : value.hashCode()	false
+org.jsoup.safety.Cleaner::::78::::3249::::3256::::sourceEl::::source	false
+org.jsoup.safety.Whitelist::::441::::16780::::16805::::!(value.equals(other.value))::::INSERT::::STATEMENT::::if (!(value.equals(other.value)))    return false;	false
+org.jsoup.safety.Whitelist::::224::::8841::::8850::::attributes::::new org.jsoup.nodes.Attributes()	false
+org.jsoup.safety.Whitelist::::352::::14216::::14236::::attr.setValue(value)::::DELETE::::STATEMENT	false
+org.jsoup.safety.Whitelist::::257::::10239::::10279::::enforcedAttributes.put(tagName, attrMap)::::DELETE::::STATEMENT	false
+org.jsoup.safety.Whitelist::::256::::10196::::10225::::attrMap.put(attrKey, attrVal)::::DELETE::::STATEMENT	false
+org.jsoup.safety.Cleaner::::107::::4712::::4737::::destAttrs.put(sourceAttr)::::DELETE::::STATEMENT	false
+org.jsoup.safety.Cleaner::::84::::3586::::3593::::sourceEl::::source	false
+org.jsoup.safety.Cleaner::::92::::4079::::4082::::dest::::meta.el	false
+org.jsoup.safety.Cleaner::::87::::3808::::3815::::sourceEl::::destChild	false
+org.jsoup.safety.Whitelist::::435::::16504::::16515::::return true::::INSERT::::STATEMENT::::if (obj == null)    return false;	false
+org.jsoup.safety.Cleaner::::81::::3444::::3447::::dest::::meta.el	false
+org.jsoup.safety.Whitelist::::342::::13657::::13679::::!(tagName.equals(":all"))::::DELETE::::INFIX	false
+org.jsoup.safety.Cleaner::::79::::3364::::3371::::sourceEl::::source	false
+org.jsoup.safety.Cleaner::::83::::3510::::3533::::meta.numAttribsDiscarded::::numDiscarded++	false
+org.jsoup.safety.Whitelist::::312::::12498::::12527::::attrMap.put(attrKey, protSet)::::DELETE::::STATEMENT	false
+org.jsoup.safety.Whitelist::::306::::12286::::12322::::this.protocols.put(tagName, attrMap)::::DELETE::::STATEMENT	false
+org.jsoup.safety.Cleaner::::92::::4079::::4105::::dest.appendChild(destText)::::DELETE::::STATEMENT	false
+org.jsoup.safety.Whitelist::::331::::13094::::13103::::attributes::::new org.jsoup.nodes.Attributes()	false
+org.jsoup.safety.Whitelist::::349::::14034::::14038::::value::::":all"	false
+org.jsoup.safety.Whitelist::::356::::14362::::14366::::value::::":all"	false
+org.jsoup.safety.Whitelist::::441::::16776::::16820::::if (!(value.equals(other.value)))    return false;::::INSERT::::STATEMENT::::if ((other.value) != null)    return false;	false
+org.jsoup.safety.Whitelist::::315::::12613::::12620::::protocol::::this.value	false
+org.jsoup.safety.Whitelist::::224::::8841::::8878::::attributes.put(tagName, attributeSet)::::DELETE::::STATEMENT	false
+org.jsoup.safety.Cleaner::::81::::3444::::3471::::dest.appendChild(destChild)::::DELETE::::STATEMENT	false
+org.jsoup.safety.Cleaner::::87::::3778::::3823::::numDiscarded += copySafeNodes(sourceEl, dest)::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Cleaner::::62::::2605::::2667::::org.jsoup.nodes.Document clean = org.jsoup.nodes.Document.createShell(dirtyDocument.baseUri())::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Whitelist::::316::::12669::::12676::::protocol::::this.value	false
+org.jsoup.safety.Cleaner::::60::::2563::::2594::::org.jsoup.helper.Validate.notNull(dirtyDocument)::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Cleaner::::78::::3249::::3256::::sourceEl::::destChild	false
+org.jsoup.safety.Whitelist::::441::::16780::::16805::::!(value.equals(other.value))::::INSERT::::STATEMENT::::if ((other.value) != null)    return false;	false
+org.jsoup.safety.Whitelist::::342::::13684::::13716::::isSafeAttribute(":all", el, attr)::::DELETE::::INFIX	false
+org.jsoup.safety.Whitelist::::436::::16529::::16558::::if (obj == null)    return false;::::INSERT::::STATEMENT::::if (obj == null)    return false;	false
+org.jsoup.safety.Whitelist::::436::::16529::::16558::::if (obj == null)    return false;::::INSERT::::STATEMENT::::if ((this) == obj)    return true;	false
+org.jsoup.safety.Whitelist::::435::::16487::::16515::::if ((this) == obj)    return true;::::INSERT::::STATEMENT::::if ((this) == obj)    return true;	false
+org.jsoup.safety.Whitelist::::312::::12498::::12504::::attrMap::::new org.jsoup.nodes.Attributes()	false
+org.jsoup.safety.Cleaner::::84::::3586::::3593::::sourceEl::::destChild	false
+org.jsoup.safety.Whitelist::::437::::16572::::16618::::if ((getClass()) != (obj.getClass()))    return false;::::INSERT::::STATEMENT::::if (obj == null)    return false;	false
+org.jsoup.safety.Whitelist::::437::::16572::::16618::::if ((getClass()) != (obj.getClass()))    return false;::::INSERT::::STATEMENT::::if ((this) == obj)    return true;	false
+org.jsoup.safety.Whitelist::::438::::16632::::16667::::org.jsoup.safety.Whitelist.TypedValue other = ((org.jsoup.safety.Whitelist.TypedValue) (obj))::::INSERT::::STATEMENT::::if (obj == null)    return false;	false
+org.jsoup.safety.Whitelist::::438::::16632::::16667::::org.jsoup.safety.Whitelist.TypedValue other = ((org.jsoup.safety.Whitelist.TypedValue) (obj))::::INSERT::::STATEMENT::::if ((this) == obj)    return true;	false
+org.jsoup.safety.Whitelist::::243::::9638::::9660::::org.jsoup.helper.Validate.notEmpty(key)::::DELETE::::STATEMENT	false
+org.jsoup.safety.Whitelist::::335::::13359::::13385::::!(attrProts.containsKey(key))::::DELETE::::INFIX	false
+org.jsoup.safety.Cleaner::::79::::3364::::3371::::sourceEl::::destChild	false
+org.jsoup.safety.Whitelist::::441::::16808::::16820::::return false::::INSERT::::STATEMENT::::if ((value) == null) {    if ((other.value) != null)        return false;}else    if (!(value.equals(other.value)))        return false;	false
+org.jsoup.safety.Cleaner::::87::::3818::::3821::::dest::::meta.el	false
+org.jsoup.safety.Whitelist::::242::::9606::::9628::::org.jsoup.helper.Validate.notEmpty(tag)::::DELETE::::STATEMENT	false
+org.jsoup.safety.Whitelist::::442::::16834::::16845::::return true::::INSERT::::STATEMENT::::if ((this) == obj)    return true;	false
+org.jsoup.safety.Cleaner::::109::::4772::::4786::::numDiscarded++::::DELETE::::STATEMENT	false
+org.jsoup.safety.Whitelist::::441::::16808::::16820::::return false::::INSERT::::STATEMENT::::if ((this) == obj)    return true;	false
+org.jsoup.safety.Whitelist::::435::::16487::::16515::::if ((this) == obj)    return true;::::INSERT::::STATEMENT::::if (obj == null)    return false;	false
+org.jsoup.safety.Whitelist::::436::::16546::::16558::::return false::::INSERT::::STATEMENT::::if ((this) == obj)    return true;	false
+org.jsoup.safety.Whitelist::::429::::16356::::16360::::value::::":all"	false
+org.jsoup.safety.Whitelist::::257::::10239::::10256::::enforcedAttributes::::new org.jsoup.nodes.Attributes()	false
+org.jsoup.safety.Whitelist::::442::::16834::::16845::::return true::::INSERT::::STATEMENT::::if ((value) == null) {    if ((other.value) != null)        return false;}else    if (!(value.equals(other.value)))        return false;	false
+org.jsoup.safety.Whitelist::::441::::16781::::16785::::value::::":all"	false
+org.jsoup.safety.Whitelist::::355::::14319::::14326::::protocol::::new org.jsoup.safety.Whitelist.Protocol(value)	false
+org.jsoup.safety.Cleaner::::86::::3742::::3756::::numDiscarded++::::DELETE::::STATEMENT	false
+org.jsoup.safety.Cleaner::::107::::4712::::4737::::destAttrs.put(sourceAttr)::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Whitelist::::439::::16681::::16820::::if ((value) == null) {    if ((other.value) != null)        return false;}else    if (!(value.equals(other.value)))        return false;::::INSERT::::STATEMENT::::if ((this) == obj)    return true;	false
+org.jsoup.safety.Whitelist::::441::::16808::::16820::::return false::::INSERT::::STATEMENT::::if (obj == null)    return false;	false
+org.jsoup.safety.Whitelist::::436::::16546::::16558::::return false::::INSERT::::STATEMENT::::if (obj == null)    return false;	false
+org.jsoup.safety.Whitelist::::342::::13658::::13664::::tagName::::this.value	false
+org.jsoup.safety.Whitelist::::442::::16834::::16845::::return true::::INSERT::::STATEMENT::::if (obj == null)    return false;	false
+org.jsoup.safety.Whitelist::::429::::16333::::16372::::(value) == null ? 0 : value.hashCode()::::prime * result) + ((value) == null ? 0 : value.hashCode()	false
+org.jsoup.safety.Whitelist::::349::::14034::::14038::::value::::"No attributes supplied."	false
+org.jsoup.safety.Whitelist::::356::::14362::::14366::::value::::"No attributes supplied."	false
+org.jsoup.safety.Whitelist::::355::::14319::::14337::::protocol.toString()::::DELETE::::INFIX	false
+org.jsoup.safety.Whitelist::::349::::14034::::14047::::value.length()::::DELETE::::INFIX	false
+org.jsoup.safety.Whitelist::::335::::13390::::13436::::testValidProtocol(el, attr, attrProts.get(key))::::DELETE::::INFIX	false
+org.jsoup.safety.Whitelist::::439::::16681::::16820::::if ((value) == null) {    if ((other.value) != null)        return false;}else    if (!(value.equals(other.value)))        return false;::::INSERT::::STATEMENT::::if (obj == null)    return false;	false
+org.jsoup.safety.Whitelist::::294::::11857::::11859::::key::::protocol	false
+org.jsoup.safety.Whitelist::::208::::8195::::8217::::org.jsoup.helper.Validate.notEmpty(tag)::::DELETE::::STATEMENT	false
+org.jsoup.safety.Whitelist::::294::::11839::::11861::::org.jsoup.helper.Validate.notEmpty(key)::::DELETE::::STATEMENT	false
+org.jsoup.safety.Cleaner::::104::::4521::::4567::::org.jsoup.nodes.Attributes sourceAttrs = sourceEl.attributes()::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Cleaner::::105::::4577::::4796::::for (org.jsoup.nodes.Attribute sourceAttr : sourceAttrs) {    if (whitelist.isSafeAttribute(sourceTag, sourceEl, sourceAttr))        destAttrs.put(sourceAttr);    else        numDiscarded++;}::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Whitelist::::298::::12001::::12003::::key::::protocol	false
+org.jsoup.safety.Whitelist::::437::::16606::::16618::::return false::::INSERT::::STATEMENT::::if ((this) == obj)    return true;	false
+org.jsoup.safety.Cleaner::::83::::3494::::3534::::numDiscarded += meta.numAttribsDiscarded::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Cleaner::::106::::4636::::4644::::whitelist::::this.whitelist	false
+org.jsoup.safety.Whitelist::::429::::16356::::16360::::value::::"No attributes supplied."	false
+org.jsoup.safety.Whitelist::::437::::16590::::16603::::obj.getClass()::::DELETE::::INFIX	false
+org.jsoup.safety.Whitelist::::437::::16576::::16585::::getClass()::::DELETE::::INFIX	false
+org.jsoup.safety.Whitelist::::441::::16781::::16785::::value::::"No attributes supplied."	false
+org.jsoup.safety.Whitelist::::437::::16606::::16618::::return false::::INSERT::::STATEMENT::::if (obj == null)    return false;	false
+org.jsoup.safety.Cleaner::::78::::3229::::3237::::whitelist::::this.whitelist	false
+org.jsoup.safety.Cleaner::::84::::3556::::3606::::numDiscarded += copySafeNodes(sourceEl, destChild)::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Whitelist::::293::::11807::::11829::::org.jsoup.helper.Validate.notEmpty(tag)::::DELETE::::STATEMENT	false
+org.jsoup.safety.Cleaner::::78::::3229::::3267::::whitelist.isSafeTag(sourceEl.tagName())::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Cleaner::::111::::4833::::4841::::whitelist::::this.whitelist	false
+org.jsoup.safety.Cleaner::::106::::4636::::4693::::whitelist.isSafeAttribute(sourceTag, sourceEl, sourceAttr)::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Cleaner::::86::::3742::::3753::::numDiscarded::::meta.numAttribsDiscarded	false
+org.jsoup.safety.Cleaner::::92::::4079::::4105::::dest.appendChild(destText)::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Cleaner::::100::::4350::::4389::::org.jsoup.nodes.Attributes destAttrs = new org.jsoup.nodes.Attributes()::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Cleaner::::79::::3327::::3373::::org.jsoup.safety.Cleaner.ElementMeta meta = createSafeElement(sourceEl)::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Cleaner::::76::::3166::::3206::::org.jsoup.nodes.Element sourceEl = ((org.jsoup.nodes.Element) (sourceChild))::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Cleaner::::80::::3395::::3422::::org.jsoup.nodes.Element destChild = meta.el::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Cleaner::::90::::3917::::3961::::org.jsoup.nodes.TextNode sourceText = ((org.jsoup.nodes.TextNode) (sourceChild))::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Whitelist::::429::::16356::::16360::::value::::this	false
+org.jsoup.safety.Cleaner::::81::::3444::::3471::::dest.appendChild(destChild)::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Cleaner::::101::::4399::::4480::::org.jsoup.nodes.Element dest = new org.jsoup.nodes.Element(org.jsoup.parser.Tag.valueOf(sourceTag), sourceEl.baseUri(), destAttrs)::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Cleaner::::87::::3778::::3789::::numDiscarded::::meta.numAttribsDiscarded	false
+org.jsoup.safety.Cleaner::::91::::3979::::4061::::org.jsoup.nodes.TextNode destText = new org.jsoup.nodes.TextNode(sourceText.getWholeText(), sourceChild.baseUri())::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Whitelist::::441::::16781::::16785::::value::::this	false
+org.jsoup.safety.Whitelist::::327::::12960::::12966::::tagName::::this.value	false
+org.jsoup.safety.Cleaner::::83::::3494::::3505::::numDiscarded::::meta.numAttribsDiscarded	false
+org.jsoup.safety.Cleaner::::84::::3556::::3567::::numDiscarded::::meta.numAttribsDiscarded	false
+org.jsoup.safety.Whitelist::::442::::16834::::16845::::return true::::INSERT::::STATEMENT::::if (!(value.equals(other.value)))    return false;	false
+org.jsoup.safety.Whitelist::::293::::11825::::11827::::tag::::protocol	false
+org.jsoup.safety.Whitelist::::297::::11943::::11945::::tag::::protocol	false
+org.jsoup.safety.Cleaner::::89::::3862::::4119::::if (sourceChild instanceof org.jsoup.nodes.TextNode) {    org.jsoup.nodes.TextNode sourceText = ((org.jsoup.nodes.TextNode) (sourceChild));    org.jsoup.nodes.TextNode destText = new org.jsoup.nodes.TextNode(sourceText.getWholeText(), sourceChild.baseUri());    dest.appendChild(destText);}::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Whitelist::::356::::14362::::14366::::value::::":"	false
+org.jsoup.safety.Whitelist::::349::::14034::::14038::::value::::":"	false
+org.jsoup.safety.Cleaner::::87::::3808::::3815::::sourceEl::::meta.el	false
+org.jsoup.safety.Whitelist::::189::::7430::::7436::::tagName::::this.value	false
+org.jsoup.safety.Whitelist::::298::::12001::::12003::::key::::this.value	false
+org.jsoup.safety.Whitelist::::442::::16834::::16845::::return true::::INSERT::::STATEMENT::::if ((other.value) != null)    return false;	false
+org.jsoup.safety.Cleaner::::78::::3225::::3841::::if (whitelist.isSafeTag(sourceEl.tagName())) {    org.jsoup.safety.Cleaner.ElementMeta meta = createSafeElement(sourceEl);    org.jsoup.nodes.Element destChild = meta.el;    dest.appendChild(destChild);    numDiscarded += meta.numAttribsDiscarded;    numDiscarded += copySafeNodes(sourceEl, destChild);}else {    numDiscarded++;    numDiscarded += copySafeNodes(sourceEl, dest);}::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Whitelist::::249::::9873::::9875::::key::::this.value	false
+org.jsoup.safety.Whitelist::::429::::16307::::16373::::result = (prime * result) + ((value) == null ? 0 : value.hashCode())::::this.value = value	false
+org.jsoup.safety.Cleaner::::99::::4303::::4340::::java.lang.String sourceTag = sourceEl.tagName()::::INSERT::::STATEMENT::::numDiscarded++	false
+org.jsoup.safety.Cleaner::::84::::3586::::3593::::sourceEl::::meta.el	false
+org.jsoup.safety.Whitelist::::188::::7379::::7385::::tagName::::this.value	false
+org.jsoup.safety.Whitelist::::243::::9656::::9658::::key::::this.value	false
+org.jsoup.safety.Whitelist::::429::::16356::::16360::::value::::":"	false
+org.jsoup.safety.Whitelist::::441::::16781::::16785::::value::::":"	false
+org.jsoup.safety.Whitelist::::365::::14622::::14628::::tagName::::this.value	false
+org.jsoup.safety.Whitelist::::294::::11857::::11859::::key::::this.value	false
+org.jsoup.safety.Cleaner::::81::::3461::::3469::::destChild::::this.el	false
+org.jsoup.safety.Cleaner::::81::::3461::::3469::::destChild::::el	false
+org.jsoup.safety.Whitelist::::218::::8635::::8637::::key::::this.value	false
+org.jsoup.safety.Cleaner::::84::::3596::::3604::::destChild::::this.el	false
+org.jsoup.safety.Cleaner::::84::::3596::::3604::::destChild::::el	false
+org.jsoup.safety.Whitelist::::217::::8579::::8581::::key::::this.value	false
+org.jsoup.safety.Whitelist::::323::::12834::::12836::::tag::::this.value	false
+org.jsoup.safety.Whitelist::::212::::8363::::8365::::tag::::this.value	false
+org.jsoup.safety.Whitelist::::246::::9739::::9741::::tag::::this.value	false
+org.jsoup.safety.Whitelist::::242::::9624::::9626::::tag::::this.value	false
+org.jsoup.safety.Whitelist::::297::::11943::::11945::::tag::::this.value	false
+org.jsoup.safety.Whitelist::::441::::16808::::16820::::return false::::INSERT::::STATEMENT::::if (!(value.equals(other.value)))    return false;	false
+org.jsoup.safety.Whitelist::::441::::16781::::16785::::value::::other.value	false
+org.jsoup.safety.Whitelist::::441::::16781::::16785::::value::::other	false
+org.jsoup.safety.Whitelist::::293::::11825::::11827::::tag::::this.value	false
+org.jsoup.safety.Whitelist::::208::::8213::::8215::::tag::::this.value	false
+org.jsoup.safety.Whitelist::::429::::16356::::16360::::value::::new org.jsoup.nodes.Attributes()	false
+org.jsoup.safety.Whitelist::::441::::16781::::16785::::value::::new org.jsoup.nodes.Attributes()	false
+org.jsoup.safety.Whitelist::::441::::16808::::16820::::return false::::INSERT::::STATEMENT::::if ((other.value) != null)    return false;	false
+org.jsoup.safety.Cleaner::::64::::2762::::2773::::numDiscarded::::this.numAttribsDiscarded	false
+org.jsoup.safety.Cleaner::::64::::2762::::2773::::numDiscarded::::numAttribsDiscarded	false
+org.jsoup.safety.Whitelist::::349::::14034::::14038::::value::::this.value	false
+org.jsoup.safety.Whitelist::::356::::14362::::14366::::value::::this.value	false
+org.jsoup.safety.Cleaner::::87::::3818::::3821::::dest::::this.el	false
+org.jsoup.safety.Cleaner::::87::::3818::::3821::::dest::::el	false
+org.jsoup.safety.Whitelist::::441::::16781::::16785::::value::::this.value	false
+org.jsoup.safety.Cleaner::::81::::3444::::3447::::dest::::this.el	false
+org.jsoup.safety.Cleaner::::81::::3444::::3447::::dest::::el	false
+org.jsoup.safety.Whitelist::::356::::14362::::14366::::value::::prot	false
+org.jsoup.safety.Cleaner::::92::::4079::::4082::::dest::::this.el	false
+org.jsoup.safety.Cleaner::::92::::4079::::4082::::dest::::el	false
+org.jsoup.safety.Whitelist::::429::::16356::::16360::::value::::this.value	false
+org.jsoup.safety.Whitelist::::356::::14362::::14366::::value::::protocol.toString()	false
+org.jsoup.safety.Cleaner::::114::::4950::::4953::::dest::::this.el	false
+org.jsoup.safety.Cleaner::::114::::4950::::4953::::dest::::el	false
+org.jsoup.safety.Whitelist::::356::::14362::::14366::::value::::(protocol.toString()) + ":"	false
+org.jsoup.safety.Whitelist::::352::::14230::::14234::::value::::prot	false
+org.jsoup.safety.Cleaner::::86::::3742::::3753::::numDiscarded::::this.numAttribsDiscarded	false
+org.jsoup.safety.Cleaner::::86::::3742::::3753::::numDiscarded::::numAttribsDiscarded	false
+org.jsoup.safety.Cleaner::::109::::4772::::4783::::numDiscarded::::this.numAttribsDiscarded	false
+org.jsoup.safety.Cleaner::::109::::4772::::4783::::numDiscarded::::numAttribsDiscarded	false
+org.jsoup.safety.Cleaner::::87::::3778::::3789::::numDiscarded::::this.numAttribsDiscarded	false
+org.jsoup.safety.Cleaner::::87::::3778::::3789::::numDiscarded::::numAttribsDiscarded	false
+org.jsoup.safety.Whitelist::::349::::14034::::14038::::value::::prot	false
+org.jsoup.safety.Whitelist::::349::::14034::::14038::::value::::protocol.toString()	false
+org.jsoup.safety.Cleaner::::83::::3494::::3505::::numDiscarded::::this.numAttribsDiscarded	false
+org.jsoup.safety.Cleaner::::83::::3494::::3505::::numDiscarded::::numAttribsDiscarded	false
+org.jsoup.safety.Cleaner::::84::::3556::::3567::::numDiscarded::::this.numAttribsDiscarded	false
+org.jsoup.safety.Cleaner::::84::::3556::::3567::::numDiscarded::::numAttribsDiscarded	false
+org.jsoup.safety.Whitelist::::349::::14034::::14038::::value::::(protocol.toString()) + ":"	false
+org.jsoup.safety.Cleaner::::87::::3808::::3815::::sourceEl::::this.el	false
+org.jsoup.safety.Cleaner::::87::::3808::::3815::::sourceEl::::el	false
+org.jsoup.safety.Cleaner::::114::::4956::::4967::::numDiscarded::::this.numAttribsDiscarded	false
+org.jsoup.safety.Cleaner::::114::::4956::::4967::::numDiscarded::::numAttribsDiscarded	false
+org.jsoup.safety.Cleaner::::99::::4322::::4329::::sourceEl::::this.el	false
+org.jsoup.safety.Cleaner::::99::::4322::::4329::::sourceEl::::el	false
+org.jsoup.safety.Cleaner::::106::::4673::::4680::::sourceEl::::this.el	false
+org.jsoup.safety.Cleaner::::106::::4673::::4680::::sourceEl::::el	false
+org.jsoup.safety.Cleaner::::78::::3249::::3256::::sourceEl::::this.el	false
+org.jsoup.safety.Cleaner::::78::::3249::::3256::::sourceEl::::el	false
+org.jsoup.safety.Cleaner::::104::::4546::::4553::::sourceEl::::this.el	false
+org.jsoup.safety.Cleaner::::104::::4546::::4553::::sourceEl::::el	false
+org.jsoup.safety.Cleaner::::101::::4450::::4457::::sourceEl::::this.el	false
+org.jsoup.safety.Cleaner::::101::::4450::::4457::::sourceEl::::el	false
+org.jsoup.safety.Cleaner::::84::::3586::::3593::::sourceEl::::this.el	false
+org.jsoup.safety.Cleaner::::84::::3586::::3593::::sourceEl::::el	false
+org.jsoup.safety.Cleaner::::79::::3364::::3371::::sourceEl::::this.el	false
+org.jsoup.safety.Cleaner::::79::::3364::::3371::::sourceEl::::el	false

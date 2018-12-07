@@ -1,0 +1,8 @@
+java.lang.annotation.RetentionPolicy:java.lang.Enum
+java.lang.reflect.Field:java.lang.reflect.AccessibleObject
+java.lang.reflect.Field:java.lang.reflect.Member
+org.mockito.configuration.DefaultMockitoConfiguration:org.mockito.configuration.IMockitoConfiguration
+org.mockito.exceptions.base.MockitoException:java.lang.RuntimeException
+org.mockito.internal.configuration.GlobalConfiguration:org.mockito.configuration.IMockitoConfiguration
+org.mockito.runners.MockitoJUnitRunner:org.junit.runner.Runner
+org.mockito.runners.MockitoJUnitRunner:org.junit.runner.manipulation.Filterable

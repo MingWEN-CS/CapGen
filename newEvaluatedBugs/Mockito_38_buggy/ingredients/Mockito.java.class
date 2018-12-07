@@ -1,0 +1,15 @@
+org.mockito.internal.creation.MockSettingsImpl:org.mockito.MockSettings
+org.mockito.internal.stubbing.answers.AnswerReturnValuesAdapter:org.mockito.stubbing.Answer
+org.mockito.internal.stubbing.answers.CallsRealMethods:org.mockito.stubbing.Answer
+org.mockito.internal.stubbing.answers.DoesNothing:org.mockito.stubbing.Answer
+org.mockito.internal.stubbing.answers.Returns:org.mockito.stubbing.Answer
+org.mockito.internal.stubbing.answers.ThrowsException:org.mockito.stubbing.Answer
+org.mockito.internal.stubbing.defaultanswers.GloballyConfiguredAnswer:org.mockito.stubbing.Answer
+org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues:org.mockito.stubbing.Answer
+org.mockito.internal.stubbing.defaultanswers.ReturnsMocks:org.mockito.stubbing.Answer
+org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues:org.mockito.stubbing.Answer
+org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls$ThrowingInterceptor:org.mockito.cglib.proxy.MethodInterceptor
+org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls:org.mockito.stubbing.Answer
+org.mockito.runners.MockitoJUnitRunner:org.junit.runner.Runner
+org.mockito.runners.MockitoJUnitRunner:org.junit.runner.manipulation.Filterable
+org.mockito.Mockito:org.mockito.Matchers

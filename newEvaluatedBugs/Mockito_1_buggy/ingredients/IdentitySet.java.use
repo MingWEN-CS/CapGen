@@ -1,0 +1,9 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+8338	o	Object	param	23	define	org.mockito.internal.util.collections.IdentitySet.add	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/util/collections/IdentitySet.java	23	25
+8338	o	Object	param	24	use	org.mockito.internal.util.collections.IdentitySet.add	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/util/collections/IdentitySet.java	23	25
+8342	IdentitySet.list	LinkedList	variable	24	use	org.mockito.internal.util.collections.IdentitySet.add	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/util/collections/IdentitySet.java	23	25
+8341	o	Object	param	14	define	org.mockito.internal.util.collections.IdentitySet.contains	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/util/collections/IdentitySet.java	14	21
+8341	o	Object	param	16	use	org.mockito.internal.util.collections.IdentitySet.contains	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/util/collections/IdentitySet.java	14	21
+8340	existing	Object	variable	15	define	org.mockito.internal.util.collections.IdentitySet.contains	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/util/collections/IdentitySet.java	14	21
+8342	IdentitySet.list	LinkedList	variable	15	use	org.mockito.internal.util.collections.IdentitySet.contains	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/util/collections/IdentitySet.java	14	21
+8340	existing	Object	variable	16	use	org.mockito.internal.util.collections.IdentitySet.contains	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/internal/util/collections/IdentitySet.java	14	21

@@ -1,0 +1,56 @@
+org.mockito.internal.util.reflection.FieldInitializationReport::::19::::665::::698::::wasInitializedUsingConstructorArgs::::wasInitialized	true
+org.mockito.internal.util.reflection.FieldInitializationReport::::19::::623::::661::::this.wasInitializedUsingConstructorArgs::::wasInitialized	false
+org.mockito.internal.util.reflection.FieldInitializationReport::::19::::623::::661::::this.wasInitializedUsingConstructorArgs::::this.wasInitialized	false
+org.mockito.internal.util.reflection.FieldInitializationReport::::18::::599::::612::::wasInitialized::::wasInitializedUsingConstructorArgs	true
+org.mockito.internal.util.reflection.FieldInitializationReport::::18::::577::::595::::this.wasInitialized::::wasInitializedUsingConstructorArgs	false
+org.mockito.internal.util.reflection.FieldInitializationReport::::18::::577::::595::::this.wasInitialized::::this.wasInitializedUsingConstructorArgs	false
+org.mockito.internal.util.reflection.FieldCopier::::13::::375::::376::::to::::from	true
+org.mockito.internal.util.reflection.LenientCopyTool::::16::::439::::442::::mock::::from	true
+org.mockito.internal.util.reflection.LenientCopyTool::::16::::416::::419::::mock::::from	true
+org.mockito.internal.util.Checks::::23::::648::::675::::"item in " + checkedIterable::::checkedIterable	true
+org.mockito.internal.util.reflection.FieldCopier::::12::::350::::353::::from::::to	true
+org.mockito.internal.util.reflection.FieldInitializationReport::::18::::599::::612::::wasInitialized::::this.wasInitializedUsingConstructorArgs	false
+org.mockito.internal.util.reflection.FieldInitializationReport::::19::::665::::698::::wasInitializedUsingConstructorArgs::::this.wasInitialized	true
+org.mockito.internal.util.reflection.FieldSetter::::23::::595::::599::::value::::target	true
+org.mockito.internal.util.reflection.LenientCopyTool::::16::::410::::413::::from::::mock	true
+org.mockito.internal.util.reflection.LenientCopyTool::::16::::422::::425::::from::::mock	true
+org.mockito.internal.configuration.plugins.Plugins::::17::::473::::500::::getStackTraceCleanerProvider::::getMockMaker	false
+org.mockito.internal.handler.MockHandlerFactory::::18::::631::::648::::nullResultGuardian::::handler	true
+org.mockito.internal.handler.MockHandlerFactory::::17::::552::::558::::handler::::nullResultGuardian	false
+org.mockito.internal.util.reflection.FieldSetter::::21::::522::::528::::changer::::new org.mockito.internal.util.reflection.AccessibilityChanger()	true
+org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter::::23::::750::::753::::mock::::fieldInstance	true
+org.mockito.internal.configuration.MockAnnotationProcessor::::22::::725::::734::::annotation::::mockSettings	false
+org.mockito.internal.handler.MockHandlerFactory::::20::::678::::685::::notifier::::nullResultGuardian	true
+org.mockito.internal.handler.MockHandlerFactory::::20::::678::::685::::notifier::::handler	true
+org.mockito.internal.handler.MockHandlerFactory::::17::::552::::558::::handler::::notifier	false
+org.mockito.internal.handler.MockHandlerFactory::::18::::631::::648::::nullResultGuardian::::notifier	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::587::::592::::target::::value	true
+org.mockito.internal.util.collections.ListUtil::::17::::481::::488::::filtered::::new java.util.LinkedList<T>()	true
+org.mockito.internal.configuration.MockAnnotationProcessor::::19::::564::::573::::annotation::::mockSettings	false
+org.mockito.internal.invocation.MatchersBinder::::23::::724::::808::::java.util.List<org.mockito.internal.matchers.LocalizedMatcher> lastMatchers = argumentMatcherStorage.pullLocalizedMatchers()::::INSERT::::STATEMENT::::validateMatchers(invocation, lastMatchers)	false
+org.mockito.internal.util.Checks::::21::::537::::576::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)::::INSERT::::STATEMENT::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	true
+org.mockito.internal.util.reflection.FieldCopier::::13::::365::::385::::field.set(to, value)::::DELETE::::STATEMENT	true
+org.mockito.internal.util.reflection.LenientCopyTool::::16::::405::::471::::copy(from, mock, from.getClass(), mock.getClass().getSuperclass())::::DELETE::::STATEMENT	true
+org.mockito.internal.util.Checks::::22::::586::::687::::for (java.lang.Object item : iterable) {    org.mockito.internal.util.Checks.checkNotNull(item, ("item in " + checkedIterable));}::::INSERT::::STATEMENT::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	true
+org.mockito.internal.util.reflection.FieldSetter::::21::::522::::549::::changer.enableAccess(field)::::DELETE::::STATEMENT	true
+org.mockito.internal.util.Checks::::22::::605::::612::::iterable::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	true
+org.mockito.internal.util.reflection.FieldSetter::::20::::455::::512::::org.mockito.internal.util.reflection.AccessibilityChanger changer = new org.mockito.internal.util.reflection.AccessibilityChanger()::::INSERT::::STATEMENT::::field.set(target, value)	false
+org.mockito.internal.util.Checks::::21::::550::::557::::iterable::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	true
+org.mockito.internal.util.reflection.FieldSetter::::21::::522::::549::::changer.enableAccess(field)::::INSERT::::STATEMENT::::field.set(target, value)	false
+org.mockito.internal.configuration.DefaultInjectionEngine::::20::::587::::834::::org.mockito.internal.configuration.injection.MockInjection.onFields(needingInjection, testClassInstance).withMocks(mocks).tryConstructorInjection().tryPropertyOrFieldInjection().handleSpyAnnotation().apply()::::DELETE::::STATEMENT	true
+org.mockito.internal.util.Checks::::21::::537::::576::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)::::DELETE::::STATEMENT	true
+org.mockito.internal.configuration.injection.filter.FinalMockCandidateFilter::::24::::943::::954::::mocks.size()::::DELETE::::INFIX	false
+org.mockito.internal.util.collections.ListUtil::::17::::481::::496::::filtered.add(t)::::DELETE::::STATEMENT	true
+org.mockito.internal.util.MockNameImpl::::23::::680::::704::::this.mockName = mockName::::INSERT::::STATEMENT::::if (mockName == null) {    this.mockName = org.mockito.internal.util.MockNameImpl.toInstanceName(classToMock);    this.defaultName = true;}else {    this.mockName = mockName;}	false
+org.mockito.internal.configuration.MockAnnotationProcessor::::23::::759::::793::::mockSettings.name(field.getName())::::DELETE::::STATEMENT	true
+org.mockito.internal.util.MockNameImpl::::23::::680::::704::::this.mockName = mockName::::this.mockName = org.mockito.internal.util.MockNameImpl.toInstanceName(classToMock)	false
+org.mockito.internal.progress.ThreadSafeMockingProgress::::22::::746::::792::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.set(new org.mockito.internal.progress.MockingProgressImpl())::::DELETE::::STATEMENT	true
+org.mockito.internal.util.Checks::::14::::291::::401::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}::::INSERT::::STATEMENT::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}	true
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::581::::field::::this	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::577::::581::::field::::this.field	true
+org.mockito.internal.util.Checks::::17::::411::::423::::return value::::INSERT::::STATEMENT::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}	true
+org.mockito.internal.configuration.plugins.PluginLoader::::24::::709::::740::::T plugin = loadImpl(pluginType)::::INSERT::::STATEMENT::::if (plugin != null) {    return plugin;}	false
+org.mockito.internal.util.ObjectMethodsGuru::::22::::640::::661::::method.getReturnType()::::DELETE::::INFIX	false
+org.mockito.internal.progress.ThreadSafeMockingProgress::::21::::701::::721::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.get()::::DELETE::::INFIX	false
+org.mockito.internal.util.reflection.FieldSetter::::23::::595::::599::::value::::this.target	true
+org.mockito.internal.configuration.plugins.PluginFinder::::19::::474::::1299::::for (java.net.URL resource : resources) {    java.io.InputStream s = null;    try {        s = resource.openStream();        java.lang.String pluginClassName = new org.mockito.internal.configuration.plugins.PluginFileReader().readPluginClass(s);        if (pluginClassName == null) {            continue;        }        if (!(pluginSwitch.isEnabled(pluginClassName))) {            continue;        }        return pluginClassName;    } catch (java.lang.Exception e) {        throw new org.mockito.exceptions.base.MockitoException(("Problems reading plugin implementation from: " + resource), e);    } finally {        org.mockito.internal.util.io.IOUtil.closeQuietly(s);    }}::::INSERT::::STATEMENT::::if (pluginClassName == null) {    continue;}	false

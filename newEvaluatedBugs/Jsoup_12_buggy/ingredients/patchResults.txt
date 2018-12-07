@@ -1,0 +1,174 @@
+org.jsoup.helper.W3CDom::::91::::3284::::3292::::namespace::::prefix	false
+org.jsoup.helper.W3CDom::::86::::3106::::3111::::(org.jsoup.nodes.Element) (source)::::source	false
+org.jsoup.helper.W3CDom::::141::::5662::::5672::::org.jsoup.helper.W3CDom.W3CBuilder.xmlnsPrefix::::key	false
+org.jsoup.helper.W3CDom::::139::::5574::::5581::::org.jsoup.helper.W3CDom.W3CBuilder.xmlnsKey::::key	false
+org.jsoup.helper.W3CDom::::125::::5028::::5036::::attribute::::source	false
+org.jsoup.helper.W3CDom::::125::::5008::::5016::::attribute::::source	false
+org.jsoup.helper.W3CDom::::94::::3454::::3455::::el::::dest	false
+org.jsoup.helper.W3CDom::::141::::5662::::5672::::org.jsoup.helper.W3CDom.W3CBuilder.xmlnsPrefix::::prefix	false
+org.jsoup.helper.W3CDom::::96::::3521::::3522::::el::::dest	false
+org.jsoup.helper.W3CDom::::98::::3567::::3568::::el::::dest	false
+org.jsoup.helper.W3CDom::::92::::3357::::3358::::el::::dest	false
+org.jsoup.helper.W3CDom::::125::::4992::::4993::::el::::dest	false
+org.jsoup.helper.W3CDom::::139::::5574::::5581::::org.jsoup.helper.W3CDom.W3CBuilder.xmlnsKey::::prefix	false
+org.jsoup.helper.W3CDom::::99::::3605::::3646::::source instanceof org.jsoup.nodes.TextNode::::source instanceof org.jsoup.nodes.Element	false
+org.jsoup.helper.W3CDom::::139::::5574::::5581::::org.jsoup.helper.W3CDom.W3CBuilder.xmlnsKey::::org.jsoup.helper.W3CDom.W3CBuilder.xmlnsPrefix	false
+org.jsoup.helper.W3CDom::::141::::5647::::5649::::key::::prefix	false
+org.jsoup.helper.W3CDom::::139::::5563::::5565::::key::::prefix	false
+org.jsoup.helper.W3CDom::::91::::3284::::3292::::namespace::::org.jsoup.helper.W3CDom.W3CBuilder.xmlnsKey	false
+org.jsoup.helper.W3CDom::::46::::1602::::1604::::out::::doc	false
+org.jsoup.helper.W3CDom::::65::::2345::::2347::::out::::doc	false
+org.jsoup.helper.W3CDom::::66::::2360::::2368::::traversor::::new org.jsoup.select.NodeTraversor(new org.jsoup.helper.W3CDom.W3CBuilder(out))	false
+org.jsoup.helper.W3CDom::::91::::3284::::3292::::namespace::::org.jsoup.helper.W3CDom.W3CBuilder.xmlnsPrefix	false
+org.jsoup.helper.W3CDom::::141::::5662::::5672::::org.jsoup.helper.W3CDom.W3CBuilder.xmlnsPrefix::::org.jsoup.helper.W3CDom.W3CBuilder.xmlnsKey	false
+org.jsoup.helper.W3CDom::::117::::4610::::4648::::(dest.getParentNode()) instanceof org.w3c.dom.Element::::(dest) == null	false
+org.jsoup.helper.W3CDom::::99::::3605::::3646::::source instanceof org.jsoup.nodes.TextNode::::source instanceof org.jsoup.nodes.Comment	false
+org.jsoup.helper.W3CDom::::117::::4565::::4648::::source instanceof org.jsoup.nodes.Element) && ((dest.getParentNode()) instanceof org.w3c.dom.Element::::source instanceof org.jsoup.nodes.TextNode	false
+org.jsoup.helper.W3CDom::::117::::4565::::4648::::source instanceof org.jsoup.nodes.Element) && ((dest.getParentNode()) instanceof org.w3c.dom.Element::::source instanceof org.jsoup.nodes.DataNode	false
+org.jsoup.helper.W3CDom::::117::::4565::::4648::::source instanceof org.jsoup.nodes.Element) && ((dest.getParentNode()) instanceof org.w3c.dom.Element::::source instanceof org.jsoup.nodes.Comment	false
+org.jsoup.helper.W3CDom::::139::::5563::::5565::::key::::attr	false
+org.jsoup.helper.W3CDom::::39::::1316::::1336::::org.jsoup.helper.Validate.notNull(in)::::INSERT::::STATEMENT::::convert(in, out)	false
+org.jsoup.helper.W3CDom::::93::::3382::::3385::::dest::::el	false
+org.jsoup.helper.W3CDom::::117::::4565::::4648::::source instanceof org.jsoup.nodes.Element) && ((dest.getParentNode()) instanceof org.w3c.dom.Element::::(dest) == null	false
+org.jsoup.helper.W3CDom::::139::::5563::::5565::::key::::org.jsoup.helper.W3CDom.W3CBuilder.xmlnsPrefix	false
+org.jsoup.helper.W3CDom::::96::::3504::::3507::::dest::::el	false
+org.jsoup.helper.W3CDom::::141::::5647::::5649::::key::::org.jsoup.helper.W3CDom.W3CBuilder.xmlnsPrefix	false
+org.jsoup.helper.W3CDom::::64::::2209::::2253::::org.jsoup.nodes.Element rootEl = in.child(0)::::INSERT::::STATEMENT::::convert(in, out)	false
+org.jsoup.helper.W3CDom::::117::::4565::::4605::::source instanceof org.jsoup.nodes.Element::::source instanceof org.jsoup.nodes.TextNode	false
+org.jsoup.helper.W3CDom::::65::::2286::::2350::::org.jsoup.select.NodeTraversor traversor = new org.jsoup.select.NodeTraversor(new org.jsoup.helper.W3CDom.W3CBuilder(out))::::INSERT::::STATEMENT::::convert(in, out)	false
+org.jsoup.helper.W3CDom::::98::::3560::::3563::::dest::::el	false
+org.jsoup.helper.W3CDom::::85::::2984::::3024::::source instanceof org.jsoup.nodes.Element::::source instanceof org.jsoup.nodes.TextNode	false
+org.jsoup.helper.StringUtil::::72::::2182::::2201::::(string.length()) == 0::::string == null	false
+org.jsoup.helper.W3CDom::::141::::5647::::5649::::key::::org.jsoup.helper.W3CDom.W3CBuilder.xmlnsKey	false
+org.jsoup.helper.W3CDom::::139::::5563::::5565::::key::::org.jsoup.helper.W3CDom.W3CBuilder.xmlnsKey	false
+org.jsoup.helper.W3CDom::::89::::3225::::3230::::prefix::::org.jsoup.helper.W3CDom.W3CBuilder.xmlnsPrefix	false
+org.jsoup.helper.W3CDom::::66::::2360::::2386::::traversor.traverse(rootEl)::::INSERT::::STATEMENT::::convert(in, out)	false
+org.jsoup.helper.W3CDom::::96::::3504::::3524::::dest.appendChild(el)::::INSERT::::STATEMENT::::copyAttributes(sourceEl, el)	false
+org.jsoup.helper.W3CDom::::94::::3438::::3457::::doc.appendChild(el)::::INSERT::::STATEMENT::::copyAttributes(sourceEl, el)	false
+org.jsoup.helper.W3CDom::::92::::3332::::3360::::copyAttributes(sourceEl, el)::::INSERT::::STATEMENT::::copyAttributes(sourceEl, el)	false
+org.jsoup.helper.W3CDom::::88::::3131::::3173::::java.lang.String prefix = updateNamespaces(sourceEl)::::INSERT::::STATEMENT::::copyAttributes(sourceEl, el)	false
+org.jsoup.helper.W3CDom::::86::::3045::::3112::::org.jsoup.nodes.Element sourceEl = ((org.jsoup.nodes.Element) (source))::::INSERT::::STATEMENT::::copyAttributes(sourceEl, el)	false
+org.jsoup.helper.W3CDom::::98::::3560::::3569::::dest = el::::INSERT::::STATEMENT::::copyAttributes(sourceEl, el)	false
+org.jsoup.helper.W3CDom::::91::::3251::::3314::::org.w3c.dom.Element el = doc.createElementNS(namespace, sourceEl.tagName())::::INSERT::::STATEMENT::::copyAttributes(sourceEl, el)	false
+org.jsoup.helper.W3CDom::::89::::3191::::3232::::java.lang.String namespace = namespaces.get(prefix)::::INSERT::::STATEMENT::::copyAttributes(sourceEl, el)	false
+org.jsoup.helper.W3CDom::::139::::5563::::5565::::key::::attributes	false
+org.jsoup.helper.W3CDom::::89::::3225::::3230::::prefix::::org.jsoup.helper.W3CDom.W3CBuilder.xmlnsKey	false
+org.jsoup.helper.W3CDom::::99::::3605::::3646::::source instanceof org.jsoup.nodes.TextNode::::source instanceof org.jsoup.nodes.DataNode	false
+org.jsoup.helper.W3CDom::::117::::4565::::4605::::source instanceof org.jsoup.nodes.Element::::source instanceof org.jsoup.nodes.Comment	false
+org.jsoup.helper.W3CDom::::141::::5647::::5649::::key::::""	false
+org.jsoup.helper.W3CDom::::139::::5563::::5565::::key::::""	false
+org.jsoup.helper.W3CDom::::85::::2984::::3024::::source instanceof org.jsoup.nodes.Element::::source instanceof org.jsoup.nodes.Comment	false
+org.jsoup.helper.StringUtil::::151::::4926::::4928::::hay::::needle	false
+org.jsoup.helper.W3CDom::::61::::2113::::2198::::if (!(org.jsoup.helper.StringUtil.isBlank(in.location())))    out.setDocumentURI(in.location());::::INSERT::::STATEMENT::::convert(in, out)	false
+org.jsoup.helper.StringUtil::::106::::3283::::3291::::c == '\r'::::c == '\t'	false
+org.jsoup.helper.StringUtil::::106::::3283::::3291::::c == '\r'::::c == '\n'	false
+org.jsoup.helper.StringUtil::::106::::3283::::3291::::c == '\r'::::c == '\f'	false
+org.jsoup.helper.StringUtil::::106::::3283::::3291::::c == '\r'::::c == ' '	false
+org.jsoup.helper.StringUtil::::106::::3283::::3291::::c == '\r'::::(c == ' ') || (c == '\t')	false
+org.jsoup.helper.StringUtil::::106::::3283::::3291::::c == '\r'::::((c == ' ') || (c == '\t')) || (c == '\n')	false
+org.jsoup.helper.StringUtil::::106::::3283::::3291::::c == '\r'::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')	false
+org.jsoup.helper.StringUtil::::106::::3270::::3278::::c == '\f'::::c == '\t'	false
+org.jsoup.helper.StringUtil::::106::::3270::::3278::::c == '\f'::::c == '\n'	false
+org.jsoup.helper.StringUtil::::106::::3270::::3278::::c == '\f'::::c == ' '	false
+org.jsoup.helper.StringUtil::::106::::3270::::3278::::c == '\f'::::(c == ' ') || (c == '\t')	false
+org.jsoup.helper.StringUtil::::106::::3270::::3278::::c == '\f'::::((c == ' ') || (c == '\t')) || (c == '\n')	false
+org.jsoup.helper.StringUtil::::106::::3257::::3265::::c == '\n'::::c == '\t'	false
+org.jsoup.helper.StringUtil::::106::::3257::::3265::::c == '\n'::::c == ' '	false
+org.jsoup.helper.StringUtil::::106::::3257::::3265::::c == '\n'::::(c == ' ') || (c == '\t')	false
+org.jsoup.helper.StringUtil::::106::::3244::::3252::::c == '\t'::::c == ' '	false
+org.jsoup.helper.StringUtil::::106::::3232::::3278::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')::::c == '\r'	false
+org.jsoup.helper.StringUtil::::106::::3232::::3265::::((c == ' ') || (c == '\t')) || (c == '\n')::::c == '\f'	false
+org.jsoup.helper.StringUtil::::106::::3232::::3252::::(c == ' ') || (c == '\t')::::c == '\n'	false
+org.jsoup.helper.StringUtil::::106::::3232::::3239::::c == ' '::::c == '\t'	false
+org.jsoup.helper.Validate::::91::::2510::::2529::::(string.length()) == 0::::string == null	false
+org.jsoup.helper.W3CDom::::66::::2360::::2386::::traversor.traverse(rootEl)::::DELETE::::STATEMENT	false
+org.jsoup.helper.W3CDom::::39::::1316::::1336::::org.jsoup.helper.Validate.notNull(in)::::DELETE::::STATEMENT	false
+org.jsoup.helper.StringUtil::::106::::3283::::3291::::c == '\r'::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'	false
+org.jsoup.helper.StringUtil::::106::::3270::::3278::::c == '\f'::::c == '\r'	false
+org.jsoup.helper.StringUtil::::106::::3270::::3278::::c == '\f'::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')	false
+org.jsoup.helper.StringUtil::::106::::3232::::3278::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'	false
+org.jsoup.helper.W3CDom::::125::::4992::::4993::::el::::factory	false
+org.jsoup.helper.StringUtil::::106::::3257::::3265::::c == '\n'::::c == '\f'	false
+org.jsoup.helper.StringUtil::::106::::3257::::3265::::c == '\n'::::((c == ' ') || (c == '\t')) || (c == '\n')	false
+org.jsoup.helper.StringUtil::::106::::3232::::3265::::((c == ' ') || (c == '\t')) || (c == '\n')::::c == '\r'	false
+org.jsoup.helper.StringUtil::::106::::3232::::3265::::((c == ' ') || (c == '\t')) || (c == '\n')::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')	false
+org.jsoup.helper.StringUtil::::106::::3244::::3252::::c == '\t'::::c == '\n'	false
+org.jsoup.helper.StringUtil::::106::::3244::::3252::::c == '\t'::::(c == ' ') || (c == '\t')	false
+org.jsoup.helper.StringUtil::::106::::3232::::3252::::(c == ' ') || (c == '\t')::::c == '\f'	false
+org.jsoup.helper.StringUtil::::106::::3232::::3252::::(c == ' ') || (c == '\t')::::((c == ' ') || (c == '\t')) || (c == '\n')	false
+org.jsoup.helper.StringUtil::::106::::3232::::3239::::c == ' '::::c == '\n'	false
+org.jsoup.helper.StringUtil::::106::::3232::::3239::::c == ' '::::(c == ' ') || (c == '\t')	false
+org.jsoup.helper.W3CDom::::141::::5647::::5649::::key::::":"	false
+org.jsoup.helper.W3CDom::::93::::3378::::3542::::if ((dest) == null) {    doc.appendChild(el);}else {    dest.appendChild(el);}::::INSERT::::STATEMENT::::copyAttributes(sourceEl, el)	false
+org.jsoup.helper.W3CDom::::139::::5563::::5565::::key::::":"	false
+org.jsoup.helper.StringUtil::::151::::4926::::4928::::hay::::"?"	false
+org.jsoup.helper.StringUtil::::106::::3270::::3278::::c == '\f'::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'	false
+org.jsoup.helper.StringUtil::::106::::3257::::3265::::c == '\n'::::c == '\r'	false
+org.jsoup.helper.StringUtil::::106::::3257::::3265::::c == '\n'::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')	false
+org.jsoup.helper.StringUtil::::106::::3232::::3265::::((c == ' ') || (c == '\t')) || (c == '\n')::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'	false
+org.jsoup.helper.StringUtil::::106::::3244::::3252::::c == '\t'::::c == '\f'	false
+org.jsoup.helper.StringUtil::::106::::3244::::3252::::c == '\t'::::((c == ' ') || (c == '\t')) || (c == '\n')	false
+org.jsoup.helper.StringUtil::::106::::3232::::3252::::(c == ' ') || (c == '\t')::::c == '\r'	false
+org.jsoup.helper.StringUtil::::106::::3232::::3252::::(c == ' ') || (c == '\t')::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')	false
+org.jsoup.helper.StringUtil::::106::::3232::::3239::::c == ' '::::c == '\f'	false
+org.jsoup.helper.StringUtil::::106::::3232::::3239::::c == ' '::::((c == ' ') || (c == '\t')) || (c == '\n')	false
+org.jsoup.helper.StringUtil::::158::::5116::::5123::::haystack::::org.jsoup.helper.StringUtil.padding	false
+org.jsoup.helper.StringUtil::::106::::3257::::3265::::c == '\n'::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'	false
+org.jsoup.helper.W3CDom::::61::::2117::::2150::::!(org.jsoup.helper.StringUtil.isBlank(in.location()))::::INSERT::::STATEMENT::::convert(in, out)	false
+org.jsoup.helper.StringUtil::::150::::4898::::4905::::haystack::::org.jsoup.helper.StringUtil.padding	false
+org.jsoup.helper.StringUtil::::106::::3244::::3252::::c == '\t'::::c == '\r'	false
+org.jsoup.helper.StringUtil::::106::::3244::::3252::::c == '\t'::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')	false
+org.jsoup.helper.StringUtil::::106::::3232::::3252::::(c == ' ') || (c == '\t')::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'	false
+org.jsoup.helper.W3CDom::::125::::5008::::5016::::attribute::::(org.w3c.dom.Element) (dest.getParentNode())	false
+org.jsoup.helper.W3CDom::::117::::4565::::4605::::source instanceof org.jsoup.nodes.Element::::source instanceof org.jsoup.nodes.DataNode	false
+org.jsoup.helper.StringUtil::::106::::3232::::3239::::c == ' '::::c == '\r'	false
+org.jsoup.helper.StringUtil::::106::::3232::::3239::::c == ' '::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')	false
+org.jsoup.helper.W3CDom::::125::::5028::::5036::::attribute::::(org.w3c.dom.Element) (dest.getParentNode())	false
+org.jsoup.helper.W3CDom::::96::::3504::::3524::::dest.appendChild(el)::::DELETE::::STATEMENT	false
+org.jsoup.helper.W3CDom::::94::::3438::::3457::::doc.appendChild(el)::::DELETE::::STATEMENT	false
+org.jsoup.helper.W3CDom::::92::::3332::::3360::::copyAttributes(sourceEl, el)::::DELETE::::STATEMENT	false
+org.jsoup.helper.StringUtil::::106::::3244::::3252::::c == '\t'::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'	false
+org.jsoup.helper.W3CDom::::85::::2984::::3024::::source instanceof org.jsoup.nodes.Element::::source instanceof org.jsoup.nodes.DataNode	false
+org.jsoup.helper.StringUtil::::106::::3232::::3239::::c == ' '::::(((c == ' ') || (c == '\t')) || (c == '\n')) || (c == '\f')) || (c == '\r'	false
+org.jsoup.helper.StringUtil::::151::::4926::::4928::::hay::::"/"	false
+org.jsoup.helper.StringUtil::::151::::4937::::4942::::needle::::hay	false
+org.jsoup.helper.W3CDom::::89::::3225::::3230::::prefix::::namespace	false
+org.jsoup.helper.W3CDom::::137::::5497::::5500::::attr::::(org.w3c.dom.Element) (dest.getParentNode())	false
+org.jsoup.helper.W3CDom::::85::::2980::::4469::::if (source instanceof org.jsoup.nodes.Element) {    org.jsoup.nodes.Element sourceEl = ((org.jsoup.nodes.Element) (source));    java.lang.String prefix = updateNamespaces(sourceEl);    java.lang.String namespace = namespaces.get(prefix);    org.w3c.dom.Element el = doc.createElementNS(namespace, sourceEl.tagName());    copyAttributes(sourceEl, el);    if ((dest) == null) {        doc.appendChild(el);    }else {        dest.appendChild(el);    }    dest = el;}else    if (source instanceof org.jsoup.nodes.TextNode) {        org.jsoup.nodes.TextNode sourceText = ((org.jsoup.nodes.TextNode) (source));        org.w3c.dom.Text text = doc.createTextNode(sourceText.getWholeText());        dest.appendChild(text);    }else        if (source instanceof org.jsoup.nodes.Comment) {            org.jsoup.nodes.Comment sourceComment = ((org.jsoup.nodes.Comment) (source));            org.w3c.dom.Comment comment = doc.createComment(sourceComment.getData());            dest.appendChild(comment);        }else            if (source instanceof org.jsoup.nodes.DataNode) {                org.jsoup.nodes.DataNode sourceData = ((org.jsoup.nodes.DataNode) (source));                org.w3c.dom.Text node = doc.createTextNode(sourceData.getWholeData());                dest.appendChild(node);            }else {            }::::INSERT::::STATEMENT::::copyAttributes(sourceEl, el)	false
+org.jsoup.helper.W3CDom::::99::::3601::::4469::::if (source instanceof org.jsoup.nodes.TextNode) {    org.jsoup.nodes.TextNode sourceText = ((org.jsoup.nodes.TextNode) (source));    org.w3c.dom.Text text = doc.createTextNode(sourceText.getWholeText());    dest.appendChild(text);}else    if (source instanceof org.jsoup.nodes.Comment) {        org.jsoup.nodes.Comment sourceComment = ((org.jsoup.nodes.Comment) (source));        org.w3c.dom.Comment comment = doc.createComment(sourceComment.getData());        dest.appendChild(comment);    }else        if (source instanceof org.jsoup.nodes.DataNode) {            org.jsoup.nodes.DataNode sourceData = ((org.jsoup.nodes.DataNode) (source));            org.w3c.dom.Text node = doc.createTextNode(sourceData.getWholeData());            dest.appendChild(node);        }else {        }::::INSERT::::STATEMENT::::copyAttributes(sourceEl, el)	false
+org.jsoup.helper.W3CDom::::98::::3560::::3569::::dest = el::::dest = ((org.w3c.dom.Element) (dest.getParentNode()))	false
+org.jsoup.helper.W3CDom::::117::::4610::::4629::::dest.getParentNode()::::DELETE::::INFIX	false
+org.jsoup.helper.W3CDom::::46::::1602::::1604::::out::::this.doc	false
+org.jsoup.helper.W3CDom::::65::::2345::::2347::::out::::this.doc	false
+org.jsoup.helper.W3CDom::::139::::5563::::5565::::key::::(org.w3c.dom.Element) (dest.getParentNode())	false
+org.jsoup.helper.W3CDom::::91::::3264::::3266::::doc::::this.doc	false
+org.jsoup.helper.W3CDom::::94::::3438::::3440::::doc::::this.doc	false
+org.jsoup.helper.StringUtil::::72::::2182::::2187::::string::::"?"	false
+org.jsoup.helper.Validate::::53::::1344::::1416::::if (val)    throw new java.lang.IllegalArgumentException("Must be false");::::INSERT::::STATEMENT::::if (val)    throw new java.lang.IllegalArgumentException("Must be false");	false
+org.jsoup.helper.Validate::::63::::1637::::1697::::if (val)    throw new java.lang.IllegalArgumentException(msg);::::INSERT::::STATEMENT::::if (val)    throw new java.lang.IllegalArgumentException(msg);	false
+org.jsoup.helper.Validate::::63::::1637::::1697::::if (val)    throw new java.lang.IllegalArgumentException(msg);::::INSERT::::STATEMENT::::if (!val)    throw new java.lang.IllegalArgumentException(msg);	false
+org.jsoup.helper.Validate::::25::::620::::688::::if (obj == null)    throw new java.lang.IllegalArgumentException(msg);::::INSERT::::STATEMENT::::if (obj == null)    throw new java.lang.IllegalArgumentException(msg);	false
+org.jsoup.helper.Validate::::15::::306::::396::::if (obj == null)    throw new java.lang.IllegalArgumentException("Object must not be null");::::INSERT::::STATEMENT::::if (obj == null)    throw new java.lang.IllegalArgumentException("Object must not be null");	false
+org.jsoup.helper.StringUtil::::151::::4926::::4928::::hay::::"width must be > 0"	false
+org.jsoup.helper.StringUtil::::151::::4926::::4928::::hay::::""	false
+org.jsoup.helper.Validate::::63::::1637::::1697::::if (val)    throw new java.lang.IllegalArgumentException(msg);::::INSERT::::STATEMENT::::if (val)    throw new java.lang.IllegalArgumentException("Must be false");	false
+org.jsoup.helper.Validate::::63::::1637::::1697::::if (val)    throw new java.lang.IllegalArgumentException(msg);::::INSERT::::STATEMENT::::if (!val)    throw new java.lang.IllegalArgumentException("Must be true");	false
+org.jsoup.helper.Validate::::53::::1344::::1416::::if (val)    throw new java.lang.IllegalArgumentException("Must be false");::::INSERT::::STATEMENT::::if (!val)    throw new java.lang.IllegalArgumentException("Must be true");	false
+org.jsoup.helper.StringUtil::::72::::2182::::2187::::string::::"/"	false
+org.jsoup.helper.StringUtil::::158::::5096::::5132::::java.util.Arrays.binarySearch(haystack, needle)::::DELETE::::INFIX	false
+org.jsoup.helper.Validate::::25::::620::::688::::if (obj == null)    throw new java.lang.IllegalArgumentException(msg);::::INSERT::::STATEMENT::::if (obj == null)    throw new java.lang.IllegalArgumentException("Object must not be null");	false
+org.jsoup.helper.Validate::::91::::2510::::2515::::string::::"Array must not contain any null objects"	false
+org.jsoup.helper.Validate::::63::::1641::::1643::::val::::INSERT::::STATEMENT::::if (!val)    throw new java.lang.IllegalArgumentException("Must be true");	false
+org.jsoup.helper.Validate::::63::::1641::::1643::::val::::INSERT::::STATEMENT::::if (val)    throw new java.lang.IllegalArgumentException("Must be false");	false
+org.jsoup.helper.Validate::::63::::1641::::1643::::val::::INSERT::::STATEMENT::::if (val)    throw new java.lang.IllegalArgumentException(msg);	false
+org.jsoup.helper.Validate::::63::::1641::::1643::::val::::INSERT::::STATEMENT::::if (!val)    throw new java.lang.IllegalArgumentException(msg);	false
+org.jsoup.helper.Validate::::91::::2510::::2515::::string::::"String must not be empty"	false
+org.jsoup.helper.Validate::::91::::2510::::2515::::string::::"Object must not be null"	false
+org.jsoup.helper.Validate::::91::::2510::::2515::::string::::"Must be true"	false
+org.jsoup.helper.Validate::::91::::2510::::2515::::string::::"Must be false"	false
+org.jsoup.helper.Validate::::91::::2510::::2524::::string.length()::::DELETE::::INFIX	false
+org.jsoup.helper.Validate::::53::::1348::::1350::::val::::INSERT::::STATEMENT::::if (!val)    throw new java.lang.IllegalArgumentException("Must be true");	false
+org.jsoup.helper.StringUtil::::72::::2182::::2187::::string::::""	false
+org.jsoup.helper.Validate::::53::::1348::::1350::::val::::INSERT::::STATEMENT::::if (val)    throw new java.lang.IllegalArgumentException("Must be false");	false
+org.jsoup.helper.StringUtil::::72::::2182::::2196::::string.length()::::DELETE::::INFIX	false
+org.jsoup.helper.StringUtil::::72::::2182::::2187::::string::::"width must be > 0"	false

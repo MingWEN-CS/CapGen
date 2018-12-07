@@ -1,0 +1,7 @@
+org.mockito.internal.configuration.GlobalConfiguration:java.io.Serializable
+org.mockito.internal.configuration.GlobalConfiguration:org.mockito.configuration.IMockitoConfiguration
+org.mockito.internal.debugging.Location:java.io.Serializable
+org.mockito.internal.invocation.Invocation:org.mockito.exceptions.PrintableInvocation
+org.mockito.internal.invocation.Invocation:org.mockito.internal.reporting.PrintingFriendlyInvocation
+org.mockito.internal.invocation.Invocation:org.mockito.invocation.InvocationOnMock
+org.mockito.internal.progress.MockingProgressImpl:org.mockito.internal.progress.MockingProgress

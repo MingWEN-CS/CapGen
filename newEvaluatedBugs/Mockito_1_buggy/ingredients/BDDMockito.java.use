@@ -1,0 +1,78 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+18989	methodCall	T	param	190	define	org.mockito.BDDMockito.given	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	190	192
+18989	methodCall	T	param	191	use	org.mockito.BDDMockito.given	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	190	192
+18992	mock	T	param	208	define	org.mockito.BDDMockito.then	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	208	210
+18992	mock	T	param	209	use	org.mockito.BDDMockito.then	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	208	210
+18994	answer	Answer	param	389	define	org.mockito.BDDMockito.willAnswer	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	389	391
+18994	answer	Answer	param	390	use	org.mockito.BDDMockito.willAnswer	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	389	391
+18998	toBeReturned	Object	param	405	define	org.mockito.BDDMockito.willReturn	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	405	407
+18998	toBeReturned	Object	param	406	use	org.mockito.BDDMockito.willReturn	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	405	407
+19002	toBeThrown	Class<? extends Throwable>	param	381	define	org.mockito.BDDMockito.willThrow	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	381	383
+19002	toBeThrown	Class<? extends Throwable>	param	382	use	org.mockito.BDDMockito.willThrow	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	381	383
+19000	toBeThrown	Throwable	param	373	define	org.mockito.BDDMockito.willThrow	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	373	375
+19000	toBeThrown	Throwable	param	374	use	org.mockito.BDDMockito.willThrow	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	373	375
+18896	answer	Answer<?>	param	85	define	org.mockito.BDDMockito.BDDMyOngoingStubbing.will	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	85	85
+18898	answer	Answer<?>	param	79	define	org.mockito.BDDMockito.BDDMyOngoingStubbing.willAnswer	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	79	79
+18901	value	T	param	91	define	org.mockito.BDDMockito.BDDMyOngoingStubbing.willReturn	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	91	91
+18903	value	T	param	97	define	org.mockito.BDDMockito.BDDMyOngoingStubbing.willReturn	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	97	97
+18904	values	T...	param	97	define	org.mockito.BDDMockito.BDDMyOngoingStubbing.willReturn	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	97	97
+18906	throwables	Throwable...	param	103	define	org.mockito.BDDMockito.BDDMyOngoingStubbing.willThrow	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	103	103
+18908	throwableClasses	Class<? extends Throwable>...	param	109	define	org.mockito.BDDMockito.BDDMyOngoingStubbing.willThrow	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	109	109
+18912	ongoingStubbing	OngoingStubbing<T>	param	132	define	org.mockito.BDDMockito.BDDOngoingStubbingImpl.BDDOngoingStubbingImpl	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	132	134
+18912	ongoingStubbing	OngoingStubbing<T>	param	133	use	org.mockito.BDDMockito.BDDOngoingStubbingImpl.BDDOngoingStubbingImpl	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	132	134
+18935	BDDOngoingStubbingImpl.mockitoOngoingStubbing	OngoingStubbing<T>	variable	133	set	org.mockito.BDDMockito.BDDOngoingStubbingImpl.BDDOngoingStubbingImpl	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	132	134
+18935	BDDOngoingStubbingImpl.mockitoOngoingStubbing	OngoingStubbing<T>	variable	182	use	org.mockito.BDDMockito.BDDOngoingStubbingImpl.getMock	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	181	183
+18918	answer	Answer<?>	param	146	define	org.mockito.BDDMockito.BDDOngoingStubbingImpl.will	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	146	148
+18918	answer	Answer<?>	param	147	use	org.mockito.BDDMockito.BDDOngoingStubbingImpl.will	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	146	148
+18935	BDDOngoingStubbingImpl.mockitoOngoingStubbing	OngoingStubbing<T>	variable	147	use	org.mockito.BDDMockito.BDDOngoingStubbingImpl.will	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	146	148
+18921	answer	Answer<?>	param	139	define	org.mockito.BDDMockito.BDDOngoingStubbingImpl.willAnswer	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	139	141
+18921	answer	Answer<?>	param	140	use	org.mockito.BDDMockito.BDDOngoingStubbingImpl.willAnswer	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	139	141
+18935	BDDOngoingStubbingImpl.mockitoOngoingStubbing	OngoingStubbing<T>	variable	140	use	org.mockito.BDDMockito.BDDOngoingStubbingImpl.willAnswer	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	139	141
+18935	BDDOngoingStubbingImpl.mockitoOngoingStubbing	OngoingStubbing<T>	variable	178	use	org.mockito.BDDMockito.BDDOngoingStubbingImpl.willCallRealMethod	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	177	179
+18926	value	T	param	153	define	org.mockito.BDDMockito.BDDOngoingStubbingImpl.willReturn	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	153	155
+18926	value	T	param	154	use	org.mockito.BDDMockito.BDDOngoingStubbingImpl.willReturn	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	153	155
+18935	BDDOngoingStubbingImpl.mockitoOngoingStubbing	OngoingStubbing<T>	variable	154	use	org.mockito.BDDMockito.BDDOngoingStubbingImpl.willReturn	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	153	155
+18928	value	T	param	160	define	org.mockito.BDDMockito.BDDOngoingStubbingImpl.willReturn	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	160	162
+18929	values	T...	param	160	define	org.mockito.BDDMockito.BDDOngoingStubbingImpl.willReturn	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	160	162
+18928	value	T	param	161	use	org.mockito.BDDMockito.BDDOngoingStubbingImpl.willReturn	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	160	162
+18929	values	T...	param	161	use	org.mockito.BDDMockito.BDDOngoingStubbingImpl.willReturn	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	160	162
+18935	BDDOngoingStubbingImpl.mockitoOngoingStubbing	OngoingStubbing<T>	variable	161	use	org.mockito.BDDMockito.BDDOngoingStubbingImpl.willReturn	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	160	162
+18934	throwableClasses	Class<? extends Throwable>...	param	173	define	org.mockito.BDDMockito.BDDOngoingStubbingImpl.willThrow	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	173	175
+18934	throwableClasses	Class<? extends Throwable>...	param	174	use	org.mockito.BDDMockito.BDDOngoingStubbingImpl.willThrow	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	173	175
+18935	BDDOngoingStubbingImpl.mockitoOngoingStubbing	OngoingStubbing<T>	variable	174	use	org.mockito.BDDMockito.BDDOngoingStubbingImpl.willThrow	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	173	175
+18932	throwables	Throwable...	param	167	define	org.mockito.BDDMockito.BDDOngoingStubbingImpl.willThrow	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	167	169
+18932	throwables	Throwable...	param	168	use	org.mockito.BDDMockito.BDDOngoingStubbingImpl.willThrow	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	167	169
+18935	BDDOngoingStubbingImpl.mockitoOngoingStubbing	OngoingStubbing<T>	variable	168	use	org.mockito.BDDMockito.BDDOngoingStubbingImpl.willThrow	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	167	169
+18939	mock	T	param	304	define	org.mockito.BDDMockito.BDDStubber.given	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	304	304
+18941	answer	Answer	param	268	define	org.mockito.BDDMockito.BDDStubber.willAnswer	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	268	268
+18945	toBeReturned	Object	param	280	define	org.mockito.BDDMockito.BDDStubber.willReturn	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	280	280
+18949	toBeThrown	Class<? extends Throwable>	param	292	define	org.mockito.BDDMockito.BDDStubber.willThrow	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	292	292
+18947	toBeThrown	Throwable	param	286	define	org.mockito.BDDMockito.BDDStubber.willThrow	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	286	286
+18952	mockitoStubber	Stubber	param	315	define	org.mockito.BDDMockito.BDDStubberImpl.BDDStubberImpl	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	315	317
+18952	mockitoStubber	Stubber	param	316	use	org.mockito.BDDMockito.BDDStubberImpl.BDDStubberImpl	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	315	317
+18972	BDDStubberImpl.mockitoStubber	Stubber	variable	316	set	org.mockito.BDDMockito.BDDStubberImpl.BDDStubberImpl	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	315	317
+18956	mock	T	param	322	define	org.mockito.BDDMockito.BDDStubberImpl.given	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	322	324
+18956	mock	T	param	323	use	org.mockito.BDDMockito.BDDStubberImpl.given	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	322	324
+18972	BDDStubberImpl.mockitoStubber	Stubber	variable	323	use	org.mockito.BDDMockito.BDDStubberImpl.given	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	322	324
+18959	answer	Answer	param	329	define	org.mockito.BDDMockito.BDDStubberImpl.willAnswer	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	329	331
+18959	answer	Answer	param	330	use	org.mockito.BDDMockito.BDDStubberImpl.willAnswer	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	329	331
+18972	BDDStubberImpl.mockitoStubber	Stubber	variable	330	use	org.mockito.BDDMockito.BDDStubberImpl.willAnswer	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	329	331
+18972	BDDStubberImpl.mockitoStubber	Stubber	variable	365	use	org.mockito.BDDMockito.BDDStubberImpl.willCallRealMethod	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	364	366
+18972	BDDStubberImpl.mockitoStubber	Stubber	variable	337	use	org.mockito.BDDMockito.BDDStubberImpl.willNothing	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	336	338
+18966	toBeReturned	Object	param	343	define	org.mockito.BDDMockito.BDDStubberImpl.willReturn	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	343	345
+18966	toBeReturned	Object	param	344	use	org.mockito.BDDMockito.BDDStubberImpl.willReturn	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	343	345
+18972	BDDStubberImpl.mockitoStubber	Stubber	variable	344	use	org.mockito.BDDMockito.BDDStubberImpl.willReturn	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	343	345
+18971	toBeThrown	Class<? extends Throwable>	param	357	define	org.mockito.BDDMockito.BDDStubberImpl.willThrow	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	357	359
+18971	toBeThrown	Class<? extends Throwable>	param	358	use	org.mockito.BDDMockito.BDDStubberImpl.willThrow	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	357	359
+18972	BDDStubberImpl.mockitoStubber	Stubber	variable	358	use	org.mockito.BDDMockito.BDDStubberImpl.willThrow	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	357	359
+18969	toBeThrown	Throwable	param	350	define	org.mockito.BDDMockito.BDDStubberImpl.willThrow	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	350	352
+18969	toBeThrown	Throwable	param	351	use	org.mockito.BDDMockito.BDDStubberImpl.willThrow	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	350	352
+18972	BDDStubberImpl.mockitoStubber	Stubber	variable	351	use	org.mockito.BDDMockito.BDDStubberImpl.willThrow	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	350	352
+18977	mode	VerificationMode	param	231	define	org.mockito.BDDMockito.Then.should	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	231	231
+18986	ThenImpl.mock	T	variable	247	use	org.mockito.BDDMockito.ThenImpl.should	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	246	248
+18985	mode	VerificationMode	param	254	define	org.mockito.BDDMockito.ThenImpl.should	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	254	256
+18985	mode	VerificationMode	param	255	use	org.mockito.BDDMockito.ThenImpl.should	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	254	256
+18986	ThenImpl.mock	T	variable	255	use	org.mockito.BDDMockito.ThenImpl.should	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	254	256
+18981	mock	T	param	238	define	org.mockito.BDDMockito.ThenImpl.ThenImpl	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	238	240
+18981	mock	T	param	239	use	org.mockito.BDDMockito.ThenImpl.ThenImpl	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	238	240
+18986	ThenImpl.mock	T	variable	239	set	org.mockito.BDDMockito.ThenImpl.ThenImpl	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_1_buggy/src/org/mockito/BDDMockito.java	238	240

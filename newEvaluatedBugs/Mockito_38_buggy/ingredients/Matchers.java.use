@@ -1,0 +1,79 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+26314	clazz	Class<T>	param	217	define	org.mockito.Matchers.any	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	217	219
+26319	ANY		variable	114	use	org.mockito.Matchers.anyBoolean	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	113	115
+26319	ANY		variable	125	use	org.mockito.Matchers.anyByte	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	124	126
+26319	ANY		variable	136	use	org.mockito.Matchers.anyChar	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	135	137
+26319	ANY		variable	314	use	org.mockito.Matchers.anyCollection	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	313	315
+26328	clazz	Class<T>	param	327	define	org.mockito.Matchers.anyCollectionOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	327	329
+26319	ANY		variable	328	use	org.mockito.Matchers.anyCollectionOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	327	329
+26319	ANY		variable	180	use	org.mockito.Matchers.anyDouble	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	179	181
+26319	ANY		variable	169	use	org.mockito.Matchers.anyFloat	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	168	170
+26319	ANY		variable	147	use	org.mockito.Matchers.anyInt	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	146	148
+26319	ANY		variable	253	use	org.mockito.Matchers.anyList	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	252	254
+26335	clazz	Class<T>	param	266	define	org.mockito.Matchers.anyListOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	266	268
+26319	ANY		variable	267	use	org.mockito.Matchers.anyListOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	266	268
+26319	ANY		variable	158	use	org.mockito.Matchers.anyLong	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	157	159
+26319	ANY		variable	303	use	org.mockito.Matchers.anyMap	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	302	304
+26319	ANY		variable	202	use	org.mockito.Matchers.anyObject	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	201	203
+26319	ANY		variable	278	use	org.mockito.Matchers.anySet	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	277	279
+26346	clazz	Class<T>	param	291	define	org.mockito.Matchers.anySetOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	291	293
+26319	ANY		variable	292	use	org.mockito.Matchers.anySetOf	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	291	293
+26319	ANY		variable	191	use	org.mockito.Matchers.anyShort	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	190	192
+26319	ANY		variable	242	use	org.mockito.Matchers.anyString	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	241	243
+26352	matcher	Matcher<T>	param	597	define	org.mockito.Matchers.argThat	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	597	599
+26352	matcher	Matcher<T>	param	598	use	org.mockito.Matchers.argThat	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	597	599
+26354	matcher	Matcher<Boolean>	param	621	define	org.mockito.Matchers.booleanThat	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	621	623
+26354	matcher	Matcher<Boolean>	param	622	use	org.mockito.Matchers.booleanThat	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	621	623
+26356	matcher	Matcher<Byte>	param	633	define	org.mockito.Matchers.byteThat	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	633	635
+26356	matcher	Matcher<Byte>	param	634	use	org.mockito.Matchers.byteThat	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	633	635
+26358	matcher	Matcher<Character>	param	609	define	org.mockito.Matchers.charThat	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	609	611
+26358	matcher	Matcher<Character>	param	610	use	org.mockito.Matchers.charThat	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	609	611
+26360	substring	String	param	546	define	org.mockito.Matchers.contains	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	546	548
+26360	substring	String	param	547	use	org.mockito.Matchers.contains	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	546	548
+26362	matcher	Matcher<Double>	param	693	define	org.mockito.Matchers.doubleThat	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	693	695
+26362	matcher	Matcher<Double>	param	694	use	org.mockito.Matchers.doubleThat	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	693	695
+26364	suffix	String	param	572	define	org.mockito.Matchers.endsWith	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	572	574
+26364	suffix	String	param	573	use	org.mockito.Matchers.endsWith	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	572	574
+26380	value	short	param	446	define	org.mockito.Matchers.eq	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	446	448
+26380	value	short	param	447	use	org.mockito.Matchers.eq	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	446	448
+26378	value	long	param	433	define	org.mockito.Matchers.eq	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	433	435
+26378	value	long	param	434	use	org.mockito.Matchers.eq	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	433	435
+26366	value	boolean	param	355	define	org.mockito.Matchers.eq	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	355	357
+26366	value	boolean	param	356	use	org.mockito.Matchers.eq	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	355	357
+26368	value	byte	param	368	define	org.mockito.Matchers.eq	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	368	370
+26368	value	byte	param	369	use	org.mockito.Matchers.eq	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	368	370
+26370	value	char	param	381	define	org.mockito.Matchers.eq	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	381	383
+26370	value	char	param	382	use	org.mockito.Matchers.eq	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	381	383
+26376	value	int	param	420	define	org.mockito.Matchers.eq	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	420	422
+26376	value	int	param	421	use	org.mockito.Matchers.eq	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	420	422
+26374	value	float	param	407	define	org.mockito.Matchers.eq	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	407	409
+26374	value	float	param	408	use	org.mockito.Matchers.eq	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	407	409
+26383	value	T	param	459	define	org.mockito.Matchers.eq	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	459	461
+26383	value	T	param	460	use	org.mockito.Matchers.eq	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	459	461
+26372	value	double	param	394	define	org.mockito.Matchers.eq	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	394	396
+26372	value	double	param	395	use	org.mockito.Matchers.eq	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	394	396
+26385	matcher	Matcher<Float>	param	681	define	org.mockito.Matchers.floatThat	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	681	683
+26385	matcher	Matcher<Float>	param	682	use	org.mockito.Matchers.floatThat	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	681	683
+26387	matcher	Matcher<Integer>	param	657	define	org.mockito.Matchers.intThat	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	657	659
+26387	matcher	Matcher<Integer>	param	658	use	org.mockito.Matchers.intThat	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	657	659
+26390	clazz	Class<T>	param	342	define	org.mockito.Matchers.isA	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	342	344
+26390	clazz	Class<T>	param	343	use	org.mockito.Matchers.isA	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	342	344
+26393	NULL		variable	508	use	org.mockito.Matchers.isNull	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	507	509
+26395	matcher	Matcher<Long>	param	669	define	org.mockito.Matchers.longThat	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	669	671
+26395	matcher	Matcher<Long>	param	670	use	org.mockito.Matchers.longThat	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	669	671
+26397	regex	String	param	559	define	org.mockito.Matchers.matches	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	559	561
+26397	regex	String	param	560	use	org.mockito.Matchers.matches	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	559	561
+26399	NOT_NULL		variable	521	use	org.mockito.Matchers.notNull	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	520	522
+26403	value	T	param	481	define	org.mockito.Matchers.refEq	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	481	483
+26402	excludeFields	String...	param	481	define	org.mockito.Matchers.refEq	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	481	483
+26403	value	T	param	482	use	org.mockito.Matchers.refEq	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	481	483
+26402	excludeFields	String...	param	482	use	org.mockito.Matchers.refEq	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	481	483
+26407	matcher	Matcher<?>	param	697	define	org.mockito.Matchers.reportMatcher	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	697	699
+26407	matcher	Matcher<?>	param	698	use	org.mockito.Matchers.reportMatcher	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	697	699
+26415	Matchers.mockingProgress	MockingProgress	variable	698	use	org.mockito.Matchers.reportMatcher	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	697	699
+26410	value	T	param	496	define	org.mockito.Matchers.same	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	496	498
+26410	value	T	param	497	use	org.mockito.Matchers.same	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	496	498
+26412	matcher	Matcher<Short>	param	645	define	org.mockito.Matchers.shortThat	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	645	647
+26412	matcher	Matcher<Short>	param	646	use	org.mockito.Matchers.shortThat	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	645	647
+26414	prefix	String	param	585	define	org.mockito.Matchers.startsWith	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	585	587
+26414	prefix	String	param	586	use	org.mockito.Matchers.startsWith	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_38_buggy/src/org/mockito/Matchers.java	585	587

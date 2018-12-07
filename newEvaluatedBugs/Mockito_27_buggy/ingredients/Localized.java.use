@@ -1,0 +1,7 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+26860	Localized.location	Location	variable	24	use	org.mockito.internal.debugging.Localized.getLocation	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/debugging/Localized.java	23	25
+26861	Localized.object	T	variable	20	use	org.mockito.internal.debugging.Localized.getObject	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/debugging/Localized.java	19	21
+26857	object	T	param	14	define	org.mockito.internal.debugging.Localized.Localized	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/debugging/Localized.java	14	17
+26857	object	T	param	15	use	org.mockito.internal.debugging.Localized.Localized	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/debugging/Localized.java	14	17
+26861	Localized.object	T	variable	15	set	org.mockito.internal.debugging.Localized.Localized	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/debugging/Localized.java	14	17
+26860	Localized.location	Location	variable	16	set	org.mockito.internal.debugging.Localized.Localized	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_27_buggy/src/org/mockito/internal/debugging/Localized.java	14	17

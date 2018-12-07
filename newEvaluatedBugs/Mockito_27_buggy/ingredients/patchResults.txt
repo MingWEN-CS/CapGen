@@ -1,0 +1,70 @@
+org.mockito.internal.util.Primitives::::27::::738::::752::::org.mockito.internal.util.Primitives.primitiveValues::::org.mockito.internal.util.Primitives.wrapperReturnValues	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::840::::886::::(fromMockObject || fromOrgMockito) && (!isRunner)::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::840::::873::::fromMockObject || fromOrgMockito::::(fromMockObject || fromOrgMockito) && (!isRunner)	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::892::::907::::isInternalRunner::::fromMockObject || fromOrgMockito	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::892::::907::::isInternalRunner::::(fromMockObject || fromOrgMockito) && (!isRunner)	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::892::::907::::isInternalRunner::::!isRunner	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::879::::886::::isRunner::::isInternalRunner	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::879::::886::::isRunner::::fromMockObject || fromOrgMockito	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::892::::907::::isInternalRunner::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::859::::872::::fromOrgMockito::::isRunner	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::859::::872::::fromOrgMockito::::fromMockObject || fromOrgMockito	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::859::::872::::fromOrgMockito::::!isRunner	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::841::::854::::fromMockObject::::isRunner	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::841::::854::::fromMockObject::::fromMockObject || fromOrgMockito	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::841::::854::::fromMockObject::::!isRunner	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::879::::886::::isRunner::::(fromMockObject || fromOrgMockito) && (!isRunner)	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::879::::886::::isRunner::::!isInternalRunner	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::879::::886::::isRunner::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::859::::872::::fromOrgMockito::::isInternalRunner	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::859::::872::::fromOrgMockito::::(fromMockObject || fromOrgMockito) && (!isRunner)	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::859::::872::::fromOrgMockito::::!isInternalRunner	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::841::::854::::fromMockObject::::isInternalRunner	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::841::::854::::fromMockObject::::(fromMockObject || fromOrgMockito) && (!isRunner)	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::841::::854::::fromMockObject::::!isInternalRunner	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::859::::872::::fromOrgMockito::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::841::::854::::fromMockObject::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner	false
+org.mockito.exceptions.base.MockitoAssertionError::::23::::625::::630::::filter::::new org.mockito.internal.exceptions.base.ConditionalStackTraceFilter()	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::840::::873::::fromMockObject || fromOrgMockito::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::892::::907::::isInternalRunner::::isRunner	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::879::::886::::isRunner::::fromOrgMockito	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::879::::886::::isRunner::::fromMockObject	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::892::::907::::isInternalRunner::::fromOrgMockito	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::892::::907::::isInternalRunner::::fromMockObject	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::23::::776::::790::::createInfoField::::namingPolicyField	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::22::::707::::721::::createInfoField::::namingPolicyField	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::26::::971::::987::::namingPolicyField::::createInfoField	false
+org.mockito.internal.util.Primitives::::15::::345::::363::::org.mockito.internal.util.Primitives.wrapperReturnValues::::org.mockito.internal.util.Primitives.primitiveValues	false
+org.mockito.internal.matchers.Any::::26::::646::::677::::description.appendText("<any>")::::DELETE::::STATEMENT	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::25::::916::::932::::namingPolicyField::::createInfoField	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::23::::776::::790::::createInfoField::::reflectOnCreateInfo(methodProxy)	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::840::::886::::(fromMockObject || fromOrgMockito) && (!isRunner)::::!isRunner	false
+org.mockito.internal.invocation.MatchersBinder::::22::::703::::745::::validateMatchers(invocation, lastMatchers)::::INSERT::::STATEMENT::::validateMatchers(invocation, lastMatchers)	false
+org.mockito.internal.invocation.MatchersBinder::::25::::856::::885::::return invocationWithMatchers::::INSERT::::STATEMENT::::validateMatchers(invocation, lastMatchers)	false
+org.mockito.internal.invocation.MatchersBinder::::21::::627::::693::::java.util.List<org.hamcrest.Matcher> lastMatchers = argumentMatcherStorage.pullMatchers()::::INSERT::::STATEMENT::::validateMatchers(invocation, lastMatchers)	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::22::::707::::721::::createInfoField::::reflectOnCreateInfo(methodProxy)	false
+org.mockito.internal.invocation.MatchersBinder::::24::::756::::846::::org.mockito.internal.invocation.InvocationMatcher invocationWithMatchers = new org.mockito.internal.invocation.InvocationMatcher(invocation, lastMatchers)::::INSERT::::STATEMENT::::validateMatchers(invocation, lastMatchers)	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::840::::907::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner::::isRunner	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::840::::907::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner::::isInternalRunner	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::840::::907::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner::::fromOrgMockito	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::840::::907::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner::::fromMockObject	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::840::::907::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner::::!isRunner	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::840::::907::::(fromMockObject || fromOrgMockito) && (!isRunner)) && (!isInternalRunner::::!isInternalRunner	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::26::::971::::987::::namingPolicyField::::reflectOnCreateInfo(methodProxy)	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::25::::916::::932::::namingPolicyField::::reflectOnCreateInfo(methodProxy)	false
+org.mockito.internal.util.MockName::::22::::624::::648::::this.mockName = mockName::::this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock)	false
+org.mockito.internal.util.MockName::::22::::624::::648::::this.mockName = mockName::::INSERT::::STATEMENT::::if (mockName == null) {    this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock);    this.surrogate = true;}else {    this.mockName = mockName;}	false
+org.mockito.internal.verification.RegisteredInvocations::::24::::724::::751::::invocations.add(invocation)::::DELETE::::STATEMENT	false
+org.mockito.internal.invocation.MatchersBinder::::22::::703::::745::::validateMatchers(invocation, lastMatchers)::::DELETE::::STATEMENT	false
+org.mockito.internal.util.MockName::::20::::572::::593::::this.surrogate = true::::INSERT::::STATEMENT::::if (mockName == null) {    this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock);    this.surrogate = true;}else {    this.mockName = mockName;}	false
+org.mockito.internal.util.MockName::::19::::515::::558::::this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock)::::INSERT::::STATEMENT::::if (mockName == null) {    this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock);    this.surrogate = true;}else {    this.mockName = mockName;}	false
+org.mockito.internal.util.MockCreationValidator::::26::::769::::775::::return ::::INSERT::::STATEMENT::::if (extraInterfaces == null) {    return ;}	false
+org.mockito.internal.util.MockName::::19::::515::::558::::this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock)::::this.mockName = mockName	false
+org.mockito.internal.progress.ThreadSafeMockingProgress::::23::::782::::828::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.set(new org.mockito.internal.progress.MockingProgressImpl())::::DELETE::::STATEMENT	false
+org.mockito.internal.util.MockCreationValidator::::25::::726::::785::::if (extraInterfaces == null) {    return ;}::::INSERT::::STATEMENT::::if (extraInterfaces == null) {    return ;}	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::891::::907::::!isInternalRunner::::DELETE::::INFIX	false
+org.mockito.internal.exceptions.base.StackTraceFilter::::22::::878::::886::::!isRunner::::DELETE::::INFIX	false
+org.mockito.internal.progress.ThreadSafeMockingProgress::::22::::737::::757::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.get()::::DELETE::::INFIX	false
+org.mockito.internal.util.ObjectMethodsGuru::::23::::641::::662::::method.getReturnType()::::DELETE::::INFIX	false
+org.mockito.internal.creation.cglib.CGLIBHacker::::26::::971::::1003::::namingPolicyField.get(createInfo)::::DELETE::::INFIX	false
+org.mockito.internal.invocation.InvocationsFinder::::19::::586::::596::::invocations::::removeVerifiedInOrder(invocations, orderingContext)	false

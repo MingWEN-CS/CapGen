@@ -1,0 +1,4 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+9887	cls	Class<T>	param	13	define	org.mockito.internal.creation.instance.ObjenesisInstantiator.newInstance	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_9_buggy/src/org/mockito/internal/creation/instance/ObjenesisInstantiator.java	13	15
+9887	cls	Class<T>	param	14	use	org.mockito.internal.creation.instance.ObjenesisInstantiator.newInstance	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_9_buggy/src/org/mockito/internal/creation/instance/ObjenesisInstantiator.java	13	15
+9888	ObjenesisInstantiator.objenesis	ObjenesisStd	variable	14	use	org.mockito.internal.creation.instance.ObjenesisInstantiator.newInstance	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_9_buggy/src/org/mockito/internal/creation/instance/ObjenesisInstantiator.java	13	15

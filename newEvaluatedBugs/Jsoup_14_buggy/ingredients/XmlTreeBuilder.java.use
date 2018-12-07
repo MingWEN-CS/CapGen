@@ -1,0 +1,113 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+14365	input	String	param	17	define	org.jsoup.parser.XmlTreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	17	21
+14362	baseUri	String	param	17	define	org.jsoup.parser.XmlTreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	17	21
+14364	errors	ParseErrorList	param	17	define	org.jsoup.parser.XmlTreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	17	21
+14365	input	String	param	18	use	org.jsoup.parser.XmlTreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	17	21
+14362	baseUri	String	param	18	use	org.jsoup.parser.XmlTreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	17	21
+14364	errors	ParseErrorList	param	18	use	org.jsoup.parser.XmlTreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	17	21
+14363	doc		variable	19	use	org.jsoup.parser.XmlTreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	17	21
+14363	doc		variable	20	use	org.jsoup.parser.XmlTreeBuilder.initialiseParse	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	17	21
+14383	commentToken	Token.Comment	param	69	define	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14383	commentToken	Token.Comment	param	70	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14383	commentToken	Token.Comment	param	72	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14382	comment	Comment	variable	70	define	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14386	insert	Node	variable	71	define	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14384	data	String	variable	74	define	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14385	declaration	String	variable	76	define	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14382	comment	Comment	variable	70	set	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14386	insert	Node	variable	71	set	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14384	data	String	variable	74	set	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14385	declaration	String	variable	76	set	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14386	insert	Node	variable	77	set	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14374	baseUri		variable	70	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14382	comment	Comment	variable	71	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14381	bogus		variable	72	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14382	comment	Comment	variable	74	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14384	data	String	variable	75	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14384	data	String	variable	75	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14384	data	String	variable	75	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14384	data	String	variable	76	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14385	declaration	String	variable	77	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14382	comment	Comment	variable	77	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14384	data	String	variable	77	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14386	insert	Node	variable	80	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	69	80
+14388	characterToken	Token.Character	param	83	define	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	83	86
+14388	characterToken	Token.Character	param	84	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	83	86
+14389	node	Node	variable	84	define	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	83	86
+14389	node	Node	variable	84	set	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	83	86
+14374	baseUri		variable	84	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	83	86
+14389	node	Node	variable	85	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	83	86
+14394	d	Token.Doctype	param	88	define	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	88	91
+14394	d	Token.Doctype	param	89	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	88	91
+14394	d	Token.Doctype	param	89	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	88	91
+14394	d	Token.Doctype	param	89	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	88	91
+14395	doctypeNode	DocumentType	variable	89	define	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	88	91
+14395	doctypeNode	DocumentType	variable	89	set	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	88	91
+14374	baseUri		variable	89	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	88	91
+14395	doctypeNode	DocumentType	variable	90	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	88	91
+14376	startTag	Token.StartTag	param	54	define	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	54	66
+14376	startTag	Token.StartTag	param	55	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	54	66
+14376	startTag	Token.StartTag	param	57	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	54	66
+14376	startTag	Token.StartTag	param	59	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	54	66
+14377	tag	Tag	variable	55	define	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	54	66
+14375	el	Element	variable	57	define	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	54	66
+14377	tag	Tag	variable	55	set	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	54	66
+14375	el	Element	variable	57	set	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	54	66
+14377	tag	Tag	variable	57	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	54	66
+14374	baseUri		variable	57	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	54	66
+14373	attributes		variable	57	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	54	66
+14375	el	Element	variable	58	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	54	66
+14377	tag	Tag	variable	61	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	54	66
+14377	tag	Tag	variable	62	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	54	66
+14375	el	Element	variable	64	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	54	66
+14375	el	Element	variable	66	use	org.jsoup.parser.XmlTreeBuilder.insert	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	54	66
+14399	node	Node	param	50	define	org.jsoup.parser.XmlTreeBuilder.insertNode	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	50	52
+14399	node	Node	param	51	use	org.jsoup.parser.XmlTreeBuilder.insertNode	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	50	52
+14405	inputFragment	String	param	121	define	org.jsoup.parser.XmlTreeBuilder.parseFragment	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	121	125
+14403	baseUri	String	param	121	define	org.jsoup.parser.XmlTreeBuilder.parseFragment	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	121	125
+14404	errors	ParseErrorList	param	121	define	org.jsoup.parser.XmlTreeBuilder.parseFragment	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	121	125
+14405	inputFragment	String	param	122	use	org.jsoup.parser.XmlTreeBuilder.parseFragment	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	121	125
+14403	baseUri	String	param	122	use	org.jsoup.parser.XmlTreeBuilder.parseFragment	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	121	125
+14404	errors	ParseErrorList	param	122	use	org.jsoup.parser.XmlTreeBuilder.parseFragment	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	121	125
+14416	endTag	Token.EndTag	param	99	define	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14416	endTag	Token.EndTag	param	100	use	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14415	elName	String	variable	100	define	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14417	firstFound	Element	variable	101	define	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14411	pos	int	variable	103	define	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14410	next	Element	variable	104	define	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14414	pos	int	variable	113	define	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14413	next	Element	variable	114	define	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14415	elName	String	variable	100	set	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14417	firstFound	Element	variable	101	set	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14411	pos	int	variable	103	set	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14410	next	Element	variable	104	set	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14417	firstFound	Element	variable	106	set	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14414	pos	int	variable	113	set	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14413	next	Element	variable	114	set	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14411	pos	int	variable	103	use	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14411	pos	int	variable	104	use	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14410	next	Element	variable	105	use	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14415	elName	String	variable	105	use	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14410	next	Element	variable	106	use	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14417	firstFound	Element	variable	110	use	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14414	pos	int	variable	113	use	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14414	pos	int	variable	114	use	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14414	pos	int	variable	115	use	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14413	next	Element	variable	116	use	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14417	firstFound	Element	variable	116	use	org.jsoup.parser.XmlTreeBuilder.popStackToClose	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	99	117
+14432	token	Token	param	24	define	org.jsoup.parser.XmlTreeBuilder.process	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	24	47
+14432	token	Token	param	26	use	org.jsoup.parser.XmlTreeBuilder.process	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	24	47
+14432	token	Token	param	28	use	org.jsoup.parser.XmlTreeBuilder.process	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	24	47
+14432	token	Token	param	31	use	org.jsoup.parser.XmlTreeBuilder.process	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	24	47
+14432	token	Token	param	34	use	org.jsoup.parser.XmlTreeBuilder.process	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	24	47
+14432	token	Token	param	37	use	org.jsoup.parser.XmlTreeBuilder.process	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	24	47
+14432	token	Token	param	40	use	org.jsoup.parser.XmlTreeBuilder.process	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	24	47
+14432	token	Token	param	45	use	org.jsoup.parser.XmlTreeBuilder.process	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	24	47
+14433	type		variable	26	use	org.jsoup.parser.XmlTreeBuilder.process	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	24	47
+14431	StartTag		variable	27	use	org.jsoup.parser.XmlTreeBuilder.process	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	24	47
+14430	EndTag		variable	30	use	org.jsoup.parser.XmlTreeBuilder.process	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	24	47
+14427	Comment		variable	33	use	org.jsoup.parser.XmlTreeBuilder.process	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	24	47
+14426	Character		variable	36	use	org.jsoup.parser.XmlTreeBuilder.process	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	24	47
+14428	Doctype		variable	39	use	org.jsoup.parser.XmlTreeBuilder.process	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	24	47
+14429	EOF		variable	42	use	org.jsoup.parser.XmlTreeBuilder.process	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	24	47
+14433	type		variable	45	use	org.jsoup.parser.XmlTreeBuilder.process	/home1/mwenaa/2016Summer/CapGen/newBugs/Jsoup_14_buggy/src/main/java/org/jsoup/parser/XmlTreeBuilder.java	24	47

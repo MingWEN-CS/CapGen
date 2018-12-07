@@ -1,0 +1,8 @@
+variable ID 	 variable name 	 variable type 	 reference kind (param or variable) 	 reference line 	 define or set or use? 	 method name 	 source file 	 start line 	 end line
+275	Timer.startTime	long	variable	17	use	org.mockito.internal.util.Timer.isCounting	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/Timer.java	16	19
+275	Timer.startTime	long	variable	18	use	org.mockito.internal.util.Timer.isCounting	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/Timer.java	16	19
+274	Timer.durationMillis	long	variable	18	use	org.mockito.internal.util.Timer.isCounting	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/Timer.java	16	19
+275	Timer.startTime	long	variable	25	set	org.mockito.internal.util.Timer.start	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/Timer.java	24	26
+271	durationMillis	long	param	9	define	org.mockito.internal.util.Timer.Timer	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/Timer.java	9	11
+271	durationMillis	long	param	10	use	org.mockito.internal.util.Timer.Timer	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/Timer.java	9	11
+274	Timer.durationMillis	long	variable	10	set	org.mockito.internal.util.Timer.Timer	/home1/mwenaa/2016Summer/CapGen/newBugs/Mockito_2_buggy/src/org/mockito/internal/util/Timer.java	9	11
