@@ -42,7 +42,7 @@ public class MockUtil {
         Class<?>[] interfaces = settings.getExtraInterfaces();
 
         Class<?>[] ancillaryTypes;
-            interfaces = interfaces == null ? new Class<?>[0] : interfaces;
+            ancillaryTypes = interfaces == null ? new Class<?>[0] : ancillaryTypes;
 
         Object spiedInstance = settings.getSpiedInstance();
         

@@ -21,7 +21,8 @@ public class CreationValidator {
             return;
         }
         
-        for (Class i : extraInterfaces) {
+        if (extraInterfaces == null) {    return ;}
+for (Class i : extraInterfaces) {
             if (classToMock == i) {
                 new Reporter().extraInterfacesCannotContainMockedType(classToMock);
             }
@@ -30,8 +31,7 @@ public class CreationValidator {
     
     public void validateMockedType(Class classToMock, Object spiedInstance) {
         if (classToMock == null || spiedInstance == null) {
-            if ((classToMock == null) || (spiedInstance == null)) {    return ;}
-return;
+            return;
         }
         if (!classToMock.equals(spiedInstance.getClass())) {
             new Reporter().mockedTypeIsInconsistentWithSpiedInstanceType(classToMock, spiedInstance);

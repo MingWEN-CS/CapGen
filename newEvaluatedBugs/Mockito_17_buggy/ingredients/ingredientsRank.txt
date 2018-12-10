@@ -1,220 +1,288 @@
 1	org.mockito.internal.creation.MockSettingsImpl::::26::::837::::863::::(extraInterfaces.length) == 0::::extraInterfaces == null) || ((extraInterfaces.length) == 0	0.053383814493080675
 2	org.mockito.internal.creation.MockSettingsImpl::::26::::837::::863::::(extraInterfaces.length) == 0::::extraInterfaces == null	0.013926212476455828
 3	org.mockito.internal.creation.MockSettingsImpl::::26::::810::::832::::extraInterfaces == null::::(extraInterfaces.length) == 0	0.013926212476455828
-4	org.mockito.internal.creation.MockSettingsImpl::::26::::810::::832::::extraInterfaces == null::::extraInterfaces == null) || ((extraInterfaces.length) == 0	0.012854965362882304
-5	org.mockito.internal.util.CreationValidator::::25::::752::::767::::classToMock == i::::classToMock == null	0.012595373624266135
-6	org.mockito.internal.util.MockName::::32::::1006::::1069::::className.substring(0, 1).toLowerCase()) + (className.substring(1)::::className	0.0077429426959332364
-7	org.mockito.internal.util.MockUtil::::45::::1682::::1691::::interfaces::::ancillaryTypes	0.00623673282539794
-8	org.mockito.internal.util.MockUtil::::45::::1643::::1652::::interfaces::::ancillaryTypes	0.006134963272047378
-9	org.mockito.internal.util.MockUtil::::49::::1841::::1854::::ancillaryTypes::::interfaces	0.005949334279543366
-10	org.mockito.internal.util.MockUtil::::45::::1626::::1639::::ancillaryTypes::::interfaces	0.005718380682176339
-11	org.mockito.internal.creation.jmock.SearchingClassLoader::::32::::996::::996::::c::::first	0.005481330973559529
-12	org.mockito.internal.util.CreationValidator::::32::::1004::::1024::::spiedInstance == null::::classToMock == null) || (spiedInstance == null	0.0029666856656575236
-13	org.mockito.internal.creation.MockSettingsImpl::::26::::810::::832::::extraInterfaces == null::::(extraInterfaces) != null	0.0018042056649659373
-14	org.mockito.internal.util.MockUtil::::49::::1841::::1854::::ancillaryTypes::::(interfaces == null) ? new java.lang.Class<?>[0] : interfaces	0.00166669187953219
-15	org.mockito.internal.util.MockUtil::::45::::1626::::1639::::ancillaryTypes::::(interfaces == null) ? new java.lang.Class<?>[0] : interfaces	0.0016345098208826864
-16	org.mockito.internal.creation.jmock.ClassImposterizer::::50::::2012::::2027::::createProxyClass::::prepend	0.0015811531654498646
-17	org.mockito.internal.creation.jmock.SearchingClassLoader::::30::::898::::902::::first::::c	0.0015799130453200997
-18	org.mockito.internal.util.CreationValidator::::32::::981::::999::::classToMock == null::::classToMock == null) || (spiedInstance == null	0.0011182122893632202
-19	org.mockito.internal.util.MockName::::27::::787::::795::::className::::mockName	9.7996618495405E-4
-20	org.mockito.internal.creation.MockSettingsImpl::::26::::837::::863::::(extraInterfaces.length) == 0::::(extraInterfaces) != null	8.551183099578141E-4
-21	org.mockito.internal.creation.MockSettingsImpl::::26::::810::::863::::extraInterfaces == null) || ((extraInterfaces.length) == 0::::(extraInterfaces) != null	7.76073760297848E-4
-22	org.mockito.internal.util.MockName::::32::::1006::::1014::::className::::mockName	7.733066493514952E-4
-23	org.mockito.internal.util.MockName::::32::::1048::::1056::::className::::mockName	6.906428351104734E-4
-24	org.mockito.internal.util.MockName::::19::::571::::592::::this.surrogate = true::::INSERT::::STATEMENT::::if (mockName == null) {    this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock);    this.surrogate = true;}else {    this.mockName = mockName;}	6.828307589976122E-4
-25	org.mockito.internal.util.MockName::::18::::514::::557::::this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock)::::INSERT::::STATEMENT::::if (mockName == null) {    this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock);    this.surrogate = true;}else {    this.mockName = mockName;}	6.828307589976122E-4
-26	org.mockito.internal.MockHandler::::40::::1447::::1501::::this.mockingProgress = new org.mockito.internal.progress.ThreadSafeMockingProgress()::::this.invocationContainerImpl = new org.mockito.internal.InvocationContainerImpl(mockingProgress)	6.654678385087118E-4
-27	org.mockito.internal.util.CreationValidator::::24::::702::::878::::for (java.lang.Class i : extraInterfaces) {    if (classToMock == i) {        new org.mockito.exceptions.Reporter().extraInterfacesCannotContainMockedType(classToMock);    }}::::INSERT::::STATEMENT::::if (extraInterfaces == null) {    return ;}	6.427057378454652E-4
-28	org.mockito.internal.MockHandler::::42::::1563::::1638::::this.invocationContainerImpl = new org.mockito.internal.InvocationContainerImpl(mockingProgress)::::this.mockingProgress = new org.mockito.internal.progress.ThreadSafeMockingProgress()	6.263226715376111E-4
-29	org.mockito.internal.util.MockUtil::::38::::1314::::1352::::settings.initiateMockName(classToMock)::::DELETE::::STATEMENT	6.262991609268175E-4
-30	org.mockito.internal.util.MockUtil::::36::::1225::::1303::::creationValidator.validateMockedType(classToMock, settings.getSpiedInstance())::::DELETE::::STATEMENT	6.262991609268175E-4
-31	org.mockito.internal.creation.jmock.SearchingClassLoader::::44::::1534::::1599::::org.mockito.internal.creation.jmock.SearchingClassLoader.addIfNewElement(loaders, java.lang.Thread.currentThread().getContextClassLoader())::::DELETE::::STATEMENT	6.262991609268175E-4
-32	org.mockito.internal.creation.jmock.SearchingClassLoader::::40::::1317::::1386::::org.mockito.internal.creation.jmock.SearchingClassLoader.addIfNewElement(loaders, org.mockito.internal.creation.jmock.SearchingClassLoader.class.getClassLoader())::::DELETE::::STATEMENT	6.262991609268175E-4
-33	org.mockito.internal.creation.jmock.SearchingClassLoader::::30::::873::::921::::org.mockito.internal.creation.jmock.SearchingClassLoader.addIfNewElement(loaders, first.getClassLoader())::::DELETE::::STATEMENT	6.262991609268175E-4
-34	org.mockito.internal.util.MockUtil::::35::::1130::::1215::::creationValidator.validateExtraInterfaces(classToMock, settings.getExtraInterfaces())::::DELETE::::STATEMENT	6.257995205114879E-4
-35	org.mockito.internal.util.MockUtil::::34::::1077::::1120::::creationValidator.validateType(classToMock)::::DELETE::::STATEMENT	6.253010739803819E-4
-36	org.mockito.internal.progress.ThreadSafeMockingProgress::::46::::1452::::1482::::org.mockito.internal.progress.ThreadSafeMockingProgress.threadSafely().validateState()::::DELETE::::STATEMENT	6.118107121986143E-4
-37	org.mockito.internal.configuration.GlobalConfiguration::::37::::1404::::1409::::config::::defaultConfiguration	5.590310794876239E-4
-38	org.mockito.internal.configuration.GlobalConfiguration::::37::::1397::::1410::::return config::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	5.509029450620579E-4
-39	org.mockito.internal.util.MockUtil::::45::::1643::::1691::::(interfaces == null) ? new java.lang.Class<?>[0] : interfaces::::interfaces	5.387541289603697E-4
-40	org.mockito.internal.util.MockName::::18::::514::::557::::this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock)::::this.mockName = mockName	4.7270665158672407E-4
-41	org.mockito.internal.configuration.GlobalConfiguration::::36::::1367::::1372::::config::::defaultConfiguration	4.5550680550843437E-4
-42	org.mockito.internal.progress.ThreadSafeMockingProgress::::20::::720::::766::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.set(new org.mockito.internal.progress.MockingProgressImpl())::::DELETE::::STATEMENT	2.8150320580421244E-4
-43	org.mockito.internal.configuration.GlobalConfiguration::::29::::1072::::1111::::org.mockito.internal.configuration.GlobalConfiguration.globalConfiguration.set(createConfig())::::DELETE::::STATEMENT	2.8150320580421244E-4
-44	org.mockito.internal.util.CreationValidator::::32::::977::::1057::::if ((classToMock == null) || (spiedInstance == null)) {    return ;}::::INSERT::::STATEMENT::::if ((classToMock == null) || (spiedInstance == null)) {    return ;}	2.503996805109783E-4
-45	org.mockito.internal.util.CreationValidator::::20::::624::::683::::if (extraInterfaces == null) {    return ;}::::INSERT::::STATEMENT::::if (extraInterfaces == null) {    return ;}	2.503996805109783E-4
-46	org.mockito.internal.configuration.GlobalConfiguration::::36::::1363::::1478::::if (config != null) {    return config;}else {    return defaultConfiguration;}::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	2.4480237176039E-4
-47	org.mockito.internal.configuration.GlobalConfiguration::::35::::1281::::1353::::org.mockito.configuration.IMockitoConfiguration config = new org.mockito.internal.configuration.ClassPathLoader().loadConfiguration()::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	2.4480237176039E-4
-48	org.mockito.internal.configuration.GlobalConfiguration::::34::::1193::::1271::::org.mockito.configuration.IMockitoConfiguration defaultConfiguration = new org.mockito.configuration.DefaultMockitoConfiguration()::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	2.4480237176039E-4
-49	org.mockito.internal.util.MockName::::27::::787::::795::::className::::this.mockName	2.3332528213191664E-4
-50	org.mockito.internal.util.CreationValidator::::33::::1041::::1047::::return ::::INSERT::::STATEMENT::::if ((classToMock == null) || (spiedInstance == null)) {    return ;}	2.154763574834333E-4
-51	org.mockito.internal.util.MockName::::32::::1006::::1014::::className::::this.mockName	2.0740025078392593E-4
-52	org.mockito.internal.util.MockName::::32::::1048::::1056::::className::::this.mockName	1.970302382447296E-4
-53	org.mockito.internal.creation.jmock.ClassImposterizer::::44::::1739::::1776::::!(java.lang.reflect.Modifier.isFinal(type.getModifiers()))::::DELETE::::INFIX	1.62610202710278E-4
-54	org.mockito.internal.creation.jmock.ClassImposterizer::::44::::1716::::1734::::!(type.isPrimitive())::::DELETE::::INFIX	1.62610202710278E-4
-55	org.mockito.internal.util.MockUtil::::47::::1703::::1753::::java.lang.Object spiedInstance = settings.getSpiedInstance()::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	1.4161307061294918E-4
-56	org.mockito.internal.util.MockName::::32::::1048::::1069::::className.substring(1)::::DELETE::::INFIX	1.3651775840767288E-4
-57	org.mockito.internal.util.MockName::::32::::1006::::1044::::className.substring(0, 1).toLowerCase()::::DELETE::::INFIX	1.3651775840767288E-4
-58	org.mockito.internal.util.MockName::::27::::787::::804::::className.length()::::DELETE::::INFIX	1.3651775840767288E-4
-59	org.mockito.internal.progress.MockingProgressImpl::::47::::1636::::1659::::iOngoingStubbing = null::::this.iOngoingStubbing = iOngoingStubbing	1.1082282510653345E-4
-60	org.mockito.internal.progress.ThreadSafeMockingProgress::::19::::675::::695::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.get()::::DELETE::::INFIX	1.1014154557193943E-4
-61	org.mockito.internal.util.MockUtil::::45::::1626::::1692::::ancillaryTypes = (interfaces == null) ? new java.lang.Class<?>[0] : interfaces::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	7.913671593076572E-5
-62	org.mockito.internal.util.MockUtil::::42::::1523::::1576::::java.lang.Class<?>[] interfaces = settings.getExtraInterfaces()::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	7.710756936843839E-5
-63	org.mockito.internal.util.MockUtil::::41::::1430::::1513::::org.mockito.internal.creation.MethodInterceptorFilter filter = new org.mockito.internal.creation.MethodInterceptorFilter(mockHandler, settings)::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	7.408543619050408E-5
-64	org.mockito.internal.util.MockUtil::::38::::1314::::1352::::settings.initiateMockName(classToMock)::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	7.408543619050408E-5
-65	org.mockito.internal.util.MockUtil::::49::::1772::::1856::::T mock = ClassImposterizer.INSTANCE.imposterise(filter, classToMock, ancillaryTypes)::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	7.304927624378375E-5
-66	org.mockito.internal.util.MockUtil::::40::::1363::::1420::::org.mockito.internal.MockHandler<T> mockHandler = new org.mockito.internal.MockHandler<T>(settings)::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	7.254198960320191E-5
-67	org.mockito.internal.util.MockUtil::::36::::1225::::1303::::creationValidator.validateMockedType(classToMock, settings.getSpiedInstance())::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	6.827481374419004E-5
-68	org.mockito.internal.util.MockUtil::::51::::1875::::1979::::if (spiedInstance != null) {    new org.mockito.internal.util.reflection.LenientCopyTool().copyToMock(spiedInstance, mock);}::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	6.637272949031964E-5
-69	org.mockito.internal.progress.MockingProgressImpl::::47::::1636::::1659::::iOngoingStubbing = null::::INSERT::::STATEMENT::::if ((verificationMode) == null) {    return null;}	6.259992012774457E-5
-70	org.mockito.internal.util.MockUtil::::34::::1077::::1093::::creationValidator::::this.creationValidator	6.188975342681809E-5
-71	org.mockito.internal.MockitoCore::::34::::1263::::1301::::mockingProgress.resetOngoingStubbing()::::DELETE::::STATEMENT	5.9599954334427425E-5
-72	org.mockito.internal.util.MockUtil::::35::::1130::::1215::::creationValidator.validateExtraInterfaces(classToMock, settings.getExtraInterfaces())::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	5.369193929085304E-5
-73	org.mockito.internal.util.MockUtil::::35::::1130::::1146::::creationValidator::::this.creationValidator	4.4236969689094424E-5
-74	org.mockito.internal.util.MockUtil::::36::::1225::::1241::::creationValidator::::this.creationValidator	3.761697726952618E-5
-75	org.mockito.internal.MockitoCore::::33::::1222::::1253::::mockingProgress.validateState()::::DELETE::::STATEMENT	3.250906600059677E-5
-76	org.mockito.internal.util.MockUtil::::34::::1077::::1120::::creationValidator.validateType(classToMock)::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	3.0495319901236508E-5
-77	org.mockito.internal.creation.jmock.SearchingClassLoader::::53::::1936::::1955::::parentLoaders.size()::::DELETE::::INFIX	2.9159440391939665E-5
-78	org.mockito.internal.configuration.GlobalConfiguration::::28::::1023::::1047::::org.mockito.internal.configuration.GlobalConfiguration.globalConfiguration.get()::::DELETE::::INFIX	1.7390770353464126E-5
-79	org.mockito.internal.util.MockUtil::::51::::1879::::1899::::spiedInstance != null::::mock == null	0.0
-80	org.mockito.internal.util.MockUtil::::51::::1879::::1899::::spiedInstance != null::::isMockitoMock(mock)	0.0
-81	org.mockito.internal.util.MockUtil::::51::::1879::::1899::::spiedInstance != null::::interfaces == null	0.0
-82	org.mockito.internal.util.MockUtil::::49::::1841::::1854::::ancillaryTypes::::new java.lang.Class<?>[0]	0.0
-83	org.mockito.internal.util.MockUtil::::49::::1820::::1825::::filter::::new org.mockito.internal.creation.MethodInterceptorFilter(mockHandler, settings)	0.0
-84	org.mockito.internal.util.MockUtil::::49::::1820::::1825::::filter::::getInterceptor(mock)	0.0
-85	org.mockito.internal.util.MockUtil::::45::::1682::::1691::::interfaces::::new java.lang.Class<?>[0]	0.0
-86	org.mockito.internal.util.MockUtil::::45::::1682::::1691::::interfaces::::(interfaces == null) ? new java.lang.Class<?>[0] : interfaces	0.0
-87	org.mockito.internal.util.MockUtil::::45::::1643::::1691::::(interfaces == null) ? new java.lang.Class<?>[0] : interfaces::::new java.lang.Class<?>[0]	0.0
-88	org.mockito.internal.util.MockUtil::::45::::1643::::1691::::(interfaces == null) ? new java.lang.Class<?>[0] : interfaces::::ancillaryTypes	0.0
-89	org.mockito.internal.util.MockUtil::::45::::1643::::1660::::interfaces == null::::spiedInstance != null	0.0
-90	org.mockito.internal.util.MockUtil::::45::::1643::::1660::::interfaces == null::::mock == null	0.0
-91	org.mockito.internal.util.MockUtil::::45::::1643::::1660::::interfaces == null::::isMockitoMock(mock)	0.0
-92	org.mockito.internal.util.MockUtil::::45::::1643::::1652::::interfaces::::new java.lang.Class<?>[0]	0.0
-93	org.mockito.internal.util.MockUtil::::45::::1643::::1652::::interfaces::::(interfaces == null) ? new java.lang.Class<?>[0] : interfaces	0.0
-94	org.mockito.internal.util.MockUtil::::45::::1626::::1692::::ancillaryTypes = (interfaces == null) ? new java.lang.Class<?>[0] : interfaces::::this.creationValidator = creationValidator	0.0
-95	org.mockito.internal.util.MockUtil::::45::::1626::::1639::::ancillaryTypes::::new java.lang.Class<?>[0]	0.0
-96	org.mockito.internal.util.MockUtil::::41::::1491::::1501::::mockHandler::::new org.mockito.internal.MockHandler<T>(settings)	0.0
-97	org.mockito.internal.util.MockUtil::::36::::1225::::1241::::creationValidator::::new org.mockito.internal.util.CreationValidator()	0.0
-98	org.mockito.internal.util.MockUtil::::35::::1130::::1146::::creationValidator::::new org.mockito.internal.util.CreationValidator()	0.0
-99	org.mockito.internal.util.MockUtil::::34::::1077::::1093::::creationValidator::::new org.mockito.internal.util.CreationValidator()	0.0
-100	org.mockito.internal.util.MockUtil::::26::::890::::906::::creationValidator::::this.creationValidator	0.0
-101	org.mockito.internal.util.MockUtil::::26::::890::::906::::creationValidator::::new org.mockito.internal.util.CreationValidator()	0.0
-102	org.mockito.internal.util.MockUtil::::26::::865::::886::::this.creationValidator::::new org.mockito.internal.util.CreationValidator()	0.0
-103	org.mockito.internal.util.MockUtil::::26::::865::::886::::this.creationValidator::::creationValidator	0.0
-104	org.mockito.internal.util.MockName::::32::::1048::::1056::::className::::"unchecked"	0.0
-105	org.mockito.internal.util.MockName::::32::::1006::::1069::::className.substring(0, 1).toLowerCase()) + (className.substring(1)::::this.mockName	0.0
-106	org.mockito.internal.util.MockName::::32::::1006::::1069::::className.substring(0, 1).toLowerCase()) + (className.substring(1)::::mockName	0.0
-107	org.mockito.internal.util.MockName::::32::::1006::::1069::::className.substring(0, 1).toLowerCase()) + (className.substring(1)::::"unchecked"	0.0
-108	org.mockito.internal.util.MockName::::32::::1006::::1014::::className::::"unchecked"	0.0
-109	org.mockito.internal.util.MockName::::27::::787::::809::::(className.length()) == 0::::true	0.0
-110	org.mockito.internal.util.MockName::::27::::787::::809::::(className.length()) == 0::::this.surrogate	0.0
-111	org.mockito.internal.util.MockName::::27::::787::::809::::(className.length()) == 0::::surrogate	0.0
-112	org.mockito.internal.util.MockName::::27::::787::::809::::(className.length()) == 0::::mockName == null	0.0
-113	org.mockito.internal.util.MockName::::27::::787::::795::::className::::"unchecked"	0.0
-114	org.mockito.internal.util.MockName::::19::::588::::591::::true::::this.surrogate	0.0
-115	org.mockito.internal.util.MockName::::19::::588::::591::::true::::surrogate	0.0
-116	org.mockito.internal.util.MockName::::19::::588::::591::::true::::mockName == null	0.0
-117	org.mockito.internal.util.MockName::::19::::571::::592::::this.surrogate = true::::this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock)	0.0
-118	org.mockito.internal.util.MockName::::19::::571::::592::::this.surrogate = true::::this.mockName = mockName	0.0
-119	org.mockito.internal.util.MockName::::19::::571::::584::::this.surrogate::::true	0.0
-120	org.mockito.internal.util.MockName::::19::::571::::584::::this.surrogate::::surrogate	0.0
-121	org.mockito.internal.util.MockName::::19::::571::::584::::this.surrogate::::mockName == null	0.0
-122	org.mockito.internal.util.MockName::::18::::514::::557::::this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock)::::this.surrogate = true	0.0
-123	org.mockito.internal.util.MockName::::18::::514::::526::::this.mockName::::org.mockito.internal.util.MockName.toInstanceName(classToMock)	0.0
-124	org.mockito.internal.util.MockName::::18::::514::::526::::this.mockName::::mockName	0.0
-125	org.mockito.internal.util.MockName::::18::::514::::526::::this.mockName::::"unchecked"	0.0
-126	org.mockito.internal.util.MockName::::17::::482::::497::::mockName == null::::true	0.0
-127	org.mockito.internal.util.MockName::::17::::482::::497::::mockName == null::::this.surrogate	0.0
-128	org.mockito.internal.util.MockName::::17::::482::::497::::mockName == null::::surrogate	0.0
-129	org.mockito.internal.util.MockName::::17::::482::::489::::mockName::::org.mockito.internal.util.MockName.toInstanceName(classToMock)	0.0
-130	org.mockito.internal.util.MockName::::17::::482::::489::::mockName::::"unchecked"	0.0
-131	org.mockito.internal.util.CreationValidator::::32::::981::::999::::classToMock == null::::spiedInstance == null	0.0
-132	org.mockito.internal.util.CreationValidator::::32::::981::::1024::::classToMock == null) || (spiedInstance == null::::spiedInstance == null	0.0
-133	org.mockito.internal.util.CreationValidator::::32::::981::::1024::::classToMock == null) || (spiedInstance == null::::classToMock == null	0.0
-134	org.mockito.internal.util.CreationValidator::::32::::1004::::1024::::spiedInstance == null::::classToMock == null	0.0
-135	org.mockito.internal.util.CreationValidator::::25::::752::::767::::classToMock == i::::extraInterfaces == null	0.0
-136	org.mockito.internal.util.CreationValidator::::20::::628::::650::::extraInterfaces == null::::classToMock == null	0.0
-137	org.mockito.internal.util.CreationValidator::::20::::628::::650::::extraInterfaces == null::::classToMock == i	0.0
-138	org.mockito.internal.stubbing.InvocationContainerImpl::::32::::1320::::1334::::mockingProgress::::this.mockingProgress	0.0
-139	org.mockito.internal.stubbing.InvocationContainerImpl::::32::::1297::::1316::::this.mockingProgress::::mockingProgress	0.0
-140	org.mockito.internal.progress.ThreadSafeMockingProgress::::22::::793::::807::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress::::new java.lang.ThreadLocal<org.mockito.internal.progress.MockingProgress>()	0.0
-141	org.mockito.internal.progress.ThreadSafeMockingProgress::::20::::720::::734::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress::::new java.lang.ThreadLocal<org.mockito.internal.progress.MockingProgress>()	0.0
-142	org.mockito.internal.progress.ThreadSafeMockingProgress::::19::::675::::703::::(org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.get()) == null::::long	0.0
-143	org.mockito.internal.progress.ThreadSafeMockingProgress::::19::::675::::689::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress::::new java.lang.ThreadLocal<org.mockito.internal.progress.MockingProgress>()	0.0
-144	org.mockito.internal.progress.MockingProgressImpl::::47::::1636::::1659::::iOngoingStubbing = null::::verificationMode = null	0.0
-145	org.mockito.internal.progress.MockingProgressImpl::::47::::1636::::1659::::iOngoingStubbing = null::::stubbingInProgress = null	0.0
-146	org.mockito.internal.progress.MockingProgressImpl::::47::::1636::::1659::::iOngoingStubbing = null::::stubbingInProgress = new org.mockito.internal.debugging.Location()	0.0
-147	org.mockito.internal.progress.MockingProgressImpl::::47::::1636::::1659::::iOngoingStubbing = null::::INSERT::::STATEMENT::::validateState()	0.0
-148	org.mockito.internal.progress.MockingProgressImpl::::47::::1636::::1659::::iOngoingStubbing = null::::INSERT::::STATEMENT::::resetOngoingStubbing()	0.0
-149	org.mockito.internal.progress.MockingProgressImpl::::47::::1636::::1651::::iOngoingStubbing::::this.iOngoingStubbing	0.0
-150	org.mockito.internal.creation.jmock.SearchingClassLoader::::53::::1936::::1957::::(parentLoaders.size()) - 1::::i--	0.0
-151	org.mockito.internal.creation.jmock.SearchingClassLoader::::53::::1936::::1957::::(parentLoaders.size()) - 1::::i	0.0
-152	org.mockito.internal.creation.jmock.SearchingClassLoader::::53::::1936::::1957::::(parentLoaders.size()) - 1::::2	0.0
-153	org.mockito.internal.creation.jmock.SearchingClassLoader::::53::::1936::::1957::::(parentLoaders.size()) - 1::::1	0.0
-154	org.mockito.internal.creation.jmock.SearchingClassLoader::::53::::1936::::1957::::(parentLoaders.size()) - 1::::0	0.0
-155	org.mockito.internal.creation.jmock.ClassImposterizer::::53::::2164::::2208::::setConstructorsAccessible(mockedType, false)::::INSERT::::STATEMENT::::setConstructorsAccessible(mockedType, true)	0.0
-156	org.mockito.internal.creation.jmock.ClassImposterizer::::53::::2164::::2208::::setConstructorsAccessible(mockedType, false)::::INSERT::::STATEMENT::::setConstructorsAccessible(mockedType, false)	0.0
-157	org.mockito.internal.creation.jmock.ClassImposterizer::::51::::2105::::2114::::proxyClass::::createProxyClass(mockedType, ancillaryTypes)	0.0
-158	org.mockito.internal.creation.jmock.ClassImposterizer::::51::::2070::::2130::::return mockedType.cast(createProxy(proxyClass, interceptor))::::INSERT::::STATEMENT::::setConstructorsAccessible(mockedType, true)	0.0
-159	org.mockito.internal.creation.jmock.ClassImposterizer::::51::::2070::::2130::::return mockedType.cast(createProxy(proxyClass, interceptor))::::INSERT::::STATEMENT::::setConstructorsAccessible(mockedType, false)	0.0
-160	org.mockito.internal.creation.jmock.ClassImposterizer::::50::::1990::::2056::::java.lang.Class<?> proxyClass = createProxyClass(mockedType, ancillaryTypes)::::INSERT::::STATEMENT::::setConstructorsAccessible(mockedType, true)	0.0
-161	org.mockito.internal.creation.jmock.ClassImposterizer::::50::::1990::::2056::::java.lang.Class<?> proxyClass = createProxyClass(mockedType, ancillaryTypes)::::INSERT::::STATEMENT::::setConstructorsAccessible(mockedType, false)	0.0
-162	org.mockito.internal.creation.jmock.ClassImposterizer::::49::::1933::::1976::::setConstructorsAccessible(mockedType, true)::::INSERT::::STATEMENT::::setConstructorsAccessible(mockedType, true)	0.0
-163	org.mockito.internal.creation.jmock.ClassImposterizer::::49::::1933::::1976::::setConstructorsAccessible(mockedType, true)::::INSERT::::STATEMENT::::setConstructorsAccessible(mockedType, false)	0.0
-164	org.mockito.internal.creation.jmock.ClassImposterizer::::44::::1716::::1776::::!(type.isPrimitive())) && (!(java.lang.reflect.Modifier.isFinal(type.getModifiers()))::::true	0.0
-165	org.mockito.internal.creation.jmock.ClassImposterizer::::44::::1716::::1776::::!(type.isPrimitive())) && (!(java.lang.reflect.Modifier.isFinal(type.getModifiers()))::::false	0.0
-166	org.mockito.internal.creation.jmock.ClassImposterizer::::39::::1601::::1625::::method.isBridge() ? 1 : 0::::1	0.0
-167	org.mockito.internal.creation.jmock.ClassImposterizer::::39::::1601::::1625::::method.isBridge() ? 1 : 0::::0	0.0
-168	org.mockito.internal.creation.MockSettingsImpl::::50::::1536::::1548::::spiedInstance::::this.spiedInstance	0.0
-169	org.mockito.internal.creation.MockSettingsImpl::::46::::1458::::1472::::extraInterfaces::::this.extraInterfaces	0.0
-170	org.mockito.internal.creation.MockSettingsImpl::::37::::1285::::1299::::extraInterfaces::::this.extraInterfaces	0.0
-171	org.mockito.internal.creation.MockSettingsImpl::::37::::1262::::1300::::this.extraInterfaces = extraInterfaces::::this.spiedInstance = spiedInstance	0.0
-172	org.mockito.internal.creation.MockSettingsImpl::::37::::1262::::1300::::this.extraInterfaces = extraInterfaces::::this.name = name	0.0
-173	org.mockito.internal.creation.MockSettingsImpl::::37::::1262::::1281::::this.extraInterfaces::::extraInterfaces	0.0
-174	org.mockito.internal.creation.MockSettingsImpl::::31::::1025::::1033::::i == null::::extraInterfaces == null) || ((extraInterfaces.length) == 0	0.0
-175	org.mockito.internal.creation.MockSettingsImpl::::31::::1025::::1033::::i == null::::extraInterfaces == null	0.0
-176	org.mockito.internal.creation.MockSettingsImpl::::31::::1025::::1033::::i == null::::(extraInterfaces.length) == 0	0.0
-177	org.mockito.internal.creation.MockSettingsImpl::::31::::1025::::1033::::i == null::::(extraInterfaces) != null	0.0
-178	org.mockito.internal.creation.MockSettingsImpl::::30::::990::::1004::::extraInterfaces::::this.extraInterfaces	0.0
-179	org.mockito.internal.creation.MockSettingsImpl::::26::::837::::863::::(extraInterfaces.length) == 0::::i == null	0.0
-180	org.mockito.internal.creation.MockSettingsImpl::::26::::837::::858::::extraInterfaces.length::::0	0.0
-181	org.mockito.internal.creation.MockSettingsImpl::::26::::837::::851::::extraInterfaces::::this.extraInterfaces	0.0
-182	org.mockito.internal.creation.MockSettingsImpl::::26::::810::::863::::extraInterfaces == null) || ((extraInterfaces.length) == 0::::i == null	0.0
-183	org.mockito.internal.creation.MockSettingsImpl::::26::::810::::863::::extraInterfaces == null) || ((extraInterfaces.length) == 0::::extraInterfaces == null	0.0
-184	org.mockito.internal.creation.MockSettingsImpl::::26::::810::::863::::extraInterfaces == null) || ((extraInterfaces.length) == 0::::(extraInterfaces.length) == 0	0.0
-185	org.mockito.internal.creation.MockSettingsImpl::::26::::810::::832::::extraInterfaces == null::::i == null	0.0
-186	org.mockito.internal.creation.MethodInterceptorFilter::::29::::1189::::1200::::mockSettings::::this.mockSettings	0.0
-187	org.mockito.internal.creation.MethodInterceptorFilter::::29::::1169::::1201::::this.mockSettings = mockSettings::::this.handler = handler	0.0
-188	org.mockito.internal.creation.MethodInterceptorFilter::::29::::1169::::1185::::this.mockSettings::::mockSettings	0.0
-189	org.mockito.internal.creation.MethodInterceptorFilter::::28::::1152::::1158::::handler::::this.handler	0.0
-190	org.mockito.internal.creation.MethodInterceptorFilter::::28::::1137::::1159::::this.handler = handler::::this.mockSettings = mockSettings	0.0
-191	org.mockito.internal.creation.MethodInterceptorFilter::::28::::1137::::1148::::this.handler::::handler	0.0
-192	org.mockito.internal.configuration.GlobalConfiguration::::52::::1751::::1769::::org.mockito.internal.configuration.GlobalConfiguration.globalConfiguration::::new java.lang.ThreadLocal<org.mockito.configuration.IMockitoConfiguration>()	0.0
-193	org.mockito.internal.configuration.GlobalConfiguration::::37::::1404::::1409::::config::::createConfig()	0.0
-194	org.mockito.internal.configuration.GlobalConfiguration::::36::::1367::::1372::::config::::createConfig()	0.0
-195	org.mockito.internal.configuration.GlobalConfiguration::::29::::1072::::1090::::org.mockito.internal.configuration.GlobalConfiguration.globalConfiguration::::new java.lang.ThreadLocal<org.mockito.configuration.IMockitoConfiguration>()	0.0
-196	org.mockito.internal.configuration.GlobalConfiguration::::28::::1023::::1041::::org.mockito.internal.configuration.GlobalConfiguration.globalConfiguration::::new java.lang.ThreadLocal<org.mockito.configuration.IMockitoConfiguration>()	0.0
-197	org.mockito.internal.configuration.GlobalConfiguration::::23::::859::::877::::org.mockito.internal.configuration.GlobalConfiguration.globalConfiguration::::new java.lang.ThreadLocal<org.mockito.configuration.IMockitoConfiguration>()	0.0
-198	org.mockito.internal.MockitoCore::::35::::1318::::1325::::mockUtil::::new org.mockito.internal.util.MockUtil()	0.0
-199	org.mockito.internal.MockitoCore::::34::::1263::::1277::::mockingProgress::::new org.mockito.internal.progress.ThreadSafeMockingProgress()	0.0
-200	org.mockito.internal.MockitoCore::::33::::1222::::1236::::mockingProgress::::new org.mockito.internal.progress.ThreadSafeMockingProgress()	0.0
-201	org.mockito.internal.MockHandler::::42::::1622::::1636::::mockingProgress::::this.mockingProgress	0.0
-202	org.mockito.internal.MockHandler::::42::::1563::::1638::::this.invocationContainerImpl = new org.mockito.internal.InvocationContainerImpl(mockingProgress)::::this.mockSettings = mockSettings	0.0
-203	org.mockito.internal.MockHandler::::42::::1563::::1638::::this.invocationContainerImpl = new org.mockito.internal.InvocationContainerImpl(mockingProgress)::::this.matchersBinder = new org.mockito.internal.invocation.MatchersBinder()	0.0
-204	org.mockito.internal.MockHandler::::42::::1563::::1590::::this.invocationContainerImpl::::new org.mockito.internal.InvocationContainerImpl(mockingProgress)	0.0
-205	org.mockito.internal.MockHandler::::42::::1563::::1590::::this.invocationContainerImpl::::invocationContainerImpl	0.0
-206	org.mockito.internal.MockHandler::::41::::1511::::1553::::this.matchersBinder = new org.mockito.internal.invocation.MatchersBinder()::::this.mockingProgress = new org.mockito.internal.progress.ThreadSafeMockingProgress()	0.0
-207	org.mockito.internal.MockHandler::::41::::1511::::1553::::this.matchersBinder = new org.mockito.internal.invocation.MatchersBinder()::::this.mockSettings = mockSettings	0.0
-208	org.mockito.internal.MockHandler::::41::::1511::::1553::::this.matchersBinder = new org.mockito.internal.invocation.MatchersBinder()::::this.invocationContainerImpl = new org.mockito.internal.InvocationContainerImpl(mockingProgress)	0.0
-209	org.mockito.internal.MockHandler::::41::::1511::::1529::::this.matchersBinder::::new org.mockito.internal.invocation.MatchersBinder()	0.0
-210	org.mockito.internal.MockHandler::::41::::1511::::1529::::this.matchersBinder::::matchersBinder	0.0
-211	org.mockito.internal.MockHandler::::40::::1447::::1501::::this.mockingProgress = new org.mockito.internal.progress.ThreadSafeMockingProgress()::::this.mockSettings = mockSettings	0.0
-212	org.mockito.internal.MockHandler::::40::::1447::::1501::::this.mockingProgress = new org.mockito.internal.progress.ThreadSafeMockingProgress()::::this.matchersBinder = new org.mockito.internal.invocation.MatchersBinder()	0.0
-213	org.mockito.internal.MockHandler::::40::::1447::::1466::::this.mockingProgress::::mockingProgress	0.0
-214	org.mockito.internal.MockHandler::::39::::1425::::1436::::mockSettings::::this.mockSettings	0.0
-215	org.mockito.internal.MockHandler::::39::::1425::::1436::::mockSettings::::new org.mockito.internal.creation.MockSettingsImpl()	0.0
-216	org.mockito.internal.MockHandler::::39::::1405::::1437::::this.mockSettings = mockSettings::::this.mockingProgress = new org.mockito.internal.progress.ThreadSafeMockingProgress()	0.0
-217	org.mockito.internal.MockHandler::::39::::1405::::1437::::this.mockSettings = mockSettings::::this.matchersBinder = new org.mockito.internal.invocation.MatchersBinder()	0.0
-218	org.mockito.internal.MockHandler::::39::::1405::::1437::::this.mockSettings = mockSettings::::this.invocationContainerImpl = new org.mockito.internal.InvocationContainerImpl(mockingProgress)	0.0
-219	org.mockito.internal.MockHandler::::39::::1405::::1421::::this.mockSettings::::new org.mockito.internal.creation.MockSettingsImpl()	0.0
-220	org.mockito.internal.MockHandler::::39::::1405::::1421::::this.mockSettings::::mockSettings	0.0
+4	org.mockito.internal.creation.jmock.ClassImposterizer::::117::::4953::::4965::::(rest.length) + 1::::rest.length	0.01370729398009982
+5	org.mockito.internal.creation.MockSettingsImpl::::26::::810::::832::::extraInterfaces == null::::extraInterfaces == null) || ((extraInterfaces.length) == 0	0.012854965362882304
+6	org.mockito.internal.util.CreationValidator::::25::::752::::767::::classToMock == i::::classToMock == null	0.012595373624266135
+7	org.mockito.internal.util.MockName::::32::::1006::::1069::::className.substring(0, 1).toLowerCase()) + (className.substring(1)::::className	0.0077429426959332364
+8	org.mockito.internal.creation.jmock.ClassImposterizer::::118::::4977::::4979::::all::::rest	0.006474057445539611
+9	org.mockito.internal.creation.jmock.ClassImposterizer::::119::::5027::::5029::::all::::rest	0.006283019684851557
+10	org.mockito.internal.util.MockUtil::::45::::1682::::1691::::interfaces::::ancillaryTypes	0.00623673282539794
+11	org.mockito.internal.util.MockUtil::::45::::1643::::1652::::interfaces::::ancillaryTypes	0.006134963272047378
+12	org.mockito.internal.util.MockUtil::::49::::1841::::1854::::ancillaryTypes::::interfaces	0.005949334279543366
+13	org.mockito.internal.util.MockUtil::::45::::1626::::1639::::ancillaryTypes::::interfaces	0.005718380682176339
+14	org.mockito.internal.creation.jmock.ClassImposterizer::::120::::5064::::5066::::all::::rest	0.00551886864209934
+15	org.mockito.internal.creation.jmock.SearchingClassLoader::::32::::996::::996::::c::::first	0.005481330973559529
+16	org.mockito.internal.creation.jmock.ClassImposterizer::::117::::4953::::4956::::rest::::all	0.0041189998190546695
+17	org.mockito.internal.creation.jmock.ClassImposterizer::::119::::5035::::5038::::rest::::all	0.0039712698130910645
+18	org.mockito.internal.creation.jmock.ClassImposterizer::::119::::5018::::5021::::rest::::all	0.0035947965720870396
+19	org.mockito.internal.util.CreationValidator::::32::::1004::::1024::::spiedInstance == null::::classToMock == null) || (spiedInstance == null	0.0029666856656575236
+20	org.mockito.internal.creation.jmock.ClassImposterizer::::79::::3199::::3208::::interfaces::::prepend(mockedType, interfaces)	0.0020872470378788363
+21	org.mockito.internal.creation.jmock.SearchingClassLoader::::63::::2256::::2256::::c::::nextToSearch	0.002025047276342826
+22	org.mockito.internal.creation.jmock.ClassImposterizer::::89::::3667::::3674::::enhancer::::new org.mockito.internal.creation.jmock.Enhancer() {    @java.lang.Override    @java.lang.SuppressWarnings("unchecked")    protected void filterConstructors(java.lang.Class sc, java.util.List constructors) {    }}	0.0019676751592382045
+23	org.mockito.internal.creation.jmock.SearchingClassLoader::::63::::2287::::2287::::c::::nextToSearch	0.0019462696935102677
+24	org.mockito.internal.creation.MockSettingsImpl::::26::::810::::832::::extraInterfaces == null::::(extraInterfaces) != null	0.0018042056649659373
+25	org.mockito.internal.creation.jmock.SearchingClassLoader::::64::::2317::::2317::::c::::nextToSearch	0.0017985617256992207
+26	org.mockito.Mockito::::1557::::64851::::64866::::org.mockito.Mockito.RETURNS_DEFAULTS::::org.mockito.Mockito.CALLS_REAL_METHODS	0.0016971363610868595
+27	org.mockito.internal.util.MockUtil::::49::::1841::::1854::::ancillaryTypes::::(interfaces == null) ? new java.lang.Class<?>[0] : interfaces	0.00166669187953219
+28	org.mockito.internal.util.MockUtil::::45::::1626::::1639::::ancillaryTypes::::(interfaces == null) ? new java.lang.Class<?>[0] : interfaces	0.0016345098208826864
+29	org.mockito.internal.creation.jmock.ClassImposterizer::::50::::2012::::2027::::createProxyClass::::prepend	0.0015811531654498646
+30	org.mockito.internal.creation.jmock.SearchingClassLoader::::30::::898::::902::::first::::c	0.0015799130453200997
+31	org.mockito.internal.creation.jmock.ClassImposterizer::::85::::3429::::3436::::enhancer::::new org.mockito.internal.creation.jmock.Enhancer() {    @java.lang.Override    @java.lang.SuppressWarnings("unchecked")    protected void filterConstructors(java.lang.Class sc, java.util.List constructors) {    }}	0.0015727798265545883
+32	org.mockito.internal.creation.jmock.ClassImposterizer::::79::::3156::::3163::::enhancer::::new org.mockito.internal.creation.jmock.Enhancer() {    @java.lang.Override    @java.lang.SuppressWarnings("unchecked")    protected void filterConstructors(java.lang.Class sc, java.util.List constructors) {    }}	0.0014502059765720205
+33	org.mockito.internal.creation.jmock.ClassImposterizer::::84::::3344::::3351::::enhancer::::new org.mockito.internal.creation.jmock.Enhancer() {    @java.lang.Override    @java.lang.SuppressWarnings("unchecked")    protected void filterConstructors(java.lang.Class sc, java.util.List constructors) {    }}	0.0014281558215977314
+34	org.mockito.internal.creation.jmock.ClassImposterizer::::78::::3106::::3113::::enhancer::::new org.mockito.internal.creation.jmock.Enhancer() {    @java.lang.Override    @java.lang.SuppressWarnings("unchecked")    protected void filterConstructors(java.lang.Class sc, java.util.List constructors) {    }}	0.0014009921456781113
+35	org.mockito.internal.creation.jmock.SearchingClassLoader::::59::::2141::::2146::::loader::::nextToSearch	0.0013360744248051353
+36	org.mockito.internal.creation.jmock.ClassImposterizer::::76::::3024::::3031::::enhancer::::new org.mockito.internal.creation.jmock.Enhancer() {    @java.lang.Override    @java.lang.SuppressWarnings("unchecked")    protected void filterConstructors(java.lang.Class sc, java.util.List constructors) {    }}	0.0012762139575352015
+37	org.mockito.internal.creation.jmock.ClassImposterizer::::75::::2940::::2947::::enhancer::::new org.mockito.internal.creation.jmock.Enhancer() {    @java.lang.Override    @java.lang.SuppressWarnings("unchecked")    protected void filterConstructors(java.lang.Class sc, java.util.List constructors) {    }}	0.0012538780974114619
+38	org.mockito.internal.creation.jmock.ClassImposterizer::::93::::3775::::3782::::enhancer::::new org.mockito.internal.creation.jmock.Enhancer() {    @java.lang.Override    @java.lang.SuppressWarnings("unchecked")    protected void filterConstructors(java.lang.Class sc, java.util.List constructors) {    }}	0.0012370195738406796
+39	org.mockito.internal.util.CreationValidator::::32::::981::::999::::classToMock == null::::classToMock == null) || (spiedInstance == null	0.0011182122893632202
+40	org.mockito.internal.creation.jmock.ClassImposterizer::::79::::3179::::3185::::prepend::::createProxyClass	0.0010461808499058545
+41	org.mockito.internal.util.MockName::::27::::787::::795::::className::::mockName	9.7996618495405E-4
+42	org.mockito.internal.creation.MockSettingsImpl::::26::::837::::863::::(extraInterfaces.length) == 0::::(extraInterfaces) != null	8.551183099578141E-4
+43	org.mockito.internal.creation.MockSettingsImpl::::26::::810::::863::::extraInterfaces == null) || ((extraInterfaces.length) == 0::::(extraInterfaces) != null	7.76073760297848E-4
+44	org.mockito.internal.util.MockName::::32::::1006::::1014::::className::::mockName	7.733066493514952E-4
+45	org.mockito.internal.util.MockName::::32::::1048::::1056::::className::::mockName	6.906428351104734E-4
+46	org.mockito.internal.util.MockName::::19::::571::::592::::this.surrogate = true::::INSERT::::STATEMENT::::if (mockName == null) {    this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock);    this.surrogate = true;}else {    this.mockName = mockName;}	6.828307589976122E-4
+47	org.mockito.internal.util.MockName::::18::::514::::557::::this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock)::::INSERT::::STATEMENT::::if (mockName == null) {    this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock);    this.surrogate = true;}else {    this.mockName = mockName;}	6.828307589976122E-4
+48	org.mockito.internal.creation.jmock.ClassImposterizer::::119::::5001::::5047::::java.lang.System.arraycopy(rest, 0, all, 1, rest.length)::::DELETE::::STATEMENT	6.71229052088013E-4
+49	org.mockito.internal.MockHandler::::40::::1447::::1501::::this.mockingProgress = new org.mockito.internal.progress.ThreadSafeMockingProgress()::::this.invocationContainerImpl = new org.mockito.internal.InvocationContainerImpl(mockingProgress)	6.654678385087118E-4
+50	org.mockito.internal.util.CreationValidator::::24::::702::::878::::for (java.lang.Class i : extraInterfaces) {    if (classToMock == i) {        new org.mockito.exceptions.Reporter().extraInterfacesCannotContainMockedType(classToMock);    }}::::INSERT::::STATEMENT::::if (extraInterfaces == null) {    return ;}	6.427057378454652E-4
+51	org.mockito.internal.MockHandler::::42::::1563::::1638::::this.invocationContainerImpl = new org.mockito.internal.InvocationContainerImpl(mockingProgress)::::this.mockingProgress = new org.mockito.internal.progress.ThreadSafeMockingProgress()	6.263226715376111E-4
+52	org.mockito.internal.util.MockUtil::::38::::1314::::1352::::settings.initiateMockName(classToMock)::::DELETE::::STATEMENT	6.262991609268175E-4
+53	org.mockito.internal.util.MockUtil::::36::::1225::::1303::::creationValidator.validateMockedType(classToMock, settings.getSpiedInstance())::::DELETE::::STATEMENT	6.262991609268175E-4
+54	org.mockito.internal.creation.jmock.SearchingClassLoader::::44::::1534::::1599::::org.mockito.internal.creation.jmock.SearchingClassLoader.addIfNewElement(loaders, java.lang.Thread.currentThread().getContextClassLoader())::::DELETE::::STATEMENT	6.262991609268175E-4
+55	org.mockito.internal.creation.jmock.SearchingClassLoader::::40::::1317::::1386::::org.mockito.internal.creation.jmock.SearchingClassLoader.addIfNewElement(loaders, org.mockito.internal.creation.jmock.SearchingClassLoader.class.getClassLoader())::::DELETE::::STATEMENT	6.262991609268175E-4
+56	org.mockito.internal.creation.jmock.SearchingClassLoader::::30::::873::::921::::org.mockito.internal.creation.jmock.SearchingClassLoader.addIfNewElement(loaders, first.getClassLoader())::::DELETE::::STATEMENT	6.262991609268175E-4
+57	org.mockito.internal.creation.jmock.ClassImposterizer::::85::::3429::::3478::::enhancer.setCallbackFilter(org.mockito.internal.creation.jmock.ClassImposterizer.IGNORE_BRIDGE_METHODS)::::DELETE::::STATEMENT	6.262991609268175E-4
+58	org.mockito.internal.creation.jmock.ClassImposterizer::::84::::3344::::3419::::enhancer.setCallbackTypes(new java.lang.Class[]{ org.mockito.internal.creation.jmock.MethodInterceptor.class, org.mockito.internal.creation.jmock.NoOp.class })::::DELETE::::STATEMENT	6.262991609268175E-4
+59	org.mockito.internal.creation.jmock.ClassImposterizer::::76::::3024::::3052::::enhancer.setUseFactory(true)::::DELETE::::STATEMENT	6.262991609268175E-4
+60	org.mockito.internal.creation.jmock.ClassImposterizer::::75::::2940::::3014::::enhancer.setClassLoader(org.mockito.internal.creation.jmock.SearchingClassLoader.combineLoadersOf(mockedType))::::DELETE::::STATEMENT	6.262991609268175E-4
+61	org.mockito.internal.creation.jmock.ClassImposterizer::::112::::4724::::4813::::proxy.setCallbacks(new org.mockito.internal.creation.jmock.Callback[]{ interceptor, SerializableNoOp.SERIALIZABLE_INSTANCE })::::DELETE::::STATEMENT	6.262991609268175E-4
+62	org.mockito.internal.util.MockUtil::::35::::1130::::1215::::creationValidator.validateExtraInterfaces(classToMock, settings.getExtraInterfaces())::::DELETE::::STATEMENT	6.257995205114879E-4
+63	org.mockito.internal.progress.ThreadSafeMockingProgress::::62::::1809::::1846::::org.mockito.internal.progress.ThreadSafeMockingProgress.threadSafely().resetOngoingStubbing()::::DELETE::::STATEMENT	6.257995205114879E-4
+64	org.mockito.internal.util.MockUtil::::34::::1077::::1120::::creationValidator.validateType(classToMock)::::DELETE::::STATEMENT	6.253010739803819E-4
+65	org.mockito.internal.util.MockUtil::::45::::1643::::1691::::(interfaces == null) ? new java.lang.Class<?>[0] : interfaces::::interfaces	5.387541289603697E-4
+66	org.mockito.internal.creation.jmock.ClassImposterizer::::117::::4953::::4956::::rest::::new java.lang.Class<?>[(rest.length) + 1]	5.337467370118971E-4
+67	org.mockito.internal.creation.jmock.ClassImposterizer::::119::::5035::::5038::::rest::::new java.lang.Class<?>[(rest.length) + 1]	5.213249947687111E-4
+68	org.mockito.internal.creation.jmock.ClassImposterizer::::119::::5018::::5021::::rest::::new java.lang.Class<?>[(rest.length) + 1]	4.896695871167211E-4
+69	org.mockito.internal.creation.jmock.ClassImposterizer::::118::::4977::::4979::::all::::new java.lang.Class<?>[(rest.length) + 1]	4.818970539878842E-4
+70	org.mockito.internal.creation.jmock.ClassImposterizer::::119::::5027::::5029::::all::::new java.lang.Class<?>[(rest.length) + 1]	4.773075582356187E-4
+71	org.mockito.internal.util.MockName::::18::::514::::557::::this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock)::::this.mockName = mockName	4.7270665158672407E-4
+72	org.mockito.internal.creation.jmock.ClassImposterizer::::120::::5064::::5066::::all::::new java.lang.Class<?>[(rest.length) + 1]	4.5894957522655644E-4
+73	org.mockito.internal.creation.jmock.ClassImposterizer::::79::::3156::::3211::::enhancer.setInterfaces(prepend(mockedType, interfaces))::::DELETE::::STATEMENT	3.0884246748912405E-4
+74	org.mockito.internal.creation.jmock.ClassImposterizer::::78::::3106::::3142::::enhancer.setSuperclass(java.lang.Object.class)::::DELETE::::STATEMENT	3.0884246748912405E-4
+75	org.mockito.internal.creation.jmock.SearchingClassLoader::::64::::2305::::2319::::loaders.add(c)::::DELETE::::STATEMENT	2.8816955649536407E-4
+76	org.mockito.internal.creation.jmock.ClassImposterizer::::89::::3667::::3721::::enhancer.setNamingPolicy(MockitoNamingPolicy.INSTANCE)::::DELETE::::STATEMENT	2.8816955649536407E-4
+77	org.mockito.internal.util.CreationValidator::::32::::977::::1057::::if ((classToMock == null) || (spiedInstance == null)) {    return ;}::::INSERT::::STATEMENT::::if ((classToMock == null) || (spiedInstance == null)) {    return ;}	2.503996805109783E-4
+78	org.mockito.internal.util.CreationValidator::::20::::624::::683::::if (extraInterfaces == null) {    return ;}::::INSERT::::STATEMENT::::if (extraInterfaces == null) {    return ;}	2.503996805109783E-4
+79	org.mockito.internal.util.MockName::::27::::787::::795::::className::::this.mockName	2.3332528213191664E-4
+80	org.mockito.internal.creation.MockSettingsImpl::::78::::2271::::2313::::mockName = new org.mockito.internal.util.MockName(name, classToMock)::::this.name = name	2.2182261283623726E-4
+81	org.mockito.internal.util.CreationValidator::::33::::1041::::1047::::return ::::INSERT::::STATEMENT::::if ((classToMock == null) || (spiedInstance == null)) {    return ;}	2.154763574834333E-4
+82	org.mockito.internal.util.MockName::::32::::1006::::1014::::className::::this.mockName	2.0740025078392593E-4
+83	org.mockito.internal.util.MockName::::32::::1048::::1056::::className::::this.mockName	1.970302382447296E-4
+84	org.mockito.internal.creation.jmock.SearchingClassLoader::::59::::2141::::2146::::loader::::this.nextToSearch	1.9473149511329906E-4
+85	org.mockito.internal.creation.jmock.SearchingClassLoader::::63::::2269::::2288::::!(loaders.contains(c))::::DELETE::::INFIX	1.6286975627165164E-4
+86	org.mockito.internal.creation.jmock.ClassImposterizer::::44::::1739::::1776::::!(java.lang.reflect.Modifier.isFinal(type.getModifiers()))::::DELETE::::INFIX	1.62610202710278E-4
+87	org.mockito.internal.creation.jmock.ClassImposterizer::::44::::1716::::1734::::!(type.isPrimitive())::::DELETE::::INFIX	1.62610202710278E-4
+88	org.mockito.internal.util.MockUtil::::47::::1703::::1753::::java.lang.Object spiedInstance = settings.getSpiedInstance()::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	1.4161307061294918E-4
+89	org.mockito.internal.util.MockName::::32::::1048::::1069::::className.substring(1)::::DELETE::::INFIX	1.3651775840767288E-4
+90	org.mockito.internal.util.MockName::::32::::1006::::1044::::className.substring(0, 1).toLowerCase()::::DELETE::::INFIX	1.3651775840767288E-4
+91	org.mockito.internal.util.MockName::::27::::787::::804::::className.length()::::DELETE::::INFIX	1.3651775840767288E-4
+92	org.mockito.internal.creation.jmock.ClassImposterizer::::86::::3492::::3514::::mockedType.getSigners()::::DELETE::::INFIX	1.1274983618216672E-4
+93	org.mockito.internal.progress.MockingProgressImpl::::47::::1636::::1659::::iOngoingStubbing = null::::this.iOngoingStubbing = iOngoingStubbing	1.1082282510653345E-4
+94	org.mockito.internal.util.MockUtil::::45::::1626::::1692::::ancillaryTypes = (interfaces == null) ? new java.lang.Class<?>[0] : interfaces::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	7.913671593076572E-5
+95	org.mockito.internal.util.MockUtil::::42::::1523::::1576::::java.lang.Class<?>[] interfaces = settings.getExtraInterfaces()::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	7.710756936843839E-5
+96	org.mockito.internal.util.MockUtil::::55::::1998::::2009::::return mock::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	7.419067118509286E-5
+97	org.mockito.internal.util.MockUtil::::41::::1430::::1513::::org.mockito.internal.creation.MethodInterceptorFilter filter = new org.mockito.internal.creation.MethodInterceptorFilter(mockHandler, settings)::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	7.408543619050408E-5
+98	org.mockito.internal.util.MockUtil::::38::::1314::::1352::::settings.initiateMockName(classToMock)::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	7.408543619050408E-5
+99	org.mockito.internal.util.MockUtil::::49::::1772::::1856::::T mock = ClassImposterizer.INSTANCE.imposterise(filter, classToMock, ancillaryTypes)::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	7.304927624378375E-5
+100	org.mockito.internal.util.MockUtil::::40::::1363::::1420::::org.mockito.internal.MockHandler<T> mockHandler = new org.mockito.internal.MockHandler<T>(settings)::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	7.254198960320191E-5
+101	org.mockito.internal.util.MockUtil::::36::::1225::::1303::::creationValidator.validateMockedType(classToMock, settings.getSpiedInstance())::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	6.827481374419004E-5
+102	org.mockito.internal.util.MockUtil::::51::::1875::::1979::::if (spiedInstance != null) {    new org.mockito.internal.util.reflection.LenientCopyTool().copyToMock(spiedInstance, mock);}::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	6.637272949031964E-5
+103	org.mockito.internal.progress.MockingProgressImpl::::47::::1636::::1659::::iOngoingStubbing = null::::INSERT::::STATEMENT::::if ((verificationMode) == null) {    return null;}	6.259992012774457E-5
+104	org.mockito.internal.util.MockUtil::::34::::1077::::1093::::creationValidator::::this.creationValidator	6.188975342681809E-5
+105	org.mockito.internal.MockitoCore::::34::::1263::::1301::::mockingProgress.resetOngoingStubbing()::::DELETE::::STATEMENT	5.9599954334427425E-5
+106	org.mockito.internal.util.MockUtil::::35::::1130::::1215::::creationValidator.validateExtraInterfaces(classToMock, settings.getExtraInterfaces())::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	5.369193929085304E-5
+107	org.mockito.internal.util.MockUtil::::35::::1130::::1146::::creationValidator::::this.creationValidator	4.4236969689094424E-5
+108	org.mockito.internal.creation.jmock.SearchingClassLoader::::53::::1936::::1955::::parentLoaders.size()::::DELETE::::INFIX	4.165634341705667E-5
+109	org.mockito.internal.creation.jmock.SearchingClassLoader::::63::::2256::::2256::::c::::this.nextToSearch	3.996803834887157E-5
+110	org.mockito.internal.util.MockUtil::::36::::1225::::1241::::creationValidator::::this.creationValidator	3.761697726952618E-5
+111	org.mockito.internal.creation.jmock.SearchingClassLoader::::63::::2287::::2287::::c::::this.nextToSearch	3.475481595554049E-5
+112	org.mockito.internal.MockitoCore::::33::::1222::::1253::::mockingProgress.validateState()::::DELETE::::STATEMENT	3.250906600059677E-5
+113	org.mockito.internal.util.MockUtil::::34::::1077::::1120::::creationValidator.validateType(classToMock)::::INSERT::::STATEMENT::::if (mock == null) {    throw new org.mockito.exceptions.misusing.NotAMockException("Argument should be a mock, but is null!");}	3.0495319901236508E-5
+114	org.mockito.internal.creation.jmock.SearchingClassLoader::::55::::1991::::2010::::parentLoaders.size()::::DELETE::::INFIX	2.721547769914369E-5
+115	org.mockito.internal.creation.jmock.SearchingClassLoader::::64::::2317::::2317::::c::::this.nextToSearch	2.498002396804473E-5
+116	org.mockito.internal.util.MockUtil::::51::::1879::::1899::::spiedInstance != null::::mock == null	0.0
+117	org.mockito.internal.util.MockUtil::::51::::1879::::1899::::spiedInstance != null::::isMockitoMock(mock)	0.0
+118	org.mockito.internal.util.MockUtil::::51::::1879::::1899::::spiedInstance != null::::interfaces == null	0.0
+119	org.mockito.internal.util.MockUtil::::49::::1841::::1854::::ancillaryTypes::::new java.lang.Class<?>[0]	0.0
+120	org.mockito.internal.util.MockUtil::::49::::1820::::1825::::filter::::new org.mockito.internal.creation.MethodInterceptorFilter(mockHandler, settings)	0.0
+121	org.mockito.internal.util.MockUtil::::49::::1820::::1825::::filter::::getInterceptor(mock)	0.0
+122	org.mockito.internal.util.MockUtil::::45::::1682::::1691::::interfaces::::new java.lang.Class<?>[0]	0.0
+123	org.mockito.internal.util.MockUtil::::45::::1682::::1691::::interfaces::::(interfaces == null) ? new java.lang.Class<?>[0] : interfaces	0.0
+124	org.mockito.internal.util.MockUtil::::45::::1643::::1691::::(interfaces == null) ? new java.lang.Class<?>[0] : interfaces::::new java.lang.Class<?>[0]	0.0
+125	org.mockito.internal.util.MockUtil::::45::::1643::::1691::::(interfaces == null) ? new java.lang.Class<?>[0] : interfaces::::ancillaryTypes	0.0
+126	org.mockito.internal.util.MockUtil::::45::::1643::::1660::::interfaces == null::::spiedInstance != null	0.0
+127	org.mockito.internal.util.MockUtil::::45::::1643::::1660::::interfaces == null::::mock == null	0.0
+128	org.mockito.internal.util.MockUtil::::45::::1643::::1660::::interfaces == null::::isMockitoMock(mock)	0.0
+129	org.mockito.internal.util.MockUtil::::45::::1643::::1652::::interfaces::::new java.lang.Class<?>[0]	0.0
+130	org.mockito.internal.util.MockUtil::::45::::1643::::1652::::interfaces::::(interfaces == null) ? new java.lang.Class<?>[0] : interfaces	0.0
+131	org.mockito.internal.util.MockUtil::::45::::1626::::1692::::ancillaryTypes = (interfaces == null) ? new java.lang.Class<?>[0] : interfaces::::this.creationValidator = creationValidator	0.0
+132	org.mockito.internal.util.MockUtil::::45::::1626::::1639::::ancillaryTypes::::new java.lang.Class<?>[0]	0.0
+133	org.mockito.internal.util.MockUtil::::41::::1491::::1501::::mockHandler::::new org.mockito.internal.MockHandler<T>(settings)	0.0
+134	org.mockito.internal.util.MockUtil::::36::::1225::::1241::::creationValidator::::new org.mockito.internal.util.CreationValidator()	0.0
+135	org.mockito.internal.util.MockUtil::::35::::1130::::1146::::creationValidator::::new org.mockito.internal.util.CreationValidator()	0.0
+136	org.mockito.internal.util.MockUtil::::34::::1077::::1093::::creationValidator::::new org.mockito.internal.util.CreationValidator()	0.0
+137	org.mockito.internal.util.MockName::::32::::1048::::1056::::className::::"unchecked"	0.0
+138	org.mockito.internal.util.MockName::::32::::1006::::1069::::className.substring(0, 1).toLowerCase()) + (className.substring(1)::::this.mockName	0.0
+139	org.mockito.internal.util.MockName::::32::::1006::::1069::::className.substring(0, 1).toLowerCase()) + (className.substring(1)::::mockName	0.0
+140	org.mockito.internal.util.MockName::::32::::1006::::1069::::className.substring(0, 1).toLowerCase()) + (className.substring(1)::::"unchecked"	0.0
+141	org.mockito.internal.util.MockName::::32::::1006::::1014::::className::::"unchecked"	0.0
+142	org.mockito.internal.util.MockName::::27::::787::::809::::(className.length()) == 0::::true	0.0
+143	org.mockito.internal.util.MockName::::27::::787::::809::::(className.length()) == 0::::this.surrogate	0.0
+144	org.mockito.internal.util.MockName::::27::::787::::809::::(className.length()) == 0::::surrogate	0.0
+145	org.mockito.internal.util.MockName::::27::::787::::809::::(className.length()) == 0::::mockName == null	0.0
+146	org.mockito.internal.util.MockName::::27::::787::::795::::className::::"unchecked"	0.0
+147	org.mockito.internal.util.MockName::::19::::588::::591::::true::::this.surrogate	0.0
+148	org.mockito.internal.util.MockName::::19::::588::::591::::true::::surrogate	0.0
+149	org.mockito.internal.util.MockName::::19::::588::::591::::true::::mockName == null	0.0
+150	org.mockito.internal.util.MockName::::19::::571::::592::::this.surrogate = true::::this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock)	0.0
+151	org.mockito.internal.util.MockName::::19::::571::::592::::this.surrogate = true::::this.mockName = mockName	0.0
+152	org.mockito.internal.util.MockName::::19::::571::::584::::this.surrogate::::true	0.0
+153	org.mockito.internal.util.MockName::::19::::571::::584::::this.surrogate::::surrogate	0.0
+154	org.mockito.internal.util.MockName::::19::::571::::584::::this.surrogate::::mockName == null	0.0
+155	org.mockito.internal.util.MockName::::18::::514::::557::::this.mockName = org.mockito.internal.util.MockName.toInstanceName(classToMock)::::this.surrogate = true	0.0
+156	org.mockito.internal.util.MockName::::18::::514::::526::::this.mockName::::org.mockito.internal.util.MockName.toInstanceName(classToMock)	0.0
+157	org.mockito.internal.util.MockName::::18::::514::::526::::this.mockName::::mockName	0.0
+158	org.mockito.internal.util.MockName::::18::::514::::526::::this.mockName::::"unchecked"	0.0
+159	org.mockito.internal.util.MockName::::17::::482::::497::::mockName == null::::true	0.0
+160	org.mockito.internal.util.MockName::::17::::482::::497::::mockName == null::::this.surrogate	0.0
+161	org.mockito.internal.util.MockName::::17::::482::::497::::mockName == null::::surrogate	0.0
+162	org.mockito.internal.util.MockName::::17::::482::::489::::mockName::::org.mockito.internal.util.MockName.toInstanceName(classToMock)	0.0
+163	org.mockito.internal.util.MockName::::17::::482::::489::::mockName::::"unchecked"	0.0
+164	org.mockito.internal.util.CreationValidator::::32::::981::::999::::classToMock == null::::spiedInstance == null	0.0
+165	org.mockito.internal.util.CreationValidator::::32::::981::::1024::::classToMock == null) || (spiedInstance == null::::spiedInstance == null	0.0
+166	org.mockito.internal.util.CreationValidator::::32::::981::::1024::::classToMock == null) || (spiedInstance == null::::classToMock == null	0.0
+167	org.mockito.internal.util.CreationValidator::::32::::1004::::1024::::spiedInstance == null::::classToMock == null	0.0
+168	org.mockito.internal.util.CreationValidator::::25::::752::::767::::classToMock == i::::extraInterfaces == null	0.0
+169	org.mockito.internal.util.CreationValidator::::20::::628::::650::::extraInterfaces == null::::classToMock == null	0.0
+170	org.mockito.internal.util.CreationValidator::::20::::628::::650::::extraInterfaces == null::::classToMock == i	0.0
+171	org.mockito.internal.stubbing.InvocationContainerImpl::::32::::1320::::1334::::mockingProgress::::this.mockingProgress	0.0
+172	org.mockito.internal.stubbing.InvocationContainerImpl::::32::::1297::::1316::::this.mockingProgress::::mockingProgress	0.0
+173	org.mockito.internal.progress.MockingProgressImpl::::47::::1636::::1659::::iOngoingStubbing = null::::verificationMode = null	0.0
+174	org.mockito.internal.progress.MockingProgressImpl::::47::::1636::::1659::::iOngoingStubbing = null::::stubbingInProgress = null	0.0
+175	org.mockito.internal.progress.MockingProgressImpl::::47::::1636::::1659::::iOngoingStubbing = null::::stubbingInProgress = new org.mockito.internal.debugging.Location()	0.0
+176	org.mockito.internal.progress.MockingProgressImpl::::47::::1636::::1659::::iOngoingStubbing = null::::INSERT::::STATEMENT::::validateState()	0.0
+177	org.mockito.internal.progress.MockingProgressImpl::::47::::1636::::1659::::iOngoingStubbing = null::::INSERT::::STATEMENT::::resetOngoingStubbing()	0.0
+178	org.mockito.internal.progress.MockingProgressImpl::::47::::1636::::1651::::iOngoingStubbing::::this.iOngoingStubbing	0.0
+179	org.mockito.internal.creation.jmock.SearchingClassLoader::::64::::2317::::2317::::c::::org.mockito.internal.creation.jmock.SearchingClassLoader.combine(loaders)	0.0
+180	org.mockito.internal.creation.jmock.SearchingClassLoader::::63::::2287::::2287::::c::::org.mockito.internal.creation.jmock.SearchingClassLoader.combine(loaders)	0.0
+181	org.mockito.internal.creation.jmock.SearchingClassLoader::::63::::2256::::2288::::c != null) && (!(loaders.contains(c))::::c != null	0.0
+182	org.mockito.internal.creation.jmock.SearchingClassLoader::::63::::2256::::2288::::c != null) && (!(loaders.contains(c))::::(nextToSearch) != null	0.0
+183	org.mockito.internal.creation.jmock.SearchingClassLoader::::63::::2256::::2264::::c != null::::(nextToSearch) != null	0.0
+184	org.mockito.internal.creation.jmock.SearchingClassLoader::::63::::2256::::2256::::c::::org.mockito.internal.creation.jmock.SearchingClassLoader.combine(loaders)	0.0
+185	org.mockito.internal.creation.jmock.SearchingClassLoader::::55::::2023::::2023::::i::::i--	0.0
+186	org.mockito.internal.creation.jmock.SearchingClassLoader::::55::::2023::::2023::::i::::2	0.0
+187	org.mockito.internal.creation.jmock.SearchingClassLoader::::55::::2023::::2023::::i::::1	0.0
+188	org.mockito.internal.creation.jmock.SearchingClassLoader::::55::::2023::::2023::::i::::0	0.0
+189	org.mockito.internal.creation.jmock.SearchingClassLoader::::55::::2015::::2015::::i::::i--	0.0
+190	org.mockito.internal.creation.jmock.SearchingClassLoader::::55::::2015::::2015::::i::::2	0.0
+191	org.mockito.internal.creation.jmock.SearchingClassLoader::::55::::2015::::2015::::i::::1	0.0
+192	org.mockito.internal.creation.jmock.SearchingClassLoader::::55::::2015::::2015::::i::::0	0.0
+193	org.mockito.internal.creation.jmock.SearchingClassLoader::::55::::1991::::2012::::(parentLoaders.size()) - 2::::i--	0.0
+194	org.mockito.internal.creation.jmock.SearchingClassLoader::::55::::1991::::2012::::(parentLoaders.size()) - 2::::i	0.0
+195	org.mockito.internal.creation.jmock.SearchingClassLoader::::55::::1991::::2012::::(parentLoaders.size()) - 2::::2	0.0
+196	org.mockito.internal.creation.jmock.SearchingClassLoader::::55::::1991::::2012::::(parentLoaders.size()) - 2::::1	0.0
+197	org.mockito.internal.creation.jmock.SearchingClassLoader::::55::::1991::::2012::::(parentLoaders.size()) - 2::::0	0.0
+198	org.mockito.internal.creation.jmock.SearchingClassLoader::::53::::1936::::1957::::(parentLoaders.size()) - 1::::i--	0.0
+199	org.mockito.internal.creation.jmock.SearchingClassLoader::::53::::1936::::1957::::(parentLoaders.size()) - 1::::i	0.0
+200	org.mockito.internal.creation.jmock.SearchingClassLoader::::53::::1936::::1957::::(parentLoaders.size()) - 1::::2	0.0
+201	org.mockito.internal.creation.jmock.SearchingClassLoader::::53::::1936::::1957::::(parentLoaders.size()) - 1::::1	0.0
+202	org.mockito.internal.creation.jmock.SearchingClassLoader::::53::::1936::::1957::::(parentLoaders.size()) - 1::::0	0.0
+203	org.mockito.internal.creation.jmock.ClassImposterizer::::86::::3492::::3522::::(mockedType.getSigners()) != null::::true	0.0
+204	org.mockito.internal.creation.jmock.ClassImposterizer::::86::::3492::::3522::::(mockedType.getSigners()) != null::::false	0.0
+205	org.mockito.internal.creation.jmock.ClassImposterizer::::64::::2567::::2592::::mockedType == (java.lang.Object.class)::::true	0.0
+206	org.mockito.internal.creation.jmock.ClassImposterizer::::64::::2567::::2592::::mockedType == (java.lang.Object.class)::::false	0.0
+207	org.mockito.internal.creation.jmock.ClassImposterizer::::53::::2164::::2208::::setConstructorsAccessible(mockedType, false)::::INSERT::::STATEMENT::::setConstructorsAccessible(mockedType, true)	0.0
+208	org.mockito.internal.creation.jmock.ClassImposterizer::::53::::2164::::2208::::setConstructorsAccessible(mockedType, false)::::INSERT::::STATEMENT::::setConstructorsAccessible(mockedType, false)	0.0
+209	org.mockito.internal.creation.jmock.ClassImposterizer::::51::::2105::::2114::::proxyClass::::createProxyClass(mockedType, ancillaryTypes)	0.0
+210	org.mockito.internal.creation.jmock.ClassImposterizer::::51::::2070::::2130::::return mockedType.cast(createProxy(proxyClass, interceptor))::::INSERT::::STATEMENT::::setConstructorsAccessible(mockedType, true)	0.0
+211	org.mockito.internal.creation.jmock.ClassImposterizer::::51::::2070::::2130::::return mockedType.cast(createProxy(proxyClass, interceptor))::::INSERT::::STATEMENT::::setConstructorsAccessible(mockedType, false)	0.0
+212	org.mockito.internal.creation.jmock.ClassImposterizer::::50::::1990::::2056::::java.lang.Class<?> proxyClass = createProxyClass(mockedType, ancillaryTypes)::::INSERT::::STATEMENT::::setConstructorsAccessible(mockedType, true)	0.0
+213	org.mockito.internal.creation.jmock.ClassImposterizer::::50::::1990::::2056::::java.lang.Class<?> proxyClass = createProxyClass(mockedType, ancillaryTypes)::::INSERT::::STATEMENT::::setConstructorsAccessible(mockedType, false)	0.0
+214	org.mockito.internal.creation.jmock.ClassImposterizer::::49::::1933::::1976::::setConstructorsAccessible(mockedType, true)::::INSERT::::STATEMENT::::setConstructorsAccessible(mockedType, true)	0.0
+215	org.mockito.internal.creation.jmock.ClassImposterizer::::49::::1933::::1976::::setConstructorsAccessible(mockedType, true)::::INSERT::::STATEMENT::::setConstructorsAccessible(mockedType, false)	0.0
+216	org.mockito.internal.creation.jmock.ClassImposterizer::::44::::1716::::1776::::!(type.isPrimitive())) && (!(java.lang.reflect.Modifier.isFinal(type.getModifiers()))::::true	0.0
+217	org.mockito.internal.creation.jmock.ClassImposterizer::::44::::1716::::1776::::!(type.isPrimitive())) && (!(java.lang.reflect.Modifier.isFinal(type.getModifiers()))::::false	0.0
+218	org.mockito.internal.creation.jmock.ClassImposterizer::::39::::1601::::1625::::method.isBridge() ? 1 : 0::::1	0.0
+219	org.mockito.internal.creation.jmock.ClassImposterizer::::39::::1601::::1625::::method.isBridge() ? 1 : 0::::0	0.0
+220	org.mockito.internal.creation.jmock.ClassImposterizer::::119::::5035::::5045::::rest.length::::1	0.0
+221	org.mockito.internal.creation.jmock.ClassImposterizer::::119::::5035::::5045::::rest.length::::0	0.0
+222	org.mockito.internal.creation.jmock.ClassImposterizer::::119::::5035::::5045::::rest.length::::(rest.length) + 1	0.0
+223	org.mockito.internal.creation.jmock.ClassImposterizer::::118::::4986::::4990::::first::::all[0]	0.0
+224	org.mockito.internal.creation.jmock.ClassImposterizer::::117::::4953::::4965::::(rest.length) + 1::::1	0.0
+225	org.mockito.internal.creation.jmock.ClassImposterizer::::117::::4953::::4965::::(rest.length) + 1::::0	0.0
+226	org.mockito.internal.creation.jmock.ClassImposterizer::::117::::4953::::4963::::rest.length::::1	0.0
+227	org.mockito.internal.creation.jmock.ClassImposterizer::::117::::4953::::4963::::rest.length::::0	0.0
+228	org.mockito.internal.creation.jmock.ClassImposterizer::::117::::4953::::4963::::rest.length::::(rest.length) + 1	0.0
+229	org.mockito.internal.creation.jmock.ClassImposterizer::::112::::4772::::4809::::SerializableNoOp.SERIALIZABLE_INSTANCE::::new org.mockito.internal.creation.jmock.ClassImposterizer()	0.0
+230	org.mockito.internal.creation.jmock.ClassImposterizer::::111::::4681::::4689::::objenesis::::new org.objenesis.ObjenesisStd()	0.0
+231	org.mockito.internal.creation.MockSettingsImpl::::78::::2295::::2298::::name::::this.name	0.0
+232	org.mockito.internal.creation.MockSettingsImpl::::78::::2295::::2298::::name::::"unchecked"	0.0
+233	org.mockito.internal.creation.MockSettingsImpl::::78::::2271::::2313::::mockName = new org.mockito.internal.util.MockName(name, classToMock)::::this.spiedInstance = spiedInstance	0.0
+234	org.mockito.internal.creation.MockSettingsImpl::::78::::2271::::2313::::mockName = new org.mockito.internal.util.MockName(name, classToMock)::::this.extraInterfaces = extraInterfaces	0.0
+235	org.mockito.internal.creation.MockSettingsImpl::::78::::2271::::2278::::mockName::::new org.mockito.internal.util.MockName(name, classToMock)	0.0
+236	org.mockito.internal.creation.MockSettingsImpl::::65::::1895::::1929::::this.defaultAnswer = defaultAnswer::::this.spiedInstance = spiedInstance	0.0
+237	org.mockito.internal.creation.MockSettingsImpl::::65::::1895::::1929::::this.defaultAnswer = defaultAnswer::::this.name = name	0.0
+238	org.mockito.internal.creation.MockSettingsImpl::::65::::1895::::1929::::this.defaultAnswer = defaultAnswer::::this.extraInterfaces = extraInterfaces	0.0
+239	org.mockito.internal.creation.MockSettingsImpl::::65::::1895::::1912::::this.defaultAnswer::::defaultAnswer	0.0
+240	org.mockito.internal.creation.MockSettingsImpl::::50::::1536::::1548::::spiedInstance::::this.spiedInstance	0.0
+241	org.mockito.internal.creation.MockSettingsImpl::::46::::1458::::1472::::extraInterfaces::::this.extraInterfaces	0.0
+242	org.mockito.internal.creation.MockSettingsImpl::::37::::1285::::1299::::extraInterfaces::::this.extraInterfaces	0.0
+243	org.mockito.internal.creation.MockSettingsImpl::::37::::1262::::1300::::this.extraInterfaces = extraInterfaces::::this.spiedInstance = spiedInstance	0.0
+244	org.mockito.internal.creation.MockSettingsImpl::::37::::1262::::1300::::this.extraInterfaces = extraInterfaces::::this.name = name	0.0
+245	org.mockito.internal.creation.MockSettingsImpl::::37::::1262::::1281::::this.extraInterfaces::::extraInterfaces	0.0
+246	org.mockito.internal.creation.MockSettingsImpl::::31::::1025::::1033::::i == null::::extraInterfaces == null) || ((extraInterfaces.length) == 0	0.0
+247	org.mockito.internal.creation.MockSettingsImpl::::31::::1025::::1033::::i == null::::extraInterfaces == null	0.0
+248	org.mockito.internal.creation.MockSettingsImpl::::31::::1025::::1033::::i == null::::(extraInterfaces.length) == 0	0.0
+249	org.mockito.internal.creation.MockSettingsImpl::::31::::1025::::1033::::i == null::::(extraInterfaces) != null	0.0
+250	org.mockito.internal.creation.MockSettingsImpl::::30::::990::::1004::::extraInterfaces::::this.extraInterfaces	0.0
+251	org.mockito.internal.creation.MockSettingsImpl::::26::::837::::863::::(extraInterfaces.length) == 0::::i == null	0.0
+252	org.mockito.internal.creation.MockSettingsImpl::::26::::837::::858::::extraInterfaces.length::::0	0.0
+253	org.mockito.internal.creation.MockSettingsImpl::::26::::837::::851::::extraInterfaces::::this.extraInterfaces	0.0
+254	org.mockito.internal.creation.MockSettingsImpl::::26::::810::::863::::extraInterfaces == null) || ((extraInterfaces.length) == 0::::i == null	0.0
+255	org.mockito.internal.creation.MockSettingsImpl::::26::::810::::863::::extraInterfaces == null) || ((extraInterfaces.length) == 0::::extraInterfaces == null	0.0
+256	org.mockito.internal.creation.MockSettingsImpl::::26::::810::::863::::extraInterfaces == null) || ((extraInterfaces.length) == 0::::(extraInterfaces.length) == 0	0.0
+257	org.mockito.internal.creation.MockSettingsImpl::::26::::810::::832::::extraInterfaces == null::::i == null	0.0
+258	org.mockito.internal.creation.MethodInterceptorFilter::::29::::1189::::1200::::mockSettings::::this.mockSettings	0.0
+259	org.mockito.internal.creation.MethodInterceptorFilter::::29::::1169::::1201::::this.mockSettings = mockSettings::::this.handler = handler	0.0
+260	org.mockito.internal.creation.MethodInterceptorFilter::::29::::1169::::1185::::this.mockSettings::::mockSettings	0.0
+261	org.mockito.internal.creation.MethodInterceptorFilter::::28::::1152::::1158::::handler::::this.handler	0.0
+262	org.mockito.internal.creation.MethodInterceptorFilter::::28::::1137::::1159::::this.handler = handler::::this.mockSettings = mockSettings	0.0
+263	org.mockito.internal.creation.MethodInterceptorFilter::::28::::1137::::1148::::this.handler::::handler	0.0
+264	org.mockito.internal.MockitoCore::::35::::1318::::1325::::mockUtil::::new org.mockito.internal.util.MockUtil()	0.0
+265	org.mockito.internal.MockitoCore::::34::::1263::::1277::::mockingProgress::::new org.mockito.internal.progress.ThreadSafeMockingProgress()	0.0
+266	org.mockito.internal.MockitoCore::::33::::1222::::1236::::mockingProgress::::new org.mockito.internal.progress.ThreadSafeMockingProgress()	0.0
+267	org.mockito.internal.MockHandler::::42::::1622::::1636::::mockingProgress::::this.mockingProgress	0.0
+268	org.mockito.internal.MockHandler::::42::::1563::::1638::::this.invocationContainerImpl = new org.mockito.internal.InvocationContainerImpl(mockingProgress)::::this.mockSettings = mockSettings	0.0
+269	org.mockito.internal.MockHandler::::42::::1563::::1638::::this.invocationContainerImpl = new org.mockito.internal.InvocationContainerImpl(mockingProgress)::::this.matchersBinder = new org.mockito.internal.invocation.MatchersBinder()	0.0
+270	org.mockito.internal.MockHandler::::42::::1563::::1590::::this.invocationContainerImpl::::new org.mockito.internal.InvocationContainerImpl(mockingProgress)	0.0
+271	org.mockito.internal.MockHandler::::42::::1563::::1590::::this.invocationContainerImpl::::invocationContainerImpl	0.0
+272	org.mockito.internal.MockHandler::::41::::1511::::1553::::this.matchersBinder = new org.mockito.internal.invocation.MatchersBinder()::::this.mockingProgress = new org.mockito.internal.progress.ThreadSafeMockingProgress()	0.0
+273	org.mockito.internal.MockHandler::::41::::1511::::1553::::this.matchersBinder = new org.mockito.internal.invocation.MatchersBinder()::::this.mockSettings = mockSettings	0.0
+274	org.mockito.internal.MockHandler::::41::::1511::::1553::::this.matchersBinder = new org.mockito.internal.invocation.MatchersBinder()::::this.invocationContainerImpl = new org.mockito.internal.InvocationContainerImpl(mockingProgress)	0.0
+275	org.mockito.internal.MockHandler::::41::::1511::::1529::::this.matchersBinder::::new org.mockito.internal.invocation.MatchersBinder()	0.0
+276	org.mockito.internal.MockHandler::::41::::1511::::1529::::this.matchersBinder::::matchersBinder	0.0
+277	org.mockito.internal.MockHandler::::40::::1447::::1501::::this.mockingProgress = new org.mockito.internal.progress.ThreadSafeMockingProgress()::::this.mockSettings = mockSettings	0.0
+278	org.mockito.internal.MockHandler::::40::::1447::::1501::::this.mockingProgress = new org.mockito.internal.progress.ThreadSafeMockingProgress()::::this.matchersBinder = new org.mockito.internal.invocation.MatchersBinder()	0.0
+279	org.mockito.internal.MockHandler::::40::::1447::::1466::::this.mockingProgress::::mockingProgress	0.0
+280	org.mockito.internal.MockHandler::::39::::1425::::1436::::mockSettings::::this.mockSettings	0.0
+281	org.mockito.internal.MockHandler::::39::::1425::::1436::::mockSettings::::new org.mockito.internal.creation.MockSettingsImpl()	0.0
+282	org.mockito.internal.MockHandler::::39::::1405::::1437::::this.mockSettings = mockSettings::::this.mockingProgress = new org.mockito.internal.progress.ThreadSafeMockingProgress()	0.0
+283	org.mockito.internal.MockHandler::::39::::1405::::1437::::this.mockSettings = mockSettings::::this.matchersBinder = new org.mockito.internal.invocation.MatchersBinder()	0.0
+284	org.mockito.internal.MockHandler::::39::::1405::::1437::::this.mockSettings = mockSettings::::this.invocationContainerImpl = new org.mockito.internal.InvocationContainerImpl(mockingProgress)	0.0
+285	org.mockito.internal.MockHandler::::39::::1405::::1421::::this.mockSettings::::new org.mockito.internal.creation.MockSettingsImpl()	0.0
+286	org.mockito.internal.MockHandler::::39::::1405::::1421::::this.mockSettings::::mockSettings	0.0
+287	org.mockito.Mockito::::826::::35272::::35283::::mockSettings::::org.mockito.Mockito.withSettings()	0.0
+288	org.mockito.Mockito::::826::::35241::::35252::::org.mockito.Mockito.MOCKITO_CORE::::new org.mockito.internal.MockitoCore()	0.0

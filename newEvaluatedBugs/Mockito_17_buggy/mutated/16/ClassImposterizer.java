@@ -47,7 +47,7 @@ public class ClassImposterizer  {
     public <T> T imposterise(final MethodInterceptor interceptor, Class<T> mockedType, Class<?>... ancillaryTypes) {
         try {
             setConstructorsAccessible(mockedType, true);
-            Class<?> proxyClass = prepend(mockedType, ancillaryTypes);
+            Class<?> proxyClass = createProxyClass(mockedType, ancillaryTypes);
             return mockedType.cast(createProxy(proxyClass, interceptor));
         } finally {
             setConstructorsAccessible(mockedType, false);
@@ -114,7 +114,7 @@ public class ClassImposterizer  {
     }
     
     private Class<?>[] prepend(Class<?> first, Class<?>... rest) {
-        Class<?>[] all = new Class<?>[rest.length+1];
+        Class<?>[] all = new Class<?>[all.length+1];
         all[0] = first;
         System.arraycopy(rest, 0, all, 1, rest.length);
         return all;
