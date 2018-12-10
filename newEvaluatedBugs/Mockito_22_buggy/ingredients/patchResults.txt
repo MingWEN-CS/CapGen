@@ -1,134 +1,134 @@
-org.mockito.internal.matchers.Equality::::16::::504::::540::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	true
+org.mockito.internal.matchers.Equality::::16::::504::::540::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
 org.mockito.internal.matchers.Equality::::16::::504::::540::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)::::o1 == null) || (o2 == null	false
 org.mockito.internal.matchers.Equality::::16::::504::::540::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
-org.mockito.internal.matchers.Equality::::16::::504::::540::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)	true
-org.mockito.internal.matchers.Equality::::16::::504::::540::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	true
+org.mockito.internal.matchers.Equality::::16::::504::::540::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::16::::504::::540::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
 org.mockito.internal.matchers.Equality::::28::::849::::890::::java.lang.reflect.Array.getLength(o1)) == (java.lang.reflect.Array.getLength(o2)::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
-org.mockito.internal.matchers.Equality::::28::::849::::890::::java.lang.reflect.Array.getLength(o1)) == (java.lang.reflect.Array.getLength(o2)::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	true
+org.mockito.internal.matchers.Equality::::28::::849::::890::::java.lang.reflect.Array.getLength(o1)) == (java.lang.reflect.Array.getLength(o2)::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
 org.mockito.internal.matchers.Equality::::28::::849::::890::::java.lang.reflect.Array.getLength(o1)) == (java.lang.reflect.Array.getLength(o2)::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
-org.mockito.internal.matchers.Equality::::28::::849::::890::::java.lang.reflect.Array.getLength(o1)) == (java.lang.reflect.Array.getLength(o2)::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)	true
-org.mockito.internal.matchers.Equality::::28::::849::::890::::java.lang.reflect.Array.getLength(o1)) == (java.lang.reflect.Array.getLength(o2)::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	true
+org.mockito.internal.matchers.Equality::::28::::849::::890::::java.lang.reflect.Array.getLength(o1)) == (java.lang.reflect.Array.getLength(o2)::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::28::::849::::890::::java.lang.reflect.Array.getLength(o1)) == (java.lang.reflect.Array.getLength(o2)::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
 org.mockito.internal.matchers.Equality::::28::::849::::890::::java.lang.reflect.Array.getLength(o1)) == (java.lang.reflect.Array.getLength(o2)::::o1 == null) || (o2 == null	false
 org.mockito.internal.matchers.Equality::::23::::684::::760::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)::::o1 == null) || (o2 == null	false
-org.mockito.internal.matchers.Equality::::33::::1075::::1076::::o2::::o1	true
-org.mockito.internal.matchers.Equality::::28::::888::::889::::o2::::o1	true
-org.mockito.internal.matchers.Equality::::23::::709::::710::::o2::::o1	true
-org.mockito.internal.matchers.Equality::::23::::684::::703::::areArrayLengthsEqual::::areArrayElementsEqual	true
-org.mockito.internal.matchers.Equality::::16::::538::::539::::o2::::o1	true
-org.mockito.internal.matchers.Equality::::16::::512::::513::::o2::::o1	true
-org.mockito.internal.matchers.Equality::::16::::519::::532::::areArraysEqual::::areArrayLengthsEqual	true
-org.mockito.internal.matchers.Equality::::16::::519::::532::::areArraysEqual::::areArrayElementsEqual	true
-org.mockito.internal.matchers.Equality::::23::::684::::760::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)	true
-org.mockito.internal.matchers.Equality::::23::::684::::760::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	true
+org.mockito.internal.matchers.Equality::::33::::1075::::1076::::o2::::o1	false
+org.mockito.internal.matchers.Equality::::28::::888::::889::::o2::::o1	false
+org.mockito.internal.matchers.Equality::::23::::709::::710::::o2::::o1	false
+org.mockito.internal.matchers.Equality::::23::::684::::703::::areArrayLengthsEqual::::areArrayElementsEqual	false
+org.mockito.internal.matchers.Equality::::16::::538::::539::::o2::::o1	false
+org.mockito.internal.matchers.Equality::::16::::512::::513::::o2::::o1	false
+org.mockito.internal.matchers.Equality::::16::::519::::532::::areArraysEqual::::areArrayLengthsEqual	false
+org.mockito.internal.matchers.Equality::::16::::519::::532::::areArraysEqual::::areArrayElementsEqual	false
+org.mockito.internal.matchers.Equality::::23::::684::::760::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::23::::684::::760::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
 org.mockito.internal.matchers.Equality::::14::::425::::448::::o1 == null) && (o2 == null::::o1 == null) || (o2 == null	false
-org.mockito.internal.matchers.Equality::::23::::684::::703::::areArrayLengthsEqual::::areArraysEqual	true
+org.mockito.internal.matchers.Equality::::23::::684::::703::::areArrayLengthsEqual::::areArraysEqual	false
 org.mockito.internal.matchers.Equality::::14::::425::::448::::o1 == null) && (o2 == null::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
-org.mockito.internal.matchers.Equality::::14::::425::::448::::o1 == null) && (o2 == null::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	true
-org.mockito.internal.matchers.Equality::::33::::1057::::1058::::o1::::o2	true
+org.mockito.internal.matchers.Equality::::14::::425::::448::::o1 == null) && (o2 == null::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::33::::1057::::1058::::o1::::o2	false
 org.mockito.internal.matchers.Equality::::14::::425::::448::::o1 == null) && (o2 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
-org.mockito.internal.matchers.Equality::::14::::425::::448::::o1 == null) && (o2 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)	true
-org.mockito.internal.matchers.Equality::::14::::425::::448::::o1 == null) && (o2 == null::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	true
+org.mockito.internal.matchers.Equality::::14::::425::::448::::o1 == null) && (o2 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::14::::425::::448::::o1 == null) && (o2 == null::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
 org.mockito.internal.matchers.Equality::::23::::684::::760::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
-org.mockito.internal.matchers.Equality::::23::::684::::760::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	true
-org.mockito.internal.matchers.Equality::::32::::1009::::1010::::o1::::o2	true
-org.mockito.internal.matchers.Equality::::28::::865::::866::::o1::::o2	true
-org.mockito.internal.matchers.Equality::::23::::705::::706::::o1::::o2	true
-org.mockito.internal.matchers.Equality::::16::::534::::535::::o1::::o2	true
+org.mockito.internal.matchers.Equality::::23::::684::::760::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::32::::1009::::1010::::o1::::o2	false
+org.mockito.internal.matchers.Equality::::28::::865::::866::::o1::::o2	false
+org.mockito.internal.matchers.Equality::::23::::705::::706::::o1::::o2	false
+org.mockito.internal.matchers.Equality::::16::::534::::535::::o1::::o2	false
 org.mockito.internal.matchers.Equality::::28::::849::::890::::java.lang.reflect.Array.getLength(o1)) == (java.lang.reflect.Array.getLength(o2)::::o1 == null) && (o2 == null	false
 org.mockito.internal.matchers.Equality::::16::::504::::540::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)::::o1 == null) && (o2 == null	false
-org.mockito.internal.matchers.Equality::::14::::439::::440::::o2::::o1	true
-org.mockito.internal.matchers.Equality::::16::::519::::532::::areArraysEqual::::areEqual	true
-org.mockito.internal.matchers.Equality::::16::::504::::540::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)::::org.mockito.internal.matchers.Equality.isArray(o2)	true
-org.mockito.internal.matchers.Equality::::16::::504::::540::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)::::o2 == null	true
-org.mockito.internal.matchers.Equality::::16::::504::::540::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)::::o1 == null	true
-org.mockito.internal.matchers.Equality::::23::::684::::703::::areArrayLengthsEqual::::areEqual	true
-org.mockito.internal.matchers.Equality::::16::::504::::540::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)::::org.mockito.internal.matchers.Equality.isArray(o1)	true
-org.mockito.internal.matchers.Equality::::28::::842::::891::::return (java.lang.reflect.Array.getLength(o1)) == (java.lang.reflect.Array.getLength(o2))::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	true
-org.mockito.internal.matchers.Equality::::28::::849::::890::::java.lang.reflect.Array.getLength(o1)) == (java.lang.reflect.Array.getLength(o2)::::org.mockito.internal.matchers.Equality.isArray(o2)	true
-org.mockito.internal.matchers.Equality::::28::::849::::890::::java.lang.reflect.Array.getLength(o1)) == (java.lang.reflect.Array.getLength(o2)::::o2 == null	true
-org.mockito.internal.matchers.Equality::::28::::849::::890::::java.lang.reflect.Array.getLength(o1)) == (java.lang.reflect.Array.getLength(o2)::::o1 == null	true
-org.mockito.internal.matchers.Equality::::23::::684::::760::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)::::o2 == null	true
-org.mockito.internal.matchers.Equality::::23::::684::::760::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)::::o1 == null	true
-org.mockito.internal.matchers.Equality::::28::::849::::890::::java.lang.reflect.Array.getLength(o1)) == (java.lang.reflect.Array.getLength(o2)::::org.mockito.internal.matchers.Equality.isArray(o1)	true
-org.mockito.internal.matchers.Equality::::14::::425::::426::::o1::::o2	true
-org.mockito.internal.matchers.Equality::::23::::677::::761::::return (org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2))::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	true
-org.mockito.internal.matchers.Equality::::23::::684::::760::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)::::org.mockito.internal.matchers.Equality.isArray(o1)	true
+org.mockito.internal.matchers.Equality::::14::::439::::440::::o2::::o1	false
+org.mockito.internal.matchers.Equality::::16::::519::::532::::areArraysEqual::::areEqual	false
+org.mockito.internal.matchers.Equality::::16::::504::::540::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)::::org.mockito.internal.matchers.Equality.isArray(o2)	false
+org.mockito.internal.matchers.Equality::::16::::504::::540::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)::::o2 == null	false
+org.mockito.internal.matchers.Equality::::16::::504::::540::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)::::o1 == null	false
+org.mockito.internal.matchers.Equality::::23::::684::::703::::areArrayLengthsEqual::::areEqual	false
+org.mockito.internal.matchers.Equality::::16::::504::::540::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)::::org.mockito.internal.matchers.Equality.isArray(o1)	false
+org.mockito.internal.matchers.Equality::::28::::842::::891::::return (java.lang.reflect.Array.getLength(o1)) == (java.lang.reflect.Array.getLength(o2))::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::28::::849::::890::::java.lang.reflect.Array.getLength(o1)) == (java.lang.reflect.Array.getLength(o2)::::org.mockito.internal.matchers.Equality.isArray(o2)	false
+org.mockito.internal.matchers.Equality::::28::::849::::890::::java.lang.reflect.Array.getLength(o1)) == (java.lang.reflect.Array.getLength(o2)::::o2 == null	false
+org.mockito.internal.matchers.Equality::::28::::849::::890::::java.lang.reflect.Array.getLength(o1)) == (java.lang.reflect.Array.getLength(o2)::::o1 == null	false
+org.mockito.internal.matchers.Equality::::23::::684::::760::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)::::o2 == null	false
+org.mockito.internal.matchers.Equality::::23::::684::::760::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)::::o1 == null	false
+org.mockito.internal.matchers.Equality::::28::::849::::890::::java.lang.reflect.Array.getLength(o1)) == (java.lang.reflect.Array.getLength(o2)::::org.mockito.internal.matchers.Equality.isArray(o1)	false
+org.mockito.internal.matchers.Equality::::14::::425::::426::::o1::::o2	false
+org.mockito.internal.matchers.Equality::::23::::677::::761::::return (org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2))::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::23::::684::::760::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)::::org.mockito.internal.matchers.Equality.isArray(o1)	false
 org.mockito.internal.matchers.Equality::::23::::684::::760::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)::::o1 == null) && (o2 == null	false
-org.mockito.internal.matchers.Equality::::14::::425::::448::::o1 == null) && (o2 == null::::org.mockito.internal.matchers.Equality.isArray(o2)	true
-org.mockito.internal.matchers.Equality::::35::::1116::::1127::::return true::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	true
-org.mockito.internal.matchers.Equality::::23::::684::::760::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)::::org.mockito.internal.matchers.Equality.isArray(o2)	true
+org.mockito.internal.matchers.Equality::::14::::425::::448::::o1 == null) && (o2 == null::::org.mockito.internal.matchers.Equality.isArray(o2)	false
+org.mockito.internal.matchers.Equality::::35::::1116::::1127::::return true::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::23::::684::::760::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)::::org.mockito.internal.matchers.Equality.isArray(o2)	false
 org.mockito.internal.matchers.Equality::::14::::439::::448::::o2 == null::::o1 == null) || (o2 == null	false
 org.mockito.internal.matchers.Equality::::14::::425::::434::::o1 == null::::o1 == null) || (o2 == null	false
-org.mockito.internal.matchers.Equality::::14::::425::::448::::o1 == null) && (o2 == null::::org.mockito.internal.matchers.Equality.isArray(o1)	true
-org.mockito.internal.matchers.Equality::::14::::425::::434::::o1 == null::::org.mockito.internal.matchers.Equality.isArray(o1)	true
-org.mockito.internal.matchers.Equality::::33::::1038::::1045::::areEqual::::areArrayLengthsEqual	true
-org.mockito.internal.matchers.Equality::::33::::1038::::1045::::areEqual::::areArrayElementsEqual	true
-org.mockito.internal.matchers.Equality::::18::::589::::590::::o2::::o1	true
-org.mockito.internal.matchers.Equality::::13::::392::::393::::o2::::o1	true
-org.mockito.internal.matchers.Equality::::33::::1038::::1045::::areEqual::::areArraysEqual	true
-org.mockito.internal.matchers.Equality::::16::::497::::541::::return (org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2))::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	true
+org.mockito.internal.matchers.Equality::::14::::425::::448::::o1 == null) && (o2 == null::::org.mockito.internal.matchers.Equality.isArray(o1)	false
+org.mockito.internal.matchers.Equality::::14::::425::::434::::o1 == null::::org.mockito.internal.matchers.Equality.isArray(o1)	false
+org.mockito.internal.matchers.Equality::::33::::1038::::1045::::areEqual::::areArrayLengthsEqual	false
+org.mockito.internal.matchers.Equality::::33::::1038::::1045::::areEqual::::areArrayElementsEqual	false
+org.mockito.internal.matchers.Equality::::18::::589::::590::::o2::::o1	false
+org.mockito.internal.matchers.Equality::::13::::392::::393::::o2::::o1	false
+org.mockito.internal.matchers.Equality::::33::::1038::::1045::::areEqual::::areArraysEqual	false
+org.mockito.internal.matchers.Equality::::16::::497::::541::::return (org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2))::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
 org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::124::::3530::::3535::::addAll::::retainAll	false
 org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::124::::3530::::3535::::addAll::::removeAll	false
 org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::124::::3530::::3535::::addAll::::containsAll	false
 org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::124::::3530::::3535::::addAll::::asWrappedMocks	false
-org.mockito.internal.configuration.injection.MockInjection::::86::::2863::::2885::::postInjectionStrategies::::injectionStrategies	true
-org.mockito.internal.configuration.injection.MockInjection::::71::::2358::::2367::::this.mocks::::mocks	true
-org.mockito.internal.configuration.injection.MockInjection::::67::::2211::::2221::::this.fields::::fields	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::73::::2730::::2748::::spyAnnotationEngine::::delegate	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::56::::2031::::2048::::processInjectMocks::::processIndependentAnnotations	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::46::::1219::::1226::::strategy::::nextStrategy	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1184::::1191::::strategy::::nextStrategy	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1129::::1136::::strategy::::nextStrategy	true
-org.mockito.internal.matchers.Equality::::13::::378::::401::::o1 == null) || (o2 == null::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::75::::2815::::2826::::classContext::::clazz	true
+org.mockito.internal.configuration.injection.MockInjection::::86::::2863::::2885::::postInjectionStrategies::::injectionStrategies	false
+org.mockito.internal.configuration.injection.MockInjection::::71::::2358::::2367::::this.mocks::::mocks	false
+org.mockito.internal.configuration.injection.MockInjection::::67::::2211::::2221::::this.fields::::fields	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::73::::2730::::2748::::spyAnnotationEngine::::delegate	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::56::::2031::::2048::::processInjectMocks::::processIndependentAnnotations	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::46::::1219::::1226::::strategy::::nextStrategy	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1184::::1191::::strategy::::nextStrategy	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1129::::1136::::strategy::::nextStrategy	false
+org.mockito.internal.matchers.Equality::::13::::378::::401::::o1 == null) || (o2 == null::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::75::::2815::::2826::::classContext::::clazz	false
 org.mockito.internal.configuration.InjectingAnnotationEngine::::75::::2800::::2811::::classContext::::clazz	false
-org.mockito.internal.matchers.Equality::::15::::478::::479::::o1::::o2	true
-org.mockito.internal.matchers.Equality::::18::::579::::580::::o1::::o2	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::69::::2535::::2546::::classContext::::clazz	true
-org.mockito.internal.matchers.Equality::::13::::378::::379::::o1::::o2	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::63::::2336::::2347::::classContext::::clazz	true
+org.mockito.internal.matchers.Equality::::15::::478::::479::::o1::::o2	false
+org.mockito.internal.matchers.Equality::::18::::579::::580::::o1::::o2	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::69::::2535::::2546::::classContext::::clazz	false
+org.mockito.internal.matchers.Equality::::13::::378::::379::::o1::::o2	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::63::::2336::::2347::::classContext::::clazz	false
 org.mockito.internal.configuration.InjectingAnnotationEngine::::63::::2321::::2332::::classContext::::clazz	false
-org.mockito.internal.configuration.InjectingAnnotationEngine::::73::::2758::::2769::::classContext::::clazz	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::71::::2650::::2661::::classContext::::clazz	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::61::::2238::::2249::::classContext::::clazz	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::55::::1953::::1981::::processIndependentAnnotations::::processInjectMocks	true
-org.mockito.internal.configuration.injection.MockInjection::::76::::2519::::2537::::injectionStrategies::::postInjectionStrategies	true
+org.mockito.internal.configuration.InjectingAnnotationEngine::::73::::2758::::2769::::classContext::::clazz	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::71::::2650::::2661::::classContext::::clazz	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::61::::2238::::2249::::classContext::::clazz	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::55::::1953::::1981::::processIndependentAnnotations::::processInjectMocks	false
+org.mockito.internal.configuration.injection.MockInjection::::76::::2519::::2537::::injectionStrategies::::postInjectionStrategies	false
 org.mockito.internal.configuration.InjectingAnnotationEngine::::68::::2513::::2517::::clazz::::classContext	false
 org.mockito.internal.configuration.InjectingAnnotationEngine::::60::::2216::::2220::::clazz::::classContext	false
 org.mockito.internal.matchers.Equality::::13::::378::::401::::o1 == null) || (o2 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
-org.mockito.internal.matchers.Equality::::14::::425::::434::::o1 == null::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	true
-org.mockito.internal.matchers.Equality::::14::::439::::448::::o2 == null::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	true
-org.mockito.internal.matchers.Equality::::32::::973::::1106::::for (int i = 0; i < (java.lang.reflect.Array.getLength(o1)); i++) {    if (!(org.mockito.internal.matchers.Equality.areEqual(java.lang.reflect.Array.get(o1, i), java.lang.reflect.Array.get(o2, i))))        return false;}::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	true
-org.mockito.internal.matchers.Equality::::13::::378::::401::::o1 == null) || (o2 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)	true
-org.mockito.internal.configuration.injection.MockInjection::::81::::2692::::2710::::injectionStrategies::::postInjectionStrategies	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::71::::2633::::2640::::delegate::::spyAnnotationEngine	true
-org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::138::::4180::::4186::::hashSet::::backingHashSet	true
-org.mockito.internal.util.Checks::::21::::537::::576::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)::::INSERT::::STATEMENT::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::56::::2031::::2088::::processInjectMocks(testInstance.getClass(), testInstance)::::INSERT::::STATEMENT::::injectMocks(testInstance)	true
-org.mockito.internal.matchers.Equality::::14::::439::::448::::o2 == null::::org.mockito.internal.matchers.Equality.isArray(o2)	true
+org.mockito.internal.matchers.Equality::::14::::425::::434::::o1 == null::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::14::::439::::448::::o2 == null::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::32::::973::::1106::::for (int i = 0; i < (java.lang.reflect.Array.getLength(o1)); i++) {    if (!(org.mockito.internal.matchers.Equality.areEqual(java.lang.reflect.Array.get(o1, i), java.lang.reflect.Array.get(o2, i))))        return false;}::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::13::::378::::401::::o1 == null) || (o2 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)	false
+org.mockito.internal.configuration.injection.MockInjection::::81::::2692::::2710::::injectionStrategies::::postInjectionStrategies	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::71::::2633::::2640::::delegate::::spyAnnotationEngine	false
+org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::138::::4180::::4186::::hashSet::::backingHashSet	false
+org.mockito.internal.util.Checks::::21::::537::::576::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)::::INSERT::::STATEMENT::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::56::::2031::::2088::::processInjectMocks(testInstance.getClass(), testInstance)::::INSERT::::STATEMENT::::injectMocks(testInstance)	false
+org.mockito.internal.matchers.Equality::::14::::439::::448::::o2 == null::::org.mockito.internal.matchers.Equality.isArray(o2)	false
 org.mockito.internal.matchers.Equality::::14::::439::::448::::o2 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
 org.mockito.internal.matchers.Equality::::14::::425::::434::::o1 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
 org.mockito.internal.matchers.Equality::::13::::392::::401::::o2 == null::::o1 == null) || (o2 == null	false
 org.mockito.internal.matchers.Equality::::13::::378::::387::::o1 == null::::o1 == null) || (o2 == null	false
-org.mockito.internal.matchers.Equality::::13::::378::::401::::o1 == null) || (o2 == null::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	true
-org.mockito.internal.matchers.Equality::::13::::378::::387::::o1 == null::::org.mockito.internal.matchers.Equality.isArray(o1)	true
-org.mockito.internal.matchers.Equality::::14::::418::::449::::return (o1 == null) && (o2 == null)::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	true
-org.mockito.internal.matchers.Equality::::14::::425::::434::::o1 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)	true
-org.mockito.internal.util.Checks::::25::::697::::712::::return iterable::::INSERT::::STATEMENT::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	true
-org.mockito.internal.matchers.Equality::::14::::439::::448::::o2 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)	true
+org.mockito.internal.matchers.Equality::::13::::378::::401::::o1 == null) || (o2 == null::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::13::::378::::387::::o1 == null::::org.mockito.internal.matchers.Equality.isArray(o1)	false
+org.mockito.internal.matchers.Equality::::14::::418::::449::::return (o1 == null) && (o2 == null)::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::14::::425::::434::::o1 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)	false
+org.mockito.internal.util.Checks::::25::::697::::712::::return iterable::::INSERT::::STATEMENT::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
+org.mockito.internal.matchers.Equality::::14::::439::::448::::o2 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)	false
 org.mockito.internal.configuration.DefaultAnnotationEngine::::62::::2537::::2579::::java.lang.reflect.Field[] fields = clazz.getDeclaredFields()::::INSERT::::STATEMENT::::throwIfAlreadyAssigned(field, alreadyAssigned)	false
 org.mockito.internal.matchers.Equality::::13::::378::::401::::o1 == null) || (o2 == null::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
-org.mockito.internal.configuration.InjectingAnnotationEngine::::55::::1953::::2021::::processIndependentAnnotations(testInstance.getClass(), testInstance)::::INSERT::::STATEMENT::::injectMocks(testInstance)	true
-org.mockito.internal.matchers.Equality::::13::::378::::401::::o1 == null) || (o2 == null::::org.mockito.internal.matchers.Equality.isArray(o1)	true
+org.mockito.internal.configuration.InjectingAnnotationEngine::::55::::1953::::2021::::processIndependentAnnotations(testInstance.getClass(), testInstance)::::INSERT::::STATEMENT::::injectMocks(testInstance)	false
+org.mockito.internal.matchers.Equality::::13::::378::::401::::o1 == null) || (o2 == null::::org.mockito.internal.matchers.Equality.isArray(o1)	false
 org.mockito.internal.matchers.Equality::::33::::1037::::1081::::!(org.mockito.internal.matchers.Equality.areEqual(java.lang.reflect.Array.get(o1, i), java.lang.reflect.Array.get(o2, i)))::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
-org.mockito.internal.matchers.Equality::::14::::425::::434::::o1 == null::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	true
-org.mockito.internal.matchers.Equality::::14::::439::::448::::o2 == null::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	true
-org.mockito.MockitoAnnotations::::108::::4498::::4555::::annotationEngine.process(testClass.getClass(), testClass)::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.scanDeprecatedWay(annotationEngine, testClass, clazz)	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1119::::nextStrategy::::strategy	true
-org.mockito.internal.util.Checks::::22::::586::::687::::for (java.lang.Object item : iterable) {    org.mockito.internal.util.Checks.checkNotNull(item, ("item in " + checkedIterable));}::::INSERT::::STATEMENT::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	true
+org.mockito.internal.matchers.Equality::::14::::425::::434::::o1 == null::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::14::::439::::448::::o2 == null::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
+org.mockito.MockitoAnnotations::::108::::4498::::4555::::annotationEngine.process(testClass.getClass(), testClass)::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.scanDeprecatedWay(annotationEngine, testClass, clazz)	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1119::::nextStrategy::::strategy	false
+org.mockito.internal.util.Checks::::22::::586::::687::::for (java.lang.Object item : iterable) {    org.mockito.internal.util.Checks.checkNotNull(item, ("item in " + checkedIterable));}::::INSERT::::STATEMENT::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
 org.mockito.MockitoAnnotations::::95::::3852::::3889::::java.lang.Class<?> clazz = testClass.getClass()::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.scanDeprecatedWay(annotationEngine, testClass, clazz)	false
 org.mockito.MockitoAnnotations::::94::::3759::::3842::::org.mockito.configuration.AnnotationEngine annotationEngine = new org.mockito.internal.configuration.GlobalConfiguration().getAnnotationEngine()::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.scanDeprecatedWay(annotationEngine, testClass, clazz)	false
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1169::::1180::::nextStrategy::::strategy	true
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1169::::1180::::nextStrategy::::strategy	false
 org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::150::::4481::::4563::::org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet hashCodeAndEqualsSafeSet = new org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet()::::INSERT::::STATEMENT::::hashCodeAndEqualsSafeSet.add(mock)	false
 org.mockito.internal.matchers.Equality::::14::::425::::434::::o1 == null::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
 org.mockito.internal.matchers.Equality::::14::::439::::448::::o2 == null::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
@@ -137,110 +137,110 @@ org.mockito.internal.matchers.Equality::::28::::872::::890::::java.lang.reflect.
 org.mockito.internal.matchers.Equality::::23::::684::::711::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)::::DELETE::::INFIX	false
 org.mockito.internal.matchers.Equality::::16::::519::::540::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)::::DELETE::::INFIX	false
 org.mockito.internal.matchers.Equality::::16::::504::::514::::org.mockito.internal.matchers.Equality.isArray(o2)::::DELETE::::INFIX	false
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::41::::1072::::1083::::nextStrategy::::strategy	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::46::::1212::::1227::::return strategy::::INSERT::::STATEMENT::::nextStrategy.thenTry(strategy)	true
-org.mockito.internal.matchers.Equality::::33::::1084::::1096::::return false::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1138::::nextStrategy.thenTry(strategy)::::INSERT::::STATEMENT::::nextStrategy.thenTry(strategy)	true
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::41::::1072::::1083::::nextStrategy::::strategy	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::46::::1212::::1227::::return strategy::::INSERT::::STATEMENT::::nextStrategy.thenTry(strategy)	false
+org.mockito.internal.matchers.Equality::::33::::1084::::1096::::return false::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1138::::nextStrategy.thenTry(strategy)::::INSERT::::STATEMENT::::nextStrategy.thenTry(strategy)	false
 org.mockito.MockitoAnnotations::::112::::4677::::4719::::java.lang.reflect.Field[] fields = clazz.getDeclaredFields()::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.processAnnotationDeprecatedWay(annotationEngine, testClass, field)	false
-org.mockito.internal.configuration.injection.MockInjection::::86::::2863::::2885::::postInjectionStrategies::::new org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler()	true
-org.mockito.internal.configuration.injection.MockInjection::::86::::2863::::2885::::postInjectionStrategies::::new org.mockito.internal.configuration.injection.PropertyAndSetterInjection()	true
-org.mockito.internal.configuration.injection.MockInjection::::86::::2863::::2885::::postInjectionStrategies::::new org.mockito.internal.configuration.injection.ConstructorInjection()	true
+org.mockito.internal.configuration.injection.MockInjection::::86::::2863::::2885::::postInjectionStrategies::::new org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler()	false
+org.mockito.internal.configuration.injection.MockInjection::::86::::2863::::2885::::postInjectionStrategies::::new org.mockito.internal.configuration.injection.PropertyAndSetterInjection()	false
+org.mockito.internal.configuration.injection.MockInjection::::86::::2863::::2885::::postInjectionStrategies::::new org.mockito.internal.configuration.injection.ConstructorInjection()	false
 org.mockito.internal.matchers.Equality::::15::::470::::480::::org.mockito.internal.matchers.Equality.isArray(o1)::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
-org.mockito.internal.matchers.Equality::::13::::378::::387::::o1 == null::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	true
-org.mockito.internal.matchers.Equality::::13::::392::::401::::o2 == null::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	true
-org.mockito.internal.util.Checks::::22::::605::::612::::iterable::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	true
-org.mockito.internal.matchers.Equality::::18::::572::::592::::return o1.equals(o2)::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	true
+org.mockito.internal.matchers.Equality::::13::::378::::387::::o1 == null::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::13::::392::::401::::o2 == null::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.util.Checks::::22::::605::::612::::iterable::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
+org.mockito.internal.matchers.Equality::::18::::572::::592::::return o1.equals(o2)::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
 org.mockito.MockitoAnnotations::::114::::4730::::4847::::for (java.lang.reflect.Field field : fields) {    org.mockito.MockitoAnnotations.processAnnotationDeprecatedWay(annotationEngine, testClass, field);}::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.processAnnotationDeprecatedWay(annotationEngine, testClass, field)	false
-org.mockito.MockitoAnnotations::::112::::4677::::4719::::java.lang.reflect.Field[] fields = clazz.getDeclaredFields()::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.scanDeprecatedWay(annotationEngine, testClass, clazz)	true
-org.mockito.internal.matchers.Equality::::13::::392::::401::::o2 == null::::org.mockito.internal.matchers.Equality.isArray(o2)	true
+org.mockito.MockitoAnnotations::::112::::4677::::4719::::java.lang.reflect.Field[] fields = clazz.getDeclaredFields()::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.scanDeprecatedWay(annotationEngine, testClass, clazz)	false
+org.mockito.internal.matchers.Equality::::13::::392::::401::::o2 == null::::org.mockito.internal.matchers.Equality.isArray(o2)	false
 org.mockito.internal.matchers.Equality::::13::::378::::401::::o1 == null) || (o2 == null::::o1 == null) && (o2 == null	false
-org.mockito.internal.util.Checks::::21::::550::::557::::iterable::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	true
+org.mockito.internal.util.Checks::::21::::550::::557::::iterable::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
 org.mockito.internal.matchers.Equality::::13::::392::::401::::o2 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
 org.mockito.internal.matchers.Equality::::13::::378::::387::::o1 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)) && (org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::46::::1219::::1226::::strategy::::nextStrategy.thenTry(strategy)	true
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::46::::1219::::1226::::strategy::::nextStrategy.thenTry(strategy)	false
 org.mockito.internal.matchers.Equality::::32::::993::::1011::::java.lang.reflect.Array.getLength(o1)::::DELETE::::INFIX	false
-org.mockito.internal.matchers.Equality::::13::::374::::602::::if ((o1 == null) || (o2 == null)) {    return (o1 == null) && (o2 == null);}else    if (org.mockito.internal.matchers.Equality.isArray(o1)) {        return (org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2));    }else {        return o1.equals(o2);    }::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1184::::1191::::strategy::::nextStrategy.thenTry(strategy)	true
-org.mockito.internal.matchers.Equality::::13::::378::::387::::o1 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)	true
-org.mockito.internal.matchers.Equality::::13::::392::::401::::o2 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)	true
-org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::132::::3802::::3873::::org.mockito.internal.util.Checks.checkNotNull(mocks, "Passed collection should notify() be null")::::DELETE::::STATEMENT	true
-org.mockito.internal.util.Checks::::21::::537::::576::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)::::DELETE::::STATEMENT	true
-org.mockito.internal.configuration.injection.scanner.MockScanner::::47::::1307::::1327::::mocks.addAll(scan())::::DELETE::::STATEMENT	true
-org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::40::::1047::::1081::::mockDependentFields.addAll(scan())::::DELETE::::STATEMENT	true
-org.mockito.internal.configuration.injection.MockInjection::::86::::2863::::2928::::postInjectionStrategies.thenTry(new org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler())::::DELETE::::STATEMENT	true
-org.mockito.internal.configuration.injection.MockInjection::::81::::2692::::2753::::injectionStrategies.thenTry(new org.mockito.internal.configuration.injection.PropertyAndSetterInjection())::::DELETE::::STATEMENT	true
-org.mockito.internal.configuration.injection.MockInjection::::76::::2519::::2574::::injectionStrategies.thenTry(new org.mockito.internal.configuration.injection.ConstructorInjection())::::DELETE::::STATEMENT	true
-org.mockito.internal.configuration.injection.MockInjection::::71::::2358::::2405::::this.mocks.addAll(checkNotNull(mocks, "mocks"))::::DELETE::::STATEMENT	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::56::::2031::::2088::::processInjectMocks(testInstance.getClass(), testInstance)::::DELETE::::STATEMENT	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::55::::1953::::2021::::processIndependentAnnotations(testInstance.getClass(), testInstance)::::DELETE::::STATEMENT	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::100::::3677::::3772::::new org.mockito.internal.configuration.DefaultInjectionEngine().injectMocksOnFields(mockDependentFields, mocks, testClassInstance)::::DELETE::::STATEMENT	true
-org.mockito.internal.configuration.DefaultInjectionEngine::::20::::587::::834::::org.mockito.internal.configuration.injection.MockInjection.onFields(needingInjection, testClassInstance).withMocks(mocks).tryConstructorInjection().tryPropertyOrFieldInjection().handleSpyAnnotation().apply()::::DELETE::::STATEMENT	true
-org.mockito.internal.configuration.DefaultAnnotationEngine::::58::::2388::::2457::::annotationProcessorMap.put(annotationClass, fieldAnnotationProcessor)::::DELETE::::STATEMENT	true
-org.mockito.MockitoAnnotations::::108::::4498::::4555::::annotationEngine.process(testClass.getClass(), testClass)::::DELETE::::STATEMENT	true
-org.mockito.internal.configuration.injection.MockInjection::::76::::2519::::2537::::injectionStrategies::::new org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler()	true
-org.mockito.internal.configuration.injection.MockInjection::::76::::2519::::2537::::injectionStrategies::::new org.mockito.internal.configuration.injection.PropertyAndSetterInjection()	true
-org.mockito.internal.configuration.injection.MockInjection::::76::::2519::::2537::::injectionStrategies::::new org.mockito.internal.configuration.injection.ConstructorInjection()	true
-org.mockito.internal.configuration.injection.MockInjection::::81::::2692::::2710::::injectionStrategies::::new org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler()	true
-org.mockito.internal.matchers.Equality::::13::::378::::401::::o1 == null) || (o2 == null::::org.mockito.internal.matchers.Equality.isArray(o2)	true
-org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::124::::3530::::3543::::backingHashSet::::asWrappedMocks(mocks)	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1129::::1136::::strategy::::nextStrategy.thenTry(strategy)	true
-org.mockito.MockitoAnnotations::::114::::4730::::4847::::for (java.lang.reflect.Field field : fields) {    org.mockito.MockitoAnnotations.processAnnotationDeprecatedWay(annotationEngine, testClass, field);}::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.scanDeprecatedWay(annotationEngine, testClass, clazz)	true
-org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::50::::1326::::1330::::clazz::::this.clazz	true
-org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::152::::4608::::4702::::for (java.lang.Object mock : objects) {    hashCodeAndEqualsSafeSet.add(mock);}::::INSERT::::STATEMENT::::if (objects != null) {    for (java.lang.Object mock : objects) {        hashCodeAndEqualsSafeSet.add(mock);    }}	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1169::::1192::::nextStrategy = strategy::::INSERT::::STATEMENT::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}	true
-org.mockito.internal.matchers.Equality::::15::::466::::602::::if (org.mockito.internal.matchers.Equality.isArray(o1)) {    return (org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2));}else {    return o1.equals(o2);}::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	true
-org.mockito.internal.matchers.Equality::::13::::378::::387::::o1 == null::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	true
+org.mockito.internal.matchers.Equality::::13::::374::::602::::if ((o1 == null) || (o2 == null)) {    return (o1 == null) && (o2 == null);}else    if (org.mockito.internal.matchers.Equality.isArray(o1)) {        return (org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2));    }else {        return o1.equals(o2);    }::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1184::::1191::::strategy::::nextStrategy.thenTry(strategy)	false
+org.mockito.internal.matchers.Equality::::13::::378::::387::::o1 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::13::::392::::401::::o2 == null::::org.mockito.internal.matchers.Equality.areArrayLengthsEqual(o1, o2)	false
+org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::132::::3802::::3873::::org.mockito.internal.util.Checks.checkNotNull(mocks, "Passed collection should notify() be null")::::DELETE::::STATEMENT	false
+org.mockito.internal.util.Checks::::21::::537::::576::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.injection.scanner.MockScanner::::47::::1307::::1327::::mocks.addAll(scan())::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::40::::1047::::1081::::mockDependentFields.addAll(scan())::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.injection.MockInjection::::86::::2863::::2928::::postInjectionStrategies.thenTry(new org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler())::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.injection.MockInjection::::81::::2692::::2753::::injectionStrategies.thenTry(new org.mockito.internal.configuration.injection.PropertyAndSetterInjection())::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.injection.MockInjection::::76::::2519::::2574::::injectionStrategies.thenTry(new org.mockito.internal.configuration.injection.ConstructorInjection())::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.injection.MockInjection::::71::::2358::::2405::::this.mocks.addAll(checkNotNull(mocks, "mocks"))::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::56::::2031::::2088::::processInjectMocks(testInstance.getClass(), testInstance)::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::55::::1953::::2021::::processIndependentAnnotations(testInstance.getClass(), testInstance)::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::100::::3677::::3772::::new org.mockito.internal.configuration.DefaultInjectionEngine().injectMocksOnFields(mockDependentFields, mocks, testClassInstance)::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.DefaultInjectionEngine::::20::::587::::834::::org.mockito.internal.configuration.injection.MockInjection.onFields(needingInjection, testClassInstance).withMocks(mocks).tryConstructorInjection().tryPropertyOrFieldInjection().handleSpyAnnotation().apply()::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.DefaultAnnotationEngine::::58::::2388::::2457::::annotationProcessorMap.put(annotationClass, fieldAnnotationProcessor)::::DELETE::::STATEMENT	false
+org.mockito.MockitoAnnotations::::108::::4498::::4555::::annotationEngine.process(testClass.getClass(), testClass)::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.injection.MockInjection::::76::::2519::::2537::::injectionStrategies::::new org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler()	false
+org.mockito.internal.configuration.injection.MockInjection::::76::::2519::::2537::::injectionStrategies::::new org.mockito.internal.configuration.injection.PropertyAndSetterInjection()	false
+org.mockito.internal.configuration.injection.MockInjection::::76::::2519::::2537::::injectionStrategies::::new org.mockito.internal.configuration.injection.ConstructorInjection()	false
+org.mockito.internal.configuration.injection.MockInjection::::81::::2692::::2710::::injectionStrategies::::new org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler()	false
+org.mockito.internal.matchers.Equality::::13::::378::::401::::o1 == null) || (o2 == null::::org.mockito.internal.matchers.Equality.isArray(o2)	false
+org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::124::::3530::::3543::::backingHashSet::::asWrappedMocks(mocks)	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1129::::1136::::strategy::::nextStrategy.thenTry(strategy)	false
+org.mockito.MockitoAnnotations::::114::::4730::::4847::::for (java.lang.reflect.Field field : fields) {    org.mockito.MockitoAnnotations.processAnnotationDeprecatedWay(annotationEngine, testClass, field);}::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.scanDeprecatedWay(annotationEngine, testClass, clazz)	false
+org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::50::::1326::::1330::::clazz::::this.clazz	false
+org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::152::::4608::::4702::::for (java.lang.Object mock : objects) {    hashCodeAndEqualsSafeSet.add(mock);}::::INSERT::::STATEMENT::::if (objects != null) {    for (java.lang.Object mock : objects) {        hashCodeAndEqualsSafeSet.add(mock);    }}	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1169::::1192::::nextStrategy = strategy::::INSERT::::STATEMENT::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}	false
+org.mockito.internal.matchers.Equality::::15::::466::::602::::if (org.mockito.internal.matchers.Equality.isArray(o1)) {    return (org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2));}else {    return o1.equals(o2);}::::INSERT::::STATEMENT::::org.mockito.internal.matchers.Equality.areArrayElementsEqual(o1, o2)	false
+org.mockito.internal.matchers.Equality::::13::::378::::387::::o1 == null::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
 org.mockito.internal.matchers.Equality::::14::::425::::434::::o1 == null::::o1 == null) && (o2 == null	false
-org.mockito.internal.configuration.injection.scanner.MockScanner::::57::::1628::::1632::::clazz::::this.clazz	true
+org.mockito.internal.configuration.injection.scanner.MockScanner::::57::::1628::::1632::::clazz::::this.clazz	false
 org.mockito.internal.matchers.Equality::::14::::439::::448::::o2 == null::::o1 == null) && (o2 == null	false
-org.mockito.internal.matchers.Equality::::13::::392::::401::::o2 == null::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	true
-org.mockito.MockitoAnnotations::::98::::3979::::4452::::if ((annotationEngine.getClass()) != (new org.mockito.configuration.DefaultMockitoConfiguration().getAnnotationEngine().getClass())) {    while (clazz != (java.lang.Object.class)) {        org.mockito.MockitoAnnotations.scanDeprecatedWay(annotationEngine, testClass, clazz);        clazz = clazz.getSuperclass();    } }::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.scanDeprecatedWay(annotationEngine, testClass, clazz)	true
+org.mockito.internal.matchers.Equality::::13::::392::::401::::o2 == null::::org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
+org.mockito.MockitoAnnotations::::98::::3979::::4452::::if ((annotationEngine.getClass()) != (new org.mockito.configuration.DefaultMockitoConfiguration().getAnnotationEngine().getClass())) {    while (clazz != (java.lang.Object.class)) {        org.mockito.MockitoAnnotations.scanDeprecatedWay(annotationEngine, testClass, clazz);        clazz = clazz.getSuperclass();    } }::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.scanDeprecatedWay(annotationEngine, testClass, clazz)	false
 org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::152::::4608::::4702::::for (java.lang.Object mock : objects) {    hashCodeAndEqualsSafeSet.add(mock);}::::INSERT::::STATEMENT::::hashCodeAndEqualsSafeSet.add(mock)	false
-org.mockito.internal.configuration.injection.MockInjection::::81::::2692::::2710::::injectionStrategies::::new org.mockito.internal.configuration.injection.PropertyAndSetterInjection()	true
-org.mockito.internal.configuration.injection.MockInjection::::81::::2692::::2710::::injectionStrategies::::new org.mockito.internal.configuration.injection.ConstructorInjection()	true
-org.mockito.internal.util.Checks::::25::::704::::711::::iterable::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	true
+org.mockito.internal.configuration.injection.MockInjection::::81::::2692::::2710::::injectionStrategies::::new org.mockito.internal.configuration.injection.PropertyAndSetterInjection()	false
+org.mockito.internal.configuration.injection.MockInjection::::81::::2692::::2710::::injectionStrategies::::new org.mockito.internal.configuration.injection.ConstructorInjection()	false
+org.mockito.internal.util.Checks::::25::::704::::711::::iterable::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
 org.mockito.internal.matchers.Equality::::13::::378::::387::::o1 == null::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
 org.mockito.internal.matchers.Equality::::13::::392::::401::::o2 == null::::org.mockito.internal.matchers.Equality.isArray(o2)) && (org.mockito.internal.matchers.Equality.areArraysEqual(o1, o2)	false
-org.mockito.MockitoAnnotations::::101::::4280::::4442::::while (clazz != (java.lang.Object.class)) {    org.mockito.MockitoAnnotations.scanDeprecatedWay(annotationEngine, testClass, clazz);    clazz = clazz.getSuperclass();} ::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.scanDeprecatedWay(annotationEngine, testClass, clazz)	true
+org.mockito.MockitoAnnotations::::101::::4280::::4442::::while (clazz != (java.lang.Object.class)) {    org.mockito.MockitoAnnotations.scanDeprecatedWay(annotationEngine, testClass, clazz);    clazz = clazz.getSuperclass();} ::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.scanDeprecatedWay(annotationEngine, testClass, clazz)	false
 org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::151::::4573::::4712::::if (objects != null) {    for (java.lang.Object mock : objects) {        hashCodeAndEqualsSafeSet.add(mock);    }}::::INSERT::::STATEMENT::::hashCodeAndEqualsSafeSet.add(mock)	false
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1138::::nextStrategy.thenTry(strategy)::::INSERT::::STATEMENT::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::41::::1069::::1202::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}::::INSERT::::STATEMENT::::nextStrategy.thenTry(strategy)	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1169::::1192::::nextStrategy = strategy::::INSERT::::STATEMENT::::nextStrategy.thenTry(strategy)	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::61::::2231::::2374::::while (classContext != (java.lang.Object.class)) {    injectMocks(testInstance);    classContext = classContext.getSuperclass();} ::::INSERT::::STATEMENT::::injectMocks(testInstance)	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1138::::nextStrategy.thenTry(strategy)::::DELETE::::STATEMENT	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::68::::2489::::2518::::java.lang.Class<?> classContext = clazz::::INSERT::::STATEMENT::::injectMocks(testInstance)	true
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1138::::nextStrategy.thenTry(strategy)::::INSERT::::STATEMENT::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::41::::1069::::1202::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}::::INSERT::::STATEMENT::::nextStrategy.thenTry(strategy)	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1169::::1192::::nextStrategy = strategy::::INSERT::::STATEMENT::::nextStrategy.thenTry(strategy)	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::61::::2231::::2374::::while (classContext != (java.lang.Object.class)) {    injectMocks(testInstance);    classContext = classContext.getSuperclass();} ::::INSERT::::STATEMENT::::injectMocks(testInstance)	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1138::::nextStrategy.thenTry(strategy)::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::68::::2489::::2518::::java.lang.Class<?> classContext = clazz::::INSERT::::STATEMENT::::injectMocks(testInstance)	false
 org.mockito.MockitoAnnotations::::90::::3555::::3748::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}::::INSERT::::STATEMENT::::org.mockito.MockitoAnnotations.scanDeprecatedWay(annotationEngine, testClass, clazz)	false
-org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::156::::4722::::4753::::return hashCodeAndEqualsSafeSet::::INSERT::::STATEMENT::::if (objects != null) {    for (java.lang.Object mock : objects) {        hashCodeAndEqualsSafeSet.add(mock);    }}	true
-org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::151::::4573::::4712::::if (objects != null) {    for (java.lang.Object mock : objects) {        hashCodeAndEqualsSafeSet.add(mock);    }}::::INSERT::::STATEMENT::::if (objects != null) {    for (java.lang.Object mock : objects) {        hashCodeAndEqualsSafeSet.add(mock);    }}	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::46::::1212::::1227::::return strategy::::INSERT::::STATEMENT::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::41::::1069::::1202::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}::::INSERT::::STATEMENT::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}	true
-org.mockito.MockitoAnnotations::::90::::3555::::3748::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	true
-org.mockito.MockitoAnnotations::::108::::4498::::4555::::annotationEngine.process(testClass.getClass(), testClass)::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	true
-org.mockito.MockitoAnnotations::::101::::4280::::4442::::while (clazz != (java.lang.Object.class)) {    org.mockito.MockitoAnnotations.scanDeprecatedWay(annotationEngine, testClass, clazz);    clazz = clazz.getSuperclass();} ::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	true
+org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::156::::4722::::4753::::return hashCodeAndEqualsSafeSet::::INSERT::::STATEMENT::::if (objects != null) {    for (java.lang.Object mock : objects) {        hashCodeAndEqualsSafeSet.add(mock);    }}	false
+org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::151::::4573::::4712::::if (objects != null) {    for (java.lang.Object mock : objects) {        hashCodeAndEqualsSafeSet.add(mock);    }}::::INSERT::::STATEMENT::::if (objects != null) {    for (java.lang.Object mock : objects) {        hashCodeAndEqualsSafeSet.add(mock);    }}	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::46::::1212::::1227::::return strategy::::INSERT::::STATEMENT::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::41::::1069::::1202::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}::::INSERT::::STATEMENT::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}	false
+org.mockito.MockitoAnnotations::::90::::3555::::3748::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	false
+org.mockito.MockitoAnnotations::::108::::4498::::4555::::annotationEngine.process(testClass.getClass(), testClass)::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	false
+org.mockito.MockitoAnnotations::::101::::4280::::4442::::while (clazz != (java.lang.Object.class)) {    org.mockito.MockitoAnnotations.scanDeprecatedWay(annotationEngine, testClass, clazz);    clazz = clazz.getSuperclass();} ::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	false
 org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::150::::4481::::4563::::org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet hashCodeAndEqualsSafeSet = new org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet()::::INSERT::::STATEMENT::::if (objects != null) {    for (java.lang.Object mock : objects) {        hashCodeAndEqualsSafeSet.add(mock);    }}	false
 org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::124::::3552::::3565::::asWrappedMocks::::retainAll	false
 org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::124::::3552::::3565::::asWrappedMocks::::removeAll	false
 org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::124::::3552::::3565::::asWrappedMocks::::containsAll	false
 org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::124::::3552::::3565::::asWrappedMocks::::addAll	false
-org.mockito.MockitoAnnotations::::95::::3852::::3889::::java.lang.Class<?> clazz = testClass.getClass()::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	true
-org.mockito.MockitoAnnotations::::94::::3759::::3842::::org.mockito.configuration.AnnotationEngine annotationEngine = new org.mockito.internal.configuration.GlobalConfiguration().getAnnotationEngine()::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	true
+org.mockito.MockitoAnnotations::::95::::3852::::3889::::java.lang.Class<?> clazz = testClass.getClass()::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	false
+org.mockito.MockitoAnnotations::::94::::3759::::3842::::org.mockito.configuration.AnnotationEngine annotationEngine = new org.mockito.internal.configuration.GlobalConfiguration().getAnnotationEngine()::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	false
 org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1169::::1180::::nextStrategy::::nextStrategy.thenTry(strategy)	false
 org.mockito.internal.matchers.Equality::::28::::849::::867::::java.lang.reflect.Array.getLength(o1)::::DELETE::::INFIX	false
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1119::::nextStrategy::::nextStrategy.thenTry(strategy)	true
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1119::::nextStrategy::::nextStrategy.thenTry(strategy)	false
 org.mockito.internal.configuration.DefaultAnnotationEngine::::63::::2589::::3370::::for (java.lang.reflect.Field field : fields) {    boolean alreadyAssigned = false;    for (java.lang.annotation.Annotation annotation : field.getAnnotations()) {        java.lang.Object mock = createMockFor(annotation, field);        if (mock != null) {            throwIfAlreadyAssigned(field, alreadyAssigned);            alreadyAssigned = true;            try {                new org.mockito.internal.util.reflection.FieldSetter(testInstance, field).set(mock);            } catch (java.lang.Exception e) {                throw new org.mockito.exceptions.base.MockitoException(((("Problems setting field " + (field.getName())) + " annotated with ") + annotation), e);            }        }    }}::::INSERT::::STATEMENT::::throwIfAlreadyAssigned(field, alreadyAssigned)	false
-org.mockito.internal.configuration.InjectingAnnotationEngine::::69::::2528::::2853::::while (classContext != (java.lang.Object.class)) {    delegate.process(classContext, testInstance);    spyAnnotationEngine.process(classContext, testInstance);    classContext = classContext.getSuperclass();} ::::INSERT::::STATEMENT::::injectMocks(testInstance)	true
-org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::40::::1047::::1065::::mockDependentFields::::scan()	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::60::::2192::::2221::::java.lang.Class<?> classContext = clazz::::INSERT::::STATEMENT::::injectMocks(testInstance)	true
+org.mockito.internal.configuration.InjectingAnnotationEngine::::69::::2528::::2853::::while (classContext != (java.lang.Object.class)) {    delegate.process(classContext, testInstance);    spyAnnotationEngine.process(classContext, testInstance);    classContext = classContext.getSuperclass();} ::::INSERT::::STATEMENT::::injectMocks(testInstance)	false
+org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::40::::1047::::1065::::mockDependentFields::::scan()	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::60::::2192::::2221::::java.lang.Class<?> classContext = clazz::::INSERT::::STATEMENT::::injectMocks(testInstance)	false
 org.mockito.internal.matchers.Equality::::13::::378::::387::::o1 == null::::o1 == null) && (o2 == null	false
 org.mockito.internal.matchers.Equality::::13::::392::::401::::o2 == null::::o1 == null) && (o2 == null	false
-org.mockito.MockitoAnnotations::::112::::4677::::4719::::java.lang.reflect.Field[] fields = clazz.getDeclaredFields()::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	true
-org.mockito.internal.configuration.injection.scanner.MockScanner::::47::::1307::::1311::::mocks::::scan()	true
+org.mockito.MockitoAnnotations::::112::::4677::::4719::::java.lang.reflect.Field[] fields = clazz.getDeclaredFields()::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	false
+org.mockito.internal.configuration.injection.scanner.MockScanner::::47::::1307::::1311::::mocks::::scan()	false
 org.mockito.MockitoAnnotations::::98::::4014::::4079::::new org.mockito.configuration.DefaultMockitoConfiguration().getAnnotationEngine().getClass()::::DELETE::::INFIX	false
 org.mockito.MockitoAnnotations::::98::::3983::::4009::::annotationEngine.getClass()::::DELETE::::INFIX	false
-org.mockito.MockitoAnnotations::::114::::4730::::4847::::for (java.lang.reflect.Field field : fields) {    org.mockito.MockitoAnnotations.processAnnotationDeprecatedWay(annotationEngine, testClass, field);}::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::41::::1072::::1083::::nextStrategy::::nextStrategy.thenTry(strategy)	true
-org.mockito.MockitoAnnotations::::98::::3979::::4452::::if ((annotationEngine.getClass()) != (new org.mockito.configuration.DefaultMockitoConfiguration().getAnnotationEngine().getClass())) {    while (clazz != (java.lang.Object.class)) {        org.mockito.MockitoAnnotations.scanDeprecatedWay(annotationEngine, testClass, clazz);        clazz = clazz.getSuperclass();    } }::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	true
-org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::38::::1191::::1204::::backingHashSet::::new java.util.HashSet<org.mockito.internal.util.collections.HashCodeAndEqualsMockWrapper>()	true
-org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::124::::3530::::3543::::backingHashSet::::new java.util.HashSet<org.mockito.internal.util.collections.HashCodeAndEqualsMockWrapper>()	true
+org.mockito.MockitoAnnotations::::114::::4730::::4847::::for (java.lang.reflect.Field field : fields) {    org.mockito.MockitoAnnotations.processAnnotationDeprecatedWay(annotationEngine, testClass, field);}::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::41::::1072::::1083::::nextStrategy::::nextStrategy.thenTry(strategy)	false
+org.mockito.MockitoAnnotations::::98::::3979::::4452::::if ((annotationEngine.getClass()) != (new org.mockito.configuration.DefaultMockitoConfiguration().getAnnotationEngine().getClass())) {    while (clazz != (java.lang.Object.class)) {        org.mockito.MockitoAnnotations.scanDeprecatedWay(annotationEngine, testClass, clazz);        clazz = clazz.getSuperclass();    } }::::INSERT::::STATEMENT::::if (testClass == null) {    throw new org.mockito.exceptions.base.MockitoException("testClass cannot be null. For info how to use @Mock annotations see examples in javadoc for MockitoAnnotations class");}	false
+org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::38::::1191::::1204::::backingHashSet::::new java.util.HashSet<org.mockito.internal.util.collections.HashCodeAndEqualsMockWrapper>()	false
+org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::124::::3530::::3543::::backingHashSet::::new java.util.HashSet<org.mockito.internal.util.collections.HashCodeAndEqualsMockWrapper>()	false
 org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::38::::1191::::1204::::backingHashSet::::new org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet()	false
-org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::124::::3530::::3543::::backingHashSet::::new org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet()	true
+org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::124::::3530::::3543::::backingHashSet::::new org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet()	false

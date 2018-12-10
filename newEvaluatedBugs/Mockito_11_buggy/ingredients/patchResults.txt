@@ -1,86 +1,86 @@
-org.mockito.internal.configuration.injection.scanner.MockScanner::::61::::1817::::1827::::fieldReader::::new org.mockito.internal.util.reflection.FieldReader(instance, field)	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::56::::2043::::2060::::processInjectMocks::::processIndependentAnnotations	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::46::::1219::::1226::::strategy::::nextStrategy	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1184::::1191::::strategy::::nextStrategy	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1129::::1136::::strategy::::nextStrategy	true
+org.mockito.internal.configuration.injection.scanner.MockScanner::::61::::1817::::1827::::fieldReader::::new org.mockito.internal.util.reflection.FieldReader(instance, field)	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::56::::2043::::2060::::processInjectMocks::::processIndependentAnnotations	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::46::::1219::::1226::::strategy::::nextStrategy	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1184::::1191::::strategy::::nextStrategy	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1129::::1136::::strategy::::nextStrategy	false
 org.mockito.internal.creation.CglibMockMaker::::41::::1712::::1736::::mock instanceof org.mockito.cglib.proxy.Factory::::!(mock instanceof org.mockito.cglib.proxy.Factory)	false
-org.mockito.internal.configuration.injection.scanner.MockScanner::::62::::1861::::1872::::mockInstance::::instance	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::63::::2348::::2359::::classContext::::clazz	true
+org.mockito.internal.configuration.injection.scanner.MockScanner::::62::::1861::::1872::::mockInstance::::instance	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::63::::2348::::2359::::classContext::::clazz	false
 org.mockito.internal.configuration.InjectingAnnotationEngine::::63::::2333::::2344::::classContext::::clazz	false
-org.mockito.internal.configuration.InjectingAnnotationEngine::::61::::2250::::2261::::classContext::::clazz	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::55::::1965::::1993::::processIndependentAnnotations::::processInjectMocks	true
+org.mockito.internal.configuration.InjectingAnnotationEngine::::61::::2250::::2261::::classContext::::clazz	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::55::::1965::::1993::::processIndependentAnnotations::::processInjectMocks	false
 org.mockito.internal.configuration.InjectingAnnotationEngine::::60::::2228::::2232::::clazz::::classContext	false
-org.mockito.internal.util.Checks::::21::::537::::576::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)::::INSERT::::STATEMENT::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::56::::2043::::2100::::processInjectMocks(testInstance.getClass(), testInstance)::::INSERT::::STATEMENT::::injectMocks(testInstance)	true
-org.mockito.internal.creation.DelegatingMethod::::55::::1452::::1457::::method::::this.method	true
-org.mockito.internal.creation.DelegatingMethod::::55::::1452::::1457::::method::::this	true
-org.mockito.internal.util.Checks::::25::::697::::712::::return iterable::::INSERT::::STATEMENT::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	true
+org.mockito.internal.util.Checks::::21::::537::::576::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)::::INSERT::::STATEMENT::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::56::::2043::::2100::::processInjectMocks(testInstance.getClass(), testInstance)::::INSERT::::STATEMENT::::injectMocks(testInstance)	false
+org.mockito.internal.creation.DelegatingMethod::::55::::1452::::1457::::method::::this.method	false
+org.mockito.internal.creation.DelegatingMethod::::55::::1452::::1457::::method::::this	false
+org.mockito.internal.util.Checks::::25::::697::::712::::return iterable::::INSERT::::STATEMENT::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
 org.mockito.internal.configuration.DefaultAnnotationEngine::::62::::2537::::2579::::java.lang.reflect.Field[] fields = clazz.getDeclaredFields()::::INSERT::::STATEMENT::::throwIfAlreadyAssigned(field, alreadyAssigned)	false
-org.mockito.internal.configuration.InjectingAnnotationEngine::::55::::1965::::2033::::processIndependentAnnotations(testInstance.getClass(), testInstance)::::INSERT::::STATEMENT::::injectMocks(testInstance)	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1119::::nextStrategy::::strategy	true
-org.mockito.internal.util.Checks::::22::::586::::687::::for (java.lang.Object item : iterable) {    org.mockito.internal.util.Checks.checkNotNull(item, ("item in " + checkedIterable));}::::INSERT::::STATEMENT::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1169::::1180::::nextStrategy::::strategy	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::41::::1072::::1083::::nextStrategy::::strategy	true
+org.mockito.internal.configuration.InjectingAnnotationEngine::::55::::1965::::2033::::processIndependentAnnotations(testInstance.getClass(), testInstance)::::INSERT::::STATEMENT::::injectMocks(testInstance)	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1119::::nextStrategy::::strategy	false
+org.mockito.internal.util.Checks::::22::::586::::687::::for (java.lang.Object item : iterable) {    org.mockito.internal.util.Checks.checkNotNull(item, ("item in " + checkedIterable));}::::INSERT::::STATEMENT::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1169::::1180::::nextStrategy::::strategy	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::41::::1072::::1083::::nextStrategy::::strategy	false
 org.mockito.internal.configuration.injection.scanner.MockScanner::::61::::1804::::1842::::preparedMock(fieldReader.read(), field)::::INSERT::::PARAMETER::::preparedMock(mockInstance,fieldReader.read(), field)	false
 org.mockito.internal.configuration.injection.scanner.MockScanner::::61::::1804::::1842::::preparedMock(fieldReader.read(), field)::::INSERT::::PARAMETER::::preparedMock(instance,fieldReader.read(), field)	false
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::46::::1212::::1227::::return strategy::::INSERT::::STATEMENT::::nextStrategy.thenTry(strategy)	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1138::::nextStrategy.thenTry(strategy)::::INSERT::::STATEMENT::::nextStrategy.thenTry(strategy)	true
-org.mockito.internal.util.reflection.FieldReader::::29::::687::::691::::field::::this.field	true
-org.mockito.internal.util.Checks::::22::::605::::612::::iterable::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	true
-org.mockito.internal.util.Checks::::21::::550::::557::::iterable::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::46::::1219::::1226::::strategy::::nextStrategy.thenTry(strategy)	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1184::::1191::::strategy::::nextStrategy.thenTry(strategy)	true
-org.mockito.internal.util.reflection.AccessibilityChanger::::30::::879::::915::::accessibleObject.setAccessible(true)::::DELETE::::STATEMENT	true
-org.mockito.internal.util.Checks::::21::::537::::576::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)::::DELETE::::STATEMENT	true
-org.mockito.internal.configuration.injection.scanner.MockScanner::::47::::1313::::1333::::mocks.addAll(scan())::::DELETE::::STATEMENT	true
-org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::40::::1047::::1081::::mockDependentFields.addAll(scan())::::DELETE::::STATEMENT	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::56::::2043::::2100::::processInjectMocks(testInstance.getClass(), testInstance)::::DELETE::::STATEMENT	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::55::::1965::::2033::::processIndependentAnnotations(testInstance.getClass(), testInstance)::::DELETE::::STATEMENT	true
-org.mockito.internal.configuration.DefaultInjectionEngine::::20::::587::::834::::org.mockito.internal.configuration.injection.MockInjection.onFields(needingInjection, testClassInstance).withMocks(mocks).tryConstructorInjection().tryPropertyOrFieldInjection().handleSpyAnnotation().apply()::::DELETE::::STATEMENT	true
-org.mockito.internal.configuration.DefaultAnnotationEngine::::58::::2388::::2457::::annotationProcessorMap.put(annotationClass, fieldAnnotationProcessor)::::DELETE::::STATEMENT	true
-org.mockito.internal.progress.ThreadSafeMockingProgress::::48::::1478::::1508::::org.mockito.internal.progress.ThreadSafeMockingProgress.threadSafely().validateState()::::DELETE::::STATEMENT	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1129::::1136::::strategy::::nextStrategy.thenTry(strategy)	true
-org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::50::::1326::::1330::::clazz::::this.clazz	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1169::::1192::::nextStrategy = strategy::::INSERT::::STATEMENT::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}	true
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::46::::1212::::1227::::return strategy::::INSERT::::STATEMENT::::nextStrategy.thenTry(strategy)	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1138::::nextStrategy.thenTry(strategy)::::INSERT::::STATEMENT::::nextStrategy.thenTry(strategy)	false
+org.mockito.internal.util.reflection.FieldReader::::29::::687::::691::::field::::this.field	false
+org.mockito.internal.util.Checks::::22::::605::::612::::iterable::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
+org.mockito.internal.util.Checks::::21::::550::::557::::iterable::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::46::::1219::::1226::::strategy::::nextStrategy.thenTry(strategy)	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1184::::1191::::strategy::::nextStrategy.thenTry(strategy)	false
+org.mockito.internal.util.reflection.AccessibilityChanger::::30::::879::::915::::accessibleObject.setAccessible(true)::::DELETE::::STATEMENT	false
+org.mockito.internal.util.Checks::::21::::537::::576::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.injection.scanner.MockScanner::::47::::1313::::1333::::mocks.addAll(scan())::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::40::::1047::::1081::::mockDependentFields.addAll(scan())::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::56::::2043::::2100::::processInjectMocks(testInstance.getClass(), testInstance)::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::55::::1965::::2033::::processIndependentAnnotations(testInstance.getClass(), testInstance)::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.DefaultInjectionEngine::::20::::587::::834::::org.mockito.internal.configuration.injection.MockInjection.onFields(needingInjection, testClassInstance).withMocks(mocks).tryConstructorInjection().tryPropertyOrFieldInjection().handleSpyAnnotation().apply()::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.DefaultAnnotationEngine::::58::::2388::::2457::::annotationProcessorMap.put(annotationClass, fieldAnnotationProcessor)::::DELETE::::STATEMENT	false
+org.mockito.internal.progress.ThreadSafeMockingProgress::::48::::1478::::1508::::org.mockito.internal.progress.ThreadSafeMockingProgress.threadSafely().validateState()::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1129::::1136::::strategy::::nextStrategy.thenTry(strategy)	false
+org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::50::::1326::::1330::::clazz::::this.clazz	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1169::::1192::::nextStrategy = strategy::::INSERT::::STATEMENT::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}	false
 org.mockito.internal.creation.CglibMockMaker::::41::::1711::::1736::::!(mock instanceof org.mockito.cglib.proxy.Factory)::::INSERT::::STATEMENT::::if (!(mock instanceof org.mockito.cglib.proxy.Factory)) {    return null;}	false
-org.mockito.internal.configuration.GlobalConfiguration::::39::::1486::::1491::::config::::defaultConfiguration	true
+org.mockito.internal.configuration.GlobalConfiguration::::39::::1486::::1491::::config::::defaultConfiguration	false
 org.mockito.internal.configuration.GlobalConfiguration::::40::::1516::::1529::::return config::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	false
 org.mockito.internal.creation.CglibMockMaker::::42::::1753::::1764::::return null::::INSERT::::STATEMENT::::if (!(mock instanceof org.mockito.cglib.proxy.Factory)) {    return null;}	false
 org.mockito.internal.creation.CglibMockMaker::::42::::1753::::1764::::return null::::INSERT::::STATEMENT::::if (!(callback instanceof org.mockito.internal.creation.MethodInterceptorFilter)) {    return null;}	false
-org.mockito.internal.configuration.injection.scanner.MockScanner::::57::::1634::::1638::::clazz::::this.clazz	true
-org.mockito.internal.configuration.GlobalConfiguration::::40::::1523::::1528::::config::::defaultConfiguration	true
+org.mockito.internal.configuration.injection.scanner.MockScanner::::57::::1634::::1638::::clazz::::this.clazz	false
+org.mockito.internal.configuration.GlobalConfiguration::::40::::1523::::1528::::config::::defaultConfiguration	false
 org.mockito.internal.creation.CglibMockMaker::::41::::1711::::1736::::!(mock instanceof org.mockito.cglib.proxy.Factory)::::INSERT::::STATEMENT::::if (!(callback instanceof org.mockito.internal.creation.MethodInterceptorFilter)) {    return null;}	false
-org.mockito.internal.util.Checks::::25::::704::::711::::iterable::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	true
+org.mockito.internal.util.Checks::::25::::704::::711::::iterable::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
 org.mockito.internal.configuration.injection.scanner.MockScanner::::59::::1751::::1758::::instance::::mockInstance	false
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1138::::nextStrategy.thenTry(strategy)::::INSERT::::STATEMENT::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::41::::1069::::1202::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}::::INSERT::::STATEMENT::::nextStrategy.thenTry(strategy)	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1169::::1192::::nextStrategy = strategy::::INSERT::::STATEMENT::::nextStrategy.thenTry(strategy)	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::61::::2243::::2386::::while (classContext != (java.lang.Object.class)) {    injectMocks(testInstance);    classContext = classContext.getSuperclass();} ::::INSERT::::STATEMENT::::injectMocks(testInstance)	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1138::::nextStrategy.thenTry(strategy)::::DELETE::::STATEMENT	true
-org.mockito.internal.progress.ThreadSafeMockingProgress::::22::::746::::792::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.set(new org.mockito.internal.progress.MockingProgressImpl())::::DELETE::::STATEMENT	true
-org.mockito.internal.configuration.GlobalConfiguration::::32::::1194::::1234::::org.mockito.internal.configuration.GlobalConfiguration.GLOBAL_CONFIGURATION.set(createConfig())::::DELETE::::STATEMENT	true
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1138::::nextStrategy.thenTry(strategy)::::INSERT::::STATEMENT::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::41::::1069::::1202::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}::::INSERT::::STATEMENT::::nextStrategy.thenTry(strategy)	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1169::::1192::::nextStrategy = strategy::::INSERT::::STATEMENT::::nextStrategy.thenTry(strategy)	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::61::::2243::::2386::::while (classContext != (java.lang.Object.class)) {    injectMocks(testInstance);    classContext = classContext.getSuperclass();} ::::INSERT::::STATEMENT::::injectMocks(testInstance)	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1138::::nextStrategy.thenTry(strategy)::::DELETE::::STATEMENT	false
+org.mockito.internal.progress.ThreadSafeMockingProgress::::22::::746::::792::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.set(new org.mockito.internal.progress.MockingProgressImpl())::::DELETE::::STATEMENT	false
+org.mockito.internal.configuration.GlobalConfiguration::::32::::1194::::1234::::org.mockito.internal.configuration.GlobalConfiguration.GLOBAL_CONFIGURATION.set(createConfig())::::DELETE::::STATEMENT	false
 org.mockito.internal.creation.CglibMockMaker::::41::::1707::::1774::::if (!(mock instanceof org.mockito.cglib.proxy.Factory)) {    return null;}::::INSERT::::STATEMENT::::if (!(mock instanceof org.mockito.cglib.proxy.Factory)) {    return null;}	false
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::46::::1212::::1227::::return strategy::::INSERT::::STATEMENT::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}	true
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::41::::1069::::1202::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}::::INSERT::::STATEMENT::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}	true
-org.mockito.internal.util.Checks::::14::::291::::401::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}::::INSERT::::STATEMENT::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}	true
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::46::::1212::::1227::::return strategy::::INSERT::::STATEMENT::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}	false
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::41::::1069::::1202::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}::::INSERT::::STATEMENT::::if ((nextStrategy) != null) {    nextStrategy.thenTry(strategy);}else {    nextStrategy = strategy;}	false
+org.mockito.internal.util.Checks::::14::::291::::401::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}::::INSERT::::STATEMENT::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}	false
 org.mockito.internal.configuration.GlobalConfiguration::::39::::1482::::1597::::if (config != null) {    return config;}else {    return defaultConfiguration;}::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	false
 org.mockito.internal.configuration.GlobalConfiguration::::38::::1400::::1472::::org.mockito.configuration.IMockitoConfiguration config = new org.mockito.internal.configuration.ClassPathLoader().loadConfiguration()::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	false
 org.mockito.internal.configuration.GlobalConfiguration::::37::::1312::::1390::::org.mockito.configuration.IMockitoConfiguration defaultConfiguration = new org.mockito.configuration.DefaultMockitoConfiguration()::::INSERT::::STATEMENT::::if (config != null) {    return config;}else {    return defaultConfiguration;}	false
-org.mockito.internal.util.Checks::::17::::411::::423::::return value::::INSERT::::STATEMENT::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}	true
+org.mockito.internal.util.Checks::::17::::411::::423::::return value::::INSERT::::STATEMENT::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}	false
 org.mockito.internal.configuration.injection.MockInjectionStrategy::::44::::1169::::1180::::nextStrategy::::nextStrategy.thenTry(strategy)	false
 org.mockito.internal.configuration.SpyAnnotationEngine::::49::::1655::::1699::::!(field.isAnnotationPresent(org.mockito.internal.configuration.InjectMocks.class))::::DELETE::::INFIX	false
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1119::::nextStrategy::::nextStrategy.thenTry(strategy)	true
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::42::::1108::::1119::::nextStrategy::::nextStrategy.thenTry(strategy)	false
 org.mockito.internal.creation.CglibMockMaker::::41::::1707::::1774::::if (!(mock instanceof org.mockito.cglib.proxy.Factory)) {    return null;}::::INSERT::::STATEMENT::::if (!(callback instanceof org.mockito.internal.creation.MethodInterceptorFilter)) {    return null;}	false
 org.mockito.internal.configuration.DefaultAnnotationEngine::::63::::2589::::3370::::for (java.lang.reflect.Field field : fields) {    boolean alreadyAssigned = false;    for (java.lang.annotation.Annotation annotation : field.getAnnotations()) {        java.lang.Object mock = createMockFor(annotation, field);        if (mock != null) {            throwIfAlreadyAssigned(field, alreadyAssigned);            alreadyAssigned = true;            try {                new org.mockito.internal.util.reflection.FieldSetter(testInstance, field).set(mock);            } catch (java.lang.Exception e) {                throw new org.mockito.exceptions.base.MockitoException(((("Problems setting field " + (field.getName())) + " annotated with ") + annotation), e);            }        }    }}::::INSERT::::STATEMENT::::throwIfAlreadyAssigned(field, alreadyAssigned)	false
-org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::40::::1047::::1065::::mockDependentFields::::scan()	true
-org.mockito.internal.configuration.InjectingAnnotationEngine::::60::::2204::::2233::::java.lang.Class<?> classContext = clazz::::INSERT::::STATEMENT::::injectMocks(testInstance)	true
-org.mockito.internal.configuration.injection.scanner.MockScanner::::47::::1313::::1317::::mocks::::scan()	true
+org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::40::::1047::::1065::::mockDependentFields::::scan()	false
+org.mockito.internal.configuration.InjectingAnnotationEngine::::60::::2204::::2233::::java.lang.Class<?> classContext = clazz::::INSERT::::STATEMENT::::injectMocks(testInstance)	false
+org.mockito.internal.configuration.injection.scanner.MockScanner::::47::::1313::::1317::::mocks::::scan()	false
 org.mockito.internal.configuration.injection.scanner.InjectMocksScanner::::52::::1414::::1451::::field.getAnnotation(org.mockito.InjectMocks.class)::::DELETE::::INFIX	false
 org.mockito.internal.configuration.SpyAnnotationEngine::::49::::1615::::1650::::field.isAnnotationPresent(org.mockito.internal.configuration.Spy.class)::::DELETE::::INFIX	false
 org.mockito.internal.progress.ThreadSafeMockingProgress::::21::::701::::721::::org.mockito.internal.progress.ThreadSafeMockingProgress.mockingProgress.get()::::DELETE::::INFIX	false
-org.mockito.internal.configuration.injection.MockInjectionStrategy::::41::::1072::::1083::::nextStrategy::::nextStrategy.thenTry(strategy)	true
-org.mockito.internal.configuration.injection.scanner.MockScanner::::62::::1861::::1872::::mockInstance::::this.instance	true
-org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::38::::1203::::1216::::backingHashSet::::new java.util.HashSet<org.mockito.internal.util.collections.HashCodeAndEqualsMockWrapper>()	true
+org.mockito.internal.configuration.injection.MockInjectionStrategy::::41::::1072::::1083::::nextStrategy::::nextStrategy.thenTry(strategy)	false
+org.mockito.internal.configuration.injection.scanner.MockScanner::::62::::1861::::1872::::mockInstance::::this.instance	false
+org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::38::::1203::::1216::::backingHashSet::::new java.util.HashSet<org.mockito.internal.util.collections.HashCodeAndEqualsMockWrapper>()	false
 org.mockito.internal.configuration.injection.scanner.MockScanner::::61::::1804::::1842::::preparedMock(fieldReader.read(), field)::::INSERT::::PARAMETER::::preparedMock(this.instance,fieldReader.read(), field)	false
 org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet::::38::::1203::::1216::::backingHashSet::::new org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet()	false
 org.mockito.internal.configuration.GlobalConfiguration::::31::::1144::::1169::::org.mockito.internal.configuration.GlobalConfiguration.GLOBAL_CONFIGURATION.get()::::DELETE::::INFIX	false
