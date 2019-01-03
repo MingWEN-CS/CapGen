@@ -1,45 +1,45 @@
-org.mockito.internal.stubbing.answers.MethodInfo::::22::::599::::611::::theInvocation::::this	true
-org.mockito.internal.stubbing.answers.AnswersValidator::::21::::656::::680::::answer instanceof org.mockito.internal.stubbing.answers.Returns::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException	true
+org.mockito.internal.stubbing.answers.MethodInfo::::22::::599::::611::::theInvocation::::this	false
+org.mockito.internal.stubbing.answers.AnswersValidator::::21::::656::::680::::answer instanceof org.mockito.internal.stubbing.answers.Returns::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException	false
 org.mockito.internal.invocation.ArgumentsComparator::::18::::640::::651::::varArgsMatch::::argumentsMatch	false
 org.mockito.internal.invocation.ArgumentsComparator::::18::::591::::635::::argumentsMatch(invocationMatcher, actualArgs)::::argumentsMatch(invocationMatcher,actual)	false
 org.mockito.internal.invocation.ArgumentsComparator::::18::::591::::604::::argumentsMatch::::varArgsMatch	false
-org.mockito.internal.stubbing.answers.AnswersValidator::::17::::519::::551::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException::::answer instanceof org.mockito.internal.stubbing.answers.Returns	true
-org.mockito.internal.stubbing.answers.AnswersValidator::::21::::656::::680::::answer instanceof org.mockito.internal.stubbing.answers.Returns::::answer instanceof org.mockito.internal.stubbing.answers.DoesNothing	true
+org.mockito.internal.stubbing.answers.AnswersValidator::::17::::519::::551::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException::::answer instanceof org.mockito.internal.stubbing.answers.Returns	false
+org.mockito.internal.stubbing.answers.AnswersValidator::::21::::656::::680::::answer instanceof org.mockito.internal.stubbing.answers.Returns::::answer instanceof org.mockito.internal.stubbing.answers.DoesNothing	false
 org.mockito.internal.creation.cglib.CGLIBHacker::::18::::525::::539::::createInfoField::::namingPolicyField	false
 org.mockito.internal.creation.cglib.CGLIBHacker::::17::::456::::470::::createInfoField::::namingPolicyField	false
 org.mockito.internal.invocation.ArgumentsComparator::::22::::794::::852::::actualArgs.length) != (invocationMatcher.getMatchers().size()::::int	false
-org.mockito.internal.stubbing.answers.AnswersValidator::::17::::519::::551::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException::::answer instanceof org.mockito.internal.stubbing.answers.DoesNothing	true
+org.mockito.internal.stubbing.answers.AnswersValidator::::17::::519::::551::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException::::answer instanceof org.mockito.internal.stubbing.answers.DoesNothing	false
 org.mockito.internal.configuration.plugins.Plugins::::17::::473::::500::::getStackTraceCleanerProvider::::getMockMaker	false
 org.mockito.internal.invocation.ArgumentsComparator::::18::::591::::678::::argumentsMatch(invocationMatcher, actualArgs)) || (varArgsMatch(invocationMatcher, actual)::::int	false
-org.mockito.internal.handler.MockHandlerFactory::::18::::631::::648::::nullResultGuardian::::handler	true
+org.mockito.internal.handler.MockHandlerFactory::::18::::631::::648::::nullResultGuardian::::handler	false
 org.mockito.internal.handler.MockHandlerFactory::::17::::552::::558::::handler::::nullResultGuardian	false
-org.mockito.internal.stubbing.answers.AnswersValidator::::21::::656::::680::::answer instanceof org.mockito.internal.stubbing.answers.Returns::::answer instanceof org.mockito.internal.stubbing.answers.CallsRealMethods	true
+org.mockito.internal.stubbing.answers.AnswersValidator::::21::::656::::680::::answer instanceof org.mockito.internal.stubbing.answers.Returns::::answer instanceof org.mockito.internal.stubbing.answers.CallsRealMethods	false
 org.mockito.internal.creation.cglib.CGLIBHacker::::20::::665::::681::::namingPolicyField::::createInfoField	false
-org.mockito.internal.stubbing.answers.AnswersValidator::::17::::519::::551::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException::::answer instanceof org.mockito.internal.stubbing.answers.CallsRealMethods	true
-org.mockito.internal.handler.MockHandlerFactory::::20::::678::::685::::notifier::::nullResultGuardian	true
-org.mockito.internal.handler.MockHandlerFactory::::20::::678::::685::::notifier::::handler	true
+org.mockito.internal.stubbing.answers.AnswersValidator::::17::::519::::551::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException::::answer instanceof org.mockito.internal.stubbing.answers.CallsRealMethods	false
+org.mockito.internal.handler.MockHandlerFactory::::20::::678::::685::::notifier::::nullResultGuardian	false
+org.mockito.internal.handler.MockHandlerFactory::::20::::678::::685::::notifier::::handler	false
 org.mockito.internal.creation.cglib.CGLIBHacker::::21::::720::::736::::namingPolicyField::::createInfoField	false
 org.mockito.internal.handler.MockHandlerFactory::::17::::552::::558::::handler::::notifier	false
 org.mockito.internal.invocation.ArgumentsComparator::::22::::794::::810::::actualArgs.length::::i	false
 org.mockito.internal.handler.MockHandlerFactory::::18::::631::::648::::nullResultGuardian::::notifier	false
 org.mockito.internal.creation.cglib.CGLIBHacker::::17::::456::::470::::createInfoField::::reflectOnCreateInfo(methodProxy)	false
-org.mockito.internal.stubbing.answers.AnswersValidator::::21::::656::::680::::answer instanceof org.mockito.internal.stubbing.answers.Returns::::answer instanceof org.mockito.internal.stubbing.answers.ReturnsArgumentAt	true
+org.mockito.internal.stubbing.answers.AnswersValidator::::21::::656::::680::::answer instanceof org.mockito.internal.stubbing.answers.Returns::::answer instanceof org.mockito.internal.stubbing.answers.ReturnsArgumentAt	false
 org.mockito.internal.creation.cglib.CGLIBHacker::::18::::525::::539::::createInfoField::::reflectOnCreateInfo(methodProxy)	false
 org.mockito.internal.invocation.ArgumentsComparator::::22::::794::::810::::actualArgs.length::::i++	false
-org.mockito.internal.stubbing.answers.AnswersValidator::::17::::519::::551::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException::::answer instanceof org.mockito.internal.stubbing.answers.ReturnsArgumentAt	true
-org.mockito.internal.util.Checks::::21::::537::::576::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)::::INSERT::::STATEMENT::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	true
+org.mockito.internal.stubbing.answers.AnswersValidator::::17::::519::::551::::answer instanceof org.mockito.internal.stubbing.answers.ThrowsException::::answer instanceof org.mockito.internal.stubbing.answers.ReturnsArgumentAt	false
+org.mockito.internal.util.Checks::::21::::537::::576::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)::::INSERT::::STATEMENT::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
 org.mockito.internal.creation.cglib.CGLIBHacker::::20::::665::::681::::namingPolicyField::::reflectOnCreateInfo(methodProxy)	false
 org.mockito.internal.creation.cglib.CGLIBHacker::::21::::720::::736::::namingPolicyField::::reflectOnCreateInfo(methodProxy)	false
-org.mockito.internal.stubbing.BaseStubbing::::18::::736::::773::::return thenAnswer(new org.mockito.internal.stubbing.answers.Returns(value))::::INSERT::::STATEMENT::::thenThrow(((java.lang.Throwable) (null)))	true
+org.mockito.internal.stubbing.BaseStubbing::::18::::736::::773::::return thenAnswer(new org.mockito.internal.stubbing.answers.Returns(value))::::INSERT::::STATEMENT::::thenThrow(((java.lang.Throwable) (null)))	false
 org.mockito.internal.util.MockNameImpl::::21::::626::::649::::this.defaultName = true::::INSERT::::STATEMENT::::if (mockName == null) {    this.mockName = org.mockito.internal.util.MockNameImpl.toInstanceName(classToMock);    this.defaultName = true;}else {    this.mockName = mockName;}	false
 org.mockito.internal.util.MockNameImpl::::20::::569::::612::::this.mockName = org.mockito.internal.util.MockNameImpl.toInstanceName(classToMock)::::INSERT::::STATEMENT::::if (mockName == null) {    this.mockName = org.mockito.internal.util.MockNameImpl.toInstanceName(classToMock);    this.defaultName = true;}else {    this.mockName = mockName;}	false
 org.mockito.internal.util.MockNameImpl::::20::::569::::612::::this.mockName = org.mockito.internal.util.MockNameImpl.toInstanceName(classToMock)::::this.mockName = mockName	false
-org.mockito.internal.configuration.DefaultInjectionEngine::::20::::587::::834::::org.mockito.internal.configuration.injection.MockInjection.onFields(needingInjection, testClassInstance).withMocks(mocks).tryConstructorInjection().tryPropertyOrFieldInjection().handleSpyAnnotation().apply()::::DELETE::::STATEMENT	true
-org.mockito.internal.util.Checks::::21::::537::::576::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)::::DELETE::::STATEMENT	true
-org.mockito.internal.util.Checks::::21::::550::::557::::iterable::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	true
-org.mockito.internal.util.Checks::::14::::291::::401::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}::::INSERT::::STATEMENT::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}	true
+org.mockito.internal.configuration.DefaultInjectionEngine::::20::::587::::834::::org.mockito.internal.configuration.injection.MockInjection.onFields(needingInjection, testClassInstance).withMocks(mocks).tryConstructorInjection().tryPropertyOrFieldInjection().handleSpyAnnotation().apply()::::DELETE::::STATEMENT	false
+org.mockito.internal.util.Checks::::21::::537::::576::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)::::DELETE::::STATEMENT	false
+org.mockito.internal.util.Checks::::21::::550::::557::::iterable::::org.mockito.internal.util.Checks.checkNotNull(iterable, checkedIterable)	false
+org.mockito.internal.util.Checks::::14::::291::::401::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}::::INSERT::::STATEMENT::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}	false
 org.mockito.internal.stubbing.answers.AnswersValidator::::17::::515::::633::::if (answer instanceof org.mockito.internal.stubbing.answers.ThrowsException) {    validateException(((org.mockito.internal.stubbing.answers.ThrowsException) (answer)), methodInfo);}::::INSERT::::STATEMENT::::validateReturnArgIdentity(returnsArgumentAt, invocation)	false
-org.mockito.internal.util.Checks::::17::::411::::423::::return value::::INSERT::::STATEMENT::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}	true
+org.mockito.internal.util.Checks::::17::::411::::423::::return value::::INSERT::::STATEMENT::::if (value == null) {    throw new java.lang.NullPointerException((checkedValue + " should not be null"));}	false
 org.mockito.internal.invocation.ArgumentsComparator::::18::::640::::678::::varArgsMatch(invocationMatcher, actual)::::DELETE::::INFIX	false
 org.mockito.internal.invocation.ArgumentsComparator::::18::::591::::635::::argumentsMatch(invocationMatcher, actualArgs)::::DELETE::::INFIX	false
 org.mockito.internal.invocation.ArgumentsComparator::::22::::815::::852::::invocationMatcher.getMatchers().size()::::DELETE::::INFIX	false
